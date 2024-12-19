@@ -2,6 +2,10 @@
 // @ts-expect-error  This is a temporary workaround for a known issue.
 import  MarkdownIt from 'markdown-it';
 import  hljs from 'highlight.js'; // 引入 highlight.js
+
+// @ts-expect-error  This is a temporary workaround for a known issue.
+import { full as emoji } from 'markdown-it-emoji'
+
 export const md2html = (mdContent: string) => {
 const md = new MarkdownIt({
     highlight: (code:string, language:string) => {
@@ -16,7 +20,7 @@ const md = new MarkdownIt({
       // 如果没有指定语言或语言不支持，默认处理
       return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
     },
-  });
+  }).use(emoji);;
 
   return md.render(mdContent);
 };
