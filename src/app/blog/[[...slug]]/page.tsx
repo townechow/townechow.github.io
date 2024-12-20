@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import "./index.css";
-import { md2html } from "@/utiles";
+import { md2html, getMdFileContentByPath } from "@/utiles";
 
 const POST_Dir = path.join(process.cwd(), "public/blog");
 export async function generateStaticParams() {
@@ -26,7 +26,7 @@ export async function generateStaticParams() {
   }
 
   const allFiles = getAllFiles(postsDir);
-  console.log("allFiles", allFiles);
+  // console.log("allFiles", allFiles);
 
   // 转换文件路径为路由参数
   const paths = allFiles.map((filePath) => {
@@ -46,23 +46,21 @@ export default async function BlogPage({
 }) {
   const { slug } = await params;
 
-  // 根据 slug 组装文件路径
-  const filePath = path.join(POST_Dir, `${slug.join("/")}.md`);
+  const filePath = path.join(POST_Dir, ...(slug?.map(p => decodeURIComponent(p))) || ["/"]);
 
-  if (!fs.existsSync(filePath)) {
-    notFound(); // 返回 404 页面
-  }
-
+  console.log("filePath", filePath)
   // 读取 Markdown 文件内容
-  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const fileContent = getMdFileContentByPath(filePath);
+  if(!fileContent){
+    return notFound()
+  }
   const { content, data } = matter(fileContent); // 解析内容和元数据
   const contentHtml = md2html(content);
 
   return (
-    <div>
-      <h1>{data.title || slug.join("/")}</h1>
+    <div className="markdown-body">
+      <h1>{data.title}</h1>
       <article
-        className="markdown-body"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
     </div>
