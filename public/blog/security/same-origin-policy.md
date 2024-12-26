@@ -246,3 +246,5 @@ GET/POST/HEAD这种简单请求不会受这种影响,`put`、`delete`属于复�
 
 fetch('http://www.dev1.com/api',{method:'POST',mode:'no-cors'}) 这种加上no-cors，会显示请求成功了，但是拿不到数据，这种请求属于透明请求。
 
+![dog](../dog.jpg)
+![penguin](./penguin.jpg)

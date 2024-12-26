@@ -37,3 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 Hello from mars :satellite:
+
+![dog](./dog.jpg)
+![penguin](./security/penguin.jpg)
+

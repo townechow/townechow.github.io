@@ -3,9 +3,10 @@ import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import "./index.css";
-import { md2html, getMdFileContentByPath } from "@/utiles";
+import { md2html, getMdFileContentByPath, getMdFileFullPathByUri } from "@/utiles";
 
 const POST_Dir = path.join(process.cwd(), "public/blog");
+const MdFileRootFold = "public/blog"
 export async function generateStaticParams() {
   const postsDir = path.join(POST_Dir);
 
@@ -44,18 +45,23 @@ export default async function BlogPage({
 }: {
   params: Promise<{ slug: string[] }>;
 }) {
+
+  // slug: [], [/], [/post1]
   const { slug } = await params;
 
-  const filePath = path.join(POST_Dir, ...(slug?.map(p => decodeURIComponent(p))) || ["/"]);
+  // filePath, foldPath 
+
+  const uri = path.join(...(slug?.map(p => decodeURIComponent(p))) || ["/"]);
+  const filePath = getMdFileFullPathByUri(uri, MdFileRootFold)
 
   console.log("filePath", filePath)
-  // 读取 Markdown 文件内容
-  const fileContent = getMdFileContentByPath(filePath);
-  if(!fileContent){
+  if (!filePath) {
     return notFound()
   }
+  // 读取 Markdown 文件内容
+  const fileContent = getMdFileContentByPath(filePath);
   const { content, data } = matter(fileContent); // 解析内容和元数据
-  const contentHtml = md2html(content);
+  const contentHtml = md2html(content, filePath);
 
   return (
     <div className="markdown-body">
