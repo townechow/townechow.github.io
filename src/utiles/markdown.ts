@@ -23,17 +23,18 @@ export const md2html = (mdContent: string, filePath: string) => {
       // 如果没有指定语言或语言不支持，默认处理
       return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
     },
-  }).use(emoji).use((mdInstance: any) => imgPlug(mdInstance, filePath))
+    // @ts-expect-error no type
+  }).use(emoji).use((mdInstance) => imgPlug(mdInstance, filePath))
 
   return md.render(mdContent);
 };
 
-const imgPlug = (mdInstance: any, filePath: string) => {
-  // @ts-ignore 
+const imgPlug = (mdInstance: object, filePath: string) => {
+  // @ts-expect-error no type
   const defaultRender = mdInstance.renderer.rules.image || function (tokens, idx, options, env, self) {
     return self.renderToken(tokens, idx, options);
   };
-  // @ts-ignore 
+  // @ts-expect-error no type
   mdInstance.renderer.rules.image = function (tokens, idx, options, env, self) {
     // 获取原始 token 和 src
     const token = tokens[idx];
@@ -45,7 +46,7 @@ const imgPlug = (mdInstance: any, filePath: string) => {
       // nextjs public/ 下的资源在构建后会上移一级到跟根目录，所以 public/ 前缀要一并移除；
       const resourcesRelativePath = path.relative(path.join(process.cwd(), 'public/'), filePath);
       const folderPath = path.dirname(resourcesRelativePath);
-      const src = path.join("/",folderPath, originalSrc);
+      const src = path.join("/", folderPath, originalSrc);
       token.attrs[srcIndex][1] = src
     }
 
@@ -54,12 +55,13 @@ const imgPlug = (mdInstance: any, filePath: string) => {
   };
 }
 
-export const getMdFileFullPathByUri = (uri: string, rootFold: string) => {
-  const filePath = path.join(process.cwd(), rootFold, uri);
+export const getMdFileFullPathByUri = (uri: string, dirPath: string) => {
+  const filePath = path.join(dirPath, uri);
   const filePathFix = `${filePath}.md`
-  if (fs.existsSync(filePathFix)) {
+  if (fs.existsSync(filePathFix)) { // uri 完全匹配文件
     return filePathFix
   } else if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    // uri 直接对应的path是文件夹，尝试作为indexpage
     const potentialFiles = [
       path.join(filePath, 'index.md'),
       path.join(filePath, 'readme.md'),
@@ -79,4 +81,19 @@ export const getMdFileContentByPath = (filePath: string) => {
     return fileContent
   }
   return ''
+}
+
+export const getAllMdFile = (dirPath: string, fileArray: string[] = []) => {
+  const files = fs.readdirSync(dirPath);
+
+  files.forEach((file) => {
+    const filePath = path.join(dirPath, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      getAllMdFile(filePath, fileArray); // 递归查找
+    } else if (file.endsWith(".md")) {
+      fileArray.push(filePath);
+    }
+  });
+
+  return fileArray;
 }

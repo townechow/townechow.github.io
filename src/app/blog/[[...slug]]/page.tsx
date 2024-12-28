@@ -1,33 +1,18 @@
-import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
-import "./index.css";
-import { md2html, getMdFileContentByPath, getMdFileFullPathByUri } from "@/utiles";
+import { md2html, getMdFileContentByPath, getMdFileFullPathByUri,getAllMdFile } from "@/utiles";
 
-const POST_Dir = path.join(process.cwd(), "public/blog");
-const MdFileRootFold = "public/blog"
+const CONTENT_DIR = "/public/blog"
+const CONTENT_PATH = path.join(process.cwd(), CONTENT_DIR);
+
+
 export async function generateStaticParams() {
-  const postsDir = path.join(POST_Dir);
+  const postsDir = path.join(CONTENT_PATH);
 
   // 递归获取所有 Markdown 文件路径
-  function getAllFiles(dirPath: string, fileArray: string[] = []) {
-    const files = fs.readdirSync(dirPath);
-
-    files.forEach((file) => {
-      const filePath = path.join(dirPath, file);
-      if (fs.statSync(filePath).isDirectory()) {
-        getAllFiles(filePath, fileArray); // 递归查找
-      } else if (file.endsWith(".md")) {
-        fileArray.push(filePath);
-      }
-    });
-
-    return fileArray;
-  }
-
-  const allFiles = getAllFiles(postsDir);
-  // console.log("allFiles", allFiles);
+  const allFiles = getAllMdFile(postsDir);
+  console.log("allFiles", allFiles);
 
   // 转换文件路径为路由参数
   const paths = allFiles.map((filePath) => {
@@ -50,9 +35,8 @@ export default async function BlogPage({
   const { slug } = await params;
 
   // filePath, foldPath 
-
   const uri = path.join(...(slug?.map(p => decodeURIComponent(p))) || ["/"]);
-  const filePath = getMdFileFullPathByUri(uri, MdFileRootFold)
+  const filePath = getMdFileFullPathByUri(uri, CONTENT_PATH)
 
   console.log("filePath", filePath)
   if (!filePath) {
@@ -66,6 +50,7 @@ export default async function BlogPage({
   return (
     <div className="markdown-body">
       <h1>{data.title}</h1>
+      
       <article
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
