@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the code
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.SSH_DEPLOY_KEY }}
+          submodules: true  # 如果需要子模块
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'  # 可以根据需要修改 Node.js 版本
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+        
+      # Build & Export static files
+      - name: Build Next.js project
+        run: npm run build
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # 目标分支
+          folder: out       # 输出目录, Next.js 默认输出目录为 out
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的自动生成的 token
