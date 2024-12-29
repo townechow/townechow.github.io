@@ -1,0 +1,222 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/196f2aef4ed07c5f.css","style"]
+0:{"P":null,"b":"1DCeR2HZMqiZl_Q7l95CR","p":"","c":["","blog","security","same-origin-policy"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","security/same-origin-policy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["blog",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/196f2aef4ed07c5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","security/same-origin-policy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","s-3BilaQ18LzbNqaTOIFz",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3430,<h2>3.2 同源策略</h2>
+<h3>3.2.1 定义</h3>
+<ul>
+<li>禁止一个源（origin）的脚本&amp;文档和另一个源的脚本&amp;文档交互
+<ul>
+<li>两个URL的protocol，port和host相同，那么同源</li>
+<li>思考：如果两个源产生过多交换有什么问题？</li>
+</ul>
+</li>
+</ul>
+<p><img src="/blog/imgs/someorigin.png" alt=""></p>
+<p>思考：</p>
+<ul>
+<li>为什么不禁用不同源的js？</li>
+</ul>
+<p>因为有时候需要把js放到cdn上，那么可能就不同源了，所以行不通。</p>
+<ul>
+<li>应不应该允许不同源的js修改dom？</li>
+</ul>
+<p>允许</p>
+<ul>
+<li>应不应该允许网站提交数据到不同源的的服务器？</li>
+</ul>
+<p>不允许</p>
+<ul>
+<li>应不应该允许网站提交cookie到不同源的服务器？</li>
+</ul>
+<p>不允许</p>
+<h3>3.2.2 跨域的N种方法</h3>
+<h4>1.JSONP</h4>
+<ul>
+<li>利用不限制跨越脚本执行的特点</li>
+</ul>
+<pre class="hljs"><code class="language-js"> <span class="hljs-comment">// 服务端数据（data.js）</span>
+ <span class="hljs-title function_">jsonp</span>(<span class="hljs-string">&quot;example&quot;</span>,{
+    <span class="hljs-attr">a</span>:<span class="hljs-number">1</span>,
+    <span class="hljs-attr">b</span>:<span class="hljs-number">2</span>
+ })
+
+ <span class="hljs-comment">// index.html</span>
+ <span class="hljs-keyword">function</span> <span class="hljs-title function_">jsonp</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(topic,data)
+ }
+ <span class="hljs-comment">// 加载跨域数据脚本</span>
+ <span class="hljs-keyword">var</span> script = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;script&#x27;</span>)
+ script.<span class="hljs-title function_">setAttribute</span>(<span class="hljs-string">&#x27;src&#x27;</span>,<span class="hljs-string">&#x27;data.js&#x27;</span>)
+ <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementdByTagName</span>(<span class="hljs-string">&#x27;head&#x27;</span>)[<span class="hljs-number">0</span>].<span class="hljs-title function_">appendChild</span>(script)
+</code></pre>
+<p>思考</p>
+<ul>
+<li>jsonp可以用来提交数据吗？</li>
+</ul>
+<p>可以在url上，但只能get请求；服务端可以通过判断返回不同的脚本</p>
+<ul>
+<li>尝试为fetch函数扩展jsonp功能</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-title function_">fetch</span>(&lt;jsonp-url&gt;,{<span class="hljs-attr">method</span>: <span class="hljs-string">&#x27;jsonp&#x27;</span>})
+      .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">data</span>=&gt;</span>{
+         <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(data)
+      })
+</code></pre>
+<h4>2. 跨域资源共用 &lt;Badge text=&quot;重要&quot; type=&quot;tip&quot;/&gt;</h4>
+<ul>
+<li>跨域资源共用（Cross-Origin Resource Sharing）使用额外HTTP头允许指定的源和另一个源进行交互
+服务端设置 Access-control-Allow-Origin:https://a.com</li>
+</ul>
+<p><img src="/blog/imgs/corss.png" alt=""></p>
+<p>get、post我们称之为简单请求，简单请求在同源策略中会简单的处理,如果b.com返回了这个头<code>Access-control-Allow-Origin:https://a.com</code>，那么我们认为
+这个请求是可以通过的。</p>
+<p>预检</p>
+<p>但是还有复杂一点的请求，我们需要先发OPTIONS请求，a.com想请求b.com它需要发一个自定义的Headers：X-ABC和content-type，这个时候就不是简单请求了，
+a.com要给b.com 发一个options请求，它其实在问b.com我用post行不行，还想在Headers中带X-ABC和content-type；并不是所有的headers都发这个OPTIONS请求，因为X-ABC是自定义的，所以需要发；b.com看到OPTIONS请求，先不会返回数据，先检查自己的策略，看看能不能支持这次请求，如果支持就返回200。</p>
+<p>OPTIONS请求返回以下报文</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">HTTP</span>/<span class="hljs-number">2.0</span> <span class="hljs-number">20</span> <span class="hljs-variable constant_">OK</span>
+<span class="hljs-title class_">Access</span>-<span class="hljs-title class_">Control</span>-<span class="hljs-title class_">Allow</span>-<span class="hljs-title class_">Origin</span>:<span class="hljs-attr">https</span>:<span class="hljs-comment">//a.com</span>
+<span class="hljs-title class_">Access</span>-<span class="hljs-title class_">Control</span>-<span class="hljs-title class_">Allow</span>-<span class="hljs-title class_">Methods</span>:<span class="hljs-variable constant_">POST</span>,<span class="hljs-variable constant_">GET</span>,<span class="hljs-variable constant_">OPTIONS</span>
+<span class="hljs-title class_">Access</span>-<span class="hljs-title class_">Control</span>-<span class="hljs-title class_">Allow</span>-<span class="hljs-title class_">Headers</span>:X-<span class="hljs-variable constant_">ABC</span>,<span class="hljs-title class_">Content</span>-<span class="hljs-title class_">Type</span>
+     <span class="hljs-title class_">Access</span>-<span class="hljs-title class_">Control</span>-<span class="hljs-title class_">Max</span>-<span class="hljs-title class_">Age</span>:<span class="hljs-number">86400</span> <span class="hljs-comment">// 告诉浏览器这个策略生效时间为一个小时，在一个小时之内发送类似的请求，不用在问服务端了，相当于缓存了</span>
+</code></pre>
+<p>浏览器收到了OPTIONS的返回，会在发一次，这一次才是真正的请求数据，这次headers会带上X-ABC、contentType。</p>
+<p>整体的过程cors将请求分为2种，简单请求和复杂请求，需不需要发送OPTIONS浏览器说的算，浏览器判断是简单请求还是复杂请求，cors是非常广泛的跨域手段
+这里的缺点是OPTIONS请求也是一次请求，消耗带宽，真正的请求也会延迟。</p>
+<h4>3.反向代理 &lt;Badge text=&quot;重要&quot; type=&quot;tip&quot;/&gt;</h4>
+<p><img src="/blog/imgs/proxy.png" alt=""></p>
+<p>因为跨越是浏览器的限制，所以可以用同源的服务器去代理请求，代理服务使链路变的更长。</p>
+<h3>3.2.3 实战-CORS（fetch+node.js）</h3>
+<ul>
+<li>观察node.js在服务端的实现CORS跨域</li>
+<li>观察浏览器器fetch的使用方法</li>
+<li>观察OPTIONS预检请求</li>
+</ul>
+<p>项目地址：/examples/computerNetwork/3.2</p>
+<ol>
+<li>用express起2个服务</li>
+</ol>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;express&#x27;</span>);
+<span class="hljs-keyword">const</span> app1 = <span class="hljs-title function_">express</span>();
+
+app1.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;/&#x27;</span>,<span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>){
+    res.<span class="hljs-title function_">send</span>(<span class="hljs-string">&#x27;hello&#x27;</span>)
+})
+
+app1.<span class="hljs-title function_">listen</span>(<span class="hljs-number">3000</span>)
+
+<span class="hljs-keyword">const</span> app2 = <span class="hljs-title function_">express</span>()
+app2.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;/api&#x27;</span>,<span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>){
+    res.<span class="hljs-title function_">send</span>(<span class="hljs-string">&#x27;go&#x27;</span>)
+})
+
+app2.<span class="hljs-title function_">post</span>(<span class="hljs-string">&#x27;/api&#x27;</span>,<span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>){
+    res.<span class="hljs-title function_">send</span>(<span class="hljs-string">&#x27;go&#x27;</span>)
+})
+app2.<span class="hljs-title function_">listen</span>(<span class="hljs-number">3001</span>)
+</code></pre>
+<p>启动node服务 nodeman cors.js</p>
+<ol start="2">
+<li>用<code>whislte</code>做代理</li>
+</ol>
+<pre class="hljs"><code class="language-bash">    npm i whistle -g <span class="hljs-comment"># 下载，mac电脑：sudo npm i whistle -g </span>
+    whistle start <span class="hljs-comment"># 启动</span>
+    http://localhost:8899/ <span class="hljs-comment"># 浏览器查看</span>
+    SwitchOmega <span class="hljs-comment"># 谷歌代理插件，可以配置127.0.0.1:8899的服务上</span>
+</code></pre>
+<p>配置whislte进行代理的域名</p>
+<p><img src="/blog/imgs/whistle.png" alt=""></p>
+<p>谷歌代理插件SwitchOmega，配置代理服务器127.0.0.1:8899的服务</p>
+<p><img src="/blog/imgs/switchOmega.png" alt=""></p>
+<p>SwitchOmega 选择 proxy进行代理</p>
+<p><img src="/blog/imgs/webresquest.png" alt=""></p>
+<ol start="3">
+<li>在<code>dev.com</code>网站上请求<code>dev1.com/api</code></li>
+</ol>
+<p>从上面看到在<code>dev.com</code>网站上请求<code>dev1.com/api</code>有跨域的报错信息，告诉我们可以用CORS加请求头,以下是解决方法。</p>
+<pre class="hljs"><code class="language-diff">const express = require(&#x27;express&#x27;);
+const app1 = express();
+
+app1.get(&#x27;/&#x27;,function(req,res){
+    res.send(&#x27;hello&#x27;)
+})
+
+app1.listen(3000)
+
+const app2 = express()
+app2.get(&#x27;/api&#x27;,function(req,res){
+<span class="hljs-addition">+    res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)</span>
+    res.send(&#x27;go&#x27;)
+})
+
+app2.post(&#x27;/api&#x27;,function(req,res){
+    res.send(&#x27;go&#x27;)
+})
+
+app2.put(&#x27;/api&#x27;,function(req,res){
+    res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)
+    res.send(&#x27;go&#x27;)
+})
+app2.listen(3001)
+</code></pre>
+<p>在浏览器控制面板输入fetch('http://www.dev1.com/api',{method:'POST',headers:{'Content-Type':'application/json'}})进行请求；
+再次请求并加content-type字段，如果我们用post请求并在headers里加字段content-type:'application/json'，因为这是复杂请求，浏览器会先发送一个options请求，我们需要设置响应的headers允许添加某个字段。</p>
+<p><img src="/blog/imgs/options.png" alt=""></p>
+<pre class="hljs"><code class="language-diff">app1.listen(3000)
+
+const app2 = express()
+app2.get(&#x27;/api&#x27;,function(req,res){
+    res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)
+    res.send(&#x27;go&#x27;)
+})
+<span class="hljs-addition">+ app2.options(&#x27;/api&#x27;,function(req,res){</span>
+<span class="hljs-addition">+   res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)</span>
+<span class="hljs-addition">+   res.set(&#x27;Access-Control-Allow-Headers&#x27;,&#x27;content-type&#x27;)</span>
+<span class="hljs-addition">+  res.sendStatus(200)</span>
+<span class="hljs-addition">+ })</span>
+app2.post(&#x27;/api&#x27;,function(req,res){
+<span class="hljs-addition">+    res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)</span>
+    res.send(&#x27;go&#x27;)
+})
+
+app2.put(&#x27;/api&#x27;,function(req,res){
+    res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)
+    res.send(&#x27;go&#x27;)
+})
+app2.listen(3001)
+</code></pre>
+<p>用<code>put</code>请求看看，报错信息中可以看出是要在响应前加上允许<code>PUT</code>的请求</p>
+<p><img src="/blog/imgs/put.png" alt=""></p>
+<p>GET/POST/HEAD这种简单请求不会受这种影响,<code>put</code>、<code>delete</code>属于复杂请求，我们添加上以下代码来允许<code>PUT</code>请求</p>
+<pre class="hljs"><code class="language-diff"> app2.options(&#x27;/api&#x27;,function(req,res){
+  res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)
+  res.set(&#x27;Access-Control-Allow-Headers&#x27;,&#x27;content-type&#x27;)
+<span class="hljs-addition">+ res.set(&#x27;Access-Control-Allow-Methods&#x27;,&#x27;PUT&#x27;)</span>
+  res.sendStatus(200)
+ })
+</code></pre>
+<p>我们在请求的时候在headers添加自定义字段 token,需要添加以下代码允许自定义</p>
+<pre class="hljs"><code class="language-diff"> app2.options(&#x27;/api&#x27;,function(req,res){
+  res.set(&#x27;Access-Control-Allow-Origin&#x27;,&#x27;http://www.dev.com&#x27;)
+<span class="hljs-addition">+ res.set(&#x27;Access-Control-Allow-Headers&#x27;,&#x27;content-type,token&#x27;)</span>
+  res.set(&#x27;Access-Control-Allow-Methods&#x27;,&#x27;PUT&#x27;)
+  res.sendStatus(200)
+ })
+</code></pre>
+<p>&lt;font color=&quot;red&quot;&gt;子域名下请求父域名、父域名下请求子域名、子域名下请求子域名 都属于跨域，服务端通常通过判断是不是同一个一级域名，然后在origin里加上通过的域名&lt;/font&gt;</p>
+<p>fetch('http://www.dev1.com/api',{method:'POST',mode:'no-cors'}) 这种加上no-cors，会显示请求成功了，但是拿不到数据，这种请求属于透明请求。</p>
+<p><img src="/blog/dog.jpg" alt="dog">
+<img src="/blog/security/penguin.jpg" alt="penguin"></p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"同源策略"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"blog"}],["$","meta","2",{"name":"description","content":"some  my blog"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null
