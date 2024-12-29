@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","expressions","operators","void"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/expressions/operators/void","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/expressions/operators/void","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Jq3v5hrKYO2QklVqxf5JT",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Td62,<h1>void</h1>
+<p><code>void</code> 运算符能向期望一个表达式的值是 <code>undefined</code> 的地方插入会产生副作用的表达式。</p>
+<p><code>void</code> 运算符通常只用于获取 <code>undefined</code> 的原始值，一般使用 <code>void(0)</code>（等同于 <code>void 0</code>）。在上述情况中，也可以使用全局变量 <code>undefined</code> 来代替（假定其仍是默认值）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">void</span> <span class="hljs-number">0</span>);
+<span class="hljs-comment">// undefined</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">void</span> <span class="hljs-number">0</span>);
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<h2>作用</h2>
+<h3>替代 undefined</h3>
+<p>由于 <code>undefined</code> 并不是一个关键字，其在 IE8- 浏览器中会被重写，在高版本函数作用域中也会被重写；所以可以用 <code>void 0</code> 来替换 <code>undefined</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> <span class="hljs-literal">undefined</span> = <span class="hljs-number">10</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// IE8-浏览器下为10，高版本浏览器下为 undefined</span>
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">t</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> <span class="hljs-literal">undefined</span> = <span class="hljs-number">10</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span>);
+}
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">t</span>());
+<span class="hljs-comment">// 所有浏览器下都是10</span>
+</code></pre>
+<h3>客户端 URL</h3>
+<p>这个运算符最常用在客户端 URL 中，在 URL 中可以写带有副作用的表达式，而 <code>void</code> 则让浏览器不必显示这个表达式的计算结果。例如，经常在 HTML 代码中的 <code>&lt;a&gt;</code> 标签里使用 <code>void</code> 运算符。</p>
+<pre class="hljs"><code class="language-js">&lt;a href=<span class="hljs-string">&quot;js:void window.open();&quot;</span>&gt;打开一个新窗口&lt;/a&gt;
+</code></pre>
+<h3>阻止默认事件</h3>
+<p>阻止默认事件的方式是给事件置返回值 <code>false</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">//一般写法</span>
+&lt;a href=<span class="hljs-string">&quot;http://example.com&quot;</span> onclick=<span class="hljs-string">&quot;f();return false;&quot;</span>&gt;文字&lt;/a&gt;
+<span class="hljs-comment">// 等价于</span>
+<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;js:void(f())&quot;</span>&gt;</span>文字<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"void"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

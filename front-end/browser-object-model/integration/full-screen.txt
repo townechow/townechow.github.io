@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","integration","full-screen"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/integration/full-screen","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/integration/full-screen","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uyYpT8a0c4IZ3VtgtxGhB",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1166,<h1>全屏 Fullscreen API</h1>
+<p>全屏 API 为使用用户的整个屏幕展现网络内容提供了一种简单的方式。这种 API 让你可以简单地控制浏览器，使得一个元素与其子元素，如果存在的话，可以占据整个屏幕，并在此期间，从屏幕上隐藏所有的浏览器用户界面以及其他应用。</p>
+<h2>激活全屏模式</h2>
+<p>通过 DOM 元素的 <code>requestFullScreen()</code> 方法可以激活全屏模式。</p>
+<p>最常见的场景是视频窗口的全屏模式：</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;_video&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;blob:https://wwww.example.com/&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> video = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;_video&#x27;</span>);
+
+video.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;click&#x27;</span>, <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">if</span> (video.<span class="hljs-property">requestFullscreen</span>) {
+    video.<span class="hljs-title function_">requestFullscreen</span>();
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (video.<span class="hljs-property">msRequestFullscreen</span>) {
+    video.<span class="hljs-title function_">msRequestFullscreen</span>();
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (video.<span class="hljs-property">mozRequestFullscreen</span>) {
+    video.<span class="hljs-title function_">mozRequestFullscreen</span>();
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (video.<span class="hljs-property">webkitRequestFullscreen</span>) {
+    video.<span class="hljs-title function_">webkitRequestFullscreen</span>();
+  }
+});
+</code></pre>
+<h3>显示差异</h3>
+<p>Gecko 和 Webkit 内核实现效果存在关键差异：</p>
+<ul>
+<li>Gecko 会自动为元素添加 CSS 规则，使其拉伸以填满屏幕 <code>width: 100%;height: 100%;</code></li>
+<li>Webkit 没有这样做，相反地，它将全屏元素剧中，并以同样的大小显示，而屏幕的其他部分为黑色</li>
+</ul>
+<p>为了在 Webkit 中获得相同的全屏行为，你需要自行元素添加 <code>width: 100%;height: 100%</code></p>
+<pre class="hljs"><code class="language-css"><span class="hljs-selector-id">#video</span>:-webkit-full-screen {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+</code></pre>
+<p>另一个方面，如果你尝试在 Gecko 上模拟 Webkit 的行为，你需要把你想要呈现的元素放在另一个实际调整为全屏幕的元素中，并使用 CSS 规则调整内部元素，达到你想要的样式。</p>
+<h3>通知</h3>
+<p>当成功进入全屏模式时，包含该元素的文档会收到 <code>fullscreenchange</code> 事件。当退出全屏模式时，文档会再次收到该事件。注意此事件本身，不管在文档进入和退出全屏模式时，都不会提供任何信息，但如果文档有一个非空的 <code>fullscreenElement</code>，你就可以得知你处于全屏模式中。</p>
+<h2>退出全屏模式</h2>
+<p>通过调用 <code>document.exitFullscreen()</code> 方法能退出全屏模式。</p>
+<h2>其他信息</h2>
+<p><code>document</code> 提供了一些额外的信息，在开发全屏网络应用时能够使用。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fullscreenElement</td>
+<td>当前以全屏模式显示的元素。若此项非空，文档处于全屏模式中，否则不在该模式中。</td>
+</tr>
+<tr>
+<td>fullscreenEnabled</td>
+<td>当前文档是否为允许请求进入全屏模式的状态。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Fullscreen_API">MDN：全屏 API</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"全屏 Fullscreen API"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,343 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-types","class-structure-function"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-types/class-structure-function","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-types/class-structure-function","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9nZvCZlZt8ZW7TEfMFn8b",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5bfc,<h1>类构造函数</h1>
+<h2>ES5 中近类的结构</h2>
+<p>ES5 中创建类的方法：新建一个构造函数，定义一个方法并且赋值给构造函数的原型</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-meta">&#x27;use strict&#x27;</span>;
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Person</span>(<span class="hljs-params">name</span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+}
+
+<span class="hljs-title class_">Person</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">sayName</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>;
+};
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>(<span class="hljs-string">&#x27;Uzi&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayName</span>());
+<span class="hljs-comment">// Uzi</span>
+</code></pre>
+<h2>ES6 class 类</h2>
+<p>ES6 实现类非常简单，只需要类声明。</p>
+<h3>类声明</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-comment">// 新建构造函数</span>
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-comment">// 私有属性</span>
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+  }
+
+  <span class="hljs-comment">// 定义一个方法并且赋值给构造函数的原型</span>
+  <span class="hljs-title function_">sayName</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>
+  }
+}
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>(<span class="hljs-string">&#x27;Uzi&#x27;</span>)；
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayName</span>());
+<span class="hljs-comment">// Uzi</span>
+</code></pre>
+<p>和 ES5 中使用构造函数不同的是，在 ES6 中，我们将原型的实现写在类中，但本质上还是一样的，都是需要新建一个类名，然后实现构造函数，再实现原型方法。</p>
+<p>私有属性是实例中的属性，不会出现在原型上，且只能在类的构造函数或方法中创建，此例的   <code>name</code> 就是一个私有属性。这里建议你在构造函数中创建所有私有属性，从而只通过一处就可以控制所有的私有属性。</p>
+<p>定义私有属性，只需要在构造方法中定义 <code>this.xx = xx</code>。</p>
+<p>值得注意的是：<code>typeof Person</code> 最终返回的结果是 <code>&quot;function&quot;</code></p>
+<p><strong>类声明和函数声明的区别和特点</strong>：</p>
+<ol>
+<li>函数声明可以被提升，类声明不能提升（与 <code>let</code> 声明类似）</li>
+<li>类声明中的代码自动强行运行在严格模式下</li>
+<li>类中的所有方法都是不可枚举的，而自定义类型中，可以通过 <code>Object.defineProperty()</code> 手工指定不可枚举属性</li>
+<li>每个类都有一个 <code>[[constructor]]</code> 方法</li>
+<li>只能使用 <code>new</code> 来调用类的构造函数</li>
+<li>不能在类中修改类名</li>
+</ol>
+<h3>表现形式</h3>
+<p>类有两种表现形式：</p>
+<ul>
+<li>声明式</li>
+<li>表达式</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 声明式</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>){}
+}
+
+<span class="hljs-comment">// 匿名表达式</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">Car</span> = <span class="hljs-keyword">class</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>){}
+}
+
+<span class="hljs-comment">// 命名表达式，Order 可以在外部使用，而 Order1 只能在内部使用</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">Order</span> = <span class="hljs-keyword">class</span> <span class="hljs-title class_">Order1</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>){}
+}
+</code></pre>
+<h3>类和普通函数的共性</h3>
+<ol>
+<li>可以将类作为参数传入函数</li>
+</ol>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 新建一个类</span>
+<span class="hljs-keyword">let</span> <span class="hljs-title class_">Person</span> = <span class="hljs-keyword">class</span> {
+  <span class="hljs-title function_">sayName</span>(<span class="hljs-params"></span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;Uzi&#x27;</span>
+  }
+}
+
+<span class="hljs-comment">// 该函数返回一个类的实例</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">Person</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+}
+
+<span class="hljs-comment">// 给 fn 函数传入 Person</span>
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-title function_">fn</span>(<span class="hljs-title class_">Person</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayName</span>());
+<span class="hljs-comment">// Uzi</span>
+</code></pre>
+<ol start="2">
+<li>通过立即调用类构造函数可以创建单例</li>
+</ol>
+<p>用 <code>new</code> 调用类的表达式，紧接着通过一对小括号调用这个表达式。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-keyword">class</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+  }
+  <span class="hljs-title function_">sayName</span>(<span class="hljs-params"></span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>
+  }
+}(<span class="hljs-string">&#x27;Uzi&#x27;</span>)
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayName</span>());
+<span class="hljs-comment">// Uzi</span>
+</code></pre>
+<h3>函数存取器</h3>
+<p>类支持在原型上定义访问器属性。</p>
+<p>尽管应该在类的构造函数中创建自己属性，但是类也支持直接在原型上定义访问器属性。创建 <code>getter</code> 时，需要在关键字 <code>get</code> 后紧跟一个空格和响应的标识符；创建 <code>setter</code> 时，只需把关键字 <code>get</code> 替换为 <code>set</code> 即可。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">state</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span> = state
+  }
+
+  <span class="hljs-comment">// 创建 getter</span>
+  <span class="hljs-keyword">get</span> <span class="hljs-title function_">myName</span>() {
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">name</span>
+  }
+
+  <span class="hljs-comment">// 创建 setter</span>
+  <span class="hljs-keyword">set</span> <span class="hljs-title function_">myName</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">name</span> = name
+  }
+}
+
+<span class="hljs-comment">// 获取指定对象的自身属性描述符。自身属性描述符是指直接在对象上定义（而非从对象的原型即成）的描述符。</span>
+<span class="hljs-keyword">let</span> descriptor = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getOwnPropertyDescriptor</span>(<span class="hljs-title class_">Person</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>, <span class="hljs-string">&#x27;myName&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;get&#x27;</span> <span class="hljs-keyword">in</span> descriptor);
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(descriptor.<span class="hljs-property">enumerable</span>);
+<span class="hljs-comment">// false 不可枚举</span>
+</code></pre>
+<h3>可计算成员名称</h3>
+<p>可计算成员时指使用方括号包裹一个表达式，如下面定义了一个变量 <code>methodName</code>，然后使用 <code>[methodName]</code> 设置为类 Person 的原型方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> methodName = <span class="hljs-string">&#x27;sayName&#x27;</span>;
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+  }
+  [methodName]() {
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>
+  }
+}
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>(<span class="hljs-string">&#x27;Uzi&#x27;</span>)
+
+uzi.<span class="hljs-title function_">sayName</span>();
+<span class="hljs-comment">//</span>
+</code></pre>
+<h3>生成器方法</h3>
+<p>生成器是一个返回迭代器的函数。在类中，我们也可以使用生成器方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  *<span class="hljs-title function_">sayNum</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">3</span>;
+  }
+}
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayNum</span>().<span class="hljs-title function_">next</span>());
+<span class="hljs-comment">// {done: false, value: 1}</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayNum</span>().<span class="hljs-title function_">next</span>());
+<span class="hljs-comment">// {done: false, value: 1}</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayNum</span>().<span class="hljs-title function_">next</span>());
+<span class="hljs-comment">// {done: false, value: 1}</span>
+</code></pre>
+<p>这个写法很有趣，我们新增一个原型方法稍微改动一下。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  *<span class="hljs-title function_">sayNum</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">yield</span> <span class="hljs-number">3</span>;
+  }
+  <span class="hljs-title function_">render</span>(<span class="hljs-params"></span>){
+    <span class="hljs-comment">// 从 render 方法返回 sayNum，类似于 React 中经常用到的写法</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">sayNum</span>()
+  }
+}
+
+<span class="hljs-keyword">let</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">render</span>().<span class="hljs-title function_">next</span>());
+<span class="hljs-comment">// {done: false, value: 1}</span>
+</code></pre>
+<h3>静态成员</h3>
+<p>静态成员是指在方法名或属性名前面加上 <code>static</code> 关键字，和普通方法不一样的是，<code>static</code> 修饰的方法不能在实例中访问，只能用类名直接访问。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+  }
+
+  <span class="hljs-keyword">static</span> <span class="hljs-title function_">create</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>(name)
+  }
+}
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-title class_">Person</span>.<span class="hljs-title function_">create</span>(<span class="hljs-string">&#x27;Uzi&#x27;</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-property">name</span>);
+<span class="hljs-comment">// Uzi</span>
+
+<span class="hljs-keyword">let</span> ben = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(ben.<span class="hljs-title function_">create</span>(<span class="hljs-string">&#x27;Ben&#x27;</span>));
+<span class="hljs-comment">// ben.create is not a function</span>
+</code></pre>
+<h3>继承与派生类</h3>
+<p>我们在写 React 的时候，自定义的组件汇集成 React.Component。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Component</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props)
+  }
+}
+</code></pre>
+<p>Person 叫做派生类，在派生类中，如果使用了构造方法，就必须使用 <code>super()</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">[name, age] = props</span>){
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">age</span> = age;
+  }
+  <span class="hljs-title function_">sayHi</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`Hi, my name is <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.name}</span>, and I&#x27;m <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.age}</span> years old.`</span>;
+  }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Player</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props)
+  }
+}
+
+<span class="hljs-keyword">let</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Player</span>([<span class="hljs-string">&#x27;Uzi&#x27;</span>, <span class="hljs-number">22</span>]);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayHi</span>());
+<span class="hljs-comment">// Hi, my name is Uzi, and I&#x27;m 22 years old.</span>
+</code></pre>
+<p>关于 <code>super</code> 使用的几点要求：</p>
+<ol>
+<li>只可以在派生类中使用 <code>super</code>，派生类是指继承自其他类的新类</li>
+<li>在构造函数中访问 <code>this</code> 之前要调用 <code>super()</code>，负责初始化 <code>this</code>。</li>
+</ol>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Bad</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Player</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = <span class="hljs-number">1</span>
+    <span class="hljs-comment">// 必须先写 super()</span>
+    <span class="hljs-variable language_">super</span>(props)
+  }
+}
+</code></pre>
+<ol start="3">
+<li>如果不想调用 <code>super</code>，可以让类的构造函数返回一个对象。</li>
+</ol>
+<h3>类方法遮蔽</h3>
+<p>我们可以在继承的类中重写父类的方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">[name, age] = props</span>){
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">age</span> = age;
+  }
+  <span class="hljs-title function_">sayHi</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`Hi, my name is <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.name}</span>, and I&#x27;m <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.age}</span> years old.`</span>;
+  }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Player</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props)
+  }
+  <span class="hljs-comment">// 重写add方法，求积</span>
+  <span class="hljs-title function_">sayHi</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`Hi, my name is <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.name}</span>, <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.age}</span>.`</span>
+  }
+}
+
+<span class="hljs-keyword">let</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Player</span>([<span class="hljs-string">&#x27;Uzi&#x27;</span>, <span class="hljs-number">22</span>]);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">sayName</span>());
+<span class="hljs-comment">// Hi, my name is Uzi, 22.`</span>
+</code></pre>
+<h3>静态成员继承</h3>
+<p>父类中静态成员，也可以继承到派生类中。静态成员继承只能通过派生类访问，不能通过派生类的实例访问。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">[name, age] = props</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">age</span> = age
+  }
+  <span class="hljs-keyword">static</span> <span class="hljs-title function_">say</span>(<span class="hljs-params">[name, age] = props</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${name}</span>, <span class="hljs-subst">${age}</span>`</span>;
+  }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Player</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Person</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props)
+  }
+}
+
+<span class="hljs-keyword">const</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Play</span>([<span class="hljs-string">&#x27;Uzi&#x27;</span>, <span class="hljs-number">22</span>])
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-title function_">say</span>([<span class="hljs-number">2</span>, <span class="hljs-number">3</span>]));
+<span class="hljs-comment">// 5</span>
+</code></pre>
+<h3>派生自表达式的类</h3>
+<p>很好理解，就是指父类可以是一个表达式。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Rectangle</span>(<span class="hljs-params">length, </span>){
+  <span class="hljs-comment">// do something</span>
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Square</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">Rectangle</span> {
+<span class="hljs-comment">// do something</span>
+}
+</code></pre>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzI4MDYyNjQ1OA==&amp;mid=2247483956&amp;idx=1&amp;sn=adc1ec7ae4cd3f01728fdcb43a38690f&amp;chksm=ebb4d641dcc35f57cd2bf66ba9819874cf300108884700bf3d6a1410c18c0ed4ff3d90d10a8f#rd">📝 ES6 | JavaScript 中的类 class</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"类构造函数"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

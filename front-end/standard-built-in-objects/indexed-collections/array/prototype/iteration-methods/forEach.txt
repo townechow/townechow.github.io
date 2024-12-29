@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","iteration-methods","forEach"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/forEach","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/forEach","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","k5dtyOwUJKr8ZgTrPP6nH",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T11cd,<h1>Array.prototype.forEach()</h1>
+<p><code>Array.prototype.forEach()</code> 方法用于迭代数组的每项成员。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">forEach</span>( callbackfn [, thisArg ] )
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">forEach</span>(<span class="hljs-attr">callbackfn</span>: <span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">value</span>: T, <span class="hljs-attr">index</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">array</span>: T[]</span>) =&gt;</span> <span class="hljs-built_in">void</span>, <span class="hljs-attr">thisArg</span>?: <span class="hljs-built_in">any</span>): <span class="hljs-built_in">void</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">callbackfn</td>
+<td style="text-align:left">用于遍历数组成员时执行的回调函数</td>
+<td style="text-align:left">function</td>
+</tr>
+<tr>
+<td style="text-align:left">thisArg</td>
+<td style="text-align:left">执行回调函数的 <code>this</code> 值</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<p><code>callbackfn</code> 函数的参数：</p>
+<ul>
+<li><code>currentValue</code>：当前数组中处理的元素</li>
+<li><code>index</code>：数组中正处理的当前元素的索引</li>
+<li><code>array</code>：被调用的数组</li>
+</ul>
+<p>返回值：</p>
+<p>返回 <code>undefined</code>。</p>
+<h2>方法说明</h2>
+<ul>
+<li>该方法按升序为数组中含有效值的每一项执行一次回调函数，那些已删除（使用 <code>delete</code> 方法等情况）或者未初始化的项将被跳过（但不包括那些值为 <code>undefined</code> 的项，例如在稀疏数组中）。</li>
+<li>该方法遍历的范围在第一次调用回调函数前就会确定。调用 <code>forEach()</code> 后添加到数组中的项不会被 <code>callbackfn</code> 访问到。如果已经存在的值被改变，则传递给 <code>callbackfn</code> 的值是 <code>forEach</code> 遍历到他们那一刻的值。已删除的项不会被遍历到。如果已访问的元素在迭代时被删除了（例如使用 <code>shift()</code> ） ，之后的元素将被跳过。</li>
+<li><code>forEach()</code> 为每个数组元素执行 <code>callbackfn</code> 函数；不像 <code>map()</code> 或者 <code>reduce()</code> ，它总是返回 <code>undefined</code> 值，并且不可链式调用。典型用例是在一个链的最后执行副作用。</li>
+</ul>
+<p><strong>注意</strong>： 没有办法中止或者跳出 <code>forEach</code> 循环，除了抛出一个异常。如果你需要这样，使用 <code>forEach()</code> 函数是错误的，你可以用一个简单的循环作为替代。如果您正在测试一个数组里的元素是否符合某条件，且需要返回一个布尔值，那么可使用 <code>every()</code> 或 <code>some()</code>。如果可用，新方法 <code>find()</code> 或者 <code>findIndex()</code> 也可被用于真值测试的提早终止。</p>
+<h2>代码示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+
+arr.<span class="hljs-title function_">forEach</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">element</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(element);
+});
+
+arr.<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">element</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(element));
+<span class="hljs-comment">// a b c</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">MDN: Array.prototype.forEach</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.forEach"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

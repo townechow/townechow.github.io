@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","binary-data-and-files","file-list"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/binary-data-and-files/file-list","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/binary-data-and-files/file-list","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","pTIHcW9rbnIkfdUAgiAe4",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1731,<h1>FileList API</h1>
+<p>FileList 是 <a href="./file">File</a> 对象的类数组序列（考虑 <code>&lt;input type='file' multiple&gt;</code> 或者从桌面拖动目录或文件），通常来自于一个 HTML input 元素的 <code>files</code> 属性，你可以通过这个对象访问到用户所选择的文件。该类型的对象还能是来自用户的拖放操作。</p>
+<h2>应用示例</h2>
+<h3>多文件选择</h3>
+<p>要加载文件，最直接的方法就是使用标准 <code>&lt;input type=&quot;file&quot;&gt;</code> 元素。JavaScript 会返回选定的  <code>File</code>  对象的列表作为  <code>FileList</code>。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;files&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;files[]&quot;</span> <span class="hljs-attr">multiple</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">output</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">output</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-comment">// 获选择按钮</span>
+  <span class="hljs-keyword">const</span> filesInput = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#files&#x27;</span>);
+
+  <span class="hljs-comment">// 监听 change 事件</span>
+  filesInput.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;change&#x27;</span>, handleFilesSelect, <span class="hljs-literal">false</span>);
+
+  <span class="hljs-comment">// 选择文件后触发事件回调函数</span>
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">handleFilesSelect</span>(<span class="hljs-params">e</span>) {
+    <span class="hljs-comment">// FileList 对象</span>
+    <span class="hljs-keyword">const</span> files = e.<span class="hljs-property">target</span>.<span class="hljs-property">files</span>;
+
+    <span class="hljs-keyword">let</span> output = [];
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>, fileItem; (fileItem = files[i]); i++) {
+      output.<span class="hljs-title function_">push</span>(
+        <span class="hljs-string">&#x27;&lt;li&gt;&lt;strong&gt;&#x27;</span>,
+        <span class="hljs-built_in">escape</span>(fileItem.<span class="hljs-property">name</span>),
+        <span class="hljs-string">&#x27;&lt;/strong&gt;(&#x27;</span>,
+        fileItem.<span class="hljs-property">type</span> || <span class="hljs-string">&#x27;n/a&#x27;</span>,
+        <span class="hljs-string">&#x27;)-&#x27;</span>,
+        fileItem.<span class="hljs-property">size</span>,
+        <span class="hljs-string">&#x27; bytes,last modified：&#x27;</span>,
+        fileItem.<span class="hljs-property">lastModifiedDate</span>.<span class="hljs-title function_">toLocaleDateString</span>(),
+        <span class="hljs-string">&#x27;&lt;/li&gt;&#x27;</span>
+      );
+    }
+
+    <span class="hljs-comment">// 将选择文件信息输出到文档中</span>
+    <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;list&#x27;</span>).<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;&lt;ul&gt;&#x27;</span> + output.<span class="hljs-title function_">join</span>(<span class="hljs-string">&#x27;&#x27;</span>) + <span class="hljs-string">&#x27;&lt;/ul&gt;&#x27;</span>;
+  }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h3>通过迭代获取多个已选择文件</h3>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;files&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">multiple</span> /&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> fileRef = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#files&#x27;</span>);
+
+  <span class="hljs-comment">// FileList 对象（类似于 NodeList 对象）</span>
+  <span class="hljs-keyword">const</span> files = fileRef.<span class="hljs-property">files</span>;
+  <span class="hljs-keyword">let</span> file;
+
+  <span class="hljs-comment">// 遍历所有文件</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; files.<span class="hljs-property">length</span>; i++) {
+    <span class="hljs-comment">// 获取单个文件</span>
+    file = files.<span class="hljs-title function_">item</span>(i);
+    <span class="hljs-comment">// 或者</span>
+    file = files[i];
+
+    <span class="hljs-comment">// 输出当前遍历的 File 对象的文件名</span>
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(file.<span class="hljs-property">name</span>);
+  }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"FileList API"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,245 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","expressions","operators","logical-operators"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/expressions/operators/logical-operators","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/expressions/operators/logical-operators","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","cTIoDjbU0jB7l6G0Wxrux",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3952,<h1>逻辑运算符</h1>
+<p>逻辑运算符常用于对操作数进行布尔运算，经常和关系运算符一样配合使用。逻辑运算符将多个关系表达式组合起来组成一个更复杂的表达式。逻辑运算符分为逻辑与 <code>&amp;&amp;</code> 、逻辑或 <code>||</code> 、逻辑非 <code>!</code> 三种。</p>
+<h2>逻辑与</h2>
+<p><strong>逻辑与运算符</strong> 由两个和号 <code>&amp;&amp;</code> 表示，有两个操作数，只有在两个操作数都为 <code>true</code> 时，结果才返回 <code>true</code>，否则返回 <code>false</code>。</p>
+<p><strong>逻辑与的真值表</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">第一个操作数</th>
+<th style="text-align:left">第二个操作数</th>
+<th style="text-align:left">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>true</code></td>
+<td style="text-align:left"><code>true</code></td>
+<td style="text-align:left"><code>true</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>true</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left"><code>false</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left"><code>true</code></td>
+<td style="text-align:left"><code>false</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left"><code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>逻辑与操作可以应用于任何类型的操作数，而不仅仅是布尔值。</p>
+<p>⚠️ <strong>注意</strong>： 逻辑与操作属于 <strong>短路操作</strong>，如果第一个操作数能够决定结果，那么就不会再对第二个操作数求值。</p>
+<p>对于逻辑与而言：</p>
+<ul>
+<li>如果第一个操作数是 <code>false</code>，则无论第二个操作数是什么值，结果都是 <code>false</code>，则返回第一个操作数</li>
+<li>如果第一个操作数为 <code>true</code>，则结果的真假和第二个操作数的真假相同，则返回第二个操作数</li>
+</ul>
+<p>在 JaavScript 的世界中：</p>
+<p>除了<code>false</code>、<code>undefined</code>、<code>null</code>、<code>+0</code>、<code>-0</code>、<code>NaN</code>、<code>''</code> ，其余都是真值。</p>
+<p>示例:</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">true</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">var</span> b = <span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">false</span>;
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-keyword">var</span> c = <span class="hljs-literal">false</span> &amp;&amp; <span class="hljs-literal">true</span>;
+<span class="hljs-comment">//false</span>
+
+<span class="hljs-keyword">var</span> d = <span class="hljs-literal">false</span> &amp;&amp; <span class="hljs-number">3</span> == <span class="hljs-number">4</span>;
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-keyword">var</span> e = <span class="hljs-string">&#x27;Cat&#x27;</span> &amp;&amp; <span class="hljs-string">&#x27;Dog&#x27;</span>;
+<span class="hljs-comment">// &#x27;Dog&#x27;</span>
+
+<span class="hljs-keyword">var</span> f = <span class="hljs-literal">false</span> &amp;&amp; <span class="hljs-string">&#x27;Cat&#x27;</span>;
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-keyword">var</span> g = <span class="hljs-string">&#x27;Cat&#x27;</span> &amp;&amp; <span class="hljs-literal">false</span>;
+<span class="hljs-comment">// false</span>
+</code></pre>
+<p>逻辑与运算符可以多个连用，返回第一个布尔值为 <code>false</code> 的表达式的值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-string">&#x27;foo&#x27;</span> &amp;&amp; <span class="hljs-string">&#x27;&#x27;</span> &amp;&amp; <span class="hljs-number">4</span> &amp;&amp; <span class="hljs-string">&#x27;foo&#x27;</span> &amp;&amp; <span class="hljs-literal">true</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+</code></pre>
+<p><strong>可以使用逻辑与运算符来取代 <code>if-else</code> 结构</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (a == b) {
+  <span class="hljs-title function_">doSomething</span>();
+}
+
+<span class="hljs-comment">// 等价于</span>
+a == b &amp;&amp; <span class="hljs-title function_">doSomething</span>();
+</code></pre>
+<p>或者：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 判断对象是否存在再取值</span>
+<span class="hljs-keyword">const</span> foo = a &amp;&amp; a.<span class="hljs-property">b</span>;
+</code></pre>
+<p>逻辑与运算符常常用于回调函数使用中</p>
+<p>若没有给参数 <code>a</code> 传值，则 <code>a</code> 为默认的 <code>undefined</code>，是假值，所以不执行 <code>a()</code>，防止报错，如果给参数 <code>a</code> 传值，则执行函数 <code>a()</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">a</span>) {
+  <span class="hljs-keyword">if</span> (a) {
+    <span class="hljs-title function_">a</span>();
+  }
+}
+<span class="hljs-comment">//等价于</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">a</span>) {
+  a &amp;&amp; <span class="hljs-title function_">a</span>();
+}
+</code></pre>
+<h2>逻辑或</h2>
+<p>逻辑或运算符由两个竖线( <code>||</code> )表示，有两个操作数，只有在两个操作数都是 <code>false</code> 时，结果才返回 <code>false</code>，否则返回 <code>true</code>。</p>
+<p><strong>逻辑或( <code>||</code> )的真值表</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">第一个操作数</th>
+<th style="text-align:left">第二个操作数</th>
+<th style="text-align:left">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">true</td>
+<td style="text-align:left">true</td>
+<td style="text-align:left">true</td>
+</tr>
+<tr>
+<td style="text-align:left">true</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">true</td>
+</tr>
+<tr>
+<td style="text-align:left">false</td>
+<td style="text-align:left">true</td>
+<td style="text-align:left">true</td>
+</tr>
+<tr>
+<td style="text-align:left">false</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">false</td>
+</tr>
+</tbody>
+</table>
+<p>同样地，逻辑或操作也可以应用于任何类型的操作数，而不仅仅是布尔值。如果其中一个操作数不是布尔值，则逻辑或操作不一定返回布尔值。</p>
+<p>逻辑或操作也属于短路操作，如果第一个操作数能够决定结果，那么就不会再对第二个操作数求值。</p>
+<p>对于逻辑或而言，如果第一个操作数是 <code>true</code>，则无论第二个操作数是什么值，结果都是 <code>true</code>，则返回第一个操作数；如果第一个操作数是 <code>false</code>，则结果的真假和第二个操作数的真假相同，则返回第二个操作数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-literal">true</span> || <span class="hljs-literal">true</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">var</span> b = <span class="hljs-literal">false</span> || <span class="hljs-literal">true</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">var</span> c = <span class="hljs-literal">true</span> || <span class="hljs-literal">false</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">var</span> d = <span class="hljs-literal">false</span> || <span class="hljs-number">3</span> == <span class="hljs-number">4</span>;
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-keyword">var</span> e = <span class="hljs-string">&#x27;Cat&#x27;</span> || <span class="hljs-string">&#x27;Dog&#x27;</span>;
+<span class="hljs-comment">// Cat</span>
+
+<span class="hljs-keyword">var</span> f = <span class="hljs-literal">false</span> || <span class="hljs-string">&#x27;Cat&#x27;</span>;
+<span class="hljs-comment">// Cat</span>
+
+<span class="hljs-keyword">var</span> g = <span class="hljs-string">&#x27;Cat&#x27;</span> || <span class="hljs-literal">false</span>;
+<span class="hljs-comment">// Cat</span>
+</code></pre>
+<p><strong>同样地，逻辑或运算符也可以多个连用，返回第一个布尔值为 <code>true</code> 的表达式的值。</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">false</span> || <span class="hljs-number">0</span> || <span class="hljs-string">&#x27;&#x27;</span> || <span class="hljs-number">4</span> || <span class="hljs-string">&#x27;foo&#x27;</span> || <span class="hljs-literal">true</span>); <span class="hljs-comment">// 4</span>
+</code></pre>
+<p>逻辑或运算符常用于为变量设置默认值</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 如果没有向参数p传入任何对象，则将该参数默认设置为空对象</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">p</span>) {
+  p = p || {};
+}
+</code></pre>
+<h2>逻辑非</h2>
+<p>逻辑非操作符由一个叹号( <code>!</code> )表示，可以应用于 ECMAScript 中的任何值。无论这个值是什么数据类型，这个操作符都会返回一个布尔值。逻辑非操作符首先会将它的操作数转换成一个布尔值，然后再对其求反。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-literal">null</span>);
+<span class="hljs-comment">// t null</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// t NaN</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-number">0</span>);
+<span class="hljs-comment">// t 数值0</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// t NaN</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-string">&#x27;&#x27;</span>);
+<span class="hljs-comment">// t 空字符串</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-string">&#x27;123&#x27;</span>);
+<span class="hljs-comment">// f 非空字符串</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!<span class="hljs-title class_">Infinity</span>);
+<span class="hljs-comment">// f 任意非0数值（包括Infinity）</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!{ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+<span class="hljs-comment">// f 对象</span>
+</code></pre>
+<p>逻辑非对操作数转为布尔类型的转换类型与 <code>Boolean()</code> 转型函数相同，只不过最后再将其结果取反。而如果同时使用两个逻辑非操作符，实际上就会模拟 <code>Boolean()</code> 转型函数的行为。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-literal">null</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-number">0</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!-<span class="hljs-number">0</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-string">&#x27;&#x27;</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-literal">false</span>);
+<span class="hljs-comment">// false</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!{});
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!![]);
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-keyword">new</span> <span class="hljs-title class_">Boolean</span>(<span class="hljs-literal">false</span>));
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-literal">false</span>);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-keyword">new</span> <span class="hljs-title class_">Boolean</span>(<span class="hljs-literal">null</span>));
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!!<span class="hljs-literal">null</span>);
+<span class="hljs-comment">// false</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"逻辑运算符"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

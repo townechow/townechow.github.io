@@ -1,0 +1,83 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","document-object-model","dom","dom"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/dom/dom","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/dom/dom","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","SspNJ-192AGrgjWnP2rJt",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1f51,<h1>文档对象模型</h1>
+<p>文档对象模型（Document Object Model，简称 DOM），是 W3C 组织推荐的处理可扩展置标语言的标准编程接口。DOM 把整个页面映射为一个多层的节点结构，HTML 或 XML 页面中的每个组成部分都是某种类型的节点，这些节点又包含着不同类型的数据。</p>
+<p>W3C DOM 由以下三部分组成：</p>
+<ul>
+<li>核心 DOM - 针对任何结构化文档的标准模型</li>
+<li>XML DOM - 针对 XML 文档的标准模型</li>
+<li>HTML DOM - 针对 HTML 文档的标准模型</li>
+</ul>
+<p>通过 DOM 接口，应用程序可以在任何时候访问文档中的任何一部分数据，因此，这种利用 DOM 接口的机制也被称作随机访问机制。</p>
+<h2>DOM 级别</h2>
+<h3>DOM0</h3>
+<p>DOM0（即第 0 级 DOM），实际上指的是未形成标准的试验性质的初级阶段的 DOM。由于 DOM0 在 W3C 进行标准备化之前出现，还处于未形成标准的初期阶段，这时 Netscape 和 Microsoft 各自推出自己的第四代浏览器，自此 DOM 便开始出现各种问题。</p>
+<h3>DHTML</h3>
+<p>DHTML 是 Dynamic HTML（动态 HTML）的简称。DHTML 并不是一项新技术，而是将 HTML、CSS、JavaScript 技术组合的一种描述。即：</p>
+<ul>
+<li>利用 HTML 把网页标记为各种元素</li>
+<li>利用 CSS 设置元素样式及其显示位置</li>
+<li>利用 JavaScript 操控页面元素和样式</li>
+</ul>
+<p>利用 DHTML，看起来可以很容易的控制页面元素，并实现原本很复杂的效果（如：通过改变元素位置实现动画）。但事实并非如此，因为没有规范和标准，两种浏览器对相同功能的实现的确完全不一样。为了保持程序的兼容性，程序员必须写一些探查代码以检测 JavaScript 是运行于哪种浏览器之下，并提供与之对应的脚本。JavaScript 陷入了前所未有的混乱，DHTML 也因此在人们心中留下了很差的印象。</p>
+<h3>DOM1</h3>
+<p>在浏览器厂商进行浏览器大战的同时，W3C 结合各厂商的优点推出了一个标准化的 DOM，并于 1998 年 10 月完成了第一级 DOM，即：DOM1。W3C 将 DOM 定义为一个与平台和编程语言无关的接口，通过这个接口程序和脚本可以动态的访问和修改文档的内容、结构和样式。</p>
+<p>DOM1 级主要定义了 HTML 和 XML 文档的底层结构。在 DOM1 中，DOM 由两个模块组成：</p>
+<ul>
+<li>DOM Core（DOM 核心）：规定了基于 XML 的文档结构标准，通过这个标准简化了对文档中任意部分的访问和操作。</li>
+<li>DOM HTML：则在 DOM 核心的基础上加以扩展，添加了针对 HTML 的对象和方法，如：JavaScript 中的 Document 对象。</li>
+</ul>
+<h3>DOM2</h3>
+<p>在 DOM1 的基础上 DOM2 引入了更多的交互能力，也支持了更高级的 XML 特性。DOM2 将 DOM 分为更多具有联系的模块。DOM2 级在原来 DOM 的基础上又扩充了鼠标、用户界面事件、范围、遍历等细分模块，而且通过对象接口增加了对 CSS 的支持。DOM1 级中的 DOM 核心模块也经过扩展开始支持 XML 命名空间。在 DOM2 中引入了下列模块，在模块包含了众多新类型和新接口：</p>
+<ul>
+<li>DOM 视图（DOM Views）：定义了跟踪不同文档视图的接口</li>
+<li>DOM 事件（DOM Events）：定义了事件和事件处理的接口</li>
+<li>DOM 样式（DOM Style）：定义了基于 CSS 为元素应用样式的接口</li>
+<li>DOM 遍历和范围（DOM Traversal and Range）：定义了遍历和操作文档树的接口</li>
+</ul>
+<h3>DOM3</h3>
+<p>DOM3 级：进一步扩展了 DOM，引入了以统一方式加载和保存文档的方法，它在 DOM Load And Save 这个模块中定义；同时新增了验证文档的方法，是在 DOM Validation 这个模块中定义的。
+DOM3 进一步扩展了 DOM，在 DOM3 中引入了以下模块：</p>
+<ul>
+<li>DOM 加载和保存模块（DOM Load and Save）：引入了以统一方式加载和保存文档的方法</li>
+<li>DOM 验证模块（DOM Validation）：定义了验证文档的方法</li>
+<li>DOM 核心的扩展（DOM Style）：支持 XML 1.0 规范，涉及 XML Infoset、XPath 和 XML Base</li>
+</ul>
+<h2>文档类型</h2>
+<p>我们说 DOM 文档对象模型是从文档中抽象出来的，DOM 操作的对象也是文档，因此我们有必要了解一下文档的类型。文档随着历史的发展演变为多种类型，如下:</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/dom/document-type-history.jpeg&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;文档类型发展史&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
+</code></pre>
+<h3>GML</h3>
+<p>GML（Generalized Markup Language，通用标记语言）是 1960 年代的一种 IBM 文档格式化语言，用于描述文档的组织结构、各部件及其相互关系。GML 在文档具体格式方面，为文档员提供了一些方便，他们不必再为 IBM 的打印机格式化语言 SCRIPT 要求的字体规范、行距以及页面设计等浪费精力。这个 IBM 的 GML 包括 1960 年代的 GML 和 1980 年代的 ISIL。</p>
+<h3>SGML</h3>
+<p>SGML（Standard Generalized Markup Language，标准通用标记语言）是 1986 年基于 IBM 的 GML 制定 ISO 标准（ISO 8879）。SGML 是现时常用的超文本格式的最高层次标准，是可以定义标记语言的元语言，甚至可以定义不必采用 <code>&quot;&lt;&gt;&quot;</code> 的常规方式。由于 SGML 的复杂，因而难以普及。HTML 和 XML 同样衍生于 SGML，XML 可以被认为是 SGML 的一个子集，而 HTML 是 SGML 的一个应用。</p>
+<h3>HTML</h3>
+<p>HTML（HyperText Markup Language，超文本标记语言）是为“网页创建和其它可在网页浏览器中看到的信息”设计的一种标记语言。HTML 被用来结构化信息——例如标题、段落和列表等等，也可用来在一定程度上描述文档的外观和语义。1982 年，蒂姆·伯纳斯-李为使世界各地的物理学家能够方便的进行合作研究，创建了使用于其系统的 HTML。之后 HTML 又不断地扩充和发展，成为国际标准，由万维网联盟（W3C）维护。第一个正式标准是 1995 年发布的 RFC 1866（HTML 2.0）。</p>
+<h3>XML</h3>
+<p>XML（eXtensible Markup Language，可扩展标记语言）是专家们使用 SGML 精简制作，并依照 HTML 的发展经验，产生出一套使用上规则严谨，但是简单的描述数据语言。XML 在 1995 年开始有雏形，在 1998 二月发布为 W3C 的标准（XML1.0）</p>
+<h3>XHTML</h3>
+<p>XHTML（eXtensible HyperText Markup Language，可扩展超文本标记语言)的表现方式与超文本标记语言（HTML）类似，不过语法上更加严格。从继承关系上讲，HTML 是一种基于标准通用标记语言（SGML）的应用，是一种非常灵活的置标语言，而 XHTML 则基于可扩展标记语言（XML），XML 是 SGML 的一个子集。XHTML 1.0 在 2000 年 1 月 26 日成为 W3C 的推荐标准。</p>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://www.w3.org/TR/dom/">📖 W3C DOM 规范</a></li>
+<li><a href="https://github.com/jawil/blog/issues/9">📝 深入浅出 DOM 基础——《DOM 探索之基础详解篇》学习笔记</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"文档对象模型"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

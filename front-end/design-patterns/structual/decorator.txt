@@ -1,0 +1,182 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","design-patterns","structual","decorator"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","design-patterns/structual/decorator","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","design-patterns/structual/decorator","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","G6CVmxT6mqPmXbq3xV04z",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T35d6,<h1>装饰者模式</h1>
+<p><strong>装饰模式（Decorator Pattern）</strong>：动态地给一个对象增加一些额外的职责（Responsibility），就增加对象功能来说，装饰模式比生成子类实现更为灵活。其别名也可以称为包装器（Wrapper），与适配器模式的别名相同，但它们适用于不同的场合。根据翻译的不同，装饰模式也有人称之为 <strong>油漆工模式</strong>，它是一种对象结构型模式。ES7 的装饰器语法以及 React 中的高阶组件（HoC）都是这一模式的实现，<code>react-redux</code> 的 <code>connect()</code> 也运用了装饰器模式。</p>
+<h2>模式结构</h2>
+<p>装饰模式包含如下角色：</p>
+<ul>
+<li>Component（抽象构件）：它是具体构件和抽象装饰类的共同父类，声明了在具体构件中实现的业务方法，它的引入可以使客户端以一致的方式处理未被装饰的对象以及装饰之后的对象，实现客户端的透明操作。</li>
+<li>ConcreteComponent（具体构件）：它是抽象构件类的子类，用于定义具体的构件对象，实现了在抽象构件中声明的方法，装饰器可以给它增加额外的职责（方法）。</li>
+<li>Decorator（抽象装饰类）：它也是抽象构件类的子类，用于给具体构件增加职责，但是具体职责在其子类中实现。它维护一个指向抽象构件对象的引用，通过该引用可以调用装饰之前构件对象的方法，并通过其子类扩展该方法，以达到装饰的目的。</li>
+<li>ConcreteDecorator（具体装饰类）：它是抽象装饰类的子类，负责向构件添加新的职责。每一个具体装饰类都定义了一些新的行为，它可以调用在抽象装饰类中定义的方法，并可以增加新的方法用以扩充对象的行为。</li>
+</ul>
+<h2>模式分析</h2>
+<ul>
+<li>与继承关系相比，关联关系的主要优势在于不会破坏类的封装性，而且继承是一种耦合度较大的静态关系，无法在程序运行时动态扩展。在软件开发阶段，关联关系虽然不会比继承关系减少编码量，但是到了软件维护阶段，由于关联关系使系统具有较好的松耦合性，因此使得系统更加容易维护。当然，关联关系的缺点是比继承关系要创建更多的对象。</li>
+<li>使用装饰模式来实现扩展比继承更加灵活，它以对客户透明的方式动态地给一个对象附加更多的责任。装饰模式可以在不需要创造更多子类的情况下，将对象的功能加以扩展。</li>
+</ul>
+<h2>优点和缺点</h2>
+<p>装饰模式的优点:</p>
+<ul>
+<li>装饰模式与继承关系的目的都是要扩展对象的功能，但是装饰模式可以提供比继承更多的灵活性。</li>
+<li>可以通过一种动态的方式来扩展一个对象的功能，通过配置文件可以在运行时选择不同的装饰器，从而实现不同的行为。</li>
+<li>通过使用不同的具体装饰类以及这些装饰类的排列组合，可以创造出很多不同行为的组合。可以使用多个具体装饰类来装饰同一对象，得到功能更为强大的对象。</li>
+<li>具体构件类与具体装饰类可以独立变化，用户可以根据需要增加新的具体构件类和具体装饰类，在使用时再对其进行组合，原有代码无须改变，符合“开闭原则”</li>
+</ul>
+<p>装饰模式的缺点:</p>
+<ul>
+<li>使用装饰模式进行系统设计时将产生很多小对象，这些对象的区别在于它们之间相互连接的方式有所不同，而不是它们的类或者属性值有所不同，同时还将产生很多具体装饰类。这些装饰类和小对象的产生将增加系统的复杂度，加大学习与理解的难度。</li>
+<li>这种比继承更加灵活机动的特性，也同时意味着装饰模式比继承更加易于出错，排错也很困难，对于多次装饰的对象，调试时寻找错误可能需要逐级排查，较为烦琐。</li>
+</ul>
+<h2>代码实现</h2>
+<p>AOP 是一种可以通过预编译方式和运行期动态代理实现在不修改源代码的情况下给程序动态统一添加功能的一种技术。</p>
+<p>AOP 实际是 GoF 设计模式的延续，设计模式孜孜不倦追求的是调用者和被调用者之间的解耦，提高代码的灵活性和可扩展性，AOP 可以说也是这种目标的一种实现。</p>
+<p>AOP （面向切面编程）装饰函数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">before</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn</span>) {
+  <span class="hljs-keyword">const</span> self = <span class="hljs-variable language_">this</span>;
+
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    fn.<span class="hljs-title function_">apply</span>(<span class="hljs-keyword">new</span> <span class="hljs-title function_">self</span>(), <span class="hljs-variable language_">arguments</span>);
+
+    <span class="hljs-keyword">return</span> self.<span class="hljs-title function_">apply</span>(<span class="hljs-keyword">new</span> <span class="hljs-title function_">self</span>(), <span class="hljs-variable language_">arguments</span>);
+  };
+};
+
+<span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">after</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn</span>) {
+  <span class="hljs-keyword">const</span> self = <span class="hljs-variable language_">this</span>;
+
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    self.<span class="hljs-title function_">apply</span>(<span class="hljs-keyword">new</span> <span class="hljs-title function_">self</span>(), <span class="hljs-variable language_">arguments</span>);
+
+    <span class="hljs-keyword">return</span> fn.<span class="hljs-title function_">apply</span>(<span class="hljs-keyword">new</span> <span class="hljs-title function_">self</span>(), <span class="hljs-variable language_">arguments</span>);
+  };
+};
+</code></pre>
+<p>⚠️ <strong>注意</strong>：装饰器对类的行为的改变，是代码编译时发生的，而不是在运行时。</p>
+<h2>实践应用</h2>
+<h3>表单提交前验证</h3>
+<p>插件式表单验证，在提交前校验参数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">before</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn</span>) {
+  <span class="hljs-keyword">const</span> self = <span class="hljs-variable language_">this</span>;
+
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-comment">// before 返回 false 的情况直接 return 不再执行后续的原函数</span>
+    <span class="hljs-keyword">if</span> (fn.<span class="hljs-title function_">apply</span>(<span class="hljs-variable language_">this</span>, <span class="hljs-variable language_">arguments</span>) === <span class="hljs-literal">false</span>) {
+      <span class="hljs-keyword">return</span>;
+    }
+
+    <span class="hljs-keyword">return</span> self.<span class="hljs-title function_">apply</span>(<span class="hljs-variable language_">this</span>, <span class="hljs-variable language_">arguments</span>);
+  };
+};
+
+<span class="hljs-keyword">const</span> params = {
+  <span class="hljs-attr">username</span>: <span class="hljs-string">&#x27;mrsingsing&#x27;</span>,
+  <span class="hljs-attr">password</span>: <span class="hljs-string">&#x27;&#x27;</span>,
+};
+
+<span class="hljs-keyword">const</span> validate = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">if</span> (params.<span class="hljs-property">username</span> === <span class="hljs-string">&#x27;&#x27;</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;用户名无效&#x27;</span>);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+  <span class="hljs-keyword">if</span> (params.<span class="hljs-property">password</span> === <span class="hljs-string">&#x27;&#x27;</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;密码无效&#x27;</span>);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+};
+
+<span class="hljs-keyword">let</span> submit = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> params = {
+    <span class="hljs-attr">username</span>: <span class="hljs-string">&#x27;mrsingsing&#x27;</span>,
+    <span class="hljs-attr">password</span>: <span class="hljs-string">&#x27;&#x27;</span>,
+  };
+};
+
+submit = submit.<span class="hljs-title function_">before</span>(validate);
+<span class="hljs-comment">// 密码无效</span>
+</code></pre>
+<h3>单次访问装饰器</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> onceDecorator = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn</span>) {
+  <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> fn !== <span class="hljs-string">&#x27;function&#x27;</span>) {
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">TypeError</span>(<span class="hljs-string">&#x27;`fn` must be a function&#x27;</span>);
+  }
+
+  <span class="hljs-comment">// 函数执行上下文</span>
+  <span class="hljs-keyword">const</span> context = <span class="hljs-variable language_">this</span>;
+  <span class="hljs-comment">// Promise 是否被 fulfilled</span>
+  <span class="hljs-keyword">let</span> isPromiseFulfilled = <span class="hljs-literal">false</span>;
+  <span class="hljs-comment">// 函数是否已被调用过</span>
+  <span class="hljs-keyword">let</span> isFuncInvoked = <span class="hljs-literal">false</span>;
+
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">invokeFunc</span> = (<span class="hljs-params">funcArgs, resolve, reject</span>) =&gt; {
+    fn.<span class="hljs-title function_">call</span>(context, funcArgs).<span class="hljs-title function_">then</span>(
+      <span class="hljs-function">() =&gt;</span> {
+        isPromiseFulfilled = <span class="hljs-literal">true</span>;
+        <span class="hljs-title function_">resolve</span>();
+      },
+      <span class="hljs-function">() =&gt;</span> {
+        isPromiseFulfilled = <span class="hljs-literal">false</span>;
+        isFuncInvoked = <span class="hljs-literal">false</span>;
+        <span class="hljs-title function_">reject</span>();
+      }
+    );
+  };
+
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">...args</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+      <span class="hljs-keyword">if</span> (!isPromiseFulfilled &amp;&amp; !isFuncInvoked) {
+        <span class="hljs-title function_">invokeFunc</span>(args, resolve, reject);
+        isFuncInvoked = <span class="hljs-literal">true</span>;
+      }
+    });
+  };
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> onceDecorator;
+</code></pre>
+<p>因为装饰的可能是函数，也可能是对象的方法，所以提供了两个工具函数 <code>decoratorFunction</code> 和 <code>decoratorMethod</code>，具体实现如下：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">/**
+ * 装饰函数
+ * <span class="hljs-doctag">@param</span> {<span class="hljs-type">*</span>} func 被装饰的函数
+ * <span class="hljs-doctag">@param</span> {<span class="hljs-type">*</span>} decorator 装饰器
+ */</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">decorateFunction</span> = (<span class="hljs-params">func, decorator</span>) =&gt; {
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">decorator</span>(func);
+};
+
+<span class="hljs-comment">/**
+ * 装饰方法
+ * <span class="hljs-doctag">@param</span> {<span class="hljs-type">*</span>} func 被装饰的方法
+ * <span class="hljs-doctag">@param</span> {<span class="hljs-type">*</span>} decorator 装饰器
+ * <span class="hljs-doctag">@param</span> {<span class="hljs-type">*</span>} context 上下文
+ */</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">decorateMethod</span> = (<span class="hljs-params">func, decorator, context</span>) =&gt; {
+  <span class="hljs-keyword">return</span> decorator.<span class="hljs-title function_">bind</span>(context)(func);
+};
+</code></pre>
+<p>实际应用场景：</p>
+<ul>
+<li>Redux 中间件</li>
+<li>Vuex 中间件</li>
+<li>Express 和 Koa 洋葱模型（中间件）</li>
+</ul>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://www.jianshu.com/p/d9085f84a1c0">我是如何在项目中使用装饰器模式的</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"装饰者模式"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1></h1><article><h1>AudioNode</h1>
+<p>HTML5 音频 API 的主要框架和工作流程如下图，在 AudioContext 音频上下文中，把音频文件转成 buffer 格式，从音频源 source 开始，经过 AuidoNode 处理音频，最好到达 destination 输出音乐。这里形成了一个音频通道，每个模块通过 connect 方法链接并传送音频。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/audio/audio-context.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;AudioContext&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
+</code></pre>
+<h2>AudioContext</h2>
+<p>通过全局的 AudioContext 能获取当前网页音频上下文。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> audioContext = <span class="hljs-title function_">new</span> (<span class="hljs-variable language_">window</span>.<span class="hljs-property">AudioContext</span> || <span class="hljs-variable language_">window</span>.<span class="hljs-property">webkitAudioContext</span>)();
+</code></pre>
+<p><strong>属性</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>destination</td>
+<td>返回 AudioDestinationNode 对象，表示 AudioContext 中所有节点的最终节点，一般表示音频渲染设备。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>方法</strong></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>createBufferSource()</td>
+<td>创建一个 AudioBufferSourceNode 对象，他可以通过 AudioBuffer 对象来播放和处理包含在内的音频数据。</td>
+</tr>
+<tr>
+<td>createGain()</td>
+<td>创建一个 GainNode，它可以控制音频的总音量。</td>
+</tr>
+<tr>
+<td>createBiquadFilter()</td>
+<td>创建一个 BiquadFilterNode，它代表一个双二阶滤波器，可以设置集中不同且常见滤波器类型：高通、低通、带通等。</td>
+</tr>
+<tr>
+<td>createOscillator()</td>
+<td>创建一个 OscillatorNode，它表示一个周期性波形，基本上来说创造了一个音调。</td>
+</tr>
+</tbody>
+</table>
+<h2>音频转换成 Buffer 格式</h2>
+<p>使用 <code>decodeAudioData()</code> 方法把音频文件编译成 buffer 格式。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">decodeAudioData</span>(<span class="hljs-params">audioContext, url</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> {
+    <span class="hljs-keyword">let</span> request = <span class="hljs-keyword">new</span> <span class="hljs-title class_">XMLHttpRequest</span>();
+    request.<span class="hljs-title function_">open</span>(<span class="hljs-string">&#x27;GET&#x27;</span>, url, <span class="hljs-literal">true</span>);
+    request.<span class="hljs-property">responseType</span> = <span class="hljs-string">&#x27;arraybuffer&#x27;</span>;
+    request.<span class="hljs-property">onload</span> = <span class="hljs-function">() =&gt;</span> {
+      audioContext.<span class="hljs-title function_">decodeAudioData</span>(request.<span class="hljs-property">response</span>, <span class="hljs-function">(<span class="hljs-params">buffer</span>) =&gt;</span> {
+        <span class="hljs-keyword">if</span> (!buffer) {
+          <span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;error decoding file data: &#x27;</span> + url);
+          <span class="hljs-keyword">return</span>;
+        } <span class="hljs-keyword">else</span> {
+          <span class="hljs-title function_">resolve</span>(buffer);
+        }
+      });
+    };
+    request.<span class="hljs-property">onerror</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+      <span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;BufferLoader: XHR error&#x27;</span>);
+    };
+    request.<span class="hljs-title function_">send</span>();
+  });
+}
+
+<span class="hljs-keyword">let</span> buffer = <span class="hljs-title function_">decodeAudioData</span>(audioContext, <span class="hljs-string">&#x27;./sounds/music.mp3&#x27;</span>);
+</code></pre>
+<h2>AudioNode</h2>
+<p>音频节点接口是一个音频处理模块。包括音频源，音频输出，中间处理模块。</p>
+<h3>方法</h3>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>connect()</td>
+<td>链接两个 <strong>AudioNode</strong> 节点，把音频从一个 <strong>AudioNode</strong> 节点输出到另一个 <strong>AudioNode</strong> 节点，形成一个音频通道。</td>
+</tr>
+<tr>
+<td>disconnect()</td>
+<td>把 <strong>AudioNode</strong> 节点与其他节点断开链接。</td>
+</tr>
+</tbody>
+</table>
+<h3>AudioBufferSourceNode</h3>
+<p>音频源有多种，这里只介绍 <strong>buffer</strong> 的音频源，<strong>buffer</strong> 的音频源通过 <strong>AudioContext</strong> 接口的 <strong>createBufferSource</strong> 方法来创建。音频源节点继承 <strong>AudioNode</strong> 音频节点。</p>
+<pre class="hljs"><code>let bufferSource = audioContext.createBufferSource();
+</code></pre>
+<p>创建了 <strong>AudioBufferSourceNode</strong> 对象后，把 <strong>buffer</strong> 格式的音频数据赋值给 <strong>AudioBufferSourceNode</strong> 对象的 <strong>buffer</strong> 属性，此时音频已经传递到音频源，可以对音频进行处理或输出。</p>
+<pre class="hljs"><code>bufferSource.buffer = buffer;
+</code></pre>
+<p><strong>方法</strong></p>
+<p><strong>AudioBufferSourceNode.start(when[, duration])</strong></p>
+<p>开始播放。</p>
+<ul>
+<li>when：延迟播放时间，单位为秒。</li>
+<li>offset：定位音频到第几秒开始播放。</li>
+<li>duration：从开始播放结束时长，当经过设置秒数后自动结束音频播放。</li>
+</ul>
+<p><strong>AudioBufferSourceNode.stop([when])</strong></p>
+<ul>
+<li>when：延迟停止时间，单位为秒。</li>
+</ul>
+<p>停止播放，注意调用该方法后，无法再次调用 <strong>AudioBufferSourceNode.start</strong> 播放。</p>
+<h3>AudioDestinationNode</h3>
+<p>音频终点是通过 <strong>AudioContext</strong> 接口的 <strong>destination</strong> 属性访问的。音频终点继承 <strong>AudioNode</strong> 音频节点，</p>
+<p><strong>AudioDestinationNode</strong> 节点无法再把音频信息传递给下一个音频节点，即无法再链接其他音频节点，因为他已经是终点，没有输出，也可以理解为他自己就是输出。</p>
+<pre class="hljs"><code>let audioDestinationNode = audioContext.destination;
+</code></pre>
+<p>此时我们有音频起点 <strong>AudioBufferSourceNode</strong> 和音频终点 <strong>AudioDestinationNode</strong> ，使用 <strong>AudioNode.connect()</strong> 方法把起点和终点链接起来，就形成了一条有输入输出的音频通道，可以把音频直接播放出来。</p>
+<pre class="hljs"><code>bufferSource.connect(audioDestinationNode);
+</code></pre>
+<p><a href="https://codepen.io/leechikit/pen/KvaJRp">戳我看栗子</a>点击预览。</p>
+<h3>GainNode</h3>
+<p>用于音量变化。它是一个 <strong>AudioNode</strong> 类型的音频处理模块。</p>
+<pre class="hljs"><code>let gainNode = audioContext.createGain();
+</code></pre>
+<p>把音频源、音频输出和音频处理模块链接一起，形成可控制音量大小的音频。</p>
+<pre class="hljs"><code>bufferSource.connect(gainNode);
+gainNode.connect(audioDestinationNode);
+
+let controlVolume = value =&gt; {
+    gainNode.gain.value = value);
+}
+
+// 两倍音量播放
+controlVolume(2);
+</code></pre>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/audio/audio-context-2.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;AuditoContext2&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
+</code></pre>
+<p><a href="https://codepen.io/leechikit/pen/vJxewz">戳我看栗子</a>点击预览</p>
+<h3>BiquadFilterNode</h3>
+<p>表示一个简单的低频滤波器，可控制声调。它是一个 <strong>AudioNode</strong> 类型的音频处理模块。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> filterNode = audioContext.<span class="hljs-title function_">createBiquadFilter</span>();
+</code></pre>
+<p>输出一个变调的音频：</p>
+<pre class="hljs"><code class="language-js">bufferSource.<span class="hljs-title function_">connect</span>(filterNode);
+filterNode.<span class="hljs-title function_">connect</span>(audioDestinationNode);
+
+<span class="hljs-keyword">let</span> controlFrequency = <span class="hljs-keyword">function</span> (<span class="hljs-params">value</span>) {
+  filterNode.<span class="hljs-property">frequency</span>.<span class="hljs-property">value</span> = value;
+};
+
+<span class="hljs-comment">// 音频为1000变调</span>
+<span class="hljs-title function_">controlFrequency</span>(<span class="hljs-number">1000</span>);
+</code></pre>
+<h2>多个音频源</h2>
+<p>在一个音频上下文中，可以有多个音频处理通道，即多个音频源同时输出。各个音频处理通道内的操作是独立的，不影响其他音频通道。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/audio/audio-context-3.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;AudioContext3&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
+</code></pre>
+<p><a href="https://codepen.io/leechikit/pen/KvWyPV">戳我看栗子</a>点击预览</p>
+<h2>多个音频处理模块</h2>
+<p>一个音频源可以经过多个音频处理模块处理，音频处理模块叠加效果后输出。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/audio/audio-context-4.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;Webpack执行流程&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
+</code></pre>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"document-object-model\",\"multimedia\",\"audio-node\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"document-object-model/multimedia/audio-node\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"document-object-model/multimedia/audio-node\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"CesrwPJa0fcqYa-aIjk7l\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:T3105,"])</script><script>self.__next_f.push([1,"\u003ch1\u003eAudioNode\u003c/h1\u003e\n\u003cp\u003eHTML5 音频 API 的主要框架和工作流程如下图，在 AudioContext 音频上下文中，把音频文件转成 buffer 格式，从音频源 source 开始，经过 AuidoNode 处理音频，最好到达 destination 输出音乐。这里形成了一个音频通道，每个模块通过 connect 方法链接并传送音频。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/audio/audio-context.png\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;AudioContext\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{800}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003eAudioContext\u003c/h2\u003e\n\u003cp\u003e通过全局的 AudioContext 能获取当前网页音频上下文。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e audioContext = \u003cspan class=\"hljs-title function_\"\u003enew\u003c/span\u003e (\u003cspan class=\"hljs-variable language_\"\u003ewindow\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003eAudioContext\u003c/span\u003e || \u003cspan class=\"hljs-variable language_\"\u003ewindow\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003ewebkitAudioContext\u003c/span\u003e)();\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e属性\u003c/strong\u003e\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e属性\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003edestination\u003c/td\u003e\n\u003ctd\u003e返回 AudioDestinationNode 对象，表示 AudioContext 中所有节点的最终节点，一般表示音频渲染设备。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e\u003cstrong\u003e方法\u003c/strong\u003e\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e方法\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003ecreateBufferSource()\u003c/td\u003e\n\u003ctd\u003e创建一个 AudioBufferSourceNode 对象，他可以通过 AudioBuffer 对象来播放和处理包含在内的音频数据。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ecreateGain()\u003c/td\u003e\n\u003ctd\u003e创建一个 GainNode，它可以控制音频的总音量。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ecreateBiquadFilter()\u003c/td\u003e\n\u003ctd\u003e创建一个 BiquadFilterNode，它代表一个双二阶滤波器，可以设置集中不同且常见滤波器类型：高通、低通、带通等。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ecreateOscillator()\u003c/td\u003e\n\u003ctd\u003e创建一个 OscillatorNode，它表示一个周期性波形，基本上来说创造了一个音调。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e音频转换成 Buffer 格式\u003c/h2\u003e\n\u003cp\u003e使用 \u003ccode\u003edecodeAudioData()\u003c/code\u003e 方法把音频文件编译成 buffer 格式。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edecodeAudioData\u003c/span\u003e(\u003cspan class=\"hljs-params\"\u003eaudioContext, url\u003c/span\u003e) {\n  \u003cspan class=\"hljs-keyword\"\u003ereturn\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003ePromise\u003c/span\u003e(\u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003eresolve\u003c/span\u003e) =\u0026gt;\u003c/span\u003e {\n    \u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e request = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eXMLHttpRequest\u003c/span\u003e();\n    request.\u003cspan class=\"hljs-title function_\"\u003eopen\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;GET\u0026#x27;\u003c/span\u003e, url, \u003cspan class=\"hljs-literal\"\u003etrue\u003c/span\u003e);\n    request.\u003cspan class=\"hljs-property\"\u003eresponseType\u003c/span\u003e = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;arraybuffer\u0026#x27;\u003c/span\u003e;\n    request.\u003cspan class=\"hljs-property\"\u003eonload\u003c/span\u003e = \u003cspan class=\"hljs-function\"\u003e() =\u0026gt;\u003c/span\u003e {\n      audioContext.\u003cspan class=\"hljs-title function_\"\u003edecodeAudioData\u003c/span\u003e(request.\u003cspan class=\"hljs-property\"\u003eresponse\u003c/span\u003e, \u003cspan class=\"hljs-function\"\u003e(\u003cspan class=\"hljs-params\"\u003ebuffer\u003c/span\u003e) =\u0026gt;\u003c/span\u003e {\n        \u003cspan class=\"hljs-keyword\"\u003eif\u003c/span\u003e (!buffer) {\n          \u003cspan class=\"hljs-title function_\"\u003ealert\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;error decoding file data: \u0026#x27;\u003c/span\u003e + url);\n          \u003cspan class=\"hljs-keyword\"\u003ereturn\u003c/span\u003e;\n        } \u003cspan class=\"hljs-keyword\"\u003eelse\u003c/span\u003e {\n          \u003cspan class=\"hljs-title function_\"\u003eresolve\u003c/span\u003e(buffer);\n        }\n      });\n    };\n    request.\u003cspan class=\"hljs-property\"\u003eonerror\u003c/span\u003e = \u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e (\u003cspan class=\"hljs-params\"\u003e\u003c/span\u003e) {\n      \u003cspan class=\"hljs-title function_\"\u003ealert\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;BufferLoader: XHR error\u0026#x27;\u003c/span\u003e);\n    };\n    request.\u003cspan class=\"hljs-title function_\"\u003esend\u003c/span\u003e();\n  });\n}\n\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e buffer = \u003cspan class=\"hljs-title function_\"\u003edecodeAudioData\u003c/span\u003e(audioContext, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;./sounds/music.mp3\u0026#x27;\u003c/span\u003e);\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003eAudioNode\u003c/h2\u003e\n\u003cp\u003e音频节点接口是一个音频处理模块。包括音频源，音频输出，中间处理模块。\u003c/p\u003e\n\u003ch3\u003e方法\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e方法\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003econnect()\u003c/td\u003e\n\u003ctd\u003e链接两个 \u003cstrong\u003eAudioNode\u003c/strong\u003e 节点，把音频从一个 \u003cstrong\u003eAudioNode\u003c/strong\u003e 节点输出到另一个 \u003cstrong\u003eAudioNode\u003c/strong\u003e 节点，形成一个音频通道。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003edisconnect()\u003c/td\u003e\n\u003ctd\u003e把 \u003cstrong\u003eAudioNode\u003c/strong\u003e 节点与其他节点断开链接。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3\u003eAudioBufferSourceNode\u003c/h3\u003e\n\u003cp\u003e音频源有多种，这里只介绍 \u003cstrong\u003ebuffer\u003c/strong\u003e 的音频源，\u003cstrong\u003ebuffer\u003c/strong\u003e 的音频源通过 \u003cstrong\u003eAudioContext\u003c/strong\u003e 接口的 \u003cstrong\u003ecreateBufferSource\u003c/strong\u003e 方法来创建。音频源节点继承 \u003cstrong\u003eAudioNode\u003c/strong\u003e 音频节点。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003elet bufferSource = audioContext.createBufferSource();\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e创建了 \u003cstrong\u003eAudioBufferSourceNode\u003c/strong\u003e 对象后，把 \u003cstrong\u003ebuffer\u003c/strong\u003e 格式的音频数据赋值给 \u003cstrong\u003eAudioBufferSourceNode\u003c/strong\u003e 对象的 \u003cstrong\u003ebuffer\u003c/strong\u003e 属性，此时音频已经传递到音频源，可以对音频进行处理或输出。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003ebufferSource.buffer = buffer;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e方法\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAudioBufferSourceNode.start(when[, duration])\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e开始播放。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ewhen：延迟播放时间，单位为秒。\u003c/li\u003e\n\u003cli\u003eoffset：定位音频到第几秒开始播放。\u003c/li\u003e\n\u003cli\u003eduration：从开始播放结束时长，当经过设置秒数后自动结束音频播放。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eAudioBufferSourceNode.stop([when])\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ewhen：延迟停止时间，单位为秒。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e停止播放，注意调用该方法后，无法再次调用 \u003cstrong\u003eAudioBufferSourceNode.start\u003c/strong\u003e 播放。\u003c/p\u003e\n\u003ch3\u003eAudioDestinationNode\u003c/h3\u003e\n\u003cp\u003e音频终点是通过 \u003cstrong\u003eAudioContext\u003c/strong\u003e 接口的 \u003cstrong\u003edestination\u003c/strong\u003e 属性访问的。音频终点继承 \u003cstrong\u003eAudioNode\u003c/strong\u003e 音频节点，\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAudioDestinationNode\u003c/strong\u003e 节点无法再把音频信息传递给下一个音频节点，即无法再链接其他音频节点，因为他已经是终点，没有输出，也可以理解为他自己就是输出。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003elet audioDestinationNode = audioContext.destination;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e此时我们有音频起点 \u003cstrong\u003eAudioBufferSourceNode\u003c/strong\u003e 和音频终点 \u003cstrong\u003eAudioDestinationNode\u003c/strong\u003e ，使用 \u003cstrong\u003eAudioNode.connect()\u003c/strong\u003e 方法把起点和终点链接起来，就形成了一条有输入输出的音频通道，可以把音频直接播放出来。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003ebufferSource.connect(audioDestinationNode);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ca href=\"https://codepen.io/leechikit/pen/KvaJRp\"\u003e戳我看栗子\u003c/a\u003e点击预览。\u003c/p\u003e\n\u003ch3\u003eGainNode\u003c/h3\u003e\n\u003cp\u003e用于音量变化。它是一个 \u003cstrong\u003eAudioNode\u003c/strong\u003e 类型的音频处理模块。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003elet gainNode = audioContext.createGain();\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e把音频源、音频输出和音频处理模块链接一起，形成可控制音量大小的音频。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003ebufferSource.connect(gainNode);\ngainNode.connect(audioDestinationNode);\n\nlet controlVolume = value =\u0026gt; {\n    gainNode.gain.value = value);\n}\n\n// 两倍音量播放\ncontrolVolume(2);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/audio/audio-context-2.png\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;AuditoContext2\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{800}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ca href=\"https://codepen.io/leechikit/pen/vJxewz\"\u003e戳我看栗子\u003c/a\u003e点击预览\u003c/p\u003e\n\u003ch3\u003eBiquadFilterNode\u003c/h3\u003e\n\u003cp\u003e表示一个简单的低频滤波器，可控制声调。它是一个 \u003cstrong\u003eAudioNode\u003c/strong\u003e 类型的音频处理模块。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e filterNode = audioContext.\u003cspan class=\"hljs-title function_\"\u003ecreateBiquadFilter\u003c/span\u003e();\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e输出一个变调的音频：\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003ebufferSource.\u003cspan class=\"hljs-title function_\"\u003econnect\u003c/span\u003e(filterNode);\nfilterNode.\u003cspan class=\"hljs-title function_\"\u003econnect\u003c/span\u003e(audioDestinationNode);\n\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e controlFrequency = \u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e (\u003cspan class=\"hljs-params\"\u003evalue\u003c/span\u003e) {\n  filterNode.\u003cspan class=\"hljs-property\"\u003efrequency\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003evalue\u003c/span\u003e = value;\n};\n\n\u003cspan class=\"hljs-comment\"\u003e// 音频为1000变调\u003c/span\u003e\n\u003cspan class=\"hljs-title function_\"\u003econtrolFrequency\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1000\u003c/span\u003e);\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e多个音频源\u003c/h2\u003e\n\u003cp\u003e在一个音频上下文中，可以有多个音频处理通道，即多个音频源同时输出。各个音频处理通道内的操作是独立的，不影响其他音频通道。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/audio/audio-context-3.png\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;AudioContext3\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{800}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ca href=\"https://codepen.io/leechikit/pen/KvWyPV\"\u003e戳我看栗子\u003c/a\u003e点击预览\u003c/p\u003e\n\u003ch2\u003e多个音频处理模块\u003c/h2\u003e\n\u003cp\u003e一个音频源可以经过多个音频处理模块处理，音频处理模块叠加效果后输出。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/audio/audio-context-4.png\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;Webpack执行流程\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{800}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"$undefined\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

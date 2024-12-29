@@ -1,0 +1,84 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","mutator-methods","push"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/push","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/push","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","u_0lzA4xLO4XAbmys_TVb",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T111e,<h1>Array.prototype.push()</h1>
+<p><code>Array.prototype.push()</code> 方法用于向当前数组的末尾添加一个或多个元素，并返回新的数组长度。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">push</span>( item1 [, items...] )
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">push</span>(...<span class="hljs-attr">items</span>: T[]): <span class="hljs-built_in">number</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">item1</td>
+<td style="text-align:left">添加元素</td>
+<td style="text-align:left">any</td>
+</tr>
+<tr>
+<td style="text-align:left">itemN</td>
+<td style="text-align:left">添加的其他元素</td>
+<td style="text-align:left">any</td>
+</tr>
+</tbody>
+</table>
+<p>如果添加的元素类型为数组类型，仍然会被当作一个元素看待，只是这个元素是数组类型而已。如果要合并两个数组，请使用 <code>concat()</code> 函数。</p>
+<p>返回值：</p>
+<p>返回添加元素后的数组长度。</p>
+<h2>方法说明</h2>
+<p>当向数组中添加新的元素时，数组的 <code>length</code> 属性也会随之改变。一般而言，数组的 <code>length</code> 属性将会加 <code>N</code> （ <code>N</code> 为添加的元素个数）。</p>
+<p><code>push()</code> 方法有意具有通用性。该方法和 <code>call()</code> 或 <code>apply()</code> 一起使用时，可应用在类似数组的对象上。<code>push()</code> 方法根据 length 属性来决定从哪里开始插入给定的值。如果 <code>length</code> 不能被转成一个数值，则插入的元素索引为 0，包括 <code>length</code> 不存在时。当 <code>length</code> 不存在时，将会创建它。</p>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
+<span class="hljs-keyword">const</span> bar = foo.<span class="hljs-title function_">push</span>(<span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;d&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(bar);
+<span class="hljs-comment">// 4</span>
+</code></pre>
+<h3>合并数组</h3>
+<p>该示例使用 <code>apply()</code> 添加第二个数组的所有元素。注意当第二个数组太大时不要使用这个方法来合并数组，因为事实上一个函数能够接受的参数个数是有限制的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
+<span class="hljs-keyword">const</span> bar = [<span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;d&#x27;</span>];
+
+<span class="hljs-comment">// 将二个数组融合进第一个数组</span>
+<span class="hljs-comment">// 相当于 foo.push(&#x27;c&#x27;, &#x27;d&#x27;);</span>
+<span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">push</span>.<span class="hljs-title function_">apply</span>(foo, bar);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push">MDN: Array.prototype.push</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.push"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

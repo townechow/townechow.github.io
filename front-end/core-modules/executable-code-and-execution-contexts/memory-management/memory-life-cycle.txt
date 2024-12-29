@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","memory-management","memory-life-cycle"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/memory-management/memory-life-cycle","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/memory-management/memory-life-cycle","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","0jLoCFOtWEBrvyqJMlECU",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T19c4,<h1>内存生命周期</h1>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../../assets/memory-life-cycle/memory-life-cycle.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;内存生命周期&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>JavaScript 环境中分配的内存一般有如下生命周期：</p>
+<ol>
+<li><strong>内存分配</strong>：当我们声明变量、函数、对象的时候，系统会自动为他们分配内存</li>
+<li><strong>内存使用</strong>：即读写内存，也就是使用变量、函数等</li>
+<li><strong>内存回收</strong>：使用完毕，由 <a href="./garbage-collection">垃圾回收机制</a> 自动回收不再使用的内存</li>
+</ol>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 在内存中给数值变量分配空间</span>
+<span class="hljs-keyword">var</span> a = <span class="hljs-number">20</span>;
+
+<span class="hljs-comment">// 使用内存</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a + <span class="hljs-number">80</span>);
+
+<span class="hljs-comment">// 使用完毕之后，释放内存空间</span>
+a = <span class="hljs-literal">null</span>;
+</code></pre>
+<h2>内存分配</h2>
+<h3>值的初始化</h3>
+<p>为了不让开发者费心分配内存，JavaScript 在定义变量时就完成了内存分配。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 给数值变量分配内存</span>
+<span class="hljs-keyword">var</span> a = <span class="hljs-number">123</span>;
+
+<span class="hljs-comment">// 给字符串分配内存</span>
+<span class="hljs-keyword">var</span> b = <span class="hljs-string">&#x27;Hello&#x27;</span>;
+
+<span class="hljs-comment">// 给对象及其包含的值分配内存</span>
+<span class="hljs-keyword">var</span> c = {
+  <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>,
+  <span class="hljs-attr">b</span>: <span class="hljs-literal">null</span>,
+};
+
+<span class="hljs-comment">// 给数组及其包含的值分配内存</span>
+<span class="hljs-keyword">var</span> d = [<span class="hljs-number">0</span>, <span class="hljs-literal">null</span>, <span class="hljs-literal">undefined</span>, <span class="hljs-string">&#x27;Hello&#x27;</span>];
+
+<span class="hljs-comment">// 给函数分配内存</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">e</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-comment">// 函数表达式也能分配内存</span>
+someElement.<span class="hljs-title function_">addEventListener</span>(
+  <span class="hljs-string">&#x27;click&#x27;</span>,
+  <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    someElement.<span class="hljs-property">style</span>.<span class="hljs-property">backgroundColor</span> = <span class="hljs-string">&#x27;blue&#x27;</span>;
+  },
+  <span class="hljs-literal">false</span>
+);
+</code></pre>
+<h3>函数调用分配</h3>
+<p>函数调用结果分配对象内存。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 分配 Date 对象实例</span>
+<span class="hljs-keyword">var</span> f = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+
+<span class="hljs-comment">// 分配 DOM 元素</span>
+<span class="hljs-keyword">var</span> g = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
+</code></pre>
+<p>分配新变量或新对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> s = <span class="hljs-string">&#x27;bingo&#x27;</span>;
+<span class="hljs-keyword">var</span> q = s.<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// q 是一个新的字符串</span>
+<span class="hljs-comment">// 因为字符串是不可变量</span>
+<span class="hljs-comment">// JavaScript 可能决定不分配内存</span>
+<span class="hljs-comment">// 只是存储 [0-3] 的范围</span>
+
+<span class="hljs-keyword">var</span> x = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
+<span class="hljs-keyword">var</span> y = [<span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;d&#x27;</span>];
+<span class="hljs-keyword">var</span> z = x.<span class="hljs-title function_">concat</span>(y);
+<span class="hljs-comment">// 新数组有四个元素 是 x 和 y 连接的结果</span>
+</code></pre>
+<h2>内存使用</h2>
+<p>使用值的过程实际上是对分配内存进行读取与写入的操作。读取与写入可能是写入一个变量或者一个对象的属性值，甚至传递函数的参数。</p>
+<h2>内存回收</h2>
+<p>大多数内存管理的问题都在这个阶段。在这里最艰难的任务是找到所分配的内存确实已经不再需要了。它往往要求开发者来确定在程序中哪一块内存不再需要并且释放它。</p>
+<p>高级语言解释器嵌入了 <a href="./garbage-collection">垃圾回收器机制</a>，它的主要工作是跟踪内存的分配和使用，以便当分配的内存不再使用时，自动释放它。这只能是一个近似的过程，因为要知道是否仍然需要某块内存是<a href="http://en.wikipedia.org/wiki/Decidability_%28logic%29">无法判定的</a>（无法通过某种算法解决）。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">📝 How JavaScript works:memory management + how to handle 4 common memory leaks</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"内存生命周期"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

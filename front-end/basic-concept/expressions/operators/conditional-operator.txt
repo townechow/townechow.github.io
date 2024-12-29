@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","expressions","operators","conditional-operator"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/expressions/operators/conditional-operator","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/expressions/operators/conditional-operator","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jqUJGvTIcYFbo-VOedXD6",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tcd6,<h1>条件运算符</h1>
+<p><strong>条件运算符（Conditional Operator）<strong>是 JavaScript 中唯一的一个</strong>三元运算符</strong>（三个操作数），有时直接称做三元运算符。</p>
+<pre class="hljs"><code class="language-js">variable = boolean_expression ? true_value : false_value;
+</code></pre>
+<p>本质上，这就是基于对 <code>boolean_expression</code> 求值的结果，决定给变量 <code>variable</code> 赋什么值。如果求值结果是 <code>true</code> ，则给变量 <code>variable</code> 赋值<code>true_value</code>；如果求值结果是 <code>false</code>，则给变量 <code>variable</code> 赋值<code>false_value</code>。</p>
+<p>条件运算符的操作数可以是任意类型，第一个操作数当成布尔值，如果它是真值 <code>true</code>，那么将计算第二个操作数，并返回其计算结果。否则，如果第一个操作数是假值 <code>false</code>，那么将计算第三个操作数，并返回其计算结果。第二个和第三个操作数总是会计算其中之一，不可能两者同时执行。</p>
+<p>其实使用 <code>if</code> 语句也会带来同样的效果，<code>?:</code>运算符只是提供了一种简写形式。下面是一个 <code>?:</code> 的典型应用场景，判断一个变量是否有定义(并拥有一个有意义的真值)，如果有定义则使用它，如果无定义则使用一个默认值:</p>
+<pre class="hljs"><code class="language-js">greeting = <span class="hljs-string">&#x27;hello &#x27;</span> + (username ? username : <span class="hljs-string">&#x27;there&#x27;</span>);
+</code></pre>
+<p>这和下面使用 <code>if</code> 语句的代码是等价的，但显然上面的代码更加简洁:</p>
+<pre class="hljs"><code class="language-js">greeting = <span class="hljs-string">&#x27;hello &#x27;</span>;
+<span class="hljs-keyword">if</span> (username) greeting += username;
+<span class="hljs-keyword">else</span> greeting += <span class="hljs-string">&#x27;there&#x27;</span>;
+</code></pre>
+<p>条件运算符（三元条件表达式）与 <code>if...else</code> 语句具有同样表达效果，但是两者有一个重大差别。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">项</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">返回值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>if...else</code></td>
+<td style="text-align:left">语句</td>
+<td style="text-align:left">无</td>
+</tr>
+<tr>
+<td style="text-align:left">条件运算符</td>
+<td style="text-align:left">表达式</td>
+<td style="text-align:left">有</td>
+</tr>
+</tbody>
+</table>
+<p>因此，在需要返回值的场合，只能使用条件运算符（三元条件表达式），而不能使用 <code>if...else</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">true</span> ? <span class="hljs-string">&#x27;T&#x27;</span> : <span class="hljs-string">&#x27;F&#x27;</span>);
+<span class="hljs-comment">// &#x27;T&#x27;</span>
+</code></pre>
+<p>上面代码中，<code>console.log()</code>方法的参数必须是一个表达式，这时就只能使用三元条件表达式。</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"条件运算符"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

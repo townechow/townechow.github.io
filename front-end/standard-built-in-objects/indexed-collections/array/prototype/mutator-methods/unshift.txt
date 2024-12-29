@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","mutator-methods","unshift"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/unshift","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/unshift","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Oi9n5_nc4Mgj7SPQl5f0_",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tbc6,<h1>Array.prototype.unshift()</h1>
+<p><code>Array.prototype.unshift()</code> 方法用于向当前数组的开头位置插入一个或多个指定的元素，并返回插入后的数组长度。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">unshift</span>( item1 [, items... ] )
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">unshif</span>(...<span class="hljs-attr">items</span>: T[]): <span class="hljs-built_in">number</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">item1</td>
+<td style="text-align:left">添加到当前数组开头处的元素</td>
+<td style="text-align:left">any</td>
+</tr>
+<tr>
+<td style="text-align:left">itemN</td>
+<td style="text-align:left">要添加到当前数组开头处的其他项，可以有多个。</td>
+<td style="text-align:left">any</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<p>返回插入元素后的当前数组的长度。</p>
+<h2>方法说明</h2>
+<p>当向数组中添加新的元素时，数组的 <code>length</code> 属性也会随之改变（如果数组中有元素的话），一般而言，数组的 <code>length</code> 属性将会加 <code>N</code> （ <code>N</code> 为添加的元素个数）。</p>
+<h2>代码示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>];
+
+arr.<span class="hljs-title function_">unshift</span>(<span class="hljs-number">0</span>);
+<span class="hljs-comment">// 3</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr);
+<span class="hljs-comment">// [0, 1, 2]</span>
+
+arr.<span class="hljs-title function_">unshift</span>(-<span class="hljs-number">2</span>, -<span class="hljs-number">1</span>);
+<span class="hljs-comment">// 5</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr);
+<span class="hljs-comment">// [-2, -1, 0, 1, 2]</span>
+
+arr.<span class="hljs-title function_">unshift</span>([-<span class="hljs-number">3</span>]);
+<span class="hljs-comment">// 6</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr);
+<span class="hljs-comment">// [[-3], -2, -1, 0, 1, 2]</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift">MDN: Array.prototype.unshift</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.unshift"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","accessor-methods","slice"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/accessor-methods/slice","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/accessor-methods/slice","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9TsttIbsU_vQZ1Z1cVsOz",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1d84,<h1>Array.prototype.slice()</h1>
+<p><code>Array.prototype.slice()</code> 方法用于浅拷贝指定区间的数组成员。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">slice</span>( start [, end ] );
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">slice</span>(<span class="hljs-attr">start</span>?: <span class="hljs-built_in">number</span>, <span class="hljs-attr">end</span>?: <span class="hljs-built_in">number</span>): T[];
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">start</td>
+<td style="text-align:left">浅拷贝区间的开始索引</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">end</td>
+<td style="text-align:left">浅拷贝区间的结束索引，浅拷贝不包括该索引所得值</td>
+<td style="text-align:left">number</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<p>返回一个含有提取元素的新数组。</p>
+<h2>方法说明</h2>
+<p><code>slice</code> 方法不修改原数组，只会返回浅拷贝原数组的新数组。</p>
+<p>原数组的元素会按照下述规则拷贝：</p>
+<ul>
+<li>如果该元素是个对象引用 （不是实际的对象），<code>slice</code> 会拷贝这个对象引用到新的数组里。两个对象引用都引用了同一个对象。如果被引用的对象发生改变，则新的和原来的数组中的这个元素也会发生改变。</li>
+<li>对于字符串、数字及布尔值来说，<code>slice</code> 会拷贝这些值到新的数组里。在别的数组里修改这些字符串或数字或是布尔值，将不会影响另一个数组。
+如果向两个数组任一中添加了新元素，则另一个不会受到影响。</li>
+</ul>
+<p><code>slice()</code> 方法涉及到 <code>Number()</code> 转型函数的隐式类型转换，当 <code>start</code> 被转换为 <code>NaN</code> 时，相当于 <code>start</code> 为 0；当 <code>end</code> 被转换为 <code>NaN</code> 时（<code>end</code> 为 <code>undefined</code> 除外），则输出空数组。</p>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-number">1</span>);
+<span class="hljs-comment">// [2, 3, 4, 5]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-number">0</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// [1, 2]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// [2]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// [1, 2, 3, 4, 5]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-number">0</span>, <span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// []</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-literal">true</span>, [<span class="hljs-number">3</span>]);
+<span class="hljs-comment">// [2, 3]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-literal">null</span>, <span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// [1, 2,  3,4, 5]</span>
+
+arr.<span class="hljs-title function_">slice</span>({});
+<span class="hljs-comment">// [1, 2, 3, 4, 5]</span>
+
+arr.<span class="hljs-title function_">slice</span>(<span class="hljs-string">&#x27;2&#x27;</span>, [<span class="hljs-number">5</span>]);
+<span class="hljs-comment">// [3, 4, 5]</span>
+</code></pre>
+<h3>截取数组成员</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> fruits = [<span class="hljs-string">&#x27;Banana&#x27;</span>, <span class="hljs-string">&#x27;Orange&#x27;</span>, <span class="hljs-string">&#x27;Lemon&#x27;</span>, <span class="hljs-string">&#x27;Apple&#x27;</span>, <span class="hljs-string">&#x27;Mango&#x27;</span>];
+<span class="hljs-keyword">var</span> citrus = fruits.<span class="hljs-title function_">slice</span>(<span class="hljs-number">1</span>, <span class="hljs-number">3</span>);
+
+<span class="hljs-comment">// fruits contains [&#x27;Banana&#x27;, &#x27;Orange&#x27;, &#x27;Lemon&#x27;, &#x27;Apple&#x27;, &#x27;Mango&#x27;]</span>
+<span class="hljs-comment">// citrus contains [&#x27;Orange&#x27;,&#x27;Lemon&#x27;]</span>
+</code></pre>
+<h3>类数组对象</h3>
+<p><code>slice</code> 方法可以用来将一个类数组对象转换成一个真正的数组。你只需将该方法绑定到这个对象上。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">list</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">slice</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>);
+}
+
+<span class="hljs-keyword">const</span> arr = <span class="hljs-title function_">list</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// [1, 2, 3]</span>
+</code></pre>
+<p>除了使用 <code>Array.prototype.slice.call(arguments)</code>，你也可以简单的使用 <code>[].slice.call(arguments)</code> 来代替。另外，你可以使用 <code>bind</code> 来简化该过程。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> unboundSlice = <span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">slice</span>;
+<span class="hljs-keyword">const</span> slice = <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">call</span>.<span class="hljs-title function_">bind</span>(unboundSlice);
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">list</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">slice</span>(<span class="hljs-variable language_">arguments</span>);
+}
+
+<span class="hljs-keyword">const</span> arr = <span class="hljs-title function_">list</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// [1, 2, 3]</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">MDN: Array.prototype.slice</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.slice"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

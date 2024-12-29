@@ -1,0 +1,576 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1>Array</h1><article><h1>Array 对象</h1>
+<p><code>Array</code> 对象时用于构造数组的全局对象，类似时类似于列表的高阶对象。</p>
+<p><code>Array</code> 对象主要用于存储多个数据项，数据可以是任意类型。</p>
+<p>所有主流浏览器均支持该对象。</p>
+<h2>语法</h2>
+<p><strong>字面量</strong></p>
+<pre class="hljs"><code class="language-js">[element0, element1, ..., elementN]
+</code></pre>
+<p><strong>数组类型转换函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
+</code></pre>
+<p><strong>构造函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
+
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(arrayLength)
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ArrayConstructor</span> {
+  <span class="hljs-title function_">new</span> (<span class="hljs-attr">arrayLength</span>?: <span class="hljs-built_in">number</span>): <span class="hljs-built_in">any</span>[];
+  <span class="hljs-keyword">new</span> &lt;T&gt;(<span class="hljs-attr">arrayLength</span>: <span class="hljs-built_in">number</span>): T[];
+  <span class="hljs-keyword">new</span> &lt;T&gt;(...<span class="hljs-attr">items</span>: T[]): T[];
+  (<span class="hljs-attr">arrayLength</span>?: <span class="hljs-built_in">number</span>): <span class="hljs-built_in">any</span>[];
+  &lt;T&gt;(<span class="hljs-attr">arrayLength</span>: <span class="hljs-built_in">number</span>): T[];
+  &lt;T&gt;(...<span class="hljs-attr">items</span>: T[]): T[];
+  <span class="hljs-title function_">isArray</span>(<span class="hljs-attr">arg</span>: <span class="hljs-built_in">any</span>): arg is <span class="hljs-built_in">any</span>[];
+  <span class="hljs-keyword">readonly</span> <span class="hljs-attr">prototype</span>: <span class="hljs-built_in">any</span>[];
+}
+
+<span class="hljs-keyword">declare</span> <span class="hljs-keyword">var</span> <span class="hljs-title class_">Array</span>: <span class="hljs-title class_">ArrayConstructor</span>;
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>elementN</code></td>
+<td>任意类型</td>
+<td><code>Array</code> 构造器会根据给定的元素创建一个 JavaScript 数组，但是当仅有一个参数且为数字时除外（详见下面的 <code>arrayLength</code> 参数）。</td>
+</tr>
+<tr>
+<td><code>arrayLength</code></td>
+<td><code>Number</code> 类型</td>
+<td>一个范围在 0 到 2[32]-1 之间的整数，此时将返回一个 <code>length</code> 的值等于 <code>arrayLength</code> 的数组对象（言外之意就是该数组此时并没有包含任何实际的元素，不能理所当然地认为它包含 <code>arrayLength</code> 个值为 <code>undefined</code> 的元素）。如果传入的参数不是有效值，则会抛出 <code>RangeError</code> 异常。</td>
+</tr>
+</tbody>
+</table>
+<h2>描述</h2>
+<p>数组是类似列表的对象，本质上，数组是一种特殊的对象（有次序的对象），在原型中提供了遍历以及改变其中元素的很多方法。 数组的长度及其中元素的类型都是不固定的。因为数组的长度可读可写，有时数组中的元素也不是在连续的位置，所以 JavaScript 数组不一定是密集的。通常情况下，这是一些方便的特性；如果这些特性不适用于你的特定使用场景，你可以考虑使用固定类型数组。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">typeof</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]; <span class="hljs-comment">// &quot;object&quot;</span>
+</code></pre>
+<p>数组的特殊性体现在，它的键名是按次序排列的一组整数。由于数组成员的键名是固定的，因此数组不用为每个元素指定键名，而对象的每个成员都必须指定键名。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">keys</span>(arr)); <span class="hljs-comment">// [&quot;0&quot;, &quot;1&quot;, &quot;2&quot;]</span>
+
+<span class="hljs-keyword">var</span> obj = {
+  <span class="hljs-attr">name1</span>: <span class="hljs-string">&#x27;a&#x27;</span>,
+  <span class="hljs-attr">name2</span>: <span class="hljs-string">&#x27;b&#x27;</span>,
+  <span class="hljs-attr">name3</span>: <span class="hljs-string">&#x27;c&#x27;</span>,
+};
+</code></pre>
+<p>数组是对象的特殊形式，使用方括号访问数组元素就像用方括号访问对象的属性一样。</p>
+<p>JavaScript 语言规定，对象的键名一律为字符串，所以，数组的键名其实也是字符串。之所以可以用数值读取，是因为非字符串的键名会被转为字符串，然后将其作为属性名来使用</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 创建一个普通的对象</span>
+o = {};
+
+<span class="hljs-comment">// 用一个整数来索引它</span>
+o[<span class="hljs-number">1</span>] = <span class="hljs-string">&#x27;one&#x27;</span>;
+
+<span class="hljs-comment">// 数值键名被自动转成字符串</span>
+<span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr[<span class="hljs-string">&#x27;0&#x27;</span>]);
+<span class="hljs-comment">// &#x27;a&#x27;</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr[<span class="hljs-number">0</span>]);
+<span class="hljs-comment">// &#x27;a&#x27;</span>
+</code></pre>
+<p>但是，一定要区分数组索引和对象的属性名：所有的索引都是属性名，但只有在 0~232-2(4294967294)之间的整数属性名才是索引。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [];
+
+<span class="hljs-comment">//索引</span>
+a[<span class="hljs-string">&#x27;1000&#x27;</span>] = <span class="hljs-string">&#x27;abc&#x27;</span>;
+a[<span class="hljs-number">1000</span>]; <span class="hljs-comment">// &#x27;abc&#x27;</span>
+
+<span class="hljs-comment">//索引</span>
+a[<span class="hljs-number">1.0</span>] = <span class="hljs-number">6</span>;
+a[<span class="hljs-number">1</span>]; <span class="hljs-comment">// 6</span>
+</code></pre>
+<p>单独的数值不能作为标识符（Identifier）。所以，数组成员只能用方括号法表示。（在 JavaScript 中，以数字开头的属性不能用点号引用，必须用方括号）</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr[<span class="hljs-number">0</span>]);
+<span class="hljs-comment">// 1</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr<span class="hljs-number">.0</span>);
+<span class="hljs-comment">// SyntaxError</span>
+</code></pre>
+<p>可以使用负数或非整数来索引数组。但由于其不在 0~2 的 32 次方-2 的范围内，所以其只是数组的属性名，而不是数组的索引，明显的特征是不改变数组的长度。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+
+<span class="hljs-comment">// 属性名</span>
+a[-<span class="hljs-number">1.23</span>] = <span class="hljs-literal">true</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>);
+<span class="hljs-comment">// 3</span>
+
+<span class="hljs-comment">// 索引</span>
+a[<span class="hljs-number">10</span>] = <span class="hljs-number">5</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>);
+<span class="hljs-comment">// 11</span>
+
+<span class="hljs-comment">// 属性名</span>
+a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">&#x27;testing&#x27;</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>);
+<span class="hljs-comment">// 11</span>
+</code></pre>
+<h2>构造函数</h2>
+<h3>属性</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Array.length</code></td>
+<td style="text-align:left"><code>Array</code> 构造函数的 <code>length</code> 属性，其值为 1（注意该属性为静态属性，不是数组实例的 <code>length</code> 属性）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype</code></td>
+<td style="text-align:left">通过数组的原型对象可以为所有数组对象添加属性。</td>
+</tr>
+</tbody>
+</table>
+<h3>方法</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Array.form()</code></td>
+<td style="text-align:left">从一个类似数组或可迭代对象中创建一个新的数组实例。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.isArray()</code></td>
+<td style="text-align:left">用于判断指定值是否为数组。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.of()</code></td>
+<td style="text-align:left">创建一个具有可变数量参数的新数组实例，而不考虑参数的数量或类型。</td>
+</tr>
+</tbody>
+</table>
+<h2>原型对象</h2>
+<p>所有数组实例都会从 <code>Array.prototype</code> 继承属性和方法。修改 <code>Array</code> 的原型会影响到所有的数组实例。</p>
+<h3>属性</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Array.prototype.constructor</code></td>
+<td style="text-align:left">所有的数组实例都继承了这个属性，它的值就是 <code>Array</code>，表明了所有的数组都是由 <code>Array</code> 构造出来的。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype.length</code></td>
+<td style="text-align:left">上面说了，因为 <code>Array.prototype</code> 也是个数组，所以它也有 <code>length</code> 属性，这个值为 <code>0</code>，因为它是个空数组。</td>
+</tr>
+</tbody>
+</table>
+<h3>方法</h3>
+<h4>Mutator 突变方法</h4>
+<p>下面这些方法会改变调用它们的对象自身的值</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法名</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="./fill">Array.prototype.fill()</a></td>
+<td style="text-align:left">用一个固定值填充一个数组中从起始索引到终止索引内的全部元素。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./pop">Array.prototype.pop()</a></td>
+<td style="text-align:left">从数组中删除的最后一个元素，并返回这个元素。此方法更改数组长度。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./push">Array.prototype.push()</a></td>
+<td style="text-align:left">将一个或多个元素添加到数组末尾，并返回数组的新长度。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./reverse">Array.prototype.reverse()</a></td>
+<td style="text-align:left">颠倒数组中元素的排列顺序，即原先的第一个变为最后一个，原先的最后一个变为第一个。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./shift">Array.prototype.shift()</a></td>
+<td style="text-align:left">从数组中删除第一个元素，并返回该元素的值。此方法更改数组长度。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./sort">Array.prototype.sort()</a></td>
+<td style="text-align:left">用就地的算法对数组元素进行排序，并返回当前数组。排序不一定是稳定的。默认排序顺序是根据字符串 Unicode 码点。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./splice">Array.prototype.splice()</a></td>
+<td style="text-align:left">通过删除现有元素和/或添加新元素来更改一个数组的内容。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./unshift">Array.prototype.unshift()</a></td>
+<td style="text-align:left">在数组的开头增加一个或多个元素，并返回数组的新长度</td>
+</tr>
+</tbody>
+</table>
+<h4>Accessor 访问方法</h4>
+<p>下面的这些方法绝对<strong>不会改变调用它们的对象的值</strong>，只会返回一个新的数组或者返回一个其它的期望值</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法名</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="./index-of">Array.prototype.indexOf()</a></td>
+<td style="text-align:left">返回数组中第一个与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./last-index-of">Array.prototype.lastIndexOf()</a></td>
+<td style="text-align:left">返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./concat">Array.prototype.concat()</a></td>
+<td style="text-align:left">用于合并当前数组和其他若干个数组或者若干个非数组值组合而成的新数组。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./includes">Array.prototype.includes()</a></td>
+<td style="text-align:left">判断当前数组是否包含某指定的值，如果是返回 <code>true</code>，否则返回 <code>false</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./join">Array.prototype.join()</a></td>
+<td style="text-align:left">将一个数组（或一个类数组对象） 的所有元素连接成一个字符串并返回这个字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./slice">Array.prototype.slice()</a></td>
+<td style="text-align:left">返回一个从开始到结束（不包括结束）选择的数组的一部分浅拷贝到一个新数组对象。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype.toSource()</code></td>
+<td style="text-align:left">返回一个表示当前数组字面量的字符串。遮蔽了原型链上的 <code>Object.prototype.toSource()</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype.toString()</code></td>
+<td style="text-align:left">返回一个由所有数组元素组合而成的字符串。遮蔽了原型链上的 <code>Object.prototype.toString()</code> 方法。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype.toLocaleString()</code></td>
+<td style="text-align:left">返回一个由所有数组元素组合而成的本地化后的字符串。遮蔽了原型链上的 <code>Object.prototype.toLocaleString()</code> 方法</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./copy-within">Array.prototype.copyWithin()</a></td>
+<td style="text-align:left">在数组内部，将一段元素序列拷贝到另一段元素序列上，覆盖原有的值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./flat">Array.prototype.flat()</a></td>
+<td style="text-align:left">方法会按照一个可指定的深度递归遍历数组，并将所有元素与遍历到的子数组中的元素合并为一个新数组返回</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./flat-map">Array.prototype.flatMap()</a></td>
+<td style="text-align:left">方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组</td>
+</tr>
+</tbody>
+</table>
+<h4>Iteration 迭代方法</h4>
+<p>在下面的众多遍历方法中，有很多方法都需要指定一个回调函数作为参数。在每一个数组元素都分别执行完回调函数之前，数组的 <code>lengt</code> 属性会被缓存在某个地方，所以，如果你在回调函数中为当前数组添加了新的元素，那么那些新添加的元素是不会被遍历到的。此外，如果在回调函数中对当前数组进行了其它修改，比如改变某个元素的值或者删掉某个元素，那么随后的遍历操作可能会受到未预期的影响。总之，<strong>不要尝试在遍历过程中对原数组进行任何修改，虽然规范对这样的操作进行了详细的定义，但为了可读性和可维护性，请不要这样做。</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法名</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="./for-each">Array.prototype.forEach()</a></td>
+<td style="text-align:left">对数组的每个元素执行一次回调函数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./entries">Array.prototype.entries()</a></td>
+<td style="text-align:left">返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./every">Array.prototype.every()</a></td>
+<td style="text-align:left">测试数组的所有元素是否都通过了指定函数的测试。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./some">Array.prototype.some()</a></td>
+<td style="text-align:left">测试数组中的某些元素是否通过由提供的函数实现的测试。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./filter">Array.prototype.filter()</a></td>
+<td style="text-align:left">创建一个新数组，其包含通过所提供函数实现的测试的所有元素。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./find">Array.prototype.find()</a></td>
+<td style="text-align:left">返回数组中满足提供的测试函数的第一个元素的值。否则返回 <code>undefined</code>。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./find-index">Array.prototype.findIndex()</a></td>
+<td style="text-align:left">返回数组中满足提供的测试函数的第一个元素的缩影。否则返回-1。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./keys">Array.prototype.keys()</a></td>
+<td style="text-align:left">返回一个数组迭代器对象，该迭代器会包含所有数组元素的键。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./map">Array.prototype.map()</a></td>
+<td style="text-align:left">创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./reduce">Array.prototype.reduce()</a></td>
+<td style="text-align:left">从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./reduce-right">Array.prototype.reduceRight()</a></td>
+<td style="text-align:left">从右到左为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype.values()</code></td>
+<td style="text-align:left">返回一个数组迭代器对象，该迭代器会包含所有数组元素的值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Array.prototype[@@iterator]()</code></td>
+<td style="text-align:left">和上面的 <code>values()</code> 方法是同一个函数。</td>
+</tr>
+</tbody>
+</table>
+<h2>代码示例</h2>
+<h3>创建数组</h3>
+<ul>
+<li>没有参数，创建一个空数组</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 该方法创建一个没有任何元素的空数组，等同于数组直接量[]</span>
+<span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>();
+</code></pre>
+<ul>
+<li>有一个数值参数，该参数用于指定数组的长度</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">10</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return []</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car.<span class="hljs-property">length</span>); <span class="hljs-comment">// return undefined and 10</span>
+</code></pre>
+<ul>
+<li>若存在一个其他类型的参数，则会创建包含那个值的只有一项的数组</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-string">&#x27;10&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return [&#x27;10&#x27;]</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car.<span class="hljs-property">length</span>); <span class="hljs-comment">// return 10 1</span>
+</code></pre>
+<ul>
+<li>有多个参数时，参数表示为数组的具体元素</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return [1,2,3]</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car[<span class="hljs-number">1</span>], car[<span class="hljs-number">2</span>]); <span class="hljs-comment">// return 1 2 3</span>
+</code></pre>
+<h3>稀疏数组</h3>
+<p>稀疏数组就是包含从 0 开始的<strong>不连续索引的数组</strong></p>
+<ul>
+<li>制造稀疏数组最直接的方法就是使用 delete 操作符</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<span class="hljs-keyword">delete</span> car[<span class="hljs-number">1</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">1</span>]); <span class="hljs-comment">// undefined</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> car); <span class="hljs-comment">// false</span>
+</code></pre>
+<ul>
+<li>数组的逗号之间可以省略元素值，通过省略元素值也可以制造稀疏数组</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">// undefined</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">// false</span>
+</code></pre>
+<ul>
+<li>省略的元素值和值为 <code>undefined</code> 的元素值是有区别的</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">// return undefined</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">// return false</span>
+
+<span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-literal">undefined</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">// return undefined</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">// return true</span>
+</code></pre>
+<ul>
+<li>如果在数组的末尾使用逗号时，浏览器之间是有差别的。标准浏览器会忽略该逗号，而 IE8- 浏览器则会在末尾添加 <code>undefined</code> 值。</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 标准浏览器输出[1,2]，而IE8-浏览器输出[1,2,undefined]</span>
+<span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+
+<span class="hljs-comment">// 标准浏览器输出2，而IE8-浏览器输出3</span>
+<span class="hljs-keyword">var</span> a = [, ,];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>);
+</code></pre>
+<p>足够稀疏的数组通常在实现上比稠密的数组更慢，内存利用率更高，在这样的数组中查找元素的时间与常规对象属性的查找时间一样长。</p>
+<h3>数组长度</h3>
+<p>每个数组有一个 <code>length</code> 属性，就是这个属性使其区别于常规的 JavaScript 对象。针对稠密（也就是非稀疏）数组，<code>length</code> 属性值代表数组中元素的个数，其值比数组中最大的索引大 1。</p>
+<pre class="hljs"><code class="language-js">[].<span class="hljs-property">length</span>[(<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>)].<span class="hljs-property">length</span>; <span class="hljs-comment">//=&gt;0:数组没有元素,length为0 //=&gt;3:最大的索引为2，length为3</span>
+</code></pre>
+<ul>
+<li>当数组是稀疏数组时，<code>length</code> 属性值大于元素的个数，同样地，其值比数组中最大的索引大 1。</li>
+</ul>
+<pre class="hljs"><code class="language-js">[, , ,].<span class="hljs-property">length</span>; <span class="hljs-comment">// return 3</span>
+<span class="hljs-title class_">Array</span>(<span class="hljs-number">10</span>).<span class="hljs-property">length</span>; <span class="hljs-comment">// return 10</span>
+
+<span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>); <span class="hljs-comment">// return 3</span>
+<span class="hljs-keyword">delete</span> a[<span class="hljs-number">1</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>); <span class="hljs-comment">// return 3</span>
+</code></pre>
+<p>数组的特殊性主要体现在数组长度是可以动态调整的：</p>
+<ul>
+<li>如果为一个数组元素赋值，索引 <code>i</code> 大于等于现有数组的长度时，<code>length</code> 属性的值将设置为 <code>i+1</code></li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
+arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// return 2</span>
+
+arr[<span class="hljs-number">2</span>] = <span class="hljs-string">&#x27;c&#x27;</span>;
+arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// return 3</span>
+
+arr[<span class="hljs-number">9</span>] = <span class="hljs-string">&#x27;d&#x27;</span>;
+arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// return 10</span>
+
+arr[<span class="hljs-number">1000</span>] = <span class="hljs-string">&#x27;e&#x27;</span>;
+arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// return 1001</span>
+</code></pre>
+<ul>
+<li>设置 <code>length</code> 属性为小于当前长度的非负整数 <code>n</code> 时，当前数组索引值大于等于 <code>n</code> 的元素将从中删除。</li>
+</ul>
+<pre class="hljs"><code class="language-js">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]; <span class="hljs-comment">// 从5个元素的数组开始</span>
+a.<span class="hljs-property">length</span> = <span class="hljs-number">3</span>; <span class="hljs-comment">// 现在a为[1,2,3]</span>
+a.<span class="hljs-property">length</span> = <span class="hljs-number">0</span>; <span class="hljs-comment">// 删除所有的元素。a为[]</span>
+a.<span class="hljs-property">length</span> = <span class="hljs-number">5</span>; <span class="hljs-comment">// 长度为5，但是没有元素，就像new Array(5)</span>
+</code></pre>
+<ul>
+<li><strong>清空数组</strong>：将数组清空的一个有效方法，就是将 <code>length</code> 属性设为 0</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+arr.<span class="hljs-property">length</span> = <span class="hljs-number">0</span>;
+arr; <span class="hljs-comment">//  return []</span>
+</code></pre>
+<p>将数组的 <code>length</code> 属性值设置为大于其当前的长度。实际上这不会向数组中添加新的元素，它只是在数组尾部创建一个空的区域。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&#x27;a&#x27;</span>];
+a.<span class="hljs-property">length</span> = <span class="hljs-number">3</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">//undefined</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">//false</span>
+</code></pre>
+<p>如果人为设置 <code>length</code> 为不合法的值（即 0——2[32]-2 范围以外的值），Javascript 会报错</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 设置负值</span>
+[].<span class="hljs-property">length</span> = -<span class="hljs-number">1</span> 				<span class="hljs-comment">// RangeError: Invalid array length</span>
+
+<span class="hljs-comment">// 数组元素个数大于等于2的32次方</span>
+[].<span class="hljs-property">length</span> = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">pow</span>(<span class="hljs-number">2</span>,<span class="hljs-number">32</span>)	 <span class="hljs-comment">// RangeError: Invalid array length</span>
+
+<span class="hljs-comment">// 设置字符串</span>
+[].<span class="hljs-property">length</span> = <span class="hljs-string">&#x27;abc&#x27;</span>			<span class="hljs-comment">// RangeError: Invalid array length</span>
+</code></pre>
+<p>由于数组本质上是对象，所以可以为数组添加属性，但是这不影响 <code>length</code> 属性的值</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [];
+
+a[<span class="hljs-string">&#x27;p&#x27;</span>] = <span class="hljs-string">&#x27;abc&#x27;</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>); <span class="hljs-comment">// 0</span>
+
+a[<span class="hljs-number">2.1</span>] = <span class="hljs-string">&#x27;abc&#x27;</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>); <span class="hljs-comment">// 0</span>
+</code></pre>
+<h3>数组遍历</h3>
+<ul>
+<li>使用 <code>for</code> 循环语句遍历数组元素是最常见的方法</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; a.<span class="hljs-property">length</span>; i++) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
+}
+</code></pre>
+<ul>
+<li>当然，也可以使用 <code>while</code> 循环语句</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>;
+<span class="hljs-keyword">while</span> (i &lt; a.<span class="hljs-property">length</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
+  i++;
+}
+
+<span class="hljs-keyword">var</span> l = a.<span class="hljs-property">length</span>;
+<span class="hljs-keyword">while</span> (l--) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[l]);
+}
+</code></pre>
+<ul>
+<li>但如果数组是稀疏数组时，使用 <code>for</code> 循环语句，就需要添加一些条件</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 跳过不存在的元素</span>
+<span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; a.<span class="hljs-property">length</span>; i++) {
+  <span class="hljs-keyword">if</span> (!(i <span class="hljs-keyword">in</span> a)) <span class="hljs-keyword">continue</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
+}
+</code></pre>
+<p>还可以使用 <code>for/in</code> 循环语句处理稀疏数组。循环每次将一个可枚举的属性名（包括数组索引）赋值给循环变量。<strong>不存在的索引将不会遍历到。</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
+}
+</code></pre>
+<p>由于 <code>for/in</code> 循环能够枚举继承的属性名，如添加到 <code>Array.prototype</code> 中的方法。由于这个原因，在数组上不应该使用 <code>for/in</code> 循环，除非使用额外的检测方法来过滤不想要的属性。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+a.<span class="hljs-property">b</span> = <span class="hljs-string">&#x27;b&#x27;</span>;
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]); <span class="hljs-comment">//1 2 &#x27;b&#x27;</span>
+}
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 跳过不是非负整数的 i</span>
+<span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+a.<span class="hljs-property">b</span> = <span class="hljs-string">&#x27;b&#x27;</span>;
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
+  <span class="hljs-keyword">if</span> (<span class="hljs-title class_">String</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">abs</span>(<span class="hljs-title class_">Number</span>(i)))) !== i) <span class="hljs-keyword">continue</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]); <span class="hljs-comment">//1 2</span>
+}
+</code></pre>
+<p>JavaScript 规范允许 <code>for/in</code> 循环以不同的顺序遍历对象的属性。通常数组元素的遍历实现是升序的，但不能保证一定是这样的。特别地，如果数组同时拥有对象属性和数组元素，返回的属性名很可能是按照创建的顺序而非数值的大小顺序。<strong>如果算法依赖于遍历的顺序，那么最好不要使用 <code>for/in</code> 而用常规的 <code>for</code> 循环。</strong></p>
+<h3>数组乱序</h3>
+<p>数组乱序的英文为 shuffle，也称为洗牌。一般地，有如下两种方法</p>
+<ul>
+<li>给数组原生的 <code>sort()</code> 方法传入一个函数，此函数随机返回 1 或 -1，达到随机排列数组元素的目的</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> array = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+array.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() - <span class="hljs-number">0.5</span>;
+});
+<span class="hljs-comment">// return [2,1,5,4,3]</span>
+</code></pre>
+<ul>
+<li>依次遍历数组中的每个元素，遍历到的元素与一个随机位置的元素交换值（效率比第一种方法搞）</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; arr.<span class="hljs-property">length</span>; i++) {
+  <span class="hljs-keyword">var</span> randomIndex = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * arr.<span class="hljs-property">length</span>);
+  [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]];
+}
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr); <span class="hljs-comment">// [2, 3, 1, 4, 5]</span>
+</code></pre>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"standard-built-in-objects\",\"indexed-collections\",\"array\",\"array\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"standard-built-in-objects/indexed-collections/array/array\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"standard-built-in-objects/indexed-collections/array/array\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"9uYSrp0wPjjZ9YVqbn_vT\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:Ta30f,"])</script><script>self.__next_f.push([1,"\u003ch1\u003eArray 对象\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003eArray\u003c/code\u003e 对象时用于构造数组的全局对象，类似时类似于列表的高阶对象。\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eArray\u003c/code\u003e 对象主要用于存储多个数据项，数据可以是任意类型。\u003c/p\u003e\n\u003cp\u003e所有主流浏览器均支持该对象。\u003c/p\u003e\n\u003ch2\u003e语法\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e字面量\u003c/strong\u003e\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e[element0, element1, ..., elementN]\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e数组类型转换函数\u003c/strong\u003e\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(element0, element1, ..., elementN)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e构造函数\u003c/strong\u003e\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(element0, element1, ..., elementN)\n\n\u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(arrayLength)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e类型声明：\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-ts\"\u003e\u003cspan class=\"hljs-keyword\"\u003einterface\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArrayConstructor\u003c/span\u003e {\n  \u003cspan class=\"hljs-title function_\"\u003enew\u003c/span\u003e (\u003cspan class=\"hljs-attr\"\u003earrayLength\u003c/span\u003e?: \u003cspan class=\"hljs-built_in\"\u003enumber\u003c/span\u003e): \u003cspan class=\"hljs-built_in\"\u003eany\u003c/span\u003e[];\n  \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u0026lt;T\u0026gt;(\u003cspan class=\"hljs-attr\"\u003earrayLength\u003c/span\u003e: \u003cspan class=\"hljs-built_in\"\u003enumber\u003c/span\u003e): T[];\n  \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u0026lt;T\u0026gt;(...\u003cspan class=\"hljs-attr\"\u003eitems\u003c/span\u003e: T[]): T[];\n  (\u003cspan class=\"hljs-attr\"\u003earrayLength\u003c/span\u003e?: \u003cspan class=\"hljs-built_in\"\u003enumber\u003c/span\u003e): \u003cspan class=\"hljs-built_in\"\u003eany\u003c/span\u003e[];\n  \u0026lt;T\u0026gt;(\u003cspan class=\"hljs-attr\"\u003earrayLength\u003c/span\u003e: \u003cspan class=\"hljs-built_in\"\u003enumber\u003c/span\u003e): T[];\n  \u0026lt;T\u0026gt;(...\u003cspan class=\"hljs-attr\"\u003eitems\u003c/span\u003e: T[]): T[];\n  \u003cspan class=\"hljs-title function_\"\u003eisArray\u003c/span\u003e(\u003cspan class=\"hljs-attr\"\u003earg\u003c/span\u003e: \u003cspan class=\"hljs-built_in\"\u003eany\u003c/span\u003e): arg is \u003cspan class=\"hljs-built_in\"\u003eany\u003c/span\u003e[];\n  \u003cspan class=\"hljs-keyword\"\u003ereadonly\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003eprototype\u003c/span\u003e: \u003cspan class=\"hljs-built_in\"\u003eany\u003c/span\u003e[];\n}\n\n\u003cspan class=\"hljs-keyword\"\u003edeclare\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e: \u003cspan class=\"hljs-title class_\"\u003eArrayConstructor\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e参数说明：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e参数\u003c/th\u003e\n\u003cth\u003e类型\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ccode\u003eelementN\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e任意类型\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eArray\u003c/code\u003e 构造器会根据给定的元素创建一个 JavaScript 数组，但是当仅有一个参数且为数字时除外（详见下面的 \u003ccode\u003earrayLength\u003c/code\u003e 参数）。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ccode\u003earrayLength\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eNumber\u003c/code\u003e 类型\u003c/td\u003e\n\u003ctd\u003e一个范围在 0 到 2[32]-1 之间的整数，此时将返回一个 \u003ccode\u003elength\u003c/code\u003e 的值等于 \u003ccode\u003earrayLength\u003c/code\u003e 的数组对象（言外之意就是该数组此时并没有包含任何实际的元素，不能理所当然地认为它包含 \u003ccode\u003earrayLength\u003c/code\u003e 个值为 \u003ccode\u003eundefined\u003c/code\u003e 的元素）。如果传入的参数不是有效值，则会抛出 \u003ccode\u003eRangeError\u003c/code\u003e 异常。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e描述\u003c/h2\u003e\n\u003cp\u003e数组是类似列表的对象，本质上，数组是一种特殊的对象（有次序的对象），在原型中提供了遍历以及改变其中元素的很多方法。 数组的长度及其中元素的类型都是不固定的。因为数组的长度可读可写，有时数组中的元素也不是在连续的位置，所以 JavaScript 数组不一定是密集的。通常情况下，这是一些方便的特性；如果这些特性不适用于你的特定使用场景，你可以考虑使用固定类型数组。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003etypeof\u003c/span\u003e [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e]; \u003cspan class=\"hljs-comment\"\u003e// \u0026quot;object\u0026quot;\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e数组的特殊性体现在，它的键名是按次序排列的一组整数。由于数组成员的键名是固定的，因此数组不用为每个元素指定键名，而对象的每个成员都必须指定键名。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eObject\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003ekeys\u003c/span\u003e(arr)); \u003cspan class=\"hljs-comment\"\u003e// [\u0026quot;0\u0026quot;, \u0026quot;1\u0026quot;, \u0026quot;2\u0026quot;]\u003c/span\u003e\n\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e obj = {\n  \u003cspan class=\"hljs-attr\"\u003ename1\u003c/span\u003e: \u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e,\n  \u003cspan class=\"hljs-attr\"\u003ename2\u003c/span\u003e: \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e,\n  \u003cspan class=\"hljs-attr\"\u003ename3\u003c/span\u003e: \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e,\n};\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e数组是对象的特殊形式，使用方括号访问数组元素就像用方括号访问对象的属性一样。\u003c/p\u003e\n\u003cp\u003eJavaScript 语言规定，对象的键名一律为字符串，所以，数组的键名其实也是字符串。之所以可以用数值读取，是因为非字符串的键名会被转为字符串，然后将其作为属性名来使用\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 创建一个普通的对象\u003c/span\u003e\no = {};\n\n\u003cspan class=\"hljs-comment\"\u003e// 用一个整数来索引它\u003c/span\u003e\no[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;one\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-comment\"\u003e// 数值键名被自动转成字符串\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(arr[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;0\u0026#x27;\u003c/span\u003e]);\n\u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;a\u0026#x27;\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(arr[\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e]);\n\u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;a\u0026#x27;\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e但是，一定要区分数组索引和对象的属性名：所有的索引都是属性名，但只有在 0~232-2(4294967294)之间的整数属性名才是索引。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [];\n\n\u003cspan class=\"hljs-comment\"\u003e//索引\u003c/span\u003e\na[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;1000\u0026#x27;\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;abc\u0026#x27;\u003c/span\u003e;\na[\u003cspan class=\"hljs-number\"\u003e1000\u003c/span\u003e]; \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;abc\u0026#x27;\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e//索引\u003c/span\u003e\na[\u003cspan class=\"hljs-number\"\u003e1.0\u003c/span\u003e] = \u003cspan class=\"hljs-number\"\u003e6\u003c/span\u003e;\na[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]; \u003cspan class=\"hljs-comment\"\u003e// 6\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e单独的数值不能作为标识符（Identifier）。所以，数组成员只能用方括号法表示。（在 JavaScript 中，以数字开头的属性不能用点号引用，必须用方括号）\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e];\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(arr[\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e]);\n\u003cspan class=\"hljs-comment\"\u003e// 1\u003c/span\u003e\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(arr\u003cspan class=\"hljs-number\"\u003e.0\u003c/span\u003e);\n\u003cspan class=\"hljs-comment\"\u003e// SyntaxError\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e可以使用负数或非整数来索引数组。但由于其不在 0~2 的 32 次方-2 的范围内，所以其只是数组的属性名，而不是数组的索引，明显的特征是不改变数组的长度。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e];\n\n\u003cspan class=\"hljs-comment\"\u003e// 属性名\u003c/span\u003e\na[-\u003cspan class=\"hljs-number\"\u003e1.23\u003c/span\u003e] = \u003cspan class=\"hljs-literal\"\u003etrue\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e);\n\u003cspan class=\"hljs-comment\"\u003e// 3\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// 索引\u003c/span\u003e\na[\u003cspan class=\"hljs-number\"\u003e10\u003c/span\u003e] = \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e);\n\u003cspan class=\"hljs-comment\"\u003e// 11\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// 属性名\u003c/span\u003e\na[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;abc\u0026#x27;\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;testing\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e);\n\u003cspan class=\"hljs-comment\"\u003e// 11\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e构造函数\u003c/h2\u003e\n\u003ch3\u003e属性\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e属性\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.length\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray\u003c/code\u003e 构造函数的 \u003ccode\u003elength\u003c/code\u003e 属性，其值为 1（注意该属性为静态属性，不是数组实例的 \u003ccode\u003elength\u003c/code\u003e 属性）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e通过数组的原型对象可以为所有数组对象添加属性。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3\u003e方法\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e方法\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.form()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e从一个类似数组或可迭代对象中创建一个新的数组实例。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.isArray()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e用于判断指定值是否为数组。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.of()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e创建一个具有可变数量参数的新数组实例，而不考虑参数的数量或类型。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e原型对象\u003c/h2\u003e\n\u003cp\u003e所有数组实例都会从 \u003ccode\u003eArray.prototype\u003c/code\u003e 继承属性和方法。修改 \u003ccode\u003eArray\u003c/code\u003e 的原型会影响到所有的数组实例。\u003c/p\u003e\n\u003ch3\u003e属性\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e属性\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.constructor\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e所有的数组实例都继承了这个属性，它的值就是 \u003ccode\u003eArray\u003c/code\u003e，表明了所有的数组都是由 \u003ccode\u003eArray\u003c/code\u003e 构造出来的。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.length\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e上面说了，因为 \u003ccode\u003eArray.prototype\u003c/code\u003e 也是个数组，所以它也有 \u003ccode\u003elength\u003c/code\u003e 属性，这个值为 \u003ccode\u003e0\u003c/code\u003e，因为它是个空数组。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3\u003e方法\u003c/h3\u003e\n\u003ch4\u003eMutator 突变方法\u003c/h4\u003e\n\u003cp\u003e下面这些方法会改变调用它们的对象自身的值\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e方法名\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./fill\"\u003eArray.prototype.fill()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e用一个固定值填充一个数组中从起始索引到终止索引内的全部元素。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./pop\"\u003eArray.prototype.pop()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e从数组中删除的最后一个元素，并返回这个元素。此方法更改数组长度。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./push\"\u003eArray.prototype.push()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e将一个或多个元素添加到数组末尾，并返回数组的新长度。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./reverse\"\u003eArray.prototype.reverse()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e颠倒数组中元素的排列顺序，即原先的第一个变为最后一个，原先的最后一个变为第一个。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./shift\"\u003eArray.prototype.shift()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e从数组中删除第一个元素，并返回该元素的值。此方法更改数组长度。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./sort\"\u003eArray.prototype.sort()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e用就地的算法对数组元素进行排序，并返回当前数组。排序不一定是稳定的。默认排序顺序是根据字符串 Unicode 码点。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./splice\"\u003eArray.prototype.splice()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e通过删除现有元素和/或添加新元素来更改一个数组的内容。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./unshift\"\u003eArray.prototype.unshift()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e在数组的开头增加一个或多个元素，并返回数组的新长度\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch4\u003eAccessor 访问方法\u003c/h4\u003e\n\u003cp\u003e下面的这些方法绝对\u003cstrong\u003e不会改变调用它们的对象的值\u003c/strong\u003e，只会返回一个新的数组或者返回一个其它的期望值\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e方法名\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./index-of\"\u003eArray.prototype.indexOf()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回数组中第一个与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./last-index-of\"\u003eArray.prototype.lastIndexOf()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./concat\"\u003eArray.prototype.concat()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e用于合并当前数组和其他若干个数组或者若干个非数组值组合而成的新数组。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./includes\"\u003eArray.prototype.includes()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e判断当前数组是否包含某指定的值，如果是返回 \u003ccode\u003etrue\u003c/code\u003e，否则返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./join\"\u003eArray.prototype.join()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e将一个数组（或一个类数组对象） 的所有元素连接成一个字符串并返回这个字符串。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./slice\"\u003eArray.prototype.slice()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个从开始到结束（不包括结束）选择的数组的一部分浅拷贝到一个新数组对象。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.toSource()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个表示当前数组字面量的字符串。遮蔽了原型链上的 \u003ccode\u003eObject.prototype.toSource()\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.toString()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个由所有数组元素组合而成的字符串。遮蔽了原型链上的 \u003ccode\u003eObject.prototype.toString()\u003c/code\u003e 方法。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.toLocaleString()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个由所有数组元素组合而成的本地化后的字符串。遮蔽了原型链上的 \u003ccode\u003eObject.prototype.toLocaleString()\u003c/code\u003e 方法\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./copy-within\"\u003eArray.prototype.copyWithin()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e在数组内部，将一段元素序列拷贝到另一段元素序列上，覆盖原有的值。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./flat\"\u003eArray.prototype.flat()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e方法会按照一个可指定的深度递归遍历数组，并将所有元素与遍历到的子数组中的元素合并为一个新数组返回\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./flat-map\"\u003eArray.prototype.flatMap()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch4\u003eIteration 迭代方法\u003c/h4\u003e\n\u003cp\u003e在下面的众多遍历方法中，有很多方法都需要指定一个回调函数作为参数。在每一个数组元素都分别执行完回调函数之前，数组的 \u003ccode\u003elengt\u003c/code\u003e 属性会被缓存在某个地方，所以，如果你在回调函数中为当前数组添加了新的元素，那么那些新添加的元素是不会被遍历到的。此外，如果在回调函数中对当前数组进行了其它修改，比如改变某个元素的值或者删掉某个元素，那么随后的遍历操作可能会受到未预期的影响。总之，\u003cstrong\u003e不要尝试在遍历过程中对原数组进行任何修改，虽然规范对这样的操作进行了详细的定义，但为了可读性和可维护性，请不要这样做。\u003c/strong\u003e\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:left\"\u003e方法名\u003c/th\u003e\n\u003cth style=\"text-align:left\"\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./for-each\"\u003eArray.prototype.forEach()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e对数组的每个元素执行一次回调函数。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./entries\"\u003eArray.prototype.entries()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./every\"\u003eArray.prototype.every()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e测试数组的所有元素是否都通过了指定函数的测试。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./some\"\u003eArray.prototype.some()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e测试数组中的某些元素是否通过由提供的函数实现的测试。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./filter\"\u003eArray.prototype.filter()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e创建一个新数组，其包含通过所提供函数实现的测试的所有元素。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./find\"\u003eArray.prototype.find()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回数组中满足提供的测试函数的第一个元素的值。否则返回 \u003ccode\u003eundefined\u003c/code\u003e。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./find-index\"\u003eArray.prototype.findIndex()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回数组中满足提供的测试函数的第一个元素的缩影。否则返回-1。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./keys\"\u003eArray.prototype.keys()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个数组迭代器对象，该迭代器会包含所有数组元素的键。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./map\"\u003eArray.prototype.map()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./reduce\"\u003eArray.prototype.reduce()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ca href=\"./reduce-right\"\u003eArray.prototype.reduceRight()\u003c/a\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e从右到左为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype.values()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e返回一个数组迭代器对象，该迭代器会包含所有数组元素的值。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:left\"\u003e\u003ccode\u003eArray.prototype[@@iterator]()\u003c/code\u003e\u003c/td\u003e\n\u003ctd style=\"text-align:left\"\u003e和上面的 \u003ccode\u003evalues()\u003c/code\u003e 方法是同一个函数。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003ch3\u003e创建数组\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e没有参数，创建一个空数组\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 该方法创建一个没有任何元素的空数组，等同于数组直接量[]\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e car = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e();\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e有一个数值参数，该参数用于指定数组的长度\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e car = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e10\u003c/span\u003e);\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car); \u003cspan class=\"hljs-comment\"\u003e// return []\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car[\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e], car.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// return undefined and 10\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e若存在一个其他类型的参数，则会创建包含那个值的只有一项的数组\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e car = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;10\u0026#x27;\u003c/span\u003e);\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car); \u003cspan class=\"hljs-comment\"\u003e// return [\u0026#x27;10\u0026#x27;]\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car[\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e], car.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// return 10 1\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e有多个参数时，参数表示为数组的具体元素\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e car = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e);\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car); \u003cspan class=\"hljs-comment\"\u003e// return [1,2,3]\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car[\u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e], car[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e], car[\u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// return 1 2 3\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e稀疏数组\u003c/h3\u003e\n\u003cp\u003e稀疏数组就是包含从 0 开始的\u003cstrong\u003e不连续索引的数组\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e制造稀疏数组最直接的方法就是使用 delete 操作符\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e car = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003edelete\u003c/span\u003e car[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e];\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(car[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// undefined\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e car); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e数组的逗号之间可以省略元素值，通过省略元素值也可以制造稀疏数组\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// undefined\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e省略的元素值和值为 \u003ccode\u003eundefined\u003c/code\u003e 的元素值是有区别的\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// return undefined\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a); \u003cspan class=\"hljs-comment\"\u003e// return false\u003c/span\u003e\n\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-literal\"\u003eundefined\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// return undefined\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a); \u003cspan class=\"hljs-comment\"\u003e// return true\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e如果在数组的末尾使用逗号时，浏览器之间是有差别的。标准浏览器会忽略该逗号，而 IE8- 浏览器则会在末尾添加 \u003ccode\u003eundefined\u003c/code\u003e 值。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 标准浏览器输出[1,2]，而IE8-浏览器输出[1,2,undefined]\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a);\n\n\u003cspan class=\"hljs-comment\"\u003e// 标准浏览器输出2，而IE8-浏览器输出3\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [, ,];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e足够稀疏的数组通常在实现上比稠密的数组更慢，内存利用率更高，在这样的数组中查找元素的时间与常规对象属性的查找时间一样长。\u003c/p\u003e\n\u003ch3\u003e数组长度\u003c/h3\u003e\n\u003cp\u003e每个数组有一个 \u003ccode\u003elength\u003c/code\u003e 属性，就是这个属性使其区别于常规的 JavaScript 对象。针对稠密（也就是非稀疏）数组，\u003ccode\u003elength\u003c/code\u003e 属性值代表数组中元素的个数，其值比数组中最大的索引大 1。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e[].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e[(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e)].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e//=\u0026gt;0:数组没有元素,length为0 //=\u0026gt;3:最大的索引为2，length为3\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e当数组是稀疏数组时，\u003ccode\u003elength\u003c/code\u003e 属性值大于元素的个数，同样地，其值比数组中最大的索引大 1。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e[, , ,].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 3\u003c/span\u003e\n\u003cspan class=\"hljs-title class_\"\u003eArray\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e10\u003c/span\u003e).\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 10\u003c/span\u003e\n\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// return 3\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003edelete\u003c/span\u003e a[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e];\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// return 3\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e数组的特殊性主要体现在数组长度是可以动态调整的：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e如果为一个数组元素赋值，索引 \u003ccode\u003ei\u003c/code\u003e 大于等于现有数组的长度时，\u003ccode\u003elength\u003c/code\u003e 属性的值将设置为 \u003ccode\u003ei+1\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e];\narr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 2\u003c/span\u003e\n\narr[\u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e;\narr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 3\u003c/span\u003e\n\narr[\u003cspan class=\"hljs-number\"\u003e9\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;d\u0026#x27;\u003c/span\u003e;\narr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 10\u003c/span\u003e\n\narr[\u003cspan class=\"hljs-number\"\u003e1000\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;e\u0026#x27;\u003c/span\u003e;\narr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// return 1001\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e设置 \u003ccode\u003elength\u003c/code\u003e 属性为小于当前长度的非负整数 \u003ccode\u003en\u003c/code\u003e 时，当前数组索引值大于等于 \u003ccode\u003en\u003c/code\u003e 的元素将从中删除。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003ea = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e]; \u003cspan class=\"hljs-comment\"\u003e// 从5个元素的数组开始\u003c/span\u003e\na.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// 现在a为[1,2,3]\u003c/span\u003e\na.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// 删除所有的元素。a为[]\u003c/span\u003e\na.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e; \u003cspan class=\"hljs-comment\"\u003e// 长度为5，但是没有元素，就像new Array(5)\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e清空数组\u003c/strong\u003e：将数组清空的一个有效方法，就是将 \u003ccode\u003elength\u003c/code\u003e 属性设为 0\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;c\u0026#x27;\u003c/span\u003e];\narr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e;\narr; \u003cspan class=\"hljs-comment\"\u003e//  return []\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e将数组的 \u003ccode\u003elength\u003c/code\u003e 属性值设置为大于其当前的长度。实际上这不会向数组中添加新的元素，它只是在数组尾部创建一个空的区域。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-string\"\u003e\u0026#x27;a\u0026#x27;\u003c/span\u003e];\na.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e//undefined\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a); \u003cspan class=\"hljs-comment\"\u003e//false\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e如果人为设置 \u003ccode\u003elength\u003c/code\u003e 为不合法的值（即 0——2[32]-2 范围以外的值），Javascript 会报错\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 设置负值\u003c/span\u003e\n[].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = -\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \t\t\t\t\u003cspan class=\"hljs-comment\"\u003e// RangeError: Invalid array length\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// 数组元素个数大于等于2的32次方\u003c/span\u003e\n[].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003epow\u003c/span\u003e(\u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e,\u003cspan class=\"hljs-number\"\u003e32\u003c/span\u003e)\t \u003cspan class=\"hljs-comment\"\u003e// RangeError: Invalid array length\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// 设置字符串\u003c/span\u003e\n[].\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;abc\u0026#x27;\u003c/span\u003e\t\t\t\u003cspan class=\"hljs-comment\"\u003e// RangeError: Invalid array length\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e由于数组本质上是对象，所以可以为数组添加属性，但是这不影响 \u003ccode\u003elength\u003c/code\u003e 属性的值\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [];\n\na[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;p\u0026#x27;\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;abc\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// 0\u003c/span\u003e\n\na[\u003cspan class=\"hljs-number\"\u003e2.1\u003c/span\u003e] = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;abc\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// 0\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e数组遍历\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e使用 \u003ccode\u003efor\u003c/code\u003e 循环语句遍历数组元素是最常见的方法\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e; i \u0026lt; a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; i++) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e当然，也可以使用 \u003ccode\u003ewhile\u003c/code\u003e 循环语句\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003ewhile\u003c/span\u003e (i \u0026lt; a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]);\n  i++;\n}\n\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e l = a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003ewhile\u003c/span\u003e (l--) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[l]);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e但如果数组是稀疏数组时，使用 \u003ccode\u003efor\u003c/code\u003e 循环语句，就需要添加一些条件\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 跳过不存在的元素\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , , \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e; i \u0026lt; a.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; i++) {\n  \u003cspan class=\"hljs-keyword\"\u003eif\u003c/span\u003e (!(i \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a)) \u003cspan class=\"hljs-keyword\"\u003econtinue\u003c/span\u003e;\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e还可以使用 \u003ccode\u003efor/in\u003c/code\u003e 循环语句处理稀疏数组。循环每次将一个可枚举的属性名（包括数组索引）赋值给循环变量。\u003cstrong\u003e不存在的索引将不会遍历到。\u003c/strong\u003e\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , , \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e由于 \u003ccode\u003efor/in\u003c/code\u003e 循环能够枚举继承的属性名，如添加到 \u003ccode\u003eArray.prototype\u003c/code\u003e 中的方法。由于这个原因，在数组上不应该使用 \u003ccode\u003efor/in\u003c/code\u003e 循环，除非使用额外的检测方法来过滤不想要的属性。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , , \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e];\na.\u003cspan class=\"hljs-property\"\u003eb\u003c/span\u003e = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]); \u003cspan class=\"hljs-comment\"\u003e//1 2 \u0026#x27;b\u0026#x27;\u003c/span\u003e\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 跳过不是非负整数的 i\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e a = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, , , \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e];\na.\u003cspan class=\"hljs-property\"\u003eb\u003c/span\u003e = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;b\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i \u003cspan class=\"hljs-keyword\"\u003ein\u003c/span\u003e a) {\n  \u003cspan class=\"hljs-keyword\"\u003eif\u003c/span\u003e (\u003cspan class=\"hljs-title class_\"\u003eString\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003efloor\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003eabs\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eNumber\u003c/span\u003e(i)))) !== i) \u003cspan class=\"hljs-keyword\"\u003econtinue\u003c/span\u003e;\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a[i]); \u003cspan class=\"hljs-comment\"\u003e//1 2\u003c/span\u003e\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eJavaScript 规范允许 \u003ccode\u003efor/in\u003c/code\u003e 循环以不同的顺序遍历对象的属性。通常数组元素的遍历实现是升序的，但不能保证一定是这样的。特别地，如果数组同时拥有对象属性和数组元素，返回的属性名很可能是按照创建的顺序而非数值的大小顺序。\u003cstrong\u003e如果算法依赖于遍历的顺序，那么最好不要使用 \u003ccode\u003efor/in\u003c/code\u003e 而用常规的 \u003ccode\u003efor\u003c/code\u003e 循环。\u003c/strong\u003e\u003c/p\u003e\n\u003ch3\u003e数组乱序\u003c/h3\u003e\n\u003cp\u003e数组乱序的英文为 shuffle，也称为洗牌。一般地，有如下两种方法\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e给数组原生的 \u003ccode\u003esort()\u003c/code\u003e 方法传入一个函数，此函数随机返回 1 或 -1，达到随机排列数组元素的目的\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e array = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\narray.\u003cspan class=\"hljs-title function_\"\u003esort\u003c/span\u003e(\u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e (\u003cspan class=\"hljs-params\"\u003e\u003c/span\u003e) {\n  \u003cspan class=\"hljs-keyword\"\u003ereturn\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003erandom\u003c/span\u003e() - \u003cspan class=\"hljs-number\"\u003e0.5\u003c/span\u003e;\n});\n\u003cspan class=\"hljs-comment\"\u003e// return [2,1,5,4,3]\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e依次遍历数组中的每个元素，遍历到的元素与一个随机位置的元素交换值（效率比第一种方法搞）\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e arr = [\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e2\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e3\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e4\u003c/span\u003e, \u003cspan class=\"hljs-number\"\u003e5\u003c/span\u003e];\n\u003cspan class=\"hljs-keyword\"\u003efor\u003c/span\u003e (\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e i = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e; i \u0026lt; arr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e; i++) {\n  \u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e randomIndex = \u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003efloor\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eMath\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003erandom\u003c/span\u003e() * arr.\u003cspan class=\"hljs-property\"\u003elength\u003c/span\u003e);\n  [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]];\n}\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(arr); \u003cspan class=\"hljs-comment\"\u003e// [2, 3, 1, 4, 5]\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"Array\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

@@ -1,0 +1,215 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","object-oriented-programming","class-definitions","class-basic"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dVqLtnE66MxGMnmSFsqul",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3b80,<h1>类的基本语法</h1>
+<p>ECMAScript 6 中的 Class（类）概念，实际上可以把它看作 ECMAScript 5 对象原型写法的语法糖。</p>
+<h2>基本写法</h2>
+<p>利用 ES5 实现对象原型：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Point</span>(<span class="hljs-params">x, y</span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
+}
+
+<span class="hljs-title class_">Point</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;(&#x27;</span> + <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> + <span class="hljs-string">&#x27;,&#x27;</span> + <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> + <span class="hljs-string">&#x27;)&#x27;</span>;
+};
+
+<span class="hljs-keyword">var</span> p = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Point</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+</code></pre>
+<p>利用 ES6 实现对象原型：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">x, y</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
+  }
+  <span class="hljs-title function_">toString</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;(&#x27;</span> + <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> + <span class="hljs-string">&#x27;,&#x27;</span> + <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> + <span class="hljs-string">&#x27;)&#x27;</span>;
+  }
+}
+</code></pre>
+<h2>表现形式</h2>
+<p>类有两种表现形式：声明式和表达式。</p>
+<h3>类的声明式</h3>
+<p>与 ES5 相同的是，类也是通过 <code>new</code> 关键字创建对象实例。</p>
+<p>与 ES5 不同的是，在 ES6 中，我们将原型的实现写在了类中，但本质上还是一样的，都是需要新建一个类名，然后实现构造函数，再实现原型方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span>(){
+  <span class="hljs-comment">// 构造函数</span>
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name = <span class="hljs-string">&#x27;Tom&#x27;</span></span>){
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name
+  }
+
+  <span class="hljs-comment">// 定义一个方法并且赋值给构造函数的原型</span>
+  <span class="hljs-title function_">sayName</span>(<span class="hljs-params"></span>){
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>)
+  }
+}
+
+<span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>()
+foo.<span class="hljs-title function_">sayName</span>()
+<span class="hljs-comment">// &#x27;Tom&#x27;</span>
+</code></pre>
+<p>类声明和函数声明的区别和特点：</p>
+<ol>
+<li>函数声明可以被提升，类声明不能提升（与 <code>let</code> 声明类似）</li>
+<li>类声明中的代码自动强行运行在 &lt;strong style=&quot;color: red&quot;&gt;严格模式&lt;/strong&gt; 下</li>
+<li>只能通过 <code>new</code> 关键字来声明类，声明类会调用类的构造函数</li>
+<li>每个类都有一个 <code>[[construct]]</code> 的方法，该方法就是构造函数</li>
+<li>类的所有方法都定义在类的 <code>prototype</code> 属性上</li>
+<li>类中的方法无需添加 <code>function</code> 关键字，只需直接添加到类中</li>
+<li>方法间不需要添加逗号（<code>,</code>），加了会报错</li>
+<li>类中的所有方法都是 &lt;strong style=&quot;color: red&quot;&gt;不可枚举的&lt;/strong&gt;（Non-Enumerable），而自定义类型中，可以通过 <code>Object.definedProperty()</code> 手工指定不可枚举属性</li>
+<li>在类的实例上调用方法，实质上就是调用原型上的方法</li>
+<li>不能在类中修改类名</li>
+<li><code>name</code> 属性总是返回紧跟 <code>class</code> 的关键字后的类名</li>
+<li><code>this</code> 的指向默认指向 &lt;strong style=&quot;color: red&quot;&gt;类的实例&lt;/strong&gt;</li>
+</ol>
+<h3>类的表达式</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 表达式</span>
+<span class="hljs-comment">// 这个类的名称为 Baz2 而不是 Baz1</span>
+<span class="hljs-comment">// Baz1 只有在类内部代码可用 指代当前类</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">Baz2</span> = <span class="hljs-keyword">class</span> <span class="hljs-title class_">Baz1</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {}
+  <span class="hljs-title function_">getClassName</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-title class_">Baz1</span>.<span class="hljs-property">name</span>;
+  }
+};
+</code></pre>
+<h2>类的组成</h2>
+<h3>构造函数</h3>
+<p>构造函数（<code>constructor</code> 方法）是类的默认方法，通过 <code>new</code> 关键字生成对象实例时，自动调用该方法。若没有显式定义，一个空的构造函数会被默认添加。</p>
+<blockquote>
+<p>⚠️ <strong>注意</strong>：类必须使用 <code>new</code> 关键字调用，否则会报错。这是它跟普通构造函数的一个主要区别，后者不用 <code>new</code> 关键字也能执行。</p>
+</blockquote>
+<h3>实例对象</h3>
+<p>与 ES5 一样，实例的属性除非显式定义在其本身（即定义在 <code>this</code> 对象上），否则都是定义在 <strong>原型对象</strong> 上（即定义在 <code>class</code> 上）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">x, y</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
+  }
+  <span class="hljs-title function_">toString</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`(<span class="hljs-subst">${<span class="hljs-variable language_">this</span>.x}</span>, <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.y}</span>)`</span>;
+  }
+}
+
+<span class="hljs-keyword">const</span> point = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Point</span>(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+
+<span class="hljs-comment">// 实例化类后，挂载在 this 上的属性会在挂载到实例对象上</span>
+point.<span class="hljs-title function_">toString</span>();
+<span class="hljs-comment">// (2, 3)</span>
+point.<span class="hljs-title function_">hasOwnProperty</span>(<span class="hljs-string">&#x27;x&#x27;</span>);
+<span class="hljs-comment">// true</span>
+point.<span class="hljs-title function_">hasOwnProperty</span>(<span class="hljs-string">&#x27;y&#x27;</span>);
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-comment">// 而挂载在类上的方法则挂载在原型链上</span>
+point.<span class="hljs-title function_">hasOwnProperty</span>(<span class="hljs-string">&#x27;toString&#x27;</span>);
+<span class="hljs-comment">// false</span>
+point.<span class="hljs-property">__proto__</span>.<span class="hljs-title function_">hasOwnProperty</span>(<span class="hljs-string">&#x27;toString&#x27;</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>&lt;br /&gt;</p>
+<ul>
+<li>变量 <code>x</code> 和 <code>y</code> 都是实例对象 <code>point</code> 自身的属性（因为定义在 <code>this</code> 变量上）</li>
+<li>而 <code>toString</code> 是原型对象的属性（因为定义在 <code>Point</code> 类上）</li>
+</ul>
+<p>与 ES5 一样，类的所有实例共享一个原型对象。这也意味着，可以通过实例的 <code>__proto__</code> 属性为类添加方法。</p>
+<blockquote>
+<p><code>__proto__</code>  并不是语言本身的特性，这是各大厂商具体实现时添加的私有属性，虽然目前很多现代浏览器的 JavaScript 引擎中都提供了这个私有属性，但依旧不建议在生产中使用该属性，避免对环境产生依赖。</p>
+<p>生产环境中，我们可以使用  <code>Object.getPrototypeOf</code>  方法来获取实例对象的原型，然后再来为原型添加方法/属性。</p>
+</blockquote>
+<h3>访问器属性</h3>
+<p>与 ES5 一样，在类的内部也可以使用 <code>get</code> 和 <code>set</code> 关键字，对某个属性设置 <strong>存值函数</strong> 和 <strong>取值函数</strong>，拦截该属性的存取行为。</p>
+<p>尽管应该在类的构造函数中创建自己的属性，但是类也支持直接在原型上定义访问器属性。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> () {
+  <span class="hljs-title function_">constructor</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-comment">// ...</span>
+  }
+  get <span class="hljs-title function_">run</span> () {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;get&#x27;</span>
+  }
+  set <span class="hljs-title function_">run</span> (value) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`set: <span class="hljs-subst">${value}</span>`</span>)
+  }
+}
+
+<span class="hljs-keyword">let</span> inst = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Student</span>()
+
+<span class="hljs-title class_">Student</span>.<span class="hljs-property">run</span> = <span class="hljs-string">&#x27;abc&#x27;</span>
+<span class="hljs-comment">// set: abc</span>
+
+<span class="hljs-title class_">Student</span>.<span class="hljs-property">run</span>
+<span class="hljs-comment">// get</span>
+</code></pre>
+<h3>属性表达式</h3>
+<p>类的属性名，可以采用表达式。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> methodName = <span class="hljs-string">&#x27;getArea&#x27;</span>
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Square</span>(){
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">length</span>){
+    <span class="hljs-comment">// ...</span>
+  }
+  [methodName](){
+    <span class="hljs-comment">// ...</span>
+  }
+}
+</code></pre>
+<h3>生成器方法</h3>
+<p>如果某个方法之前加上星号（<code>*</code>），就表示该方法是一个生成器方法（Generator 函数）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">...args</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">args</span> = args;
+  }
+  *[<span class="hljs-title class_">Symbol</span>.<span class="hljs-property">iterator</span>]() {
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> arg <span class="hljs-keyword">of</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">args</span>) {
+      <span class="hljs-keyword">yield</span> arg;
+    }
+  }
+}
+
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> x <span class="hljs-keyword">of</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>(<span class="hljs-string">&#x27;hello&#x27;</span>, <span class="hljs-string">&#x27;world&#x27;</span>)) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(x);
+}
+<span class="hljs-comment">// hello</span>
+<span class="hljs-comment">// world</span>
+</code></pre>
+<h2>运行环境的指向</h2>
+<p>类的方法内部如果含有 <code>this</code>，它默认指向 <strong>类的实例</strong>。</p>
+<p>但是，如果将类方法内部的方法提取出来单独使用，<code>this</code> 会指向该方法 <strong>运行时所在的环境</strong>，因为找不到相对应的方法而导致报错。</p>
+<p>因此，需要 <strong>在构造函数中绑定 <code>this</code></strong> ，这样就不会找不到相对应的方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span> = <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>);
+  }
+}
+</code></pre>
+<p>另一种解决方法是使用 <strong>箭头函数</strong>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Car</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span> = <span class="hljs-function">(<span class="hljs-params">name = <span class="hljs-string">&#x27;BOT&#x27;</span></span>) =&gt;</span> {
+      <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">sayName</span>(<span class="hljs-string">`My name is <span class="hljs-subst">${name}</span>`</span>);
+    };
+  }
+}
+</code></pre>
+<p>还有一种解决方法是使用 <code>Proxy</code> ，获取方法的时候，自动绑定 <code>this</code>。</p>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="http://es6.ruanyifeng.com/#docs/class">📝 ECMAScrept 6 入门：Class 的基本语法</a></li>
+<li><a href="https://juejin.im/entry/59bbb3b65188256c4b723bdb">📝 ES6 JavaScript 中的类 class</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"类的基本语法"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

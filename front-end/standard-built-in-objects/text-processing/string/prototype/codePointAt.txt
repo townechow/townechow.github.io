@@ -1,0 +1,105 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","codePointAt"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/codePointAt","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/codePointAt","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","grvIf3HcbL0PFX0-F_DkF",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T180d,<h1>String.prototype.codePointAt()</h1>
+<p><code>codePointAt()</code> 方法返回 一个 Unicode 编码点值的非负整数。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">codePointAt</span>(index);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>index</code></td>
+<td>这个字符串中需要转码的元素的位置索引。</td>
+<td>number</td>
+</tr>
+</tbody>
+</table>
+<p>返回值是在字符串中的给定索引的编码单元体现的数字，如果在索引处没找到元素则返回 <code>undefined</code>。</p>
+<h2>说明</h2>
+<p>如果在指定的位置没有元素则返回 <code>undefined</code> 。如果在索引处开始没有 UTF-16 代理对，将直接返回在那个索引处的编码单元。</p>
+<p>Surrogate Pair 是 UTF-16 中用于扩展字符而使用的编码方式，是一种采用四个字节（两个 UTF-16 编码）来表示一个字符，称作代理对。</p>
+<h2>示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-string">&#x27;ABC&#x27;</span>.<span class="hljs-title function_">codePointAt</span>(<span class="hljs-number">1</span>); <span class="hljs-comment">// 66</span>
+
+<span class="hljs-string">&#x27;\uD800\uDC00&#x27;</span>.<span class="hljs-title function_">codePointAt</span>(<span class="hljs-number">0</span>); <span class="hljs-comment">// 65536</span>
+
+<span class="hljs-string">&#x27;XYZ&#x27;</span>.<span class="hljs-title function_">codePointAt</span>(<span class="hljs-number">42</span>); <span class="hljs-comment">// undefined</span>
+</code></pre>
+<h2>Polyfill</h2>
+<p>给原生不支持 ECMAScript 6 的浏览器使用 <code>codePointAt()</code> 方法的的一个字符串扩展方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">/*! http://mths.be/codepointat v0.1.0 by @mathias */</span>
+<span class="hljs-keyword">if</span> (!<span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">codePointAt</span>) {
+  (<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-comment">// 严格模式，needed to support `apply`/`call` with `undefined`/`null`</span>
+    <span class="hljs-string">&#x27;use strict&#x27;</span>;
+    <span class="hljs-keyword">var</span> codePointAt = <span class="hljs-keyword">function</span>(<span class="hljs-params">position</span>) {
+      <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span> == <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-title class_">TypeError</span>();
+      }
+      <span class="hljs-keyword">var</span> string = <span class="hljs-title class_">String</span>(<span class="hljs-variable language_">this</span>);
+      <span class="hljs-keyword">var</span> size = string.<span class="hljs-property">length</span>;
+      <span class="hljs-comment">// 变成整数</span>
+      <span class="hljs-keyword">var</span> index = position ? <span class="hljs-title class_">Number</span>(position) : <span class="hljs-number">0</span>;
+      <span class="hljs-keyword">if</span> (index != index) {
+        <span class="hljs-comment">// better `isNaN`</span>
+        index = <span class="hljs-number">0</span>;
+      }
+      <span class="hljs-comment">// 边界</span>
+      <span class="hljs-keyword">if</span> (index &lt; <span class="hljs-number">0</span> || index &gt;= size) {
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+      }
+      <span class="hljs-comment">// 第一个编码单元</span>
+      <span class="hljs-keyword">var</span> first = string.<span class="hljs-title function_">charCodeAt</span>(index);
+      <span class="hljs-keyword">var</span> second;
+      <span class="hljs-keyword">if</span> (
+        <span class="hljs-comment">// 检查是否开始 surrogate pair</span>
+        first &gt;= <span class="hljs-number">0xd800</span> &amp;&amp;
+        <span class="hljs-comment">// high surrogate</span>
+        first &lt;= <span class="hljs-number">0xdbff</span> &amp;&amp;
+        <span class="hljs-comment">// 下一个编码单元</span>
+        size &gt; index + <span class="hljs-number">1</span>
+      ) {
+        second = string.<span class="hljs-title function_">charCodeAt</span>(index + <span class="hljs-number">1</span>);
+        <span class="hljs-keyword">if</span> (second &gt;= <span class="hljs-number">0xdc00</span> &amp;&amp; second &lt;= <span class="hljs-number">0xdfff</span>) {
+          <span class="hljs-comment">// low surrogate</span>
+          <span class="hljs-comment">// http://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae</span>
+          <span class="hljs-keyword">return</span> (first - <span class="hljs-number">0xd800</span>) * <span class="hljs-number">0x400</span> + second - <span class="hljs-number">0xdc00</span> + <span class="hljs-number">0x10000</span>;
+        }
+      }
+      <span class="hljs-keyword">return</span> first;
+    };
+
+    <span class="hljs-keyword">if</span> (<span class="hljs-title class_">Object</span>.<span class="hljs-property">defineProperty</span>) {
+      <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(<span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>, <span class="hljs-string">&#x27;codePointAt&#x27;</span>, {
+        <span class="hljs-attr">value</span>: codePointAt,
+        <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">writable</span>: <span class="hljs-literal">true</span>,
+      });
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">codePointAt</span> = codePointAt;
+    }
+  })();
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.codePointAt"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

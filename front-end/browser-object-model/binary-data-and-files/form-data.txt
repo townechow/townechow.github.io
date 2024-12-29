@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","binary-data-and-files","form-data"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/binary-data-and-files/form-data","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/binary-data-and-files/form-data","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JtN90vO1AxBtstQQ70aMC",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T13cc,<h1>FormData API</h1>
+<p>FormData API 接口提供了一种表示表单数据的键值对，并且将数据通过 <code>XMLHttpRequest.send</code> 方法发送出去。</p>
+<h2>基本用法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> formData = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FormData</span>(form ? :<span class="hljs-title class_">HTMLFormElement</span>);
+</code></pre>
+<p><strong>参数</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">form</td>
+<td style="text-align:left">（可选）一个 HTML 表单元素，可以包含任何形式的表单控件，包括文件输入框</td>
+</tr>
+</tbody>
+</table>
+<h2>方法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>FormData.append()</code></td>
+<td style="text-align:left">为 FormData 添加新的属性值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.set()</code></td>
+<td style="text-align:left">设置 FormData 中属性值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.has()</code></td>
+<td style="text-align:left">判断 FormData 中是否包含某个键</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.get()</code></td>
+<td style="text-align:left">获取 FormData 中指定键关联的值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.getAll(name)</code></td>
+<td style="text-align:left">获取 FormData 中指定键关联的所有值的数组</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.delete()</code></td>
+<td style="text-align:left">删除 FormData 中指定的键值对</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.entries()</code></td>
+<td style="text-align:left">获取 FormData 中所有键值对</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.keys()</code></td>
+<td style="text-align:left">获取 FormData 中键名组成难过的数组</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FormData.values()</code></td>
+<td style="text-align:left">获取 FormData 中键值组成的数组</td>
+</tr>
+</tbody>
+</table>
+<h2>应用示例</h2>
+<p>使用已有的表单来初始化一个对象实例。假如现在页面已经有一个表单。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;name&quot;</span> /&gt;</span>名字 <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;password&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;psw&quot;</span> /&gt;</span>密码
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;提交&quot;</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<p>我们可以使用这个表单元素作为初始化参数，来实例化一个 FormData 对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 获取页面已有的一个 form 表单</span>
+<span class="hljs-keyword">const</span> form = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;file&#x27;</span>);
+<span class="hljs-comment">// 用表单来初始化</span>
+<span class="hljs-keyword">const</span> formData = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FormData</span>(form);
+<span class="hljs-comment">// 我们可以根据 name 来访问表单中的字段</span>
+<span class="hljs-comment">// 获取名字</span>
+<span class="hljs-keyword">const</span> name = formData.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;name&#x27;</span>);
+<span class="hljs-comment">// 获取密码</span>
+<span class="hljs-keyword">const</span> psw = formData.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;psw&#x27;</span>);
+<span class="hljs-comment">// 当然也可以在此基础上，添加其他数据</span>
+formData.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;token&#x27;</span>, <span class="hljs-string">&#x27;kshdfiwi3rh&#x27;</span>);
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"FormData API"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

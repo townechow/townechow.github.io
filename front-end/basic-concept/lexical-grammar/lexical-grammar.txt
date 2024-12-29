@@ -1,0 +1,295 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","lexical-grammar","lexical-grammar"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/lexical-grammar/lexical-grammar","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/lexical-grammar/lexical-grammar","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","wuqiBjRIRa5SVdfK5LLld",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4fdd,<h1>词法语法</h1>
+<p>ECMAScript 源码文本会被从左到右扫描，并被转换为一系列的输入元素，包括标识符、控制符、行终止符、注释和空白符。</p>
+<p>同样地，ECMAScript 也定义了一些关键字、字面量以及行尾分号补全的规则。</p>
+<h2>字符集</h2>
+<p>JavaScript 程序使用 Unicode 字符集编写。Unicode 是 ASCII 和 Latin-1 的超集，并支持地球上几乎所有在使用的语言。ECMAScript3 要求 JavaScript 的实现必须支持 Unicode2.1 及后续版本，ECMAScript5 则要求支持 Unicode3 及后续版本。</p>
+<h3>区分大小写</h3>
+<p>JavaScript 是区分大小写的语言，也就是说，关键字、变量、函数名和所有的标识符（Identifier）都必须采取一致的大小写的形式。但是需要注意的是，HTML 和 CSS 并不区分大小写（尽管 XHTML 区分大小写），也就是说如果我们在用 JavaScript 控制 HTML 属性的时候对 HTML 来说 <code>id</code> 和 <code>ID</code> 没区别，但是 JavaScript 有区别。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<p><code>abc</code>、<code>Abc</code>、<code>aBc</code>、<code>abC</code>、<code>ABC</code> 是五个不同的变量名。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> abc = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">var</span> <span class="hljs-title class_">Abc</span> = <span class="hljs-number">2</span>;
+<span class="hljs-keyword">var</span> aBc = <span class="hljs-number">3</span>;
+<span class="hljs-keyword">var</span> abC = <span class="hljs-number">4</span>;
+<span class="hljs-keyword">var</span> <span class="hljs-variable constant_">ABC</span> = <span class="hljs-number">5</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(abc, <span class="hljs-title class_">Abc</span>, aBc, abC, <span class="hljs-variable constant_">ABC</span>); <span class="hljs-comment">// 1 2 3 4 5</span>
+</code></pre>
+<h3>空格、换行符和格式控制符</h3>
+<p>JavaScript 会忽略程序中 <strong>标识</strong>（Token）之间的空格。多数情况下，JavaScript 同样会忽略换行符。由于可以在代码中随意使用空格和换行，因此可以采用整齐、一致的缩进来形成统一的编码风格，从而提高代码的可读性。</p>
+<h4>空白字符</h4>
+<p>空白字符 WhiteSpace</p>
+<pre class="hljs"><code class="language-js">\u0009    水平制表符        &lt;<span class="hljs-variable constant_">TAB</span>&gt;
+\u000B    垂直制表符        &lt;<span class="hljs-variable constant_">VT</span>&gt;
+\u000C    换页符            &lt;<span class="hljs-variable constant_">FF</span>&gt;
+\u0020    空格符            &lt;<span class="hljs-variable constant_">SP</span>&gt;
+\u00A0    非中断空格符      &lt;<span class="hljs-variable constant_">NBSP</span>&gt;
+\uFEFF    字符序标记
+</code></pre>
+<h4>行终止符</h4>
+<p>行终止符 LineTerminator</p>
+<pre class="hljs"><code class="language-js">\u000A    换行符        &lt;<span class="hljs-variable constant_">LF</span>&gt;
+\u000D    回车符        &lt;<span class="hljs-variable constant_">CR</span>&gt;
+\u2028    行分隔符      &lt;<span class="hljs-variable constant_">LS</span>&gt;
+\u2029    段落分割符     &lt;<span class="hljs-variable constant_">PS</span>&gt;
+</code></pre>
+<p>⚠️ <strong>注意</strong>：回车符加换行符在一起被解析成一个单行结束符</p>
+<h3>Unicode 转义序列</h3>
+<p>在有些计算机硬件和软件里，无法显示或输入 Unicode 字符全集。为了兼容，JavaScript 定义了一种特殊序列，使用 6 个 ASCII 字符来代表任意 16 位 Unicode 内码。这些 Unicode 转义序列均以 <code>\u</code> 为前缀，其后跟随 4 个十六进制数（使用数数字以及大写或小写的字母 A~F 表示），可以用于 JavaScript 直接量、正则表达式和标识符中（关键字除外）。</p>
+<h2>注释</h2>
+<p>JavaScript 不会执行注释。</p>
+<p>我们可以添加注释来对 JavaScript 进行解释，或者提高代码的可读性。</p>
+<h3>单行注释</h3>
+<p>单行注释以两个斜杠开头</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> a;
+</code></pre>
+<h3>多行注释</h3>
+<p>多行注释又叫块级注释，以 <code>/*</code> 开头，以 <code>*/</code> 结尾</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">/*
+以下代码为
+声明变量并
+赋值
+*/</span>
+<span class="hljs-keyword">let</span> a;
+a = <span class="hljs-number">1</span>;
+</code></pre>
+<p>块级注释 <code>/**/</code> 可以跨行书写，但不能嵌套，否则会报错。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Error</span>
+
+<span class="hljs-comment">/*
+注释1
+/*
+注释1.1
+ */</span>
+ */
+</code></pre>
+<p>块级注释 <code>/**/</code> 中的那些字符也可能出现在正则表达式字面量里，所以块级注释对于被注释的代码块来说是不安全的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">/*
+    var rm_a = /a*/</span>.<span class="hljs-title function_">match</span>(s);
+*/
+</code></pre>
+<h3>阻止执行</h3>
+<p>注释可用于阻止其中一条代码行的执行（可用于调试）：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// var a = 1;</span>
+<span class="hljs-keyword">var</span> a = <span class="hljs-number">2</span>;
+</code></pre>
+<h3>行末注释</h3>
+<p>在下面的例子中，我们把注释放到代码行的结尾处：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> x = <span class="hljs-number">5</span>; <span class="hljs-comment">// 声明 x 并把 5 赋值给它</span>
+<span class="hljs-keyword">var</span> y = x + <span class="hljs-number">2</span>; <span class="hljs-comment">// 声明 y 并把 x+2 赋值给它</span>
+</code></pre>
+<h2>直接量</h2>
+<p>JavaScript 数据直接量：<strong>直接量（Literals）</strong>，又名<strong>字面量</strong>，就是可以在程序中直接使用的数据。</p>
+<p>主要有以下几种直接量：</p>
+<p><strong>空直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-literal">null</span>;
+</code></pre>
+<p><strong>布尔直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-literal">true</span>;
+<span class="hljs-literal">false</span>;
+</code></pre>
+<p><strong>数值直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 十进制</span>
+<span class="hljs-number">1234567890</span>;
+</code></pre>
+<p>⚠️ <strong>注意</strong>：十进制数值直接量可以以 0 开头，但是如果 0 以后的最高位比 8 小，数值将会被认为是八进制而不会报错</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 二进制</span>
+<span class="hljs-number">0b10000000000000000000000000000000</span>;
+<span class="hljs-comment">// 2147483648</span>
+</code></pre>
+<p>二进制表示为开头是 0 后接大写或小写的 B（<code>0b</code>或者<code>0B</code>）。如果<code>0b</code>之后有除了 0 或 1 以外的数字，将会抛出错误。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 八进制</span>
+<span class="hljs-number">0o755</span>;
+<span class="hljs-comment">// 493</span>
+</code></pre>
+<p>进制表示为开头是 0 后接大写或小写的 O（<code>0o</code> 或 <code>0O</code>）。如果有不在 <code>01234567</code> 中的数字，将会抛出错误。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 十六进制</span>
+<span class="hljs-number">0xfffffffffffffffff</span>;
+<span class="hljs-comment">// 295147905179352830000</span>
+</code></pre>
+<p>十六进制表示为开头是 0 后接大写或小写的 X（<code>0x</code>或<code>0X</code>）。如果有不在 <code>0123456789ABCDEF</code> 中的数字，将会抛出错误。</p>
+<p><strong>字符串直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-string">&#x27;foo&#x27;</span>;
+<span class="hljs-string">&#x27;bar&#x27;</span>;
+
+<span class="hljs-comment">// 十六进制转义序列</span>
+<span class="hljs-string">&#x27;\xA9&#x27;</span>; <span class="hljs-comment">// &quot;©&quot;</span>
+
+<span class="hljs-comment">// Unicode转义序列</span>
+<span class="hljs-string">&#x27;\u00A9&#x27;</span>; <span class="hljs-comment">// &quot;©&quot;</span>
+</code></pre>
+<p><strong>对象直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> o = { <span class="hljs-attr">a</span>: <span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-attr">b</span>: <span class="hljs-string">&#x27;bar&#x27;</span>, <span class="hljs-attr">c</span>: <span class="hljs-number">42</span> };
+
+<span class="hljs-comment">// ES6中的简略表示方法</span>
+<span class="hljs-keyword">var</span> a = <span class="hljs-string">&#x27;foo&#x27;</span>,
+  b = <span class="hljs-string">&#x27;bar&#x27;</span>,
+  c = <span class="hljs-number">42</span>;
+<span class="hljs-keyword">var</span> o = { a, b, c };
+
+<span class="hljs-comment">// 不需要这样</span>
+<span class="hljs-keyword">var</span> o = { <span class="hljs-attr">a</span>: a, <span class="hljs-attr">b</span>: b, <span class="hljs-attr">c</span>: c };
+</code></pre>
+<p><strong>数组直接量</strong></p>
+<pre class="hljs"><code class="language-js">[<span class="hljs-number">1954</span>, <span class="hljs-number">1974</span>, <span class="hljs-number">1990</span>, <span class="hljs-number">2014</span>];
+</code></pre>
+<p><strong>正则表达式直接量</strong></p>
+<p>一个空的正则表达式直接量，必须有一个空的非捕获分组，以避免被当成是行注释符号。</p>
+<pre class="hljs"><code class="language-js">/ab+c/g
+
+/(?:)/
+</code></pre>
+<p><strong>模板字符串直接量</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-string">`string text`</span><span class="hljs-string">`string text line 1
+ string text line 2`</span><span class="hljs-string">`string text <span class="hljs-subst">${expression}</span> string text`</span>;
+</code></pre>
+<h2>标识符</h2>
+<p><strong>标识符</strong>，就是指变量、函数、属性的名字，或者函数的参数。标识符可以是按照下列格式规则组合起来的一或多个字符。</p>
+<ul>
+<li>第一个字符必须是一个字母、下划线（<code>_</code>）、或一个美元符号（<code>$</code>）</li>
+<li>其他字符可以是字母、下划线、美元符号或数字</li>
+</ul>
+<p>标识符中的字母也可以包含扩展的 ASCII 或 Unicode 字母字符，但我们不推荐这样做。</p>
+<p>按照惯例，ECMAScript 标识符采用驼峰大小写格式，也就是第一个字母小写，剩下的每个单词的首字母大写。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> firstSecond = <span class="hljs-number">123</span>;
+
+<span class="hljs-keyword">const</span> myCar = <span class="hljs-string">&#x27;Toyota&#x27;</span>;
+
+<span class="hljs-keyword">const</span> doSomethingImportant = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
+</code></pre>
+<p>虽然没有谁强制要求必须采用这种格式，但为了与 ECMAScript 内置的函数和对象命名格式保持一致，可以将其当作一种最佳实践。</p>
+<p>⚠️ <strong>注意</strong>：不能把关键字、保留字、<code>true</code>、<code>false</code> 和 <code>null</code> 用作标识符。</p>
+<h2>关键字和保留字</h2>
+<p>和其他任何编程语言一样，JavaScript 保留了一些标识符为自己所用。这些保留字不能用做普通的标识符。由于好多参考书的误导，貌似保留字和关键字是分开的，其实并不是，关键字只是保留字的一部分。</p>
+<p>保留字包括<strong>关键字</strong>、<strong>未来保留字</strong>、<strong>空字面量</strong>和<strong>布尔值字面量</strong>。</p>
+<h3>保留字</h3>
+<ul>
+<li>关键字 Keyword</li>
+<li>未来保留字 FutureReservedWord</li>
+<li>空字面量 NullLiteral</li>
+<li>布尔值字面量 BooleanLiteral</li>
+</ul>
+<h3>关键字</h3>
+<p>以下关键字 ES6 规范中已实现</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">break</span>      <span class="hljs-keyword">do</span>         <span class="hljs-keyword">instanceof</span>  <span class="hljs-keyword">typeof</span>
+<span class="hljs-keyword">case</span>       <span class="hljs-keyword">else</span>       <span class="hljs-keyword">new</span>         <span class="hljs-keyword">var</span>
+<span class="hljs-keyword">catch</span>      <span class="hljs-keyword">finally</span>    <span class="hljs-keyword">return</span>      <span class="hljs-keyword">void</span>
+<span class="hljs-keyword">continue</span>   <span class="hljs-keyword">for</span>        <span class="hljs-keyword">switch</span>      <span class="hljs-keyword">while</span>
+<span class="hljs-keyword">debugger</span>   <span class="hljs-keyword">function</span>   <span class="hljs-variable language_">this</span>        <span class="hljs-keyword">with</span>
+<span class="hljs-keyword">default</span>    <span class="hljs-keyword">if</span>         <span class="hljs-keyword">throw</span>       <span class="hljs-keyword">delete</span>
+<span class="hljs-keyword">in</span>         <span class="hljs-keyword">try</span>        <span class="hljs-keyword">class</span>       <span class="hljs-title class_">extends</span>
+<span class="hljs-keyword">const</span>      <span class="hljs-keyword">export</span>     <span class="hljs-keyword">import</span>
+</code></pre>
+<h3>未来保留字</h3>
+<p>以上是 ECMAScript6 的保留字，但在 ECMAScript3 版本中的保留字并不一样，若希望代码能在基于 ECMAScript3 实现的解释器上运行的话，应该避免使用以下保留字作为标识符。</p>
+<pre class="hljs"><code class="language-js">abstract    boolean     byte        char
+constdouble enum        final       float
+goto        implements  int         interfacelong
+native      package     private     protected
+public      short       <span class="hljs-keyword">static</span>      <span class="hljs-variable language_">super</span>
+<span class="hljs-keyword">throw</span>       transient   volatile    synchronized
+</code></pre>
+<p><strong>预定义变量和函数</strong></p>
+<p>此外，JavaScript 预定义了很多全局变量和函数，应该避免把它们的名字用做标识符名。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">String</span>      <span class="hljs-title class_">Number</span>      <span class="hljs-title class_">Boolean</span>      <span class="hljs-title class_">Array</span>
+<span class="hljs-title class_">Date</span>        <span class="hljs-title class_">Function</span>    <span class="hljs-title class_">Math</span>         <span class="hljs-title class_">Object</span>
+<span class="hljs-title class_">RegExp</span>      <span class="hljs-title class_">Error</span>       <span class="hljs-title class_">EvalError</span>    <span class="hljs-title class_">JSON</span>
+<span class="hljs-title class_">Infinity</span>    <span class="hljs-title class_">NaN</span>         <span class="hljs-built_in">isNaN</span>        <span class="hljs-built_in">isFinite</span>
+<span class="hljs-literal">undefined</span>   <span class="hljs-variable language_">arguments</span>   <span class="hljs-built_in">parseInt</span>     <span class="hljs-built_in">parseFloat</span>
+<span class="hljs-built_in">eval</span>        <span class="hljs-built_in">decodeURI</span>   <span class="hljs-built_in">encodeURI</span>    <span class="hljs-built_in">decodeURIComponent</span>
+<span class="hljs-built_in">encodeURIComponent</span>      <span class="hljs-title class_">RangeError</span>   <span class="hljs-title class_">ReferenceError</span>
+<span class="hljs-title class_">TypeError</span>   <span class="hljs-title class_">URIError</span>    <span class="hljs-title class_">SyntaxError</span>
+</code></pre>
+<h2>分号</h2>
+<p>JavaScript 使用分号 <code>;</code> 将语句分隔开，这对增强代码的可读性和整洁性是非常重要的。</p>
+<p>有些地方可以省略分号，有些地方则不能省略分号。</p>
+<ul>
+<li><strong>两条语句用两行书写，第一个分号可以省略</strong></li>
+</ul>
+<pre class="hljs"><code class="language-js">a = <span class="hljs-number">3</span>;
+b = <span class="hljs-number">4</span>;
+</code></pre>
+<ul>
+<li><strong>两条语句用一行书写，第一个分号不能省略</strong></li>
+</ul>
+<pre class="hljs"><code class="language-js">a = <span class="hljs-number">3</span>;
+b = <span class="hljs-number">4</span>;
+</code></pre>
+<p>但 JavaScript 并不是在所有换行处都填补分号，只有在缺少了分号无法正确解析代码时，JavaScript 才会填补分号。换句话说，如果当前语句和随后的非空格字符不能当成一个整体来解析的话，JavaScript 就在当前语句行结束处填补分号。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a;
+a = <span class="hljs-number">3</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+</code></pre>
+<p>JavaScript 将其解析为:</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a;
+a = <span class="hljs-number">3</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+</code></pre>
+<h3>自动分号补全</h3>
+<p>JavaScript 并不是在所有换行处都填补分号，只有在缺少了分号就无法正确解析代码时，JavaScript 才会填补分号。换句话说，如果当前语句和随后的非空格字符不能当成一个整体来解析的话，JavaScript 就在当前语句行结束处填补分号。</p>
+<ul>
+<li>当出现一个不允许的行终止符或 <code>}</code> 时，会在其之前插入一个分号。</li>
+</ul>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js">{ <span class="hljs-number">1</span> <span class="hljs-number">2</span> } <span class="hljs-number">3</span>
+
+<span class="hljs-comment">// 将会被 ASI 转换为</span>
+{ <span class="hljs-number">1</span> <span class="hljs-number">2</span> ;} <span class="hljs-number">3</span>;
+</code></pre>
+<p>当捕获到标识符输入流的结尾，并且无法将单个输入流转换为一个完整的程序时，将在结尾插入一个分号。</p>
+<p>在下面这段中，由于在 <code>b</code> 和 <code>++</code> 之间出现了一个行终止符，所以 <code>++</code> 未被当成变量 <code>b</code> 的后置运算符。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js">a = b;
+++c;
+
+<span class="hljs-comment">// 将被ASI转换为</span>
+a = b;
+++c;
+</code></pre>
+<p>当语句中包含行终止符语法的时候（也就是语句后紧跟着换行），将会在行结尾插入一个分号。</p>
+<p>带 <strong>这里没有行终止符</strong> 规则的语句有：</p>
+<ul>
+<li>后置运算符（<code>++</code> 和 <code>--</code>）</li>
+<li><code>continue</code></li>
+<li><code>break</code></li>
+<li><code>return</code></li>
+<li><code>yield</code>、<code>yield*</code></li>
+<li><code>module</code></li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">return</span>;
+a + b;
+
+<span class="hljs-comment">// 将被 ASI 转换为</span>
+<span class="hljs-keyword">return</span>;
+a + b;
+</code></pre>
+<pre class="hljs"><code class="language-js">x;
+++y;
+
+<span class="hljs-comment">// 解析为</span>
+x;
+++y;
+
+<span class="hljs-comment">// 本意</span>
+x++;
+y;
+</code></pre>
+<p>虽然分号不是必须的，但最好不要省略它，因为加上分号可以避免很多错误，代码行结尾处没有分号会导致压缩错误。加上分号也会在某些情况下增进代码的性能，因为这样解析器就不必再花时间推测应该在哪里插入分号了。</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"词法语法"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

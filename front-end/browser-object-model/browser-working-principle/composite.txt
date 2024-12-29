@@ -1,0 +1,150 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","browser-working-principle","composite"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/browser-working-principle/composite","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/browser-working-principle/composite","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","X23W2FLePUkavWH9qk70x",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4283,<h1>合并</h1>
+<p>文档结构、元素的样式、元素的几何关系、绘画顺序，这些信息我们都有了，这个时候如果要绘制一个页面，我们需要做的是 <strong>把这些信息转化为显示器中的像素</strong>，这个转化的过程，叫做 <strong>光栅化（rasterizing）</strong>。</p>
+<p>那我们要绘制一个页面，最简单的做法是只光栅化视口内（viewport）的网页内容，如果用户进行了页面滚动，就移动光栅帧（rastered frame）并且光栅化更多的内容以补上页面缺失的部分，如下：</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/most-simplest-rasterizing.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;最简单的光栅化过程&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>Chrome 第一个版本就是采用这种简单的绘制方式，这一方式唯一的缺点就是每当页面滚动，光栅线程都需要对新移进视图的内容进行光栅化，这是一定的性能损耗，为了优化这种情况，Chrome 采取一种更加复杂的叫做合成（compositing）的做法。</p>
+<blockquote>
+<p>那么，什么是合成？</p>
+</blockquote>
+<p>合成是一种将页面分成若干层，然后分别对它们进行光栅化，最后在一个单独的线程 - 合成线程（compositor thread）里面合并成一个页面的技术。当用户滚动页面时，由于页面各个层都已经被光栅化了，浏览器需要做的只是合成一个新的帧来展示滚动后的效果罢了。页面的动画效果实现也是类似，将页面上的层进行移动并构建出一个新的帧即可。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/composite-rasterizing.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;合成的光栅化过程&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>为了实现合成技术，我们需要对元素进行分层，确定哪些元素需要放置在哪一层，主线程需要遍历渲染树来创建一棵层次树（Layer Tree），对于添加了 <code>will-change</code> CSS 属性的元素，会被看做单独的一层，没有 <code>will-change</code> CSS 属性的元素，浏览器会根据情况决定是否要把该元素放在单独的层。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/layer-tree.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;LayerTree&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>你可能会想要给页面上所有的元素一个单独的层，然而当页面的层超过一定的数量后，层的合成操作要比在每个帧中光栅化页面的一小部分还要慢，因此衡量你应用的渲染性能是十分重要的一件事情。</p>
+<p>一旦 Layer Tree 被创建，渲染顺序被确定，主线程会把这些信息通知给合成器线程，合成器线程开始对层次数的每一层进行光栅化。有的层的可以达到整个页面的大小，所以合成线程需要将它们切分为一块又一块的小图块（Tiles），之后将这些小图块分别进行发送给一系列光栅线程（raster threads）进行光栅化，结束后光栅线程会将每个图块的光栅结果存在 GPU Process 的内存中。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/rasterizing-to-send-gpu.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;光栅线程创建图块的位图并发送给GPU&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>为了优化显示体验，合成线程可以给不同的光栅线程赋予不同的优先级，将那些在视口中的或者视口附近的层先被光栅化。</p>
+<p>当图层上面的图块都被栅格化后，合成线程会收集图块上面叫做绘画四边形（draw quads）的信息来构建一个合成帧（compositor frame）。</p>
+<ul>
+<li>绘画四边形：包含图块在内存的位置以及图层合成后图块在页面的位置之类的信息。</li>
+<li>合成帧：代表页面一个帧的内容的绘制四边形集合。</li>
+</ul>
+<p>以上所有步骤完成后，合成线程就会通过 IPC 向浏览器进程（browser process）提交（commit）一个渲染帧。这个时候可能有另外一个合成帧被浏览器进程的 UI 线程（UI thread）提交以改变浏览器的 UI。这些合成帧都会被发送给 GPU 从而展示在屏幕上。如果合成线程收到页面滚动的事件，合成线程会构建另外一个合成帧发送给 GPU 来更新页面。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/composite-frame.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; (
+  <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span>
+    <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;合成线程构建出合成帧，合成帧会被发送给浏览器进程然后再发送给GPU&quot;</span>
+    <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span>
+    <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span>
+  /&gt;</span></span>
+);
+</code></pre>
+<p>合成的好处在于这个过程没有涉及到主线程，所以合成线程不需要等待样式的计算以及 JavaScript 完成执行。这就是为什么合成器相关的动画最流畅，如果某个动画涉及到布局或者绘制的调整，就会涉及到主线程的重新计算，自然会慢很多。</p>
+<h2>硬件加速</h2>
+<p>浏览器接收到网站页面文档后，会将文档中的标记语言解析为 DOM 树。DOM 树和 CSS 结合形成浏览器构建页面的渲染树。渲染树中包含了大量的渲染元素，每个渲染元素会被分到单独一个图层中，每个图层又会被加载到 GPU 形成渲染纹理，而图层在 GPU 中 <code>transform</code> 是不会触发 <code>repaint</code> 的，这点非常类似 3D 绘图功能，最终这些使用 <code>transform</code> 的图层都会由 <a href="https://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-in-chrome">独立的合成器进程进行处理</a>。</p>
+<p>CSS <code>transform</code> 创建新的复合图层，可以被 GPU 直接用来执行 <code>transofmr</code> 操作。在 Chrome 开发者工具中开启 Show Layer Border 选项后，每个复合涂层就会显示一条黄色的边界。</p>
+<h3>内部原理</h3>
+<p>每个页面元素都有一个独立的渲染进程，包含了主线程和合成线程。</p>
+<ul>
+<li><strong>主线程</strong> 负责脚本的执行、CSS 样式计算、计算布局位置（Layout）、将页面元素绘制成位图（Paint）、发送位图给合成线程（Compositor Thread）</li>
+<li><strong>合成线程</strong> 则主要负责将位图发送给 GPU、计算页面的可见部分和即将可见部分（滚动）、通知 GPU 绘制位图到屏幕上。加上一个点，GPU 对于动画图形的渲染处理比 CPU 要快，那么就可以达到加速的效果</li>
+</ul>
+<p>当我们通过某种方法引起浏览器的 <code>reflow</code> 时，需要重新经历样式计算（Style Calculation）和布局（Layout）阶段，导致浏览器重新计算页面中每个 DOM 元素的尺寸及重新布局，伴随着重新进行 <code>repaint</code>，这个过程是非常耗时的。为了把代价降到最低，当然最好只留下合成（Composite）这个步骤最好。假设当我们改变一个容器的样式时，影响的只是它自己，并且还无需重绘，直接通过 GPU 中改变纹理的属性来改变样式，岂不是更好？</p>
+<blockquote>
+<p>如果能让元素达到这个效果？</p>
+</blockquote>
+<p>就是让 DOM 元素拥有自己的层（Layer）。有了层的概念，让我们从层的概念再来看浏览器的渲染过程：</p>
+<ol>
+<li>获取 DOM 并将其分割为多个层（Render Layer）</li>
+<li>将每个层栅格化，并独立地绘制进位图中</li>
+<li>将这些位图作为纹理上传至 GPU</li>
+<li>复合多个层来生成最终的屏幕图像（终极 Layer）</li>
+</ol>
+<p>可以将这个过程理解为设计师的 Phtoshop 文件。在 PS 源文件中，一个图像是由若干个图层相互叠加而展示出来的。分成多个图层的好处就是每个图层相对独立，修改方便，对单个图层的修改不会影响到页面上的其他图层。因此层（Layer）存在的意义在于：<strong>用最小的代价来改变某个页面元素</strong>。可以将某个 CSS 动画或某个 JS 交互效果抽离到一个单独的渲染层，来达到加速渲染的目的。</p>
+<h3>创建独立图层</h3>
+<blockquote>
+<p>那么哪些规则能让浏览器主动帮我们创建独立的层呢？</p>
+</blockquote>
+<ul>
+<li>3D 或者透视变换（<code>perspective</code> 和 <code>transform</code>） 的 CSS 属性</li>
+<li><code>backgace-visibility</code> 为 <code>hidden</code> 的元素</li>
+<li>使用加速视频解码的 <code>&lt;video&gt;</code> 元素</li>
+<li>拥有 3D（WebGL） 上下文或者加速 2D 上下文的 <code>&lt;canvas&gt;</code> 元素</li>
+<li>混合插件（Flash）</li>
+<li>对 <code>opacity</code>、<code>transform</code>、<code>filter</code>、<code>backdrop-filter</code> 应用了 <code>animation</code> 或者 <code>transition</code>（需要是 <code>active</code> 的 <code>animation</code> 或者 <code>transition</code>，当 <code>animation</code> 或者 <code>transition</code> 效果未开始或结束后，合成层也会失效）</li>
+<li><code>will-change</code> 设置为 <code>opacity</code>、<code>transform</code>、<code>top</code>、<code>left</code>、<code>bottom</code>、<code>right</code>（其中 <code>top</code>、<code>left</code> 等需要设置明确的定位属性，如 <code>relative</code> 等）</li>
+<li>拥有加速 CSS <code>filter</code> 过滤器的元素</li>
+<li>元素有一个包含复合层的后代节点（换句话说，就是一个元素拥有一个子元素，该子元素在自己的层里）</li>
+<li>元素有一个兄弟元素在复合图层渲染，并且该兄弟元素的 <code>z-index</code> 较小，那这个元素也会被应用到复合图层</li>
+</ul>
+<p><strong>实际优化点：</strong></p>
+<ul>
+<li>用 <code>translate</code> 替代 <code>top</code> 改变</li>
+<li>用 <code>opacity</code> 替代 <code>visibility</code></li>
+<li>不要逐条修改 DOM 的样式，预先定义好 <code>class</code>，然后修改 DOM 的 <code>className</code></li>
+<li>把 DOM 离线后修改，比如：先把 DOM 给 <code>display: none</code>（有一次 Reflow 重排），然后你修改 100 次，然后再把它显示出来</li>
+<li>不要把 DOM 节点的属性值放在一个循环里当成循环里的变量</li>
+<li>不要使用 <code>table</code> 布局，可能很小的一个小改动会造成整个 <code>table</code> 的重新布局</li>
+<li>动画实现的速度的选择</li>
+<li>对于动画新建吐槽那个</li>
+<li>启用 GPU 硬件加速</li>
+</ul>
+<h3>开启硬件加速</h3>
+<p>CSS 中以下几个属性能触发硬件加速：</p>
+<ol>
+<li><code>transform</code></li>
+<li><code>opacity</code></li>
+<li><code>filter</code></li>
+<li><code>will-change</code></li>
+</ol>
+<p>如果有一些元素不需要用到上述属性，但是需要触发硬件加速效果，可以使用硬编码的技巧来诱导浏览器开启硬件加速。</p>
+<pre class="hljs"><code class="language-css"><span class="hljs-selector-class">.element</span> {
+  -webkit-<span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">0</span>);
+  -moz-<span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">0</span>);
+  -ms-transoform: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">0</span>);
+  -o-transoform: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">0</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">0</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateZ</span>(<span class="hljs-number">360deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate3d</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+}
+</code></pre>
+<p>这段代码的作用就是让浏览器执行 3D <code>transform</code>。浏览器通过该样式创建了一个独立图层，图层中的动画则有 GPU 进行预处理并且触发了硬件加速。</p>
+<p>如果某个元素的背后是一个复杂元素，那么该元素的 <code>repaint</code> 操作就会耗费大量的资源，此时也可以使用上面的技巧来减少性能开销。</p>
+<p>注意事项：</p>
+<ol>
+<li>过多地开启硬件加速可能会耗费较多内存，因此什么时候开启硬件加速，给多少元素开启硬件加速，需要用测试结果说话</li>
+<li>GPU 渲染会影响字体的抗锯齿效果。这是因为 GPU 和 CPU 具有不同的渲染机制，即使最终硬件加速停止了，文本还是会在动画期间显示得很模糊</li>
+</ol>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/">High Performance Animations</a></li>
+<li><a href="https://blog.teamtreehouse.com/increase-your-sites-performance-with-hardware-accelerated-css">Increase Your Site's Performance with Hardware-Accelerated CSS</a></li>
+<li><a href="https://segmentfault.com/a/1190000013869580">硬件加速</a></li>
+<li><a href="https://www.zhangxinxu.com/wordpress/2015/11/css3-will-change-improve-paint/">使用 CSS3 will-change 提高页面滚动、动画等渲染性能</a></li>
+<li><a href="https://efe.baidu.com/blog/hardware-accelerated-css-the-nice-vs-the-naughty/">CSS 硬件加速好与坏</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"合并"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

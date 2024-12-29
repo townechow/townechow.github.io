@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","modularization","compound"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/modularization/compound","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/modularization/compound","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","h48QlLpwq9Dxw3L4Ukra2",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1117,<h1>模块导入/导出的复合写法</h1>
+<p>如果在一个模块之中，先输入后输出同一个模块，<code>import</code> 语句可以与 <code>export</code> 语句写在一起。</p>
+<h2>模块整体转发</h2>
+<p>从 <code>module</code> 模块整体导入后，直接完整导出。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> * <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;module&#x27;</span>
+</code></pre>
+<h2>模块部分接口转发</h2>
+<p>从 <code>module</code> 模块导入 <code>foo</code> 和 <code>bar</code>，并直接导出这两个接口。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { foo, bar } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;module&#x27;</span>
+
+<span class="hljs-comment">// 可以理解为</span>
+<span class="hljs-keyword">import</span> { foo, bar } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;module&#x27;</span>
+<span class="hljs-keyword">export</span> { foo, bar }
+</code></pre>
+<p>实际上，这样的写法只是相当于对外转发了这两个接口，当前模块不能直接使用这两个接口。</p>
+<h2>模块部分重命名转发</h2>
+<p>模块导入的接口重命名，从 <code>module</code> 导入 <code>foo</code> 接口，并以 <code>newFoo</code> 的名义导出。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { foo <span class="hljs-keyword">as</span> newFoo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;module&#x27;</span>
+</code></pre>
+<h2>默认模块转发</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { <span class="hljs-keyword">default</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;module&#x27;</span>
+</code></pre>
+<h2>命名模块改默认模块</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { foo <span class="hljs-keyword">as</span> <span class="hljs-keyword">default</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+
+<span class="hljs-comment">// 等同于</span>
+<span class="hljs-keyword">import</span> { foo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> foo
+</code></pre>
+<h2>默认模块改命名模块</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { <span class="hljs-keyword">default</span> <span class="hljs-keyword">as</span> foo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+</code></pre>
+<h2>无对应写法场景</h2>
+<p>下面三种写法，没有对应的复合写法：</p>
+<ul>
+<li>命名模块重命名转发</li>
+<li>默认模块转发</li>
+<li>整体和部分模块共同转发</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 命名模块重命名转发</span>
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> foo <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+
+<span class="hljs-comment">// 默认模块转发</span>
+<span class="hljs-keyword">import</span> foo <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+
+<span class="hljs-comment">// 整体和部分模块共同转发</span>
+<span class="hljs-keyword">import</span> foo , { namedFoo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+</code></pre>
+<p>为了做到形式的对称，现在有提案，提出补上这三种复合写法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> * <span class="hljs-keyword">as</span> foo <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+
+<span class="hljs-keyword">export</span> foo <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+
+<span class="hljs-keyword">export</span> foo , { namedFoo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./module&#x27;</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"模块导入/导出的复合写法"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

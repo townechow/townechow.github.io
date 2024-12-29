@@ -1,0 +1,120 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","data-types","type-check"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/data-types/type-check","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/data-types/type-check","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","aRK_HGnhoSB5MgUonq6CI",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T22b9,<h1>类型检测</h1>
+<p>类型检测的方法：</p>
+<ol>
+<li><code>typeof</code></li>
+<li><code>instanceof</code></li>
+<li><code>Object.prototype.toString</code></li>
+<li><code>constructor</code></li>
+</ol>
+<h2>typeof</h2>
+<p><code>typeof</code> 操作符返回一个字符串，表示未经计算的操作数的类型。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">typeof</span> <span class="hljs-literal">undefined</span>;
+<span class="hljs-comment">// &quot;undefined&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-literal">null</span>;
+<span class="hljs-comment">// &quot;object&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-number">100</span>;
+<span class="hljs-comment">// &quot;number&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">NaN</span>;
+<span class="hljs-comment">// &quot;number&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-literal">true</span>;
+<span class="hljs-comment">// &quot;boolean&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-string">&#x27;foo&#x27;</span>;
+<span class="hljs-comment">// &quot;string&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
+<span class="hljs-comment">// &quot;function&quot;</span>
+
+<span class="hljs-keyword">typeof</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>];
+<span class="hljs-comment">// &quot;object&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>();
+<span class="hljs-comment">// &quot;object&quot;</span>
+</code></pre>
+<p><code>typeof</code> 操作符适合对 <strong>基本类型</strong>（除 <code>null</code> 之外）及 <code>function</code> 的检测使用，而对引用数据类型（如 Array）等不适合使用。</p>
+<p>更详细信息请查阅 <a href="../expressions/operators/typeof">typeof 操作符</a>。</p>
+<h2>instanceof</h2>
+<p><code>instanceof</code> 运算符用于检测一个对象在其 <strong>原型链</strong> 中是否存在一个构造函数的 <code>prototype</code> 属性。</p>
+<p>左操作数为<strong>对象</strong>，不是就返回 <code>false</code>，右操作数必须是 <strong>函数对象</strong> 或者 <strong>函数构造器</strong>，不是就返回 <code>TypeError</code> 异常。</p>
+<pre class="hljs"><code class="language-js">obj <span class="hljs-keyword">instanceof</span> constr;
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Person</span>(<span class="hljs-params"></span>) {}
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Student</span>(<span class="hljs-params"></span>) {}
+<span class="hljs-title class_">Student</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+<span class="hljs-title class_">Student</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">constructor</span> = <span class="hljs-title class_">Student</span>;
+
+<span class="hljs-keyword">const</span> ben = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Student</span>();
+ben <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Student</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">const</span> one = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+one <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Person</span>;
+<span class="hljs-comment">// true</span>
+one <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Student</span>;
+<span class="hljs-comment">// false</span>
+ben <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Person</span>;
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>任何一个构造函数都有一个 <code>prototype</code> 对象属性，这个对象属性将用作 <code>new</code> 实例化对象的原型对象。</p>
+<p>📍 <code>instanceof</code> 适合用于判断对象是否属于 Array、Date 和 RegExp 等内置对象。</p>
+<p>📍 不同 window 或 <code>iframe</code> 之间的对象类型检测无法使用 <code>instanceof</code> 检测。</p>
+<p>更详细信息请查阅 <a href="../expressions/operators/instanceof">instanceof</a></p>
+<h2>Object.prototype.toString</h2>
+<p>可以通过 <code>toString()</code> 来获取每个对象的类型。</p>
+<p>为了 <strong>每个对象</strong> 都能通过 <code>Object.prototype.toString</code> 来检测，需要以 <code>Function.prototype.call</code> 或者 <code>Function.prototype.apply</code> 的形式来调用，传递要检查的对象作为第一个参数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>(<span class="hljs-literal">undefined</span>)；
+<span class="hljs-comment">//  &quot;[object Undefined]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>(<span class="hljs-literal">null</span>)；
+<span class="hljs-comment">//  &quot;[object Null]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>(<span class="hljs-literal">true</span>)；
+<span class="hljs-comment">//  &quot;[object Boolean]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>(<span class="hljs-string">&#x27;&#x27;</span>)；
+<span class="hljs-comment">/// &quot;[object String]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>(<span class="hljs-number">123</span>)；
+<span class="hljs-comment">//  &quot;[object Number]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>([])；
+<span class="hljs-comment">//  &quot;[object Array]&quot;</span>
+
+<span class="hljs-title class_">Obejct</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">toString</span>.<span class="hljs-title function_">call</span>({})；
+<span class="hljs-comment">//  &quot;[object Object]&quot;</span>
+</code></pre>
+<p>💡 使用 <code>Object.prototype.toString</code> 方法能精准地判断出值的数据类型。</p>
+<p>⚠️ <strong>注意事项</strong>：</p>
+<ul>
+<li><strong>方法重写</strong>：<code>Object.prototype.toString</code> 属于 Object 的原型方法，而 Array 或 Function 等类型作为 Object 的实例，都重写了 <code>toString</code> 方法。因此，不同对象类型调用 <code>toString</code> 方法时，调用的是重写后的 <code>toString</code> 方法，而非 <code>Object</code> 上原型 <code>toString</code> 方法，所以采用 <code>xxx.toString()</code> 不能得到其对象类型，只能将 <code>xxx</code> 转换成字符串类型。</li>
+</ul>
+<h2>constructor</h2>
+<p>任何对象都有 <code>constructor</code> 属性，继承自原型对象，<code>constructor</code> 会指向构造这个对象的构造器或构造函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Student</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">constructor</span> === <span class="hljs-title class_">Student</span>;
+<span class="hljs-comment">//  true</span>
+</code></pre>
+<h2>数组检测</h2>
+<p>ECMAScript5 将 <code>Array.isArray()</code> 正式引入 JavaScript，该方法能准确检测一个变量是否为数组类型。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Array</span>.<span class="hljs-title function_">isArray</span>(variable);
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"类型检测"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","lexical-scope"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/lexical-scope","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/lexical-scope","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","UjOPHzmkMSQb0ZsznUCr6",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T23c1,<h1>作用域</h1>
+<p>作用域就是变量（标识符）适用范围，控制着变量的可见性。</p>
+<p>《You don‘t know js》对作用域的定义：</p>
+<blockquote>
+<p>使用一套严格的规则来分辨哪些标识符对哪些语法有访问权限。</p>
+</blockquote>
+<p>《JavaScript 权威指南》中对变量作用域的描述：</p>
+<blockquote>
+<p>一个变量的作用域（Scope）是程序源代码中定义这个变量的区域。全局变量拥有全局作用域，在 JavaScript 代码中的任何地方都是有定义的。然而在函数内声明的变量只在函数体内有定义。它们是局部变量，作用域是局部性的。函数参数也是局部变量，它们只是在函数体内有定义。</p>
+</blockquote>
+<p>作用域共有两种主要的工作模式：</p>
+<ul>
+<li>词法作用域/静态作用域</li>
+<li>动态作用域</li>
+</ul>
+<p>JavaScript 采用 <strong>词法作用域</strong>（Lexical Scope），也称为 <strong>静态作用域</strong>。</p>
+<p>因为 JavaScript 采用的是词法作用域，因此函数的作用域在函数定义的时候就决定了。</p>
+<p>而与词法作用域相对的是动态作用域，函数的作用域是在函数调用的时候才决定的。</p>
+<h2>词法作用域/静态作用域</h2>
+<p>大部分标准语言编译器的第一个工作阶段叫作 <strong>词法化</strong>（也叫单词化）。词法化的过程会对源代码中的字符进行检查，如果是有状态的解析过程，还会赋予单词语义。</p>
+<p>简单来说，词法作用域就是定义在词法阶段的作用域。换句话来说，词法作用域是由你在写代码时将变量和块作用域写在哪里来决定的，因此当词法分析器处理代码时会保持作用域不变（大部分情况下时这样的）。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">a</span>) {
+  <span class="hljs-keyword">var</span> b = a * <span class="hljs-number">2</span>;
+
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">brc</span>(<span class="hljs-params">c</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a, b, c);
+  }
+
+  <span class="hljs-title function_">bar</span>(b * <span class="hljs-number">3</span>);
+}
+
+<span class="hljs-title function_">foo</span>(<span class="hljs-number">2</span>); <span class="hljs-comment">// 2, 4, 12</span>
+</code></pre>
+<p>在这个例子中有三个逐级嵌套的作用域。为了帮助理解，可以将它们想象成几个逐级包含的气泡。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../../assets/lexical-scope/scope-bubble.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;Webpack执行流程&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{480}</span> /&gt;</span></span>;
+</code></pre>
+<p>&lt;br/&gt;</p>
+<ul>
+<li>包含着整个全局作用域，其中只有一个标识符：<code>foo</code></li>
+<li>包含着 <code>foo</code> 所创建的作用域，其中有三个标识符：<code>a</code>、<code>bar</code> 和 <code>b</code></li>
+<li>包含着 <code>bar</code> 所创建的作用域，其中只有一个标识符：<code>c</code></li>
+</ul>
+<p>作用域气泡由其对应的作用域代码写在哪里决定，它们是 <strong>逐级包含</strong> 的。现在只需要假设每一个函数都会创建一个新的作用域气泡就好了。</p>
+<p><code>bar</code> 的气泡被完全包含在 <code>foo</code> 所创建的气泡中，唯一的原因是那里就是我们希望定义函数 <code>bar</code> 的位置。</p>
+<h3>查找</h3>
+<p>作用域气泡的结构和互相之间的位置关系给引擎提供了足够的位置信息，引擎利用这些信息来查找标识符的位置。</p>
+<p>在上个代码片段中，引擎执行 <code>console.log</code> 声明，并依次查找 <code>a</code>、<code>b</code> 和 <code>c</code> 三个变量的引用。</p>
+<ul>
+<li>它首先从最内部的作用域，也就是 <code>bar</code> 函数的作用域气泡开始查找</li>
+<li>引擎无法在这里找到 <code>a</code>，因此会去上一级到所嵌套的 <code>foo</code> 的作用域中继续查找。在这里找到了 <code>a</code>，因此引擎使用了这个引用</li>
+<li>对 <code>b</code> 来讲也是一样的</li>
+<li>而对 <code>c</code> 来说，引擎在 <code>bar</code> 中就找到了它</li>
+</ul>
+<p>如果 <code>a</code>、<code>c</code> 都存在于 <code>bar</code> 和 <code>foo</code> 的内部，<code>console.log</code> 就可以直接使用 <code>bar</code> 中的变量，而无需到外面的 <code>foo</code> 中查找。</p>
+<h3>遮蔽</h3>
+<p><strong>作用域查找会在找到第一个匹配的标识符时停止</strong>。</p>
+<p>在多层嵌套作用域中允许定义同名标识符，称为 <strong>遮蔽效应</strong>（内部的标识符遮蔽了外部的标识符）。</p>
+<p>抛开遮蔽效应，作用域查找始终从运行时所处的最内部作用域开始，逐级向外或者说向上层作用域进行查询，直到遇见第一个匹配的标识符为止。</p>
+<p>全局变量会自动成为全局对象的属性（比如浏览器中的 Window 对象），因此可以不直接使用全局对象的词法名称，而是间接地通过对全局对象属性的引用来对其进行访问。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-property">a</span>;
+</code></pre>
+<p>通过这种技术可以访问那些被同名变量所遮蔽的全局变量。但非全局的变量如果被遮蔽了，无论如何都无法被访问到。</p>
+<p>无论函数在哪里被调用，也无论它如何被调用，它的词法作用域都只由函数被声明时所处的位置决定。</p>
+<p>词法作用域查找只会查找一级标识符，比如 <code>a</code>、<code>b</code> 和 <code>c</code>。如果代码中引用了 <code>foo.bar.baz</code>，词法作用域查找只会试图查找 <code>foo</code> 标识符，找到这个变量后，对象属性访问规则会分别接管对 <code>bar</code> 和 <code>baz</code> 属性的访问。</p>
+<h2>动态作用域</h2>
+<p>词法作用域最重要的特征是它的定义过程发生在代码的书写阶段。</p>
+<blockquote>
+<p>那为什么要介绍动态作用域呢？</p>
+</blockquote>
+<p>实际上动态作用域是 JavaScript 另一个重要机制 <a href="../execution/this">this</a> 的表亲。作用域混乱多数是因为词法作用域和 <code>this</code> 机制相混淆。</p>
+<p><strong>动态作用域</strong> 并不关心函数和作用域是如何声明以及在何处声明，它只关心它们从何处调用。</p>
+<p>换句话说，<a href="../execution/scope-chain">作用域链</a> 是基于 <strong>调用栈</strong> 的，而不是代码中的作用域嵌套。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-number">2</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> a = <span class="hljs-number">3</span>;
+  <span class="hljs-title function_">foo</span>();
+}
+
+<span class="hljs-title function_">bar</span>();
+</code></pre>
+<ul>
+<li>如果处于词法作用域，变量 <code>a</code> 首先在 <code>foo</code> 函数中查找，没有找到。于是 <strong>顺着作用域链到全局作用域</strong> 中查找，找到并赋值为 <code>2</code>。所以控制台输出 <code>2</code></li>
+<li>如果处于动态作用域，同样地，变量 <code>a</code> 首先在 <code>foo</code> 中查找，没有找到。这里会 <strong>顺着调用栈</strong> 在调用 <code>foo</code> 函数的地方，也就是 <code>bar</code> 函数中查找，找到并赋值为 <code>3</code>。所以控制台输出 <code>3</code></li>
+</ul>
+<p>对于两种作用域的区别，简而言之，词法作用域是在 <strong>定义</strong> 时确定的，而动态作用域是在 <strong>运行</strong> 时确定的。</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"词法作用域"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

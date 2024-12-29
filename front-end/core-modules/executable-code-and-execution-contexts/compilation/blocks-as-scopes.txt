@@ -1,0 +1,205 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","blocks-as-scopes"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","k-P7An0HQzL7jnhKkLI-s",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3589,<h1>块作用域</h1>
+<blockquote>
+<p>任何一对花括号中的语句集都属于一个块，在这之中定义的所有变量在代码块外都是不可见的，我们称之为 <strong>块级作用域</strong>。</p>
+</blockquote>
+<p>尽管函数作用域是最常见的作用域单元，也是现行大多数 JavaScript 最普遍的设计方法，但其他类型的作用域单元也是存在的，并且通过使用其他类型的作用域单元甚至可以实现维护起来更加优秀、简洁的代码，比如块作用域。</p>
+<h2>声明关键字</h2>
+<h3>var</h3>
+<p>ES5 及之前是没有块级变量这个说法的，常规性是用 <strong>闭包</strong> 来防止内存泄漏。</p>
+<p>如下所示为 ES5 中 <code>var</code> 声明的一些特点：</p>
+<ul>
+<li>函数内的变量若是带 <code>var</code> 声明，则会覆盖外部的全局变量 <strong>优先使用</strong></li>
+<li>若是函数内部声明变量不带 <code>var</code> 声明，则直接 <strong>覆盖同名的全局变量</strong></li>
+<li>函数内存在 <a href="./hoisting">声明提升</a> 的情况，可以先使用后声明</li>
+<li><code>for</code> 循环中的 <code>var</code> 会污染全局（不局限于循环内）</li>
+</ul>
+<p>🌰 <strong>代码示例：优先使用</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> foo = <span class="hljs-number">3</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+}
+
+<span class="hljs-title function_">bar</span>();
+<span class="hljs-comment">// 3</span>
+</code></pre>
+<p>🌰 <strong>代码示例：变量提升</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+  <span class="hljs-keyword">var</span> foo = <span class="hljs-number">3</span>;
+}
+
+<span class="hljs-comment">// JavaScript 允许不存在的变量先使用</span>
+<span class="hljs-comment">// 默认会初始化为一个 undefined</span>
+<span class="hljs-title function_">bar</span>();
+<span class="hljs-comment">// undefined,</span>
+</code></pre>
+<p>🌰 <strong>代码示例：污染全局</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">9</span>; i++) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;循环内部&#x27;</span> + i);
+}
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i);
+<span class="hljs-comment">// 9</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i * <span class="hljs-number">5</span>);
+<span class="hljs-comment">// 45</span>
+</code></pre>
+<h3>let</h3>
+<p><code>let</code> 声明使用方法基本和 <code>var</code> 相同，而且声明的变量只在其块和子块中可用。 二者之间最主要的区别在于 <code>var</code> 声明的变量的作用域是整个封闭函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>) {
+    <span class="hljs-keyword">var</span> number = <span class="hljs-number">5</span>;
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(number);
+  }
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(number);
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params">） {
+  <span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>) {
+    <span class="hljs-keyword">let</span> number = <span class="hljs-number">5</span>;
+    <span class="hljs-variable language_">console</span>.log(number);
+  }
+
+  <span class="hljs-variable language_">console</span>.log(number);
+}
+
+foo(); <span class="hljs-comment">// 5 和 5</span>
+bar(); <span class="hljs-comment">// 5 和 ReferenceError: number is not defined</span>
+</span></code></pre>
+<p><code>let</code> 声明的变量的作用域<strong>只有外层块</strong>，而不是整个外层函数。</p>
+<p>我们可以利用这个特性来替代立即执行函数（IIFE）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">/**
+ * IIFE
+ */</span>
+(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> number = <span class="hljs-number">1</span>;
+  <span class="hljs-comment">// do something</span>
+})();
+
+<span class="hljs-comment">/**
+ * Block 块级
+ */</span>
+{
+  <span class="hljs-keyword">let</span> number = <span class="hljs-number">1</span>;
+  <span class="hljs-comment">// do something</span>
+}
+</code></pre>
+<p>⚠️ <strong>注意事项</strong>：</p>
+<ul>
+<li>不允许重新声明同名变量，会抛出异常，具有唯一性</li>
+<li>不允许没声明就使用，会抛出异常，只有执行该声明的时候才能使用</li>
+<li>有自己特色的闭包特性，比如在 <code>for</code> 循环的应用中</li>
+</ul>
+<h3>const</h3>
+<p><code>const</code> 的用法跟 <code>let</code> 差不多，但是 <code>const</code> 一定要赋值，不赋值会报错。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 用法</span>
+<span class="hljs-keyword">const</span> number = <span class="hljs-number">4</span>;
+
+<span class="hljs-comment">// 没有初始化报错</span>
+<span class="hljs-keyword">const</span> t;
+<span class="hljs-comment">// SyntaxError: Missing initializer in const declaration</span>
+</code></pre>
+<p><code>const</code> 是块级作用域，<code>const</code> 跟 <code>let</code> 的语义相似，就是用来声明常量的，一旦声明了就不能更改。</p>
+<p>⚠️ <strong>注意</strong>：值得注意的是 <code>const</code> 声明的变量记录的是 <strong>指针</strong>，不可更改的是 <strong>指针</strong>，如果 <code>const</code> 所声明的是对象，对象的内容还是可以修改的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 重新赋值声明导致报错</span>
+<span class="hljs-keyword">const</span> <span class="hljs-variable constant_">PI</span> = <span class="hljs-number">3.14</span>;
+<span class="hljs-variable constant_">PI</span> = <span class="hljs-number">3.1415926</span>;
+<span class="hljs-comment">// TypeError: Assignment to constant variable.</span>
+
+<span class="hljs-comment">// 给对象增加属性不会导致 foo 的指针变化，所以不会报错</span>
+<span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">foo</span>: <span class="hljs-number">2</span> };
+foo.<span class="hljs-property">bar</span> = <span class="hljs-number">3</span>;
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// {</span>
+<span class="hljs-comment">//  foo: 2,</span>
+<span class="hljs-comment">//  bar: 3</span>
+<span class="hljs-comment">// }</span>
+</code></pre>
+<p>⚠️ <strong>注意事项</strong>：</p>
+<ul>
+<li>与 <code>let</code> 一样，具有唯一性，<strong>不可重复声明</strong></li>
+<li>可以将 <code>const</code> 声明的基本类型变量理解为只读变量，但是其声明的引用类型变量则是可修改的</li>
+</ul>
+<h2>暂时性死区</h2>
+<p>使用 <code>let</code> 或 <code>const</code> 声明的变量，在声明赋值没有到达之前，访问该变量都会导致报错，就连一直以为安全的 <code>typeof</code> 也不再安全。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// TDZ1</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-comment">// TDZ 开始</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> number);
+  <span class="hljs-keyword">let</span> number = <span class="hljs-number">5</span>; <span class="hljs-comment">// TDZ 结束</span>
+}
+
+<span class="hljs-title function_">foo</span>();
+<span class="hljs-comment">// ReferenceError: number is not defined</span>
+</code></pre>
+<p>报的错是 <code>ReferenceError</code>，如果使用 <code>var</code> 声明的话，<code>number</code> 输出应该是 <code>undefined</code>，从 <code>let</code> 声明的变量的块的第一行，到声明变量之间的这个区域被称作 <strong>暂时性死区</strong>（TDZ）。凡是在这个区域使用这些变量都会报错。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// TDZ2</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> number);
+}
+
+<span class="hljs-title function_">bar</span>();
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<p>在函数里没有用 <code>let</code> 声明 <code>number</code> 的时候，<code>number</code> 是 <code>undefined</code>，讲道理在 <code>let</code> 声明前也应该是 <code>5</code>，然而 <code>foo</code> 函数却报了错，证明了就算是在未到达 <code>let</code> 声明的地方，但是在用 <code>let</code> 之前已经起到了作用。这是不是说明其实 <code>let</code> 也有提升（这个提升并不是 <code>var</code> 的那种提升，只是有影响），只是在 TDZ 使用的时候报错了，而不是 <code>undefined</code>。</p>
+<p>事实上，当 JavaScript 引擎检视下面的代码块有变量声明时，对于 <code>var</code> 声明的变量，会将声明提升到函数或全局作用域的顶部，而对 <code>let</code> 或 <code>const</code> 的时候会将声明放在暂时性死区内。</p>
+<p>⚠️ <strong>注意</strong>：任何在暂时性死区内访问变量的企图都会导致 <strong>运行时错误</strong>（Runtime Error）。只有执行到变量的声明语句时，该变量才会从暂时性死区内被移除并可以安全使用。</p>
+<h2>显式块级作用域</h2>
+<p>在嵌套的作用域内使用 <code>let</code> 声明同一变量是被允许的。这个嵌套的作用域，在 ES6 中又称 <strong>显式块级作用域</strong>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">1</span>;
+
+{
+  <span class="hljs-comment">// 不会报错</span>
+  <span class="hljs-keyword">let</span> = <span class="hljs-number">2</span>;
+  <span class="hljs-comment">// other code</span>
+}
+</code></pre>
+<p>同时因为是 <code>let</code> 和 <code>const</code> 是块级作用域，声明的变量在当前块使用完之后就会被释放，所以就算使用相同的标识符也不会覆盖外部作用域的变量, 而 <code>var</code> 是会覆盖外部作用域的变量的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> bar = <span class="hljs-number">1</span>;
+  {
+    <span class="hljs-keyword">let</span> bar = <span class="hljs-number">2</span>;
+  }
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(bar);
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">zoo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> bar = <span class="hljs-number">1</span>;
+  {
+    <span class="hljs-keyword">var</span> bar = <span class="hljs-number">2</span>;
+  }
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(bar);
+}
+
+<span class="hljs-title function_">foo</span>(); <span class="hljs-comment">// 1</span>
+<span class="hljs-title function_">zoo</span>(); <span class="hljs-comment">// 2</span>
+</code></pre>
+<p>在 ECMAScript 6 的发展阶段，被广泛认可的变量声明方式是：默认情况下应当使用 <code>let</code> 而不是 <code>var</code> 。</p>
+<p>对于多数 JavaScript 开发者来说， <code>let</code> 的行为方式正是 <code>var</code> 本应有的方式，因此直接用 <code>let</code> 替代 <code>var</code> 更符合逻辑。在这种情况下，你应当对 <strong>需要受到保护的变量</strong> 使用 <code>const</code>。</p>
+<p>在默认情况下使用 <code>const</code> ，而只在你知道变量值 <strong>需要被更改</strong> 的情况下才使用 <code>let</code> 。这在代码中能确保基本层次的不可变性，有助于防止某些类型的错误。</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"块作用域"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

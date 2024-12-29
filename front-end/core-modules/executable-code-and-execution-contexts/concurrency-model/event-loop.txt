@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","concurrency-model","event-loop"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/concurrency-model/event-loop","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/concurrency-model/event-loop","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-4erp_2_CM9YwJG8512xr",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T254d,<h1>事件循环</h1>
+<p>为了协调事件、用户交互、脚本、UI 渲染、网络请求，用户代理必须使用 <strong>事件循环机制（Event Loop）</strong>。</p>
+<p>这种事件循环机制是由 JavaScript 的宿主环境来实现的，在浏览器运行环境中由浏览器内核引擎实现，而在 NodeJS 中则由 <a href="https://github.com/libuv/libuv">libuv</a> 引擎实现。</p>
+<p>主线程运行时候，产生堆（Heap）和栈（Stack），栈中的代码调用各种外部 API，它们在任务队列中加入各种事件。只要栈中的代码执行完毕，主线程就会通过事件循环机制读取任务队列，依次执行那些事件所对应的回调函数。</p>
+<p>运行机制：</p>
+<ol>
+<li>所有同步任务都在主线程上执行，形成一个 <strong>执行栈</strong>（Execution Context Stack）</li>
+<li>主线程之外，还存在一个 <strong>任务队列</strong>（Task Queue）。只要异步任务有了运行结果，就在 <strong>任务队列</strong> 之中放置一个事件</li>
+<li>一旦 <strong>执行栈</strong> 中的所有同步任务执行完毕，系统就会读取 <strong>任务队列</strong>，看看里面有哪些待执行事件。那些对应的异步任务，于是结束等待状态，进入执行栈，开始执行</li>
+<li>主线程不断重复上面的第三步</li>
+</ol>
+<h2>浏览器环境</h2>
+<p>JavaScript 的异步任务根据事件分类分为两种：宏任务（MacroTask）和微任务（MicroTask）</p>
+<ul>
+<li><strong>宏任务</strong>：main script、setTimeout、setInterval、setImmediate（Node.js）、I/O（Mouse Events、Keyboard Events、Network Events）、UI Rendering（HTML Parsing）、MessageChannel</li>
+<li><strong>微任务</strong>：Promise.then（非 new Promise）、process.nextTick（Node.js）、MutationObserver</li>
+</ul>
+<p>宏任务与微任务的区别在于队列中事件的执行优先级。进入整体代码（宏任务）后，开始首次事件循环，当执行上下文栈清空后，事件循环机制会优先检测微任务队列中的事件并推至主线程执行，当微任务队列清空后，才会去检测宏任务队列中的事件，再将事件推至主线程中执行，而当执行上下文栈再次清空后，事件循环机制又会检测微任务队列，如此反复循环。</p>
+<p><strong>宏任务与微任务的优先级</strong></p>
+<ul>
+<li>宏任务的优先级高于微任务</li>
+<li>每个宏任务执行完毕后都必须将当前的微任务队列清空</li>
+<li>第一个 <code>&lt;script&gt;</code> 标签的代码是第一个宏任务</li>
+<li><code>process.nextTick</code> 优先级高于 <code>Promise.then</code></li>
+</ul>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../../assets/event-loop/workflow.jpg&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;事件循环机制中宏任务和微任务图解&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
+</code></pre>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span>);
+
+<span class="hljs-built_in">setTimeout</span>(<span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span>);
+}, <span class="hljs-number">0</span>);
+
+<span class="hljs-keyword">let</span> promise = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">3</span>);
+  <span class="hljs-title function_">resolve</span>();
+})
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">4</span>);
+  })
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">5</span>);
+  });
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">6</span>);
+
+<span class="hljs-comment">// 1 3 6 4 5 2</span>
+</code></pre>
+<h2>Node 环境</h2>
+<p>在 Node 中，事件循环表现出的状态与浏览器中大致相同。不同的是 Node 中有一套自己的模型。Node 中事件循环的实现是依靠的 <a href="https://github.com/libuv/libuv">libuv</a> 引擎。我们知道 Node 选择 Chrome V8 引擎作为 JavaScript 解释器，V8 引擎将 JavaScript 代码分析后去调用对应的 Node API，而这些 API 最后则由 libuv 引擎驱动，执行对应的任务，并把不同的事件放在不同的队列中等待主线程执行。 因此实际上 Node 中的事件循环存在于 libuv 引擎中。</p>
+<pre class="hljs"><code class="language-js">     ┌───────────────────────┐
+┌─&gt;│        timers         │
+│  └──────────┬────────────┘
+│  ┌──────────┴────────────┐
+│  │     I/O callbacks     │
+│  └──────────┬────────────┘
+│  ┌──────────┴────────────┐
+│  │     idle, prepare     │
+│  └──────────┬────────────┘      ┌───────────────┐
+│  ┌──────────┴────────────┐      │   <span class="hljs-attr">incoming</span>:   │
+│  │         poll          │&lt;──connections───     │
+│  └──────────┬────────────┘      │   data, etc.  │
+│  ┌──────────┴────────────┐      └───────────────┘
+│  │        check          │
+│  └──────────┬────────────┘
+│  ┌──────────┴────────────┐
+└──┤    close callbacks    │
+   └───────────────────────┘
+</code></pre>
+<ul>
+<li>外部输入数据</li>
+<li>轮询阶段（Poll）：等待新的 I/O 事件，Node 在一些特殊情况下会阻塞在这里</li>
+<li>检查阶段（Check）：<code>setImmediate</code> 的回调会在这个阶段执行</li>
+<li>关闭事件回调阶段（Close Callback）</li>
+<li>定时器检测阶段（Timer）：这个阶段执行定时器队列中的回调</li>
+<li>I/O 事件回调阶段（I/O Callbacks）：这个阶段执行几乎所有的回调，但是不包括 <code>close</code> 事件、定时器和 <code>setImmediate()</code> 的回调</li>
+<li>闲置阶段（Idle Prepare）：仅在内部使用，不必理会</li>
+</ul>
+<p>当一个消息需要太长时间才能处理完毕时，Web 应用就无法处理用户的交互，例如点击或滚动。浏览器用程序需要过长时间运行的对话框来缓解这个问题。一个很好的做法是缩短消息处理，并在可能的情况下将一个消息裁剪成多个消息。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model">📖 HTML Standard: Processing model</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop">📖 MDN: EventLoop</a></li>
+<li><a href="https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/">📝 The JavaScript Event Loop: Explained</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/33058983">📝 详解 JavaScript 中的 Event Loop（事件循环）机制</a></li>
+<li><a href="https://cnodejs.org/topic/5a9108d78d6e16e56bb80882">📝 不要混淆 Node.js 和浏览器中的 Event Loop</a></li>
+<li><a href="https://www.youtube.com/watch?v=u1kqx6AenYw">🎥 Further Adventure of the Event Loop</a></li>
+<li><a href="https://blog.csdn.net/lqyygyss/article/details/102662606">深度揭秘 Promise 微任务和执行过程</a></li>
+<li><a href="https://kongchenglc.github.io/blog/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF20171026/">事件循环与任务队列</a></li>
+<li><a href="https://juejin.cn/post/6844904165462769678">深入解析你不知道的 EventLoop 和浏览器渲染、帧动画、空闲回调（动图演示）</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"事件循环"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

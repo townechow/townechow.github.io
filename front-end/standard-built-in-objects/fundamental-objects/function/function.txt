@@ -1,0 +1,181 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","fundamental-objects","function","function"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/fundamental-objects/function/function","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/fundamental-objects/function/function","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tsUjseC5ubuspo7BJ1WAF",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3052,<h1>Function</h1>
+<p>Function 构造函数通过 <code>new</code> 创建一个新的 Function 对象。 在 JavaScript 中，每个函数实际上都是一个 Function 对象。</p>
+<h2>语法</h2>
+<p><strong>构造函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Function</span> ( [ argName1 [, argName1 [, argNameN... [, funcBody ]]]] )
+</code></pre>
+<p><strong>函数类型转换函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span> ( [ argName1 [, argName1 [, argNameN... [, funcBody ]]]] )
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">argName1</td>
+<td style="text-align:left">定义的第 1 个参数的名称</td>
+<td style="text-align:left">string</td>
+</tr>
+<tr>
+<td style="text-align:left">argName2</td>
+<td style="text-align:left">定义的第 2 个参数的名称</td>
+<td style="text-align:left">string</td>
+</tr>
+<tr>
+<td style="text-align:left">argNameN</td>
+<td style="text-align:left">定义的第 N 个参数的名称，可以有任意多个</td>
+<td style="text-align:left">string</td>
+</tr>
+<tr>
+<td style="text-align:left">funcBody</td>
+<td style="text-align:left">定义的函数主体，即函数内部的执行代码，默认为空字符串(<code>&quot;&quot;</code>)</td>
+<td style="text-align:left">string</td>
+</tr>
+</tbody>
+</table>
+<p><code>Function()</code> 会把传入的<strong>最后一个参数</strong>作为函数定义的执行代码，之前的所有参数均依次作为函数定义的参数。</p>
+<ul>
+<li>如果没有指定任何参数，则表示该函数没有定义参数列表，函数的执行代码也为空。</li>
+<li>如果只指定了一个参数，则该参数将被视作函数的执行代码。如果你想定义一个参数、执行代码为空，请传入两个参数，第二个参数为空字符串即可：<code>new Function(&quot;argName1&quot;, &quot;&quot;)</code>。</li>
+</ul>
+<p><code>Function()</code> 的返回值是 Function 类型，返回一个函数对象。</p>
+<h2>描述</h2>
+<ul>
+<li>使用 Function 构造器生成的 Function 对象是在函数创建时解析的。这比你使用 <a href="../../../core-modules/ecmascript-function-objects/function-declarations/function-definitions#%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E8%AF%AD%E5%8F%A5">函数声明</a> 或者 <a href="../../../core-modules/ecmascript-function-objects/function-declarations/function-definitions#%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F">函数表达式</a> 并在你的代码中调用更为低效，因为使用后者创建的函数是跟其他代码一起解析的</li>
+<li>所有被传递到构造函数中的参数，都将被视为是将被创建函数的参数，并且是相同的标识符名称和传递顺序</li>
+<li>使用 Function 构造器生成的函数，并不会在创建它们的上下文中创建闭包；它们一般在<strong>全局作用域</strong>中被创建。当运行这些函数的时候，它们只能访问自己的本地变量和全局变量，不能访问 Function 构造器被调用生成的上下文的作用域。这和使用带有函数表达式代码的 <code>eval</code> 不同</li>
+<li>以调用函数的方式调用 Function 的构造函数（而不是用 <code>new</code> 关键字）跟以构造函数来调用是一样的</li>
+</ul>
+<h2>构造函数</h2>
+<ul>
+<li><code>Function.arguments</code>：以数组形式获取传入函数的所有参数。此属性已被 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions_and_function_scope/arguments"><code>arguments</code></a> 替代。</li>
+<li><code>Function.caller</code>：获取调用函数的具体对象</li>
+<li><code>Function.length</code>：获取函数的接收参数个数</li>
+<li><code>Function.name</code>：获取函数的名称</li>
+<li><code>Function.displayName</code>：获取函数的 display name</li>
+</ul>
+<h2>原型对象</h2>
+<ul>
+<li><a href="properties-of-the-function-prototype-object/apply">Function.prototype.apply</a>：设定指定函数的调用上下文环境，并提供数组形式的参数</li>
+<li><a href="properties-of-the-function-prototype-object/call">Function.prototype.call</a>：设定指定函数的调用上下文环境，并提供列表形式的参数</li>
+<li><a href="properties-of-the-function-prototype-object/bind">Function.prototype.bind</a>：绑定指定函数的调用上下文，无论如何调用均以该调用函数上下文为准</li>
+<li>⚠️ Function.prototype.isGenerator：用于检测函数对象是否为 Generator 生成器函数</li>
+</ul>
+<h2>示例</h2>
+<h3>基本示例</h3>
+<p>定义一个求和函数：带有 2 个参数 <code>x</code>、<code>y</code></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> sum = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Function</span>(<span class="hljs-string">&#x27;x&#x27;</span>, <span class="hljs-string">&#x27;y&#x27;</span>, <span class="hljs-string">&#x27;return x + y;&#x27;</span>);
+</code></pre>
+<p>定义一个输出函数：没有定义参数，输出 <code>&quot;CodePlayer&quot;</code></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Function</span>(<span class="hljs-string">&#x27;var name=&quot;CodePlayer&quot;; console.log(name);&#x27;</span>);
+</code></pre>
+<p>执行函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">sum</span>(<span class="hljs-number">12</span>, <span class="hljs-number">23</span>));
+<span class="hljs-comment">// 35</span>
+
+<span class="hljs-title function_">foo</span>();
+<span class="hljs-comment">// CodePlayer</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> sum);
+<span class="hljs-comment">// function</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sum <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Function</span>);
+<span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sum <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>函数声明</h3>
+<p>JavaScript 支持以 <code>function</code> 关键字形式直接声明函数，多数情况下，我们也推荐以 <code>function</code> 关键字形式声明函数。我们以 <code>function</code> 关键字形式声明等价于上面两个函数的对应代码如下：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">sum</span>(<span class="hljs-params">x, y</span>) {
+  <span class="hljs-keyword">return</span> x + y;
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> name = <span class="hljs-string">&#x27;CodePlayer&#x27;</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(name);
+}
+
+<span class="hljs-comment">// 执行函数</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">sum</span>(<span class="hljs-number">12</span>, <span class="hljs-number">23</span>));
+<span class="hljs-comment">// 35</span>
+<span class="hljs-title function_">foo</span>();
+<span class="hljs-comment">// CodePlayer</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> sum);
+<span class="hljs-comment">// function</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sum <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Function</span>);
+<span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sum <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>函数表达式</h3>
+<p>使用 <code>function</code> 关键字也可以声明匿名函数，并将函数的引用赋给某个变量。我们还可以在声明一个匿名函数后，立即执行该函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> name = <span class="hljs-string">&#x27;CodePlayer&#x27;</span>;
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(name);
+};
+
+<span class="hljs-title function_">foo</span>();
+<span class="hljs-comment">// CodePlayer</span>
+</code></pre>
+<p>在匿名函数的定义代码外面必须加小括号，表示强迫计算并返回计算结果（否则 JavaScript 只是解析该匿名函数，但无法获得函数引用，进而无法执行该函数）。</p>
+<p>定义代码后面加上小括号，里面可以传入执行所需的参数（这里为 <code>2</code> 和 <code>3</code>）</p>
+<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params">x, y</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(x + y);
+})(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// 5</span>
+</code></pre>
+<p>上述匿名函数立即执行的代码，还可以如下书写（请注意小括号的位置和匹配）：</p>
+<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params">x, y</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(x + y);
+})(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// 5</span>
+</code></pre>
+<h3>全局作用域</h3>
+<p>如下代码块中 <code>f()</code> 函数返回的 <code>function e()</code> 是闭包。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> n = <span class="hljs-number">1</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">f</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> n = <span class="hljs-number">2</span>;
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">e</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> n;
+  }
+  <span class="hljs-keyword">return</span> e;
+}
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">f</span>()());
+<span class="hljs-comment">// 2</span>
+</code></pre>
+<p>如下代码中 <code>f()</code> 函数返回的 <code>function e()</code> 是全局作用域函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> n = <span class="hljs-number">1</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">f</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> n = <span class="hljs-number">2</span>;
+  <span class="hljs-keyword">const</span> e = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Function</span>(<span class="hljs-string">&#x27;return n;&#x27;</span>);
+  <span class="hljs-keyword">return</span> e;
+}
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">f</span>()());
+<span class="hljs-comment">// 1</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Function"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

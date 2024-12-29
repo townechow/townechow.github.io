@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-types","partial-function"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-types/partial-function","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-types/partial-function","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","WF-O9Alv7pwTSdq1hST8k",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T139d,<h1>偏函数</h1>
+<p>维基百科中对偏函数（Partial）的定义为：</p>
+<blockquote>
+<p>In computer science, partial application(or partial function application) refers to the process of fixing a number of arguments to a function, producing another function of smaller arity.</p>
+</blockquote>
+<p>在计算机科学中，局部应用是指固定一个函数的一些参数，然后产生另一个更小元的函数。</p>
+<p>什么是元？</p>
+<p>元是指函数参数的个数，比如一个带有两个参数的函数被称为二元函数。</p>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">add</span>(<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">return</span> a + b;
+}
+
+<span class="hljs-comment">// 执行 add 函数，一次传入两个参数即可</span>
+<span class="hljs-title function_">add</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>); <span class="hljs-comment">// 3</span>
+
+<span class="hljs-comment">// 假设有一个 partial 函数可以做到局部应用</span>
+<span class="hljs-keyword">var</span> addOne = <span class="hljs-title function_">partial</span>(add, <span class="hljs-number">1</span>);
+
+<span class="hljs-title function_">addOne</span>(<span class="hljs-number">2</span>); <span class="hljs-comment">// 3</span>
+</code></pre>
+<p>偏函数与柯里化十分相像：</p>
+<ul>
+<li>**柯里化：**将多参数函数转换成多个单参数函数，也就是将一个 n 元函数转换成 n 个一元函数</li>
+<li>**偏函数：**则是固定一个函数的一个或多个参数，也就是将一个 n 元函数转换成一个 n - x 元函数</li>
+</ul>
+<h2>实际应用</h2>
+<p><code>bind</code> 函数可以让我们传入一个或多个预设的参数，之后返回一个新函数，并拥有指定的 <code>this</code> 值和预设参数。当绑定函数被调用时，这些参数会被插入到目标函数的参数列表的开始位置，传递给绑定函数的参数跟在它们后面。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">addition</span>(<span class="hljs-params">x, y</span>) {
+  <span class="hljs-keyword">return</span> x + y;
+}
+
+<span class="hljs-keyword">const</span> plus5 = addition.<span class="hljs-title function_">bind</span>(<span class="hljs-literal">null</span>, <span class="hljs-number">5</span>);
+
+<span class="hljs-title function_">plus5</span>(<span class="hljs-number">10</span>);
+<span class="hljs-comment">// 15</span>
+
+<span class="hljs-title function_">plus5</span>(<span class="hljs-number">25</span>);
+<span class="hljs-comment">// 30</span>
+</code></pre>
+<p>我们预先传入参数 <code>5</code>，并返回一个新函数赋值给 <code>plus5</code>，此函数可以接受剩余的参数。调用 <code>plus5</code> 传入剩余参数 <code>10</code> 得到最终结果 <code>15</code>，又传入参数 <code>20</code> 得到结果 <code>30</code>。偏函数通过设定预设值，帮助哦我们实现代码上的复用。</p>
+<h2>实现偏函数</h2>
+<p>在 Underscore.js 和 Lodash 均有实现 <code>partial</code> 偏函数，这里稍微实现一下：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> _ = {};
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">partial</span>(<span class="hljs-params">fn</span>) {
+  <span class="hljs-keyword">var</span> args = [].<span class="hljs-property">slice</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>, <span class="hljs-number">1</span>);
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">var</span> position = <span class="hljs-number">0</span>,
+      leng = args.<span class="hljs-property">length</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; len; i++) {
+      args[i] = args[i] === _ ? <span class="hljs-variable language_">arguments</span>[position++] : args[i];
+    }
+    <span class="hljs-keyword">while</span> (position &lt; <span class="hljs-variable language_">arguments</span>.<span class="hljs-property">length</span>) args.<span class="hljs-title function_">push</span>(<span class="hljs-variable language_">arguments</span>[position++]);
+    <span class="hljs-keyword">return</span> fn.<span class="hljs-title function_">apply</span>(<span class="hljs-variable language_">this</span>, args);
+  };
+}
+</code></pre>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://github.com/mqyqingfeng/Blog/issues/43">📝 JavaScript 专题之偏函数</a></li>
+<li><a href="https://juejin.im/post/5ca862bce51d45534839ab96">📝 函数柯里化和偏函数应用</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"偏函数"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

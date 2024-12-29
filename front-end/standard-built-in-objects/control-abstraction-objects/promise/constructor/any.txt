@@ -1,0 +1,185 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","constructor","any"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/constructor/any","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/constructor/any","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","XgqyZfRwgeaGOGbjQGo59",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3ec2,<h1>Promise.any</h1>
+<p>⭐️ <code>ES2021(ES12)新特性</code></p>
+<p><code>Promise.any()</code> 接收一个 Promise 可迭代对象（例如数组），只要其中的一个 Promise 实例 Fulfilled，就返回那个已经 Fulfilled 的可迭代对象的成员。如果可迭代对象中没有一个成员状态变更（即所有的 <code>promise</code> 成员都 Rejected），就返回一个 Rejected 状态的 Promise 实例和 AggregateError 类型的实例，它是 Error 的一个子类，用于把单一的错误集合在一起。本质上，这个方法和 <code>Promise.all()</code> 方法相反。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>(values);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">PromiseConstructor</span> {
+  <span class="hljs-built_in">any</span>&lt;T&gt;(<span class="hljs-attr">values</span>: (T | <span class="hljs-title class_">PromiseLike</span>&lt;T&gt;)[] | <span class="hljs-title class_">Iterable</span>&lt;T | <span class="hljs-title class_">PromiseLike</span>&lt;T&gt;&gt;): <span class="hljs-title class_">Promise</span>&lt;T&gt;;
+}
+
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">PromiseLike</span>&lt;T&gt; {
+  then&lt;<span class="hljs-title class_">TResult</span> = T, <span class="hljs-title class_">TResult2</span> = <span class="hljs-built_in">never</span>&gt;(
+    <span class="hljs-attr">onfulfilled</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">value</span>: T</span>) =&gt;</span> <span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult1</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>,
+    <span class="hljs-attr">onrejected</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">reason</span>: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-title class_">TResult2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult2</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>
+  ): <span class="hljs-title class_">PrimiseLike</span>&lt;<span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">TResult2</span>&gt;;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>values</code></td>
+<td style="text-align:left">可迭代对象，例如数组</td>
+<td style="text-align:left">Iterable</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<ul>
+<li>如果传入的参数是一个空的可迭代对象，则返回一个 Rejected 状态的 Promise</li>
+<li>如果传入的参数不包含任何 Promise 实例，则返回一个 Fulfilled 的 Promise</li>
+<li>其他情况下都会返回一个 Pending 状态的 Promise。 只要传入的迭代对象中的任何一个 Promise 实例变成 Fulfilled 状态，或者其中的所有的 Promise 实例都变为 Rejected，那么返回的 Promise 实例就会 <strong>异步地</strong>（当调用栈为空时） 变成 Fulfilled 或 Rejected 状态。</li>
+</ul>
+<h2>方法说明</h2>
+<p>这个方法用于返回第一个成功的 <code>promise</code>，因此只要有一个 <code>promise</code> 成功此方法就会终止，它不会等待其他的 <code>promise</code> 全部完成。</p>
+<p>该方法不会像 <code>Promise.all()</code> 会返回一组完成值那样，我们只能得到一个成功值（假设至少有一个 <code>promise</code> 完成）。当我们只需要一个 <code>promise</code> 成功，而不关心是哪一个成功时此方法很有用。</p>
+<p>同时，也不像 <code>Promise.race()</code> 总是返回第一个结果值，这个方法返回的时第一个 Fulfilled 的值。这个方法将会忽略掉所有被拒绝的 <code>promise</code>，知道第一个 <code>promise</code> 成功。</p>
+<h2>代码示例</h2>
+<h3>基础使用</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> promiseList = [
+  <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">reject</span>(<span class="hljs-string">&#x27;Error A&#x27;</span>),
+  <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">reject</span>(<span class="hljs-string">&#x27;Error B&#x27;</span>),
+  <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;result&#x27;</span>),
+];
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>(promiseList)
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;value:&#x27;</span>, value);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;err:&#x27;</span>, err);
+  });
+</code></pre>
+<h3>传入空的可迭代对象</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>([])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;fulfilled:&#x27;</span>, res))
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected:&#x27;</span>, e);
+    <span class="hljs-comment">// Output: `rejected: AggregateError: All promises were rejected`</span>
+  });
+</code></pre>
+<h3>传入不包含实例参数</h3>
+<p>传入的可迭代对象全部为非 Promise 类型值：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> result2 = <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;fulfilled:&#x27;</span>, res);
+    <span class="hljs-comment">// Output: `fulfilled: 1`</span>
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected:&#x27;</span>, e));
+</code></pre>
+<p>传入的可迭代对象既包含非 Promiose 类型，也包含 Promise 实例：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-title function_">resolve</span>(<span class="hljs-number">2</span>);
+  }, <span class="hljs-number">500</span>);
+});
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>([<span class="hljs-number">1</span>, p2, <span class="hljs-number">3</span>])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;fulfilled:&#x27;</span>, res);
+    <span class="hljs-comment">// Output: `fulfilled: 1`</span>
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected:&#x27;</span>, e);
+  });
+</code></pre>
+<h3>从最快的服务器检索资源</h3>
+<p>来自世界各地的用户访问网站，如果你有多台服务器，则尽量使用响应速度最快的服务器，在这种情况下，可以使用 <code>Promise.any()</code> 方法从最快的服务器接收响应。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">getUser</span>(<span class="hljs-params">endpoint</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">fetch</span>(<span class="hljs-string">`https://superfire.<span class="hljs-subst">${endpoint}</span>.com/users`</span>).<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">response</span>) =&gt;</span> respons.<span class="hljs-title function_">json</span>());
+}
+
+<span class="hljs-keyword">const</span> promises = [<span class="hljs-title function_">getUser</span>(<span class="hljs-string">&#x27;jp&#x27;</span>), <span class="hljs-title function_">getUser</span>(<span class="hljs-string">&#x27;uk&#x27;</span>), <span class="hljs-title function_">getUser</span>(<span class="hljs-string">&#x27;us&#x27;</span>), <span class="hljs-title function_">getUser</span>(<span class="hljs-string">&#x27;au&#x27;</span>), <span class="hljs-title function_">getUser</span>(<span class="hljs-string">&#x27;in&#x27;</span>)];
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>(promises)
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err);
+  });
+</code></pre>
+<h3>显示第一张已加载的图片</h3>
+<p>在这个例子，我们有一个获取图片并返回 Blob 的函数，我们使用 <code>Promise.any()</code> 来获取一些图片并显示第一张有效的图片（即最先 <code>resolved</code> 的那个 <code>promise</code>）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fetchAndDecode</span>(<span class="hljs-params">url</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">fetch</span>(url).<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">response</span>) =&gt;</span> {
+    <span class="hljs-keyword">if</span> (!response.<span class="hljs-property">ok</span>) {
+      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-string">`HTTP error! status: <span class="hljs-subst">${response.status}</span>`</span>);
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">return</span> response.<span class="hljs-title function_">blob</span>();
+    }
+  });
+}
+
+<span class="hljs-keyword">let</span> coffee = <span class="hljs-title function_">fetchAndDecode</span>(<span class="hljs-string">&#x27;coffee.jpg&#x27;</span>);
+<span class="hljs-keyword">let</span> tea = <span class="hljs-title function_">fetchAndDecode</span>(<span class="hljs-string">&#x27;tea.jpg&#x27;</span>);
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">any</span>([coffee, tea])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-keyword">let</span> objectURL = <span class="hljs-variable constant_">URL</span>.<span class="hljs-title function_">createObjectURL</span>(value);
+    <span class="hljs-keyword">let</span> image = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;img&#x27;</span>);
+    img.<span class="hljs-property">src</span> = objectURL;
+    docuemnt.<span class="hljs-property">body</span>.<span class="hljs-title function_">appendChild</span>(image);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(e.<span class="hljs-property">message</span>);
+  });
+</code></pre>
+<h2>兼容性代码</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">MockPromise</span>.<span class="hljs-property">any</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">promiseList</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+    promiseList = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">isArray</span>(promiseList) ? promiseList : [];
+    <span class="hljs-keyword">let</span> len = promiseList.<span class="hljs-property">length</span>;
+    <span class="hljs-comment">// 用于收集所有 reject</span>
+    <span class="hljs-keyword">let</span> errs = [];
+    <span class="hljs-comment">// 如果传入的是一个空数组，那么就直接返回 AggregateError</span>
+    <span class="hljs-keyword">if</span> (len === <span class="hljs-number">0</span>) <span class="hljs-keyword">return</span> <span class="hljs-title function_">reject</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">AggregateError</span>(<span class="hljs-string">&#x27;All promise were rejected&#x27;</span>));
+
+    promiseList.<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">promise</span>) =&gt;</span> {
+      promise.<span class="hljs-title function_">then</span>(
+        <span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+          <span class="hljs-title function_">resolve</span>(value);
+        },
+        <span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+          len--;
+          errs.<span class="hljs-title function_">push</span>(err);
+          <span class="hljs-keyword">if</span> (len === <span class="hljs-number">0</span>) {
+            <span class="hljs-title function_">reject</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">AggregateError</span>(errs));
+          }
+        }
+      );
+    });
+  });
+};
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://juejin.cn/post/6965596525388890142">Promise.any 的作用，如何自己实现一个 Promise.any</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Promise.any"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-if-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-if-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-if-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","x1X5w02R90Srd-ash0RZm",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tf06,<h1>if 语句</h1>
+<p><strong>条件语句用于基于不同的条件来执行不同的动作。</strong></p>
+<p>在 JavaScript 中，我们可使用以下条件语句：</p>
+<ul>
+<li><em>if 语句</em> - 只有当指定条件为 <code>true</code> 时，使用该语句来执行代码</li>
+<li><em>if...else 语句</em> - 当条件为 <code>true</code> 时执行代码，当条件为 <code>false</code> 时执行其他代码</li>
+<li><em>if...else if...else 语句</em> - 使用该语句来选择多个代码块之一来执行</li>
+<li><em>switch 语句</em> - 使用该语句来选择多个代码块之一来执行</li>
+</ul>
+<p>当一个逻辑条件为真，用 <code>if</code> 语句执行一个语句。当这个条件为假，使用可选择的 <code>else</code> 从句来执行这个语句。</p>
+<h2>单层条件判断</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (condition) {
+  statement_1;
+}
+[<span class="hljs-keyword">else</span> {
+  statement_2;
+}] <span class="hljs-comment">//推荐使用严格的语句块模式，语句else可选</span>
+</code></pre>
+<p>&lt;br /&gt;</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>condition</code></td>
+<td>为任何返回结果（若非 <code>boolean</code> 类型会被 ECMAScrpt 转换）为 <code>true</code> 或 <code>false</code> 的表达式。如果条件式为 <code>true</code>，<code>statement1</code> 会被执行；否则 <code>statement2</code> 会被执行</td>
+</tr>
+<tr>
+<td><code>statement1(2)</code></td>
+<td>为任意语句（代码块），甚至可以将另一个 <code>if</code> 语句嵌套七种</td>
+</tr>
+</tbody>
+</table>
+<h2>多层条件判断</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (condition_1) {
+  statement_1;
+} [<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (condition_2) {
+  statement_2;
+}]
+...
+[<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (condition_n_1) {
+  statement_n_1;
+}] [<span class="hljs-keyword">else</span> {
+  statement_n;
+}]
+</code></pre>
+<p>要执行多个语句，可以使用语句块 ({ ... }) 来分组这些语句。</p>
+<h2>示例</h2>
+<h3>不建议在条件表达式中</h3>
+<p>不建议在条件表达式中使用赋值操作，因为在快速查阅代码时容易看成等值比较。</p>
+<p>请勿使用以下代码：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> ((x = y)) {
+  <span class="hljs-comment">// do something</span>
+}
+</code></pre>
+<p>如果你需要在表达式中使用赋值，通常在赋值语句前后额外添加一对括号。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> ((x = y)) {
+  <span class="hljs-comment">// do something</span>
+}
+</code></pre>
+<h3>假值等效值</h3>
+<p>下面这些值将被计算出 <code>false</code>：</p>
+<ul>
+<li><code>false</code></li>
+<li><code>undefined</code></li>
+<li><code>null</code></li>
+<li><code>0</code></li>
+<li><code>NaN</code></li>
+<li><code>&quot;&quot;</code></li>
+</ul>
+<p>当传递给条件语句时，所有其他值，包括所有对象会被计算为真。</p>
+<p>请不要混淆原始的布尔值 <code>true</code> 和 <code>false</code> 与 <code>Boolean</code> 对象的真和假。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Boolean</span>(<span class="hljs-literal">false</span>);
+
+<span class="hljs-keyword">if</span> (b)
+<span class="hljs-comment">// this condition evaluates to true</span>
+
+<span class="hljs-keyword">if</span> (b == <span class="hljs-literal">true</span>)
+<span class="hljs-comment">// this condition evaluates to false</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"if 语句"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

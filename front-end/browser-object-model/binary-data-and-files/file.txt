@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","binary-data-and-files","file"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/binary-data-and-files/file","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/binary-data-and-files/file","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","hccTx8EFB_EQFSXYK4Qr3",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T125d,<h1>File API</h1>
+<p>File 对象接口提供有关文件的信息，并允许网页中的 JavaScript 访问起内容。</p>
+<p>通常情况下，File 对象是来自：</p>
+<ul>
+<li>用户在一个 <code>&lt;input type=&quot;file&quot;&gt;</code> 元素上选择文件后返回的 <a href="./file-list">FileList</a> 对象</li>
+<li>拖拽中生成的 DataTransfer 对象</li>
+<li>HTMLCanvasElement 上的 <code>mozGetAsFile()</code> API</li>
+</ul>
+<p>在 Gecko 中，特权代码可以创建代表任何本地文件的 File 对象，而无需用户交互。</p>
+<p>File 对象是特殊类型的 Blob 对象，且可以用在任意的 Blob 类型的 <code>context</code> 中。比如说，<a href="./file-reader">FileReader</a>，<code>URL.createObjectURL()</code>，<code>createImageBitmap()</code> 及 <code>XMLHttpRequest.send()</code> 都能处理 Blob 和 File。</p>
+<h2>基本用法</h2>
+<p>通过 <code>new</code> 操作符构建文件对象 File。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> file = <span class="hljs-keyword">new</span> <span class="hljs-title class_">File</span>();
+</code></pre>
+<h2>属性和方法</h2>
+<p>File 对象也继承了 Blob 对象的属性。以下属性均为 <strong>只读</strong> 属性，不可修改。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>File.lastModified</code></td>
+<td style="text-align:left">当前引用文件 <strong>最后的修改时间</strong>，为自 1970 年 1 月 1 日 0 时 0 分以来的毫秒数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>File.lastModifiedDate</code> 🗑</td>
+<td style="text-align:left">当前引用文件 <strong>最后的修改时间</strong>，为 Date 对象</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>File.name</code></td>
+<td style="text-align:left">当前引用文件的 <strong>名称</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>File.size</code></td>
+<td style="text-align:left">当前引用文件的 <strong>大小</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>File.webkitRelativePath</code> ⚠️</td>
+<td style="text-align:left">当前引用文件的 <strong>路径或 URL</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>File.type</code></td>
+<td style="text-align:left">当前引用文件的多用途互联网邮件 <strong>扩展类型</strong></td>
+</tr>
+</tbody>
+</table>
+<p>File 对象接口没有定义任何方法，但是继承了 Blob 对象接口的方法。</p>
+<h2>注意事项</h2>
+<ul>
+<li>下面的非标准的属性及方法在 Gecko 7（Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4)）里就被移除：
+<ul>
+<li><code>File.fileName</code></li>
+<li><code>File.fileSize</code></li>
+<li><code>File.getAsBinary()</code></li>
+<li><code>File.getAsDataURL()</code></li>
+<li><code>File.getAsText</code></li>
+</ul>
+</li>
+</ul>
+<p>应该使用 <code>File.name</code> ，<code>Blob.size</code>，和 <code>FileReader</code> 的方法来代替。</p>
+<h2>实践应用</h2>
+<h3>文件上传</h3>
+<h3>视频文件</h3>
+<p><a href="https://www.jianshu.com/p/f1b714f1a9f8">获取视频文件时长</a></p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">File</span> {}
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> file = {
+  <span class="hljs-attr">lastModified</span>: <span class="hljs-number">1612420035903</span>,
+  <span class="hljs-attr">lastModifiedDate</span>: <span class="hljs-title class_">Thu</span> <span class="hljs-title class_">Feb</span> <span class="hljs-number">04</span> <span class="hljs-number">2021</span> <span class="hljs-number">14</span>:<span class="hljs-number">27</span>:<span class="hljs-number">15</span> <span class="hljs-variable constant_">GMT</span>+<span class="hljs-number">0800</span> (<span class="hljs-title class_">China</span> <span class="hljs-title class_">Standard</span> <span class="hljs-title class_">Time</span>) {},
+  <span class="hljs-attr">name</span>: <span class="hljs-string">&quot;10min.mp4&quot;</span>,
+  <span class="hljs-attr">size</span>: <span class="hljs-number">191763419</span>,
+  <span class="hljs-attr">type</span>: <span class="hljs-string">&quot;video/mp4&quot;</span>,
+  <span class="hljs-attr">webkitRelativePath</span>: <span class="hljs-string">&quot;&quot;</span>,
+}
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://w3c.github.io/FileAPI/#file-section">📖 W3C FileAPI</a></li>
+<li><a href="https://www.jianshu.com/p/0846d7d60481">文件上传</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"File API"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

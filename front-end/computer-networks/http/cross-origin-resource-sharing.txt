@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","computer-networks","http","cross-origin-resource-sharing"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/cross-origin-resource-sharing","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/cross-origin-resource-sharing","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","OA-992HCfSmv46QmnKYF2",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1729,<h1>HTTP CORS 跨域资源共享</h1>
+<p>跨域资源共享（CORS：Cross-Origin Resource Sharing）是一种机制，它使用额外的  HTTP 头来告诉浏览器，让运行在相同域（Origin）上的 Web 应用被准许访问来自不同源服务器上的指定的资源（也即是 <a href="../frontend-security/same-origin-policy">同源策略</a> 的 HTTP 解决方案）。当一个资源从与该资源本身所在的服务器<strong>不同的域、协议或端口</strong>请求一个资源时，资源会发起一个<strong>跨域 HTTP 请求</strong>。</p>
+<p>CORS 机制是为了在认可用户发起的请求的同时，阻止恶意注入脚本；并在以下情况发起的 HTTP 请求时触发：</p>
+<ul>
+<li>不同的协议：比如从 <code>https://example.com</code> 调用 <code>http://example.com</code></li>
+<li>不同的域：比如从 <code>example.com</code> 调用 <code>api.com</code></li>
+<li>不同的子域：比如从 <code>example.com</code> 调用 <code>api.example.com</code></li>
+<li>不同的端口：比如从 <code>example.com</code> 调用 <code>example.com:3001</code></li>
+</ul>
+<h2>实现条件</h2>
+<p>浏览器将 CORS 请求分成两类：</p>
+<ul>
+<li>简单请求（simple request）</li>
+<li>非简单请求（not-so-simple request）</li>
+</ul>
+<h3>简单请求</h3>
+<p>只要满足以下条件，就属于简单请求：</p>
+<ol>
+<li>请求方法是以下三种方法之一
+<ul>
+<li><strong>HEAD</strong></li>
+<li><strong>GET</strong></li>
+<li><strong>POST</strong></li>
+</ul>
+</li>
+<li>自定义设置集合外的头部字段
+<ul>
+<li><strong>Accept</strong> 告知服务端当前客户端可处理的内容类型</li>
+<li><strong>Accept-Language</strong> 允许客户端声明它可以理解的自然语言，以及优先选择的区域方言</li>
+<li><strong>Content-Language</strong> 说明访问者希望采用的的语言</li>
+<li><strong>Content-Type</strong>（例如 <code>application/json</code> 为非简单请求）指示资源的 MIME 类型
+<ul>
+<li><code>text/plain</code></li>
+<li><code>multipart/form-data</code></li>
+<li><code>application/x-www-form-urlencoded</code></li>
+</ul>
+</li>
+<li><strong>DPR</strong></li>
+<li><strong>Downlink</strong></li>
+<li><strong>Save-Data</strong></li>
+<li><strong>Viewport-Width</strong></li>
+<li><strong>Width</strong></li>
+<li><strong>Last-Event-ID</strong></li>
+</ul>
+</li>
+<li>请求中的任意 XMLHttpRequestUpload 对象均没有注册任何事件监听器；XMLHttpRequestUpload 对象可以使用 <code>XMLHttpRequest.upload</code> 属性访问。</li>
+<li>请求中没有 ReadableStream 对象。</li>
+</ol>
+<h3>非简单请求</h3>
+<p>除了简单请求这些限制外的都为非简单请求。</p>
+<p>非简单请求需要满足使用以下任意方法的条件：</p>
+<ul>
+<li>PUT</li>
+<li>DELETE</li>
+<li>CONNECT</li>
+<li>OPTIONS</li>
+<li>TRACE</li>
+<li>PATCH</li>
+</ul>
+<p>最常用于判断是否为简单和非简单请求的方法主要是通过 <strong>请求方法</strong> 和 <code>Content-Type</code> 头部字段的值。</p>
+<h2>预请求 Preflight</h2>
+<p>预请求是 OPTIONS 请求，浏览器会自动添加 <code>Access-Control-Allow-Headers</code> 和 <code>Access-Control-Allow-Methods</code> 头部字段。</p>
+<p>需要服务端返回的响应头 <code>Access-Control-Allow-Headers</code>、<code>Access-Control-Allow-Methods</code> 和 <code>Access-Control-Allow-Origin</code>。</p>
+<p>除了 <code>Access-Control-Allow-Origin</code> 是必须的之外，其他两种只有在不符合简单请求需要的时候服务器才需要添加，比如在简单请求的基础上自定义了一个请求头 <code>X-xx-name: chris</code>，那么服务器只需要在响应头中添加 <code>Access-Control-Allow-Headers</code>。</p>
+<p>每种响应头都可以使用 <code>*</code> 通配符来表示所有。</p>
+<h3>减少预请求次数</h3>
+<p>可以通过设置 <code>Access-Control-Max-Age</code> 来减少预请求的次数，需要包含在预请求的响应头中，指定在该时间内预请求验证有效，不必每次都进行预请求，它的单位是 <code>s</code>。如 <code>Access-Control-Max-Age: 1728000</code>，即有效期为 20 天。</p>
+<h2>正常请求</h2>
+<p>预请求完之后就可以发送正常请求了，正常请求的步骤与简单请求一致，也需要添加 <code>Access-Control-Allow-Origin</code> 响应头。</p>
+<h2>应用场景</h2>
+<p>跨域资源共享标准（Cross-Origin Sharing Standard）允许在下列场景中使用跨域 HTTP 请求：</p>
+<ul>
+<li>前文提到的由 XMLHttpRequest 或 Fetch 发起的跨域 HTTP 请求</li>
+<li>Web 字体（CSS 通过 <code>@font-face</code> 使用跨域字体资源）</li>
+<li>WebGL 贴图</li>
+<li>使用 <code>drawImage</code> 将 <code>Images/viedo</code> 画面绘制到 Canvas</li>
+<li>样式表（使用 CSSOM ）</li>
+</ul>
+<blockquote>
+<p>⚠️ 注意：HTML 中 <code>&lt;link&gt;</code>、<code>&lt;script&gt;</code>、<code>&lt;img&gt;</code> 等标签自带连接属性进行 HTTP 请求是能够无视同源策略的。</p>
+</blockquote>
+<h2>iOS WKWebview 需要 CORS</h2>
+<p>如果您正在开发使用 Webview（使用 Cordova 或 Ionic）的移动应用程序，Android 将不会给您带来任何麻烦，但 iOS 上的新 WKWebview 将需要 CORS。这意味着您几乎必须始终将 <code>Access-Control-Allow-Origin</code> 标头设置为 <code>*</code> ，但实际上这并不理想。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS">📖 MDN HTTP Access control CORS</a></li>
+<li><a href="https://juejin.im/post/5a97b5a3f265da23766ab19a">📝 理解 CORS</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">📝 阮一峰 跨域资源共享 CORS 详解</a></li>
+<li><a href="https://juejin.im/post/58f816198d6d81005874fd97">📝 由同源策略到前端跨域</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"HTTP CORS 跨域资源共享"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

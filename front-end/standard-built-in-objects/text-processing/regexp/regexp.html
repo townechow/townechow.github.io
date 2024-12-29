@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1>RegExp</h1><article><h1>RegExp 对象</h1>
+<p>正则表达式（Regular Expression）使用单个字符串来描述、匹配一系列匹配某个句法规则的字符串。在许多文本编辑器里，正则表达式通常被用来检索、替换那些匹配某个模式的文本。</p>
+<p><code>RegExp</code> 构造函数创建一个正则表达式对象，用于将文本与一个模式匹配。</p>
+<h2>语法</h2>
+<p><strong>字面量</strong></p>
+<ul>
+<li>字面量正则文本部分<strong>包含在一对斜杠 <code>/</code> 之间</strong></li>
+<li>字面量参数<strong>不使用引号</strong></li>
+</ul>
+<pre class="hljs"><code class="language-js">/pattern/afgls;
+</code></pre>
+<p><strong>正则表达式转换函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">RegExp</span>(pattern [, flags])
+</code></pre>
+<p><strong>构造函数</strong></p>
+<ul>
+<li>要匹配的字符串模式（pattern）</li>
+<li>可选的标志字符串（flags）</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;at&#x27;</span>, <span class="hljs-string">&#x27;gim&#x27;</span>);
+</code></pre>
+<p><code>RegExp</code> 构造函数的两个参数都是<strong>字符串</strong>。且使用字面量形式定义的任何表达式都可使用构造函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 匹配字符串所有&#x27;at&#x27;的实例</span>
+<span class="hljs-keyword">var</span> regexp1 = <span class="hljs-regexp">/at/g</span>;
+<span class="hljs-comment">// 同上</span>
+<span class="hljs-keyword">var</span> regexp2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;at&#x27;</span>, <span class="hljs-string">&#x27;g&#x27;</span>);
+</code></pre>
+<p>JavaScript 中的正则表达式 <code>RegExp</code> 由两部分（参数）组成：<code>pattern</code>（文本部分） 和 <code>flags</code>（匹配模式部分）。</p>
+<h3>文本规则</h3>
+<p>规则详情请参考 正则表达式文本规则。</p>
+<h3>匹配模式</h3>
+<p>正则表达式的匹配模式支持下列 3 个标识：</p>
+<table>
+<thead>
+<tr>
+<th>标识</th>
+<th>模式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>g</code></td>
+<td>全局（global）模式</td>
+<td>即模式将被应用于所有字符串，而非在发现第一个匹配项时立即停止</td>
+</tr>
+<tr>
+<td><code>i</code></td>
+<td>忽略大小写（case-insensitive）模式</td>
+<td>即在确定匹配项时忽略模式与字符串的大小写</td>
+</tr>
+<tr>
+<td><code>m</code></td>
+<td>多行（multiline）模式</td>
+<td>即在到达一行文本末尾时还会继续查找下一行中是否存在与模式匹配的项</td>
+</tr>
+</tbody>
+</table>
+<h2>描述</h2>
+<ul>
+<li>ECMAScript3 规范规定，一个正则表达式直接量会在执行到它时转换为一个 <code>RegExp</code> 对象，同一段代码所表示正则表达式直接量的每次运算都返回同一个对象。ECMAScript5 规范则做了相反的规定，同一段代码所表示的正则表达式直接量的每次运算都返回新对象。IE6-8 一直是按照 ECMAScript5 规范的方式实现的，所以并没有兼容性问题。</li>
+</ul>
+<ul>
+<li>由于<strong>正则表达式字面量并不支持变量</strong>，所以如果正则表达式中出现变量只能使用 <code>RegExp</code> 构造函数以字符串拼接的形式，将变量拼接到 <code>RegExp</code> 构造函数的参数中。</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example</span>
+<span class="hljs-keyword">let</span> variable = <span class="hljs-string">&#x27;low&#x27;</span>;
+
+<span class="hljs-keyword">let</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;^Hel&#x27;</span> + variable + <span class="hljs-string">&#x27;orld$&#x27;</span>, <span class="hljs-string">&#x27;gim&#x27;</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp); <span class="hljs-comment">// /^Helloworld$/gim</span>
+</code></pre>
+<ul>
+<li>从 ECMAScript 6 开始，当第一个参数为正则表达式而第二个标志参数存在时，<code>new RegExp(/ab+c/, 'i')</code> 不再抛出 <code>TypeError</code> （“当从其他正则表达式进行构造时不支持标志”）的异常，取而代之，将使用这些参数创建一个新的正则表达式。</li>
+<li>当使用构造函数创造正则对象时，需要常规的字符转义规则（在前面加反斜杠 \）。比如，以下是等价的：</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example1</span>
+<span class="hljs-keyword">let</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;\\w+&#x27;</span>);
+
+<span class="hljs-comment">// example2</span>
+<span class="hljs-keyword">let</span> regexp = <span class="hljs-regexp">/\w+/</span>;
+</code></pre>
+<h2>原型对象</h2>
+<h3>原型属性</h3>
+<p>每个 <code>RegExp</code> 实例对象都包含如下 5 个属性。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.constructor</code></td>
+<td>创建该正则对象的构造函数</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.global</code></td>
+<td>是否开启全局匹配，也就是匹配目标字符串中所有可能的匹配项，而不是只进行第一次匹配。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.ignoreCase</code></td>
+<td>在匹配字符串时是否要忽略字符的大小写。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.lastIndex</code></td>
+<td>整数，表示开始搜索后下一个匹配项的字符索引位置，从 0 算起。</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.multiline</code></td>
+<td>是否开启多行模式匹配（影响 <code>^</code> 和 <code>$</code> 的行为）</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>RegExp.prototype.source</code></td>
+<td>正则表达式的字符串表示，按照字面量形式而非传入构造函数中的字符串模式返回</td>
+</tr>
+</tbody>
+</table>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example</span>
+<span class="hljs-keyword">var</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;\\[bc\\]at&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>);
+
+<span class="hljs-comment">// global</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp.<span class="hljs-property">global</span>); <span class="hljs-comment">// false</span>
+
+<span class="hljs-comment">// ignoreCase</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp.<span class="hljs-property">ignoreCase</span>); <span class="hljs-comment">// true</span>
+
+<span class="hljs-comment">// multiline</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp.<span class="hljs-property">multiline</span>); <span class="hljs-comment">// false</span>
+
+<span class="hljs-comment">// lastIndex</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp.<span class="hljs-property">lastIndex</span>); <span class="hljs-comment">// 0</span>
+
+<span class="hljs-comment">// source</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(regexp.<span class="hljs-property">source</span>); <span class="hljs-comment">// &#x27;\[bc\]at&#x27;</span>
+</code></pre>
+<h3>原型方法</h3>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="properties-of-the-regexp-prototype-objects/exec">RegExp.prototype.exec()</a></td>
+<td>在一个指定字符串中执行一个搜索匹配。返回一个结果数组或 <code>null</code>。</td>
+</tr>
+<tr>
+<td><a href="properties-of-the-regexp-prototype-objects/test">RegExp.prototype.test()</a></td>
+<td>执行一个检索，用来查看正则表达式与指定的字符串是否匹配。返回 <code>true</code> 或 <code>false</code>。</td>
+</tr>
+</tbody>
+</table>
+<h2>构造函数</h2>
+<h3>属性</h3>
+<p><code>RegExp</code> 构造函数属性被看成静态属性，这些属性基于所执行的最近一次正则表达式操作而变化。</p>
+<p>有两种方式访问它们，即<strong>长属性名</strong>和<strong>短属性名</strong>。短属性名大都不是有效的 ECMAScript 标识符，所以必须通过方括号语法来访问它们。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">长属性名</th>
+<th style="text-align:center">短属性名</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">input</td>
+<td style="text-align:center">$_</td>
+<td style="text-align:center">最近一次要匹配的字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">lastMatch</td>
+<td style="text-align:center">$&amp;</td>
+<td style="text-align:center">最近一次的匹配项</td>
+</tr>
+<tr>
+<td style="text-align:center">lastParen</td>
+<td style="text-align:center">$+</td>
+<td style="text-align:center">最近一次匹配的捕获组</td>
+</tr>
+<tr>
+<td style="text-align:center">leftContext</td>
+<td style="text-align:center">$`</td>
+<td style="text-align:center">input 字符串中 lastMatch 之前的文本</td>
+</tr>
+<tr>
+<td style="text-align:center">multiline</td>
+<td style="text-align:center">$*</td>
+<td style="text-align:center">布尔值，表示是否所有表达式都使用多行模式</td>
+</tr>
+<tr>
+<td style="text-align:center">rightContext</td>
+<td style="text-align:center">$'</td>
+<td style="text-align:center">input 字符串中 lastMatch 之后的文本</td>
+</tr>
+</tbody>
+</table>
+<p>使用这些属性，可以从 <code>exec()</code> 方法或 <code>test()</code> 方法执行的操作中提取出更具体的信息。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// test()用于测试一个字符串是否匹配某个正则表达式，并返回一个布尔值</span>
+<span class="hljs-keyword">let</span> text = <span class="hljs-string">&#x27;this has been a short summer&#x27;</span>;
+<span class="hljs-keyword">let</span> regexp = <span class="hljs-regexp">/(.)hort/g</span>;
+
+<span class="hljs-keyword">if</span> (regexp.<span class="hljs-title function_">test</span>(text)) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">input</span>); <span class="hljs-comment">// &#x27;this has been a short summer&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">leftContext</span>); <span class="hljs-comment">// &#x27;this has been a &#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">rightContext</span>); <span class="hljs-comment">// &#x27; summer&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">lastMatch</span>); <span class="hljs-comment">// &#x27;short&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">lastParen</span>); <span class="hljs-comment">// &#x27;s&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">multiline</span>); <span class="hljs-comment">// false</span>
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&#x27;$_&#x27;</span>]); <span class="hljs-comment">// &#x27;this has been a short summer&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&#x27;$`&#x27;</span>]); <span class="hljs-comment">// &#x27;this has been a &#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&quot;$&#x27;&quot;</span>]); <span class="hljs-comment">// &#x27; summer&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&#x27;$&amp;&#x27;</span>]); <span class="hljs-comment">// &#x27;short&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&#x27;$+&#x27;</span>]); <span class="hljs-comment">// &#x27;s&#x27;</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>[<span class="hljs-string">&#x27;$*&#x27;</span>]); <span class="hljs-comment">// false</span>
+}
+</code></pre>
+<p>JavaScript 有 9 个用于存储捕获组的构造函数属性，在调用 <code>exec()</code> 或 <code>test()</code> 方法时，这些属性会被自动填充</p>
+<p>理论上，应该保存整个表达式匹配文本的 <code>RegExp.$0</code> 并不存在，值为 <code>undefined</code> 。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// RegExp.$1\RegExp.$2\RegExp.$3……到RegExp.$9分别用于存储第一、第二……第九个匹配的捕获组</span>
+<span class="hljs-keyword">var</span> text = <span class="hljs-string">&#x27;this has been a short summer&#x27;</span>;
+<span class="hljs-keyword">var</span> pattern = <span class="hljs-regexp">/(..)or(.)/g</span>;
+<span class="hljs-keyword">if</span> (pattern.<span class="hljs-title function_">test</span>(text)) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">$1</span>); <span class="hljs-comment">// sh</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">RegExp</span>.<span class="hljs-property">$2</span>); <span class="hljs-comment">// t</span>
+}
+</code></pre>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"standard-built-in-objects\",\"text-processing\",\"regexp\",\"regexp\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"standard-built-in-objects/text-processing/regexp/regexp\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"standard-built-in-objects/text-processing/regexp/regexp\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"EkP8Est70PWk11BWeRNzy\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:T3b9a,"])</script><script>self.__next_f.push([1,"\u003ch1\u003eRegExp 对象\u003c/h1\u003e\n\u003cp\u003e正则表达式（Regular Expression）使用单个字符串来描述、匹配一系列匹配某个句法规则的字符串。在许多文本编辑器里，正则表达式通常被用来检索、替换那些匹配某个模式的文本。\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eRegExp\u003c/code\u003e 构造函数创建一个正则表达式对象，用于将文本与一个模式匹配。\u003c/p\u003e\n\u003ch2\u003e语法\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e字面量\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e字面量正则文本部分\u003cstrong\u003e包含在一对斜杠 \u003ccode\u003e/\u003c/code\u003e 之间\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e字面量参数\u003cstrong\u003e不使用引号\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e/pattern/afgls;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e正则表达式转换函数\u003c/strong\u003e\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(pattern [, flags])\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003e构造函数\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e要匹配的字符串模式（pattern）\u003c/li\u003e\n\u003cli\u003e可选的标志字符串（flags）\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;at\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;gim\u0026#x27;\u003c/span\u003e);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ccode\u003eRegExp\u003c/code\u003e 构造函数的两个参数都是\u003cstrong\u003e字符串\u003c/strong\u003e。且使用字面量形式定义的任何表达式都可使用构造函数。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// 匹配字符串所有\u0026#x27;at\u0026#x27;的实例\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e regexp1 = \u003cspan class=\"hljs-regexp\"\u003e/at/g\u003c/span\u003e;\n\u003cspan class=\"hljs-comment\"\u003e// 同上\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e regexp2 = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;at\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;g\u0026#x27;\u003c/span\u003e);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eJavaScript 中的正则表达式 \u003ccode\u003eRegExp\u003c/code\u003e 由两部分（参数）组成：\u003ccode\u003epattern\u003c/code\u003e（文本部分） 和 \u003ccode\u003eflags\u003c/code\u003e（匹配模式部分）。\u003c/p\u003e\n\u003ch3\u003e文本规则\u003c/h3\u003e\n\u003cp\u003e规则详情请参考 正则表达式文本规则。\u003c/p\u003e\n\u003ch3\u003e匹配模式\u003c/h3\u003e\n\u003cp\u003e正则表达式的匹配模式支持下列 3 个标识：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e标识\u003c/th\u003e\n\u003cth\u003e模式\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ccode\u003eg\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e全局（global）模式\u003c/td\u003e\n\u003ctd\u003e即模式将被应用于所有字符串，而非在发现第一个匹配项时立即停止\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ccode\u003ei\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e忽略大小写（case-insensitive）模式\u003c/td\u003e\n\u003ctd\u003e即在确定匹配项时忽略模式与字符串的大小写\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ccode\u003em\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e多行（multiline）模式\u003c/td\u003e\n\u003ctd\u003e即在到达一行文本末尾时还会继续查找下一行中是否存在与模式匹配的项\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e描述\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eECMAScript3 规范规定，一个正则表达式直接量会在执行到它时转换为一个 \u003ccode\u003eRegExp\u003c/code\u003e 对象，同一段代码所表示正则表达式直接量的每次运算都返回同一个对象。ECMAScript5 规范则做了相反的规定，同一段代码所表示的正则表达式直接量的每次运算都返回新对象。IE6-8 一直是按照 ECMAScript5 规范的方式实现的，所以并没有兼容性问题。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e由于\u003cstrong\u003e正则表达式字面量并不支持变量\u003c/strong\u003e，所以如果正则表达式中出现变量只能使用 \u003ccode\u003eRegExp\u003c/code\u003e 构造函数以字符串拼接的形式，将变量拼接到 \u003ccode\u003eRegExp\u003c/code\u003e 构造函数的参数中。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// example\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e variable = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;low\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e regexp = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;^Hel\u0026#x27;\u003c/span\u003e + variable + \u003cspan class=\"hljs-string\"\u003e\u0026#x27;orld$\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;gim\u0026#x27;\u003c/span\u003e);\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp); \u003cspan class=\"hljs-comment\"\u003e// /^Helloworld$/gim\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e从 ECMAScript 6 开始，当第一个参数为正则表达式而第二个标志参数存在时，\u003ccode\u003enew RegExp(/ab+c/, 'i')\u003c/code\u003e 不再抛出 \u003ccode\u003eTypeError\u003c/code\u003e （“当从其他正则表达式进行构造时不支持标志”）的异常，取而代之，将使用这些参数创建一个新的正则表达式。\u003c/li\u003e\n\u003cli\u003e当使用构造函数创造正则对象时，需要常规的字符转义规则（在前面加反斜杠 \\）。比如，以下是等价的：\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// example1\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e regexp = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;\\\\w+\u0026#x27;\u003c/span\u003e);\n\n\u003cspan class=\"hljs-comment\"\u003e// example2\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e regexp = \u003cspan class=\"hljs-regexp\"\u003e/\\w+/\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e原型对象\u003c/h2\u003e\n\u003ch3\u003e原型属性\u003c/h3\u003e\n\u003cp\u003e每个 \u003ccode\u003eRegExp\u003c/code\u003e 实例对象都包含如下 5 个属性。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003e属性\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.constructor\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e创建该正则对象的构造函数\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.global\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e是否开启全局匹配，也就是匹配目标字符串中所有可能的匹配项，而不是只进行第一次匹配。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.ignoreCase\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e在匹配字符串时是否要忽略字符的大小写。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.lastIndex\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e整数，表示开始搜索后下一个匹配项的字符索引位置，从 0 算起。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.multiline\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e是否开启多行模式匹配（影响 \u003ccode\u003e^\u003c/code\u003e 和 \u003ccode\u003e$\u003c/code\u003e 的行为）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003e\u003ccode\u003eRegExp.prototype.source\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e正则表达式的字符串表示，按照字面量形式而非传入构造函数中的字符串模式返回\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// example\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e regexp = \u003cspan class=\"hljs-keyword\"\u003enew\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\u0026#x27;\\\\[bc\\\\]at\u0026#x27;\u003c/span\u003e, \u003cspan class=\"hljs-string\"\u003e\u0026#x27;i\u0026#x27;\u003c/span\u003e);\n\n\u003cspan class=\"hljs-comment\"\u003e// global\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp.\u003cspan class=\"hljs-property\"\u003eglobal\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// ignoreCase\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp.\u003cspan class=\"hljs-property\"\u003eignoreCase\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// true\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// multiline\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp.\u003cspan class=\"hljs-property\"\u003emultiline\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// lastIndex\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp.\u003cspan class=\"hljs-property\"\u003elastIndex\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// 0\u003c/span\u003e\n\n\u003cspan class=\"hljs-comment\"\u003e// source\u003c/span\u003e\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(regexp.\u003cspan class=\"hljs-property\"\u003esource\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;\\[bc\\]at\u0026#x27;\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e原型方法\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e方法\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"properties-of-the-regexp-prototype-objects/exec\"\u003eRegExp.prototype.exec()\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e在一个指定字符串中执行一个搜索匹配。返回一个结果数组或 \u003ccode\u003enull\u003c/code\u003e。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"properties-of-the-regexp-prototype-objects/test\"\u003eRegExp.prototype.test()\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e执行一个检索，用来查看正则表达式与指定的字符串是否匹配。返回 \u003ccode\u003etrue\u003c/code\u003e 或 \u003ccode\u003efalse\u003c/code\u003e。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e构造函数\u003c/h2\u003e\n\u003ch3\u003e属性\u003c/h3\u003e\n\u003cp\u003e\u003ccode\u003eRegExp\u003c/code\u003e 构造函数属性被看成静态属性，这些属性基于所执行的最近一次正则表达式操作而变化。\u003c/p\u003e\n\u003cp\u003e有两种方式访问它们，即\u003cstrong\u003e长属性名\u003c/strong\u003e和\u003cstrong\u003e短属性名\u003c/strong\u003e。短属性名大都不是有效的 ECMAScript 标识符，所以必须通过方括号语法来访问它们。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003e长属性名\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e短属性名\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003einput\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$_\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e最近一次要匹配的字符串\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003elastMatch\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$\u0026amp;\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e最近一次的匹配项\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003elastParen\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$+\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e最近一次匹配的捕获组\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eleftContext\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$`\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003einput 字符串中 lastMatch 之前的文本\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003emultiline\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$*\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e布尔值，表示是否所有表达式都使用多行模式\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003erightContext\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e$'\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003einput 字符串中 lastMatch 之后的文本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e使用这些属性，可以从 \u003ccode\u003eexec()\u003c/code\u003e 方法或 \u003ccode\u003etest()\u003c/code\u003e 方法执行的操作中提取出更具体的信息。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// test()用于测试一个字符串是否匹配某个正则表达式，并返回一个布尔值\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e text = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;this has been a short summer\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e regexp = \u003cspan class=\"hljs-regexp\"\u003e/(.)hort/g\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eif\u003c/span\u003e (regexp.\u003cspan class=\"hljs-title function_\"\u003etest\u003c/span\u003e(text)) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003einput\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;this has been a short summer\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003eleftContext\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;this has been a \u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003erightContext\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27; summer\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003elastMatch\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;short\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003elastParen\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;s\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003emultiline\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;$_\u0026#x27;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;this has been a short summer\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;$`\u0026#x27;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;this has been a \u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026quot;$\u0026#x27;\u0026quot;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27; summer\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;$\u0026amp;\u0026#x27;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;short\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;$+\u0026#x27;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// \u0026#x27;s\u0026#x27;\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e[\u003cspan class=\"hljs-string\"\u003e\u0026#x27;$*\u0026#x27;\u003c/span\u003e]); \u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eJavaScript 有 9 个用于存储捕获组的构造函数属性，在调用 \u003ccode\u003eexec()\u003c/code\u003e 或 \u003ccode\u003etest()\u003c/code\u003e 方法时，这些属性会被自动填充\u003c/p\u003e\n\u003cp\u003e理论上，应该保存整个表达式匹配文本的 \u003ccode\u003eRegExp.$0\u003c/code\u003e 并不存在，值为 \u003ccode\u003eundefined\u003c/code\u003e 。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-comment\"\u003e// RegExp.$1\\RegExp.$2\\RegExp.$3……到RegExp.$9分别用于存储第一、第二……第九个匹配的捕获组\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e text = \u003cspan class=\"hljs-string\"\u003e\u0026#x27;this has been a short summer\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003evar\u003c/span\u003e pattern = \u003cspan class=\"hljs-regexp\"\u003e/(..)or(.)/g\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eif\u003c/span\u003e (pattern.\u003cspan class=\"hljs-title function_\"\u003etest\u003c/span\u003e(text)) {\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003e$1\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// sh\u003c/span\u003e\n  \u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(\u003cspan class=\"hljs-title class_\"\u003eRegExp\u003c/span\u003e.\u003cspan class=\"hljs-property\"\u003e$2\u003c/span\u003e); \u003cspan class=\"hljs-comment\"\u003e// t\u003c/span\u003e\n}\n\u003c/code\u003e\u003c/pre\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"RegExp\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","the-global-object","value-properties","NaN"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/the-global-object/value-properties/NaN","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/the-global-object/value-properties/NaN","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RhbWTqDE10LxpKO76RmNQ",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Td48,<h1>NaN</h1>
+<p>全局属性 <strong><code>NaN</code></strong> 的值表示不是一个数字（Not-A-Number）。</p>
+<table>
+<thead>
+<tr>
+<th>属性特性</th>
+<th>布尔值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>writable</code></td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td><code>enumerable</code></td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td><code>configurable</code></td>
+<td><code>false</code></td>
+</tr>
+</tbody>
+</table>
+<h2>说明</h2>
+<ul>
+<li><code>NaN</code> 是一个全局对象的属性。</li>
+<li><code>NaN</code> 属性的初始值就是 <code>NaN</code>，和 <code>Number.NaN</code> 的值一样。</li>
+<li>编码中很少直接使用到 <code>NaN</code>。通常都是在计算失败时，作为 <code>Math</code> 的某个方法的返回值出现的（例如：<code>Math.sqrt(-1)</code>）或者尝试将一个字符串解析成数字但失败了的时候（例如：<code>parseInt('blabla')</code>）。</li>
+</ul>
+<p>返回 <code>NaN</code> 的情况总结：</p>
+<ul>
+<li>无穷大除以无穷大</li>
+<li>给任意负数做开放运算</li>
+<li>算术运算符与不是数字或无法转换为数字的操作数一起使用</li>
+<li>字符串解析为数字</li>
+</ul>
+<h2>示例</h2>
+<h3>值校验</h3>
+<p>不可使用等号运算符来判断一个值是否为 <code>NaN</code>。必须采用 <code>Number.isNaN()</code> 或 <code>isNaN()</code>函数进行判断。</p>
+<p>在执行自比较中，<code>NaN</code> 是唯一与自身不全等的值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">NaN</span> === <span class="hljs-title class_">NaN</span>;
+<span class="hljs-comment">//	false</span>
+
+<span class="hljs-title class_">Number</span>.<span class="hljs-property">NaN</span> === <span class="hljs-title class_">NaN</span>;
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-built_in">isNaN</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// true;</span>
+
+<span class="hljs-built_in">isNaN</span>(<span class="hljs-title class_">Number</span>.<span class="hljs-property">NaN</span>);
+<span class="hljs-comment">// true;</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">valueIsNaN</span>(<span class="hljs-params">v</span>) {
+  <span class="hljs-keyword">return</span> v !== v;
+}
+<span class="hljs-title function_">valueIsNaN</span>(<span class="hljs-number">1</span>);
+<span class="hljs-comment">// false</span>
+<span class="hljs-title function_">valueIsNaN</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// true</span>
+<span class="hljs-title function_">valueIsNaN</span>(<span class="hljs-title class_">Number</span>.<span class="hljs-property">NaN</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>使用 <code>isNaN()</code> 前先检查一下这个值是否是数字类型，即可避免隐式类型转换的问题。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">detectIsNaN</span>(<span class="hljs-params">value</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">typeof</span> value === <span class="hljs-string">&#x27;number&#x27;</span> &amp;&amp; <span class="hljs-built_in">isNaN</span>(value);
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"NaN"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

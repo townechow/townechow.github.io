@@ -1,0 +1,87 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","padEnd"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/padEnd","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/padEnd","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5Rxb451-J-R0R721yZexe",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1283,<h1>String.prototype.padEnd()</h1>
+<p>⭐️ <code>ES2017(ES8)新特性</code></p>
+<p><code>String.prototype.padEnd()</code> 方法会用一个字符串填充当前字符串（如果需要的话则重复填充），返回填充后达到指定长度的字符串。从当前字符串的末尾（右侧）开始填充。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">padEnd</span>(maxLength [, fillString]);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">String</span> {
+  <span class="hljs-title function_">padEnd</span>(<span class="hljs-attr">maxLength</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">fillString</span>?: <span class="hljs-built_in">string</span>): <span class="hljs-built_in">string</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>maxLength</code></td>
+<td style="text-align:left">当前字符串需要填充到的目标长度。如果这个数值小于当前字符串的长度，则返回当前字符串本身。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>fillString</code></td>
+<td style="text-align:left">（可选）填充字符串。如果字符串太长，使填充后的字符串长度超过了目标长度，则只保留最左侧的部分，其他部分会被截断。</td>
+<td style="text-align:left">string</td>
+</tr>
+</tbody>
+</table>
+<h2>代码示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> str = <span class="hljs-string">&#x27;abc&#x27;</span>;
+
+str.<span class="hljs-title function_">padEnd</span>(<span class="hljs-string">&#x27;1&#x27;</span>);
+<span class="hljs-comment">// &#x27;abc&#x27;</span>
+
+str.<span class="hljs-title function_">padEnd</span>(<span class="hljs-string">&#x27;10&#x27;</span>);
+<span class="hljs-comment">// &#x27;abc       &#x27;</span>
+
+str.<span class="hljs-title function_">padEnd</span>(<span class="hljs-string">&#x27;6&#x27;</span>, <span class="hljs-string">&#x27;123456&#x27;</span>);
+<span class="hljs-comment">// &#x27;abc123&#x27;</span>
+
+str.<span class="hljs-title function_">padEnd</span>(<span class="hljs-string">&#x27;10&#x27;</span>, <span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-comment">// &#x27;abcfoofoof&#x27;</span>
+</code></pre>
+<h2>兼容性代码</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (<span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">padEnd</span>) {
+  <span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">padEnd</span> = <span class="hljs-keyword">function</span> <span class="hljs-title function_">padEnd</span>(<span class="hljs-params">maxLength, fillString</span>) {
+    maxLength = maxLength &gt;&gt; <span class="hljs-number">0</span>;
+    fillString = <span class="hljs-title class_">String</span>(<span class="hljs-keyword">typeof</span> fillString !== <span class="hljs-string">&#x27;undefined&#x27;</span> ? fillString : <span class="hljs-string">&#x27;&#x27;</span>);
+    <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span>.<span class="hljs-property">length</span> &gt; maxLength) {
+      <span class="hljs-keyword">return</span> <span class="hljs-title class_">String</span>(<span class="hljs-variable language_">this</span>);
+    } <span class="hljs-keyword">else</span> {
+      maxLength = maxLength - <span class="hljs-variable language_">this</span>.<span class="hljs-property">length</span>;
+      <span class="hljs-keyword">if</span> (maxLength &gt; fillString.<span class="hljs-property">length</span>) {
+        fillString += fillString.<span class="hljs-title function_">repeat</span>(maxLength / fillString.<span class="hljs-property">length</span>);
+      }
+      <span class="hljs-keyword">return</span> <span class="hljs-title class_">String</span>(<span class="hljs-variable language_">this</span>) + fillString.<span class="hljs-title function_">slice</span>(<span class="hljs-number">0</span>, maxLength);
+    }
+  };
+}
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es2017.string.d.ts">TypeScript - lib.es2017.string.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.padEnd"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

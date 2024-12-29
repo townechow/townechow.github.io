@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","browser-working-principle","script-loading-asynchronously"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/browser-working-principle/script-loading-asynchronously","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/browser-working-principle/script-loading-asynchronously","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","HmzCiY-Jnrh9JeIC7DYJg",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2186,<h1>脚本异步加载</h1>
+<p>现代浏览器总是并行加载资源。脚本文件互相不会阻塞，但是会阻塞其他资源（例如图片、字体等）的下载。</p>
+<p>后来为了用户体验，有了 <code>async</code> 和 <code>defer</code> ，脚本标记为异步，不会阻塞其他线程解析和执行。</p>
+<p>当 HTML 解析器被 JavaScript 脚本阻塞时，解析器虽然会停止构建 DOM，但仍会识别该脚本后面的资源，并进行预加载。</p>
+<ol>
+<li>默认情况下，CSS 被视为阻塞渲染的资源，这意味着看浏览器将不会渲染任何已处理的内容，直至 CSSOM 构建完毕</li>
+<li>JavaScript 不仅可以读取和修改 DOM 属性，还可以读取和修改 CSSOM 属性</li>
+</ol>
+<p>存在阻塞的 CSS 资源时，浏览器会延迟 JavaScript 的执行和 DOM 构建</p>
+<ol>
+<li>当浏览器遇到一个 <code>&lt;script&gt;</code> 标记时，DOM 构建将暂停，直至脚本完成执行。</li>
+<li>JavaScript 可以查询和修改 DOM 与 CSSOM。</li>
+<li>CSSOM 构建时，JavaScript 执行将暂停，直至 CSSOM 就绪。</li>
+</ol>
+<p><code>&lt;script&gt;</code> 标签为止很重要。实际使用时，遵循下面两个原则：</p>
+<ol>
+<li>CSS 优先：引入顺序上，CSS 资源先于 JavaScript 资源</li>
+<li>JavaScript 应尽量少影响 DOM 的构建，例如把 JavaScript 脚本文件引入放在文档底部或使用异步加载</li>
+</ol>
+<h2>异步加载</h2>
+<ul>
+<li>标注为 <code>defer</code> 的 JavaScript 脚本文件不会停止 HTML 文档解析，而是等到解析结束才执行</li>
+<li>标注为 <code>async</code> 只能引用外部脚本，下载完马上执行，但是不能保证加载顺序。</li>
+</ul>
+<h3>普通脚本</h3>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;foo.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p>浏览器会做如下处理</p>
+<ul>
+<li>同步加载，停止解析 document</li>
+<li>请求 <code>foo.js</code></li>
+<li>执行 <code>foo.js</code> 中的脚本</li>
+<li>继续解析 document</li>
+</ul>
+<h3>defer</h3>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;foo.js&quot;</span> <span class="hljs-attr">defer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;bar.js&quot;</span> <span class="hljs-attr">defer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p><code>defer</code> 属性规定是否对异步加载的脚本延迟执行，直到页面加载为止。</p>
+<ul>
+<li>不阻止解析 document，并行下载 <code>foo.js</code>、<code>bar.js</code></li>
+<li>即使下载完 <code>foo.js</code> 和 <code>bar.js</code> 仍继续解析 document</li>
+<li>按照页面中出现的顺序，在其他同步脚本执行后，<code>DOMContentLoaded</code> 事件前依次执行 <code>foo.js</code> 和 <code>bar.js</code></li>
+</ul>
+<h3>async</h3>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;foo.js&quot;</span> <span class="hljs-attr">async</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;bar.js&quot;</span> <span class="hljs-attr">async</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p><code>async</code> 属性规定异步加载脚本并且立即执行，则会异步执行。</p>
+<ul>
+<li>不阻止解析 document，并行下载 <code>foo.js</code> 和 <code>bar.js</code></li>
+<li>当脚本下载完成后立即执行</li>
+<li>两者执行顺序不确定，执行阶段不确定，可能在 <code>DOMContentLoaded</code> 事件前或者后</li>
+<li>第二个脚本文件可能会在第一个脚本文件之前执行，因此确保两者之间互不依赖非常重要</li>
+<li>目的是不让页面等待两个脚本下载和执行，从而异步加载页面其他内容</li>
+</ul>
+<h3>综合运用</h3>
+<ul>
+<li>如果使用 <code>async</code>：脚本相对于页面的其余部分异步地执行</li>
+<li>如果不使用 <code>async</code> 但使用 <code>defer</code>：脚本将在页面完成解析时执行</li>
+<li>如果既不使用 <code>async</code> 也不使用 <code>defer</code>：在浏览器继续解析页面之前，立即读取并执行脚本</li>
+</ul>
+<p>如果 <code>&lt;script&gt;</code> 无 <code>src</code> 属性，则 <code>defer</code> 和 <code>async</code> 会被忽略</p>
+<p>动态添加的 <code>&lt;script&gt;</code> 标签隐含 <code>async</code> 属性</p>
+<p><strong>图解脚本的异步加载</strong></p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/parse-javascript.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;JavaScript解析&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
+</code></pre>
+<ul>
+<li>两者都不会阻止 document 的解析</li>
+<li><code>defer</code> 会在 DOMContentLoaded 前依次执行</li>
+<li><code>async</code> 则是下载完立即执行，不一定是在 DOMContentLoaded 前</li>
+<li><code>async</code> 因为乱序，所以很适合像 Google Analytics 这样的无依赖脚本</li>
+</ul>
+<h2>加载事项</h2>
+<ul>
+<li><code>&lt;link&gt;</code>：加载外部 CSS 样式文件 。异步加载，继续解析 HTML。</li>
+<li><code>&lt;script src='url'&gt;</code>：加载 JavaScript 脚本文件，同步加载并阻塞解析 HTML，加载完马上执行。</li>
+<li><code>&lt;script src='url' async&gt;</code>：加载 JavaScript 脚本文件。异步加载，继续解析 HTML，加载完马上执行。</li>
+<li><code>&lt;script src='url' defer&gt;</code>：加载 JavaScript 脚本文件。异步加载，继续解析 HTML，加载完延迟执行。</li>
+<li><code>&lt;img src='url' /&gt;</code>：加载图片，异步加载，继续解析 HTML；但是需要等待 CSS 解析完才解码，所以 CSS 阻塞图片呈现。</li>
+</ul>
+<p>DOMContentLoaded 标识着程序从同步脚本执行转化为事件驱动阶段。</p>
+<ul>
+<li>CSSOM 树和 DOM 树是互不关联的两个过程</li>
+<li>CSS 不会阻塞 DOM 的解析，但会阻塞 DOM 渲染</li>
+<li>JavaScript 阻塞 DOM 解析，但浏览器会&quot;偷看&quot;DOM，提前下载资源</li>
+<li>平时我们把 <code>&lt;link&gt;</code> 标签放部头而 <code>&lt;script&gt;</code> 放 <code>&lt;body&gt;</code> 尾部，是因为 JavaScript 阻塞阻塞 DOM 树的构建</li>
+<li>但是 JavaScript 需要查询 CSS 信息，所以 JavaScript 还要等待 CSSOM 树构建完才可以执行</li>
+<li>这就造成 CSS 阻塞了 JavaScript，JavaScript 阻塞了 DOM 树构建</li>
+</ul>
+<ul>
+<li>浏览器遇到 <code>&lt;script&gt;</code> 且没有 <code>defer</code> 或 <code>async</code> 属性的标签时，会触发页面渲染，因而如果前面 CSS 资源尚未加载完毕时，浏览器会等待它加载完毕在执行脚本。</li>
+</ul>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://juejin.im/post/5b0a6f1af265da0ddb63ecd9#heading-28">📝 浏览器原理</a></li>
+<li><a href="https://segmentfault.com/a/1190000006778717">📝 浅谈 script 标签的 defer 和 async</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24944905">📝 JavaScript 和 CSS 的位置对资源加载顺序的影响</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"脚本异步加载"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

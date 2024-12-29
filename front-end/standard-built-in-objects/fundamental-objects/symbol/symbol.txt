@@ -1,0 +1,343 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","fundamental-objects","symbol","symbol"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/fundamental-objects/symbol/symbol","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/fundamental-objects/symbol/symbol","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ulKlfecBXnnoUkRl7XDGY",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5bf8,<h1>Symbol</h1>
+<p>Symbol 数据类型是一种原始数据类型，该类型的性质在于这个类型的值可以用来创建匿名的对象属性。</p>
+<h2>类型特性</h2>
+<h3>类型检测</h3>
+<p>Symbol 值只能通过 Symbol 函数生成。 Symbol 类型的值作为对象属性名可以保证不会与其他属性名不产生冲突。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> symbol = <span class="hljs-title class_">Symbol</span>();
+
+<span class="hljs-keyword">typeof</span> symbol;
+<span class="hljs-comment">// &#x27;symbol&#x27;</span>
+</code></pre>
+<h3>无法实例化</h3>
+<p>注意，Symbol 函数前不能使用 <code>new</code> 命令实例化，否则会报错。这是因为生成的 Symbol 是一个原始类型的值，不是对象。也就是说，由于 Symbol 值不是对象，所以不能添加属性。基本上，它是一种类似于字符串的数据类型。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;symbol&#x27;</span>);
+<span class="hljs-comment">// TypeError: Symbol is not a constructor</span>
+</code></pre>
+<h3>原型检测</h3>
+<p>使用 <code>instanceof</code> 检测实例与 Symbol 之间的关系。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> symbol = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(symbol <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Symbol</span>);
+<span class="hljs-comment">// false</span>
+</code></pre>
+<h3>实例描述</h3>
+<p>Symbol 函数可以接受一个字符串作为参数，表示对 Symbol 实例的描述，主要是为了在控制台显示，或者转为字符串时，比较容易区分。</p>
+<p>如果 Symbol 的参数是一个对象，就会调用该对象的 <code>toString</code> 方法，将其转为字符串，然后才生成一个 Symbol 值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> obj = {
+  <span class="hljs-title function_">toString</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;abc&#x27;</span>;
+  },
+};
+
+<span class="hljs-keyword">const</span> sym = <span class="hljs-title class_">Symbol</span>(obj);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sym);
+<span class="hljs-comment">// Symbol(abc)</span>
+</code></pre>
+<h3>相同描述</h3>
+<p>注意，<code>Symbol</code> 函数的参数只是表示对当前 Symbol 值的描述，因此 <strong>相同参数</strong> 的 <code>Symbol</code> 函数的返回值是不相等的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 没有参数的情况</span>
+<span class="hljs-keyword">let</span> s1 = <span class="hljs-title class_">Symbol</span>();
+<span class="hljs-keyword">let</span> s2 = <span class="hljs-title class_">Symbol</span>();
+
+s1 === s2;
+<span class="hljs-comment">// false 表示两者并非严格双等</span>
+
+<span class="hljs-comment">// 有参数的情况</span>
+<span class="hljs-keyword">let</span> s3 = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-keyword">let</span> s4 = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+
+s3 === s4;
+<span class="hljs-comment">// false</span>
+</code></pre>
+<h3>类型运算与转换</h3>
+<p>Symbol 值不能与其他类型的值进行运算，会报错</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> sym = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;symbol&#x27;</span>);
+
+<span class="hljs-string">&#x27;HELLO&#x27;</span> +
+  sym<span class="hljs-string">`HELLO <span class="hljs-subst">${
+    sym
+    // <span class="hljs-built_in">TypeError</span>: Cannot convert a <span class="hljs-built_in">Symbol</span> value to a string
+  }</span>`</span>;
+<span class="hljs-comment">// TypeError: Cannot convert a Symbol value to a string</span>
+</code></pre>
+<p>但是，Symbol 值可以显式转为字符串。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> sym = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;symbol&#x27;</span>);
+
+<span class="hljs-title class_">String</span>(sym);
+<span class="hljs-comment">// &#x27;Symbol(symbol)&#x27;</span>
+
+sym.<span class="hljs-title function_">toString</span>();
+<span class="hljs-comment">// &#x27;Symbol(symbol)&#x27;</span>
+</code></pre>
+<p>另外，Symbol 值也可以转为布尔值，但是不能转为数值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> sym = <span class="hljs-title class_">Symbol</span>();
+<span class="hljs-title class_">Boolean</span>(sym);
+<span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(!sym);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-keyword">if</span> (sym) {
+  <span class="hljs-comment">// ...</span>
+}
+
+<span class="hljs-title class_">Number</span>(sym);
+<span class="hljs-comment">// TypeError: Cannot convert a Symbol value to a number</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sym + <span class="hljs-number">2</span>);
+<span class="hljs-comment">// TypeError: Cannot convert a Symbol value to a number</span>
+</code></pre>
+<h3>对象属性名</h3>
+<p>由于每一个 Symbol 值都是不相等的，这意味着 Symbol 值可以作为 <strong>标识符</strong>，用于对象的属性名，就能保证不会出现同名的属性。这对于一个对象多个模块构成的情况非常有用，能防止某一个键被不小心改写或覆盖。</p>
+<p>在实际工作中，肯定会经常使用到别人的类库，然后因为不知道某个对象的属性名，就不小心重写了那个对象的某个属性，导致一些不必要的错误出现。但是有了 Symbol 类型后，我们可以很容易的避免掉这样的失误。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> mySymbol = <span class="hljs-title class_">Symbol</span>();
+
+<span class="hljs-comment">// 第一种写法 属性访问器</span>
+<span class="hljs-keyword">let</span> a = {};
+a[mySymbol] = <span class="hljs-string">&#x27;Hello!&#x27;</span>;
+
+<span class="hljs-comment">// 第二种写法 字面量</span>
+<span class="hljs-keyword">let</span> b = {
+  [mySymbol]: <span class="hljs-string">&#x27;Hello!&#x27;</span>,
+};
+
+<span class="hljs-comment">// 第三种写法 对象原型方法</span>
+<span class="hljs-keyword">let</span> c = {};
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(c, mySymbol, { <span class="hljs-attr">value</span>: <span class="hljs-string">&#x27;Hello!&#x27;</span> });
+
+<span class="hljs-comment">// 以上写法都得到同样结果</span>
+a[mySymbol];
+<span class="hljs-comment">// &#x27;Hello!&#x27;</span>
+</code></pre>
+<blockquote>
+<p>⚠️ 注意，Symbol 值作为对象属性名时，不能用 <strong>点运算符</strong>。</p>
+</blockquote>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> sym = <span class="hljs-title class_">Symbol</span>();
+<span class="hljs-keyword">const</span> a = {};
+
+a.<span class="hljs-property">sym</span> = <span class="hljs-string">&#x27;Hello!&#x27;</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[sym]);
+<span class="hljs-comment">// undefined</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-string">&#x27;sym&#x27;</span>]);
+<span class="hljs-comment">// &#x27;Hello!&#x27;</span>
+</code></pre>
+<p>上面代码中，因为点运算符后面总是字符串，所以不会读取 <code>sym</code> 作为标识名所指代的那个值，导致 <code>a</code> 的属性名实际上是一个字符串，而不是一个 Symbol 值。</p>
+<p>同理，在对象内部，使用 Symbol 值定义属性时，Symbol 值必须放在 <strong>方括号</strong> 内。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> sym = <span class="hljs-title class_">Symbol</span>()
+
+<span class="hljs-keyword">let</span> foo = {
+  [sym]: <span class="hljs-keyword">function</span> (<span class="hljs-params">arg</span>) {...}
+}
+
+foo[sym](<span class="hljs-number">123</span>)
+</code></pre>
+<p>采用增强的对象写法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = {
+  [sym](arg) {...}
+}
+</code></pre>
+<p>Symbol 类型还可以用于定义一组常量，保证这组常量的值都是不相等的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+
+foo.<span class="hljs-property">constants</span> = {
+  <span class="hljs-attr">a</span>: <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;a&#x27;</span>),
+  <span class="hljs-attr">b</span>: <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;b&#x27;</span>),
+  <span class="hljs-attr">c</span>: <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;c&#x27;</span>),
+};
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">constants</span>.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// Symbol(a)</span>
+</code></pre>
+<p>还有一点需要注意，Symbol 值作为属性名时，该属性还是公开属性，不是私有属性。</p>
+<h3>不可枚举</h3>
+<p>Symbol 作为属性名，该属性不会出现在 <code>for...in</code>、<code>for...of</code> 循环中，也不会被 <code>Object.keys()</code>、<code>Object.getOwnPropertyNames()</code>、<code>JSON.stringify()</code> 返回。</p>
+<p>但是，它也不是私有属性，有一个 <code>Object.getOwnPropertySymbols</code> 方法，可以获取指定对象的所有 Symbol 属性名。</p>
+<p><code>Object.getOwnPropertySymbols</code> 方法返回一个数组，成员是当前对象的所有用作属性名的 Symbol 值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<span class="hljs-keyword">let</span> a = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;a&#x27;</span>);
+<span class="hljs-keyword">let</span> b = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;b&#x27;</span>);
+
+foo[a] = <span class="hljs-string">&#x27;Hello&#x27;</span>;
+foo[b] = <span class="hljs-string">&#x27;world&#x27;</span>;
+
+<span class="hljs-keyword">const</span> sym = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getOwnPropertySymbols</span>(foo);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(sym);
+<span class="hljs-comment">// [Symbol(a), Symbol(b)]</span>
+</code></pre>
+<h2>静态方法</h2>
+<h3>Symbol.for()</h3>
+<p><code>Symbol.for()</code> 方法会根据给定的键，来从运行时的 Symbol 注册表中找到对应的 Symbol，如果找到了，则返回它，否则，新建一个与该键关联的 Symbol，并放入全局 Symbol 注册表中。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(key);
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> s1 = <span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-keyword">let</span> s2 = <span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+
+s1 === s2;
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>上面两个变量均为同样参数的 <code>Symbol.for</code> 方法生成的，所以实际上是同一个值。</p>
+<p><code>Symbol.for</code> 与 <code>Symbol</code> 这两种写法，都会生成新的 Symbol。它们的区别是：前者会被登记在全局环境中供搜索，后者不会。</p>
+<p><code>Symbol.for()</code> 不会每次调用就返回一个新的 Symbol 类型的值，而是会先检查给定的 <code>key</code> 是否已存在，如果不存在才会新建一个值。否则，返回的是同一个 Symbol 类型的值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> s1 = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-keyword">let</span> s2 = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-keyword">let</span> s3 = <span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-keyword">let</span> s4 = <span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+
+s1 === s2;
+<span class="hljs-comment">// false</span>
+
+s3 === s4;
+<span class="hljs-comment">// true</span>
+
+s1 === s3;
+<span class="hljs-comment">// false</span>
+</code></pre>
+<h3>Symbol.keyFor()</h3>
+<p><code>Symbol.keyFor</code> 方法用于获取 Symbol 注册表中指定的 Symbol 值关联的键。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">keyFor</span>(sym);
+</code></pre>
+<p>参数 <code>sym</code> 为存储在 Symbol 注册表中的某个 Symbol 实例。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> s1 = <span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;s1&#x27;</span>);
+<span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">keyFor</span>(globalSym);
+<span class="hljs-comment">// &#x27;s1&#x27;</span>
+
+<span class="hljs-keyword">const</span> s2 = <span class="hljs-title class_">Symbol</span>();
+<span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">keyFor</span>(s2);
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<p>⚠️ 注意，这个函数用于查找一个 Symbol 值的注册信息的，如果你使用 Symbol 函数创建的 Symbol 值，不论你传不传递参数，通过 <code>Symbol.keyFor()</code> 函数是查不到它的注册信息的。也就是说，通过 <code>Symbol()</code> 函数产生的 Symbol 值是没户口的孩子。但是通过 <code>Symbol.for()</code> 函数产生的 Symbol 值都是可以查到注册信息的。</p>
+<h2>内置值</h2>
+<p>除了自定义的 Symbol 值以外，ES6 还提供了 11 个内置的 Symbol 值，指向语言内部使用的方法。</p>
+<ul>
+<li><a href="properties-of-the-object-constructor/hasInstance">Symbol.hasInstance</a></li>
+<li><a href="properties-of-the-object-constructor/isConcatSpreadable">Symbol.isConcatSpreadable</a></li>
+<li><a href="properties-of-the-object-constructor/iterator">Symbol.iterator</a></li>
+<li><a href="properties-of-the-object-constructor/match">Symbol.match</a></li>
+<li><a href="properties-of-the-object-constructor/replace">Symbol.replace</a></li>
+<li><a href="properties-of-the-object-constructor/search">Symbol.search</a></li>
+<li><a href="properties-of-the-object-constructor/species">Symbol.species</a></li>
+<li><a href="properties-of-the-object-constructor/split">Symbol.split</a></li>
+<li><a href="properties-of-the-object-constructor/toPrimitive">Symbol.toPrimitive</a></li>
+<li><a href="properties-of-the-object-constructor/toStringTag">Symbol.toStringTag</a></li>
+<li><a href="properties-of-the-object-constructor/unscopables">Symbol.unscopables</a></li>
+</ul>
+<h2>手写实现</h2>
+<p>手动实现 Symbol：</p>
+<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> root = <span class="hljs-variable language_">this</span>;
+
+  <span class="hljs-keyword">var</span> generateName = (<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">var</span> postfix = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span>(<span class="hljs-params">descString</span>) {
+      postfix++;
+      <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;@@&#x27;</span> + descString + <span class="hljs-string">&#x27;_&#x27;</span> + postfix;
+    };
+  })();
+
+  <span class="hljs-keyword">var</span> <span class="hljs-title class_">SymbolPolyfill</span> = <span class="hljs-keyword">function</span> <span class="hljs-title function_">Symbol</span>(<span class="hljs-params">description</span>) {
+    <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">SymbolPolyfill</span>) <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">TypeError</span>(<span class="hljs-string">&#x27;Symbol is not a constructor&#x27;</span>);
+
+    <span class="hljs-keyword">var</span> descString = description === <span class="hljs-literal">undefined</span> ? <span class="hljs-literal">undefined</span> : <span class="hljs-title class_">String</span>(description);
+
+    <span class="hljs-keyword">var</span> symbol = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>({
+      <span class="hljs-attr">toString</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">__Name__</span>;
+      },
+      <span class="hljs-attr">valueOf</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>;
+      },
+    });
+
+    <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperties</span>(symbol, {
+      <span class="hljs-attr">__Description__</span>: {
+        <span class="hljs-attr">value</span>: descString,
+        <span class="hljs-attr">writable</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
+      },
+      <span class="hljs-attr">__Name__</span>: {
+        <span class="hljs-attr">value</span>: <span class="hljs-title function_">generateName</span>(descString),
+        <span class="hljs-attr">writable</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
+      },
+    });
+
+    <span class="hljs-keyword">return</span> symbol;
+  };
+
+  <span class="hljs-keyword">var</span> forMap = {};
+
+  <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperties</span>(<span class="hljs-title class_">SymbolPolyfill</span>, {
+    <span class="hljs-attr">for</span>: {
+      <span class="hljs-attr">value</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">description</span>) {
+        <span class="hljs-keyword">var</span> descString = description === <span class="hljs-literal">undefined</span> ? <span class="hljs-literal">undefined</span> : <span class="hljs-title class_">String</span>(description);
+        <span class="hljs-keyword">return</span> forMap[descString]
+          ? forMap[descString]
+          : (forMap[descString] = <span class="hljs-title class_">SymbolPolyfill</span>(descString));
+      },
+      <span class="hljs-attr">writable</span>: <span class="hljs-literal">true</span>,
+      <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span>,
+      <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>,
+    },
+    <span class="hljs-attr">keyFor</span>: {
+      <span class="hljs-attr">value</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">symbol</span>) {
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> key <span class="hljs-keyword">in</span> forMap) {
+          <span class="hljs-keyword">if</span> (forMap[key] === symbol) <span class="hljs-keyword">return</span> key;
+        }
+      },
+      <span class="hljs-attr">writable</span>: <span class="hljs-literal">true</span>,
+      <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span>,
+      <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>,
+    },
+  });
+
+  root.<span class="hljs-property">SymbolPolyfill</span> = <span class="hljs-title class_">SymbolPolyfill</span>;
+})();
+</code></pre>
+<p>无法实现特性：</p>
+<ol>
+<li>使用 <code>typeof</code>，结果为 <code>&quot;symbol&quot;</code>。利用 ES5，我们并不能修改 <code>typeof</code> 操作符的结果，所以无法实现</li>
+<li>Symbol 函数可以接受一个字符串作为参数，表示对 Symbol 实例的描述，主要是为了在控制台显示，或者转为字符串时，比较容易区分</li>
+<li>Symbol 值不能与其他类型的值进行运算，会报错</li>
+<li>Symbol 值可以显式转为字符串</li>
+<li>Symbol 作为属性名，该属性不会出现在 <code>for...in</code>、<code>for...of</code> 循环中，也不会被 <code>Object.keys()</code>、<code>Object.getOwnPropertyNames()</code>、<code>JSON.stringify()</code> 返回</li>
+</ol>
+<h2>总结</h2>
+<ul>
+<li>Symbol 值只能通过 <code>Symbol()</code> 函数生成</li>
+<li><code>Symbol()</code> 的参数只是表示对当前 Symbol 值的描述，相同参数调用返回值不相等</li>
+<li><code>Symbol</code> 函数前不能使用 <code>new</code> 命令</li>
+<li>对象的属性名可以为 Symbol 类型，能避免对象属性重名</li>
+<li><code>Symbol</code> 值作为对象属性名不能用点运算符</li>
+</ul>
+<p>应用场景：</p>
+<ol>
+<li>利用 Symbol 值的唯一特性，作为类库某些对象的属性名，这样可以避免使用者命名冲突导致的覆盖问题</li>
+</ol>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="http://es6.ruanyifeng.com/?search=ad&amp;x=0&amp;y=0#docs/symbol">📝 ECMAScript 6 入门：Symbol</a></li>
+<li><a href="https://juejin.im/post/6844903619544760328">📝 ES6 系列之模拟实现 Symbol</a></li>
+<li><a href="http://2ality.com/2014/12/es6-symbols.html">📝 Symbols in ECMAScript 6</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Symbol"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

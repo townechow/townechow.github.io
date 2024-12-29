@@ -1,0 +1,111 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","match"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/match","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/match","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bE5Tl1nLeKiksC8hJutTa",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1755,<h1>String.prototype.match()</h1>
+<p><code>match()</code>函数用于使用指定的正则表达式模式在当前字符串中进行匹配查找，并返回数组形式的查找结果。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">match</span>(regexp);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>regexp</code></td>
+<td>包含正则表达式模式的 RegExp 对象的实例。也可以是包含正则表达式模式的变量名或字符串。</td>
+<td>RegExo</td>
+</tr>
+</tbody>
+</table>
+<p>💡 如果参数 <code>regExp</code> 不是正则表达式对象（RegExp），而是字符串类型，则 <code>match()</code> 先将该字符串传递给 RegExp 的构造函数，将其转换为一个 RegExp 对象。</p>
+<p><code>match()</code>方法的返回值为 Array 类型，其返回数组的成员取决于指定的正则表达式模式是否设有全局标志 <code>g</code>。</p>
+<ul>
+<li>如果参数 <code>regExp</code> 没有全局标志 <code>g</code>，则 <code>match()</code> 函数只查找<strong>第一个匹配</strong>，并返回包含查找结果的数组，该数组对象包含如下成员：
+<ul>
+<li>索引 <code>0</code>：存放第一个匹配的子字符串。</li>
+<li>属性 <code>index</code>：匹配文本在字符串中的起始索引位置。</li>
+<li>属性 <code>input</code>：整个字符串对象（<code>str</code>）。</li>
+</ul>
+</li>
+</ul>
+<p>在 IE 6 ~ IE 8 中，该数组还具有额外的 <code>lastIndex</code> 属性，用于存储匹配文本最后一个字符的下一个位置。</p>
+<ul>
+<li>如果参数 <code>regExp</code> 设有全局标志 <code>g</code>，则 <code>match()</code> 函数会查找<strong>所有的匹配</strong>，返回的数组不再有 <code>index</code> 和 <code>input</code> 属性，其中的数组元素就是所有匹配到的子字符串，形如：
+<ul>
+<li>索引 <code>0</code>：存放第一个匹配的子字符串(如果存在的话)。</li>
+<li>索引 <code>1</code>：存放第二个匹配的子字符串(如果存在的话)。</li>
+<li>……</li>
+<li>索引 <code>N-1</code>：存放第 N 个匹配的字符串(如果存在的话)。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>match()</code> 函数如果没有查找到任何匹配，则返回 <code>null</code>。</li>
+</ul>
+<h2>说明</h2>
+<ul>
+<li>如果你需要知道一个字符串是否匹配一个正则表达式 RegExp ，可使用 <code>String.prototype.search()</code>。</li>
+<li>如果你只是需要第一个匹配结果，你可能想要使用 <code>RegExp.prototype.exec()</code>。</li>
+<li>如果你想要获得捕获组，并且设置了全局标志，你需要用 <code>RegExp.prototype.exec()</code> 。</li>
+</ul>
+<h2>示例</h2>
+<p>在下例中，使用 match 查找 <code>&quot;Hello world!&quot;</code> 紧跟着 1 个或多个数值字符，再紧跟着一个小数点和数值字符 0 次或多次。正则表达式包含 <code>i</code> 标志，因此大小写会被忽略。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
+
+str.<span class="hljs-title function_">match</span>();
+<span class="hljs-comment">// [&quot;&quot;, index: 0, input: &quot;Hello world!&quot;, groups: undefined]</span>
+
+str.<span class="hljs-title function_">match</span>(<span class="hljs-regexp">/\b\w/</span>);
+<span class="hljs-comment">// [&quot;H&quot;, &quot;w&quot;]</span>
+
+str.<span class="hljs-title function_">match</span>(<span class="hljs-regexp">/\w(?=r)/g</span>);
+<span class="hljs-comment">// null</span>
+
+str.<span class="hljs-title function_">match</span>(<span class="hljs-regexp">/\w[^\w]/g</span>);
+<span class="hljs-comment">// [&quot;o&quot;, &quot;d!&quot;]</span>
+</code></pre>
+<h3>全局模式和不区分大小写模式</h3>
+<p>下例展示了 <code>match()</code> 使用 <code>global</code> 和 <code>ignore case</code> 标志。<code>A-E</code>、<code>a-e</code> 的所有字母将会作为一个数组的元素返回。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&#x27;</span>;
+<span class="hljs-keyword">var</span> regexp = <span class="hljs-regexp">/[A-E]/gi</span>;
+<span class="hljs-keyword">var</span> matchArray = str.<span class="hljs-title function_">match</span>(regexp);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(matchArray);
+<span class="hljs-comment">// [&#x27;A&#x27;, &#x27;B&#x27;, &#x27;C&#x27;, &#x27;D&#x27;, &#x27;E&#x27;, &#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;, &#x27;e&#x27;]</span>
+</code></pre>
+<h3>不传参数</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;Nothing will come of nothing.&#x27;</span>;
+
+str.<span class="hljs-title function_">match</span>();
+<span class="hljs-comment">// [&quot;&quot;]</span>
+</code></pre>
+<h3>判断是否是微信浏览器</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> isWeixin = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> ua = naviagtor.<span class="hljs-property">userAgent</span>.<span class="hljs-title function_">toLowerCase</span>();
+
+  <span class="hljs-keyword">if</span> (ua.<span class="hljs-title function_">match</span>(<span class="hljs-regexp">/MicroMessenger/i</span>) === <span class="hljs-string">&#x27;micromessenger&#x27;</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.match"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

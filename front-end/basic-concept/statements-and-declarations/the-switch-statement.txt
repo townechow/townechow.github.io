@@ -1,0 +1,75 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-switch-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-switch-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-switch-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","X7oaBPhcKhTT5r2F_f5d9",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tc3c,<h1>switch 语句</h1>
+<p><strong><code>switch</code></strong> 语句允许一个程序求一个表达式的值并且尝试去匹配表达式的值到一个 <code>case</code> 标签。如果匹配成功，这个程序执行相关的语句。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">switch</span> (expression) {
+   <span class="hljs-keyword">case</span> <span class="hljs-attr">value_1</span>:
+      statements_1
+      [<span class="hljs-keyword">break</span>;]
+   <span class="hljs-keyword">case</span> <span class="hljs-attr">value_2</span>:
+      statements_2
+      [<span class="hljs-keyword">break</span>;]
+   ...
+   <span class="hljs-attr">default</span>:
+      statements_def
+      [<span class="hljs-keyword">break</span>;]
+}
+</code></pre>
+<p>工作原理：首先设置表达式 <code>expression</code>（通常是一个变量）。随后表达式的值会与结构中的每个 <code>case</code> 的值做比较。如果存在匹配，则与该 <code>case</code> 关联的代码块会被执行。请使用 <code>break</code> 来阻止代码自动地向下一个 <code>case</code> 运行。</p>
+<h3>参数</h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>expression</code></td>
+<td>用于比较的表达式</td>
+</tr>
+<tr>
+<td><code>value_(n)</code></td>
+<td>与 <code>expression</code> 比较的值</td>
+</tr>
+<tr>
+<td><code>statement(n)</code></td>
+<td>执行语句</td>
+</tr>
+</tbody>
+</table>
+<h3>关键词</h3>
+<ul>
+<li><code>case</code>：表示一种情况，如果 <code>expression</code> 等于 <code>value</code> ，就执行 <code>statement</code></li>
+<li><code>break</code>：会使代码跳出 <code>switch</code> 语句，如果没有关键词 <code>break</code>，代码执行就会继续进入下一个 <code>case</code> 。</li>
+<li><code>default</code>：说明了表达式的结果不等于任何一种情况时的操作（事实上，它相对于 else 从句）。</li>
+</ul>
+<h2>示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> myCar = <span class="hljs-string">&#x27;Porsche&#x27;</span>
+<span class="hljs-keyword">switch</span> (myCar) {
+  <span class="hljs-keyword">case</span> <span class="hljs-string">&#x27;Nissan&#x27;</span>: <span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;My car is Nissan&quot;</span>);
+    <span class="hljs-keyword">break</span>;
+  <span class="hljs-keyword">case</span> <span class="hljs-string">&#x27;Honda&#x27;</span>: <span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;My car is Honda&quot;</span>);
+    <span class="hljs-keyword">break</span>;
+  <span class="hljs-keyword">case</span> <span class="hljs-string">&#x27;Porsche&#x27;</span>: <span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;My car is Porsche&quot;</span>);
+    <span class="hljs-keyword">break</span>;
+  <span class="hljs-attr">default</span>: <span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;I have no car&quot;</span>);
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"switch 语句"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

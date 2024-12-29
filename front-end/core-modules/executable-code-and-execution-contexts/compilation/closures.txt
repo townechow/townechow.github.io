@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","closures"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/closures","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/closures","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ddr64xEUivZTbO9hYrn7C",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T31ee,<h1>闭包</h1>
+<p>在了解闭包之前，先要熟悉以下几点：</p>
+<ol>
+<li>首先要理解执行环境（<a href="../execution/execution-context-stack">执行上下文栈</a>），执行环境定义了变量或函数有权访问的其他数据。</li>
+<li>每个执行环境都有一个与之关联的 <a href="../execution/variable-object">变量对象</a>，环境中定义的所有变量和函数都保存在这个对象中。</li>
+<li>每个函数都有自己的执行环境，当执行流进入一个函数时，函数的环境就会被推入到一个环境栈中。而在函数执行之后，栈将其环境弹出，把控制权返回给之前的执行环境。</li>
+<li>当某个函数被调用时，会创建一个执行环境及其相应的 <strong>作用域链</strong>。然后使用 <code>arguments</code> 和其他命名参数的值来初始化函数的活动对象。在函数中，活动对象作为变量对象使用（<em>作用域链是由每层的变量对象使用链结构链接起来的</em>）。</li>
+<li>在作用域链中，外部函数的活动对象始终处于第二位，外部函数的外部函数的活动对象处于第三位，直到作用域链终点即全局执行环境。</li>
+<li><strong>作用域链的本质是一个指向变量对象的指针列表，它只引用但不实际包含变量对象。</strong></li>
+</ol>
+<h2>定义</h2>
+<p><strong>闭包的定义</strong>：指有权访问另一个函数作用域中的变量的函数，一般情况就是在一个函数中包含另一个函数。</p>
+<p><strong>闭包的作用</strong>：访问函数内部变量、保持函数在环境中一直存在，不会被垃圾回收机制处理</p>
+<p>函数内部声明的变量是局部的，只能在函数内部访问到，但是函数外部的变量是对函数内部可见的。</p>
+<p>子级可以向父级查找变量，逐级查找，直到找到为止或全局作用域查找完毕。</p>
+<p>因此我们可以在函数内部再创建一个函数，这样对内部的函数来说，外层函数的变量都是可见的，然后我们就可以访问到他的变量了。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">let</span> value = <span class="hljs-number">1</span>;
+
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+  }
+
+  <span class="hljs-keyword">return</span> <span class="hljs-title function_">bar</span>();
+}
+
+<span class="hljs-keyword">const</span> baz = <span class="hljs-title function_">foo</span>();
+
+<span class="hljs-comment">// 这就是闭包的作用，调用 foo 函数，就会执行里面的 bar 函数，foo 函数这时就会访问函数外层的变量</span>
+<span class="hljs-title function_">baz</span>();
+</code></pre>
+<p><code>bar</code> 包含 <code>foo</code> 内部作用域的闭包，使得该作用域能够一直存活，不会被垃圾回收机制处理掉，这就是闭包的作用，以供 <code>bar</code> 在任何时间进行引用。</p>
+<h2>执行过程分析</h2>
+<p>我们通过一段代码仔细分析上述代码片段执行过程到底发生了什么：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> a = <span class="hljs-number">2</span>;
+
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+  }
+
+  <span class="hljs-keyword">return</span> bar;
+}
+
+<span class="hljs-keyword">var</span> baz = <span class="hljs-title function_">foo</span>();
+
+<span class="hljs-title function_">baz</span>();
+</code></pre>
+<ol>
+<li>代码执行流进入全局执行环境，并对全局执行环境中的代码进行声明提升。</li>
+<li>执行流执行 <code>var baz = foo</code> ，调用 <code>foo</code> 函数，此时执行流进入 <code>foo</code> 执行环境中，对该执行环境中的代码进行声明提升过程。此时执行环境栈中存在两个执行环境，<code>foo</code> 函数为当前执行流所在执行环境。</li>
+<li>执行流执行代码 <code>var a = 2;</code>，对 <code>a</code> 进行 LHS 查询，给 <code>a</code> 赋值 2。</li>
+<li>执行流执行 <code>return bar</code> ，将 <code>bar</code> 函数作为返回值返回。按理说，这时 <code>foo</code> 函数已经执行完毕，应该销毁其执行环境，等待垃圾回收。但因为其返回值是 <code>bar</code> 函数。<code>bar</code> 函数中存在自由变量 <code>a</code>，需要通过作用域链到 <code>foo</code> 函数的执行环境中找到变量 <code>a</code> 的值，所以虽然 <code>foo</code> 函数的执行环境被销毁，但其变量对象不能被销毁，<strong>只是从活动状态变成非活动状态</strong>；而全局环境的变量对象则变成活动状态；执行流继续执行 <code>var baz = foo</code>，把 <code>foo</code> 函数的返回值 <code>bar</code> 函数赋值给 <code>baz</code>。</li>
+<li>执行流执行 <code>baz</code> ，通过在全局执行环境中查找 <code>baz</code> 的值，<code>baz</code> 保存着 <code>foo</code> 函数的返回值 <code>bar</code>。所以这时执行 <code>baz</code> ，会调用 <code>bar</code> 函数，此时执行流进入 <code>bar</code> 函数执行环境中，对该执行环境中的代码进行声明提升过程。此时执行环境栈中存在三个执行环境，<code>bar</code> 函数为当前执行流所在的执行环境。</li>
+<li>在声明提升的过程中，由于 <code>a</code> 是个自由变量，需要通过 <code>bar</code> 函数的作用域链 <code>bar -&gt; foo -&gt; 全局作用域</code> 进行查找，最终在 <code>foo</code> 函数中找到 <code>var a = 2;</code> ，然后在 <code>foo</code> 函数的执行环境中找到 <code>a</code> 的值是 2，所以给 <code>a</code> 赋值 2。</li>
+<li>执行流执行 <code>console.log(a)</code> ，调用内部对象 <code>console</code>，并从 <code>console</code> 对象中找到 <code>log</code> 方法，将 <code>a</code> 作为参数传递进去。从 <code>bar</code> 函数的执行环境中找到 <code>a</code> 的值是 2，所以，最终在控制台显示 2。</li>
+<li>执行流执行完 <code>bar</code> 函数后，<code>bar</code> 的执行环境被弹出执行环境栈，并被销毁，等待垃圾回收，控制权还给全局执行环境。</li>
+<li>当页面关闭时，所有执行环境都被销毁。</li>
+</ol>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 执行上下文栈</span>
+<span class="hljs-title class_">ECStack</span> = [
+  globalContext
+]
+
+<span class="hljs-comment">// 全局执行上下文</span>
+<span class="hljs-variable language_">global</span> = {
+  <span class="hljs-attr">VO</span>: [<span class="hljs-variable language_">global</span>],
+  <span class="hljs-title class_">Scope</span>: [globalContext.<span class="hljs-property">VO</span>],
+  <span class="hljs-attr">this</span>: globalContext.<span class="hljs-property">VO</span>
+}
+
+<span class="hljs-comment">// 函数foo被创建，保存作用域链到函数内部属性[[Scopes]]</span>
+foo.[[<span class="hljs-title class_">Scopes</span>]] = [
+  globalContext.<span class="hljs-property">VO</span>
+]
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// foo函数执行上下文</span>
+fooContext = {
+  <span class="hljs-attr">AO</span>: {
+    <span class="hljs-attr">a</span>: <span class="hljs-literal">undefined</span>,
+    <span class="hljs-attr">bar</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+    },
+    <span class="hljs-attr">arguments</span>: [],
+  },
+  <span class="hljs-title class_">Scope</span>: [<span class="hljs-variable constant_">AO</span>, globalContext.<span class="hljs-property">VO</span>],
+  <span class="hljs-attr">this</span>: <span class="hljs-literal">undefined</span>,
+};
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// bar 函数执行上下文</span>
+barContext = {
+  <span class="hljs-attr">AO</span>: {
+    <span class="hljs-attr">a</span>: <span class="hljs-literal">undefined</span>,
+    <span class="hljs-attr">arguments</span>: [],
+  },
+  <span class="hljs-title class_">Scope</span>: [<span class="hljs-variable constant_">AO</span>, globalContext.<span class="hljs-property">VO</span>],
+  <span class="hljs-attr">this</span>: <span class="hljs-literal">undefined</span>,
+};
+</code></pre>
+<p>当 <code>bar</code> 函数执行的时候，<code>foo</code> 函数上下文已经被销毁了（亦即从执行上下文栈中被弹出），怎么还会读取到 <code>foo</code> 作用域下的 <code>a</code> 值呢？</p>
+<p>当我们了解了具体的执行过程后，我们知道 <code>bar</code> 函数执行上下文维护了一个作用域链：</p>
+<pre class="hljs"><code class="language-js">barContext = {
+  <span class="hljs-title class_">Scope</span>: [<span class="hljs-variable constant_">AO</span>, fooContext.<span class="hljs-property">AO</span>, globalContext.<span class="hljs-property">VO</span>],
+};
+</code></pre>
+<p>对的，就是因为这个作用域链，<code>bar</code> 函数依然可以读取到 <code>fooContext.AO</code> 的值，说明当 <code>bar</code> 函数引用了 <code>fooContext.AO</code> 中的值的时候，即使 <code>fooContext</code> 被销毁了，但是 JavaScript 依然会让 <code>fooContext.AO</code> 活在内存中，<code>bar</code> 函数依然可以通过 <code>bar</code> 函数的作用域链找到它，正是因为 JavaScript 做到了这一点，从而实现了闭包这个概念。</p>
+<h2>应用场景</h2>
+<p>闭包的常见应用场景：</p>
+<ul>
+<li><strong>函数嵌套</strong>：函数里面的函数能够保证外面的函数的作用域不会被销毁，所以无论是在函数里面还是在外面调用函数里面的函数都可以访问到外层函数的作用域，具体做法可以将里面函数当做返回值返回后通过两次的括号调用</li>
+<li><strong>回调函数</strong>：回调函数会保留当前外层的作用域，然后回调到另一个地方执行，执行的时候就是闭包</li>
+<li><strong>匿名函数自执行</strong>：严格算也不是闭包，就是 <code>(function(){})()</code> 这种格式</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">hoc</span>(<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a, b);
+  };
+}
+
+<span class="hljs-keyword">const</span> fn = <span class="hljs-title function_">hoc</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+
+<span class="hljs-built_in">setTimeout</span>(fn, <span class="hljs-number">3000</span>);
+</code></pre>
+<p>一般 <code>setTimeout</code> 的第一个参数是个函数，但是不能传值。如果想传值进去，可以调用一个函数返回一个内部函数的调用，将内部函数的调用传给 <code>setTimeout</code>。内部函数执行所需的参数，外部函数传给他，在 <code>setTimeout</code> 函数中也可以访问到外部函数。</p>
+<h2>优缺点</h2>
+<ul>
+<li>优点：能够让希望一个变量长期驻扎在内存之中成为可能，避免全局变量的污染，以及允许私有成员的存在</li>
+<li>缺点：就是常驻内存会增大内存使用量，并且使用不当容易造成内存泄漏</li>
+</ul>
+<p>如果不是因为某些特殊任务而需要闭包，在没有必要的情况下，在其他函数中创建函数是不明智的，因为闭包对脚本性能具有负面影响，包括处理速度和内存消耗。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://segmentfault.com/a/1190000009886713">📝 深入贯彻闭包思想，全面理解 JS 闭包形成过程</a></li>
+<li><a href="https://www.zhihu.com/question/19554716">JavaScript 里的闭包是什么？应用场景有哪些？</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"闭包"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

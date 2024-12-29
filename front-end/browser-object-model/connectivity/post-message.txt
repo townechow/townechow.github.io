@@ -1,0 +1,154 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","connectivity","post-message"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/connectivity/post-message","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/connectivity/post-message","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jQXA4Ryp_iCI9IlKXtXeX",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1b7d,<h1>PostMessage</h1>
+<p><code>window.postMessage()</code> 方法可以安全地实现跨域的页面通信。</p>
+<p>通常情况下，对于两个不同页面的脚步，只有当执行它们的页面位于具有相同的协议（通常是 HTTPS），端口号（443 HTTPS 的默认值），以及主机（两个页面的模数 <code>document.domain</code> 设置为相同的值）时，这两个脚本才能互相通信。<code>window.postMessage()</code> 方法提供了一种受控机制来规避此限制，只要正确的使用，这种方法就很安全。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">targetWindow.<span class="hljs-title function_">postMessage</span>(message, targetOrigin [, transfer])
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>targetWindow</code></td>
+<td>通信目标窗口的引用，例如 <code>iframe</code> 的 <code>contentWindow</code> 属性、执行 <code>window.open</code> 返回的窗口对象、或者是命名过或数值索引的 <code>window.frames</code>。</td>
+</tr>
+<tr>
+<td><code>message</code></td>
+<td>发送到通信目标窗口的数据。它将会被<strong>结构化克隆算法序列化</strong>。这意味着你可以不受什么限制的将数据对象安全的传送给目标窗口而无需自己序列化。</td>
+</tr>
+<tr>
+<td><code>targetOrigin</code></td>
+<td>通过窗口的 <code>origin</code> 属性来指定哪些窗口能接收到消息事件，其值可以是字符串或 URI。在发送消息的时候，如果目标窗口的<strong>协议</strong>、<strong>主机地址</strong>或<strong>端口</strong>这三者的任意一项不匹配 <code>targetOrigin</code> 提供的值，那么消息就不会被发送。只有三者完全匹配，消息才会被发送。</td>
+</tr>
+<tr>
+<td><code>transfer</code></td>
+<td>（可选）与通讯数据同时传递的 Transferable 对象，这些对象的所有权将被转移给消息的接收方，而发送方将不再保留所有权。</td>
+</tr>
+</tbody>
+</table>
+<h2>基本用法</h2>
+<h2>发送方</h2>
+<p>当 <code>window.postMessage()</code> 调用时，会在所有页面脚本执行完毕后，向目标窗口派发 MessageEvent 消息。</p>
+<p><strong>MessageEvent</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>message</td>
+<td>发送消息的类型</td>
+</tr>
+<tr>
+<td>data</td>
+<td>从其他窗口发送过来的消息对象</td>
+</tr>
+<tr>
+<td>origin</td>
+<td>发送方窗口的源</td>
+</tr>
+<tr>
+<td>source</td>
+<td>发送方的窗口对象</td>
+</tr>
+</tbody>
+</table>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> message = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
+<span class="hljs-keyword">const</span> target = <span class="hljs-string">&#x27;*&#x27;</span>;
+<span class="hljs-keyword">const</span> transfer = [];
+
+<span class="hljs-variable language_">window</span>.<span class="hljs-title function_">postMessage</span>(<span class="hljs-string">&#x27;hello&#x27;</span>, target, transfer);
+</code></pre>
+<p>源窗口可以是全局 Window 对象，也可以是以下类型的窗口：</p>
+<ul>
+<li>
+<p>文档窗口中的 iframe</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> iframe = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;my-iframe&#x27;</span>);
+<span class="hljs-keyword">const</span> win = iframe.<span class="hljs-property">documentWindow</span>;
+</code></pre>
+</li>
+<li>
+<p>JavaScript 打开的弹窗</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> win = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">open</span>();
+</code></pre>
+</li>
+<li>
+<p>当前文档窗口的父窗口</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> win = <span class="hljs-variable language_">window</span>.<span class="hljs-property">parent</span>;
+</code></pre>
+</li>
+<li>
+<p>打开当前文档的窗口</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> win = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">opener</span>();
+</code></pre>
+</li>
+</ul>
+<h2>监听方</h2>
+<p>一般用于收取发送的消息，<code>message</code> 的属性有。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>从源窗口传递过来的对象</td>
+</tr>
+<tr>
+<td>origin</td>
+<td>调用 <code>postMessage</code> 时消息发送方窗口的 <code>origin</code></td>
+</tr>
+<tr>
+<td>source</td>
+<td>对发送消息的窗口对象的引用</td>
+</tr>
+</tbody>
+</table>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;message&#x27;</span>, receiveMessage, <span class="hljs-literal">false</span>);
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">receiveMessage</span>(<span class="hljs-params">event</span>) {
+  <span class="hljs-comment">// For Chrome, the origin property is in the event.originalEvent</span>
+  <span class="hljs-comment">// object</span>
+  <span class="hljs-keyword">const</span> origin = event.<span class="hljs-property">origin</span> || event.<span class="hljs-property">originalEvent</span>.<span class="hljs-property">origin</span>;
+  <span class="hljs-keyword">if</span> (origin !== <span class="hljs-string">&#x27;http://example.org:8080&#x27;</span>) {
+    <span class="hljs-keyword">return</span>;
+  }
+}
+</code></pre>
+<h2>安全性</h2>
+<p>如果您不希望从其他网站接收 message，请不要为 message 事件添加任何事件侦听器。这是一个完全万无一失的方式来避免安全问题。</p>
+<p>如果您确实希望从其他网站接收 message，请始终使用 <code>origin</code> 和 <code>source</code> 属性验证发件人的身份。任何窗口都可以向任何其他窗口发送消息，并且您不能保证未知发件人不会发送恶意消息。但是，验证身份后，您仍然应该始终验证接收到的消息的语法。否则，您信任之发送受信任邮件的网站中的安全漏洞可能会在您的网站中打开跨网站脚本漏洞。</p>
+<p>当您使用 <code>postMessage</code> 将数据发送到其他窗口时，始终指定精确的目标 <code>origin</code>，而不是 <code>*</code>。恶意网站可以在您不知情的情况下更改窗口的位置，因此它可以拦截使用 <code>postMessage</code> 发送的数据。</p>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://juejin.im/post/5b8359f351882542ba1dcc31">PostMessage 可太有用了</a></li>
+<li><a href="https://juejin.im/entry/57d7c8005bbb50005bd0de1e">HTML5 跨域通信 API - window.postMessage</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"PostMessage"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

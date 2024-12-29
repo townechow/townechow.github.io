@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","accessor-methods","includes"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/accessor-methods/includes","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/accessor-methods/includes","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eIcG1zkdP78BzmOiG7Le0",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1b06,<h1>Array.prototype.includes()</h1>
+<p>⭐️ <code>ES2016(ES7)新特性</code></p>
+<p><code>Array.prototype.includes()</code> 方法用于判断数组是否包含指定的值。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">includes</span>(searchElement [, fromIndex])
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">includes</span>(<span class="hljs-attr">searchElement</span>: T, <span class="hljs-attr">fromIndex</span>?: <span class="hljs-built_in">number</span>): <span class="hljs-built_in">boolean</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">searchElement</td>
+<td style="text-align:left">需要查找的元素值</td>
+<td style="text-align:left">any</td>
+</tr>
+<tr>
+<td style="text-align:left">fromIndex</td>
+<td style="text-align:left">查找数组开始的索引</td>
+<td style="text-align:left">number</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<p>如果存在指定值则返回 <code>true</code>，否则返回 <code>false</code>。</p>
+<h2>代码示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-number">2</span>);
+<span class="hljs-comment">// true</span>
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-number">4</span>);
+<span class="hljs-comment">// false</span>
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-number">3</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// false</span>
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-number">3</span>, -<span class="hljs-number">1</span>);
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-keyword">const</span> arr2 = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-title class_">NaN</span>];
+
+arr2.<span class="hljs-title function_">includes</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>参数值为 NaN</h3>
+<p><code>Array.prototype.indexOf()</code> 无法查找出数组中的 NaN，而该方法可以判断出数组中是否包含 NaN。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-title class_">NaN</span>, <span class="hljs-number">6</span>, <span class="hljs-title class_">NaN</span>];
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>开始索引超限</h3>
+<p>如果 <code>fromIndex</code> 大于等于 <strong>数组长度</strong> ，则返回 <code>false</code> 。该数组不会被搜索。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-number">3</span>);
+<span class="hljs-comment">// false</span>
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-number">100</span>);
+<span class="hljs-comment">// false</span>
+</code></pre>
+<h3>开始索引为负值</h3>
+<p>如果 <code>fromIndex</code> 为负值，计算出的索引将作为开始搜索 <code>searchElement</code> 的位置。如果计算出的索引小于 0，则整个数组都会被搜索。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 数组长度是 3</span>
+<span class="hljs-comment">// fromIndex 是 -100</span>
+<span class="hljs-comment">// computed index 是 3 + (-100) = -97</span>
+
+<span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;a&#x27;</span>, -<span class="hljs-number">100</span>);
+<span class="hljs-comment">// true</span>
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;b&#x27;</span>, -<span class="hljs-number">100</span>);
+<span class="hljs-comment">// true</span>
+arr.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;c&#x27;</span>, -<span class="hljs-number">100</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>类数组通用方法</h3>
+<p><code>Array.prototype.includes()</code> 方法有意设计为通用方法。它不要求 <code>this</code> 值是数组对象，所以它可以被用于其他类型的对象（比如类数组对象）。</p>
+<p>下面的例子展示了 在函数的 <code>arguments</code> 对象上调用的 <code>includes()</code> 方法。</p>
+<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>([].<span class="hljs-property">includes</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>, <span class="hljs-string">&#x27;a&#x27;</span>));
+  <span class="hljs-comment">// true</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>([].<span class="hljs-property">includes</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>, <span class="hljs-string">&#x27;d&#x27;</span>));
+  <span class="hljs-comment">// false</span>
+})(<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>);
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">MDN: Array.prototype.includes</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es2016.array.include.d.ts">TypeScript: lib.es2016.array.include.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.includes"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

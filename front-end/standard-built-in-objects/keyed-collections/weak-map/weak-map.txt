@@ -1,0 +1,113 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","keyed-collections","weak-map","weak-map"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/keyed-collections/weak-map/weak-map","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/keyed-collections/weak-map/weak-map","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ASNRt8qj8YavbJa2D2Xax",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T164d,<h1>WeakMap</h1>
+<p>WeakMap 对象是一组键/值对的集合，其中的键是<strong>弱引用</strong>的。其键必须是<strong>对象</strong>，而值可以是任意的。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">WeakMap</span>([iterable]);
+</code></pre>
+<p>参数 <code>iterable</code> 是一个数组或者其他可迭代的且元素是键值对的对象。每个键值对会被加到新的 WeakMap 里。<code>null</code> 会被当做 <code>undefiend</code>。</p>
+<h2>特征</h2>
+<h3>对象键名</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">WeakMap</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// TypeError: Invalid value used as weak map key</span>
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-literal">null</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// TypeError: Invalid value used as weak map key</span>
+</code></pre>
+<h3>弱引用对象</h3>
+<blockquote>
+<p>WeakMaps hold &quot;weak&quot; references to key objects</p>
+</blockquote>
+<p>翻译过来应该是 <strong>WeakMap 保持了对键名所引用的对象的弱引用</strong>。</p>
+<p>这个弱引用的特性，就是 WeakMap 保持了对键名所引用的对象的弱引用，即 <a href="../../../core-modules/executable-code-and-execution-contexts/memory-management/garbage-collection">垃圾回收机制</a> 不将该引用考虑在内。只要所引用的对象的其他引用都被清除，垃圾回收机制就会释放该对象所占用的内存。也就是说，一旦不再需要，WeakMap 里面的键名对象和所对应的键值对会自动消失，不用手动删除引用。</p>
+<p>也正是因为这样的特性，WeakMap 内部有多少个成员，取决于垃圾回收机制有没有运行，运行前后很可能成员个数是不一样的，而垃圾回收机制何时运行是不可预测的，因此 ES6 规定 WeakMap 不可遍历。</p>
+<p>所以 WeakMap 不像 Map，一是没有遍历操作（即没有 <code>keys()</code>、<code>values()</code> 和 <code>entries()</code> 方法），也没有 <code>size</code> 属性，也不支持 <code>clear</code> 方法，所以 WeakMap 只有四个方法可用：<code>get()</code>、<code>set()</code>、<code>has()</code>、<code>delete()</code>。</p>
+<p>特征详细分析请参阅 <a href="https://juejin.im/post/5b594512f265da0f6263840f">📝 ES6 系列之 WeakMap</a></p>
+<h2>实例方法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>WeakMap.prototype.delete(key)</code></td>
+<td style="text-align:left">移除 <code>key</code> 的关联对象</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>WeakMap.prototype.get(key)</code></td>
+<td style="text-align:left">返回 <code>key</code> 的关联对象或 <code>undefined</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>WeakMap.prototype.has(key)</code></td>
+<td style="text-align:left">判定是否有指定 <code>key</code> 关联对象爱哪个</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>WeakMap.prototype.set(key)</code></td>
+<td style="text-align:left">设置一组 <code>key</code> 关联对象</td>
+</tr>
+</tbody>
+</table>
+<h2>使用示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> x = <span class="hljs-keyword">new</span> <span class="hljs-title class_">WeakMap</span>();
+<span class="hljs-keyword">const</span> y = <span class="hljs-keyword">new</span> <span class="hljs-title class_">WeakMap</span>();
+
+<span class="hljs-keyword">const</span> a = {};
+<span class="hljs-keyword">const</span> b = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
+<span class="hljs-keyword">const</span> c = <span class="hljs-variable language_">window</span>;
+
+x.<span class="hljs-title function_">set</span>(a, <span class="hljs-number">100</span>);
+x.<span class="hljs-title function_">set</span>(b, <span class="hljs-string">&#x27;BINGO!&#x27;</span>);
+
+y.<span class="hljs-title function_">set</span>(a, b);
+y.<span class="hljs-title function_">set</span>(c, <span class="hljs-literal">undefined</span>);
+y.<span class="hljs-title function_">set</span>(x, y);
+
+x.<span class="hljs-title function_">get</span>(b);
+<span class="hljs-comment">// &#x27;BINGO!&#x27;</span>
+
+y.<span class="hljs-title function_">get</span>(b);
+<span class="hljs-comment">// undefined</span>
+y.<span class="hljs-title function_">get</span>(c);
+<span class="hljs-comment">// undefined</span>
+
+x.<span class="hljs-title function_">has</span>(b);
+<span class="hljs-comment">// true</span>
+
+y.<span class="hljs-title function_">has</span>(b);
+<span class="hljs-comment">// false</span>
+y.<span class="hljs-title function_">has</span>(c);
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-comment">// delete()</span>
+x.<span class="hljs-title function_">has</span>(a);
+<span class="hljs-comment">// true</span>
+x.<span class="hljs-title function_">delete</span>(a);
+x.<span class="hljs-title function_">has</span>(a);
+<span class="hljs-comment">// false</span>
+</code></pre>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://juejin.im/post/5b594512f265da0f6263840f">📝 ES6 系列之 WeakMap</a></li>
+<li><a href="https://mp.weixin.qq.com/s/iacn5m0qjaAPS2huG2pKRA">你不知道的 WeakMap</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"WeakMap"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

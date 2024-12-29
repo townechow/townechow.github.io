@@ -1,0 +1,209 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","mutator-methods","sort"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/sort","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/sort","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","_DlHpN0PD47C1wiXLSLzp",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3851,<h1>Array.prototype.sort()</h1>
+<p><code>Array.prototype.sort()</code> 方法用于将数组对象的成员按指定顺序进行排序，并返回排序后的数组。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">sort</span>(compareFn);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">sort</span>(<span class="hljs-attr">compareFn</span>?: <span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">a</span>: T, <span class="hljs-attr">b</span>: T</span>) =&gt;</span> <span class="hljs-built_in">number</span>): <span class="hljs-variable language_">this</span>;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">compareFn</td>
+<td style="text-align:left">（可选）指定如何比较元素顺序的函数名称</td>
+<td style="text-align:left">function</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<p>返回排序后的数组对象。</p>
+<p>在排序过程中，并不会创建新的数组对象，返回的数组对象就是经过排序后的当前数组本身。</p>
+<h2>方法说明</h2>
+<p>如果省略 <code>compareFn</code> 参数，元素将按 ASCII 字符顺序的<strong>升序</strong>进行排列。<a href="http://ascii.911cha.com/">ASCII 字符表</a></p>
+<p>如果提供了 <code>compareFn</code> 参数，那么该函数必须返回下列值之一：</p>
+<ul>
+<li>如果所传递的第一个参数小于第二个参数，则返回负值。</li>
+<li>如果两个参数相等，则返回零。</li>
+<li>如果第一个参数大于第二个参数，则返回正值。</li>
+</ul>
+<p>比较函数格式如下：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">compare</span>(<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">if</span> (a is less than b by some ordering criterion) {
+    <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+  }
+  <span class="hljs-keyword">if</span> (a is greater than b by the ordering criterion) {
+    <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+  }
+  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;a&#x27;</span>];
+
+fruit.<span class="hljs-title function_">sort</span>();
+<span class="hljs-comment">// [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> bar = [<span class="hljs-number">1</span>, <span class="hljs-number">10</span>, <span class="hljs-number">21</span>, <span class="hljs-number">2</span>];
+
+bar.<span class="hljs-title function_">sort</span>();
+<span class="hljs-comment">// [1, 10, 2, 21]</span>
+</code></pre>
+<p>注意 10 在 2 之前，因为在 Unicode 指针顺序中 <code>&quot;10&quot;</code> 在 <code>&quot;2&quot;</code> 之前。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> baz = [<span class="hljs-string">&#x27;word&#x27;</span>, <span class="hljs-string">&#x27;Word&#x27;</span>, <span class="hljs-string">&#x27;1 Word&#x27;</span>, <span class="hljs-string">&#x27;2 Words&#x27;</span>];
+
+baz.<span class="hljs-title function_">sort</span>();
+<span class="hljs-comment">// [&#x27;1 Word&#x27;, &#x27;2 Words&#x27;, &#x27;Word&#x27;, &#x27;word&#x27;]</span>
+</code></pre>
+<p>在 Unicode 中，数字在大写字母之前，大写字母在小写字母之前。</p>
+<h3>数字排序</h3>
+<p>希望比较数字而非字符串，比较函数可以简单的以 <code>a</code> 减 <code>b</code>，如下的函数将会将数组<strong>升序</strong>排列。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">compareNumbers</span> = (<span class="hljs-params">a, b</span>) =&gt; a - b;
+</code></pre>
+<p><code>sort()</code> 方法可以使用函数表达式方便地书写。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-number">4</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>, <span class="hljs-number">3</span>];
+
+foo.<span class="hljs-title function_">sort</span>(<span class="hljs-function">(<span class="hljs-params">a, b</span>) =&gt;</span> a - b);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// [1, 2, 3, 4, 5]</span>
+</code></pre>
+<h3>对象属性排序</h3>
+<p>对象可以按照某个属性排序。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> items = [
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Edward&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">21</span> },
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Sharpe&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">37</span> },
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;And&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">45</span> },
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;The&#x27;</span>, <span class="hljs-attr">value</span>: -<span class="hljs-number">12</span> },
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Magnetic&#x27;</span> },
+  { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Zeros&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">37</span> },
+];
+
+items.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">if</span> (a.<span class="hljs-property">value</span> &gt; b.<span class="hljs-property">value</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+  }
+  <span class="hljs-keyword">if</span> (a.<span class="hljs-property">value</span> &lt; b.<span class="hljs-property">value</span>) {
+    <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+  }
+  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+});
+</code></pre>
+<h3><code>undefined</code> 排序</h3>
+<p>如果数组包含 <code>undefined</code> 元素，它们会被排到数组的尾部。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-string">&#x27;3&#x27;</span>, <span class="hljs-number">3</span>, <span class="hljs-literal">undefined</span>, <span class="hljs-number">2</span>, <span class="hljs-string">&#x27;2&#x27;</span>];
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr);
+<span class="hljs-comment">// [2, &quot;2&quot;, &quot;3&quot;, 3, undefined]</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr.<span class="hljs-title function_">sort</span>());
+<span class="hljs-comment">// [2, &quot;2&quot;, &quot;3&quot;, 3, undefined]</span>
+</code></pre>
+<h3>大小写排序</h3>
+<p>如果对一个字符串数组执行不区分大小写的字母表排序，比较函数首先将参数转化为小写字符串再开始比较。</p>
+<pre class="hljs"><code class="language-js">a = [<span class="hljs-string">&#x27;ant&#x27;</span>, <span class="hljs-string">&#x27;Bug&#x27;</span>, <span class="hljs-string">&#x27;cat&#x27;</span>, <span class="hljs-string">&#x27;Dog&#x27;</span>];
+
+a.<span class="hljs-title function_">sort</span>();
+<span class="hljs-comment">// [&#x27;Bug&#x27;,&#x27;Dog&#x27;,&#x27;ant&#x27;,&#x27;cat&#x27;];</span>
+
+a.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">s, t</span>) {
+  <span class="hljs-keyword">var</span> a = s.<span class="hljs-title function_">toLowerCase</span>();
+  <span class="hljs-keyword">var</span> b = t.<span class="hljs-title function_">toLowerCase</span>();
+
+  <span class="hljs-keyword">if</span> (a &lt; b) <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+
+  <span class="hljs-keyword">if</span> (a &gt; b) <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+
+  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+});
+<span class="hljs-comment">// [&#x27;ant&#x27;,&#x27;bug&#x27;,&#x27;cat&#x27;,&#x27;dog&#x27;]</span>
+</code></pre>
+<h3>升降序</h3>
+<ul>
+<li>降序函数</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> desc = <span class="hljs-keyword">function</span> (<span class="hljs-params">x, y</span>) {
+    <span class="hljs-keyword">if</span> (x &gt; u){
+        <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>; <span class="hljs-comment">// 返回一个小于 0 的数即可</span>
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (x &lt; y){
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>; <span class="hljs-comment">// 返回一个大于 0 的数即可</span>
+    }<span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+}
+</code></pre>
+<ul>
+<li>升序函数</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> asc = <span class="hljs-keyword">function</span> (<span class="hljs-params">x, y</span>) {
+    <span class="hljs-keyword">if</span> (x &gt; y){
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>; <span class="hljs-comment">// 返回一个大于 0 的数即可</span>
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (x &lt; y){
+        <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>; <span class="hljs-comment">// 返回一个小于 0 的数即可</span>
+    }
+}
+</code></pre>
+<h3>对非 ASCII 字符排序</h3>
+<p>当排序非 ASCII 字符的字符串（如包含类似 e, é, è, a, ä 等字符的字符串）。一些非英语语言的字符串需要使用<code>String.localeCompare</code>。这个函数可以将函数排序到正确的顺序。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> items = [<span class="hljs-string">&#x27;réservé&#x27;</span>, <span class="hljs-string">&#x27;premier&#x27;</span>, <span class="hljs-string">&#x27;cliché&#x27;</span>, <span class="hljs-string">&#x27;communiqué&#x27;</span>, <span class="hljs-string">&#x27;café&#x27;</span>, <span class="hljs-string">&#x27;adieu&#x27;</span>];
+
+items.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">return</span> a.<span class="hljs-title function_">localeCompare</span>(b);
+});
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(item);
+<span class="hljs-comment">// [&#x27;adieu&#x27;, &#x27;café&#x27;, &#x27;cliché&#x27;, &#x27;communiqué&#x27;, &#x27;premier&#x27;, &#x27;réservé&#x27;]</span>
+</code></pre>
+<h3>使用映射改善排序</h3>
+<p><code>compareFunction</code> 可能需要对元素做多次映射以实现排序，尤其当 <code>compareFunction</code> 较为复杂，且元素较多的时候，某些 <code>compareFunction</code> 可能会导致很高的负载。使用 <code>map()</code> 辅助排序将会是一个好主意。基本思想是首先将数组中的每个元素比较的实际值取出来，排序后再将数组恢复。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 需要被排序的数组</span>
+<span class="hljs-keyword">let</span> list = [<span class="hljs-string">&#x27;Delta&#x27;</span>, <span class="hljs-string">&#x27;alpha&#x27;</span>, <span class="hljs-string">&#x27;CHARLIE&#x27;</span>, <span class="hljs-string">&#x27;bravo&#x27;</span>];
+
+<span class="hljs-comment">// 对需要排序的数字和位置的临时存储</span>
+<span class="hljs-keyword">let</span> mapped = list.<span class="hljs-title function_">map</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">el, i</span>) {
+  <span class="hljs-keyword">return</span> { <span class="hljs-attr">index</span>: i, <span class="hljs-attr">value</span>: el.<span class="hljs-title function_">toLowerCase</span>() };
+});
+
+<span class="hljs-comment">// 按照多个值排序数组</span>
+mapped.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">a, b</span>) {
+  <span class="hljs-keyword">return</span> +(a.<span class="hljs-property">value</span> &gt; b.<span class="hljs-property">value</span>) || +(a.<span class="hljs-property">value</span> === b.<span class="hljs-property">value</span>) - <span class="hljs-number">1</span>;
+});
+
+<span class="hljs-comment">// 根据索引得到排序的结果</span>
+<span class="hljs-keyword">let</span> result = mapped.<span class="hljs-title function_">map</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">el</span>) {
+  <span class="hljs-keyword">return</span> list[el.<span class="hljs-property">index</span>];
+});
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">MDN: Array.prototype.sort</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.sort"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

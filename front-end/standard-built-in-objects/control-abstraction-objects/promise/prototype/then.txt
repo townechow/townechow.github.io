@@ -1,0 +1,103 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","prototype","then"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/prototype/then","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/prototype/then","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Qi9BO1ehmcJitfgL5nALF",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1c67,<h1>Promise.prototype.then</h1>
+<p><code>Promise.prototype.then()</code> 用于 Promise 实例添加状态改变时执行的函数。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">promiseInstance.<span class="hljs-title function_">then</span>(onfulfilled, onrejected);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Promise</span>&lt;T&gt; {
+  then&lt;<span class="hljs-title class_">TResult1</span> = T, <span class="hljs-title class_">TResult2</span> = <span class="hljs-built_in">never</span>&gt;(
+    <span class="hljs-attr">onfulfilled</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">value</span>: T</span>) =&gt;</span> <span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult1</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>,
+    <span class="hljs-attr">onrejected</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">reason</span>: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-title class_">TResult2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult2</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>
+  ): <span class="hljs-title class_">Promise</span>&lt;<span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">TResult2</span>&gt;;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">onfulfilled</td>
+<td style="text-align:left">当 Promise 变成 Fulfilled 状态时，该参数作为回调函数被调用。&lt;br/&gt;该函数有一个参数，即接受的最终结果。如果传入 <code>onfulfilled</code> 作为参数的参数类型不是函数，则会被内部转换为 <code>(x) =&gt; x</code>，即原样返回 Promise 最终结果的函数。</td>
+</tr>
+<tr>
+<td style="text-align:left">onrejected</td>
+<td style="text-align:left">当 Promise 变成 Rejected 状态时，该参数作为回调函数被调用。&lt;br/&gt;该函数有一个参数，即拒绝的原因。</td>
+</tr>
+</tbody>
+</table>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> promise = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;Fulfilled&#x27;</span>);
+});
+
+promise.<span class="hljs-title function_">then</span>(
+  <span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(res), <span class="hljs-comment">// Output: &#x27;Fulfilled&#x27;</span>
+  <span class="hljs-function">(<span class="hljs-params">rej</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(rej)
+);
+</code></pre>
+<h3>链式调用</h3>
+<p>采用链式调用的 <code>.then()</code>，可以指定一组按照次序调用的回调函数。这时，前一个回调函数，有可能返回的还是一个 Promise 对象（即有异步操作），这时后面紧跟的回调函数，就会等待该 Promise 对象的状态发生变化，才会被调用。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title function_">getJSON</span>(<span class="hljs-string">&#x27;/post/1.json&#x27;</span>)
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">post</span>) =&gt;</span> <span class="hljs-title function_">getJSON</span>(post.<span class="hljs-property">commentURL</span>))
+  .<span class="hljs-title function_">then</span>(
+    <span class="hljs-function">(<span class="hljs-params">comments</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;resolved: &#x27;</span>, comments),
+    <span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected: &#x27;</span>, err)
+  );
+</code></pre>
+<h3>参数传递</h3>
+<p>链式调用中，一个 <code>.then()</code> 执行完成后返回新创建的 Promise 对象，并继续执行下一个 <code>.then()</code> 方法，当上一个 <code>.then()</code> 需要传递参数到下一个参数时，可以这样操作。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Example</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">value</span>) {
+  <span class="hljs-keyword">return</span> value * <span class="hljs-number">2</span>;
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params">value</span>) {
+  <span class="hljs-keyword">return</span> value + <span class="hljs-number">5</span>;
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">baz</span>(<span class="hljs-params">value</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+}
+
+<span class="hljs-keyword">const</span> promise = <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>(<span class="hljs-number">1</span>);
+
+promise
+  .<span class="hljs-title function_">then</span>(foo)
+  .<span class="hljs-title function_">then</span>(bar)
+  .<span class="hljs-title function_">then</span>(baz)
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">error</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err));
+</code></pre>
+<p>执行流程分析：</p>
+<ol>
+<li>这段代码的入口函数是 <code>Promise.resolve(1)</code></li>
+<li><code>Promise.resolve(1)</code> 传递参数 <code>1</code> 给 <code>foo</code> 函数</li>
+<li>函数 <code>foo</code> 对接收的参数进行操作并返回</li>
+<li>这时参数为 <code>2</code> 传递给函数 <code>bar</code></li>
+<li>最后在函数 <code>baz</code> 中打印结果 <code>7</code></li>
+</ol>
+<p>每个方法中 <code>return</code> 的值不仅只局限于字符串或者数值类型，也可以是对象或者 Promise 对象等复杂类型。</p>
+<p><code>return</code> 的值会由 <a href="../properties-of-the-promise-constructor/resolve">Promise.resolve</a> 进行相应的包装处理，因此不管回调函数中会返回一个什么样的值，最终 <code>.then()</code> 的结果都是返回一个新创建的 Promise 对象。</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Promise.prototype.then"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

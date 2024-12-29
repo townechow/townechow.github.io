@@ -1,0 +1,227 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","device","camera"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/device/camera","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/device/camera","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","iwQ_OK9hH9_qZ2cAR2ywj",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2def,<h1>摄录设备</h1>
+<p>HTML5 的 <code>getUserMedia</code> API 提供了访问用户媒体设备的能力，基于该特性，开发者可以在不依赖任何浏览器插件的条件下访问视频和音频等设备。</p>
+<h2>getUserMedia API</h2>
+<p>各主要浏览器对 <code>getUserMedia</code> API 的支持情况。</p>
+<table>
+<thead>
+<tr>
+<th>浏览器</th>
+<th>版本（旧版 API）</th>
+<th>版本（新版 API）</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IE</td>
+<td>不支持</td>
+<td>不支持</td>
+<td></td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>12+</td>
+<td>不支持</td>
+<td></td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>17+</td>
+<td>36+</td>
+<td>需要前缀 <code>moz</code></td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>21+</td>
+<td>47+</td>
+<td>部分支持，需要前缀 <code>webkit</code></td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>不支持</td>
+<td>不支持</td>
+<td></td>
+</tr>
+<tr>
+<td>iOS Safari</td>
+<td>不支持</td>
+<td>不支持</td>
+<td></td>
+</tr>
+<tr>
+<td>Android Browser</td>
+<td>56+</td>
+<td>不支持</td>
+<td>部分支持，需要前缀 <code>webkit</code></td>
+</tr>
+<tr>
+<td>Chrome for Android</td>
+<td>57+</td>
+<td>不支持</td>
+<td>部分支持，需要前缀 <code>webkit</code></td>
+</tr>
+<tr>
+<td>UC Browser for Android</td>
+<td>11.4+</td>
+<td>不支持</td>
+<td>部分支持，需要前缀 <code>webkit</code></td>
+</tr>
+</tbody>
+</table>
+<p>旧版语法</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title function_">getUserMedia</span>(constraints, successCallback, errorCallback);
+</code></pre>
+<p>新版语法</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title function_">getUserMedia</span>(constraints)
+  .<span class="hljs-title function_">then</span>(successCallback)
+  .<span class="hljs-title function_">catch</span>(errorCallback);
+</code></pre>
+<p>参数 <code>constraints</code> 指定请求的媒体类型，主要包含 video 和 audio。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 请求不带任何参数的视频和音频</span>
+{<span class="hljs-attr">video</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">audio</span>: <span class="hljs-literal">true</span>}
+
+<span class="hljs-comment">// 可指定视频分辨率</span>
+{<span class="hljs-attr">video</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">audio</span>: <span class="hljs-literal">true</span>}
+
+<span class="hljs-comment">// 移动设备上，可指定使用前置摄像头</span>
+{<span class="hljs-attr">video</span>: { <span class="hljs-attr">facingMode</span>: <span class="hljs-string">&#x27;user&#x27;</span> } }
+
+<span class="hljs-comment">// 使用后置摄像头</span>
+{<span class="hljs-attr">video</span>: { <span class="hljs-attr">facingMode</span>: { <span class="hljs-attr">exact</span>: <span class="hljs-string">&#x27;environment&#x27;</span>} } }
+</code></pre>
+<ul>
+<li>成功回调函数 <code>successCallback</code> 的参数 stream，为 MediaStream 对象，表示媒体内容的数据流，可以通过 <code>URL.createObjectURL</code> 转换后设置为 Video 或 Audio 元素的 <code>src</code> 属性来使用，部分较新的浏览器也可以直接设置为 <code>srcObject</code> 属性来使用。</li>
+<li>失败回调函数 <code>errorCallback</code> 的参数 <code>error</code>，其中 <code>name</code> 属性的值参考下表。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>错误值</th>
+<th>错误名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AbortError</td>
+<td>中止错误</td>
+</tr>
+<tr>
+<td>NotAllowedError</td>
+<td>拒绝错误</td>
+</tr>
+<tr>
+<td>NotFoundError</td>
+<td>找不到错误</td>
+</tr>
+<tr>
+<td>NotReadableError</td>
+<td>无法读取错误</td>
+</tr>
+<tr>
+<td>OverConstrainedError</td>
+<td>无法满足要求错误</td>
+</tr>
+<tr>
+<td>SecurityError</td>
+<td>安全错误</td>
+</tr>
+<tr>
+<td>TypeError</td>
+<td>类型错误</td>
+</tr>
+</tbody>
+</table>
+<p>实例代码：</p>
+<pre class="hljs"><code class="language-js">navigator.<span class="hljs-property">mediaDevices</span>
+  .<span class="hljs-title function_">getUseMedia</span>({ <span class="hljs-attr">video</span>: <span class="hljs-literal">true</span> })
+  .<span class="hljs-title function_">then</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">stream</span>) {
+    <span class="hljs-comment">// 成功获得媒体流</span>
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;获取用户媒体失败:&#x27;</span> + error.<span class="hljs-property">name</span>);
+  });
+</code></pre>
+<p>初次访问用户媒体设备时，浏览器会询问用户是否允许访问，在用户允许后获得访问媒体设备授权。</p>
+<h2>调用摄像头拍照实例</h2>
+<p>本例子中，将请求访问用户摄像头，并把视频流通过 Video 元素显示出来。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!-- video用于显示媒体设备的视频流,自动播放 --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;video&quot;</span> <span class="hljs-attr">autoplay</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;width:480px;height:320px&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;capture&quot;</span>&gt;</span>拍照<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- 拍照按钮--&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">canvas</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;canvas&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;480&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;320&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">canvas</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- 描绘video截图 --&gt;</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 访问用户媒体设备的兼容方法</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">getUserMedia</span>(<span class="hljs-params">constraints, success, error</span>) {
+  <span class="hljs-keyword">if</span> (navigator.<span class="hljs-property">mediaDevice</span>.<span class="hljs-property">getUserMedia</span>) {
+    <span class="hljs-comment">// 最新的标准API</span>
+    navigator.<span class="hljs-property">mediaDevice</span>
+      .<span class="hljs-title function_">getUserMedia</span>(constraints)
+      .<span class="hljs-title function_">then</span>(success)
+      .<span class="hljs-title function_">catch</span>(error);
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (navigator.<span class="hljs-property">webkitGetUserMedia</span>) {
+    <span class="hljs-comment">// Webkit 核心浏览器</span>
+    navigator.<span class="hljs-title function_">webkitGetUserMedia</span>(constraints, success, error);
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (navigator.<span class="hljs-property">mozGetUserMedia</span>) {
+    <span class="hljs-comment">// Firefox 浏览器</span>
+    navigator.<span class="hljs-title function_">mozGetUserMedia</span>(constraints, success, error);
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (navigator.<span class="hljs-property">getUserMedia</span>) {
+    <span class="hljs-comment">// 旧版 API</span>
+    navigator.<span class="hljs-title function_">getUserMedia</span>(constraints, success, error);
+  }
+}
+
+<span class="hljs-keyword">const</span> video = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;video&#x27;</span>);
+<span class="hljs-keyword">const</span> canvas = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;canvas&#x27;</span>);
+<span class="hljs-keyword">const</span> context = canvas.<span class="hljs-title function_">getContext</span>(<span class="hljs-string">&#x27;2D&#x27;</span>);
+
+<span class="hljs-comment">// 成功的回调函数</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">success</span>(<span class="hljs-params">stream</span>) {
+  <span class="hljs-comment">// 兼容的webkit核心浏览器</span>
+  <span class="hljs-keyword">const</span> compatobleURL = <span class="hljs-variable language_">window</span>.<span class="hljs-property">URL</span> || <span class="hljs-variable language_">window</span>.<span class="hljs-property">webkitURL</span>;
+  <span class="hljs-comment">// 将视频流设置为video元素的源</span>
+  video.<span class="hljs-property">src</span> = compatibleURL.<span class="hljs-title function_">createObjectURL</span>(stream);
+  video.<span class="hljs-title function_">play</span>(); <span class="hljs-comment">// 播放视频</span>
+}
+
+<span class="hljs-comment">// 异常的回调函数</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">error</span>(<span class="hljs-params">error</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;访问用户媒体设备失败:&#x27;</span>, error.<span class="hljs-property">name</span>, error.<span class="hljs-property">message</span>);
+}
+
+<span class="hljs-keyword">if</span> (
+  navigator.<span class="hljs-property">mediaDevices</span>.<span class="hljs-property">getUserMedia</span> ||
+  navigator.<span class="hljs-property">getUserMedia</span> ||
+  navigator.<span class="hljs-property">webkitGetUserMedia</span> ||
+  navigator.<span class="hljs-property">mozGetUserMedia</span>
+) {
+  <span class="hljs-comment">// 调用用户媒体设备，访问摄像头</span>
+  <span class="hljs-title function_">getUserMedia</span>({ <span class="hljs-attr">video</span>: { <span class="hljs-attr">width</span>: <span class="hljs-number">480</span>, <span class="hljs-attr">height</span>: <span class="hljs-number">320</span> } }, success, error);
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;您的浏览器不支持访问用户媒体设备！&#x27;</span>);
+}
+
+<span class="hljs-comment">// 绑定拍照按钮的单击事件</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;capture&#x27;</span>).<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;click&#x27;</span>, <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  context.<span class="hljs-title function_">drawImage</span>(video, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">480</span>, <span class="hljs-number">320</span>); <span class="hljs-comment">// 将video画面在canvas上绘制出来</span>
+});
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"摄录设备"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

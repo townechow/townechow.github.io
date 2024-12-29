@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-calls","constructor-invocation-pattern"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-calls/constructor-invocation-pattern","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-calls/constructor-invocation-pattern","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LA5-taKnRk6JmimQU-WYK",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T18ff,<h1>构造函数调用模式</h1>
+<p><strong>构造函数调用模式（Constructor Invocation Pattern）</strong></p>
+<p>构造函数调用模式的特征：</p>
+<ol>
+<li>构造函数的首字母一般要大写</li>
+<li>一般情况下和关键字 <code>new</code> 一起使用</li>
+<li>构造函数中的 <code>this</code> 指向 <code>new</code> 关键字创建出来的实例对象</li>
+<li>默认返回 <code>new</code> 创建出来的这个对象（<code>this</code>）</li>
+</ol>
+<h2>关键字 <code>new</code></h2>
+<p>如果函数或者方法调用之前带有关键字 <code>new</code>，它就构成构造函数调用。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+};
+
+<span class="hljs-keyword">const</span> obj = <span class="hljs-keyword">new</span> <span class="hljs-title function_">fn</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(obj.<span class="hljs-property">a</span>);
+<span class="hljs-comment">//	1</span>
+</code></pre>
+<h2>实参表达式</h2>
+<p>如果构造函数调用在圆括号内包含一组实参列表，先计算这些实参表达式，然后传入函数内。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">x</span>){
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = x;
+};
+
+<span class="hljs-keyword">const</span> obj = <span class="hljs-keyword">new</span> <span class="hljs-title function_">fn</span>(<span class="hljs-number">2</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(obj.<span class="hljs-property">a</span>); <span class="hljs-comment">// 2</span>
+</code></pre>
+<h2>省略圆括号</h2>
+<p>如果构造函数没有形参，JavaScript 构造函数调用的语法是允许省略实参列表和圆括号的。凡是没有形参的构造函数调用都可以省略圆括号。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> target = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>();
+<span class="hljs-comment">//等价于</span>
+<span class="hljs-keyword">const</span> target = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>;
+</code></pre>
+<h2>调用上下文</h2>
+<p>尽管构造函数看起来像一个方法调用，它依然会使用这个新对象作为调用上下文。也就是说，在表达式 <code>new target.fn()</code> 中，调用上下文并不是 <code>target</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> target = {
+  <span class="hljs-attr">fn</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>;
+  }
+}
+
+<span class="hljs-keyword">var</span> obj = <span class="hljs-keyword">new</span> target.<span class="hljs-title function_">fn</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(obj,obj === target);
+<span class="hljs-comment">//{} false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(obj.<span class="hljs-property">constructor</span> === target.<span class="hljs-property">fn</span>);
+<span class="hljs-comment">//true</span>
+</code></pre>
+<h2>构造函数的返回语句</h2>
+<p>构造函数通常不使用 <code>return</code> 关键字，它们通常初始化新对象，当构造函数的函数体执行完毕时，它会显式返回。在这种情况下，构造函数调用表达式的计算结果就是这个新对象的值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
+}
+
+<span class="hljs-keyword">const</span> test = <span class="hljs-keyword">new</span> <span class="hljs-title function_">fn</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(test);
+<span class="hljs-comment">// { a: 2 }</span>
+</code></pre>
+<p>如果构造函数使用 <code>return</code> 语句但没有指定返回值，或者返回一个原始值，那么这时将忽略返回值，同时使用这个新对象作为调用结果。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
+  <span class="hljs-keyword">return</span>;
+}
+
+<span class="hljs-keyword">const</span> test = <span class="hljs-keyword">new</span> <span class="hljs-title function_">fn</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(test);
+<span class="hljs-comment">// { a: 2 }</span>
+</code></pre>
+<p>如果构造函数显式地使用 <code>return</code> 语句返回一个对象，那么调用表达式的值就是这个对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> obj = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
+
+  <span class="hljs-keyword">return</span> obj;
+}
+
+<span class="hljs-keyword">const</span> test = <span class="hljs-keyword">new</span> <span class="hljs-title function_">fn</span>();
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(test);
+<span class="hljs-comment">// { a: 1 }</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"构造函数调用模式"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

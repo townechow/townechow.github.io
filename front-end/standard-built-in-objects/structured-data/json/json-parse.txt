@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","structured-data","json","json-parse"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/structured-data/json/json-parse","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/structured-data/json/json-parse","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","q-eec4sSmxvWrwOQ_CXOD",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T16bf,<h1>JSON.parse()</h1>
+<p><code>JSON.parse()</code> 方法用来解析 JSON 字符串，构造由字符串描述的 JavaScript 值或对象。提供可选的 <code>reviver</code> 函数用以在返回之前对所得到的对象执行变换（操作）。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>( text [, reviver] )
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>text</code></td>
+<td><code>String</code> 类型</td>
+<td>要被解析成 JavaScript 值的字符串。</td>
+</tr>
+<tr>
+<td><code>reviver</code></td>
+<td><code>Function</code> 类型，可选</td>
+<td>如果是一个函数，则规定了原始值如何被解析改造，在被返回之前。</td>
+</tr>
+</tbody>
+</table>
+<p><code>Object</code> 对应给定的 JSON 文本。</p>
+<h2>示例</h2>
+<h3>代码示例</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;{}&#x27;</span>); <span class="hljs-comment">// {}</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;true&#x27;</span>); <span class="hljs-comment">// true</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;&quot;foo&quot;&#x27;</span>); <span class="hljs-comment">// &quot;foo&quot;</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;[1, 5, &quot;false&quot;]&#x27;</span>); <span class="hljs-comment">// [1, 5, &quot;false&quot;]</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;null&#x27;</span>); <span class="hljs-comment">// null</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;1&#x27;</span>); <span class="hljs-comment">//  1</span>
+</code></pre>
+<h3>参数 <code>reviver</code></h3>
+<p>如果指定了 <code>reviver</code> 函数，则解析出的 JavaScript 值（解析值）会经过一次转换后才将被最终返回（返回值）。</p>
+<p>更具体点讲就是：解析值本身以及它所包含的所有属性，会按照一定的顺序（从最最里层的属性开始，一级级往外，最终到达顶层，也就是解析值本身）分别的去调用 <code>reviver</code> 函数，在调用过程中，当前属性所属的对象会作为 <code>this</code> 值，当前属性名和属性值会分别作为第一个和第二个参数传入 <code>reviver</code> 中。如果 <code>reviver</code> 返回 <code>undefined</code>，则当前属性会从所属对象中删除，如果返回了其他值，则返回的值会成为当前属性新的属性值。</p>
+<p>当遍历到最顶层的值（解析值）时，传入 <code>reviver</code> 函数的参数会是空字符串 <code>&quot;&quot;</code>（因为此时已经没有真正的属性）和当前的解析值（有可能已经被修改过了），当前的 <code>this</code> 值会是 <code>{&quot;&quot;: 修改过的解析值}</code>，在编写 <code>reviver</code> 函数时，要注意到这个特例。（这个函数的遍历顺序依照：从最内层开始，按照层级顺序，依次向外遍历）</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;{&quot;p&quot;: 5}&#x27;</span>, <span class="hljs-keyword">function</span> (<span class="hljs-params">k, v</span>) {
+  <span class="hljs-keyword">if</span> (k === <span class="hljs-string">&#x27;&#x27;</span>) <span class="hljs-keyword">return</span> v; <span class="hljs-comment">// 如果到了最顶层，则直接返回属性值，</span>
+  <span class="hljs-keyword">return</span> v * <span class="hljs-number">2</span>; <span class="hljs-comment">// 否则将属性值变为原来的 2 倍。</span>
+}); <span class="hljs-comment">// { p: 10 }</span>
+
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;{&quot;1&quot;: 1, &quot;2&quot;: 2,&quot;3&quot;: {&quot;4&quot;: 4, &quot;5&quot;: {&quot;6&quot;: 6}}}&#x27;</span>, <span class="hljs-keyword">function</span> (<span class="hljs-params">k, v</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(k); <span class="hljs-comment">// 输出当前的属性名，从而得知遍历顺序是从内向外的，</span>
+  <span class="hljs-comment">// 最后一个属性名会是个空字符串。</span>
+  <span class="hljs-keyword">return</span> v; <span class="hljs-comment">// 返回原始属性值，相当于没有传递 reviver 参数。</span>
+});
+
+<span class="hljs-comment">// 1</span>
+<span class="hljs-comment">// 2</span>
+<span class="hljs-comment">// 4</span>
+<span class="hljs-comment">// 6</span>
+<span class="hljs-comment">// 5</span>
+<span class="hljs-comment">// 3</span>
+<span class="hljs-comment">// &quot;&quot;</span>
+</code></pre>
+<h3>不允许以逗号作为结尾</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// both will throw a SyntaxError</span>
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;[1, 2, 3, 4, ]&#x27;</span>);
+<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;{&quot;foo&quot; : 1, }&#x27;</span>);
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"JSON.parse"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

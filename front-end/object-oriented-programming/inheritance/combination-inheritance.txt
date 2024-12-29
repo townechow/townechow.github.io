@@ -1,0 +1,109 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","object-oriented-programming","inheritance","combination-inheritance"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/inheritance/combination-inheritance","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/inheritance/combination-inheritance","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","8j8ik7aI6DBPuAqSBG0Vx",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T22e2,<h1>组合继承</h1>
+<p><strong>组合继承（Combination Inheritance）</strong>（也叫伪经典继承），指的是将原型链和借用构造函数的技术组合到一块，从而发挥二者之长的一种继承模式。</p>
+<p>其背后的思路是使用原型链实现对原型对象的属性和方法的继承，而通过借用构造函数来实现对实例属性的继承。这样，既通过在原型上定义方法实现了函数复用，又能够保证每个实例都有它自己的属性。</p>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Parent</span>(<span class="hljs-params">name</span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">attr</span> = {
+    <span class="hljs-attr">eye</span>: <span class="hljs-string">&#x27;blue&#x27;</span>,
+    <span class="hljs-attr">hair</span>: <span class="hljs-string">&#x27;black&#x27;</span>,
+    <span class="hljs-attr">skin</span>: <span class="hljs-string">&#x27;white&#x27;</span>,
+  };
+}
+
+<span class="hljs-title class_">Parent</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">sayName</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>);
+};
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Child</span>(<span class="hljs-params">name, age</span>) {
+  <span class="hljs-comment">// 第二次调用 Parent()</span>
+  <span class="hljs-comment">// Child.prototype 又得到了 name 和 attr 两个属性</span>
+  <span class="hljs-comment">// 并对上次得到的属性值进行了覆盖</span>
+  <span class="hljs-title class_">Parent</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">this</span>, name);
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">age</span> = age;
+}
+
+<span class="hljs-comment">// 第一次调用 Parent()</span>
+<span class="hljs-comment">// 使得子类实例的原型对象指向父类实例对象</span>
+<span class="hljs-comment">// Child.prototype 得到了 name 和 attr 两个属性</span>
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Parent</span>();
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">constructor</span> = <span class="hljs-title class_">Child</span>;
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">sayAge</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">age</span>);
+};
+
+<span class="hljs-comment">// 第一个实例对象</span>
+<span class="hljs-keyword">let</span> uzi = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Child</span>(<span class="hljs-string">&#x27;Uzi&#x27;</span>, <span class="hljs-number">3</span>);
+
+uzi.<span class="hljs-property">attr</span>.<span class="hljs-property">height</span> = <span class="hljs-number">80</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(uzi.<span class="hljs-property">attr</span>);
+<span class="hljs-comment">// { eye: &#x27;blue&#x27;, hair: &#x27;black&#x27;, skin: &#x27;white&#x27;, height: 80 }</span>
+uzi.<span class="hljs-title function_">sayName</span>();
+<span class="hljs-comment">// &#x27;Uzi&#x27;</span>
+uzi.<span class="hljs-title function_">sayAge</span>();
+<span class="hljs-comment">// 3</span>
+
+<span class="hljs-comment">// 第二个实例对象</span>
+<span class="hljs-keyword">let</span> kat = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Child</span>(<span class="hljs-string">&#x27;Kat&#x27;</span>, <span class="hljs-number">1</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(kat.<span class="hljs-property">colors</span>);
+<span class="hljs-comment">// { eye: &#x27;blue&#x27;, hair: &#x27;black&#x27;, skin: &#x27;white&#x27; }</span>
+kat.<span class="hljs-title function_">sayName</span>();
+<span class="hljs-comment">// &#x27;Kat&#x27;</span>
+kat.<span class="hljs-title function_">sayAge</span>();
+<span class="hljs-comment">// 1</span>
+</code></pre>
+<p>实现步骤分解：</p>
+<ul>
+<li>父类构造函数定义自身属性（<code>Parent</code> 构造函数定义了<code>name</code> 和 <code>attr</code>）</li>
+<li>父类原型上定义方法（<code>Parent</code> 的原型定义了一个方法 <code>sayName</code>）</li>
+<li>子类构造函数调用父类构造函数，传入参数，继承父类构造函数中的属性，随后子类构造函数又自定义自身的属性（<code>Child</code> 构造函数在调用 <code>Parent</code> 构造函数时传入了 <code>name</code> 参数，紧接着又定义了它自己的属性 <code>height</code>。）</li>
+<li>子类构造函数的原型指向父类构造函数生成的实例（将 <code>Parent</code> 的实例赋值给 <code>Child</code> 的原型）</li>
+<li>在子类构造函数的原型上定义方法（在 <code>Child</code> 的原型上定义了方法 <code>sayAge</code>）</li>
+<li>这样一来，就可以让两个不同的子类实例对象既分别拥有自己属性，又可以使用相同的方法</li>
+</ul>
+<h2>缺陷</h2>
+<p>无论什么情况下，<strong>都会调用两次父类构造函数</strong>：第一次是在<strong>创建子类型原型</strong>的时候，另一次是在<strong>子类型构造函数内部</strong>。子类型对象最终会包含父类型对象的全部实例属性，但不得不在调用子类型构造函数时重写这些属性。</p>
+<h2>组合继承优化</h2>
+<p>组合继承优化示例一：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Before</span>
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Parent</span>();
+
+<span class="hljs-comment">// After</span>
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-title class_">Parent</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>;
+</code></pre>
+<p>这种优化方式的缺点是，子类实例对象的构造函数无法区分是子类构造函数还是父类构造函数。</p>
+<p>📌 <strong>完美写法：寄生组合式继承</strong></p>
+<p>组合继承优化示例二：通过中间对象，继承父类原型对象，实现子类与父类的隔离</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Parent</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;Parent&#x27;</span>;
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">num</span> = [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>];
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Child</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-title class_">Parent</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">this</span>);
+  thi.<span class="hljs-property">type</span> = <span class="hljs-string">&#x27;Child&#x27;</span>;
+}
+
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(<span class="hljs-title class_">Parent</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
+
+<span class="hljs-title class_">Child</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">constructor</span> = <span class="hljs-title class_">Child</span>;
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"组合继承"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

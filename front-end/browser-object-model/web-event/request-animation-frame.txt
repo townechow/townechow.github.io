@@ -1,0 +1,155 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","web-event","request-animation-frame"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/web-event/request-animation-frame","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/web-event/request-animation-frame","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RhCKRveniNoPolXilqTK2",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1e12,<h1>requestAnimationFrame</h1>
+<p><code>window.requestAnimationFrame()</code> 方法告诉浏览器您希望执行动画并请求浏览器在下一次重绘之前调用指定的函数来更新动画。该方法使用一个回调函数作为参数，这个回调函数会在浏览器重绘之前调用。</p>
+<blockquote>
+<p>⚠️ 注意：若您想要在下一次重绘时产生另一个动画画面，您的回调例程必须调用 <code>requestAnimationFrame()</code>。</p>
+</blockquote>
+<h2>传统动画渲染的弊端</h2>
+<p>传统的动画渲染是通过 setTimeout 和 setInterval 进行实现，但是这两种定时器会有两个弊端：</p>
+<ul>
+<li>动画的时间间隔不好确定，设置时间过长会使得动画不够平滑流畅，设置过短会令浏览器的重绘频率容易达到瓶颈（推荐最佳循环间隔是 17ms，因为大多数电脑的显示器刷新频率是 60Hz，1000ms/60）。</li>
+<li>定时器的第二个时间参数只是指定了多久后将动画任务添加到浏览器的 UI 线程队列中，如果 UI 线程处于忙碌状态，那么动画不会立即执行。</li>
+</ul>
+<h2>语法</h2>
+<h3>requestAnimationFrame</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">requestAnimationFrame</span>(callback);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>callback</td>
+<td>下次重新绘制动画时调用的回调函数。该回调函数只有一个参数 <code>DOMHighResTimeStamp</code>，指示 <code>requestAnimationFrame()</code> 开始出发回调函数的当前时间。</td>
+<td>function</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>返回值</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>请求动画渲染的标识 ID。是个非零值，没有其他意义。可用作 <code>window.cancelAnimationFrame()</code> 以取消回调函数。</td>
+<td>number 整数</td>
+</tr>
+</tbody>
+</table>
+<h3>cancelAnimationFrame</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">cancelAnimationFrame</span>(requestID);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>requestId</td>
+<td>指定动画渲染的标识符</td>
+<td>number</td>
+</tr>
+</tbody>
+</table>
+<h2>优点</h2>
+<ul>
+<li><code>requestAnimationFrame</code> 会把每一帧中的所有 DOM 操作集中起来，在<strong>一次重绘或回流</strong>中就完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率</li>
+<li>在隐藏或不可见的元素中，或者浏览器标签页不可见时，<code>requestAnimationFrame</code> 将不会进行重绘或回流，这当然就意味着更少的 CPU、GPU 和内存使用量</li>
+<li><code>requestAnimationFrame</code> 是由浏览器专门为当年规划提供的 API，在运行时浏览器会自动优化方法的调用，并且如果页面不是激活状态下的话，动画会自动暂停，有效节省了 CPU 开销</li>
+</ul>
+<h2>兼容性</h2>
+<table>
+<thead>
+<tr>
+<th>IE</th>
+<th>Edge</th>
+<th>Firefox</th>
+<th>Chrome</th>
+<th>Safari</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>17</td>
+<td>60</td>
+<td>66</td>
+<td>11.1</td>
+</tr>
+</tbody>
+</table>
+<p>Firefox、Chrome、IE10+ 对 <code>requestAnimationFrame</code> 支持很好，但不兼容 IE9- 浏览器，但是我们可以用定时器完成兼容性改造。</p>
+<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">var</span> lastTime = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">var</span> vendors = [<span class="hljs-string">&#x27;webkit&#x27;</span>, <span class="hljs-string">&#x27;moz&#x27;</span>];
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> x = <span class="hljs-number">0</span>; x &lt; vendors.<span class="hljs-property">length</span> &amp;&amp; !<span class="hljs-variable language_">window</span>.<span class="hljs-property">requestAnimationFrame</span>; ++x) {
+    <span class="hljs-variable language_">window</span>.<span class="hljs-property">requestAnimationFrame</span> = <span class="hljs-variable language_">window</span>[vendors[x] + <span class="hljs-string">&#x27;RequestAnimationFrame&#x27;</span>];
+    <span class="hljs-variable language_">window</span>.<span class="hljs-property">cancelAnimationFrame</span> =
+      <span class="hljs-variable language_">window</span>[vendors[x] + <span class="hljs-string">&#x27;CancelAnimationFrame&#x27;</span>] ||
+      <span class="hljs-variable language_">window</span>[vendors[x] + <span class="hljs-string">&#x27;CancelRequestAnimationFrame&#x27;</span>];
+  }
+
+  <span class="hljs-keyword">if</span> (!<span class="hljs-variable language_">window</span>.<span class="hljs-property">requestAnimationFrame</span>)
+    <span class="hljs-variable language_">window</span>.<span class="hljs-property">requestAnimationFrame</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">callback</span>) {
+      <span class="hljs-comment">/*调整时间，让一次动画等待和执行时间在最佳循环时间间隔内完成*/</span>
+      <span class="hljs-keyword">var</span> currTime = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>().<span class="hljs-title function_">getTime</span>();
+      <span class="hljs-keyword">var</span> timeToCall = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">max</span>(<span class="hljs-number">0</span>, <span class="hljs-number">17</span> - (currTime - lastTime));
+      <span class="hljs-keyword">var</span> id = <span class="hljs-variable language_">window</span>.<span class="hljs-built_in">setTimeout</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+        <span class="hljs-title function_">callback</span>(currTime + timeToCall);
+      }, timeToCall);
+      lastTime = currTime + timeToCall;
+      <span class="hljs-keyword">return</span> id;
+    };
+
+  <span class="hljs-keyword">if</span> (!<span class="hljs-variable language_">window</span>.<span class="hljs-property">cancelAnimationFrame</span>)
+    <span class="hljs-variable language_">window</span>.<span class="hljs-property">cancelAnimationFrame</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">id</span>) {
+      <span class="hljs-built_in">clearTimeout</span>(id);
+    };
+})();
+</code></pre>
+<h2>传递参数</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">requestAnimation</span>(<span class="hljs-params">a, b, c</span>) {
+  <span class="hljs-keyword">if</span> () {
+
+    <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">requestAnimationFrame</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+      <span class="hljs-title function_">requestAnimation</span>(a, b, c)
+    })
+  }
+}
+</code></pre>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame">MDN：window.requestAnimationFrame</a></li>
+<li><a href="https://juejin.im/entry/5ae844ec518825673a205855">requestAnimationFrame 理解与实践</a></li>
+<li><a href="http://web.jobbole.com/91578/">深入理解 requestAnimationFrame</a></li>
+<li><a href="http://web.jobbole.com/90625/">浅析 requestAnimationFrame</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"requestAnimationFrame"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,228 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","reflection","reflect","reflect"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/reflection/reflect/reflect","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/reflection/reflect/reflect","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","oe_7UWR8ffOzS75X0BMaf",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3424,<h1>Reflect</h1>
+<p>Reflect 是一个内置的对象，它提供拦截 JavaScript 操作的方法。这些方法与处理器对象的方法相同。Reflect 不是一个函数对象，因此它不是不可构造的。</p>
+<p>设计目的：</p>
+<ol>
+<li>
+<p>将 Object 对象的一些明显属于语言内部的方法（比如 <code>Object.defineProperty</code>），放到 Reflect 对象上。现阶段，某些方法同时在 Object 和 Reflect 对象上部署，未来的新方法将只部署在 Reflect 对象上。也就是说，从 Reflect 对象上可以拿到语言内部的方法。</p>
+</li>
+<li>
+<p>修改某些 Object 方法的返回结果，让其变得更合理。比如，<code>Object.defineProperty(obj, name, desc)</code> 在无法定义属性时，会抛出一个错误，而 <code>Reflect.defineProperty(obj, name, desc)</code> 则会返回 <code>false</code>。</p>
+</li>
+<li>
+<p>让 Object 的 <strong>命令式操作</strong> 都变成 <strong>函数行为</strong>。比如 <code>name in obj</code> 和 <code>delete obj[name]</code>，而 <code>Relfect.has(obj, name)</code> 和 <code>Reflect.deleteProperty(obj, name)</code> 让它们变成了函数行为</p>
+</li>
+<li>
+<p>Reflect 对象的方法与 Proxy 对象的方法一一对应，只要是 Proxy 对象的方法，就能在 Reflect 对象上找到对应的方法。这就让 Proxy 对象可以方便地调用对应的 Reflect 方法，完成默认行为，作为修改行为的基础。也就是说，不管 Proxy 怎么修改默认行为，你总可以在 Reflect 上获取默认行为。</p>
+</li>
+</ol>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Proxy</span>(target, {
+  <span class="hljs-attr">set</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">target, name, value, receiver</span>) {
+    <span class="hljs-keyword">const</span> success = <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">set</span>(target, name, value, receiver);
+
+    <span class="hljs-keyword">if</span> (success) {
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;property &#x27;</span> + name + <span class="hljs-string">&#x27; on &#x27;</span> + target + <span class="hljs-string">&#x27; set to &#x27;</span> + value);
+    }
+
+    <span class="hljs-keyword">return</span> successs;
+  },
+});
+</code></pre>
+<p>上面代码中，Proxy 方法拦截 <code>target</code> 对象的属性赋值行为。它采用 <code>Reflect.set</code> 方法将值赋值给对象的属性，确保完成原有的行为，然后再部署额外的功能。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(obj, {
+  <span class="hljs-title function_">get</span>(<span class="hljs-params">target, name</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;get&#x27;</span>, target, name);
+    <span class="hljs-keyword">return</span> <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">get</span>(target, name);
+  },
+  <span class="hljs-title function_">deleteProperty</span>(<span class="hljs-params">target, name</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;delete&#x27;</span> + name);
+    <span class="hljs-keyword">return</span> <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">deleteProperty</span>(target, name);
+  },
+  <span class="hljs-title function_">has</span>(<span class="hljs-params">target, name</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;has&#x27;</span> + name);
+    <span class="hljs-keyword">return</span> <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">has</span>(target, name);
+  },
+});
+</code></pre>
+<p>上面代码中，每一个 Proxy 对象的拦截操作（<code>get</code>、<code>delete</code>、<code>has</code>），内部都调用对应的 Reflect 方法，保证原生行为能够正常执行。添加的工作，就是将每一个操作输出一行日志。</p>
+<p>有了 Reflect 对象以后，很多操作会更易读。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 老写法</span>
+<span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">apply</span>.<span class="hljs-title function_">call</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-property">floor</span>, <span class="hljs-literal">undefined</span>, [<span class="hljs-number">1.75</span>]);
+<span class="hljs-comment">// 1</span>
+
+<span class="hljs-comment">// 新写法</span>
+<span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">apply</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-property">floor</span>, <span class="hljs-literal">undefined</span>, [<span class="hljs-number">1.75</span>]);
+<span class="hljs-comment">// 1</span>
+</code></pre>
+<p>与大多数全局对象不同，Reflect 没有构造函数，你不能将其与一个 <code>new</code> 运算符一起使用，或者 Reflect 对象作为一个函数来调用。Reflect 的所有属性和方法都是静态的（就像 Math 对象）。</p>
+<h2>静态方法</h2>
+<table>
+<thead>
+<tr>
+<th>静态方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Reflect.apply</code></td>
+<td>对函数进行调用操作，同时传入一个数组作为调用参数，与 <code>Function.prototype.apply</code> 功能类似</td>
+</tr>
+<tr>
+<td><code>Reflect.construct</code></td>
+<td>对构造函数进行 <code>new</code> 操作，相当于执行 <code>new target(...args)</code></td>
+</tr>
+<tr>
+<td><code>Reflect.defineProperty</code></td>
+<td>和 <code>Object.defineProperty</code> 类似</td>
+</tr>
+<tr>
+<td><code>Reflect.deleteProperty</code></td>
+<td>作为函数的 <code>delete</code> 操作符，相当于执行 <code>delete target[name]</code></td>
+</tr>
+<tr>
+<td><code>Reflect.get</code></td>
+<td>获取对象属性值</td>
+</tr>
+<tr>
+<td><code>Reflect.getOwnPropertyDescriptor</code></td>
+<td>类似于 <code>Object.getOwnPropertyDescriptor</code></td>
+</tr>
+<tr>
+<td><code>Reflect.getPrototypeOf</code></td>
+<td>类似于 <code>Object.getPrototypeOf</code></td>
+</tr>
+<tr>
+<td><code>Reflect.has</code></td>
+<td>判断对象是否存在某个属性，和 <code>in</code> 运算符的功能完全相同</td>
+</tr>
+<tr>
+<td><code>Reflect.isExtensible</code></td>
+<td>类似于 <code>Object.isExtensible</code></td>
+</tr>
+<tr>
+<td><code>Reflect.ownKeys</code></td>
+<td>返回一个包含所有自身属性（不包含继承属性）的数组</td>
+</tr>
+<tr>
+<td><code>Reflect.preventExtensions</code></td>
+<td>类似于 <code>Object.preventExtensions</code></td>
+</tr>
+<tr>
+<td><code>Reflect.set</code></td>
+<td>将值分配给属性的函数，返回 Boolean，如果成功，则返回 <code>true</code></td>
+</tr>
+<tr>
+<td><code>Reflect.setPrototypeOf</code></td>
+<td>类似于 <code>Object.setPrototyeOf</code></td>
+</tr>
+</tbody>
+</table>
+<h2>与传统方法的对比优势</h2>
+<p>Reflect 操作对象更加符合面向对象，操作对象的方法全部都挂在 Reflect。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Reflect 操作对象</th>
+<th>老方法操作对象</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>面向对象</td>
+<td>全部挂在 <code>Reflect</code> 对象上，更加符合面向对象</td>
+<td>各种指令方法，<code>=</code>、<code>in</code>、<code>delete</code></td>
+</tr>
+<tr>
+<td>函数式</td>
+<td>所有方法都是函数</td>
+<td>命令式、赋值、函数混用</td>
+</tr>
+<tr>
+<td>规范报错</td>
+<td><code>defineProperty</code> 无效返回 <code>false</code>，后面几个方法参数非法报错</td>
+<td><code>defineProperty</code> 无效报错，后面几个方法参数非法不报错</td>
+</tr>
+<tr>
+<td>方法扩展</td>
+<td>参数 <code>receiver</code> 指定 <code>this</code> 指向</td>
+<td>不能</td>
+</tr>
+</tbody>
+</table>
+<h2>示例</h2>
+<h3>观察者模式</h3>
+<p>观察者模式（Observer mode）指的是函数自动观察数据对象，一旦对象有变化，函数就会自动执行。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> person = <span class="hljs-title function_">observerable</span>({
+  <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Zhange San&#x27;</span>,
+  <span class="hljs-attr">age</span>: <span class="hljs-number">47</span>,
+});
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">print</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`<span class="hljs-subst">${person.name}</span>, <span class="hljs-subst">${person.age}</span>`</span>);
+}
+
+<span class="hljs-title function_">observe</span>(print);
+
+person.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;Li Si&#x27;</span>;
+<span class="hljs-comment">// Li Si, 47</span>
+</code></pre>
+<p>上面代码中，数据对象 <code>person</code> 是观察目标，函数 <code>print</code> 是观察者。一旦数据对象发生变化，<code>print</code> 就会自动执行。</p>
+<p>下面，使用 Proxy 写一个观察者模式的最简单实现，即实现 <code>observeable</code> 和 <code>observe</code> 这两个函数。思路是 <code>observable</code> 函数返回一个原始对象的 Proxy 对象，拦截赋值操作，触发充当观察者的各个函数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> queuedObservers = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>();
+
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">observe</span> = fn =&gt; queuedObservers.<span class="hljs-title function_">add</span>(fn);
+
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">observable</span> = obj =&gt; <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(obj, { set });
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">set</span>(<span class="hljs-params">target, key, value, receiver</span>) {
+  <span class="hljs-keyword">const</span> result = <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">set</span>(target, key, value, receiver);
+
+  queuedObservers.<span class="hljs-title function_">forEach</span>(<span class="hljs-function"><span class="hljs-params">observer</span> =&gt;</span> <span class="hljs-title function_">observer</span>());
+
+  <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<h3>获取设置反射属性</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title class_">Ironman</span> = {
+  <span class="hljs-attr">firstName</span>: <span class="hljs-string">&#x27;Tony&#x27;</span>,
+  <span class="hljs-attr">lastName</span>: <span class="hljs-string">&#x27;Stark&#x27;</span>,
+  <span class="hljs-keyword">get</span> <span class="hljs-title function_">fullName</span>() {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-variable language_">this</span>.firstName}</span> <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.lastName}</span>`</span>;
+  },
+};
+
+<span class="hljs-comment">// 获取自身属性，新老方法都可以实现</span>
+<span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">Ironman</span>, <span class="hljs-string">&#x27;firstName&#x27;</span>);
+<span class="hljs-comment">// Tony</span>
+<span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">Ironman</span>, <span class="hljs-string">&#x27;lastName&#x27;</span>);
+<span class="hljs-comment">// Tony</span>
+<span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">Ironman</span>, <span class="hljs-string">&#x27;fullName&#x27;</span>);
+<span class="hljs-comment">// Tony Stark</span>
+
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">Spiderman</span> = {
+  <span class="hljs-attr">firstName</span>: <span class="hljs-string">&#x27;Peter&#x27;</span>,
+  <span class="hljs-attr">lastName</span>: <span class="hljs-string">&#x27;Parker&#x27;</span>,
+};
+
+<span class="hljs-comment">// 获取反射属性，只有 Reflect 可以实现</span>
+<span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">Ironman</span>, <span class="hljs-string">&#x27;fullName&#x27;</span>, <span class="hljs-title class_">Spiderman</span>);
+<span class="hljs-comment">// Peter Parker</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Reflect"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

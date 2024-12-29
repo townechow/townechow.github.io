@@ -1,0 +1,518 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","keyed-collections","map","map"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/keyed-collections/map/map","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/keyed-collections/map/map","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","3tTdbz56HSn9HSTlyJlAl",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T950d,<h1>Map</h1>
+<p>Map 对象保存键值对。任何值（对象或者原始值）都可以作为一个键或一个值。</p>
+<p>它和 Object 对象不同，对象只能用字符串和 Symbol 作为键，而 Map 可以使用任何值。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([iterable]);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>iterable</code></td>
+<td style="text-align:left"><code>Iterable</code> 可以是一个数组或者其他 Iterable 对象，其元素或为键值对，或为两个元素的数组。 每个键值对都会添加到新的 Map。<code>null</code> 会被当做 <code>undefined</code>。</td>
+</tr>
+</tbody>
+</table>
+<h2>描述</h2>
+<p>键的比较是基于 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">SameValueZero</a> 算法：<code>NaN</code> 是与 <code>NaN</code> 相同的（虽然 <code>NaN !== NaN</code>），剩下所有其它的值是根据 <code>===</code> 运算符的结果判断是否相等。</p>
+<p><strong>对象与字典的对比</strong></p>
+<p>Object 和 Map 类似的一点是，它们都允许你按键存取一个值，都可以删除键，还可以检测一个键是否绑定了值。</p>
+<p>除了键类型上的不同，Map 和 Object 还有以下不同：</p>
+<ol>
+<li>Map 中的键是有序的，而添加到对象中的键则不同</li>
+<li>Map 可以通过 <code>size</code> 获取键值个数，Object 的键值对个数只能手动计算</li>
+<li>Map 可直接进行迭代，而 Object 的迭代需要先获取它的键数组，然后进行迭代</li>
+<li>Object 都有自己的原型，原型链上的键名有可能和你自己在对象上的设置键名产生冲突。虽然 ES5 开始可以用 <code>map = Object.create(null)</code> 来创建一个没有原型的对象，但是这种用法不太常见</li>
+<li>Map 在涉及频繁增删键值对的场景下会有些性能优势</li>
+</ol>
+<p>但是这并不意味着你可以随意使用 Map，对象仍旧是最常用的。Map 实例只适合用于集合（Collections），你应当考虑修改你原来的代码——先前使用对象来处理集合的地方。对象应该用其字段和方法来作为记录的。
+如果你不确定要使用哪个，请思考下面的问题：</p>
+<ul>
+<li>在运行之前 key 是否是未知的，是否需要动态地查询 key 呢？</li>
+<li>是否所有的值都是统一类型，这些值可以互换么？</li>
+<li>是否需要不是字符串类型的 key ？</li>
+<li>键值对经常增加或者删除么？</li>
+<li>是否有任意个且非常容易改变的键值对?</li>
+<li>这个集合可以遍历么？</li>
+</ul>
+<p>假如以上全是&quot;是&quot;的话，那么你需要用 Map 来保存这个集。相反，你有固定数目的键值对，独立操作它们，区分它们的用法，那么你需要的是对象。</p>
+<h2>原型属性</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Map.prototype.constructor</code></td>
+<td style="text-align:left">返回一个函数，它创建了实例的原型。默认是 Map 函数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.size</code></td>
+<td style="text-align:left">返回 Map 对象的键/值对的数量。</td>
+</tr>
+</tbody>
+</table>
+<h3>size</h3>
+<p><code>Map.prototype.size</code> 属性返回 <code>Map</code> 结构的成员总数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-literal">true</span>);
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;bear&#x27;</span>, <span class="hljs-literal">false</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(map.<span class="hljs-property">size</span>);
+<span class="hljs-comment">// 2</span>
+</code></pre>
+<h2>原型方法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Map.prototype.set(key, value)</code></td>
+<td style="text-align:left">用于设置 Map 对象中键的值，返回该 Map 对象</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.get(key)</code></td>
+<td style="text-align:left">用于获取一个 Map 对象中指定 <code>key</code> 的元素</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.has(key)</code></td>
+<td style="text-align:left">用于校验 Map 中是否存在指定 <code>key</code> 值的元素</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.delete(key)</code></td>
+<td style="text-align:left">用于移除任何与键相关联的值，并且返回该值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.clear()</code></td>
+<td style="text-align:left">用于移除 Map 对象中的所有元素</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.forEach(callbackFn [,thisArg])</code></td>
+<td style="text-align:left">按插入顺序，为 Map 对象里的每一键值对调用一次回调函数。如果为 <code>forEach</code> 提供了 <code>thisArg</code> ，它将在每次调用回调中作为 <code>this</code> 值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.keys()</code></td>
+<td style="text-align:left">返回一个新的 <code>Iterable</code> 对象。它包含按照顺序插入 Map 对象中每个元素的 <code>key</code> 值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.values()</code></td>
+<td style="text-align:left">返回一个新的 <code>Iterator</code> 对象，它按插入顺序包含了 Map 对象中每个元素的值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype.entries()</code></td>
+<td style="text-align:left">返回一个新的包含 <code>[key, value]</code> 对的 <code>Iterable</code> 对象，返回迭代器的迭代顺序与 Map 对象的插入顺序相同。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Map.prototype[@@iterator]()</code></td>
+<td style="text-align:left">返回一个新的 <code>MapIterator</code> 对象，它按插入顺序包含了 Map 对象中每个元素的 <code>[key, value]</code> 数组。</td>
+</tr>
+</tbody>
+</table>
+<h3>set(key, value)</h3>
+<p><code>set</code> 方法设置 <code>key</code> 对应的键值，然后返回整个 <code>Map</code> 结构。如果 <code>Map</code> 结构。如果 <code>key</code> 已经有值，则键值会被更新，否则就新生成该键。</p>
+<p><code>set</code> 方法返回的是当前的 Map 对象，因此可以采用链式写法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+<span class="hljs-comment">// 键是字符串</span>
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;edition&#x27;</span>, <span class="hljs-number">6</span>);
+<span class="hljs-comment">// 键是数值</span>
+map.<span class="hljs-title function_">set</span>(<span class="hljs-number">262</span>, <span class="hljs-string">&#x27;standard&#x27;</span>);
+<span class="hljs-comment">// 键是 undefined</span>
+map.<span class="hljs-title function_">set</span>(<span class="hljs-literal">undefined</span>, <span class="hljs-string">&#x27;nah&#x27;</span>);
+
+<span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>().<span class="hljs-title function_">set</span>(<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;a&#x27;</span>).<span class="hljs-title function_">set</span>(<span class="hljs-number">2</span>, <span class="hljs-string">&#x27;b&#x27;</span>).<span class="hljs-title function_">set</span>(<span class="hljs-number">3</span>, <span class="hljs-string">&#x27;c&#x27;</span>);
+</code></pre>
+<h3>get(key)</h3>
+<p><code>get</code> 方法读取 <code>key</code> 对应的键值，如果找不到 <code>key</code>，则返回 <code>undefined</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+<span class="hljs-keyword">const</span> hello = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;hello&#x27;</span>);
+};
+
+m.<span class="hljs-title function_">set</span>(hello, <span class="hljs-string">&#x27;Hello ES6!&#x27;</span>);
+<span class="hljs-comment">// 键是函数</span>
+
+m.<span class="hljs-title function_">get</span>(hello);
+<span class="hljs-comment">// Hello ES6!</span>
+</code></pre>
+<h3>has(key)</h3>
+<p><code>has</code> 方法返回一个布尔值，表示某个键是否在 Map 数据结构中。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+m.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;edition&#x27;</span>, <span class="hljs-number">6</span>);
+m.<span class="hljs-title function_">set</span>(<span class="hljs-number">262</span>, <span class="hljs-string">&#x27;standard&#x27;</span>);
+m.<span class="hljs-title function_">set</span>(<span class="hljs-literal">undefined</span>, <span class="hljs-string">&#x27;nah&#x27;</span>);
+
+m.<span class="hljs-title function_">has</span>(<span class="hljs-string">&#x27;edition&#x27;</span>);
+<span class="hljs-comment">// true</span>
+m.<span class="hljs-title function_">has</span>(<span class="hljs-string">&#x27;years&#x27;</span>);
+<span class="hljs-comment">// false</span>
+m.<span class="hljs-title function_">has</span>(<span class="hljs-number">262</span>);
+<span class="hljs-comment">// true</span>
+m.<span class="hljs-title function_">has</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h3>delete(key)</h3>
+<p><code>delete</code> 方法删除某个键，返回 <code>true</code> 。如果删除失败，则返回 <code>false</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+m.<span class="hljs-title function_">set</span>(<span class="hljs-literal">undefined</span>, <span class="hljs-string">&#x27;nah&#x27;</span>);
+m.<span class="hljs-title function_">has</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// true</span>
+
+m.<span class="hljs-title function_">delete</span>(<span class="hljs-literal">undefined</span>);
+m.<span class="hljs-title function_">has</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// false</span>
+</code></pre>
+<h3>clear()</h3>
+<p><code>clear</code> 方法清除所有成员，没有返回值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-literal">true</span>);
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;bar&#x27;</span>, <span class="hljs-literal">false</span>);
+map.<span class="hljs-property">size</span>;
+<span class="hljs-comment">// 2</span>
+
+map.<span class="hljs-title function_">clear</span>();
+map.<span class="hljs-property">size</span>;
+<span class="hljs-comment">// 0</span>
+</code></pre>
+<h3>forEach</h3>
+<p>入参首位为 <code>value</code> 值，其次为 <code>key</code> 键值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;1&#x27;</span>, { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;2&#x27;</span>, { <span class="hljs-attr">b</span>: <span class="hljs-number">2</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;3&#x27;</span>, { <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> });
+
+map.<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">value, key</span>) =&gt;</span> {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(key, value);
+  <span class="hljs-comment">// 1 { a: 1 }</span>
+  <span class="hljs-comment">// 2 { b: 2 }</span>
+  <span class="hljs-comment">// 3 { c: 3 }</span>
+});
+</code></pre>
+<h3>keys</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;1&#x27;</span>, { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;2&#x27;</span>, { <span class="hljs-attr">b</span>: <span class="hljs-number">2</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;3&#x27;</span>, { <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> });
+
+<span class="hljs-keyword">const</span> keys = map.<span class="hljs-title function_">keys</span>();
+
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">of</span> keys) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(key);
+  <span class="hljs-comment">// 通过 map.get(key) 可得 value 值</span>
+  <span class="hljs-comment">// 1</span>
+  <span class="hljs-comment">// 2</span>
+  <span class="hljs-comment">// 3</span>
+}
+</code></pre>
+<h3>values</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;1&#x27;</span>, { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;2&#x27;</span>, { <span class="hljs-attr">b</span>: <span class="hljs-number">2</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;3&#x27;</span>, { <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> });
+
+<span class="hljs-keyword">const</span> values = map.<span class="hljs-title function_">values</span>();
+
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> value <span class="hljs-keyword">of</span> values) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+  <span class="hljs-comment">// { a: 1 }</span>
+  <span class="hljs-comment">// { b: 2 }</span>
+  <span class="hljs-comment">// { c: 3 }</span>
+}
+</code></pre>
+<h3>entries</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;1&#x27;</span>, { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;2&#x27;</span>, { <span class="hljs-attr">b</span>: <span class="hljs-number">2</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;3&#x27;</span>, { <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> });
+
+<span class="hljs-keyword">const</span> entries = map.<span class="hljs-title function_">entries</span>();
+
+<span class="hljs-keyword">for</span> ([key, value] <span class="hljs-keyword">of</span> entries) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(key, value);
+  <span class="hljs-comment">// 1 { a: 1 }</span>
+  <span class="hljs-comment">// 2 { b: 2 }</span>
+  <span class="hljs-comment">// 3 { c: 3 }</span>
+}
+</code></pre>
+<h3>MapIterator.next</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;1&#x27;</span>, { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;2&#x27;</span>, { <span class="hljs-attr">b</span>: <span class="hljs-number">2</span> });
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;3&#x27;</span>, { <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> });
+
+<span class="hljs-keyword">const</span> keys = map.<span class="hljs-title function_">keys</span>();
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; map.<span class="hljs-property">size</span>; i++) {
+  key = keys.<span class="hljs-title function_">next</span>().<span class="hljs-property">value</span>;
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(key);
+  <span class="hljs-comment">// 1</span>
+  <span class="hljs-comment">// 2</span>
+  <span class="hljs-comment">// 3</span>
+}
+
+<span class="hljs-keyword">const</span> values = map.<span class="hljs-title function_">values</span>();
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; map.<span class="hljs-property">size</span>; i++) {
+  value = values.<span class="hljs-title function_">next</span>().<span class="hljs-property">value</span>;
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+  <span class="hljs-comment">// { a: 1 }</span>
+  <span class="hljs-comment">// { b: 2 }</span>
+  <span class="hljs-comment">// { c: 3 }</span>
+}
+
+<span class="hljs-keyword">const</span> entries = map.<span class="hljs-title function_">entries</span>();
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; map.<span class="hljs-property">size</span>; i++) {
+  entry = entries.<span class="hljs-title function_">next</span>().<span class="hljs-property">value</span>;
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(entry[<span class="hljs-number">0</span>], entry[<span class="hljs-number">1</span>]);
+  <span class="hljs-comment">// 1 { a: 1 }</span>
+  <span class="hljs-comment">// 2 { b: 2 }</span>
+  <span class="hljs-comment">// 3 { c: 3 }</span>
+}
+</code></pre>
+<p><code>MapIterator</code> 对象每次遍历下个元素都会调用 <code>next()</code>，一次遍历完成之后，位置并不会复原。所以多次遍历必须用对应的 <code>map</code> 方法（<code>keys()</code>、<code>values()</code> 和 <code>entries()</code>）重新获取 <code>Map Iterator</code> 对象。若不重新获取，则迭代器无返回值。</p>
+<h2>特性</h2>
+<h3>内存地址绑定</h3>
+<p>Map 键与内存地址绑定。</p>
+<p>⚠️ <strong>注意</strong>：只有对同一个对象的引用， Map 结构才将其视为同一个键。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>([<span class="hljs-string">&#x27;a&#x27;</span>], <span class="hljs-number">555</span>);
+
+map.<span class="hljs-title function_">get</span>([<span class="hljs-string">&#x27;a&#x27;</span>]);
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<p>上面的 <code>set</code> 方法和 <code>get</code> 方法表面上是针对同一个键，实际上却是两个值，这是因为数组引用的内存地址不一样导致的。因此 <code>get</code> 方法无法读取该值，返回 <code>undefined</code>。</p>
+<p>同样的值的两个实例在 Map 结构中被视为两个键。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+<span class="hljs-keyword">const</span> a = [<span class="hljs-string">&#x27;foo&#x27;</span>];
+<span class="hljs-keyword">const</span> b = [<span class="hljs-string">&#x27;foo&#x27;</span>];
+
+map.<span class="hljs-title function_">set</span>(a, <span class="hljs-number">123</span>).<span class="hljs-title function_">set</span>(b, <span class="hljs-number">456</span>);
+
+map.<span class="hljs-title function_">get</span>(a);
+<span class="hljs-comment">// 123</span>
+
+map.<span class="hljs-title function_">get</span>(b);
+<span class="hljs-comment">// 456</span>
+</code></pre>
+<p>Map 的键实际上是和内存地址绑定的，只要内存地址不一样，就视为两个键。这就解决了 <strong>同名属性碰撞（Clash）</strong> 的问题，我们扩展别人的库时，如果使用对象作为键名，不用担心自己的属性与原作者的属性同名。</p>
+<h3>以基本类型值作为键名</h3>
+<p>如果 Map 的键是一个基本类型的值（数字、字符串、布尔值），则只要两个值严格相等，Map 就将其视为一个键，包括 <code>0</code> 和 <code>-0</code>。</p>
+<p>另外，需要注意得失，虽然 <code>NaN</code> 不严格等于自身，但 Map 将其视为同一个键。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(-<span class="hljs-number">0</span>, <span class="hljs-number">123</span>);
+map.<span class="hljs-title function_">get</span>(-<span class="hljs-number">0</span>);
+<span class="hljs-comment">// 123</span>
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-literal">true</span>, <span class="hljs-number">1</span>);
+map.<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;true&#x27;</span>, <span class="hljs-number">2</span>);
+map.<span class="hljs-title function_">get</span>(<span class="hljs-literal">true</span>);
+<span class="hljs-comment">// 1</span>
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-literal">undefined</span>, <span class="hljs-number">3</span>);
+map.<span class="hljs-title function_">set</span>(<span class="hljs-literal">null</span>, <span class="hljs-number">4</span>);
+map.<span class="hljs-title function_">get</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-comment">// 3</span>
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-title class_">NaN</span>, <span class="hljs-number">123</span>);
+map.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// 123</span>
+</code></pre>
+<h3>以 Set 或 Map 作为键名</h3>
+<p>以 Set 作为参数</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> payload = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>([
+  [<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-number">1</span>],
+  [<span class="hljs-string">&#x27;bar&#x27;</span>, <span class="hljs-number">2</span>],
+]);
+
+<span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>(payload);
+
+map.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<span class="hljs-comment">// 1</span>
+</code></pre>
+<p>以 Map 作为参数</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> payload = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([[<span class="hljs-string">&#x27;baz&#x27;</span>], <span class="hljs-number">3</span>]);
+<span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>(payload);
+
+map.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;baz&#x27;</span>);
+<span class="hljs-comment">// 3</span>
+</code></pre>
+<p>如果对同一个键多次赋值，后面的值会将覆盖前面的值。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+
+map.<span class="hljs-title function_">set</span>(<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;foo&#x27;</span>).<span class="hljs-title function_">set</span>(<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;baz&#x27;</span>);
+
+map.<span class="hljs-title function_">get</span>(<span class="hljs-number">1</span>);
+<span class="hljs-comment">// &#x27;baz&#x27;</span>
+</code></pre>
+<h3>以 NaN 作键名</h3>
+<p><code>NaN</code> 也可以作为 Map 对象的键，虽然 <code>NaN</code> 和任何值甚至和自己都不相等（<code>NaN !== NaN</code> 返回 <code>true</code>），但下面的例子表明，两个 <code>NaN</code> 作为 Map 的键来说是没有区别的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+map.<span class="hljs-title function_">set</span>(<span class="hljs-title class_">NaN</span>, <span class="hljs-string">&#x27;Not a number&#x27;</span>);
+
+map.<span class="hljs-title function_">get</span>(<span class="hljs-title class_">NaN</span>);
+<span class="hljs-comment">// &#x27;Not a number&#x27;</span>
+
+<span class="hljs-keyword">const</span> otherNaN = <span class="hljs-title class_">Number</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+map.<span class="hljs-title function_">get</span>(otherNaN);
+<span class="hljs-comment">// &#x27;Not a number&#x27;</span>
+</code></pre>
+<h2>实践应用</h2>
+<h3>实例对象合并</h3>
+<p>合并两个 Map 实例对象时，如果有重复的键值，则<strong>后面的会覆盖前面的</strong>。</p>
+<p>扩展运算符本质上是将 Map 对象转换成数组。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> first = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([
+  [<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;one&#x27;</span>],
+  [<span class="hljs-number">2</span>, <span class="hljs-string">&#x27;two&#x27;</span>],
+  [<span class="hljs-number">3</span>, <span class="hljs-string">&#x27;three&#x27;</span>],
+]);
+
+<span class="hljs-keyword">const</span> second = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([
+  [<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;uno&#x27;</span>],
+  [<span class="hljs-number">2</span>, <span class="hljs-string">&#x27;dos&#x27;</span>],
+]);
+
+<span class="hljs-keyword">const</span> merged = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([...first, ...second]);
+</code></pre>
+<h3>Map 转为数组</h3>
+<p>Map 转为数组最方便的方法就是使用扩展运算符。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>().<span class="hljs-title function_">set</span>(<span class="hljs-literal">true</span>, <span class="hljs-number">1</span>).<span class="hljs-title function_">set</span>({ <span class="hljs-attr">foo</span>: <span class="hljs-number">2</span> }, [<span class="hljs-string">&#x27;abc&#x27;</span>]);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>([...map]);
+<span class="hljs-comment">// [ [true, 1], [ { foo: 2}, [&#x27;abc&#x27;] ] ]</span>
+</code></pre>
+<h3>数组转为 Map</h3>
+<p>将数组传入 Map 构造函数就可以转为 Map。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([
+  [<span class="hljs-literal">true</span>, <span class="hljs-number">7</span>],
+  [{ <span class="hljs-attr">foo</span>: <span class="hljs-number">3</span> }, [<span class="hljs-string">&#x27;abc&#x27;</span>]],
+]);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(m);
+<span class="hljs-comment">// Map {</span>
+<span class="hljs-comment">//	true =&gt; 7,</span>
+<span class="hljs-comment">//  Object {foo: 3} =&gt; [&#x27;abc&#x27;]</span>
+<span class="hljs-comment">// }</span>
+</code></pre>
+<h3>Map 转为对象</h3>
+<p>如果 Map 的所有键都是字符串，则可以转为对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">toObject</span>(<span class="hljs-params">strMap</span>) {
+  <span class="hljs-keyword">let</span> o = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(<span class="hljs-literal">null</span>);
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> [k, v] <span class="hljs-keyword">of</span> strMap) {
+    o[k] = v;
+  }
+  <span class="hljs-keyword">return</span> o;
+}
+
+<span class="hljs-keyword">const</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>().<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;yes&#x27;</span>, <span class="hljs-literal">true</span>).<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;no&#x27;</span>, <span class="hljs-literal">false</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">toObject</span>(m));
+<span class="hljs-comment">// {&#x27;yes&#x27;: true, &#x27;no&#x27;: false}</span>
+</code></pre>
+<h3>对象转为 Map</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">toMap</span>(<span class="hljs-params">obj</span>) {
+  <span class="hljs-keyword">let</span> strMap = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>();
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> k <span class="hljs-keyword">of</span> <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">keys</span>(obj)) {
+    strMap.<span class="hljs-title function_">set</span>(k, obj[k]);
+  }
+  <span class="hljs-keyword">return</span> strMap;
+}
+
+<span class="hljs-keyword">const</span> m = <span class="hljs-title function_">toMap</span>({ <span class="hljs-attr">yes</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">no</span>: <span class="hljs-literal">false</span> });
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(m);
+<span class="hljs-comment">// Map {&quot;yes&quot; =&gt; true, &quot;no&quot; =&gt; false}</span>
+</code></pre>
+<h3>Map 转为 JSON</h3>
+<p>Map 转为 JSON 要区分两种情况。一种情况是， Map 的键名都是字符串，这时可以选择转为对象 JSON。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">toJSON</span> = (<span class="hljs-params">strMap</span>) =&gt; <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(<span class="hljs-title function_">toObject</span>(strMap));
+
+<span class="hljs-keyword">let</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>().<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;yes&#x27;</span>, <span class="hljs-literal">true</span>).<span class="hljs-title function_">set</span>(<span class="hljs-string">&#x27;no&#x27;</span>, <span class="hljs-literal">false</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">toJSON</span>(m));
+<span class="hljs-comment">// &#x27;{&quot;yes&quot;: true, &quot;no&quot;: false}&#x27;</span>
+</code></pre>
+<p>另一种情况是，Map 的键名有非字符串，这时可以选择转为数组 JSON。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">toArrayJSON</span> = (<span class="hljs-params">map</span>) =&gt; <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>([...map]);
+
+<span class="hljs-keyword">let</span> m = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>().<span class="hljs-title function_">set</span>(<span class="hljs-literal">true</span>, <span class="hljs-number">1</span>).<span class="hljs-title function_">set</span>({ <span class="hljs-attr">foo</span>: <span class="hljs-number">2</span> }, [<span class="hljs-string">&#x27;abc&#x27;</span>]);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">toArrayJSON</span>(m));
+<span class="hljs-comment">// &#x27;[[true], 1], [{&#x27;foo&#x27;: 2}, [&#x27;abc&#x27;]]&#x27;</span>
+</code></pre>
+<h3>JSON 转为 Map</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">toMap</span> = (<span class="hljs-params">jsonStr</span>) =&gt; <span class="hljs-title function_">toMap</span>(<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(jsonStr));
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">toMap</span>(<span class="hljs-string">&#x27;{&quot;yes&quot;: true, &quot;no&quot;: false}&#x27;</span>));
+<span class="hljs-comment">// Map {&#x27;yes&#x27; =&gt; true, &#x27;no&#x27;: false}</span>
+</code></pre>
+<p>但是，有一种特殊情况：整个 JSON 就是一个数组，且每个数组成员本身又是一个具有两个成员的数组。这时，它可以一一对应地转为 Map 。这往往是数组转为 JSON 的逆操作。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">toMap</span> = (<span class="hljs-params">jsonStr</span>) =&gt; <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>(<span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(jsonStr));
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">toMap</span>(<span class="hljs-string">&#x27;[[true, 7], [{&quot;foo&quot;: 3}, [&quot;abc&quot;]]]&#x27;</span>));
+<span class="hljs-comment">// Map(true =&gt; 7, Object {foo: 3} =&gt; [&#x27;abc&#x27;])</span>
+</code></pre>
+<h3>替代 if-else</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> timemap = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([
+  [<span class="hljs-number">0</span>, <span class="hljs-string">&#x27;星期天&#x27;</span>],
+  [<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;星期一&#x27;</span>],
+  [<span class="hljs-number">2</span>, <span class="hljs-string">&#x27;星期二&#x27;</span>],
+  [<span class="hljs-number">3</span>, <span class="hljs-string">&#x27;星期三&#x27;</span>],
+  [<span class="hljs-number">4</span>, <span class="hljs-string">&#x27;星期四&#x27;</span>],
+  [<span class="hljs-number">5</span>, <span class="hljs-string">&#x27;星期五&#x27;</span>],
+  [<span class="hljs-number">6</span>, <span class="hljs-string">&#x27;星期六&#x27;</span>],
+]);
+
+<span class="hljs-comment">// 中间使用 React Hooks 的 useEffect 实现</span>
+<span class="hljs-keyword">const</span> [time, setTime] = <span class="hljs-title function_">setState</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>());
+
+<span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-built_in">clearInterval</span>();
+  <span class="hljs-built_in">setInterval</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-built_in">setTimeout</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>());
+  }, <span class="hljs-number">1000</span>);
+});
+
+<span class="hljs-keyword">const</span> res = (timemap.<span class="hljs-title function_">get</span>(time.<span class="hljs-title function_">getDay</span>()) || <span class="hljs-string">&#x27;&#x27;</span>) + time.<span class="hljs-title function_">toLacleTimeString</span>();
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Map"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

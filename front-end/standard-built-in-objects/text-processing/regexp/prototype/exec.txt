@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","regexp","prototype","exec"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/regexp/prototype/exec","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/regexp/prototype/exec","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6gJNxoMFNvgNIntfbW6xp",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T114f,<h1>RegExp.prototype.exec()</h1>
+<p><code>RegExp.prototype.exec()</code> 方法专门为捕获组而设计，该方法在一个指定字符串中执行一个搜索匹配。然后返回包含匹配项信息的数组，在没有匹配项的情况下返回 <code>null</code>。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">RegExp</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-title function_">exec</span>(str);
+</code></pre>
+<h3>参数</h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>regExpObject</code></td>
+<td>匹配的正则表达式。</td>
+<td>regexp</td>
+</tr>
+<tr>
+<td><code>str</code></td>
+<td>指定的字符串。将在该字符串中执行搜索。</td>
+<td>string</td>
+</tr>
+</tbody>
+</table>
+<h3>返回值</h3>
+<ul>
+<li>如果匹配成功，<code>exec()</code> 方法返回一个数组，并更新正则表达式对象的属性。返回的数组将完全匹配成功的文本作为第一项，将正则括号里匹配成功的作为数组填充到后面。</li>
+<li>如果匹配失败，<code>exec()</code> 方法返回 <code>null</code>。</li>
+</ul>
+<p>返回的数组包含两个额外的属性。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>index</code></td>
+<td>表示匹配项在字符串的位置</td>
+</tr>
+<tr>
+<td><code>input</code></td>
+<td>表示应用正则表达式的字符串</td>
+</tr>
+</tbody>
+</table>
+<p><code>exec()</code> 方法的返回值为 Array 类型，如果找到了对应的匹配，则返回数组的成员如下：</p>
+<ul>
+<li>索引 <code>0</code>：存放第一个匹配的子字符串</li>
+<li>属性 <code>index</code>：匹配文本在字符串中的起始索引位置</li>
+<li>属性 <code>input</code>：整个字符串对象（<code>stringObject</code>）</li>
+</ul>
+<p>在 IE 6 ~ IE 8 中，该数组还具有额外的 <code>lastIndex</code> 属性，用于存储字符串中匹配文本最后一个字符的下一个位置。</p>
+<h2>示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Match &quot;quick brown&quot; followed by &quot;jumps&quot;, ignoring characters in between</span>
+<span class="hljs-comment">// Remember &quot;brown&quot; and &quot;jumps&quot;</span>
+<span class="hljs-comment">// Ignore case</span>
+<span class="hljs-keyword">let</span> result = regexp.<span class="hljs-title function_">exec</span>(<span class="hljs-string">&#x27;The Quick Brown Fox Jumps Over The Lazy Dog&#x27;</span>);
+<span class="hljs-keyword">let</span> regexp = <span class="hljs-regexp">/quick\s(brown).+?(jumps)/gi</span>;
+</code></pre>
+<p>下表列出这个脚本的返回值：</p>
+<p><strong>对象 Result</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性/索引</th>
+<th>描述</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[0]</code></td>
+<td>匹配的全部字符串</td>
+<td><code>'Quick Brown Fox Jumps'</code></td>
+</tr>
+<tr>
+<td><code>[1],...,[n]</code></td>
+<td>括号中的分组捕获</td>
+<td><code>[1] = Brown</code> <code>[2] = Jumps</code></td>
+</tr>
+<tr>
+<td><code>index</code></td>
+<td>匹配到的字符位于原始字符串的基于 0 的索引值</td>
+<td><code>4</code></td>
+</tr>
+<tr>
+<td><code>input</code></td>
+<td>原始字符串</td>
+<td><code>'The Quick Brown Fox Jumps Over The Lazy Dog'</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>对象 RegExp</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性/索引</th>
+<th>描述</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lastIndex</code></td>
+<td>下一次匹配开始的位置</td>
+<td><code>25</code></td>
+</tr>
+<tr>
+<td><code>ignoreCase</code></td>
+<td>是否使用了'i'标记使正则匹配忽略大小写</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>global</code></td>
+<td>是否使用了'g'标记来进行全局的匹配</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>multiline</code></td>
+<td>是否使用了'm'标记使正则工作在多行模式（也就是，^ 和 $ 可以匹配字符串中每一行的开始和结束（行是由 \n 或 \r 分割的），而不只是整个输入字符串的最开始和最末尾处。）</td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td><code>source</code></td>
+<td>正则匹配的字符串</td>
+<td><code>quick\s(brown).+?(jumps)</code></td>
+</tr>
+</tbody>
+</table>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"RegExp.prototype.exec"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

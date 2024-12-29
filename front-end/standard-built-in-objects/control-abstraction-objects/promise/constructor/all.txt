@@ -1,0 +1,226 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","constructor","all"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/constructor/all","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/constructor/all","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Tb2URhsRMPfu9p-EQKg4S",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5e30,<h1>Promise.all</h1>
+<p><code>Promise.all</code> 接收一个以 Promise 实例为成员的可迭代对象作为参数，当所有输入的 Promise 成员全部变为 Fulfilled 状态时才会继续执行后续的 <a href="./then">Promise.prototype.then()</a>，如果某个成员变为 Rejected 的时候，函数后续的 <a href="./catch">Promise.prototype.catch()</a> 会被执行。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>(values);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">PromiseConstructor</span> {
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>, <span class="hljs-variable constant_">T6</span>, <span class="hljs-variable constant_">T7</span>, <span class="hljs-variable constant_">T8</span>, <span class="hljs-variable constant_">T9</span>, <span class="hljs-variable constant_">T10</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;,
+      <span class="hljs-variable constant_">T6</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T6</span>&gt;,
+      <span class="hljs-variable constant_">T7</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T7</span>&gt;,
+      <span class="hljs-variable constant_">T8</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T8</span>&gt;,
+      <span class="hljs-variable constant_">T9</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T9</span>&gt;,
+      <span class="hljs-variable constant_">T10</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T10</span>&gt;
+    ]
+  );
+
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>, <span class="hljs-variable constant_">T6</span>, <span class="hljs-variable constant_">T7</span>, <span class="hljs-variable constant_">T8</span>, <span class="hljs-variable constant_">T9</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;,
+      <span class="hljs-variable constant_">T6</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T6</span>&gt;,
+      <span class="hljs-variable constant_">T7</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T7</span>&gt;,
+      <span class="hljs-variable constant_">T8</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T8</span>&gt;,
+      <span class="hljs-variable constant_">T9</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T9</span>&gt;
+    ]
+  );
+
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>, <span class="hljs-variable constant_">T6</span>, <span class="hljs-variable constant_">T7</span>, <span class="hljs-variable constant_">T8</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;,
+      <span class="hljs-variable constant_">T6</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T6</span>&gt;,
+      <span class="hljs-variable constant_">T7</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T7</span>&gt;,
+      <span class="hljs-variable constant_">T8</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T8</span>&gt;
+    ]
+  );
+
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>, <span class="hljs-variable constant_">T6</span>, <span class="hljs-variable constant_">T7</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;,
+      <span class="hljs-variable constant_">T6</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T6</span>&gt;,
+      <span class="hljs-variable constant_">T7</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T7</span>&gt;
+    ]
+  );
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>, <span class="hljs-variable constant_">T6</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;,
+      <span class="hljs-variable constant_">T6</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T6</span>&gt;
+    ]
+  );
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>, <span class="hljs-variable constant_">T5</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;,
+      <span class="hljs-variable constant_">T5</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T5</span>&gt;
+    ]
+  );
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>, <span class="hljs-variable constant_">T4</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [
+      <span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;,
+      <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;,
+      <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;,
+      <span class="hljs-variable constant_">T4</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T4</span>&gt;
+    ]
+  );
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>, <span class="hljs-variable constant_">T3</span>&gt;(
+    <span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [<span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;, <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;, <span class="hljs-variable constant_">T3</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T3</span>&gt;]
+  );
+  all&lt;<span class="hljs-variable constant_">T1</span>, <span class="hljs-variable constant_">T2</span>&gt;(<span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [<span class="hljs-variable constant_">T1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T1</span>&gt;, <span class="hljs-variable constant_">T2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-variable constant_">T2</span>&gt;]);
+  all&lt;T&gt;(<span class="hljs-attr">values</span>: <span class="hljs-keyword">readonly</span> [T | <span class="hljs-title class_">PromiseLike</span>&lt;T&gt;]);
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">参数说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">values</td>
+<td style="text-align:left">见下方</td>
+<td style="text-align:left">any</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>空的具备 Iterator 接口的对象，将返回 Fulfilled 状态的 Promise |</li>
+<li>不包含任何 Promise，将返回异步完成的 Promise |</li>
+<li>其他情况，将返回 Pending 状态的 Promise |</li>
+<li><code>iterable</code>：必须具备 <a href="../../iterator-objects/iterator">Iterator</a> 接口，且每个成员都是 Promise 实例。</li>
+<li>如果 <code>iterable</code> 内每个成员都不是 Promise 实例，会先调用 <a href="resolve">Promise.resolve</a> 将每个成员转化为 Promise 实例，再进一步处理。</li>
+</ul>
+<h2>方法说明</h2>
+<p><code>Promise.all</code> 执行后返回一个新创建的 Promise 实例，该实例状态由 <code>Promise.all</code> 参数成员决定，可以分为两种情况：</p>
+<ul>
+<li>当参数每个 Promise 实例成员均为 <strong><em>Resolved</em></strong>，返回值才会变为 <strong><em>Resolved</em></strong> 状态。此时参数每个 Promise 实例成员的返回值会组成一个数组，传递给回调函数。</li>
+<li>只要参数每个 Promise 实例成员之中有一个为 <strong><em>Rejected</em></strong>，<code>Promise.all</code> 返回值就会变成 <strong><em>Rejected</em></strong>，此时第一个 Rejected 状态的 Promise 实例的返回值，会传递给回调函数。</li>
+</ul>
+<p>⚠️ <strong>注意</strong>：作为参数的 Promise 实例，自身定义的 <code>catch</code> 方法，那么它的状态一旦变更为 Rejected，并不会触发 <code>Promise.all</code> 的 <code>catch</code> 方法。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;hello&#x27;</span>);
+})
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">result</span>) =&gt;</span> result)
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> err);
+
+<span class="hljs-keyword">const</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-string">&#x27;报错了&#x27;</span>);
+})
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">result</span>) =&gt;</span> result)
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> err);
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>([p1, p2])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">result</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(result)) <span class="hljs-comment">// [&quot;hello&quot;, Error: 报错了]</span>
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err));
+</code></pre>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<p>Promise 等待所有 Promise 实例都 Fulfilled（或首个 Rejected）。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> p1 = <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;3&#x27;</span>);
+<span class="hljs-keyword">const</span> p2 = <span class="hljs-number">1234</span>;
+<span class="hljs-keyword">const</span> p3 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">100</span>, <span class="hljs-string">&#x27;foo&#x27;</span>);
+});
+
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>([p1, p2, p3]).<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">v</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(v));
+<span class="hljs-comment">// [&#x27;3&#x27;, 1234, &#x27;foo&#x27;]</span>
+</code></pre>
+<h3>快速返回否决行为</h3>
+<p><code>Promise.all</code> 在任意一个传入的 Promise 否决时返回新的 Rejected 状态的 Promise 实例。</p>
+<p>例如，如果你传入的 Promise 中，有四个 Promise 实例在一定的时间之后调用成功函数，有一个立即调用失败函数，那么 <code>Promise.all</code> 将立即变为 Rejected 状态。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> p1 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">1000</span>, <span class="hljs-string">&#x27;one&#x27;</span>);
+});
+
+<span class="hljs-keyword">var</span> p2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">2000</span>, <span class="hljs-string">&#x27;two&#x27;</span>);
+});
+
+<span class="hljs-keyword">var</span> p3 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">3000</span>, <span class="hljs-string">&#x27;three&#x27;</span>);
+});
+
+<span class="hljs-keyword">var</span> p4 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">4000</span>, <span class="hljs-string">&#x27;four&#x27;</span>);
+});
+
+<span class="hljs-keyword">var</span> p5 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-title function_">reject</span>(<span class="hljs-string">&#x27;reject&#x27;</span>);
+});
+
+<span class="hljs-comment">// You can also use .catch</span>
+<span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>([p1, p2, p3, p4, p5])
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">values</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(values);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">reason</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(reason);
+  });
+</code></pre>
+<h3>完成时回调 Hack</h3>
+<p>如果你需要在所有的 Promise 都结束之后执行某些操作，而不论他们是否 Fulfilled，Promise.all 的这种机制就会成为一种限制，有个比较 Trick 的办法是给 <code>.then</code> 和 <code>.catch</code> 传入相同的回调，显然，这会让代码的可读性大打折扣。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>(promises.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">p</span>) =&gt;</span> p.<span class="hljs-title function_">catch</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-literal">undefined</span>)));
+</code></pre>
+<p>如果 Promise 的 <code>.catch</code> 回调返回了 <code>undefined</code>，那么 Promise 的失败就会被当做成功来处理。</p>
+<p>🌰 <strong>代码示例</strong>：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>(
+  [
+    <span class="hljs-comment">// Fulfilled</span>
+    <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>(<span class="hljs-number">1</span>),
+    <span class="hljs-comment">// Rejects after 2 seconds</span>
+    <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> <span class="hljs-built_in">setTimeout</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-title function_">reject</span>(<span class="hljs-number">1</span>), <span class="hljs-number">2000</span>)),
+  ].<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">p</span>) =&gt;</span> p.<span class="hljs-title function_">catch</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-literal">undefined</span>))
+).<span class="hljs-title function_">then</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;done!&#x27;</span>));
+
+<span class="hljs-comment">// &gt;&gt; done!</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es2015.promise.d.ts">TypeScript - lib.es2015.promise.d.ts</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/26920718">📝 Promise.all 处理 Rejection 的技巧</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Promise.all"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

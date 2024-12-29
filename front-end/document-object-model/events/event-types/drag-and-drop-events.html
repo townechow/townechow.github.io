@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1>拖拽事件</h1><article><h1>拖拽事件</h1>
+<p>每一个可拖动的元素，在拖动过程中，都会经历三个过程：<code>拖动开始</code> ==&gt; <code>拖动过程中</code> ==&gt; <code>拖动结束</code>。</p>
+<table>
+<thead>
+<tr>
+<th>针对对象</th>
+<th>事件名称</th>
+<th>说明</th>
+<th>MDN 文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>被拖动的元素</td>
+<td>dragstart</td>
+<td>在元素开始拖动时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>drag</td>
+<td>在元素拖动时反复触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragend</td>
+<td>在拖动操作完成时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend">文档</a></td>
+</tr>
+<tr>
+<td>目的地对象</td>
+<td>dragenter</td>
+<td>当被拖动元素进入目的地元素所占据的屏幕空间时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragover</td>
+<td>当被拖动元素在目的地元素内时触发（每 100ms 触发一次）</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragleave</td>
+<td>当被拖动元素没有放下就离开目的地元素时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>drop</td>
+<td></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop">文档</a></td>
+</tr>
+</tbody>
+</table>
+<h2>实践应用</h2>
+<h3>常见业务场景</h3>
+<ul>
+<li>操作类拖拽：拖拽文件上传</li>
+<li>功能性拖拽：拖拽排序，具有指向性，位置互换</li>
+<li>使用方便型：对某些固定元素，使其随处可放</li>
+</ul>
+<h2>拖放的流程</h2>
+<p>拖放的流程：用户通过鼠标选中一个可拖动的（draggable）元素，移动鼠标到一个可放置的（droppable）元素，然后释放鼠标。</p>
+<pre class="hljs"><code>选中 ===&gt; 拖放 ===&gt; 释放
+</code></pre>
+<h3>定义可拖动元素</h3>
+<p>在 HTML5 标准中，为了使元素可拖动，需要将元素的 <code>draggable</code> 属性设置为 <code>true</code>。</p>
+<p>文本、图片和链接时默认可以拖放的，它们的 <code>draggable</code> 属性自动被设置为 <code>true</code>。</p>
+<p>图片和链接按住鼠标左键选中即可拖放。</p>
+<p>文本只有在被选中的情况下才能拖放。如果显示设置文本的 <code>draggable</code> 属性为 <code>true</code>，按住鼠标左键也可以直接拖放。</p>
+<p><code>draggable</code> 属性：设置元素是否可拖动。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">element</span> <span class="hljs-attr">draggable</span>=<span class="hljs-string">&quot;true | false | auto&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">element</span>&gt;</span>
+</code></pre>
+<ul>
+<li><code>true</code>：可以拖动</li>
+<li><code>false</code>：禁止拖动</li>
+<li><code>auto</code>：跟随浏览器定义是否可以拖动</li>
+</ul>
+<h3>拖动事件</h3>
+<p>每一个可拖动的元素，在拖动过程中，都会经历三个过程：<code>拖动开始</code> ==&gt; <code>拖动过程中</code> ==&gt; <code>拖动结束</code>。</p>
+<table>
+<thead>
+<tr>
+<th>针对对象</th>
+<th>事件名称</th>
+<th>说明</th>
+<th>MDN 文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>被拖动的元素</td>
+<td>dragstart</td>
+<td>在元素开始拖动时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>drag</td>
+<td>在元素拖动时反复触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragend</td>
+<td>在拖动操作完成时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend">文档</a></td>
+</tr>
+<tr>
+<td>目的地对象</td>
+<td>dragenter</td>
+<td>当被拖动元素进入目的地元素所占据的屏幕空间时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragover</td>
+<td>但被拖动元素在目的地元素内时触发（每 100ms 触发一次）</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover">文档</a></td>
+</tr>
+<tr>
+<td></td>
+<td>dragleave</td>
+<td>当被拖动元素没有放下就离开目的地元素时触发</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">文档</a></td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ <code>dragenter</code> 和 <code>dragover</code> 事件的默认行为时拒绝接收任何被拖放的元素。因此，我们必须阻止浏览器这种默认行为。</p>
+<p>⚠️ 注意当从操作系统向浏览器中拖动文件时，不会触发 <code>dragstart</code> 和 <code>dragend</code> 事件。</p>
+<h3>释放事件</h3>
+<p>到达目的地之后，释放元素事件。</p>
+<table>
+<thead>
+<tr>
+<th>针对对象</th>
+<th>事件名称</th>
+<th>说明</th>
+<th>MDN 文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目的地对象</td>
+<td>drop</td>
+<td>当被拖动元素在目的地元素里放下时触发，一般需要取消浏览器的默认行为</td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop">文档</a></td>
+</tr>
+</tbody>
+</table>
+<h1>DataTransfer 对象</h1>
+<p>与拖放操作所触发的事件同时派发的对象是 DragEvent，它派生于 MouseEvent，具有 Event 与 MouseEvent 对象的所有功能，并增加了 <code>dataTransfer</code> 属性。该属性用于保存拖放的数据和交互信息，返回 DataTransfer 对象。</p>
+<p>DataTransfer 对象定义的属性和方法有很多种，我们看下列入标准的几个。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/types">types</a></td>
+<td>只读属性。它返回一个我们在 <code>dragstart</code> 事件中设置的<strong>拖动数据格式的数组</strong>。 格式顺序与拖动操作中包含的数据顺序相同。IE10+、Edge、Safari3.1、Firefox3.5+ 和 Chrome4 以上支持该属性。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/files">files</a></td>
+<td>返回拖动操作中的<strong>文件列表</strong>。包含一个在数据传输上所有可用的本地文件列表。如果拖动操作不涉及拖动文件，此属性是一个空列表。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect">dropEffect</a></td>
+<td>获取当前选定的拖放操作的类型或将操作设置为新类型。可选值包括 <code>none</code>、<code>move</code>、<code>copy</code>、<code>link</code>。<code>dragover</code> 事件处理程序中针对放置目标来设置 dropEffect。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/effectAllowed">effectAllowed</a></td>
+<td>指定拖放操作所允许的效果。可选值为 <code>none</code>、<code>copy</code>、<code>copyLink</code>、<code>copyMove</code>、<code>link</code>、<code>linkMove</code>、<code>move</code>、<code>all</code>、<code>uninitialized</code> 默认为 <code>uninitialized</code> 表示允许所有的效果。<code>ondragstart</code> 处理程序中设置 <code>effectAllowed</code> 属性。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setData"><code>void setData(format, data)</code></a></td>
+<td>将拖动操作的拖动数据设置为指定的数据和类型。<code>format</code> 可以是 MIME 类型。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/getData"><code>String getData(format)</code></a></td>
+<td>返回指定格式的数据，<code>format</code> 与 <code>setData()</code> 中一致。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/clearData"><code>void clearData([format])</code></a></td>
+<td>删除给定类型的拖动操作的数据。如果给定类型的数据不存在，此方法不执行任何操作。如果不给定参数，则删除所有类型的数据。</td>
+</tr>
+<tr>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setDragImage"><code>void setDragImage(img, xOffset, yOffset)</code></a></td>
+<td>指定一副图像，当拖动发生时，显示在光标下方。大多数情况下不用设置，因为被拖动的节点被创建成默认图片。<code>x</code>、<code>y</code> 参数分别指示图像的水平、垂直偏移量</td>
+</tr>
+</tbody>
+</table>
+<h2>兼容性</h2>
+<table>
+<thead>
+<tr>
+<th>IE</th>
+<th>Edge</th>
+<th>Firefox</th>
+<th>Chrome</th>
+<th>Safari</th>
+<th>Opera</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>16</td>
+<td>56</td>
+<td>62</td>
+<td>11</td>
+<td>48</td>
+</tr>
+</tbody>
+</table>
+<h2>社区类库</h2>
+<ul>
+<li><a href="https://github.com/farhadi/html5sortable">HTML5 Sortable jQuery Plugin</a></li>
+<li><a href="https://github.com/mzabriskie/react-draggable">React-Draggable</a></li>
+<li><a href="https://github.com/vuejs/awesome-vue#drag-and-drop">Awesome-Vue:Drag&amp;Drop Component</a></li>
+</ul>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://html.spec.whatwg.org/multipage/interaction.html#dndevents">📖 Living Standard: dndevents</a></li>
+</ul>
+<ul>
+<li><a href="https://juejin.im/entry/59eebc39f265da431c6f7bdb">HTML5 拖放实现</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">HTML5 原生拖拽/拖放 Drag &amp; Drop 详解</a></li>
+<li><a href="https://juejin.im/post/5907d058da2f60005d0f8b15">HTML5 进阶系列：拖放 API 实现拖放排序</a></li>
+</ul>
+<p>&lt;code src=&quot;../../../../example/drag-and-drop-events/index.tsx&quot; /&gt;</p>
+<p>https://html.spec.whatwg.org/multipage/dnd.html#drag-data-store</p>
+<p>https://html.spec.whatwg.org/multipage/dnd.html#dndevents</p>
+<p>https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop2</p>
+<p>https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop</p>
+<p>https://www.w3schools.com/html/html5_draganddrop.asp</p>
+<p>https://cloud.tencent.com/developer/ask/132127</p>
+<p>https://segmentfault.com/a/1190000014093547</p>
+<p>https://javascript.info/mouse-drag-and-drop</p>
+<p>https://github.com/qgh810/dnd/blob/master/src/drag.js</p>
+<p>https://segmentfault.com/a/1190000014723549?utm_source=sf-similar-article</p>
+<p>https://segmentfault.com/a/1190000019454559?utm_source=sf-similar-article</p>
+<p>https://segmentfault.com/a/1190000023427610?utm_source=sf-similar-article</p>
+<p>https://segmentfault.com/a/1190000014093547</p>
+<p>利用 mouse events 实现 drag and drop 事件</p>
+<p>https://javascript.info/mouse-drag-and-drop</p>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"document-object-model\",\"events\",\"event-types\",\"drag-and-drop-events\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"document-object-model/events/event-types/drag-and-drop-events\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"document-object-model/events/event-types/drag-and-drop-events\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"X7qUSHXwQHiY5SjOh-O6u\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:T2ba9,"])</script><script>self.__next_f.push([1,"\u003ch1\u003e拖拽事件\u003c/h1\u003e\n\u003cp\u003e每一个可拖动的元素，在拖动过程中，都会经历三个过程：\u003ccode\u003e拖动开始\u003c/code\u003e ==\u0026gt; \u003ccode\u003e拖动过程中\u003c/code\u003e ==\u0026gt; \u003ccode\u003e拖动结束\u003c/code\u003e。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e针对对象\u003c/th\u003e\n\u003cth\u003e事件名称\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003cth\u003eMDN 文档\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e被拖动的元素\u003c/td\u003e\n\u003ctd\u003edragstart\u003c/td\u003e\n\u003ctd\u003e在元素开始拖动时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edrag\u003c/td\u003e\n\u003ctd\u003e在元素拖动时反复触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/drag\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragend\u003c/td\u003e\n\u003ctd\u003e在拖动操作完成时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e目的地对象\u003c/td\u003e\n\u003ctd\u003edragenter\u003c/td\u003e\n\u003ctd\u003e当被拖动元素进入目的地元素所占据的屏幕空间时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragover\u003c/td\u003e\n\u003ctd\u003e当被拖动元素在目的地元素内时触发（每 100ms 触发一次）\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragleave\u003c/td\u003e\n\u003ctd\u003e当被拖动元素没有放下就离开目的地元素时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edrop\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/drop\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e实践应用\u003c/h2\u003e\n\u003ch3\u003e常见业务场景\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e操作类拖拽：拖拽文件上传\u003c/li\u003e\n\u003cli\u003e功能性拖拽：拖拽排序，具有指向性，位置互换\u003c/li\u003e\n\u003cli\u003e使用方便型：对某些固定元素，使其随处可放\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e拖放的流程\u003c/h2\u003e\n\u003cp\u003e拖放的流程：用户通过鼠标选中一个可拖动的（draggable）元素，移动鼠标到一个可放置的（droppable）元素，然后释放鼠标。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode\u003e选中 ===\u0026gt; 拖放 ===\u0026gt; 释放\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e定义可拖动元素\u003c/h3\u003e\n\u003cp\u003e在 HTML5 标准中，为了使元素可拖动，需要将元素的 \u003ccode\u003edraggable\u003c/code\u003e 属性设置为 \u003ccode\u003etrue\u003c/code\u003e。\u003c/p\u003e\n\u003cp\u003e文本、图片和链接时默认可以拖放的，它们的 \u003ccode\u003edraggable\u003c/code\u003e 属性自动被设置为 \u003ccode\u003etrue\u003c/code\u003e。\u003c/p\u003e\n\u003cp\u003e图片和链接按住鼠标左键选中即可拖放。\u003c/p\u003e\n\u003cp\u003e文本只有在被选中的情况下才能拖放。如果显示设置文本的 \u003ccode\u003edraggable\u003c/code\u003e 属性为 \u003ccode\u003etrue\u003c/code\u003e，按住鼠标左键也可以直接拖放。\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003edraggable\u003c/code\u003e 属性：设置元素是否可拖动。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-html\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eelement\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003edraggable\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;true | false | auto\u0026quot;\u003c/span\u003e\u0026gt;\u003c/span\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eelement\u003c/span\u003e\u0026gt;\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003etrue\u003c/code\u003e：可以拖动\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003efalse\u003c/code\u003e：禁止拖动\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eauto\u003c/code\u003e：跟随浏览器定义是否可以拖动\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e拖动事件\u003c/h3\u003e\n\u003cp\u003e每一个可拖动的元素，在拖动过程中，都会经历三个过程：\u003ccode\u003e拖动开始\u003c/code\u003e ==\u0026gt; \u003ccode\u003e拖动过程中\u003c/code\u003e ==\u0026gt; \u003ccode\u003e拖动结束\u003c/code\u003e。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e针对对象\u003c/th\u003e\n\u003cth\u003e事件名称\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003cth\u003eMDN 文档\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e被拖动的元素\u003c/td\u003e\n\u003ctd\u003edragstart\u003c/td\u003e\n\u003ctd\u003e在元素开始拖动时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edrag\u003c/td\u003e\n\u003ctd\u003e在元素拖动时反复触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/drag\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragend\u003c/td\u003e\n\u003ctd\u003e在拖动操作完成时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e目的地对象\u003c/td\u003e\n\u003ctd\u003edragenter\u003c/td\u003e\n\u003ctd\u003e当被拖动元素进入目的地元素所占据的屏幕空间时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragover\u003c/td\u003e\n\u003ctd\u003e但被拖动元素在目的地元素内时触发（每 100ms 触发一次）\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003edragleave\u003c/td\u003e\n\u003ctd\u003e当被拖动元素没有放下就离开目的地元素时触发\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e⚠️ \u003ccode\u003edragenter\u003c/code\u003e 和 \u003ccode\u003edragover\u003c/code\u003e 事件的默认行为时拒绝接收任何被拖放的元素。因此，我们必须阻止浏览器这种默认行为。\u003c/p\u003e\n\u003cp\u003e⚠️ 注意当从操作系统向浏览器中拖动文件时，不会触发 \u003ccode\u003edragstart\u003c/code\u003e 和 \u003ccode\u003edragend\u003c/code\u003e 事件。\u003c/p\u003e\n\u003ch3\u003e释放事件\u003c/h3\u003e\n\u003cp\u003e到达目的地之后，释放元素事件。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e针对对象\u003c/th\u003e\n\u003cth\u003e事件名称\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003cth\u003eMDN 文档\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e目的地对象\u003c/td\u003e\n\u003ctd\u003edrop\u003c/td\u003e\n\u003ctd\u003e当被拖动元素在目的地元素里放下时触发，一般需要取消浏览器的默认行为\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/drop\"\u003e文档\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003eDataTransfer 对象\u003c/h1\u003e\n\u003cp\u003e与拖放操作所触发的事件同时派发的对象是 DragEvent，它派生于 MouseEvent，具有 Event 与 MouseEvent 对象的所有功能，并增加了 \u003ccode\u003edataTransfer\u003c/code\u003e 属性。该属性用于保存拖放的数据和交互信息，返回 DataTransfer 对象。\u003c/p\u003e\n\u003cp\u003eDataTransfer 对象定义的属性和方法有很多种，我们看下列入标准的几个。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e属性\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/types\"\u003etypes\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e只读属性。它返回一个我们在 \u003ccode\u003edragstart\u003c/code\u003e 事件中设置的\u003cstrong\u003e拖动数据格式的数组\u003c/strong\u003e。 格式顺序与拖动操作中包含的数据顺序相同。IE10+、Edge、Safari3.1、Firefox3.5+ 和 Chrome4 以上支持该属性。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/files\"\u003efiles\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e返回拖动操作中的\u003cstrong\u003e文件列表\u003c/strong\u003e。包含一个在数据传输上所有可用的本地文件列表。如果拖动操作不涉及拖动文件，此属性是一个空列表。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect\"\u003edropEffect\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e获取当前选定的拖放操作的类型或将操作设置为新类型。可选值包括 \u003ccode\u003enone\u003c/code\u003e、\u003ccode\u003emove\u003c/code\u003e、\u003ccode\u003ecopy\u003c/code\u003e、\u003ccode\u003elink\u003c/code\u003e。\u003ccode\u003edragover\u003c/code\u003e 事件处理程序中针对放置目标来设置 dropEffect。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/effectAllowed\"\u003eeffectAllowed\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e指定拖放操作所允许的效果。可选值为 \u003ccode\u003enone\u003c/code\u003e、\u003ccode\u003ecopy\u003c/code\u003e、\u003ccode\u003ecopyLink\u003c/code\u003e、\u003ccode\u003ecopyMove\u003c/code\u003e、\u003ccode\u003elink\u003c/code\u003e、\u003ccode\u003elinkMove\u003c/code\u003e、\u003ccode\u003emove\u003c/code\u003e、\u003ccode\u003eall\u003c/code\u003e、\u003ccode\u003euninitialized\u003c/code\u003e 默认为 \u003ccode\u003euninitialized\u003c/code\u003e 表示允许所有的效果。\u003ccode\u003eondragstart\u003c/code\u003e 处理程序中设置 \u003ccode\u003eeffectAllowed\u003c/code\u003e 属性。\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e方法\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setData\"\u003e\u003ccode\u003evoid setData(format, data)\u003c/code\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e将拖动操作的拖动数据设置为指定的数据和类型。\u003ccode\u003eformat\u003c/code\u003e 可以是 MIME 类型。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/getData\"\u003e\u003ccode\u003eString getData(format)\u003c/code\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e返回指定格式的数据，\u003ccode\u003eformat\u003c/code\u003e 与 \u003ccode\u003esetData()\u003c/code\u003e 中一致。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/clearData\"\u003e\u003ccode\u003evoid clearData([format])\u003c/code\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e删除给定类型的拖动操作的数据。如果给定类型的数据不存在，此方法不执行任何操作。如果不给定参数，则删除所有类型的数据。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setDragImage\"\u003e\u003ccode\u003evoid setDragImage(img, xOffset, yOffset)\u003c/code\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd\u003e指定一副图像，当拖动发生时，显示在光标下方。大多数情况下不用设置，因为被拖动的节点被创建成默认图片。\u003ccode\u003ex\u003c/code\u003e、\u003ccode\u003ey\u003c/code\u003e 参数分别指示图像的水平、垂直偏移量\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e兼容性\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eIE\u003c/th\u003e\n\u003cth\u003eEdge\u003c/th\u003e\n\u003cth\u003eFirefox\u003c/th\u003e\n\u003cth\u003eChrome\u003c/th\u003e\n\u003cth\u003eSafari\u003c/th\u003e\n\u003cth\u003eOpera\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e11\u003c/td\u003e\n\u003ctd\u003e16\u003c/td\u003e\n\u003ctd\u003e56\u003c/td\u003e\n\u003ctd\u003e62\u003c/td\u003e\n\u003ctd\u003e11\u003c/td\u003e\n\u003ctd\u003e48\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e社区类库\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/farhadi/html5sortable\"\u003eHTML5 Sortable jQuery Plugin\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/mzabriskie/react-draggable\"\u003eReact-Draggable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/vuejs/awesome-vue#drag-and-drop\"\u003eAwesome-Vue:Drag\u0026amp;Drop Component\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e参考资料\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://html.spec.whatwg.org/multipage/interaction.html#dndevents\"\u003e📖 Living Standard: dndevents\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://juejin.im/entry/59eebc39f265da431c6f7bdb\"\u003eHTML5 拖放实现\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave\"\u003eHTML5 原生拖拽/拖放 Drag \u0026amp; Drop 详解\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://juejin.im/post/5907d058da2f60005d0f8b15\"\u003eHTML5 进阶系列：拖放 API 实现拖放排序\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026lt;code src=\u0026quot;../../../../example/drag-and-drop-events/index.tsx\u0026quot; /\u0026gt;\u003c/p\u003e\n\u003cp\u003ehttps://html.spec.whatwg.org/multipage/dnd.html#drag-data-store\u003c/p\u003e\n\u003cp\u003ehttps://html.spec.whatwg.org/multipage/dnd.html#dndevents\u003c/p\u003e\n\u003cp\u003ehttps://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop2\u003c/p\u003e\n\u003cp\u003ehttps://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop\u003c/p\u003e\n\u003cp\u003ehttps://www.w3schools.com/html/html5_draganddrop.asp\u003c/p\u003e\n\u003cp\u003ehttps://cloud.tencent.com/developer/ask/132127\u003c/p\u003e\n\u003cp\u003ehttps://segmentfault.com/a/1190000014093547\u003c/p\u003e\n\u003cp\u003ehttps://javascript.info/mouse-drag-and-drop\u003c/p\u003e\n\u003cp\u003ehttps://github.com/qgh810/dnd/blob/master/src/drag.js\u003c/p\u003e\n\u003cp\u003ehttps://segmentfault.com/a/1190000014723549?utm_source=sf-similar-article\u003c/p\u003e\n\u003cp\u003ehttps://segmentfault.com/a/1190000019454559?utm_source=sf-similar-article\u003c/p\u003e\n\u003cp\u003ehttps://segmentfault.com/a/1190000023427610?utm_source=sf-similar-article\u003c/p\u003e\n\u003cp\u003ehttps://segmentfault.com/a/1190000014093547\u003c/p\u003e\n\u003cp\u003e利用 mouse events 实现 drag and drop 事件\u003c/p\u003e\n\u003cp\u003ehttps://javascript.info/mouse-drag-and-drop\u003c/p\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"拖拽事件\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

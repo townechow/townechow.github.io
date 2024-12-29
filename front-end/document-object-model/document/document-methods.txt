@@ -1,0 +1,400 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","document-object-model","document","document-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/document/document-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/document/document-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ClRaFQx8tZVwdK94p2-oN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T7bcb,<h1>Document 方法</h1>
+<h2>修改文档</h2>
+<h3>open</h3>
+<p>打开一个要写入的文档。</p>
+<p>这将会有一些连带的影响。例如：</p>
+<ul>
+<li>此时已注册到文档、文档中的节点或文档的 Window 的所有事件监听器会被清除</li>
+<li>文档中的所有节点会被清除</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">open</span>();
+</code></pre>
+<ul>
+<li>当 <code>document.write()</code> 在页面加载后调用，会发生自动的 <code>document.open()</code> 调用。</li>
+<li>不要和 <code>window.open()</code> 方法混淆。<code>document.open</code> 可用于重写当前的文档内容或者追加内容，而 <code>window.open</code> 是提供了打开一个新的窗口的方法，当前的网页文档内容给你会被保留。由于 Window 是一个全局对象，直接调用 <code>open(...)</code> 和 <code>window.open(...)</code> 的效果是一样的。</li>
+</ul>
+<h3>write</h3>
+<p>将一个文本字符串写入一个由 <code>document.open()</code> 打开的文档流。</p>
+<p>📖 <strong>语法:</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">write</span>(maskup);
+</code></pre>
+<p>参数 <code>maskup</code> 为一个包含要写入文档的文本的字符串。</p>
+<p>对文档的写入操作主要通过 <code>document.write()</code> 方法。该方法主要用在两方面：</p>
+<ul>
+<li>页面载入过程中用实时脚本创建页面内容</li>
+<li>用延时脚本创建本窗口或新窗口的内容</li>
+</ul>
+<blockquote>
+<p>只有当页面被加载的时候 <code>document.write()</code> 函数才会被执行</p>
+</blockquote>
+<p>⚠️ <strong>注意</strong>：</p>
+<ul>
+<li>因为 <code>document.write()</code> 需要向文档流中写入内容，所以，若在一个已关闭（例如，已完成加载）的文档上调用 <code>document.write()</code>，就会自动调用 <code>document.open()</code>，浙江清空该文档的内容。</li>
+<li>在由 <code>deferred</code> 或 <code>asynchronous</code> 属性的 <code>&lt;script&gt;</code> 中，<code>document.write()</code> 会被忽略，控制台会显示 “A call to <code>document.write()</code> from an asynchronously-loaded external script was ignored” 的报错信息</li>
+</ul>
+<h3>writeIn</h3>
+<p>向当前文档写入内容，尾部添加换行符</p>
+<h3>close</h3>
+<p>用于结束对文档的写入操作，这种写入操作一般由 <code>document.open()</code> 打开。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 打开一个文档，以便写入数据</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">open</span>();
+
+<span class="hljs-comment">// 写入文档内容</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">write</span>();
+
+<span class="hljs-comment">// 关闭文档</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">close</span>();
+</code></pre>
+<h3>hasFocus</h3>
+<p>表明当前文档或者当前文档内的节点是否获得了焦点，该方法可用来判断当前文档中的活动元素是否获得了焦点。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> focused = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">hasFocus</span>();
+</code></pre>
+<p>🌰 <strong>示例：检测页面是否获得焦点</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">checkPageFocus</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> info = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;message&#x27;</span>);
+  <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">hasFocus</span>()) {
+    info.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;该页面获得了焦点&#x27;</span>;
+  } <span class="hljs-keyword">else</span> {
+    info.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;该页面没有获得焦点&#x27;</span>;
+  }
+}
+</code></pre>
+<h3>elementFromPoint</h3>
+<p>通过 <code>document.elementFromPoint(x, y)</code> 根据横纵坐标获取目标元素对象，该元素对象必须支持和响应鼠标事件。</p>
+<p>获取文档中位于页面指定位置最上层的子元素节点。这个方法可以用于检测元素是否发生重叠或碰撞。</p>
+<p>参数：</p>
+<ul>
+<li><code>x</code>：（必填项）定位横坐标偏移量，指 <code>clientX</code></li>
+<li><code>y</code>：（必填项）定位纵坐标偏移量，指 <code>clientY</code></li>
+</ul>
+<p>返回值为指定坐标上的元素数组（顺序以时间冒泡为依据）</p>
+<p>🌰 <strong>示例：检测元素可见性</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> isElementVisible = <span class="hljs-keyword">function</span>(<span class="hljs-params">elem</span>) {
+  <span class="hljs-keyword">const</span> win = <span class="hljs-variable language_">window</span>, doc = <span class="hljs-variable language_">document</span>, height, rects;
+
+  <span class="hljs-keyword">if</span> (!elem || (elem &amp;&amp; elem.<span class="hljs-property">nodeType</span> !== <span class="hljs-number">1</span>) || !elem.<span class="hljs-property">getClientRects</span> || !doc.<span class="hljs-property">elementFromPoint</span> || !doc.<span class="hljs-property">querySelector</span> || !elem.<span class="hljs-property">contains</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+  <span class="hljs-keyword">if</span> (elem.<span class="hljs-property">offsetWidth</span> === <span class="hljs-number">0</span> || elem.<span class="hljs-property">offsetHeight</span> === <span class="hljs-number">0</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+  height = win.<span class="hljs-property">innerHeight</span> ? win.<span class="hljs-property">innerHeight</span> : doc.<span class="hljs-property">documentElement</span>.<span class="hljs-property">clientHeight</span>;
+  rects.<span class="hljs-property">elem</span>.<span class="hljs-title function_">getClientRects</span>();
+
+  <span class="hljs-keyword">const</span> offsetTop = <span class="hljs-keyword">function</span> (<span class="hljs-params">r, elem</span>) {
+    <span class="hljs-keyword">const</span> x = (r.<span class="hljs-property">left</span> + r.<span class="hljs-property">right</span>) / <span class="hljs-number">2</span>,
+          y = (r.<span class="hljs-property">top</span> + r.<span class="hljs-property">bottom</span>) / <span class="hljs-number">2</span>,
+          elemFromPoint = doc.<span class="hljs-title function_">elementFromPoint</span>(x, y);
+
+    <span class="hljs-keyword">return</span> (elemFromPoint === elem || elem.<span class="hljs-title function_">contains</span>(elemFromPoint));
+  }
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; len = rects.<span class="hljs-property">length</span>; i &lt; len; i++) {
+    <span class="hljs-keyword">let</span> item = rects[i],
+        inViewport = r.<span class="hljs-property">top</span> &gt; <span class="hljs-number">0</span> ? r.<span class="hljs-property">top</span> &lt;= height : (r.<span class="hljs-property">bottom</span> &gt; <span class="hljs-number">0</span> &amp;&amp; r.<span class="hljs-property">bottom</span> &lt;= height);
+
+    <span class="hljs-keyword">if</span> (inViewport &amp;&amp; <span class="hljs-title function_">offsetTop</span>(r, elem)) {
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+    }
+  }
+
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+</code></pre>
+<h3>adoptNode</h3>
+<p>将某个节点，从其原来所在的文档移除，插入当前文档，并返回插入后的新节点。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">adoptNode</span>(externalNode);
+</code></pre>
+<blockquote>
+<p>该方法不但可以从 <code>iframe</code> 中获取 <code>adopt</code> 元素，在同一 document 文档下的不同两个元素中也可以使用，该方法可以实现从左边栏列表中选取某些元素加载到右边栏的功能。</p>
+</blockquote>
+<h3>importNode</h3>
+<p>从外部文档拷贝指定节点，插入当前文档</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">importNode</span>(externalNode, deep);
+</code></pre>
+<h2>查找节点</h2>
+<p>大多数客户端 JavaScript 程序运行时总是在操作一个或多个文档元素。当这些程序启动时，可以使用 JavaScript 全局变量 <code>document</code> 来引用 Document 对象。但是，为了操作文档中的元素，必须通过某种方式获得或选取这些引用文档元素的 Element 对象。DOM 提供了多个 API 以供开发者访问文档树中的元素：</p>
+<ul>
+<li>根据 <code>id</code> 属性获取单个节点：<code>getElementById</code></li>
+<li>根据 <code>name</code> 属性获取节点列表：<code>getElementsByNames</code></li>
+<li>根据标签名获取元素列表：<code>getElementByTagName</code></li>
+<li>根据 <code>class</code> 属性获取元素列表：<code>getElementsByClassName</code></li>
+<li>使用 CSS 选择器匹配第一个符合的元素：<code>querySelector</code></li>
+<li>使用 CSS 选择器匹配所有符合的元素：<code>querySelectorAll</code></li>
+</ul>
+<h3>getElementById</h3>
+<p><code>document.getElementById()</code> 方法通过指定 HTML 元素的 id 属性获取元素引用。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> elem = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(elem);
+  <span class="hljs-comment">// &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>参数 <code>id</code>：根据元素的 id 属性获取元素引用（大小写敏感）</li>
+<li>任何 HTML 元素可以有一个 ID 属性，但在文档中该值必须唯一。</li>
+<li>若浏览器中出现多个 ID 名的情况，CSS 样式对所有该 ID 名的元素都生效，但 JavaScript 脚本仅对第一个出现该 ID 名的元素生效。</li>
+<li><code>document.getElementById()</code> 只能在 <code>document</code> 对象上调用，它在整个文档中查找给定的 id 属性。</li>
+</ul>
+<h3>getElementsByName</h3>
+<p><code>getElementsByName()</code> 方法通过指定 HTML 元素 <code>name</code> 属性获取元素引用的集合。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> elemList = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByName</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(elemList);
+  <span class="hljs-comment">// NodeList(3) [div, div]</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>参数 <code>name</code>：根据元素的 <code>name</code> 属性获取元素引用</li>
+<li>因为一个文档中 name 属性可能不唯一（如 HTML 表单中的单选按钮通常具有相同的 name 属性），所以 <code>getElementsByName()</code> 方法返回的是 <strong>元素的数组</strong>（<a href="../node/node-list">NodeList</a>），而不是一个元素。</li>
+<li>在 HTML 元素中，并不是所有元素都有 <code>name</code> 属性，比如 <code>&lt;div&gt;</code> 是没有 <code>name</code> 属性的，但是如果强制设置 <code>&lt;div&gt;</code> 的 <code>name</code> 属性，它也是可以被查找到的。</li>
+<li>在 IE 中，如果 <code>id</code> 设置成某个值，然后传入 <code>getElementsByName()</code> 的参数值和 <code>id</code> 值一样，则这个元素是会被找到的，所以最好不好设置同样的值给 <code>id</code> 和 <code>name</code></li>
+</ul>
+<h3>getElementsByTagName</h3>
+<p><code>getElementsByTagName()</code> 方法通过指定 HTML 元素标签名获取元素引用的集合。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> elemList = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;li&#x27;</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(elemList);
+  <span class="hljs-comment">// HTMLCollection(3) [li, li, li]</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>返回的元素的顺序是它们在文档中的顺序</li>
+<li>返回的类数组对象有一个 <code>namedItem()</code> 方法，可以通过元素的 <code>name</code> 属性取得集合中的第一个值。Safari 和 IE 不支持该方法</li>
+<li><code>getElementsByTagName()</code> 方法可以用于 Document 对象，也可以用于 Element 元素对象，用于调用该方法的元素的 <strong>后代元素</strong></li>
+<li>如果要对 <code>HTMLCollection</code> 集合进行循环操作，最好将其长度缓存起来，因为每次循环都会去计算长度，暂时缓存起来可以提高效率</li>
+<li>如果没有存在指定的标签，该接口返回的不是 <code>null</code>，而是一个空的 <code>HTMLCollection</code></li>
+</ul>
+<p><strong>匹配所有标签</strong></p>
+<p>使用通配符 <code>*</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> all = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;*&#x27;</span>);
+</code></pre>
+<h3>getElementByClassName</h3>
+<p><code>getElementsByClassName()</code> 方法通过指定 HTML 子元素的类名获取元素引用的集合。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> elemList = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementByClassName</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(elemList);
+  <span class="hljs-comment">// HTMLCollection(1) [div.app]</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>参数 <code>className</code>：根据元素类名获取元素引用</li>
+<li>返回值 <code>elementList</code>：返回值为匹配类名的元素集合</li>
+<li>IE9 以下浏览器不支持</li>
+<li>如果要获取 2 个以上 <code>className</code>，可传入多个<code>className</code>，每个用空格分隔</li>
+</ul>
+<h3>querySelector</h3>
+<p><code>querySelector()</code> 方法返回文档中匹配指定 CSS 选择器的第一个元素。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#foo&#x27;</span>);
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+  <span class="hljs-comment">// &lt;div id=&quot;foo&quot;&gt;&lt;/div&gt;</span>
+
+  <span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.bar&#x27;</span>);
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(bar);
+  <span class="hljs-comment">// &lt;div class=&quot;bar&quot;&gt;&lt;/div&gt;</span>
+
+  <span class="hljs-keyword">const</span> div = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
+  <span class="hljs-comment">// &lt;div&gt;</span>
+  <span class="hljs-comment">//   &lt;div id=&quot;foo&quot;&gt;&lt;/div&gt;</span>
+  <span class="hljs-comment">//   &lt;div class=&quot;bar&quot;&gt;&lt;/div&gt;</span>
+  <span class="hljs-comment">// &lt;/div&gt;</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>参数 <code>selectors</code> 必须是有效的 CSS 选择器字符串；如果不是，则引发 <code>SYNTAX_ERR</code> 异常。</li>
+<li>如果没有找到匹配的元素，返回 <code>null</code>。</li>
+<li>该方法既可用于 Document 类型，也可用于元素 Element 类型。</li>
+</ul>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// ID 为 foo 的元素</span>
+<span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<span class="hljs-comment">// 类名为 bar 的元素</span>
+<span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.bar&#x27;</span>);
+</code></pre>
+<h3>querySelectorAll</h3>
+<p><code>querySelectorAll()</code> 方法返回与指定的选择器组匹配的文档中的元素列表（使用 <strong>深度优先</strong> 的先序遍历文档的节点）。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> elemList = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(<span class="hljs-string">&#x27;.app&#x27;</span>);
+
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(elemList);
+  <span class="hljs-comment">// NodeList(2) [div.app, div.app]</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<ul>
+<li>没有匹配元素时，返回空的类数组对象，而不是 <code>null</code></li>
+</ul>
+<h2>创建节点</h2>
+<ul>
+<li>创建元素节点：<code>document.createElement</code></li>
+<li>创建属性节点：<code>document.createAttribute</code></li>
+<li>设置属性节点到元素节点：<code>document.setAttribute</code></li>
+<li>创建文本节点：<code>document.createTextNode</code></li>
+<li>创建注释节点：<code>document.createComment</code></li>
+<li>创建空白文档片段：<code>document.createDocumentFragment</code></li>
+</ul>
+<h3>createElement</h3>
+<p>通过 <code>document.createElement</code> 创建由 tagName 指定的 HTML 元素，或一个 HTMLUnkownElement。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(tagName [, options])
+</code></pre>
+<p>当执行此方法后，该元素并未显示在 HTML 文档中，需要将该元素添加到 DOM 树中：</p>
+<ul>
+<li>找到一个作为父元素的元素</li>
+<li>使用 <code>appendChild()</code> 方法，并将您想要的元素添加到指定的元素中</li>
+</ul>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;theTitle&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hightlight summer&quot;</span>&gt;</span>What&#x27;s happening?<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> newElement = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;p&#x27;</span>);
+
+newElement.<span class="hljs-property">textContent</span> = <span class="hljs-string">&#x27;新创建的p元素&#x27;</span>;
+
+<span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-title function_">appendChild</span>(newElement);
+</code></pre>
+<h3>createAttribute</h3>
+<p>创建新的属性节点，这种创建方式下 DOM 不限制节点能够添加的属性种类。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createAttribute</span>(name);
+</code></pre>
+<p>参数 <code>name</code> 是属性的属性名</p>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> node = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;node&#x27;</span>);
+<span class="hljs-keyword">const</span> att = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createAttribute</span>(<span class="hljs-string">&#x27;name&#x27;</span>);
+
+att.<span class="hljs-property">value</span> = <span class="hljs-string">&#x27;newValue&#x27;</span>;
+
+node.<span class="hljs-title function_">setAttribute</span>(att);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(node.<span class="hljs-title function_">getAttribute</span>(<span class="hljs-string">&#x27;name&#x27;</span>));
+<span class="hljs-comment">// newValue</span>
+</code></pre>
+<h3>createDocumentFragment</h3>
+<p>创建一个新的空白的文档片段 DocumentFragments。</p>
+<p>DocumentFragments 是 DOM 节点。它们不是主 DOM 树的一部分。通常的用例是创建文档片段，将元素附加到文档片段，然后将文档片段附加到 DOM 树。在 DOM 树中，文档片段被其所有的子元素所代替。</p>
+<p>因为文档片段存在于内存中，并不在 DOM 树中，所以将子元素插入到文档片段时不会引起页面回流（对元素位置和几何上的计算）。因此，使用文档片段通常会带来更好的性能。</p>
+<p>🌰 <strong>示例：</strong></p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> list = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;ul&#x27;</span>);
+  <span class="hljs-keyword">const</span> fragment = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createDocumentFragment</span>();
+  <span class="hljs-keyword">const</span> browsers = [<span class="hljs-string">&#x27;Firefox&#x27;</span>, <span class="hljs-string">&#x27;Chrome&#x27;</span>, <span class="hljs-string">&#x27;Opera&#x27;</span>, <span class="hljs-string">&#x27;Safari&#x27;</span>, <span class="hljs-string">&#x27;Internet Explorer&#x27;</span>];
+
+  browsers.<span class="hljs-title function_">forEach</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">browser</span>) {
+    <span class="hljs-keyword">const</span> li = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;li&#x27;</span>);
+    li.<span class="hljs-property">textContent</span> = browser;
+    fragment.<span class="hljs-title function_">appendChild</span>(li);
+  });
+
+  list.<span class="hljs-title function_">appendChild</span>(fragment);
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2>文档对象方法总结</h2>
+<p>在 DOM 中获取元素（或节点）的五种常用的方法：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">方法</th>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">是否调用一个元素</th>
+<th style="text-align:center">是否动态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">document.getElementById</td>
+<td style="text-align:center">id</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">document.getElementByName</td>
+<td style="text-align:center">name</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">✔</td>
+</tr>
+<tr>
+<td style="text-align:center">document.getElmentByTagName</td>
+<td style="text-align:center">tag 或 *</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+</tr>
+<tr>
+<td style="text-align:center">document.getElmentByClassName</td>
+<td style="text-align:center">className</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+</tr>
+<tr>
+<td style="text-align:center">document.querySelector</td>
+<td style="text-align:center">CSS Selector</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">document.querySelectorAll</td>
+<td style="text-align:center">CSS Selector</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>除 <code>getElementById</code> 和 <code>getElementByName</code>，其它方法均可以在指定元素上搜索指定的选择器。</p>
+<p>除此之外：</p>
+<ul>
+<li><code>elem.matches(css)</code> 用于检查 <code>elem</code> 是否匹配指定的 CSS 选择器</li>
+<li><code>elem.closet(css)</code> 用于查找匹配给定的 CSS 选择器的最近的组件级</li>
+<li><code>elemA.contains(elemB)</code> 表示的是如果 <code>elemB</code> 是否包含 <code>elemA</code>，如果包含就返回 <code>true</code></li>
+</ul>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://www.w3.org/TR/selectors-api/">Selectors API Level1</a></li>
+<li><a href="https://www.w3cplus.com/javascript/searching-elements-dom.html">DOM 系列：getElement* 和 querySelector*</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Document 方法"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

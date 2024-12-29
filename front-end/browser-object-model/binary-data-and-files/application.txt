@@ -1,0 +1,247 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","binary-data-and-files","application"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/binary-data-and-files/application","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/binary-data-and-files/application","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","cdr5XsHa--7V4wMpkj-td",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5548,<h1>文件应用</h1>
+<p>历史上，JavaScript 无法处理二进制数据。如果一定要处理的话，只能使用 <code>String.prototype.charCodeAt()</code> 方法，逐个地将字节从文字编码转成二进制数据，还有一种办法是将二进制数据转成 Base64 编码，再进行处理。这两种方法不仅速度慢，而且容易出错。因此 ECMAScript 5 引入了 Blob 对象，允许直接操作二进制数据。</p>
+<ul>
+<li><a href="./blob">Blob 对象</a>：二进制数据基本对象，在它的基础上，又衍生出一系列相关的 API，用于操作文件</li>
+<li><a href="./file">File 对象</a>：负责处理那些以文件形式存在的二进制数据，也就是操作本地文件</li>
+<li><a href="./file-list">FileList 对象</a>：File 对象的网页表单接口</li>
+<li><a href="./file-reader">FileReader 对象</a>：负责将二进制数据读入内存内容</li>
+<li><a href="./url">URL 对象</a>：用于对二进制数据生成 URL</li>
+<li><a href="./form-data">FormData 对象</a>：读取页面表单项文件数据</li>
+</ul>
+<p>&lt;br /&gt;</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/file/file-upload.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;文件上传数据结构转换图&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{640}</span> /&gt;</span></span>;
+</code></pre>
+<h2>文件上传结构</h2>
+<h3>FormData</h3>
+<p>File API 使访问包含 File 对象的 FileList 成为可能，FileList 代表被用户选择的文件列表。</p>
+<p>如果用户只选择了一个文件，那么只需要考虑 FileList 中的第一个 File 对象。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!-- 只可以选择单个文件 --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;single&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> /&gt;</span>
+<span class="hljs-comment">&lt;!-- 可选择多个文件 --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;multipart&quot;</span> /&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+  <span class="hljs-keyword">const</span> input = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#single&#x27;</span>);
+
+  <span class="hljs-comment">// 监听表单输入框的 `change` 事件访问 FileList</span>
+  input.<span class="hljs-title function_">addEventListener</span>(
+    <span class="hljs-string">&#x27;change&#x27;</span>,
+    <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
+      <span class="hljs-title function_">handleFiles</span>(e.<span class="hljs-property">target</span>.<span class="hljs-property">files</span>);
+    },
+    <span class="hljs-literal">false</span>
+  );
+
+  <span class="hljs-comment">// 监听 document 的 `dragover` 和 `drop` 事件通过拖拽选择文件</span>
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(
+    <span class="hljs-string">&#x27;dragover&#x27;</span>,
+    <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
+      e.<span class="hljs-title function_">preventDefault</span>();
+      e.<span class="hljs-title function_">stopPropagation</span>();
+    },
+    <span class="hljs-literal">false</span>
+  );
+
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(
+    <span class="hljs-string">&#x27;drop&#x27;</span>,
+    <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
+      e.<span class="hljs-title function_">preventDefault</span>();
+      e.<span class="hljs-title function_">stopPropagation</span>();
+      <span class="hljs-title function_">handleFiles</span>(e.<span class="hljs-property">dataTransfer</span>.<span class="hljs-property">files</span>);
+    },
+    <span class="hljs-literal">false</span>
+  );
+
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">handleFiles</span>(<span class="hljs-params">files</span>) {
+    <span class="hljs-keyword">const</span> fileReader = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FileReader</span>();
+
+    form.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;file&#x27;</span>, files[<span class="hljs-number">0</span>]);
+
+    axios.<span class="hljs-title function_">post</span>(<span class="hljs-string">&#x27;https://localhost:8080/upload&#x27;</span>, form).<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(res));
+  }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2>大文件上传</h2>
+<h3>实现思路</h3>
+<p>对于大文件上传考虑到上传时间太久、超出浏览器响应时间、提高上传效率、优化上传用户体验等问题进行了深入探讨，以下初略罗列各个知识点的实现思路：</p>
+<ol>
+<li>大文件上传对文件本身进行了文件流内容 Blob 的分割，使用 <code>Blob.prototype.slice</code> 实现大文件的上传切分为多个小文件的上传</li>
+<li>为了实现大文件上传能否做到秒传、辨别是否已存在、文件切片的秒传等功能，需要对大文件进行计算 Hash 的唯一标识，通过使用 WebWorker 开启浏览器线程来计算文件 Hash，防止阻塞 UI 渲染（另外也采用 React Fiber 所用的时间分片思想方式 <code>requestIdleCallback</code> API 来计算）</li>
+<li>上传暂停/恢复功能采用 XMLHttpRequest 请求带有的 <code>abort</code> 方法进行请求的取消来实现</li>
+<li>判断文件是否已存在，在性能上可以通过计算抽样 Hash 来大大缩短大文件全量计算 Hash 的时间，使用这个抽样 Hash 向服务器确认是否已存在文件，而达到秒传的功能，抽样 Hash 的作用在于牺牲一点点的识别率来换取时间</li>
+<li>大文件切分为小文件后，通过设置一个上传通道限制，实现控制并发上传数来防止一次性过多的 HTTP 请求而卡死浏览器</li>
+<li>文件切片上传采用请求 <code>catch</code> 捕获方式，来对上传失败的内容进行重试，重试三次后再失败就进行放弃</li>
+<li>对文件服务器过期的文件切片开启定时器清理，采用了 <code>node-schedule</code> 来实现</li>
+</ol>
+<h3>上传切片</h3>
+<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!-- 单选文件 --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;fileInput&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> /&gt;</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> fileInput = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#fileInput&#x27;</span>);
+
+<span class="hljs-comment">// 1. 点击输入框选择文件后触发</span>
+fileInput.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;change&#x27;</span>, <span class="hljs-function"><span class="hljs-params">e</span> =&gt;</span> {
+  <span class="hljs-keyword">const</span> [file] = e.<span class="hljs-property">target</span>.<span class="hljs-property">files</span>;
+  <span class="hljs-keyword">if</span> (!file) <span class="hljs-keyword">return</span>;
+
+  <span class="hljs-keyword">const</span> chunkList = <span class="hljs-title function_">sliceFileChunk</span>(file);
+});
+
+<span class="hljs-comment">// 2. 文件切片</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">sliceFileChunk</span>(<span class="hljs-params">file</span>) {
+  <span class="hljs-comment">// 文件大小</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">FILE_SIZE</span> = file.<span class="hljs-property">size</span>;
+  <span class="hljs-comment">// 文件切片大小</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">CHUNK_SIZE</span> = <span class="hljs-number">2</span> * <span class="hljs-number">1024</span> * <span class="hljs-number">1024</span>;
+  <span class="hljs-comment">// 切片的个数</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">CHUNKS</span> = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">ceil</span>(<span class="hljs-variable constant_">FILE_SIZE</span> / <span class="hljs-variable constant_">CHUNK_SIZE</span>);
+
+  <span class="hljs-keyword">const</span> blobSlice = <span class="hljs-title class_">Fil</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">slice</span> || <span class="hljs-title class_">File</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">mozSlice</span> || <span class="hljs-title class_">File</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">webkitSlice</span>;
+  <span class="hljs-comment">// 生成 MD5</span>
+  <span class="hljs-keyword">const</span> spark = <span class="hljs-keyword">new</span> <span class="hljs-title class_">SparkMD5</span>.<span class="hljs-title class_">ArrayBuffer</span>();
+  <span class="hljs-comment">// 实例化读取文件对象</span>
+  <span class="hljs-keyword">const</span> reader = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FileReader</span>();
+  <span class="hljs-keyword">const</span> currentChunk = <span class="hljs-number">0</span>;
+
+  reader.<span class="hljs-property">onload</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
+    <span class="hljs-keyword">const</span> resul = e.<span class="hljs-property">target</span>.<span class="hljs-property">result</span>;
+    spark.<span class="hljs-title function_">append</span>(result);
+    currentChunk++;
+
+    <span class="hljs-keyword">if</span> (currentChunk &lt; chunks) {
+      <span class="hljs-title function_">loadNext</span>();
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`第<span class="hljs-subst">${currentChunk}</span>个分片解析完成`</span>);
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">const</span> md5 = spark.<span class="hljs-title function_">end</span>();
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;解析完成&#x27;</span>);
+    }
+  };
+
+  <span class="hljs-keyword">function</span> <span class="hljs-title function_">loadNext</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">const</span> start = currentChunk * <span class="hljs-variable constant_">CHUNK_SIZE</span>;
+    <span class="hljs-keyword">const</span> end = start + <span class="hljs-variable constant_">CHUNK_SIZE</span> &gt; file.<span class="hljs-property">size</span> ? file.<span class="hljs-property">size</span> : start + <span class="hljs-variable constant_">CHUNK_SIZE</span>;
+
+    reader.<span class="hljs-title function_">raedAsArrayBuffer</span>(blobSlice.<span class="hljs-title function_">call</span>(file, start, end));
+  }
+
+  <span class="hljs-title function_">loadNext</span>();
+}
+
+<span class="hljs-comment">// 上传切片</span>
+<span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">uploadChunkus</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> requestList = <span class="hljs-variable language_">this</span>.<span class="hljs-property">data</span>
+    .<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">{ chunk, hash }</span>) =&gt;</span> {
+      <span class="hljs-keyword">const</span> formData = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FormData</span>();
+      formData.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;chunk&#x27;</span>, chunk);
+      formData.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;hash&#x27;</span>, hash);
+      formData.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;filename&#x27;</span>, <span class="hljs-variable language_">this</span>.<span class="hljs-property">container</span>.<span class="hljs-property">file</span>.<span class="hljs-property">name</span>);
+
+      <span class="hljs-keyword">return</span> { formData };
+    })
+    .<span class="hljs-title function_">map</span>(<span class="hljs-title function_">async</span> ({ formData }) =&gt; {
+      <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">request</span>({
+        <span class="hljs-attr">url</span>: <span class="hljs-string">&#x27;http://localhost:3000&#x27;</span>,
+        <span class="hljs-attr">data</span>: formData,
+      });
+    });
+
+  <span class="hljs-comment">// 并发上传文件切片</span>
+  <span class="hljs-keyword">await</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>(requestList);
+}
+
+<span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">handleUpload</span>(<span class="hljs-params"></span>) {}
+</code></pre>
+<h3>发送合并请求</h3>
+<h3>接受切片</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;http&#x27;</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;path&#x27;</span>);
+<span class="hljs-keyword">const</span> fse = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;fs-extra&#x27;</span>);
+<span class="hljs-keyword">const</span> multiparty = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;multiparty&#x27;</span>);
+
+<span class="hljs-keyword">const</span> server = http.<span class="hljs-title function_">createServer</span>();
+<span class="hljs-comment">// 大文件存储目录</span>
+<span class="hljs-keyword">const</span> <span class="hljs-variable constant_">UPLOAD_DIR</span> = path.<span class="hljs-title function_">resolve</span>(__dirname, <span class="hljs-string">&#x27;..&#x27;</span>, <span class="hljs-string">&#x27;target&#x27;</span>);
+
+server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;request&#x27;</span>, <span class="hljs-title function_">async</span> (req, res) =&gt; {
+  res.<span class="hljs-title function_">setHeader</span>(<span class="hljs-string">&#x27;Access-Control-Allow-Oriign&#x27;</span>, <span class="hljs-string">&#x27;*&#x27;</span>);
+  res.<span class="hljs-title function_">setHeader</span>(<span class="hljs-string">&#x27;Access-Control-Allow-Headers&#x27;</span>, <span class="hljs-string">&#x27;*&#x27;</span>);
+
+  <span class="hljs-keyword">if</span> (req.<span class="hljs-property">method</span> === <span class="hljs-string">&#x27;OPTIONS&#x27;</span>) {
+    res.<span class="hljs-property">status</span> = <span class="hljs-number">200</span>;
+    res.<span class="hljs-title function_">end</span>();
+    <span class="hljs-keyword">return</span>;
+  }
+
+  <span class="hljs-keyword">const</span> multipart = <span class="hljs-keyword">new</span> multiparty.<span class="hljs-title class_">Form</span>();
+
+  multipart.<span class="hljs-title function_">parse</span>(req, <span class="hljs-title function_">async</span> (err, fields, files) =&gt; {
+    <span class="hljs-keyword">if</span> (err) <span class="hljs-keyword">return</span>;
+
+    <span class="hljs-keyword">const</span> [chunk] = files.<span class="hljs-property">chunk</span>;
+    <span class="hljs-keyword">const</span> [hash] = fields.<span class="hljs-property">hash</span>;
+    <span class="hljs-keyword">const</span> [filename] = fields.<span class="hljs-property">filename</span>;
+    <span class="hljs-keyword">const</span> chunkDir = path.<span class="hljs-title function_">resolve</span>(<span class="hljs-variable constant_">UPLOAD_DIR</span>, filename);
+
+    <span class="hljs-comment">// 切片目录不存在，创建切片目录</span>
+    <span class="hljs-keyword">if</span> (!fse.<span class="hljs-title function_">existsSync</span>(chunkDir)) {
+      <span class="hljs-keyword">await</span> fse.<span class="hljs-title function_">mkdirs</span>(chunkDir);
+    }
+
+    <span class="hljs-comment">// fs-extra 专用方法，类似 fs.rename 并且跨平台</span>
+    <span class="hljs-comment">// fs-extra 的 rename 方法 windows 平台会有权限问题</span>
+    <span class="hljs-keyword">await</span> fse.<span class="hljs-title function_">move</span>(chunk.<span class="hljs-property">path</span>, <span class="hljs-string">`<span class="hljs-subst">${chunkDir}</span>/<span class="hljs-subst">${hash}</span>`</span>);
+
+    res.<span class="hljs-title function_">end</span>(<span class="hljs-string">&#x27;Received file chunk&#x27;</span>);
+  });
+});
+
+server.<span class="hljs-title function_">listen</span>(<span class="hljs-number">3000</span>, <span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Server is listening port 3000.&#x27;</span>));
+</code></pre>
+<h3>合并切片</h3>
+<p>由于前端在发送合并请求时会携带文件名，服务端根据文件名可以找到上一步创建的切片文件夹。</p>
+<p>接着使用 <code>fs.createWriteStream</code> 创建一个可写流，可写流文件名就是 <strong>切片文件夹名 + 后缀名</strong> 组合而成。</p>
+<p>随后遍历整个切片文件夹，将切片通过 <code>fs.createReadStream</code> 创建可读流，传输合并到目标文件中。</p>
+<p>值得注意的是每次可读流都会传输到可写流的指定位置，这是通过 <code>createWriteStream</code> 的第二个参数 <code>start/end</code> 控制的，目的是能够并发合并多个可读流到可写流中，这样即使流的顺序不同也能传输到正确的位置，所以这里还需要让前端在请求的时候多提供一个 <code>size</code> 参数。</p>
+<h2>断点续传</h2>
+<p>断点续传的原理在于前端/服务端需要 <strong>记住</strong> 已上传的切片，这样下次上传就可以跳过之前已上传的部分，有两种方案实现记忆的功能：</p>
+<ul>
+<li>前端使用 <code>localStorage</code> 记录已上传的切片 <code>hash</code></li>
+<li>服务端保存已上传的切片 <code>hash</code>，前端每次上传前向服务端获取已上传的切片</li>
+</ul>
+<h3>生成标识</h3>
+<p>无论是前端还是服务端，都必须要生成文件和切片的 Hash，之前我们使用 <code>文件名 + 切片下标</code> 作为切片 Hash，这样做文件名一旦修改就失去了效果，而事实上只要文件内容不变，Hash 就不应该变化，所以正确的做法是根据文件内容生成 hash，所以我们修改一下 Hash 的生成规则。</p>
+<h3>文件秒传</h3>
+<h3>暂停上传</h3>
+<h3>恢复上传</h3>
+<h3>进度条改进</h3>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="http://javascript.ruanyifeng.com/htmlapi/file.html">文件和二进制数据的操作</a></li>
+<li><a href="https://www.cnblogs.com/zichi/p/html5-file-api.html">HTML5 File API：让前端操作文件变得可能</a></li>
+<li><a href="https://juejin.im/post/6844904046436843527">字节跳动面试官：请你实现一个大文件上传和断点续传</a></li>
+<li><a href="https://juejin.im/post/6844904055819468808">字节跳动面试官，我也实现了大文件上传和断点续传</a></li>
+<li><a href="https://juejin.im/post/6870837414852886542">前端大文件上传深入研究和实现</a></li>
+<li><a href="https://juejin.im/post/6844904106658643982">一文了解文件上传全过程（1.8w 字深度解析，进阶必备）</a></li>
+<li><a href="https://segmafrontend.github.io/2018/09/19/%E5%A4%A7%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">大文件上传解决方案</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"文件应用"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

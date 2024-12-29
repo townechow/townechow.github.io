@@ -1,0 +1,162 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","browser-working-principle","paint"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/browser-working-principle/paint","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/browser-working-principle/paint","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","sZj5NZHKInp4zfQQlOHcd",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T39fd,<h1>绘制</h1>
+<p>在绘制阶段，系统会遍历渲染树，并调用（浏览器内部）渲染器的 <code>paint</code> 方法，将渲染器的内容绘制成位图。</p>
+<p>绘制工作是使用用户界面基础组件完成的。你所看见的一切都会触发 <code>paint</code>。包括拖动滚动条，鼠标选择中文字等这些完全不改变样式，只改变显示结果的动作都会触发 <code>paint</code>。</p>
+<p><code>paint</code> 的工作就是把文档中用户可见的那一部分展现给用户。<code>paint</code> 是把 <code>layout</code> 和样式计算的结果直接在浏览器视窗上绘制出来，它并不实现具体的元素计算，只是 <code>layout</code> 后面的那一步。</p>
+<h2>绘制顺序</h2>
+<p><a href="https://www.w3.org/TR/CSS21/zindex.html">CSS2 规范</a> 定义了绘制流程的顺序。绘制的顺序其实就是元素进入 <a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/#stackingcontext">堆栈样式上下文</a> 的顺序。这些堆栈会从后往前绘制，因此这样的顺序会影响绘制。块呈现器的堆栈顺序如下：</p>
+<ol>
+<li>背景颜色（<code>background-color</code>）</li>
+<li>背景图片（<code>background-image</code>）</li>
+<li>边框（<code>border</code>）</li>
+<li>子代</li>
+<li>轮廓（<code>outline</code>）</li>
+</ol>
+<p>在样式发生变化时，浏览器会尽可能做出最小的响应。因此，元素的颜色改变后，只会对该元素进行重绘；元素的位置改变后，会对该元素及其子元素（可能还有同级元素）进行布局和重绘；添加 DOM 节点后，会对该节点进行布局和重绘。一些重大变化（例如增大 <code>&lt;html&gt;</code> 元素的字体）会导致缓存无效，使得整个渲染树都会进行重新布局和绘制。</p>
+<h2>更新渲染管道</h2>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/style-layout-and-paint-order.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;DOM+Style、布局和绘制树的生成顺序&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>渲染管道中最重要的事情是：每个步骤中，前一个操作的结果用于后一个操作创建新数据。例如，如果布局树中的某些内容发生改变，需要为文档的受影响部分重新生成 <strong>绘制</strong> 指令。</p>
+<p>如果要为元素设置动画，则浏览器必须在每个帧之间运行这些操作。大多数显示器每秒刷新屏幕 60 次（60 fps），当屏幕每帧都在变化，人眼会觉得动画很流畅。但是，如果动画丢失了中间一些帧，页面看起来就会卡顿（Janky）。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/animation-frame-on-timeline.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;时间轴上的动画帧&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>即使渲染操作能跟上屏幕刷新，这些计算也会在主线程上运行，这意味着当你的应用程序运行 JavaScript 时动画可能会被阻塞。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/javascript-blocking.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;时间轴上的动画帧，但 JavaScript 阻塞了一帧&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>;
+</code></pre>
+<p>你可以将 JavaScript 操作划分为小块，并使用 <code>requestAnimationFrame()</code> 在每个帧上运行。</p>
+<p>有关此主题的更多信息，请参阅 <a href="https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution">Optimize JavaScript Execution</a>。你也可以在 <a href="https://www.youtube.com/watch?v=X57mh8tKkgE">Web Worker 中运行 JavaScript</a> 以避免阻塞主线程。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/browser-working-principle/small-javascript-block.png&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; (
+  <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;时间轴上较小的 JavaScript 块与动画帧一起运行&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{520}</span> /&gt;</span></span>
+);
+</code></pre>
+<h2>重排</h2>
+<blockquote>
+<p><strong>重排</strong>（Reflow，也叫回流）指的是当浏览器某个位置的布局发生了变化，浏览器就会重新从根部开始递归向下计算该节点及其子孙节点的布局，依次计算所有节点的几何尺寸和位置。</p>
+</blockquote>
+<p>正如上文所述，当 DOM 的结构发生了改变，需要从生成 DOM 这一步开始，重新经过 <strong>样式计算</strong>、<strong>生成布局树</strong>、<strong>建立图层树</strong>、再到 <strong>生成绘制列表</strong> 以及之后的显示器显示整个渲染过程走一遍，开销是非常大的。</p>
+<p>在重排过程中，可能会增加一些渲染器，如文本字符串。DOM 树里的每个节点（内部）都会有 <code>reflow</code> 方法，一个节点的重排很有可能导致子节点，甚至父节点以及同级节点的重排。</p>
+<p>重排后，浏览器会重新绘制受影响的部分到屏幕可视区域，该过程称为<a href="#%E9%87%8D%E7%BB%98">重绘</a>。另外，DOM 变化不一定都会影响几何属性，比如改变一个元素的背景色不影响宽高，这种情况下只会发生重绘，代价较小。</p>
+<p>重排几乎是无法避免的。现在界面上流行的一些效果，比如树状目录的折叠、展开（实质上是元素的显示与隐藏）等，都将引起浏览器的重排。鼠标滑过、点击等用户交互事件，只要这些行为引起了页面上某些元素的占位面积、定位方式、边距等属性的变化，都会引起它内部、周围甚至整个页面的重新渲 染。通常我们都无法预估浏览器到底会重排哪一部分的代码，它们都彼此相互影响着。</p>
+<h3>重排原因</h3>
+<p>引发重排的根本原因：</p>
+<ul>
+<li><strong>Initial</strong>：网页初始化的时候</li>
+<li><strong>Incremental</strong>：JavaScript 在操作 DOM 树时</li>
+<li><strong>Resize</strong>：元素节点的尺寸改变</li>
+<li><strong>StyleChange</strong>：样式属性发生变化</li>
+<li><strong>Dirty</strong>：几个 Incremental 的 Reflow 发生在同一个元素的子树上</li>
+</ul>
+<h3>重排场景</h3>
+<p>会导致产生重排的场景：</p>
+<ul>
+<li>网页初始化（Initial）</li>
+<li>元素内容变化，如输入空间（Incremental）</li>
+<li>通过脚本增加、删除和修改 DOM 节点（Incremental）</li>
+<li>改变浏览器窗口大小（Resize）</li>
+<li>计算 <code>offsetWidth</code> 和 <code>offsetHeight</code> 等（Resize）</li>
+<li>设置 style 属性（StyleChange）</li>
+<li>操作 class 属性（StyleChange）</li>
+<li>样式表变动（StyleChange）</li>
+<li>改变文字大小（StyleChange）</li>
+<li>激活伪类，如 <code>:hover</code>（StyleChange）</li>
+</ul>
+<p>浏览器并不会在我们进行上述操作时立即进行重排，浏览器会积攥一批 <code>reflow</code> 后批量进行重排。</p>
+<p>不过有的操作会让浏览器立马进行重排，比如 <strong>窗口缩放</strong>，<strong>改变了页面默认的字体</strong>，或者说 <strong>获取以下这些值</strong>。</p>
+<ul>
+<li><code>offsetTop</code>、<code>offsetLeft</code>、<code>offsetWidth</code>、<code>offsetHeight</code></li>
+<li><code>scrollTop</code>、<code>scrollLeft</code>、<code>scrollWidth</code>、<code>scrollHeight</code></li>
+<li><code>clientTop</code>、<code>clientLeft</code>、<code>clientWidth</code>、<code>clientHeight</code></li>
+<li>IE 中的 <code>getComputedStyle()</code> 和 <code>currentStyle</code></li>
+</ul>
+<p>触发页面重新布局的样式属性：</p>
+<ul>
+<li>盒子模型相关属性</li>
+<li>定位属性及浮动相关属性</li>
+<li>改变节点内部文字结构的相关属性</li>
+</ul>
+<pre class="hljs"><code>width             top             text-align
+height            bottom          vertical-align
+padding           left            line-height
+margin            right           overflow
+display           position        font-family
+border            float           font-size
+border-width      clear           white-space
+min-height
+min-width
+</code></pre>
+<h3>优化方案</h3>
+<p>减少重排的方案：</p>
+<ul>
+<li><strong>不要通过父级来改变子元素样式</strong>，最好直接改变子元素样式，改变子元素样式尽可能不要影响父元素和兄弟元素的大小和尺寸</li>
+<li>减少不必要的 DOM 层级。改变 DOM 树中的一级会导致所有层级的改变，上至根部，下至被改变节点的子节点。这导致大量时间耗费在执行重排上面</li>
+<li>不要用 <code>table</code> 布局的另一个原因就是 <code>tables</code> 中某个元素一旦触发重排就会导致 <code>table</code> 里所有的其它元素重排。在适合用 <code>table</code> 的场合，可以设置 <code>table-layout</code> 为 <code>auto</code> 或 <code>fixed</code></li>
+<li>权衡速度的平滑。比如实现一个动画，以 1 个像素为单位移动这样最平滑，但重排就会过于频繁，CPU 很快就会被完全占用。如果以 3 个像素为单位移动就会好很多</li>
+<li>尽量不要过多的频繁的去增加、修改或删除元素，因为这可能会频繁地导致页面重排，可以先把该 DOM 节点抽离道内存中进行复杂的操作然后再 <code>display</code> 到页面上</li>
+<li>CSS 里不要有表达式</li>
+<li><strong>不要逐条地修改 DOM 样式</strong>：与其这样，不如预先定义好 CSS 的 <code>class</code>，然后修改 DOM 的 <code>className</code></li>
+<li>实现元素的动画，<strong>对于经常要进行重排的组件，应当要抽离出来</strong>，它的 <code>position</code> 属性应当设为 <code>fixed</code> 或 <code>absolute</code></li>
+<li>避免不必要的复杂的 CSS 选择器，尤其是后代选择器，因为为了匹配选择器将耗费更多的 CPU</li>
+</ul>
+<h2>重绘</h2>
+<p>重绘（Repaint）遍历所有节点，<strong>检测节点的可见性、颜色、轮廓等可见的样式属性</strong>，然后根据检测的结果更新页面的响应部分。当渲染树中的一些元素需要更新一些不会改变元素布局的属性，比如只是影响元素的外观、风格、而不会影响布局的那些属性，这时候就只发生重绘。当然，页面首次加载也是要重绘一次的。</p>
+<p><strong>光栅：</strong> 光栅主要是针对图形的一个栅格化过程。现代浏览器中主要的绘制工作主要用光栅化软件来完成。所以元素重绘由这个元素和绘制层级的关系，来决定的是否会很大程度影响你的性能，如果这个元素盖住的多层元素都被重新绘制，性能损耗当然大。</p>
+<h3>重绘属性</h3>
+<p>只触发重绘的属性</p>
+<pre class="hljs"><code>color
+border-style
+border-radius
+visibility
+text-decoration
+background
+background-image
+background-position
+background-repeat
+background-size
+outline-color
+outline
+outline-style
+outline-width
+box-shadow
+</code></pre>
+<h2>动态变化</h2>
+<p>在网页元素发生变化时，浏览器会尽可能做出最小的响应：</p>
+<ul>
+<li>元素颜色的改变：只会对该元素进行<strong>重绘</strong>。</li>
+<li>元素位置的改变：只会对该元素及其子元素（可能还有同级元素）进行<strong>布局和重绘</strong>。</li>
+<li>添加 DOM 节点：会对该节点进行<strong>布局和重绘</strong>。</li>
+<li>一些重大变化（例如增大 <code>&lt;html&gt;</code> 元素的字体）会导致缓存无效，使得整个渲染树都会进行重新<strong>布局</strong>和<strong>绘制</strong>。</li>
+</ul>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://segmentfault.com/a/1190000015851927">📝 学习重流和重绘（reflow 和 repaint）</a></li>
+<li><a href="https://segmentfault.com/a/1190000016056546">📝 研讨浏览器绘制和 Web 性能的注意事项</a></li>
+<li><a href="https://www.zybuluo.com/rogeryi/note/834994">📝 浏览器渲染流水线解析与网页动画性能优化</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"绘制"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

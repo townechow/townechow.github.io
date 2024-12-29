@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-for-in-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-for-in-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-for-in-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eUXJoJPTzmBZJOvFks8j_",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T10f2,<h1>for...in 语句</h1>
+<p><strong>for...in 语句</strong>用于遍历数组或者对象的属性（对数组或者对象的属性进行循环操作）。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (property <span class="hljs-keyword">in</span> expression) statement;
+</code></pre>
+<h3>参数</h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>property</code></td>
+<td>任意类型</td>
+<td>每次迭代时，将不同的属性名分配给变量。</td>
+</tr>
+<tr>
+<td><code>expression</code></td>
+<td>Object 类型</td>
+<td>被迭代枚举其属性的对象。</td>
+</tr>
+<tr>
+<td><code>statement</code></td>
+<td>-</td>
+<td>循环执行代码块。</td>
+</tr>
+</tbody>
+</table>
+<h3>描述</h3>
+<ul>
+<li><code>for...in</code> 循环只遍历可枚举属性。循环将遍历对象本身的所有可枚举属性，以及对象从其构造函数原型中继承的属性（更接近原型链中对象的属性覆盖原型属性）。</li>
+<li><code>for...in</code> 不应该用于迭代一个数组，其中索引顺序很重要。数组索引只是具有整数名称的枚举属性，并且与通用对象属性相同。不能保证 <code>for...in</code> 将以任何特定的顺序返回索引。<code>for...in</code> 循环语句将返回所有可枚举属性，包括非整数类型的名称和继承的那些。因为迭代的顺序是依赖于执行环境的，所以数组遍历不一定按次序访问元素。因此当迭代访问顺序很重要的数组时，最好用整数索引去进行 <code>for</code> 循环（或用 <code>Array.prototype.forEach()</code> 或 <code>for...of</code> 循环）。</li>
+</ul>
+<ul>
+<li>ECMAScript 对象的属性没有顺序，因此通过 <code>for...in</code> 循环输出的属性名的顺序是不可预测的。具体来说，所有可枚举的属性都会被返回一次，但返回的先后次序可能会因为浏览器而异。</li>
+<li>迭代的对象的变量值为 <code>null</code> 或 <code>undefined</code>，<code>for...in</code> 语句不抛出错误，但不会执行循环体（ECMAScript5 以上版本可行）。为了保证最大限度的兼容性，建议使用 <code>for...in</code> 之前，先检测确认该对象的值不是 <code>null</code> 或 <code>undefined</code>。</li>
+</ul>
+<h2>示例</h2>
+<h3>代码示例</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> propName <span class="hljs-keyword">in</span> <span class="hljs-variable language_">window</span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(propName);
+}
+</code></pre>
+<h3>提取实例自身属性</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> seat = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>, <span class="hljs-attr">b</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">c</span>: <span class="hljs-number">3</span> };
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Car</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">color</span> = <span class="hljs-string">&#x27;red&#x27;</span>;
+}
+
+<span class="hljs-title class_">Car</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = seat;
+
+<span class="hljs-keyword">var</span> lamborghini = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Car</span>();
+
+<span class="hljs-comment">// for...in statement</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> prop <span class="hljs-keyword">in</span> lamborghini) {
+  <span class="hljs-keyword">if</span> (lamborghini.<span class="hljs-title function_">hasOwnProperty</span>(prop)) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`lamborghini.<span class="hljs-subst">${prop}</span> = <span class="hljs-subst">${lamborghini[prop]}</span>`</span>);
+  }
+}
+
+<span class="hljs-comment">// Output:</span>
+<span class="hljs-comment">// &quot;lamborghini.color = red&quot;</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"for...in 语句"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

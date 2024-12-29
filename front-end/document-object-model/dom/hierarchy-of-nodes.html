@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1>节点层次</h1><article><h1>节点层次</h1>
+<p>DOM 可以将任何 HTML 描绘成一个由多层节点构成的结构。节点分为 12 种不同类型，每种类型分别表示文档中不同的信息及标记。每个节点都拥有各自的特点、数据和方法，也与其他节点存在某种关系。节点之间的关系构成了层次，而所有页面标记则表现为一个以特定节点为根节点的树形结构。</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/hierarchy-of-nodes/dom.jpeg&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;DOM结构&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
+</code></pre>
+<p>先看看下面代码：</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>DOM<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://github.com&quot;</span>&gt;</span>javascript DOM<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>对HTML元素进行操作，可添加、改变或移除css样式等<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>JavaScript<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>DOM<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>CSS<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>将 HTML 代码分解为 DOM 节点层次图：</p>
+<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/hierarchy-of-nodes/dom-structure.jpeg&#x27;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;DOM结构图&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
+</code></pre>
+<p>HTML 文档可以说由节点构成的集合，DOM 节点由：</p>
+<ol>
+<li>元素节点：上图中 <code>&lt;html&gt;</code>、<code>&lt;body&gt;</code>、<code>&lt;p&gt;</code> 等都是元素节点，即标签</li>
+<li>文本节点：向用户展示的内容，如 <code>&lt;li&gt;...&lt;/li&gt;</code> 中的 JavaScript、DOM、CSS 等文本</li>
+<li>属性节点：元素属性，如 <code>&lt;a&gt;</code> 标签的链接属性 <code>href=&quot;https://github.com&quot;</code></li>
+</ol>
+<p>文档节点是每个文档的根节点。在这个例子中，文档节点只有一个字节点，即 <code>&lt;html&gt;</code> 元素，我们称之为文档元素。文档元素是文档的最外层元素，文档中的其他所有元素都包含在文档元素中。每个文档只能有一个文档元素。在 HTML 页面中，文档元素始终都是 <code>&lt;html&gt;</code>元素。在 XML 中，没有预定义的元素，因此任何元素都可能成为文档元素。</p>
+<h2>DOM 节点类型</h2>
+<p>每一段标记都可以通过树中的一个节点来表示： HTML 元素通过元素节点表示，特性（Attribute）通过特性节点表示，文档类型通过文档类型节点表示，而注释则通过注释节点表示。总共 12 种节点类型，这些类型都继承自一个基类型。</p>
+<table>
+<thead>
+<tr>
+<th>数值常量</th>
+<th>节点类型</th>
+<th>说明</th>
+<th>nodeName</th>
+<th>nodeValue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Element</td>
+<td>元素节点</td>
+<td>元素名</td>
+<td>null</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Attr</td>
+<td>属性节点</td>
+<td>属性名称</td>
+<td>属性值</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Text</td>
+<td>文本节点</td>
+<td>#text</td>
+<td>节点的内容</td>
+</tr>
+<tr>
+<td>4</td>
+<td>CDATASection</td>
+<td>CDATA 节点</td>
+<td>#cdata-section</td>
+<td>节点的内容</td>
+</tr>
+<tr>
+<td>5</td>
+<td>EntityReference</td>
+<td>实体引用名称节点</td>
+<td>实体引用名称</td>
+<td>null</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Entity</td>
+<td>实体名称节点</td>
+<td>实体名称</td>
+<td>null</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ProcessingInstruction</td>
+<td>处理指令节点</td>
+<td>target</td>
+<td>节点的内容</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Comment</td>
+<td>注释节点</td>
+<td>#comment</td>
+<td>注释文本</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Document</td>
+<td>文档节点</td>
+<td>#document</td>
+<td>null</td>
+</tr>
+<tr>
+<td>10</td>
+<td>DocumentType</td>
+<td>文档类型节点</td>
+<td>文档类型名称</td>
+<td>null</td>
+</tr>
+<tr>
+<td>11</td>
+<td>DocumentFragment</td>
+<td>文档片段节点</td>
+<td>#document</td>
+<td>null</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Notation</td>
+<td>DTD 声明节点</td>
+<td>符号名称</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"document-object-model\",\"dom\",\"hierarchy-of-nodes\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"document-object-model/dom/hierarchy-of-nodes\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"document-object-model/dom/hierarchy-of-nodes\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"aEpuGdophPXTTUiThyDTU\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:T1bf6,"])</script><script>self.__next_f.push([1,"\u003ch1\u003e节点层次\u003c/h1\u003e\n\u003cp\u003eDOM 可以将任何 HTML 描绘成一个由多层节点构成的结构。节点分为 12 种不同类型，每种类型分别表示文档中不同的信息及标记。每个节点都拥有各自的特点、数据和方法，也与其他节点存在某种关系。节点之间的关系构成了层次，而所有页面标记则表现为一个以特定节点为根节点的树形结构。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/hierarchy-of-nodes/dom.jpeg\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;DOM结构\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{720}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e先看看下面代码：\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-html\"\u003e\u003cspan class=\"hljs-meta\"\u003e\u0026lt;!DOCTYPE \u003cspan class=\"hljs-keyword\"\u003ehtml\u003c/span\u003e\u0026gt;\u003c/span\u003e\n\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003ehtml\u003c/span\u003e\u0026gt;\u003c/span\u003e\n  \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003ehead\u003c/span\u003e\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003emeta\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003echarset\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;utf-8\u0026quot;\u003c/span\u003e /\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003etitle\u003c/span\u003e\u0026gt;\u003c/span\u003eDOM\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003etitle\u003c/span\u003e\u0026gt;\u003c/span\u003e\n  \u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003ehead\u003c/span\u003e\u0026gt;\u003c/span\u003e\n  \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003ebody\u003c/span\u003e\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eh2\u003c/span\u003e\u0026gt;\u003c/span\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003ea\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ehref\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;https://github.com\u0026quot;\u003c/span\u003e\u0026gt;\u003c/span\u003ejavascript DOM\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003ea\u003c/span\u003e\u0026gt;\u003c/span\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eh2\u003c/span\u003e\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003ep\u003c/span\u003e\u0026gt;\u003c/span\u003e对HTML元素进行操作，可添加、改变或移除css样式等\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003ep\u003c/span\u003e\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eul\u003c/span\u003e\u0026gt;\u003c/span\u003e\n      \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003eJavaScript\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003e\n      \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003eDOM\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003e\n      \u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003eCSS\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eli\u003c/span\u003e\u0026gt;\u003c/span\u003e\n    \u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003eul\u003c/span\u003e\u0026gt;\u003c/span\u003e\n  \u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003ebody\u003c/span\u003e\u0026gt;\u003c/span\u003e\n\u003cspan class=\"hljs-tag\"\u003e\u0026lt;/\u003cspan class=\"hljs-name\"\u003ehtml\u003c/span\u003e\u0026gt;\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e将 HTML 代码分解为 DOM 节点层次图：\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-jsx\"\u003e\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e \u003cspan class=\"hljs-title class_\"\u003eReact\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;react\u0026#x27;\u003c/span\u003e;\n\u003cspan class=\"hljs-keyword\"\u003eimport\u003c/span\u003e img \u003cspan class=\"hljs-keyword\"\u003efrom\u003c/span\u003e \u003cspan class=\"hljs-string\"\u003e\u0026#x27;../../assets/hierarchy-of-nodes/dom-structure.jpeg\u0026#x27;\u003c/span\u003e;\n\n\u003cspan class=\"hljs-keyword\"\u003eexport\u003c/span\u003e \u003cspan class=\"hljs-title function_\"\u003edefault\u003c/span\u003e () =\u0026gt; \u003cspan class=\"language-xml\"\u003e\u003cspan class=\"hljs-tag\"\u003e\u0026lt;\u003cspan class=\"hljs-name\"\u003eimg\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ealt\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e\u0026quot;DOM结构图\u0026quot;\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003esrc\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{img}\u003c/span\u003e \u003cspan class=\"hljs-attr\"\u003ewidth\u003c/span\u003e=\u003cspan class=\"hljs-string\"\u003e{720}\u003c/span\u003e /\u0026gt;\u003c/span\u003e\u003c/span\u003e;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eHTML 文档可以说由节点构成的集合，DOM 节点由：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e元素节点：上图中 \u003ccode\u003e\u0026lt;html\u0026gt;\u003c/code\u003e、\u003ccode\u003e\u0026lt;body\u0026gt;\u003c/code\u003e、\u003ccode\u003e\u0026lt;p\u0026gt;\u003c/code\u003e 等都是元素节点，即标签\u003c/li\u003e\n\u003cli\u003e文本节点：向用户展示的内容，如 \u003ccode\u003e\u0026lt;li\u0026gt;...\u0026lt;/li\u0026gt;\u003c/code\u003e 中的 JavaScript、DOM、CSS 等文本\u003c/li\u003e\n\u003cli\u003e属性节点：元素属性，如 \u003ccode\u003e\u0026lt;a\u0026gt;\u003c/code\u003e 标签的链接属性 \u003ccode\u003ehref=\u0026quot;https://github.com\u0026quot;\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e文档节点是每个文档的根节点。在这个例子中，文档节点只有一个字节点，即 \u003ccode\u003e\u0026lt;html\u0026gt;\u003c/code\u003e 元素，我们称之为文档元素。文档元素是文档的最外层元素，文档中的其他所有元素都包含在文档元素中。每个文档只能有一个文档元素。在 HTML 页面中，文档元素始终都是 \u003ccode\u003e\u0026lt;html\u0026gt;\u003c/code\u003e元素。在 XML 中，没有预定义的元素，因此任何元素都可能成为文档元素。\u003c/p\u003e\n\u003ch2\u003eDOM 节点类型\u003c/h2\u003e\n\u003cp\u003e每一段标记都可以通过树中的一个节点来表示： HTML 元素通过元素节点表示，特性（Attribute）通过特性节点表示，文档类型通过文档类型节点表示，而注释则通过注释节点表示。总共 12 种节点类型，这些类型都继承自一个基类型。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e数值常量\u003c/th\u003e\n\u003cth\u003e节点类型\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003cth\u003enodeName\u003c/th\u003e\n\u003cth\u003enodeValue\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e1\u003c/td\u003e\n\u003ctd\u003eElement\u003c/td\u003e\n\u003ctd\u003e元素节点\u003c/td\u003e\n\u003ctd\u003e元素名\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2\u003c/td\u003e\n\u003ctd\u003eAttr\u003c/td\u003e\n\u003ctd\u003e属性节点\u003c/td\u003e\n\u003ctd\u003e属性名称\u003c/td\u003e\n\u003ctd\u003e属性值\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e3\u003c/td\u003e\n\u003ctd\u003eText\u003c/td\u003e\n\u003ctd\u003e文本节点\u003c/td\u003e\n\u003ctd\u003e#text\u003c/td\u003e\n\u003ctd\u003e节点的内容\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e4\u003c/td\u003e\n\u003ctd\u003eCDATASection\u003c/td\u003e\n\u003ctd\u003eCDATA 节点\u003c/td\u003e\n\u003ctd\u003e#cdata-section\u003c/td\u003e\n\u003ctd\u003e节点的内容\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e5\u003c/td\u003e\n\u003ctd\u003eEntityReference\u003c/td\u003e\n\u003ctd\u003e实体引用名称节点\u003c/td\u003e\n\u003ctd\u003e实体引用名称\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e6\u003c/td\u003e\n\u003ctd\u003eEntity\u003c/td\u003e\n\u003ctd\u003e实体名称节点\u003c/td\u003e\n\u003ctd\u003e实体名称\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e7\u003c/td\u003e\n\u003ctd\u003eProcessingInstruction\u003c/td\u003e\n\u003ctd\u003e处理指令节点\u003c/td\u003e\n\u003ctd\u003etarget\u003c/td\u003e\n\u003ctd\u003e节点的内容\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e8\u003c/td\u003e\n\u003ctd\u003eComment\u003c/td\u003e\n\u003ctd\u003e注释节点\u003c/td\u003e\n\u003ctd\u003e#comment\u003c/td\u003e\n\u003ctd\u003e注释文本\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e9\u003c/td\u003e\n\u003ctd\u003eDocument\u003c/td\u003e\n\u003ctd\u003e文档节点\u003c/td\u003e\n\u003ctd\u003e#document\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e10\u003c/td\u003e\n\u003ctd\u003eDocumentType\u003c/td\u003e\n\u003ctd\u003e文档类型节点\u003c/td\u003e\n\u003ctd\u003e文档类型名称\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e11\u003c/td\u003e\n\u003ctd\u003eDocumentFragment\u003c/td\u003e\n\u003ctd\u003e文档片段节点\u003c/td\u003e\n\u003ctd\u003e#document\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e12\u003c/td\u003e\n\u003ctd\u003eNotation\u003c/td\u003e\n\u003ctd\u003eDTD 声明节点\u003c/td\u003e\n\u003ctd\u003e符号名称\u003c/td\u003e\n\u003ctd\u003enull\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"节点层次\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

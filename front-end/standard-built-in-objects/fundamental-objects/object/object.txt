@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","fundamental-objects","object","object"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/fundamental-objects/object/object","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/fundamental-objects/object/object","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-g2Ei-nggM1DPWJDFPy1G",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2916,<h1>Object</h1>
+<p>JavaScript 中的 <code>Object</code> 对象，是 JavaScript 中所有对象的基类，也就是说 JavaScript 中的所有对象都是由 Object 对象衍生的。Object 对象主要用于将任意数据封装成对象形式。</p>
+<p>对象也可看做是属性的无序集合，每个属性都是一个名值对。<strong>属性名是字符串，因此我们可以把对象看成是从字符串到值的映射</strong>。</p>
+<h2>语法</h2>
+<p><strong>构造函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>([value]);
+</code></pre>
+<p><strong>对象类型转换函数</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>([value]);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">value</td>
+<td style="text-align:left">可选参数，需要包装为对象的值</td>
+<td style="text-align:left">any</td>
+</tr>
+</tbody>
+</table>
+<p><code>Object()</code> 将会根据参数 <code>value</code> 的数据类型，返回对应类型的对象：</p>
+<ul>
+<li>如果 <code>value</code> 为原始数据类型 Boolean、Number、String，则返回对应类型的对象，例如：Boolean 对象、Number 对象、String 对象。</li>
+<li>如果 <code>value</code> 本身为对象，则不对其作任何更改，返回其本身。</li>
+<li>如果省略了 <code>value</code> 参数，或 <code>value</code> 为 <code>null</code>、<code>undefined</code>，则返回自身无任何属性的 Object 对象。</li>
+</ul>
+<p><code>Object()</code> 的返回一个与给定值对应类型的对象。该对象包装了给定的参数。</p>
+<h2>构造函数</h2>
+<h3>属性</h3>
+<ul>
+<li><code>Object.length</code>：值为 1</li>
+<li><code>Object.prototype</code>：表示 <code>Object</code> 的原型对象</li>
+</ul>
+<h3>方法</h3>
+<ul>
+<li><a href="properties-of-the-object-constructor/is">Object.is</a>：比较两个值是否相同</li>
+<li><a href="properties-of-the-object-constructor/assign">Object.assign</a>：通过拷贝一个或多个对象的可枚举 Property 来创建一个新的对象</li>
+<li><a href="properties-of-the-object-constructor/create">Object.create</a>：使用指定的原型对象和 Property 创建一个新对象</li>
+<li><a href="properties-of-the-object-constructor/keys">Object.keys</a>：获取指定对象的自身可枚举 Property 键名组成的数组集合</li>
+<li><a href="properties-of-the-object-constructor/values">Object.values</a>：返回一个给定对象自己的所有可枚举 Properties 值的数组集合</li>
+<li><a href="properties-of-the-object-constructor/entries">Object.entries</a>：获取指定对象可枚举 Properties 的键值对组成的二维数组</li>
+<li><a href="properties-of-the-object-constructor/defineProperties">Object.defineProperties</a>：为指定对象定义多个 Property 并分别指定它们的 Descriptors</li>
+<li><a href="properties-of-the-object-constructor/defineProperty">Object.defineProperty</a>：为指定对象定义单个 Property 并指定该 Property 的 Descriptors</li>
+<li><a href="properties-of-the-object-constructor/getOwnPropertyNames">Object.getOwnPropertyNames</a>：获取指定对象某个自有 Property 的键名数组集合（包括不可枚举属性但不包括 Symbol 值作为名称的属性）</li>
+<li><a href="properties-of-the-object-constructor/getOwnPropertySymbols">Object.getOwnPropertySymbols</a>：获取指定对象某个自有 Property 键名为 Symbol 类型的数组集合</li>
+<li><a href="properties-of-the-object-constructor/getOwnPropertyDescriptor">Object.getOwnPropertyDescriptor</a>：获取指定对象某个自有 Property 的 Descriptors</li>
+<li><a href="properties-of-the-object-constructor/getOwnPropertyDescriptors">Object.getOwnPropertyDescriptors</a>：获取指定对象 Properties 的 Descriptors</li>
+<li><a href="properties-of-the-object-constructor/isExtensible">Object.isExtensible</a>：判断指定对象是否处于可扩展状态</li>
+<li><a href="properties-of-the-object-constructor/isFrozen">Object.isFrozen</a>：判断指定对象是否处于冻结状态</li>
+<li><a href="properties-of-the-object-constructor/isSealed">Object.isSealed</a>：判断指定对象是否处于密封状态</li>
+<li><a href="properties-of-the-object-constructor/preventExtensions">Object.preventExtensions</a>：标识指定对象为不可扩展状态</li>
+<li><a href="properties-of-the-object-constructor/freeze">Object.freeze</a>：标识指定对象为冻结状态</li>
+<li><a href="properties-of-the-object-constructor/seal">Object.seal</a>：标识指定对象为密封状态</li>
+<li><a href="properties-of-the-object-constructor/getPrototypeOf">Object.getPrototypeOf</a>：获取指定对象的原型对象</li>
+<li><a href="properties-of-the-object-constructor/setPrototypeOf">Object.setPrototypeOf</a>：设置指定对象的原型对象</li>
+</ul>
+<h2>原型对象</h2>
+<p>JavaScript 中的所有对象都来自 <code>Object</code>，所有对象从 <code>Object.prototype</code> 继承方法和属性，尽管它们可能被覆盖。</p>
+<h3>属性</h3>
+<ul>
+<li><code>Object.prototype.constructor</code>：返回创建实例对象的 Object 构造函数的引用。注意，此属性的值是对函数本身的引用，而不是一个包含函数名称的字符串。该值为只读的原始类型，如 <code>1</code>、<code>true</code>、<code>'test'</code></li>
+<li><code>Object.prototype.__proto__</code>：指向当对象被实例化的时候，用作原型的对象</li>
+<li><code>Object.prototype.__noSuchMethod</code>：当未定义的对象成员被调用作方法的时候，允许定义并执行的函数</li>
+</ul>
+<h3>方法</h3>
+<ul>
+<li><a href="properties-of-the-object-prototype-object/hasOwnProperty">Object.prototype.hasOwnProperty</a>：用于指示对象自身属性中是否具有指定的属性，而且此属性非原型链继承的</li>
+<li><a href="properties-of-the-object-prototype-object/isPrototypeOf">Object.prototype.isPrototypeOf</a>：用于测试一个对象是否存在于另一个对象的原型链上</li>
+<li><a href="properties-of-the-object-prototype-object/propertyIsEnumerable">Object.prototype.propertyIsEnumerable</a>：用于测试一个对象是否存在于另一个对象的原型链上</li>
+<li>Object.prototype.toSource：用于表示源代码的字符串</li>
+<li>Object.prototype.toLocaleString：用于派生对象为了特定语言环境的目的而重载使用</li>
+<li><a href="properties-of-the-object-prototype-object/toString">Object.prototype.toString</a>：返回一个表示该对象的字符串</li>
+<li><a href="properties-of-the-object-prototype-object/valueOf">Object.prototype.valueOf</a>：返回指定对象的原始值</li>
+</ul>
+<h2>示例</h2>
+<p>如果参数为<strong>原始数据类型</strong>，则返回对应类型的对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-literal">true</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<span class="hljs-comment">// Boolean {true}</span>
+
+<span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-number">8</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(b);
+<span class="hljs-comment">// Number {8}</span>
+
+<span class="hljs-keyword">var</span> c = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-string">&#x27;string&#x27;</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(c);
+<span class="hljs-comment">// String {&quot;string&quot;}</span>
+</code></pre>
+<p>如果参数自身就是<strong>对象</strong>（<code>typeof</code> 该参数返回 <code>&quot;object&quot;</code> 或 <code>&quot;function&quot;</code>），则不对其作任何更改，返回其本身。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-title class_">Boolean</span>());
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<span class="hljs-comment">// Boolean{false}</span>
+
+<span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-title class_">Number</span>());
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(b);
+<span class="hljs-comment">// Number{0}</span>
+
+<span class="hljs-keyword">var</span> c = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-title class_">String</span>());
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(c);
+<span class="hljs-comment">// String{&quot;&quot;, length: 0}</span>
+</code></pre>
+<p>如果<strong>未指定参数</strong>，或参数为 <code>null</code> 或 <code>undefined</code>，则返回一个空对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>();
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<span class="hljs-comment">// {}</span>
+
+<span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-literal">undefined</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(b);
+<span class="hljs-comment">// {}</span>
+
+<span class="hljs-keyword">var</span> c = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(<span class="hljs-literal">null</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(c);
+<span class="hljs-comment">// {}</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Object"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

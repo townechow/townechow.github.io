@@ -1,0 +1,114 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","core-modules","modularization","export"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/modularization/export","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/modularization/export","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","r0rpKN-8RGXmGhjQJyvQw",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1b6d,<h1>模块导出 export</h1>
+<p><code>export</code> 命令用于规定模块的对外接口。</p>
+<h2>导出方式</h2>
+<p>ECMAScript 规范中的模块化方案提供了两种导出模块的方式：</p>
+<ul>
+<li>命名导出（Named Exports）</li>
+<li>默认导出（Default Export）</li>
+</ul>
+<h3>命名导出</h3>
+<p>在声明的变量前添加 <code>export</code> 关键字即可将相对应的变量输出。</p>
+<p><strong>导出前声明的值：</strong></p>
+<p>这种写法能在脚本底部清晰看到所有输出模块，推荐。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> originModule = <span class="hljs-literal">true</span>;
+
+<span class="hljs-keyword">export</span> { originModule };
+</code></pre>
+<p><strong>在导出时重命名：</strong></p>
+<p>同样使用 <code>as</code> 关键字，同一函数可以定义多个不同的变量名输出。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> { originModule <span class="hljs-keyword">as</span> newModule };
+
+<span class="hljs-keyword">export</span> { originModule <span class="hljs-keyword">as</span> smartModule };
+</code></pre>
+<p><strong>声明后立即导出：</strong></p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">var</span> something = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">let</span> anything = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> nothing = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">everything</span> (<span class="hljs-params"></span>){}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">interesting</span> = <span class="hljs-literal">true</span>;
+</code></pre>
+<h3>默认导出</h3>
+<p>默认导出让开发者无须知道源模块输出的模块名称即可完成导入。（默认导出的变量无法使用命名导入）</p>
+<p>导出一个值作为源模块的默认导出：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> something;
+</code></pre>
+<p>⚠️ <strong>注意</strong>： 仅当源模块只有一个导出时，才建议使用此做法。</p>
+<p>将默认和命名导出组合在同一个模块中是不好的做法，尽管它是规范允许的。</p>
+<p><strong>扩展：</strong></p>
+<p>本质上，<code>export default</code> 就是输出一个叫做 <code>default</code> 的变量或方法，然后系统允许你为它取任意名字。</p>
+<p>所以，下面的写法是有效的。</p>
+<p>模块导出：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">add</span>(<span class="hljs-params">x, y</span>) {
+  <span class="hljs-keyword">return</span> x * y;
+}
+
+<span class="hljs-keyword">export</span> { add <span class="hljs-keyword">as</span> <span class="hljs-keyword">default</span> };
+<span class="hljs-comment">// 等同于</span>
+<span class="hljs-comment">// export default add;</span>
+</code></pre>
+<p>模块导入：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">import</span> { <span class="hljs-keyword">default</span> <span class="hljs-keyword">as</span> foo } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;modules&#x27;</span>;
+<span class="hljs-comment">// 等同于</span>
+<span class="hljs-comment">// import foo from &#x27;modules&#x27;;</span>
+</code></pre>
+<p>正是因为 <code>export default</code> 命令其实只是输出一个叫做 <code>default</code> 的变量，所以它后面不能跟变量声明语句。</p>
+<h2>特性规范</h2>
+<h3>对应关系</h3>
+<p>需要特别注意的是，<code>export</code> 命令规定的是 <strong>对外的接口</strong>，必须与模块内部的变量建立一一对应关系。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Error</span>
+<span class="hljs-keyword">export</span> <span class="hljs-number">1</span>
+
+<span class="hljs-comment">// Error</span>
+<span class="hljs-keyword">const</span> foo = <span class="hljs-number">1</span>
+<span class="hljs-keyword">export</span> foo
+</code></pre>
+<p>如上两种写法都会报错，因为均会输出 <code>1</code>，而 <code>1</code> 只是一个值 ，并非对外的接口。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">var</span> foo = <span class="hljs-number">1</span>;
+
+<span class="hljs-keyword">var</span> bar = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">export</span> { bar };
+
+<span class="hljs-keyword">var</span> baz = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">export</span> { baz <span class="hljs-keyword">as</span> bat };
+</code></pre>
+<p>其他脚本可以通过这个接口，取到值 <code>1</code>。它们的实质是，在接口名与模块内部变量之间，建立了一一对应的关系。</p>
+<p>同样地，函数和类必须遵守这种书写方法。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Error</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>){}
+<span class="hljs-keyword">export</span> foo
+
+<span class="hljs-comment">// Good</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>){}
+
+<span class="hljs-comment">// Good</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">baz</span>(<span class="hljs-params"></span>){}
+<span class="hljs-keyword">export</span> { baz }
+</code></pre>
+<p>另外，<code>export</code> 语句输出的接口，与其对应的值是动态绑定关系，即通过该接口，可以取到模块内部实时的值。</p>
+<h3>模块顶层输出</h3>
+<p><code>export</code> 命令可以出现在模块的任何位置，只要处于模块顶层就可以。</p>
+<p>如果处于块级作用域内，就会报错，<code>import</code> 命令也是如此。这是因为处于条件代码块之中，就没法做 <strong>静态优化</strong> 了，违背了 ES6 模块的设计初衷。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-string">&#x27;bar&#x27;</span>;
+  <span class="hljs-comment">// SyntaxError</span>
+}
+
+<span class="hljs-title function_">foo</span>();
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"模块导出 export"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

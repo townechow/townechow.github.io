@@ -1,0 +1,126 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","prototype","catch"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/prototype/catch","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/prototype/catch","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","qLnc0TKjYhUlaWvyI694X",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2b40,<h1>Promise.prototype.catch</h1>
+<p><code>Promise.prototype.catch</code> 用于指定 Promise 实例发生错误时执行的函数，相当于 <code>.then(null, onrejected)</code>。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">promiseInstance.<span class="hljs-title function_">catch</span>(onrejected);
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Promise</span>&lt;T&gt; {
+  <span class="hljs-keyword">catch</span>&lt;<span class="hljs-title class_">TResult</span> = <span class="hljs-built_in">never</span>&gt;(
+    <span class="hljs-attr">onrejected</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">reason</span>: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-title class_">TResult</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>
+  ): <span class="hljs-title class_">Promise</span>&lt;T | <span class="hljs-title class_">TResult</span>&gt;;
+}
+
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">PromiseLike</span>&lt;T&gt; {
+  then&lt;<span class="hljs-title class_">TResult1</span> = T, <span class="hljs-title class_">TResult2</span> = <span class="hljs-built_in">never</span>&gt;(
+    <span class="hljs-attr">onfulfilled</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">value</span>: T</span>) =&gt;</span> <span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>,
+    <span class="hljs-attr">onrejected</span>?: (<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">reason</span>: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-title class_">TResult2</span> | <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult2</span>&gt;) | <span class="hljs-literal">undefined</span> | <span class="hljs-literal">null</span>
+  ): <span class="hljs-title class_">PromiseLike</span>&lt;<span class="hljs-title class_">TResult1</span> | <span class="hljs-title class_">TResult2</span>&gt;;
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">onrejected</td>
+<td style="text-align:left">当 Promise 实例状态变为 Rejected 时执行的函数</td>
+<td style="text-align:left">Function</td>
+</tr>
+</tbody>
+</table>
+<p>该函数拥有一个参数 <code>reason</code>（即 Rejected 的原因）。如果 <code>onrejected</code> 抛出一个错误或返回一个本身失败的 Promise，通过 <code>catch()</code> 返回的 Promise 状态将会变为 Rejected；否则，它将显示为成功 Fulfilled。</p>
+<h2>方法说明</h2>
+<p>如果 Promise 状态已经变成 Rejected，再抛出错误是无效的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> promise = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+  <span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;ok&#x27;</span>);
+  <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Erro</span>(<span class="hljs-string">&#x27;test&#x27;</span>);
+});
+
+promise
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-comment">// Output: &#x27;ok&#x27;</span>
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err));
+</code></pre>
+<p>Promise 对象的错误具有<strong>冒泡性质</strong>，会一直向后传递，直到被捕获为止。也就是说，错误总是会被下一个 <code>catch</code> 语句捕获。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title function_">getJSON</span>(<span class="hljs-string">&#x27;/post/data.json&#x27;</span>)
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">post</span>) =&gt;</span> <span class="hljs-title function_">getJSON</span>(post.<span class="hljs-property">commentURL</span>))
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">comments</span>) =&gt;</span> {
+    <span class="hljs-comment">// do something</span>
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-comment">// 处理前面三个Promise产生的错误</span>
+  });
+</code></pre>
+<p>跟传统的 <code>try/catch</code> 代码块不同的是，如果没有使用 <code>catch</code> 方法指定错误处理的回调函数，Promise 对象抛出的错误不会传递到外层代码，即不会有任何反应。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">foo</span> = (<span class="hljs-params"></span>) =&gt; <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> <span class="hljs-title function_">resolve</span>(x + <span class="hljs-number">2</span>)); <span class="hljs-comment">// x 未声明</span>
+
+<span class="hljs-title function_">foo</span>().<span class="hljs-title function_">then</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;BINGO!&#x27;</span>));
+
+<span class="hljs-title function_">setTime</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">123</span>), <span class="hljs-number">200</span>);
+
+<span class="hljs-comment">// Uncaght (in promise) ReferenceError: x is not defined</span>
+<span class="hljs-comment">// 123</span>
+</code></pre>
+<p>尽管浏览器会打印出 Promise 内部的错误，但是不会退出进程或终止脚本执行。这就是说，<strong>Promise 内部的错误不会影响到 Promise 外部的代码</strong>，通俗的说法就是 「Promise 会吃掉错误」。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>()
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err))
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;BINGO!&#x27;</span>));
+</code></pre>
+<p>上面的代码因为没有报错，跳过了 <code>catch</code> 方法，直接执行后面的 <code>.then()</code> 方法。此时，要是 <code>.then()</code> 方法里面报错，就与前面的 <code>.catch()</code> 无关了。</p>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js">promise.<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">val</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;fulfilled:&#x27;</span>, val)).<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected:&#x27;</span>, err));
+
+<span class="hljs-comment">// 等同于</span>
+promise
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">val</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;fulfilled:&#x27;</span>, val))
+  .<span class="hljs-title function_">tehn</span>(<span class="hljs-literal">null</span>, <span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;rejected:&#x27;</span>, err));
+</code></pre>
+<h3>函数中抛出错误</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> promise = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, rejected</span>) =&gt;</span> <span class="hljs-title function_">rejected</span>(<span class="hljs-number">123</span>));
+
+promise
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(e);
+    <span class="hljs-comment">// Output: 123</span>
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-number">456</span>);
+  })
+  .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(res);
+    <span class="hljs-comment">// No Output</span>
+  })
+  .<span class="hljs-title function_">catch</span>(<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(e);
+    <span class="hljs-comment">// Output: 456</span>
+  });
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript - lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Promise.prototype.catch"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

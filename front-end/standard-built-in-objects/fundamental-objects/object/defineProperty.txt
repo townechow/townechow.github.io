@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","fundamental-objects","object","defineProperty"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/fundamental-objects/object/defineProperty","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/fundamental-objects/object/defineProperty","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","i4eX8Edp7Gh_T8ySAWcgW",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1107,<h1>Object.defineProperty</h1>
+<p><code>Object.defineProperty()</code> 方法用于为一个对象定义一个自有 Property 和/或修改已有 Property 的 Attributes。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(O, P, <span class="hljs-title class_">Attributes</span>);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O</td>
+<td>定义或修改 Property 的目标对象</td>
+<td>object</td>
+</tr>
+<tr>
+<td>P</td>
+<td>需要定义的 Property 键名</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Attributes</td>
+<td>被定义或修改的 Attributes</td>
+<td>object</td>
+</tr>
+</tbody>
+</table>
+<p>返回变更后的对象。</p>
+<h2>示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
+    <span class="hljs-attr">value</span>: <span class="hljs-number">100</span>,
+    <span class="hljs-attr">writable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>
+})
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// { a: 100 }</span>
+
+<span class="hljs-keyword">const</span> bar;
+
+<span class="hljs-comment">// 添加属性和存取描述符</span>
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;b&#x27;</span>, {
+    <span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>){
+        <span class="hljs-keyword">return</span> foo
+    },
+    <span class="hljs-attr">set</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>){
+        bar = newValue
+    },
+    <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>,
+})
+
+foo.<span class="hljs-property">b</span> = <span class="hljs-number">99</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">b</span>);
+<span class="hljs-comment">// 99</span>
+</code></pre>
+<h3>对象属性劫持</h3>
+<p>遍历劫持对象的所有属性</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> data = {
+  <span class="hljs-attr">a</span>: <span class="hljs-string">&#x27;a&#x27;</span>,
+  <span class="hljs-attr">b</span>: <span class="hljs-string">&#x27;b&#x27;</span>,
+  <span class="hljs-attr">c</span>: <span class="hljs-string">&#x27;c&#x27;</span>
+};
+
+<span class="hljs-comment">// 遍历对象，对其属性值进行劫持</span>
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">keys</span>(data).<span class="hljs-title function_">forEach</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">key</span>) {
+  <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(data, key, {
+    <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">configurable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;GET&#x27;</span>)
+    },
+    <span class="hljs-attr">set</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">value</span>) {
+      <span class="hljs-comment">// 当属性值发生变化时我们可以进行额外操作</span>
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;SET&#x27;</span>)
+    }
+  })
+})
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Object.defineProperty"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","document-object-model","element","element-properties"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/element/element-properties","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/element/element-properties","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","zMddHAZ6f7DMejhsYnhjB",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1fce,<h1>Element 属性</h1>
+<h2>元素信息</h2>
+<h3>tagName</h3>
+<p>获取元素的大写标签名。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+    <span class="hljs-keyword">const</span> span = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;span&#x27;</span>);
+
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(span.<span class="hljs-property">tagName</span>);
+    <span class="hljs-comment">// SPAN</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3>attributes</h3>
+<p>通过 <code>Element.attributes</code> 获取元素节点的所有属性节点（<a href="../node/named-node-map">NamedNodeMap</a>）。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bar&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;baz&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+    <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#foo&#x27;</span>);
+    <span class="hljs-keyword">const</span> attr = foo.<span class="hljs-property">attributes</span>;
+
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(attr);
+    <span class="hljs-comment">// NamedNodeMap {0: id, 1: class, 2: name, id: id, class: class, name: name, length: 3}</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3>id</h3>
+<p>获取元素的 id 属性</p>
+<h3>style</h3>
+<p>获取元素节点的行内样式</p>
+<h3>className</h3>
+<p>获取元素的 class 属性</p>
+<h3>classList</h3>
+<p>获取元素节点的所有 class 属性集合（<a href="../node/dom-token-list">DOMTokenList</a>）。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;foo bar baz&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+    <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+    <span class="hljs-keyword">const</span> classList = foo.<span class="hljs-property">classList</span>;
+
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(classList);
+    <span class="hljs-comment">// DOMTokenList(3) [&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;, value: &quot;foo bar baz&quot;]</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3>dataset</h3>
+<p>获取元素节点中所有的 <code>data-*</code> 自定义属性（<a href="">DOMStringMap</a>）。</p>
+<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;foo&quot;</span> <span class="hljs-attr">data-name</span>=<span class="hljs-string">&quot;Amy&quot;</span> <span class="hljs-attr">data-age</span>=<span class="hljs-string">&quot;18&quot;</span> <span class="hljs-attr">data-gender</span>=<span class="hljs-string">&quot;female&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+    <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+    <span class="hljs-keyword">const</span> dataset = foo.<span class="hljs-property">dataset</span>;
+
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(dataset);
+    <span class="hljs-comment">// DOMStringMap { name: &quot;Amy&quot;, age: &quot;18&quot;, gender: &quot;female&quot; }</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3>innerHTML</h3>
+<p>获取或设置元素 HTML 语法表示的元素后代</p>
+<h3>outerHTML</h3>
+<p>获取元素及其后代的序列化 HTML 片段</p>
+<h2>坐标尺寸型属性</h2>
+<h3>clientWidth</h3>
+<p>获取元素节点可视部分的宽度</p>
+<h3>clientHeight</h3>
+<p>获取元素节点可视部分的高度</p>
+<h3>clientLeft</h3>
+<p>获取元素节点 offsetLeft 属性值和到当前窗口左边真实值之间的距离</p>
+<h3>clientTop</h3>
+<p>获取元素节点 offsetTop 属性值和到当前窗口上边真实值之间的距离</p>
+<h3>scrollWidth</h3>
+<p>取元素节点的总宽度，包括由于溢出导致视图不可见内容</p>
+<h3>scrollHeight</h3>
+<p>获取元素节点的总高度，包括由于溢出导致视图不可见内容</p>
+<h3>scrollLeft</h3>
+<p>获取或设置元素水平滚动条到元素左边的距离</p>
+<h3>scrollTop</h3>
+<p>获取或设置元素垂直滚动条到元素顶部的距离</p>
+<h3>offsetHeight</h3>
+<p>获取元素的像素高度（包括元素垂直内边距和边框）</p>
+<h3>offsetWidth</h3>
+<p>获取元素的像素宽度（包括元素水平内边距和边框）</p>
+<h3>offsetLeft</h3>
+<p>获取元素左上角相对于父元素左边界偏移的像素值</p>
+<h3>offsetTop</h3>
+<p>获取元素左上角相对于父元素上边界偏移的像素值</p>
+<h2>关系型属性</h2>
+<h3>offsetParent</h3>
+<p>获取元素节点的最近的、并且 CSS 的 position 属性不等于 static 的父元素</p>
+<h3>previousElementSibling</h3>
+<p>获取元素元素节点的下一个兄弟 HTML 元素节点</p>
+<h3>nextElementSibling</h3>
+<p>获取元素元素节点的上一个兄弟 HTML 元素节点</p>
+<h3>children</h3>
+<p>获取元素节点的所有子元素节点</p>
+<h3>childElementCount</h3>
+<p>获取元素节点包含的子 HTML 元素节点的个数</p>
+<h3>firstElementChild</h3>
+<p>获取元素节点的第一个 Element 子节点</p>
+<h3>lastElementChild</h3>
+<p>获取元素节点的最后一个 Element 子节点</p>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Element 属性"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

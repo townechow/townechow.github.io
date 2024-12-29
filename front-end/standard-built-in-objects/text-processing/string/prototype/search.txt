@@ -1,0 +1,65 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","search"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/search","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/search","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Mb56vWLxM68mTuj6zpA_w",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T9ae,<h1>String.prototype.search()</h1>
+<p><code>search()</code> 函数用于使用指定的正则表达式查找指定子字符串在当前字符串中第一次出现的位置。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">search</span>(regexp);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>regexp</code></td>
+<td>包含正则表达式模式的 <code>RegExp</code> 对象的实例。也可以是包含正则表达式模式的变量名或字符串。</td>
+<td>RegExp</td>
+</tr>
+</tbody>
+</table>
+<p>如果参数 <code>regexp</code> 不是正则表达式对象（RegExp），而是字符串类型，则 <code>search()</code> 先将该字符串传递给 RegExp 的构造函数，将其转换为一个 RegExp 对象。</p>
+<ul>
+<li>如果匹配成功，则 <code>search()</code> 返回正则表达式在字符串中首次匹配项的<strong>索引</strong>。</li>
+<li>如果没有查找到任何匹配，则返回 -1。</li>
+</ul>
+<h2>描述</h2>
+<p>当你想要知道字符串中是否存在某个模式（pattern）时可使用 <code>search</code>，类似于正则表达式的 <code>test</code> 方法。当要了解更多匹配信息时，可使用 <code>match</code>（会更慢），该方法类似于正则表达式的 <code>exec</code> 方法。</p>
+<h2>示例</h2>
+<h3>代码示例</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;Code123Player34Code456&#x27;</span>;
+
+<span class="hljs-comment">// 查找2个连续数字的第一次出现</span>
+str.<span class="hljs-title function_">search</span>(<span class="hljs-regexp">/\d{2}/</span>);
+<span class="hljs-comment">// 4</span>
+
+<span class="hljs-comment">// 该字符串等同于上一个正则表达式</span>
+str.<span class="hljs-title function_">search</span>(<span class="hljs-string">&#x27;\\d{2}&#x27;</span>);
+<span class="hljs-comment">// 4</span>
+
+<span class="hljs-comment">// 查找不到匹配返回-1</span>
+str.<span class="hljs-title function_">search</span>(<span class="hljs-regexp">/James/</span>);
+<span class="hljs-comment">// -1</span>
+
+<span class="hljs-comment">// 查找 &quot;player&quot;（带标志i，不区分大小写）</span>
+str.<span class="hljs-title function_">search</span>(<span class="hljs-regexp">/player/i</span>);
+<span class="hljs-comment">// 7</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.search"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

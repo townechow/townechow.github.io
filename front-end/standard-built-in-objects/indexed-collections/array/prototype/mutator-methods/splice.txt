@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","mutator-methods","splice"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/splice","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/mutator-methods/splice","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","X4-gG7tNoGcczEFjTRqcX",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T20d7,<h1>Array.prototype.splice()</h1>
+<p><code>Array.prototype.splice()</code> 方法用于从当前数组中移除一部分连续的元素。如有必要，还可以在所移除元素的位置上插入一个或多个新的元素。该函数以数组形式返回从当前数组中被移除的元素。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">splice</span>( start, deleteCount [,items... ] )
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">splice</span>(<span class="hljs-attr">start</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">deleteCount</span>?: <span class="hljs-built_in">number</span>): T[];
+
+  <span class="hljs-title function_">splice</span>(<span class="hljs-attr">start</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">deleteCount</span>: <span class="hljs-built_in">number</span>, ...<span class="hljs-attr">items</span>: T[]): T[];
+}
+</code></pre>
+<p>参数说明：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">start</td>
+<td style="text-align:left">数组中移除元素操作的起点索引，从 0 开始。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">deleteCount</td>
+<td style="text-align:left">（可选）需要移除的元素个数。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">items</td>
+<td style="text-align:left">要添加到数组中元素被移除位置的新元素，可以有多个。</td>
+<td style="text-align:left">any</td>
+</tr>
+</tbody>
+</table>
+<p>返回值：</p>
+<p>返回从当前数组中被移除的元素所组成的新的数组。</p>
+<p>如果只删除了一个元素，则返回只包含一个元素的数组。如果没有删除元素，则返回空数组。</p>
+<p>当移除数组中的元素时，数组的 <code>length</code> 属性也会随之改变。一般而言，数组的 <code>length</code> 属性将会减 N（N 为<strong>实际移除</strong>的元素个数）。</p>
+<h2>方法说明</h2>
+<p>如果添加进数组的元素个数不等于被删除的元素个数，数组的长度会发生相应的改变。</p>
+<p><strong>注意</strong>：请注意，<code>splice()</code>方法与 <code>slice()</code> 方法的作用是不同的，<code>splice()</code> 方法会直接对数组进行修改。</p>
+<ul>
+<li><code>start</code> 开始索引
+<ul>
+<li>如果 <code>start</code> 是负值，则视为从 <code>arr.length + start</code> 位开始</li>
+<li>如果 <code>start</code> 超出了数组长度，则返回空数组</li>
+<li>如果只是用 <code>start</code> 参数而不使用 <code>deleteCount</code> 和 <code>items</code>，表示删除所有元素，返回空数组</li>
+</ul>
+</li>
+<li><code>deleteCount</code> 删除数组元素数量
+<ul>
+<li>如果 <code>deleteCount</code> 为 0 或负数，则不会移除任何元素，并返回一个空数组</li>
+<li>如果 <code>deleteCount</code> 被省略，则其相当于删除从开始索引到数组末尾的元素</li>
+</ul>
+</li>
+<li><code>items</code> 填补的数组元素
+<ul>
+<li>如果 <code>items</code> 参数为 <code>Array</code> 类型，仍会被当作一个元素看待，插入到当前数组中</li>
+<li>如果不指定 <code>items</code> 参数，则 <code>splice()</code> 将只删除数组元素</li>
+</ul>
+</li>
+</ul>
+<h2>代码示例</h2>
+<p>在索引为 2 的位置插入 <code>e</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;d&#x27;</span>];
+
+foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">2</span>, <span class="hljs-number">0</span>, <span class="hljs-string">&#x27;e&#x27;</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// [&quot;a&quot;, &quot;b&quot;, &quot;e&quot;, &quot;c&quot;, &quot;d&quot;]</span>
+</code></pre>
+<p>从索引为 2 的位置删除一项（也就是 <code>e</code> 这一项）。</p>
+<pre class="hljs"><code class="language-js">foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</span>
+</code></pre>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-string">&#x27;d&#x27;</span>];
+
+<span class="hljs-comment">// 从第 2 位开始删除 0 个元素，插入 &quot;e&quot;</span>
+<span class="hljs-keyword">var</span> removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">2</span>, <span class="hljs-number">0</span>, <span class="hljs-string">&#x27;e&#x27;</span>);
+<span class="hljs-comment">// 运算后的 foo:[&quot;a&quot;, &quot;b&quot;, &quot;e&quot;, &quot;c&quot;, &quot;d&quot;]</span>
+<span class="hljs-comment">// 被删除元素数组：[]，没有元素被删除</span>
+
+<span class="hljs-comment">// 从第 3 位开始删除 1 个元素</span>
+removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">3</span>, <span class="hljs-number">1</span>);
+<span class="hljs-comment">// 运算后的 foo：[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;,]</span>
+<span class="hljs-comment">// 被删除元素数组：[&quot;d&quot;]</span>
+
+<span class="hljs-comment">// 从第 2 位开始删除 1 个元素，然后插入 &quot;f&quot;</span>
+removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-string">&#x27;f&#x27;</span>);
+<span class="hljs-comment">// 运算后的 foo: [&quot;a&quot;, &quot;b&quot;, &quot;f&quot;, &quot;d&quot;]</span>
+<span class="hljs-comment">// 被删除元素数组：[&quot;e&quot;]</span>
+
+<span class="hljs-comment">// 从第 0 位开始删除 2 个元素，然后插入 &quot;x&quot;, &quot;y&quot; 和 &quot;z&quot;</span>
+removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">0</span>, <span class="hljs-number">2</span>, <span class="hljs-string">&#x27;x&#x27;</span>, <span class="hljs-string">&#x27;y&#x27;</span>, <span class="hljs-string">&#x27;z&#x27;</span>);
+<span class="hljs-comment">// 运算后的 foo：[&quot;x&quot;, &quot;y&quot;, &quot;z&quot;, &quot;f&quot;, &quot;d&quot;]</span>
+<span class="hljs-comment">// 被删除元素的数组：[&quot;a&quot;, &quot;b&quot;]</span>
+
+<span class="hljs-comment">// 从第 3 位开始删除 2 个元素</span>
+removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">3</span>, <span class="hljs-title class_">Number</span>.<span class="hljs-property">MAX_VALUE</span>);
+<span class="hljs-comment">// 运算后的 foo: [&quot;x&quot;, &quot;y&quot;, &quot;z&quot;]</span>
+<span class="hljs-comment">// 被删除元素的数组：[&quot;f&quot;, &quot;d&quot;]</span>
+
+<span class="hljs-comment">// 从第1位开始删除其后所有即[1，end]的元素</span>
+removed = foo.<span class="hljs-title function_">splice</span>(<span class="hljs-number">1</span>);
+<span class="hljs-comment">// 运算后的 foo: [&quot;x&quot;]</span>
+<span class="hljs-comment">// 被删除元素的数组：[&quot;y&quot;,&quot;z&quot;]</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">MDN: Array.prototype.splice</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es5.d.ts">TypeScript: lib.es5.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.splice"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

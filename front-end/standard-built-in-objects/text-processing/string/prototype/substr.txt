@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","substr"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/substr","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/substr","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","e178y950NGOF0bEmlYJcn",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T16a5,<h1>String.prototype.substr()</h1>
+<p><code>substr()</code> 函数用于返回当前字符串中一个连续的片段。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">substr</span>( startIndex [, length] )
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>startIndex</code></td>
+<td>指向字符串指定部分的开头的索引。</td>
+<td>number</td>
+</tr>
+<tr>
+<td><code>length</code></td>
+<td>可选，返回的子字符串片段中包含的字符数。</td>
+<td>number</td>
+</tr>
+</tbody>
+</table>
+<h2>描述</h2>
+<p><code>substr()</code> 函数从 <code>str</code> 的索引 <code>startIndex</code> 处开始复制，直到复制 <code>length</code> 个字符或字符串的结尾为止。</p>
+<ul>
+<li>如果 <code>startIndex</code> 为正值，且大于或等于字符串的长度，则返回一个空字符串。</li>
+<li>如果 <code>startIndex</code> 为负值，则将其视为 <code>str.length + startIndex</code> 开始的一个字符索引。若 <code>str.length + startIndex</code> 大于字符串的长度，则使用 0 作为开始提取的索引。</li>
+<li>如果 <code>length</code> 为负数或 0，则不会复制任何字符，返回空字符串。</li>
+<li>如果省略了 <code>length</code> 参数，则一直复制到字符串的结尾。</li>
+</ul>
+<h2>示例</h2>
+<h3>代码示例</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
+
+<span class="hljs-comment">// 开始索引为1，截取长度为2</span>
+str.<span class="hljs-title function_">substr</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;el&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 -3+10=7，截取长度为2</span>
+str.<span class="hljs-title function_">substr</span>(-<span class="hljs-number">3</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;or&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 -3+10=7，截取长度为延伸至字符结尾</span>
+str.<span class="hljs-title function_">substr</span>(-<span class="hljs-number">3</span>);
+<span class="hljs-comment">// &#x27;orld!&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 1，截取长度为延伸至字符结尾</span>
+str.<span class="hljs-title function_">substr</span>(<span class="hljs-number">1</span>);
+<span class="hljs-comment">// &#x27;Hello world!&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 -20+10=-10 即 0，截取长度为2</span>
+str.<span class="hljs-title function_">substr</span>(-<span class="hljs-number">20</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;He&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 20 大于字符串长度（返回空字符串），截取长度为 2</span>
+str.<span class="hljs-title function_">substr</span>(<span class="hljs-number">20</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为 0，截取长度为 -1 和 0（返回空字符串）</span>
+str.<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, -<span class="hljs-number">1</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+str.<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+</code></pre>
+<h3>Polyfill</h3>
+<p>Microsoft's JScript 不支持负数的 <code>startIndex</code> 参数，如果想充分利用该方法，需要使用下面的兼容代码修复 BUG：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// only run when the substr function is broken</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-string">&#x27;ab&#x27;</span>.<span class="hljs-title function_">substr</span>(-<span class="hljs-number">1</span>) != <span class="hljs-string">&#x27;b&#x27;</span>) {
+  <span class="hljs-comment">/**
+   *  Get the substring of a string
+   *  <span class="hljs-doctag">@param</span>  {<span class="hljs-type">integer</span>}  start   where to start the substring
+   *  <span class="hljs-doctag">@param</span>  {<span class="hljs-type">integer</span>}  length  how many characters to return
+   *  <span class="hljs-doctag">@return</span> {<span class="hljs-type">string</span>}
+   */</span>
+  <span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">substr</span> = (<span class="hljs-keyword">function</span> (<span class="hljs-params">substr</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">start, length</span>) {
+      <span class="hljs-comment">// did we get a negative start, calculate how much it is</span>
+      <span class="hljs-comment">// from the beginning of the string</span>
+      <span class="hljs-keyword">if</span> (start &lt; <span class="hljs-number">0</span>) start = <span class="hljs-variable language_">this</span>.<span class="hljs-property">length</span> + start;
+
+      <span class="hljs-comment">// call the original function</span>
+      <span class="hljs-keyword">return</span> substr.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">this</span>, start, length);
+    };
+  })(<span class="hljs-title class_">String</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">substr</span>);
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.substr"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

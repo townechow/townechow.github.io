@@ -1,0 +1,424 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","numbers-and-dates","date","date"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CfFQmU_lIpk5xjAOXFDnV",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5b3b,<h1>Date 对象</h1>
+<p>Date 对象是 JavaScript 语言中内置的数据类型，用于提供日期和时间的操作接口。Date 对象基于 1970 年 1 月 1 日（世界标准时间）起的毫秒数。</p>
+<h2>语法</h2>
+<h3>不带 new 调用</h3>
+<p><strong>用法一</strong>：不带 <code>new</code> 操作符时，像一个函数一样调用。它将忽略所有传入的参数，并返回当前日期和时间的一个字符串表示</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> date = <span class="hljs-title class_">Date</span>();
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(date);
+<span class="hljs-comment">// &#x27;Fri Dec 03 2021 01:13:39 GMT+0800 (China Standard Time)&#x27;</span>
+</code></pre>
+<h3>带 new 调用</h3>
+<p><strong>用法二</strong>：使用 <code>new</code> 操作符，且不带参数时，将根据当前时间和日期创建一个 Date 对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(date);
+<span class="hljs-comment">// Fri Dec 03 2021 01:13:57 GMT+0800 (China Standard Time)</span>
+</code></pre>
+<h3>数字参数</h3>
+<p><strong>用法三</strong>：可接受一个数字参数（ Number 数据类型），该参数表示设定时间与 1970 年 1 月 1 日 0 点之间的毫秒数。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(value);
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">value</td>
+<td style="text-align:left">代表自 1970 年 1 月 1 日 00:00:00（世界标准时间）起经过的毫秒数。</td>
+<td style="text-align:left">string</td>
+</tr>
+</tbody>
+</table>
+<h3>字符串参数</h3>
+<p><strong>用法四</strong>：可接受一个字符串参数（String 数据类型），参数形式类似于 <code>Date.parse()</code> 方法。但 <code>parse()</code> 方法返回的是一个数字，而 <code>Date()</code> 函数返回的是一个对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(dateString);
+</code></pre>
+<p>关于标准的日期时间字符串中前置 <code>0</code> 的处理，也类似于 <code>Date.parse()</code> 方法，若有前置 <code>0</code>，则相当于 UTC 时间，若没有，则相当于本地时间。其余情况一般都为本地时间。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">dateString</td>
+<td style="text-align:left">表示日期的字符串值。该字符串应该能被 <code>Date.parse()</code> 方法识别</td>
+<td style="text-align:left">string</td>
+</tr>
+</tbody>
+</table>
+<h3>Date.UTC</h3>
+<ul>
+<li><strong>用法五</strong>：可接受参数形式类似于 <code>Date.UTC()</code> 方法的参数，但 <code>Date.UTC()</code> 方法返回是一个毫秒数，且是 UTC 时间，而 <code>Date()</code> 函数返回是一个对象，且是本地时间。</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">UTC</span>( year, month[, day[, hour [, minutes[, seconds[, milliseconds]]]]]);
+</code></pre>
+<p>当 Date 作为构造函数调用并传入多个参数时，如果数值大于合理范围时（如月份为 13 或者分钟数为 70），相邻的数值会被调整。</p>
+<p>比如 <code>new Date(2013,12,1)</code> 等于 <code>new Date(2014,1,1)</code>，它们都表示日期 <code>2014-01-01</code>（注意月份是从 <code>0</code> 开始的）。其他数值也是类似，<code>new Date(2013,2,1,0,70)</code> 等于 <code>new Date(2013,2,1,1,10)</code>，都表示时间 <code>2013-03-01T01:10:00</code>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">year</td>
+<td style="text-align:left">代表年份的整数值。为了避免 2000 年问题最好指定 4 位数的年份；使用 <code>1998</code>, 而不要用 <code>98</code>。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">month</td>
+<td style="text-align:left">代表月份的整数值从 0（1 月）到 11（12 月）。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">day</td>
+<td style="text-align:left">代表一个月中的第几天的整数值，从 1 开始。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">hour</td>
+<td style="text-align:left">代表一天中的小时数的整数值（24 小时制）。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">minute</td>
+<td style="text-align:left">分钟数。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">second</td>
+<td style="text-align:left">秒数。</td>
+<td style="text-align:left">number</td>
+</tr>
+<tr>
+<td style="text-align:left">millisecond</td>
+<td style="text-align:left">表示时间的毫秒部分的整数值。</td>
+<td style="text-align:left">number</td>
+</tr>
+</tbody>
+</table>
+<p>说明：</p>
+<ul>
+<li>如果没有输入任何参数，则 Date 的构造器会依据系统设置的当前时间来创建一个 Date 对象。</li>
+<li>如果提供了至少两个参数，其余的参数均会默认设置为 <code>1</code>（如果没有提供 <code>day</code> 参数）或者 <code>0</code>。</li>
+<li>JavaScript 的时间是由世界标准时间（UTC）<code>1970年1月1日</code> 开始，用毫秒计时，一天由 <code>86,400,000</code> 毫秒组成。Date 对象的范围是 <code>-100,000,000</code> 天至 <code>100,000,000</code> 天（等效的毫秒值）。</li>
+<li>JavaScript 的 Date 对象提供了数个 UTC 时间的方法，也相应提供了当地时间的方法。</li>
+</ul>
+<blockquote>
+<p>UTC，也就是我们所说的格林威治时间，指的是 <code>time</code> 中的世界时间标准。而当地时间则是指执行 JavaScript 的客户端电脑所设置的时间。</p>
+</blockquote>
+<p><strong>注意</strong>：需要注意的是只能通过调用 Date 构造函数来实例化日期对象：以常规函数调用它（即不加 <code>new</code> 操作符）将会返回一个字符串，而不是一个日期对象。另外，不像其他 JavaScript 类型，<code>Date</code> 对象没有字面量格式。</p>
+<h2>构造函数</h2>
+<h3>属性</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Date.prototype</code></td>
+<td style="text-align:left">表示 Date 构造函数的原型，允许为 Date 实例对象添加属性方法。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.length</code></td>
+<td style="text-align:left">值是 <code>7</code>，为该构造函数可接受的参数个数。</td>
+</tr>
+</tbody>
+</table>
+<h3>方法</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Date.now()</code></td>
+<td style="text-align:left">返回自 <code>1970年1月1日 00:00:00</code> UTC （世界标准时间）到当前时间的毫秒数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.parse()</code></td>
+<td style="text-align:left">解析一个表示某个日期的字符串，并返回从 <code>1970-1-1 00:00:00</code> UTC 到该日期对象（该日期对象的 UTC 时间）的毫秒数，如果该字符串无法识别，或者一些情况下，包含了不合法的日期数值（如：2015-02-31），则返回值为 <code>NaN</code>。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.UTC()</code></td>
+<td style="text-align:left">接受的参数同日期构造函数接受最多参数时一样，返回从 <code>1970-1-1 00:00:00</code> UTC 到指定日期的毫秒数。</td>
+</tr>
+</tbody>
+</table>
+<h2>原型对象</h2>
+<p>Date 对象没有可以直接读写的属性，所有对日期和时间的访问都需要通过方法。</p>
+<p>Date 对象的大多数方法分为两种形式：</p>
+<ul>
+<li>使用本地时间</li>
+<li>使用 UTC 时间</li>
+</ul>
+<h3>获取指定时间</h3>
+<p>Conversion getter 类方法从 Date 对象返回一个字符串，表示指定的时间</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toString()</code></td>
+<td style="text-align:left">返回本地时区的日期字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toUTCString()</code></td>
+<td style="text-align:left">返回 UTC 时间的日期字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toISOString()</code></td>
+<td style="text-align:left">返回 Date 对象的标准的日期时间字符串格式的字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toDateString()</code></td>
+<td style="text-align:left">返回 Date 对象的日期部分的字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toTimeString()</code></td>
+<td style="text-align:left">返回 Date 对象的时间部分的字符串。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toJSON()</code></td>
+<td style="text-align:left">返回一个符合 JSON 格式的日期字符串，与 <code>toISOString()</code> 方法的返回结果完全相同。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toLocaleString()</code></td>
+<td style="text-align:left"><code>Date.prototype.toString()</code> 方法的本地化转换。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toLocaleTimeString()</code></td>
+<td style="text-align:left"><code>Date.prototype.toTimeString()</code> 方法的本地化转换。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.toLocaleDateString()</code></td>
+<td style="text-align:left"><code>Date.prototype.toDateString()</code> 方法的本地化转换。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.valueOf()</code></td>
+<td style="text-align:left">返回距离 <code>1970年1月1日0点</code> 的毫秒数。</td>
+</tr>
+</tbody>
+</table>
+<h3>获取指定时间值</h3>
+<p>Date 对象提供了一系列 Getter 类方法，用来获取实例对象某个方面的值。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Date.prototype.getTime()</code></td>
+<td style="text-align:left">返回距离 <code>1970年1月1日0点</code> 的毫秒数，同 <code>valueOf()</code>。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.getTimezoneOffset()</code></td>
+<td style="text-align:left">返回当前时间与 UTC 的时区差异，以分钟表示（8*60=480 分钟），返回结果考虑到了夏令时因素。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]FullYear()</code></td>
+<td style="text-align:left">返回指定日期对象的年份（四位数年份时返回四位数字）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Month()</code></td>
+<td style="text-align:left">返回指定日期对象的月份（0-11）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Date()</code></td>
+<td style="text-align:left">返回指定日期对象的月份中的第几天（1-31）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Day()</code></td>
+<td style="text-align:left">返回指定日期对象的星期中的第几天（0-6）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Hours()</code></td>
+<td style="text-align:left">返回指定日期对象的小时（0-23）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Minutes()</code></td>
+<td style="text-align:left">返回指定日期对象的分钟（0-59）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Seconds()</code></td>
+<td style="text-align:left">返回指定日期对象的秒数（0-59）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.get[UTC]Milliseconds()</code></td>
+<td style="text-align:left">返回指定日期对象的微秒数（0-999）。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意</strong>：以上方法中含 <code>UTC</code> 则为以世界时间为标准。</p>
+<h3>设置指定时间值</h3>
+<p>Date 对象提供了一系列 Setter 类方法，用来设置实例对象的各个方面。</p>
+<p>Setter 方法基本与 Getter 方法相对应，Setter 方法传入类似于 <code>Date.UTC()</code> 的参数，返回调整后的日期的内部毫秒数。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Date.prototype.setTime()</code></td>
+<td style="text-align:left">通过指定从 1970-1-1 00:00:00 UTC 开始经过的毫秒数来设置日期对象的时间，对于早于 1970-1-1 00:00:00 UTC 的时间可使用负值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.setYear()</code></td>
+<td style="text-align:left">用于设置年份。请使用 <code>Date.prototype.set[UTC]FullYear()</code> 方法代替。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]FullYear()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置完整年份（四位数年份是四个数字）。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Month()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置月份。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Date()</code></td>
+<td style="text-align:left">根据世界时设置 Date 对象中月份的一天 (1 ~ 31)。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Hours()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置小时数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Minutes()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置分钟数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Seconds()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置秒数。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Date.prototype.set[UTC]Milliseconds()</code></td>
+<td style="text-align:left">根据本地时间为指定日期对象设置毫秒数。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意</strong>：星期只能获取，不能设置。</p>
+<h2>应用示例</h2>
+<h3>基本用法</h3>
+<p>普通函数调用：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Date</span>();
+<span class="hljs-comment">// &quot;Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)&quot;</span>
+
+<span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018/4/2&#x27;</span>);
+<span class="hljs-comment">// &quot;Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)&quot;</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">Date</span>();
+<span class="hljs-comment">// &#x27;string&#x27;</span>
+</code></pre>
+<p>不带参数的构造函数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<span class="hljs-comment">// Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<span class="hljs-comment">// Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<span class="hljs-comment">// &#x27;object&#x27;</span>
+</code></pre>
+<p>带数字参数的构造函数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">0</span>);
+<span class="hljs-comment">// Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">86400000</span>);
+<span class="hljs-comment">// Fri Jan 02 1970 08:00:00 GMT+0800 (中国标准时间)</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">0</span>);
+<span class="hljs-comment">// &quot;object&quot;</span>
+</code></pre>
+<p>带字符串参数的构造函数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;4/2/2018&#x27;</span>);
+<span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-title class_">Date</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;4/2/2018&#x27;</span>);
+<span class="hljs-comment">// 1522598400000</span>
+
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">4</span> / <span class="hljs-number">2</span> / <span class="hljs-number">2018</span>);
+<span class="hljs-comment">// &quot;object&quot;</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-number">4</span> / <span class="hljs-number">2</span> / <span class="hljs-number">2018</span>);
+<span class="hljs-comment">// &quot;number&quot;</span>
+</code></pre>
+<p>关于标准的日期时间字符串中前置 0 的处理，也类似于 <code>Date.parse()</code> 方法，若有前置 0，则相当于 UTC 时间，若没有，则相当于本地时间。其余情况一般都为本地时间。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;04/02/2018&#x27;</span>);
+<span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018-4-2&#x27;</span>);
+<span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018-04-02&#x27;</span>);
+<span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+</code></pre>
+<p>带 UTC 参数的构造函数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<span class="hljs-comment">// Fri Aug 12 2016 00:00:00 GMT+0800 (中国标准时间)</span>
++<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<span class="hljs-comment">// 1470931200000</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<span class="hljs-comment">// &quot;object&quot;</span>
+
+<span class="hljs-title class_">Date</span>.<span class="hljs-title function_">UTC</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<span class="hljs-comment">// 1470960000000</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">UTC</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<span class="hljs-comment">// &quot;number&quot;</span>
+</code></pre>
+<ul>
+<li>使用参数类似于 <code>Date.parse()</code> 函数的方法时，如果日期对象超出范围，浏览器会自动将日期计算成范围内的值。</li>
+<li>使用参数类似于 <code>Date.UTC()</code> 函数的方法时，如果日期对象超出范围，浏览器会提示 <code>Invalid Date</code>。</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2018</span>, <span class="hljs-number">7</span>, <span class="hljs-number">32</span>);
+<span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2018</span>, <span class="hljs-number">8</span>, <span class="hljs-number">1</span>);
+<span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018-8-32&#x27;</span>);
+<span class="hljs-comment">// Invalid Date</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018-9-1&#x27;</span>);
+<span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
+</code></pre>
+<h3>格式化时间戳</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">formatTimestamp</span>(<span class="hljs-params">timestamp, format</span>) {
+  <span class="hljs-keyword">const</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(timestamp + <span class="hljs-number">8</span> * <span class="hljs-number">3600</span> * <span class="hljs-number">1000</span>);
+  <span class="hljs-keyword">return</span> date.<span class="hljs-title function_">toJSON</span>().<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, <span class="hljs-number">19</span>).<span class="hljs-title function_">replace</span>(<span class="hljs-string">&#x27;T&#x27;</span>, <span class="hljs-string">&#x27;&#x27;</span>);
+}
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Date"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","iteration-methods","entries"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/entries","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/entries","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","fxIG1gqqZbAKUswUe5Ubw",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T18c2,<h1>Array.prototype.entries()</h1>
+<p><code>Array.prototype.entries()</code> 方法返回一个新的 Array Iterator 对象，该对象包含数组中每个索引的键值对。</p>
+<h2>语法</h2>
+<p>语法：</p>
+<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">entries</span>();
+</code></pre>
+<p>类型声明：</p>
+<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">IterableIterator</span>&lt;T&gt; <span class="hljs-keyword">extends</span> <span class="hljs-title class_">Iterator</span>&lt;T&gt; {
+  [<span class="hljs-title class_">Symbol</span>.<span class="hljs-property">iterator</span>](): <span class="hljs-title class_">IterableIterator</span>&lt;T&gt;;
+}
+
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+  <span class="hljs-title function_">entries</span>(): <span class="hljs-title class_">IterableIterator</span>&lt;[<span class="hljs-built_in">number</span>, T]&gt;;
+}
+</code></pre>
+<p>返回值：</p>
+<p>返回一个新的 Array 迭代器对象。Array Iterator 是对象，它的原型上有一个 <code>next()</code> 方法，可用于便利迭代器取得原数组的键值对。详情请查询 <a href="../../control-abstraction-objects/iterator">Iterator 对象</a></p>
+<h2>代码示例</h2>
+<h3>基本用法</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+
+<span class="hljs-keyword">const</span> iterator = arr.<span class="hljs-title function_">entries</span>();
+<span class="hljs-keyword">const</span> result = [];
+
+<span class="hljs-comment">// 注意是 length + 1，比数组的长度大</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; arr.<span class="hljs-property">length</span> + <span class="hljs-number">1</span>; i++) {
+  <span class="hljs-comment">// 每次迭代更新 next</span>
+  <span class="hljs-keyword">const</span> item = iterator.<span class="hljs-title function_">next</span>();
+  <span class="hljs-comment">// 这里可以看到更新后的 done 都是 false</span>
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(item.<span class="hljs-property">done</span>);
+  <span class="hljs-comment">// 遍历迭代器结束 done 才是 true</span>
+  <span class="hljs-keyword">if</span> (item.<span class="hljs-property">done</span> !== <span class="hljs-literal">true</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(item.<span class="hljs-property">value</span>);
+    result[i] = item.<span class="hljs-property">value</span>;
+  }
+}
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(result);
+<span class="hljs-comment">// Output: [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]</span>
+</code></pre>
+<h3>二维数组排序</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">sortArr</span>(<span class="hljs-params">arr</span>) {
+  <span class="hljs-keyword">let</span> goNext = <span class="hljs-literal">true</span>;
+  <span class="hljs-keyword">let</span> entries = arr.<span class="hljs-title function_">entries</span>();
+  <span class="hljs-keyword">while</span> (goNext) {
+    <span class="hljs-keyword">let</span> result = entries.<span class="hljs-title function_">next</span>();
+    <span class="hljs-keyword">if</span> (result.<span class="hljs-property">done</span> !== <span class="hljs-literal">true</span>) {
+      result.<span class="hljs-property">value</span>[<span class="hljs-number">1</span>].<span class="hljs-title function_">sort</span>(<span class="hljs-function">(<span class="hljs-params">a, b</span>) =&gt;</span> a - b);
+      goNext = <span class="hljs-literal">true</span>;
+    } <span class="hljs-keyword">else</span> {
+      goNext = <span class="hljs-literal">false</span>;
+    }
+  }
+  <span class="hljs-keyword">return</span> arr;
+}
+
+<span class="hljs-keyword">const</span> arr = [
+  [<span class="hljs-number">1</span>, <span class="hljs-number">34</span>],
+  [<span class="hljs-number">456</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">44</span>, <span class="hljs-number">234</span>],
+  [<span class="hljs-number">4567</span>, <span class="hljs-number">1</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>],
+  [<span class="hljs-number">34</span>, <span class="hljs-number">78</span>, <span class="hljs-number">23</span>, <span class="hljs-number">1</span>],
+];
+
+<span class="hljs-title function_">sortArr</span>(arr);
+
+<span class="hljs-comment">/*(4) [Array(2), Array(5), Array(5), Array(4)]
+  0:(2) [1, 34]
+  1:(5) [2, 3, 44, 234, 456]
+  2:(5) [1, 4, 5, 6, 4567]
+  3:(4) [1, 23, 34, 78]
+  length:4
+  __proto__:Array(0)
+*/</span>
+</code></pre>
+<h3>使用 for-of 循环</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+<span class="hljs-keyword">const</span> iterator = arr.<span class="hljs-title function_">entries</span>();
+
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> item <span class="hljs-keyword">of</span> iterator) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(item);
+}
+<span class="hljs-comment">// [0, &#x27;a&#x27;]</span>
+<span class="hljs-comment">// [1, &#x27;b&#x27;]</span>
+<span class="hljs-comment">// [2, &#x27;c&#x27;]</span>
+</code></pre>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/entries">MDN: Array.prototype.entries</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/blob/main/lib/lib.es2015.iterable.d.ts">TypeScript: lib.es2015.iterable.d.ts</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Array.prototype.entries"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

@@ -1,0 +1,235 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","numbers-and-dates","math","math"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/numbers-and-dates/math/math","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/numbers-and-dates/math/math","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9xikACahYdOg_ZsqiYzIw",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1d56,<h1>Math 对象</h1>
+<p><code>Math</code> 对象是 JavaScript 中内置的一个全局对象，它主要提供一些基本的、常用的数学函数和常数。</p>
+<p>与其它全局对象不同的是，<code>Math</code> 对象不是一个构造函数，<code>Math</code> 对象的所有属性和方法都是静态的。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Math</span>(); <span class="hljs-comment">// Uncaught TypeError: Math is not a constructor</span>
+</code></pre>
+<h2>属性</h2>
+<p>Math 对象的属性亦即数学上的常量。一共有 8 个常量，主要包括 <strong><a href="#%E5%AF%B9%E6%95%B0">对数</a></strong>、 <strong><a href="#%E5%9C%86%E5%91%A8%E7%8E%87">圆周率</a></strong> 和 <strong><a href="#%E5%B9%B3%E6%96%B9%E6%A0%B9">平方根</a></strong> 三类</p>
+<h3>对数</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.E</code></td>
+<td style="text-align:left">自然对数的底数，即数学常量 e 的值（约等于 2.71828）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.LN2</code></td>
+<td style="text-align:left">2 的自然对数（约等于 0.693）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.LN10</code></td>
+<td style="text-align:left">10 的自然对数（约等于 2.303）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.LOG2E</code></td>
+<td style="text-align:left">以 2 为底 e 的对数（约等于 1.443）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.LOG10E</code></td>
+<td style="text-align:left">以 10 为底 e 的对数（约等于 0.434）</td>
+</tr>
+</tbody>
+</table>
+<h3>圆周率</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.PI</code></td>
+<td style="text-align:left">圆周率 π（约等于 3.14159）</td>
+</tr>
+</tbody>
+</table>
+<h3>平方根</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.SQRT2</code></td>
+<td style="text-align:left">2 的平方根（约等于 1.414）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.SQRT1_2</code></td>
+<td style="text-align:left">0.5 的平方根，即 2 的平方根的倒数（约等于 0.707）</td>
+</tr>
+</tbody>
+</table>
+<h2>方法</h2>
+<p>Math 对象一共有 18 个静态方法，主要包括 <strong><a href="#%E6%9C%80%E5%80%BC">最值</a></strong>、<strong><a href="#%E8%88%8D%E5%85%A5">舍入</a></strong>、<strong><a href="#%E9%9A%8F%E6%9C%BA%E6%95%B0">随机数</a></strong>、<strong><a href="#%E7%BB%9D%E5%AF%B9%E5%80%BC">绝对值</a></strong>、<strong><a href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0">三角函数</a></strong> 及 <strong><a href="#%E4%B9%98%E6%96%B9%E5%BC%80%E6%96%B9">乘方开方</a></strong> 6 类。</p>
+<p>这些函数都涉及到 <code>Number()</code> 隐式类型转换，若超出范围，将返回 <code>NaN</code>。</p>
+<h3>最值</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.max([value1 [, value2, ...]])</code></td>
+<td style="text-align:left">返回一组数中的最大值。如果没有参数则返回 <code>-Infinity</code>。如果任意一个参数是 <code>NaN</code> 或不可转换为数字，则返回 <code>NaN</code>。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.min([value1 [, value2, ...]])</code></td>
+<td style="text-align:left">返回一组数中的最小值。如果没有参数则返回 <code>Infinity</code>。如果任意一个参数是 <code>NaN</code> 或不可转换为数字，则返回 <code>NaN</code>。</td>
+</tr>
+</tbody>
+</table>
+<h3>舍入</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.ceil()</code></td>
+<td style="text-align:left">返回大于或等于一个给定数字的最小整数。（执行向上取整运算）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.floor()</code></td>
+<td style="text-align:left">返回小于或等于一个给定数字的最大整数。（执行向下取整运算）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.round()</code></td>
+<td style="text-align:left">返回一个数字四舍五入后最接近的整数。</td>
+</tr>
+</tbody>
+</table>
+<h3>随机数</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.random()</code></td>
+<td style="text-align:left">返回一个浮点数，伪随机数范围[0, 1)，也就是说，从 0（包括 0）往上，但是不包括 1（排除 1），然后可以缩放到所需的范围。实现将初始种子选择到随机数生成算法，它不能被用户选择或重置。</td>
+</tr>
+</tbody>
+</table>
+<h3>绝对值</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.abs()</code></td>
+<td style="text-align:left">返回参数数值的绝对值</td>
+</tr>
+</tbody>
+</table>
+<h3>乘方开方</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.exp(num)</code></td>
+<td style="text-align:left">返回 $e^x$ 自然对数的底数（$x$ 表示参数，$e$ 是欧拉常数）</td>
+<td>$e^x$</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.pow(base, exponent)</code></td>
+<td style="text-align:left">获取基数 (base) 的指数次幂 (exponent)</td>
+<td>$x^2$</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.log(num)</code></td>
+<td style="text-align:left">获取一个数值的自然对数</td>
+<td>$\log(x)$</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.sqrt(num)</code></td>
+<td style="text-align:left">获取一个数值的平方根</td>
+<td>$\sqrt[2]{x}$</td>
+</tr>
+</tbody>
+</table>
+<h3>三角函数</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">函数</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>Math.sin(num)</code></td>
+<td style="text-align:left">返回一个数值的正弦值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.cos(num)</code></td>
+<td style="text-align:left">返回一个数值的余弦值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.tan(num)</code></td>
+<td style="text-align:left">返回一个数值的正切值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.asin(num)</code></td>
+<td style="text-align:left">返回一个数值的反正弦值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.acos(num)</code></td>
+<td style="text-align:left">返回一个数值的反余弦值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.atan(num)</code></td>
+<td style="text-align:left">返回一个数值的反正切值。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>Math.atan2(num1, num2)</code></td>
+<td style="text-align:left">返回一个数值的比值的反正切值。</td>
+</tr>
+</tbody>
+</table>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Math"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

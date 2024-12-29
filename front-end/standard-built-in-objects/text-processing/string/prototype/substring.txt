@@ -1,0 +1,118 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","substring"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/substring","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/substring","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uGbCxe4EfdjVXZfaP2P8d",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1a78,<h1>String.prototype.substring()</h1>
+<p><code>substring()</code> 函数用于返回当前字符串中一个连续的片段。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">substring</span>(startIndex [, indexEnd])
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>startIndex</code></td>
+<td>指向字符串指定部分的开头的索引。</td>
+<td>number</td>
+</tr>
+<tr>
+<td><code>endIndex</code></td>
+<td>可选，指向字符串指定部分的结尾的索引（不包括该索引）。</td>
+<td>number</td>
+</tr>
+</tbody>
+</table>
+<h3>描述</h3>
+<p><code>substring()</code> 函数的返回值为 String 类型，返回当前字符串索引 <code>[startIndex, endIndex)</code> 之间的连续字符所组成的字符串（不包括 <code>endIndex</code>）。</p>
+<p><code>substring()</code> 函数的参数顺序是不固定的，该函数将自动使用 <code>startIndex</code> 和 <code>endIndex</code> 中较小的值作为起始索引，较大的值作为结尾索引。</p>
+<ul>
+<li>如果省略 <code>indexEnd</code>，<code>substring()</code> 提取字符一直到字符串末尾。</li>
+<li>如果任一参数为负数或 <code>NaN</code>，则将其置为 0。</li>
+<li>如果任一参数大于 <code>str.length</code>，则被当作 <code>str.length</code>。</li>
+<li>如果 <code>startIndex</code> 等于 <code>endIndex</code>，则不会复制任何字符，返回空字符串。</li>
+<li>如果 <code>startIndex</code> 大于 <code>endIndex</code>，则 <code>substring()</code> 的执行效果就像两个参数调换了一样。例如，<code>str.substring(1, 0)</code> 等价于 <code>str.substring(0, 1)</code>。</li>
+</ul>
+<h2>示例</h2>
+<h3>代码示例</h3>
+<p>下例使用 <code>substring</code> 输出字符串 &quot;Mozilla&quot; 中的字符：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&#x27;abcdefghij&#x27;</span>;
+
+<span class="hljs-comment">// 开始索引为0，结束索引省略即复制字符到字符串末尾</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">0</span>);
+<span class="hljs-comment">// &#x27;abcdefghij&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为0，结束索引为2</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">0</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;ab&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为负数即为0，结束索引为2</span>
+str.<span class="hljs-title function_">substring</span>(-<span class="hljs-number">2</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;ab&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为NaN即为0，结束索引为2</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-string">&#x27;h&#x27;</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x27;ab&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为11大于字符串长度，不复制任何字符，返回空字符串</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">11</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+
+<span class="hljs-comment">// 开始索引为0，结束索引为11大于字符串长度，复制字符到字符末尾</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">0</span>, <span class="hljs-number">11</span>);
+<span class="hljs-comment">// &#x27;abcdefghij&#x27;</span>
+
+<span class="hljs-comment">// 开始索引与结束索引相等，返回空字符串</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-comment">// &#x27;&#x27;</span>
+
+<span class="hljs-comment">// 开始索引大于结束索引，两者数值调换即等价于str.substring(0， 1)</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">1</span>, <span class="hljs-number">0</span>);
+<span class="hljs-comment">// &#x27;a&#x27;</span>
+
+<span class="hljs-comment">// 开始索引大于结束索引，两者数值调换即等价于str.substring(0, 5)</span>
+str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">5</span>, <span class="hljs-string">&#x27;h&#x27;</span>);
+<span class="hljs-comment">// &#x27;abcde&#x27;</span>
+</code></pre>
+<h3>运用 <code>length</code> 属性来使用 <code>substring()</code></h3>
+<p>下面一个例子运用了 <code>String.length</code> 属性去获取指定字符串的倒数元素。显然这个办法更容易记住，因为你不再像上面那个例子那样去记住起始位置和最终位置。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Displays &#x27;ghij&#x27; the last 4 characters</span>
+<span class="hljs-keyword">var</span> word = <span class="hljs-string">&#x27;abcdefghij&#x27;</span>;
+<span class="hljs-keyword">var</span> word4 = word.<span class="hljs-title function_">substring</span>(word.<span class="hljs-property">length</span> - <span class="hljs-number">4</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(word4);
+<span class="hljs-comment">// &#x27;ghij&#x27;</span>
+
+<span class="hljs-comment">// Displays &#x27;fghij&#x27; the last 5 characters</span>
+<span class="hljs-keyword">var</span> word = <span class="hljs-string">&#x27;abcdefghij&#x27;</span>;
+<span class="hljs-keyword">var</span> word5 = word.<span class="hljs-title function_">substring</span>(word.<span class="hljs-property">length</span> - <span class="hljs-number">5</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(word5);
+<span class="hljs-comment">// &#x27;fghij&#x27;</span>
+</code></pre>
+<h3>删除字符末尾子字符</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> removeTail = <span class="hljs-keyword">function</span> (<span class="hljs-params">str</span>) {
+  <span class="hljs-keyword">if</span> (str === <span class="hljs-literal">null</span> || str.<span class="hljs-property">length</span> === <span class="hljs-number">0</span>) <span class="hljs-keyword">return</span> str;
+  <span class="hljs-keyword">const</span> len = str.<span class="hljs-property">length</span>;
+
+  <span class="hljs-keyword">return</span> str.<span class="hljs-title function_">substring</span>(<span class="hljs-number">0</span>, len - <span class="hljs-number">1</span>);
+};
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.substring"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

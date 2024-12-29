@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/569ce4b8f30dc480-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/_next/static/css/ec0a9d078e716e00.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/485ff6fe79292a08.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/0ff121a467c0636f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-53834dba86d90934.js"/><script src="/_next/static/chunks/4bd1b696-20882bf820444624.js" async=""></script><script src="/_next/static/chunks/517-98ed787e5f259f2c.js" async=""></script><script src="/_next/static/chunks/main-app-f33d3e3aed85e21f.js" async=""></script><meta name="next-size-adjust" content=""/><title>front-end</title><meta name="description" content="front-end knowledge"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__variable_4d318d __variable_ea5f4b antialiased"><main><div class="markdown-body"><h1>比较运算符</h1><article><h1>比较运算符</h1>
+<p>比较运算符比较它的操作数并返回一个基于表达式是否为 <code>true</code> 的逻辑值。</p>
+<p>比较运算符分为<strong>关系运算符（Relational Operators）<strong>和</strong>等值运算符（Equality Operators）</strong>。</p>
+<ul>
+<li>操作数可以是数字，字符串，逻辑，对象值。</li>
+<li>字符串比较是基于标准的字典顺序，使用 Unicode 值。</li>
+<li>在多数情况下，如果两个操作数不是相同的类型， JavaScript 会尝试转换它们为恰当的类型来比较。这种行为通常发生在数字作为操作数的比较。</li>
+<li>类型转换的例外是使用 <code>===</code> 和 <code>!==</code> 操作符，它们会执行严格的相等和不相等比较。这些运算符不会在检查相等之前转换操作数的类型。下面的表格描述了该示例代码中的各比较运算符。</li>
+</ul>
+<h2>关系运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>返回 <code>true</code> 的示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大于 <code>&gt;</code></td>
+<td>左边的操作数大于右边的操作数返回 <code>true</code></td>
+<td><code>b &gt; a</code></td>
+</tr>
+<tr>
+<td>大于等于 <code>&gt;=</code></td>
+<td>左边的操作数大于或等于右边的操作数返回 <code>true</code></td>
+<td><code>b &gt;= a</code> <code>a &gt;= 1</code></td>
+</tr>
+<tr>
+<td>小于 <code>&lt;</code></td>
+<td>左边的操作数小于右边的操作数返回 <code>true</code></td>
+<td><code>a &lt; b</code> <code>1 &lt; 2</code></td>
+</tr>
+<tr>
+<td>小于等于 <code>&lt;=</code></td>
+<td>左边的操作数小于或等于右边的操作数返回 <code>true</code></td>
+<td><code>a &lt;= b</code> <code>b &lt;= 5</code></td>
+</tr>
+</tbody>
+</table>
+<h2>等值运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>返回 <code>true</code> 的示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>等于 <code>==</code></td>
+<td>如果两边操作数相等时返回 <code>true</code></td>
+<td><code>a == 1</code> <code>'1' == 2</code> <code>1 == '1'</code></td>
+</tr>
+<tr>
+<td>不等于 <code>!=</code></td>
+<td>如果两边操作数不相等时返回 <code>true</code></td>
+<td><code>a != 2</code> <code>b != '1'</code></td>
+</tr>
+<tr>
+<td>全等 <code>===</code></td>
+<td>两边操作数相等且类型相同时返回 <code>true</code></td>
+<td><code>a === 1</code></td>
+</tr>
+<tr>
+<td>不全等 <code>!==</code></td>
+<td>两边操作数不相等或类型不同时返回 <code>true</code></td>
+<td><code>a !== '1'</code> <code>1 !== '1'</code></td>
+</tr>
+</tbody>
+</table>
+<h3>抽象相等比较算法</h3>
+<blockquote>
+<ol>
+<li>若 Type(x) 与 Type(y) 相同，则
+<ol>
+<li>若 Type(x) 为 Undefined，返回 <code>true</code></li>
+<li>若 Type(x) 为 Null，返回 <code>true</code></li>
+<li>若 Type(x) 为 Number，则
+<ol>
+<li>若 x 为 NaN，返回 <code>false</code></li>
+<li>若 y 为 NaN，返回 <code>false</code></li>
+<li>若 x 与 y 为相等数值，返回 <code>true</code></li>
+<li>若 x 为 +0 且 y 为 -0，返回 <code>true</code></li>
+<li>若 x 为 -0 且 y 为 +0，返回 <code>true</code></li>
+<li>返回 <code>false</code></li>
+</ol>
+</li>
+<li>若 Type(x) 为 String
+<ol>
+<li>当 x 和 y 为完全相同的字符序列（长度相等且相同字符在相同位置）时返回 <code>true</code></li>
+<li>否则，返回 <code>false</code></li>
+</ol>
+</li>
+<li>若 Type(x) 为 Boolean
+<ol>
+<li>当 x 和 y 为同为 <code>true</code> 或者同为 <code>false</code> 时返回 <code>true</code></li>
+<li>否则，返回 <code>false</code></li>
+</ol>
+</li>
+<li>当 x 和 y 为引用用一对象时返回 <code>true</code>。否则，返回 <code>false</code>。</li>
+</ol>
+</li>
+<li>若 x 为 null 且 y 为 undefined，返回 <code>true</code></li>
+<li>若 x 为 undefined 且 y 为 null，返回 <code>true</code></li>
+<li>若 Type(x) 为 Number 且 Type(y) 为 String，返回比较 <code>x == ToNumber(y)</code> 的结果</li>
+<li>若 Type(x) 为 String 且 Type(y) 为 Number，返回比较 <code>ToNumber(x) == y</code> 的结果</li>
+<li>若 Type(x) 为 Boolean，返回比较 <code>ToNumber(x) == y</code> 的结果</li>
+<li>若 Type(y) 为 Boolean，返回比较 <code>x == ToNumber(y)</code> 的结果</li>
+<li>若 Type(x) 为 String 或 Number，且 Type(y) 为 Object，返回比较 <code>x == ToPrimitive(y)</code> 的结果</li>
+<li>若 Type(x) 为 Object 且 Type(y) 为 String 或 Number，返回比较 <code>ToPrimitive(x) == y</code> 的结果</li>
+<li>返回 <code>false</code></li>
+</ol>
+</blockquote>
+<p>按以上相等之定义：</p>
+<ul>
+<li>字符串比较可以按这种方式强制执行：<code>'' + a == '' + b</code></li>
+<li>数值比较可以按这种方式强制执行：<code>+a == +b</code></li>
+<li>布尔值比较可以按这种方式强制执行：<code>!a == !b</code></li>
+</ul>
+<p>等值比较操作保证以下不变：</p>
+<ul>
+<li><code>A !== B</code> 等价于 <code>!(A == B)</code></li>
+<li><code>A == B</code> 等价于 <code>B == A</code>，除了 A 与 B 的执行顺序。</li>
+</ul>
+<p>相等运算符不总是传递的。例如，两个不同的 String 对象，都表示相同的字符串值；<code>==</code> 运算符认为每个 <code>String</code> 对象都与字符串值相等，但是两个字符串对象互不相等。</p>
+<ul>
+<li><code>new String('a') == 'a'</code> 和 <code>'a' == new String('a')</code> 皆为 <code>true</code></li>
+<li><code>new String('a') == new String('a')</code> 为 <code>false</code></li>
+</ul>
+<p>字符串比较使用的方式是简单地检测字符编码单元序列是否相同。不会做更复杂的、基于语义的字符或者字符串相等的定义以及 Unicode 规范中定义的 Collating Order。所以 Unicode 标准中认为相等的 String 值可能被检测为不等。实际上这一算法认为两个字符串已经是经过规范化的形式。</p>
+<h3>引用数据类型间比较</h3>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
+<span class="hljs-keyword">const</span> b = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a === b);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>([] === []);
+<span class="hljs-comment">// false</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>({} === {});
+<span class="hljs-comment">// false</span>
+</code></pre>
+<p>当我们访问引用数据类型（对象、数组、函数等等）的值时，首先从栈中获得该对象的 <strong>地址指针</strong>，然后再从 <strong>堆内存</strong> 中取得所需的数据。</p>
+<p>变量 <code>a</code> 实际保存的是指向堆内存中对象的一个指针，而变量 <code>b</code> 保存的是指向堆内存中的另一个对象的指针，虽然这两个对象的值时一样的，但它们是独立的两个对象，占了两份内存空间，所以它们互不相等。</p>
+<p>而当将一个为引用数据类型的值的变量赋值给另一个变量时，即拷贝了前者的内存空间的地址指针，因此它们都指向堆内存中同一个对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> x = {}
+
+<span class="hljs-keyword">let</span> y = x
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(x === y
+<span class="hljs-comment">// true</span>
+</code></pre>
+</article></div></main><script src="/_next/static/chunks/webpack-53834dba86d90934.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n5:I[6213,[],\"OutletBoundary\"]\n7:I[6213,[],\"MetadataBoundary\"]\n9:I[6213,[],\"ViewportBoundary\"]\nb:I[4835,[],\"\"]\n:HL[\"/_next/static/media/569ce4b8f30dc480-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/ec0a9d078e716e00.css\",\"style\"]\n:HL[\"/_next/static/css/485ff6fe79292a08.css\",\"style\"]\n:HL[\"/_next/static/css/0ff121a467c0636f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"P2aiewlOc1Z9OPuSRFf3D\",\"p\":\"\",\"c\":[\"\",\"front-end\",\"basic-concept\",\"expressions\",\"operators\",\"comparation-operators\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"front-end\",{\"children\":[[\"slug\",\"basic-concept/expressions/operators/comparation-operators\",\"oc\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ec0a9d078e716e00.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_4d318d __variable_ea5f4b antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"front-end\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/485ff6fe79292a08.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0ff121a467c0636f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[[\"slug\",\"basic-concept/expressions/operators/comparation-operators\",\"oc\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"front-end\",\"children\",\"$0:f:0:1:2:children:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",null,[\"$\",\"$L5\",null,{\"children\":\"$L6\"}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"svDXktKVAyU4y5FHZOM-X\",{\"children\":[[\"$\",\"$L7\",null,{\"children\":\"$L8\"}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$b\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:T1e62,"])</script><script>self.__next_f.push([1,"\u003ch1\u003e比较运算符\u003c/h1\u003e\n\u003cp\u003e比较运算符比较它的操作数并返回一个基于表达式是否为 \u003ccode\u003etrue\u003c/code\u003e 的逻辑值。\u003c/p\u003e\n\u003cp\u003e比较运算符分为\u003cstrong\u003e关系运算符（Relational Operators）\u003cstrong\u003e和\u003c/strong\u003e等值运算符（Equality Operators）\u003c/strong\u003e。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e操作数可以是数字，字符串，逻辑，对象值。\u003c/li\u003e\n\u003cli\u003e字符串比较是基于标准的字典顺序，使用 Unicode 值。\u003c/li\u003e\n\u003cli\u003e在多数情况下，如果两个操作数不是相同的类型， JavaScript 会尝试转换它们为恰当的类型来比较。这种行为通常发生在数字作为操作数的比较。\u003c/li\u003e\n\u003cli\u003e类型转换的例外是使用 \u003ccode\u003e===\u003c/code\u003e 和 \u003ccode\u003e!==\u003c/code\u003e 操作符，它们会执行严格的相等和不相等比较。这些运算符不会在检查相等之前转换操作数的类型。下面的表格描述了该示例代码中的各比较运算符。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e关系运算符\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e运算符\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003cth\u003e返回 \u003ccode\u003etrue\u003c/code\u003e 的示例\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e大于 \u003ccode\u003e\u0026gt;\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e左边的操作数大于右边的操作数返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eb \u0026gt; a\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e大于等于 \u003ccode\u003e\u0026gt;=\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e左边的操作数大于或等于右边的操作数返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eb \u0026gt;= a\u003c/code\u003e \u003ccode\u003ea \u0026gt;= 1\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小于 \u003ccode\u003e\u0026lt;\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e左边的操作数小于右边的操作数返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea \u0026lt; b\u003c/code\u003e \u003ccode\u003e1 \u0026lt; 2\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小于等于 \u003ccode\u003e\u0026lt;=\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e左边的操作数小于或等于右边的操作数返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea \u0026lt;= b\u003c/code\u003e \u003ccode\u003eb \u0026lt;= 5\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e等值运算符\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e运算符\u003c/th\u003e\n\u003cth\u003e描述\u003c/th\u003e\n\u003cth\u003e返回 \u003ccode\u003etrue\u003c/code\u003e 的示例\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e等于 \u003ccode\u003e==\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e如果两边操作数相等时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea == 1\u003c/code\u003e \u003ccode\u003e'1' == 2\u003c/code\u003e \u003ccode\u003e1 == '1'\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不等于 \u003ccode\u003e!=\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e如果两边操作数不相等时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea != 2\u003c/code\u003e \u003ccode\u003eb != '1'\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e全等 \u003ccode\u003e===\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e两边操作数相等且类型相同时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea === 1\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不全等 \u003ccode\u003e!==\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e两边操作数不相等或类型不同时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ea !== '1'\u003c/code\u003e \u003ccode\u003e1 !== '1'\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3\u003e抽象相等比较算法\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003col\u003e\n\u003cli\u003e若 Type(x) 与 Type(y) 相同，则\n\u003col\u003e\n\u003cli\u003e若 Type(x) 为 Undefined，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Null，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Number，则\n\u003col\u003e\n\u003cli\u003e若 x 为 NaN，返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 y 为 NaN，返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 x 与 y 为相等数值，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 x 为 +0 且 y 为 -0，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 x 为 -0 且 y 为 +0，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 String\n\u003col\u003e\n\u003cli\u003e当 x 和 y 为完全相同的字符序列（长度相等且相同字符在相同位置）时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e否则，返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Boolean\n\u003col\u003e\n\u003cli\u003e当 x 和 y 为同为 \u003ccode\u003etrue\u003c/code\u003e 或者同为 \u003ccode\u003efalse\u003c/code\u003e 时返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e否则，返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003e当 x 和 y 为引用用一对象时返回 \u003ccode\u003etrue\u003c/code\u003e。否则，返回 \u003ccode\u003efalse\u003c/code\u003e。\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003e若 x 为 null 且 y 为 undefined，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 x 为 undefined 且 y 为 null，返回 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Number 且 Type(y) 为 String，返回比较 \u003ccode\u003ex == ToNumber(y)\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 String 且 Type(y) 为 Number，返回比较 \u003ccode\u003eToNumber(x) == y\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Boolean，返回比较 \u003ccode\u003eToNumber(x) == y\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e若 Type(y) 为 Boolean，返回比较 \u003ccode\u003ex == ToNumber(y)\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 String 或 Number，且 Type(y) 为 Object，返回比较 \u003ccode\u003ex == ToPrimitive(y)\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e若 Type(x) 为 Object 且 Type(y) 为 String 或 Number，返回比较 \u003ccode\u003eToPrimitive(x) == y\u003c/code\u003e 的结果\u003c/li\u003e\n\u003cli\u003e返回 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e按以上相等之定义：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e字符串比较可以按这种方式强制执行：\u003ccode\u003e'' + a == '' + b\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e数值比较可以按这种方式强制执行：\u003ccode\u003e+a == +b\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e布尔值比较可以按这种方式强制执行：\u003ccode\u003e!a == !b\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e等值比较操作保证以下不变：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eA !== B\u003c/code\u003e 等价于 \u003ccode\u003e!(A == B)\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eA == B\u003c/code\u003e 等价于 \u003ccode\u003eB == A\u003c/code\u003e，除了 A 与 B 的执行顺序。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e相等运算符不总是传递的。例如，两个不同的 String 对象，都表示相同的字符串值；\u003ccode\u003e==\u003c/code\u003e 运算符认为每个 \u003ccode\u003eString\u003c/code\u003e 对象都与字符串值相等，但是两个字符串对象互不相等。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003enew String('a') == 'a'\u003c/code\u003e 和 \u003ccode\u003e'a' == new String('a')\u003c/code\u003e 皆为 \u003ccode\u003etrue\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003enew String('a') == new String('a')\u003c/code\u003e 为 \u003ccode\u003efalse\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e字符串比较使用的方式是简单地检测字符编码单元序列是否相同。不会做更复杂的、基于语义的字符或者字符串相等的定义以及 Unicode 规范中定义的 Collating Order。所以 Unicode 标准中认为相等的 String 值可能被检测为不等。实际上这一算法认为两个字符串已经是经过规范化的形式。\u003c/p\u003e\n\u003ch3\u003e引用数据类型间比较\u003c/h3\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003econst\u003c/span\u003e a = \u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e(\u003cspan class=\"hljs-params\"\u003e\u003c/span\u003e) {};\n\u003cspan class=\"hljs-keyword\"\u003econst\u003c/span\u003e b = \u003cspan class=\"hljs-keyword\"\u003efunction\u003c/span\u003e(\u003cspan class=\"hljs-params\"\u003e\u003c/span\u003e) {};\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(a === b);\n\u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e([] === []);\n\u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e({} === {});\n\u003cspan class=\"hljs-comment\"\u003e// false\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e当我们访问引用数据类型（对象、数组、函数等等）的值时，首先从栈中获得该对象的 \u003cstrong\u003e地址指针\u003c/strong\u003e，然后再从 \u003cstrong\u003e堆内存\u003c/strong\u003e 中取得所需的数据。\u003c/p\u003e\n\u003cp\u003e变量 \u003ccode\u003ea\u003c/code\u003e 实际保存的是指向堆内存中对象的一个指针，而变量 \u003ccode\u003eb\u003c/code\u003e 保存的是指向堆内存中的另一个对象的指针，虽然这两个对象的值时一样的，但它们是独立的两个对象，占了两份内存空间，所以它们互不相等。\u003c/p\u003e\n\u003cp\u003e而当将一个为引用数据类型的值的变量赋值给另一个变量时，即拷贝了前者的内存空间的地址指针，因此它们都指向堆内存中同一个对象。\u003c/p\u003e\n\u003cpre class=\"hljs\"\u003e\u003ccode class=\"language-js\"\u003e\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e x = {}\n\n\u003cspan class=\"hljs-keyword\"\u003elet\u003c/span\u003e y = x\n\n\u003cspan class=\"hljs-variable language_\"\u003econsole\u003c/span\u003e.\u003cspan class=\"hljs-title function_\"\u003elog\u003c/span\u003e(x === y\n\u003cspan class=\"hljs-comment\"\u003e// true\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"比较运算符\"}],[\"$\",\"article\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]]}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"front-end\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"front-end knowledge\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n"])</script><script>self.__next_f.push([1,"6:null\n"])</script></body></html>

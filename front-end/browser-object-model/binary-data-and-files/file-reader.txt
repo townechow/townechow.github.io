@@ -1,0 +1,144 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","binary-data-and-files","file-reader"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/binary-data-and-files/file-reader","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/binary-data-and-files/file-reader","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JOSG2z72MMZSkTpFOxNOS",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T196f,<h1>FileReader API</h1>
+<p>FileReader 对象允许 Web 应用程序 <strong>异步读取</strong> 存储在用户计算机上的文件（或原始数据缓冲区）的内容。</p>
+<p>FileReader API 接口提供了一个异步 API，使用该 API 可以在浏览器主线程中异步访问文件系统，读取文件中的数据。</p>
+<p>其中 <a href="./file">File</a> 对象可以是：</p>
+<ul>
+<li>来自用户在一个 <code>&lt;input&gt;</code> 元素上选择文件后返回的 FileList 对象</li>
+<li>也可以来自拖放操作生成的 DataTransfer 对象</li>
+<li>还可以是来自一个 HTMLCanvasElement 上执行 <code>mozGetAsFile()</code> 方法后返回结果</li>
+</ul>
+<h2>基本用法</h2>
+<p>通过 <code>new</code> 操作符构造 FileReader 对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> fileReader = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FileReader</span>();
+</code></pre>
+<h2>属性和方法</h2>
+<h3>属性</h3>
+<p>以下属性均为只读属性，不可更改。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>FileReader.error</code></td>
+<td style="text-align:left">DOMException 类型，表示在读取文件时发生的错误</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.readyState</code></td>
+<td style="text-align:left">表示 FileReader <strong>状态码</strong>（<code>EMPTY=0</code> 还没有加载任何数据；<code>LOADING=1</code> 数据正在被加载；<code>DONE=2</code> 已完成全部的读取请求）</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.result</code></td>
+<td style="text-align:left">文件的内容，该属性仅在 <strong>读取操作完成后</strong> 才有效，数据的格式取决于使用哪个方法来启动读取操作。</td>
+</tr>
+</tbody>
+</table>
+<h3>事件处理</h3>
+<p>对 FileReader 对象调用其中某一种读取方法后，可使用以下事件处理方式跟踪其读取进度。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">事件</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>FileReader.onprogress</code></td>
+<td style="text-align:left">处理 progress 事件，该事件在 <strong>读取</strong> Blob 时触发。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.onloadstart</code></td>
+<td style="text-align:left">处理 loadstart 事件，该事件在读取操作 <strong>开始</strong> 时触发。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.onabort</code></td>
+<td style="text-align:left">处理 abort 事件，该事件在读取操作 <strong>被中断</strong> 时触发。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.onload</code></td>
+<td style="text-align:left">处理 load 事件，该事件在读取操作 <strong>完成</strong> 时触发。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.onloadend</code></td>
+<td style="text-align:left">处理 loadend 事件，该事件在读取操作 <strong>结束</strong>（要么成功，要么失败）时触发。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.onerror</code></td>
+<td style="text-align:left">处理 error 事件，该事件在读取操作 <strong>发生错误</strong> 时触发。</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>✅ 因为 FileReader 继承自 <a href="../../document-object-model/dom/event-target">EventTarget</a>，所以所有这些事件也可以通过 addEventListener 方法使用。</p>
+</blockquote>
+<h3>方法</h3>
+<p>这些方法都是异步读取文件的。无论读取成功或失败，方法并不会返回读取结果，这一结果存储在 <code>result</code> 属性中。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>FileReader.abort()</code></td>
+<td style="text-align:left">中止读取操作，在返回时，readyState 属性为 <code>DONE</code>。</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.readAsText(file [, encoding])</code></td>
+<td style="text-align:left">开始读取指定的 Blob 中的内容，一旦完成，<code>result</code> 属性中将包含一个<strong>字符串</strong>以表示所读取文件的内容</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.readAsDataURL(file)</code></td>
+<td style="text-align:left">开始读取指定的 Blob 中的内容，一旦完成，<code>result</code> 属性中将包含一个 <strong><code>data:URL</code> 格式的字符串</strong>以表示所读取文件的内容</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.readAsArrayBuffer()</code></td>
+<td style="text-align:left">开始读取指定的 Blob 中的内容，一旦完成，<code>result</code> 属性中保存的将是被读取文件的 <strong>ArrayBuffer 数据对象</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>FileReader.readAsBinaryString(file)</code></td>
+<td style="text-align:left">开始读取指定 Blob 中的内容，一旦完成，<code>result</code> 属性中将包含所读取文件的 <strong>原始二进制数据</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>应用示例</h2>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> reader = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FileReader</span>();
+
+reader.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;loadend&#x27;</span>, <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-comment">// reader.result 包含了 TypedArray 格式的 Blob 内容</span>
+});
+
+reader.<span class="hljs-title function_">readAsArrayBuffer</span>(blob);
+
+blob = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Blob</span>([<span class="hljs-string">&#x27;This is my blob content.&#x27;</span>], { <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;text/plain&#x27;</span> });
+<span class="hljs-comment">// 读取为文本</span>
+reader.<span class="hljs-title function_">readAsText</span>(blob);
+</code></pre>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://www.html5rocks.com/zh/tutorials/file/dndfiles/">通过 File API 使用 JavaScript 读取文件</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"FileReader API"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

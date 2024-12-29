@@ -1,0 +1,285 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","object-oriented-programming","object-understand","the-object-status"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","a4Tpij3TkX5Ve4Q_MoFsS",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T41c2,<h1>对象状态</h1>
+<p>JavaScript 对象具有扩展、密封以及冻结三大特征。</p>
+<p>这些特征有相对应的方法：</p>
+<ul>
+<li><a href="#%E6%89%A9%E5%B1%95%E7%89%B9%E6%80%A7">扩展特性</a></li>
+<li><a href="#%E5%AF%86%E5%B0%81%E7%89%B9%E6%80%A7">密封特性</a></li>
+<li><a href="#%E5%86%BB%E7%BB%93%E7%89%B9%E6%80%A7">冻结特性</a></li>
+</ul>
+<h2>扩展特性</h2>
+<p>默认情况下，对象是可扩展的，可扩展的对象能够添加新的属性，对象的原型对象也可以被更改。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+
+foo.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+
+foo.<span class="hljs-property">__proto__</span> = <span class="hljs-literal">null</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// { a: 1 }</span>
+</code></pre>
+<p>使用 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isExtensible">Object.isExtensible</a> 可以检测指定对象是否可扩展。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isExtensible</span>(foo));
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>使用 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/preventExtensions">Object.preventExtensions</a> 方法可以标记一个对象为不可扩展（Non-Extensible）。</p>
+<p>不可扩展的对象具有以下特征：</p>
+<ul>
+<li>不能添加新的属性</li>
+<li>不能变更原型对象</li>
+</ul>
+<p>对象属性仍能删除，仍可为该对象原型添加属性。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">preventExtensions</span>(foo);
+
+<span class="hljs-comment">// 添加或删除属性均为静默失败不抛出错误</span>
+<span class="hljs-comment">// 严格模式下会抛出错误</span>
+foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">delete</span> foo.<span class="hljs-property">a</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
+<span class="hljs-comment">// {}</span>
+</code></pre>
+<p>使用 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/defineProperty">Object.defineProperty</a> 为不可扩展对象添加属性会抛出异常。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>};
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">preventExtensions</span>(foo);
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
+    <span class="hljs-attr">value</span>: <span class="hljs-number">2</span>
+})
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// 2</span>
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;b&#x27;</span>, {
+    <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>
+})
+<span class="hljs-comment">// Uncaught TypeError: Cannot define property a, object is not extensible</span>
+</code></pre>
+<h2>密封特性</h2>
+<p>密封对象具有以下特性：</p>
+<ul>
+<li>密封对象不可扩展
+<ul>
+<li>不能添加新的属性</li>
+<li>不能设置原型对象</li>
+</ul>
+</li>
+<li>所有已有属性变为不可配置 <code>configurable: false</code>
+<ul>
+<li>意味着已有属性不可删除</li>
+<li>数据属性不能被重新定义</li>
+</ul>
+</li>
+<li>所有已有属性仍可以被修改 <code>writable: true</code></li>
+</ul>
+<p>密封对象无法添加新属性，也无法删除已有属性。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+
+<span class="hljs-comment">// 无法删除属性</span>
+<span class="hljs-keyword">delete</span> foo.<span class="hljs-property">a</span>;
+<span class="hljs-comment">// 也无法添加新属性</span>
+foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// 1</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">b</span>);
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<p>尝试删除一个密封对象的属性或者将某个密封对象的属性从数据属性转换成访问器属性，结果会静默失败或抛出 TypeError。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 无法将数据属性重新定义为访问器属性</span>
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;c&#x27;</span>, {
+	<span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>){ <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;c&#x27;</span> }
+});
+<span class="hljs-comment">// Uncaught TypeError: Cannot define property b, object is not extensible</span>
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;d&#x27;</span>, {
+	<span class="hljs-attr">value</span>: <span class="hljs-number">1</span>
+})
+<span class="hljs-comment">// Uncaught TypeError: Cannot define property c, object is not extensible</span>
+</code></pre>
+<p>对象密封前已有属性在密封后仍可以被修改。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
+  <span class="hljs-attr">value</span>: <span class="hljs-number">2</span>
+});
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// 2</span>
+</code></pre>
+<p>使用方法 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/seal">Object.seal</a> 可将对象变为<strong>密封状态</strong>。</p>
+<ul>
+<li>如果把一个空对象变得不可扩展，则它同时也会变成个密封对象</li>
+<li>如果该对象不是空对象，则它不会变成密封对象，因为密封对象的所有自身属性必须是不可配置的</li>
+<li>如果把对象所有自身属性变为不可配置，则这个对象是密封对象</li>
+</ul>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({});
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isSealed</span>(foo));
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>使用 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isSealed">Object.isSealed</a> 可以检测指定对象是否已密封。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<span class="hljs-keyword">const</span> bar = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({});
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isSealed</span>(foo));
+<span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isSealed</span>(bar));
+<span class="hljs-comment">// true</span>
+</code></pre>
+<h2>冻结特性</h2>
+<p>冻结对象具有以下特征：</p>
+<ul>
+<li>冻结对象不可扩展
+<ul>
+<li>不能添加新的属性</li>
+<li>不能设置原型对象</li>
+</ul>
+</li>
+<li>所有已有属性变为不可配置 <code>configurable: false</code>
+<ul>
+<li>意味着已有属性不可删除</li>
+<li>数据属性不能被重新定义</li>
+<li>访问器属性也不能被重新定义，但由于是函数调用，给人的错觉是还是可以修改这个属性</li>
+</ul>
+</li>
+<li>不能修改已有属性值 <code>writable: false</code></li>
+</ul>
+<p>这也意味着，冻结对象永远不可变。</p>
+<p>冻结对象不能添加新的属性。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> })
+
+foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">b</span>);
+<span class="hljs-comment">// undefined</span>
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;c&#x27;</span>, {
+    <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>
+});
+<span class="hljs-comment">// Uncaught TypeError: Cannot define property c, object is not extensible</span>
+</code></pre>
+<p>冻结对象不能设置原型对象。下面两个语句都会抛出 TypeError 错误。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">setPrototypeOf</span>(foo, { <span class="hljs-attr">x</span>: <span class="hljs-number">20</span> });
+<span class="hljs-comment">// Uncaught TypeError: #&lt;Object&gt; is not extensible</span>
+
+foo.<span class="hljs-property">__proto__</span> = { <span class="hljs-attr">x</span>: <span class="hljs-number">20</span> };
+<span class="hljs-comment">// Uncaught TypeError: #&lt;Object&gt; is not extensible</span>
+</code></pre>
+<p>如果一个属性的值是个对象，则这个对象中的属性是可以修改的，除非它也是个冻结对象。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">bar</span>: {} };
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>(foo);
+
+foo.<span class="hljs-property">bar</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">bar</span>.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// 1</span>
+</code></pre>
+<p>数组作为一种对象，被冻结，其元素不能被修改。没有数组元素可以被添加或移除。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-number">0</span>];
+
+<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>(foo);
+
+a[<span class="hljs-number">0</span>] = <span class="hljs-number">1</span>;
+a.<span class="hljs-title function_">push</span>(<span class="hljs-number">2</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<span class="hljs-comment">// [0]</span>
+</code></pre>
+<p>使用 <a href="../../standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isFrozen">Object.isFrozen</a> 可以检测指定对象是否已冻结。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({})
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isFrozen</span>(foo));
+<span class="hljs-comment">// true</span>
+</code></pre>
+<p>倘若一个对象的属性是一个对象，那么对这个外部对象进行冻结，内部对象的属性是依旧可以改变的，这就叫浅冻结，若把外部对象冻结的同时把其所有内部对象甚至是内部的内部无限延伸的对象属性也冻结了，这就叫深冻结。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 深冻结函数.</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">deepFreeze</span>(<span class="hljs-params">o</span>) {
+
+  <span class="hljs-comment">// 取回定义在obj上的属性名</span>
+  <span class="hljs-keyword">const</span> propNames = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getOwnPropertyNames</span>(o);
+
+  <span class="hljs-comment">// 在冻结自身之前冻结属性</span>
+  propNames.<span class="hljs-title function_">forEach</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-keyword">const</span> prop = o[name];
+
+    <span class="hljs-comment">// 如果 prop 是个对象，冻结它</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> prop == <span class="hljs-string">&#x27;object&#x27;</span> &amp;&amp; prop !== <span class="hljs-literal">null</span>) {
+      <span class="hljs-title function_">deepFreeze</span>(prop);
+    }
+  });
+
+  <span class="hljs-comment">// 冻结自身(no-op if already frozen)</span>
+  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>(o);
+}
+
+<span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">bar</span>: {} };
+
+<span class="hljs-title function_">deepFreeze</span>(foo);
+
+foo.<span class="hljs-property">bar</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">bar</span>.<span class="hljs-property">a</span>);
+<span class="hljs-comment">// undefined</span>
+</code></pre>
+<h2>总结</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">添加新属性</th>
+<th style="text-align:center">删除已有属性</th>
+<th style="text-align:center">配置数据属性</th>
+<th style="text-align:center">已有属性可写</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">扩展特性</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">✅</td>
+</tr>
+<tr>
+<td style="text-align:left">密封特性</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">✅</td>
+</tr>
+<tr>
+<td style="text-align:left">冻结特性</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">❎</td>
+<td style="text-align:center">❎</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://segmentfault.com/a/1190000003894119">📝 浅谈 JavaScript 对象之扩展、密封及冻结三大特征</a></li>
+</ul>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"对象状态"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null

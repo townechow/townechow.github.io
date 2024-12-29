@@ -1,0 +1,95 @@
+1:"$Sreact.fragment"
+2:I[5244,[],""]
+3:I[3866,[],""]
+5:I[6213,[],"OutletBoundary"]
+7:I[6213,[],"MetadataBoundary"]
+9:I[6213,[],"ViewportBoundary"]
+b:I[4835,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/ec0a9d078e716e00.css","style"]
+:HL["/_next/static/css/485ff6fe79292a08.css","style"]
+:HL["/_next/static/css/0ff121a467c0636f.css","style"]
+0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","prototype","indexOf"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/indexOf","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/prototype/indexOf","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6HbynN34uRQ8KS8eu-nY7",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1724,<h1>String.prototype.indexOf()</h1>
+<p><code>indexOf()</code> 函数用于查找子字符串在当前字符串中第一次出现的位置。</p>
+<h2>语法</h2>
+<pre class="hljs"><code class="language-js">str.<span class="hljs-title function_">indexOf</span>( searchValue[, startIndex])
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>searchValue</code></td>
+<td>需要查找的子字符串。</td>
+<td>string</td>
+</tr>
+<tr>
+<td><code>startIndex</code></td>
+<td>可选，在当前字符串中查找的起始索引，默认为 0。</td>
+<td>number</td>
+</tr>
+</tbody>
+</table>
+<p><code>indexOf()</code> 方法的返回值为 Number 类型，返回子字符串在当前字符串中第一次查找到的起始位置（索引）。</p>
+<h2>示例</h2>
+<p>字符串中的字符被从左向右索引。首字符的索引（index）为 0，字符串 <code>stringName</code> 的最后一个字符的索引是 <code>stringName.length - 1</code>。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Blue&#x27;</span>);
+<span class="hljs-comment">//  0</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Blute&#x27;</span>);
+<span class="hljs-comment">// -1</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Whale&#x27;</span>, <span class="hljs-number">0</span>);
+<span class="hljs-comment">//  5</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Whale&#x27;</span>, <span class="hljs-number">5</span>);
+<span class="hljs-comment">//  5</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;&#x27;</span>, <span class="hljs-number">9</span>);
+<span class="hljs-comment">//  9</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;&#x27;</span>, <span class="hljs-number">10</span>);
+<span class="hljs-comment">// 10</span>
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;&#x27;</span>, <span class="hljs-number">11</span>);
+<span class="hljs-comment">// 10</span>
+</code></pre>
+<h3>区分大小写</h3>
+<p>下例定义了两个字符串变量。</p>
+<p>两个变量包含相同的字符串，除了第二个字符串中的某些字符为大写。第一个 <code>log</code> 方法输出 19。但是由于 <code>indexOf</code> 方法 <strong>区分大小写</strong>，因此不会在 <code>myCapString</code> 中发现字符串 <code>“cheddar&quot;</code>，结果第二个 <code>log</code> 方法输出 -1。</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> myString = <span class="hljs-string">&#x27;brie, pepper jack, cheddar&#x27;</span>;
+<span class="hljs-keyword">var</span> myCapString = <span class="hljs-string">&#x27;Brie, Pepper Jack, Cheddar&#x27;</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;myString.indexOf(&quot;cheddar&quot;) is &#x27;</span> + myString.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;cheddar&#x27;</span>));
+<span class="hljs-comment">// 19</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;myCapString.indexOf(&quot;cheddar&quot;) is &#x27;</span> + myCapString.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;cheddar&#x27;</span>));
+<span class="hljs-comment">// -1</span>
+</code></pre>
+<h3>统计字符串中字母数量</h3>
+<p>使用 <code>indexOf</code> 统计一个字符串中某个字母出现的次数</p>
+<p>在下例中，设置了 <code>count</code> 来记录字母 e 在字符串 <code>str</code> 中出现的次数：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> str = <span class="hljs-string">&#x27;To be, or not to be, that is the question.&#x27;</span>;
+<span class="hljs-keyword">let</span> count = <span class="hljs-number">0</span>;
+<span class="hljs-keyword">let</span> cur = str.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;e&#x27;</span>);
+
+<span class="hljs-comment">// 当 cur 为 -1 时表示，字符串中已无检索子字符串</span>
+<span class="hljs-keyword">while</span> (cur !== -<span class="hljs-number">1</span>) {
+  count++;
+  cur = str.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;e&#x27;</span>, cur + <span class="hljs-number">1</span>);
+}
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(count); <span class="hljs-comment">// displays 4</span>
+</code></pre>
+<h3>检测字符是否存在</h3>
+<p>当检测某个字符串是否存在于另一个字符串中时，可使用下面的方法：</p>
+<pre class="hljs"><code class="language-js"><span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Blue&#x27;</span>) !== -<span class="hljs-number">1</span>;
+<span class="hljs-comment">// true</span>
+
+<span class="hljs-string">&#x27;Blue Whale&#x27;</span>.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;Bloe&#x27;</span>) !== -<span class="hljs-number">1</span>;
+<span class="hljs-comment">// false</span>
+</code></pre>
+4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"String.prototype.indexOf"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+6:null
