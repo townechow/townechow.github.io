@@ -23,8 +23,11 @@ export const md2html = (mdContent: string, filePath: string) => {
       // 如果没有指定语言或语言不支持，默认处理
       return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
     },
+  }).use(emoji)
     // @ts-expect-error no type
-  }).use(emoji).use((mdInstance) => imgPlug(mdInstance, filePath))
+    .use((mdInstance) => imgPlug(mdInstance, filePath))
+    // @ts-expect-error no type
+    .use((mdInstance) => LinkPlug(mdInstance, filePath))
 
   return md.render(mdContent);
 };
@@ -45,13 +48,59 @@ const imgPlug = (mdInstance: object, filePath: string) => {
       const originalSrc = token.attrs[srcIndex][1];
       // nextjs public/ 下的资源在构建后会上移一级到跟根目录，所以 public/ 前缀要一并移除；
       const resourcesRelativePath = path.relative(path.join(process.cwd(), 'public/'), filePath);
-      const folderPath = path.dirname(resourcesRelativePath);
-      const src = path.join("/", folderPath, originalSrc);
-      token.attrs[srcIndex][1] = src
+      if (!path.isAbsolute(originalSrc) && !originalSrc.startsWith("http")) {
+        // 如果是相对路径如"../mood/happy",要根据当前文件的路径计算出 内容根目录的绝对路径，得 "/blog/mood/happy"
+        // 直接以文件名开头也是相对路径 如 "mood/happy"==="./mood/happy"
+        const folderPath = path.dirname(resourcesRelativePath);
+        const src = path.join("/", folderPath, originalSrc);
+        token.attrs[srcIndex][1] = src
+      }
+      if (originalSrc.startsWith("/")) {
+        // 如果是 "/" 开头的绝对路径如"/mood/happy"，即项目的根目录，则需要加上内容的根目录,得 "/blog/mood/happy"
+        const parts = resourcesRelativePath.split(path.sep);
+        const contentRootDir = parts[0]
+        const src = path.join("/", contentRootDir, originalSrc);
+        token.attrs[srcIndex][1] = src
+      }
     }
 
     // 调用默认渲染器
     return defaultRender(tokens, idx, options, env, self);
+  };
+}
+const LinkPlug = (mdInstance: object, filePath: string) => {
+  // @ts-expect-error no type
+  mdInstance.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    // 查找 href 属性
+    const hrefIndex = token.attrIndex('href');
+    if (hrefIndex >= 0) {
+      const originalSrc = token.attrs[hrefIndex][1] || "";
+      const resourcesRelativePath = path.relative(path.join(process.cwd(), 'public/'), filePath);
+      if (!path.isAbsolute(originalSrc) && !originalSrc.startsWith("http")) {
+        // 如果是相对路径如"../mood/happy",要根据当前文件的路径计算出 内容根目录的绝对路径，得 "/blog/mood/happy"
+        // 直接以文件名开头也是相对路径 如 "mood/happy"==="./mood/happy"
+        const folderPath = path.dirname(resourcesRelativePath);
+        const src = path.join("/", folderPath, originalSrc);
+        token.attrs[hrefIndex][1] = src
+      }
+      if (originalSrc.startsWith("/")) {
+        // 如果是 "/" 开头的绝对路径如"/mood/happy"，即项目的根目录，则需要加上内容的根目录,得 "/blog/mood/happy"
+        const parts = resourcesRelativePath.split(path.sep);
+        const contentRootDir = parts[0]
+        const src = path.join("/", contentRootDir, originalSrc);
+        token.attrs[hrefIndex][1] = src
+      }
+
+      if (originalSrc.startsWith("http")) {
+        // 添加 target 属性
+        tokens[idx].attrPush(['target', '_blank']);
+        // 如果需要添加 rel 属性
+        tokens[idx].attrPush(['rel', 'noopener noreferrer nofollow']);
+      }
+    }
+    // 调用默认渲染逻辑
+    return self.renderToken(tokens, idx, options);
   };
 }
 

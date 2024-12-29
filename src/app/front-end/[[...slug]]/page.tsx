@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 
   // 递归获取所有 Markdown 文件路径
   const allFiles = getAllMdFile(postsDir);
-  console.log("allFiles", allFiles);
+  // console.log("allFiles", allFiles);
 
   // 转换文件路径为路由参数
   const paths = allFiles.map((filePath) => {
