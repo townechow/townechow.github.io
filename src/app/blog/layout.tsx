@@ -13,6 +13,6 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="blog  w-full h-full">{children}</div>
+        <main>{children}</main>
     );
 }

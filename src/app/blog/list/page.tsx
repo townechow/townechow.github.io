@@ -17,7 +17,7 @@ export default async function BlogListPage() {
   })
 
   return (
-    <div className="w-full h-full center">
+    <div className="w-full h-full flex">
       <ul>
         {
           allUris?.map(({ uri, name }) => {
