@@ -10,91 +10,91 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","N4MnJfcDRgTEhJQmHA0TV",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T1970,<h1>BOM 浏览器对象模型</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","browser-object-model","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6dZiPa5BBF6wtyflwH_Qj",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1be7,<h1>BOM 浏览器对象模型</h1>
 <p><strong>浏览器对象模型 Browser Object Model</strong></p>
 <ul>
 <li><strong>全局对象</strong>
 <ul>
-<li><a href="/browser-object-model/window/window">Window 对象</a></li>
-<li><a href="/browser-object-model/window/location">Location 对象</a></li>
-<li><a href="/browser-object-model/window/history">History 对象</a></li>
-<li><a href="/browser-object-model/window/screen">Screen 对象</a></li>
-<li><a href="/browser-object-model/window/navigator">Navigator 对象</a></li>
+<li><a href="/front-end/browser-object-model/window/window">Window 对象</a></li>
+<li><a href="/front-end/browser-object-model/window/location">Location 对象</a></li>
+<li><a href="/front-end/browser-object-model/window/history">History 对象</a></li>
+<li><a href="/front-end/browser-object-model/window/screen">Screen 对象</a></li>
+<li><a href="/front-end/browser-object-model/window/navigator">Navigator 对象</a></li>
 </ul>
 </li>
 <li><strong>全局 API</strong>
 <ul>
-<li><a href="/browser-object-model/web-event/set-interval">setInterval 间歇调用</a></li>
-<li><a href="/browser-object-model/web-event/set-time-out">setTimeout 超时调用</a></li>
-<li><a href="/browser-object-model/web-event/alert">alert</a></li>
-<li><a href="/browser-object-model/web-event/confirm">confirm</a></li>
-<li><a href="/browser-object-model/web-event/prompt">prompt</a></li>
-<li><a href="/browser-object-model/web-event/request-animation-frame">动画渲染 Animation Framee API</a></li>
+<li><a href="/front-end/browser-object-model/web-event/set-interval">setInterval 间歇调用</a></li>
+<li><a href="/front-end/browser-object-model/web-event/set-time-out">setTimeout 超时调用</a></li>
+<li><a href="/front-end/browser-object-model/web-event/alert">alert</a></li>
+<li><a href="/front-end/browser-object-model/web-event/confirm">confirm</a></li>
+<li><a href="/front-end/browser-object-model/web-event/prompt">prompt</a></li>
+<li><a href="/front-end/browser-object-model/web-event/request-animation-frame">动画渲染 Animation Framee API</a></li>
 </ul>
 </li>
 <li><strong>视窗尺寸位置</strong>
 <ul>
-<li><a href="/browser-object-model/window-position/window-view-properties">Window 视图属性</a></li>
-<li><a href="/browser-object-model/window-position/screen-view-properties">Screen 视图属性</a></li>
-<li><a href="/browser-object-model/window-position/document-view-and-element-view">Element 文档元素视图属性</a></li>
-<li><a href="/browser-object-model/window-position/element-view-properties">文档视图和元素视图</a></li>
-<li><a href="/browser-object-model/window-position/mouse-position">鼠标位置</a></li>
+<li><a href="/front-end/browser-object-model/window-position/window-view-properties">Window 视图属性</a></li>
+<li><a href="/front-end/browser-object-model/window-position/screen-view-properties">Screen 视图属性</a></li>
+<li><a href="/front-end/browser-object-model/window-position/document-view-and-element-view">Element 文档元素视图属性</a></li>
+<li><a href="/front-end/browser-object-model/window-position/element-view-properties">文档视图和元素视图</a></li>
+<li><a href="/front-end/browser-object-model/window-position/mouse-position">鼠标位置</a></li>
 </ul>
 </li>
 <li><strong>二进制数据与文件 API</strong>
 <ul>
-<li><a href="/browser-object-model/binary-data-and-files/local-files-application">本地文件应用</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/blob">Blob API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/file">File API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/file-list">FileList API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/file-reader">FileReader API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/file-reader-sync">FileReaderSync API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/url">URL API</a></li>
-<li><a href="/browser-object-model/binary-data-and-files/form-data">FormData API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/local-files-application">本地文件应用</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/blob">Blob API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/file">File API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/file-list">FileList API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/file-reader">FileReader API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/file-reader-sync">FileReaderSync API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/url">URL API</a></li>
+<li><a href="/front-end/browser-object-model/binary-data-and-files/form-data">FormData API</a></li>
 </ul>
 </li>
 <li><strong>数据通信 API</strong>
 <ul>
-<li><a href="/browser-object-model/connectivity/post-message">PostMessage</a></li>
-<li><a href="/browser-object-model/connectivity/xmlhttprequest">XMLHttpRequest API</a></li>
-<li><a href="/browser-object-model/connectivity/fetch">Fetch API</a></li>
-<li><a href="/browser-object-model/connectivity/beacon">Beacon API</a></li>
-<li><a href="/browser-object-model/connectivity/web-socket">WebSocket</a></li>
-<li><a href="/browser-object-model/connectivity/event-source">EventSource API</a></li>
-<li><a href="/browser-object-model/connectivity/server-sent-events">Server-sent Events</a></li>
-<li><a href="/browser-object-model/connectivity/web-real-time-communication">WebRTC API</a></li>
-<li><a href="/browser-object-model/connectivity/progress-event">ProgressEvent</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/post-message">PostMessage</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/xmlhttprequest">XMLHttpRequest API</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/fetch">Fetch API</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/beacon">Beacon API</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/web-socket">WebSocket</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/event-source">EventSource API</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/server-sent-events">Server-sent Events</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/web-real-time-communication">WebRTC API</a></li>
+<li><a href="/front-end/browser-object-model/connectivity/progress-event">ProgressEvent</a></li>
 </ul>
 </li>
 <li><strong>离线与存储 API</strong>
 <ul>
 <li>Storage API</li>
-<li><a href="/browser-object-model/offline-and-storage/web-cache">浏览器缓存机制</a></li>
-<li><a href="/browser-object-model/offline-and-storage/http-cache">HTTP Cache</a></li>
-<li><a href="/browser-object-model/offline-and-storage/cookie">Cookie</a></li>
-<li><a href="/browser-object-model/offline-and-storage/web-storage">Web Storage API</a></li>
-<li><a href="/browser-object-model/offline-and-storage/web-workers">Web Workers API</a></li>
-<li><a href="/browser-object-model/offline-and-storage/service-worker">Service Worker API</a></li>
-<li><a href="/browser-object-model/offline-and-storage/indexedDB">IndexedDB 数据库</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/web-cache">浏览器缓存机制</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/http-cache">HTTP Cache</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/cookie">Cookie</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/web-storage">Web Storage API</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/web-workers">Web Workers API</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/service-worker">Service Worker API</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/indexedDB">IndexedDB 数据库</a></li>
 <li>Progressive Web App（PWA）</li>
 </ul>
 </li>
 <li><strong>性能 API</strong>
 <ul>
-<li><a href="/browser-object-model/performance/performance">Performance API</a></li>
-<li><a href="/browser-object-model/performance/performance-resource-timing">Performance Resource Timing API</a></li>
-<li><a href="/browser-object-model/performance/performance-timeline">Performance Timeline API</a></li>
+<li><a href="/front-end/browser-object-model/performance/performance">Performance API</a></li>
+<li><a href="/front-end/browser-object-model/performance/performance-resource-timing">Performance Resource Timing API</a></li>
+<li><a href="/front-end/browser-object-model/performance/performance-timeline">Performance Timeline API</a></li>
 <li>Timing API</li>
 <li>Performance Frame Timing API</li>
 </ul>
 </li>
 <li><strong>设备 API</strong>
 <ul>
-<li><a href="/browser-object-model/device/geolocation">地理定位 Geolocation API</a></li>
-<li><a href="/browser-object-model/device/touch-event">触控事件 TouchEvent</a></li>
-<li><a href="/browser-object-model/device/camera">摄录设备</a></li>
-<li><a href="/browser-object-model/device/position">位置信息</a></li>
+<li><a href="/front-end/browser-object-model/device/geolocation">地理定位 Geolocation API</a></li>
+<li><a href="/front-end/browser-object-model/device/touch-event">触控事件 TouchEvent</a></li>
+<li><a href="/front-end/browser-object-model/device/camera">摄录设备</a></li>
+<li><a href="/front-end/browser-object-model/device/position">位置信息</a></li>
 <li>Battery Status API</li>
 </ul>
 </li>
@@ -102,14 +102,14 @@ c:T1970,<h1>BOM 浏览器对象模型</h1>
 <ul>
 <li>CSSOM</li>
 <li>Console API</li>
-<li><a href="/browser-object-model/integration/full-screen">全屏 Fullscreen API</a></li>
+<li><a href="/front-end/browser-object-model/integration/full-screen">全屏 Fullscreen API</a></li>
 <li>Pointer Events 指针时间</li>
 <li>Pointer Lock API 指针锁定</li>
 </ul>
 </li>
 <li><strong>监视 API</strong>
 <ul>
-<li><a href="/browser-object-model/observer/intersection-observer">IntersectionObserver</a></li>
+<li><a href="/front-end/browser-object-model/observer/intersection-observer">IntersectionObserver</a></li>
 <li>MutationObserver</li>
 <li>ResizeObserver</li>
 <li>PerformanceObserver</li>
@@ -117,19 +117,19 @@ c:T1970,<h1>BOM 浏览器对象模型</h1>
 </li>
 <li><strong>浏览器工作原理</strong>
 <ul>
-<li><a href="/browser-object-model/browser-working-principle/browser-architecture">浏览器架构</a></li>
-<li><a href="/browser-object-model/browser-working-principle/workflow">渲染进程的内部机制</a></li>
-<li><a href="/browser-object-model/browser-working-principle/construction-of-the-object-model">构建对象模型</a></li>
-<li><a href="/browser-object-model/browser-working-principle/script-loads">脚本异步加载</a></li>
-<li><a href="/browser-object-model/browser-working-principle/construction-of-render-tree">渲染树构建</a></li>
-<li><a href="/browser-object-model/browser-working-principle/layout">布局</a></li>
-<li><a href="/browser-object-model/browser-working-principle/painting">绘制</a></li>
-<li><a href="/browser-object-model/browser-working-principle/composite">合并</a></li>
-<li><a href="/browser-object-model/browser-working-principle/browser-event">浏览器事件处理</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/browser-architecture">浏览器架构</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/workflow">渲染进程的内部机制</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/construction-of-the-object-model">构建对象模型</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/script-loads">脚本异步加载</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/construction-of-render-tree">渲染树构建</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/layout">布局</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/painting">绘制</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/composite">合并</a></li>
+<li><a href="/front-end/browser-object-model/browser-working-principle/browser-event">浏览器事件处理</a></li>
 </ul>
 </li>
 </ul>
-<p>&lt;!-- &gt; ⚠️ 图形学领域的 SVG、Canvas、WebGL 集成于 <a href="https://tt.github.io/visualization-guidebook">visualization-guidebook</a> --&gt;</p>
+<p>&lt;!-- &gt; ⚠️ 图形学领域的 SVG、Canvas、WebGL 集成于 <a href="https://tt.github.io/visualization-guidebook" target="_blank" rel="noopener noreferrer nofollow">visualization-guidebook</a> --&gt;</p>
 4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"BOM 浏览器对象模型"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
 a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"front-end"}],["$","meta","2",{"name":"description","content":"front-end knowledge"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]

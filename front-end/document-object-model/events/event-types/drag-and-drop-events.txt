@@ -10,8 +10,8 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","document-object-model","events","event-types","drag-and-drop-events"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/events/event-types/drag-and-drop-events","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/events/event-types/drag-and-drop-events","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","X7qUSHXwQHiY5SjOh-O6u",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T2ba9,<h1>拖拽事件</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","document-object-model","events","event-types","drag-and-drop-events"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/events/event-types/drag-and-drop-events","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/events/event-types/drag-and-drop-events","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","xSqA1ZQMyrzvf7Mgj06Or",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3170,<h1>拖拽事件</h1>
 <p>每一个可拖动的元素，在拖动过程中，都会经历三个过程：<code>拖动开始</code> ==&gt; <code>拖动过程中</code> ==&gt; <code>拖动结束</code>。</p>
 <table>
 <thead>
@@ -27,43 +27,43 @@ c:T2ba9,<h1>拖拽事件</h1>
 <td>被拖动的元素</td>
 <td>dragstart</td>
 <td>在元素开始拖动时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>drag</td>
 <td>在元素拖动时反复触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragend</td>
 <td>在拖动操作完成时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td>目的地对象</td>
 <td>dragenter</td>
 <td>当被拖动元素进入目的地元素所占据的屏幕空间时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragover</td>
 <td>当被拖动元素在目的地元素内时触发（每 100ms 触发一次）</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragleave</td>
 <td>当被拖动元素没有放下就离开目的地元素时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>drop</td>
 <td></td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 </tbody>
 </table>
@@ -107,37 +107,37 @@ c:T2ba9,<h1>拖拽事件</h1>
 <td>被拖动的元素</td>
 <td>dragstart</td>
 <td>在元素开始拖动时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragstart" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>drag</td>
 <td>在元素拖动时反复触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drag" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragend</td>
 <td>在拖动操作完成时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragend" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td>目的地对象</td>
 <td>dragenter</td>
 <td>当被拖动元素进入目的地元素所占据的屏幕空间时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragenter" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragover</td>
 <td>但被拖动元素在目的地元素内时触发（每 100ms 触发一次）</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragover" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 <tr>
 <td></td>
 <td>dragleave</td>
 <td>当被拖动元素没有放下就离开目的地元素时触发</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ c:T2ba9,<h1>拖拽事件</h1>
 <td>目的地对象</td>
 <td>drop</td>
 <td>当被拖动元素在目的地元素里放下时触发，一般需要取消浏览器的默认行为</td>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop">文档</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/drop" target="_blank" rel="noopener noreferrer nofollow">文档</a></td>
 </tr>
 </tbody>
 </table>
@@ -175,19 +175,19 @@ c:T2ba9,<h1>拖拽事件</h1>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/types">types</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/types" target="_blank" rel="noopener noreferrer nofollow">types</a></td>
 <td>只读属性。它返回一个我们在 <code>dragstart</code> 事件中设置的<strong>拖动数据格式的数组</strong>。 格式顺序与拖动操作中包含的数据顺序相同。IE10+、Edge、Safari3.1、Firefox3.5+ 和 Chrome4 以上支持该属性。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/files">files</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/files" target="_blank" rel="noopener noreferrer nofollow">files</a></td>
 <td>返回拖动操作中的<strong>文件列表</strong>。包含一个在数据传输上所有可用的本地文件列表。如果拖动操作不涉及拖动文件，此属性是一个空列表。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect">dropEffect</a></td>
+<td><a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect" target="_blank" rel="noopener noreferrer nofollow">dropEffect</a></td>
 <td>获取当前选定的拖放操作的类型或将操作设置为新类型。可选值包括 <code>none</code>、<code>move</code>、<code>copy</code>、<code>link</code>。<code>dragover</code> 事件处理程序中针对放置目标来设置 dropEffect。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/effectAllowed">effectAllowed</a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/effectAllowed" target="_blank" rel="noopener noreferrer nofollow">effectAllowed</a></td>
 <td>指定拖放操作所允许的效果。可选值为 <code>none</code>、<code>copy</code>、<code>copyLink</code>、<code>copyMove</code>、<code>link</code>、<code>linkMove</code>、<code>move</code>、<code>all</code>、<code>uninitialized</code> 默认为 <code>uninitialized</code> 表示允许所有的效果。<code>ondragstart</code> 处理程序中设置 <code>effectAllowed</code> 属性。</td>
 </tr>
 </tbody>
@@ -201,19 +201,19 @@ c:T2ba9,<h1>拖拽事件</h1>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setData"><code>void setData(format, data)</code></a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setData" target="_blank" rel="noopener noreferrer nofollow"><code>void setData(format, data)</code></a></td>
 <td>将拖动操作的拖动数据设置为指定的数据和类型。<code>format</code> 可以是 MIME 类型。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/getData"><code>String getData(format)</code></a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/getData" target="_blank" rel="noopener noreferrer nofollow"><code>String getData(format)</code></a></td>
 <td>返回指定格式的数据，<code>format</code> 与 <code>setData()</code> 中一致。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/clearData"><code>void clearData([format])</code></a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/clearData" target="_blank" rel="noopener noreferrer nofollow"><code>void clearData([format])</code></a></td>
 <td>删除给定类型的拖动操作的数据。如果给定类型的数据不存在，此方法不执行任何操作。如果不给定参数，则删除所有类型的数据。</td>
 </tr>
 <tr>
-<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setDragImage"><code>void setDragImage(img, xOffset, yOffset)</code></a></td>
+<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/DataTransfer/setDragImage" target="_blank" rel="noopener noreferrer nofollow"><code>void setDragImage(img, xOffset, yOffset)</code></a></td>
 <td>指定一副图像，当拖动发生时，显示在光标下方。大多数情况下不用设置，因为被拖动的节点被创建成默认图片。<code>x</code>、<code>y</code> 参数分别指示图像的水平、垂直偏移量</td>
 </tr>
 </tbody>
@@ -243,18 +243,18 @@ c:T2ba9,<h1>拖拽事件</h1>
 </table>
 <h2>社区类库</h2>
 <ul>
-<li><a href="https://github.com/farhadi/html5sortable">HTML5 Sortable jQuery Plugin</a></li>
-<li><a href="https://github.com/mzabriskie/react-draggable">React-Draggable</a></li>
-<li><a href="https://github.com/vuejs/awesome-vue#drag-and-drop">Awesome-Vue:Drag&amp;Drop Component</a></li>
+<li><a href="https://github.com/farhadi/html5sortable" target="_blank" rel="noopener noreferrer nofollow">HTML5 Sortable jQuery Plugin</a></li>
+<li><a href="https://github.com/mzabriskie/react-draggable" target="_blank" rel="noopener noreferrer nofollow">React-Draggable</a></li>
+<li><a href="https://github.com/vuejs/awesome-vue#drag-and-drop" target="_blank" rel="noopener noreferrer nofollow">Awesome-Vue:Drag&amp;Drop Component</a></li>
 </ul>
 <h2>参考资料</h2>
 <ul>
-<li><a href="https://html.spec.whatwg.org/multipage/interaction.html#dndevents">📖 Living Standard: dndevents</a></li>
+<li><a href="https://html.spec.whatwg.org/multipage/interaction.html#dndevents" target="_blank" rel="noopener noreferrer nofollow">📖 Living Standard: dndevents</a></li>
 </ul>
 <ul>
-<li><a href="https://juejin.im/entry/59eebc39f265da431c6f7bdb">HTML5 拖放实现</a></li>
-<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave">HTML5 原生拖拽/拖放 Drag &amp; Drop 详解</a></li>
-<li><a href="https://juejin.im/post/5907d058da2f60005d0f8b15">HTML5 进阶系列：拖放 API 实现拖放排序</a></li>
+<li><a href="https://juejin.im/entry/59eebc39f265da431c6f7bdb" target="_blank" rel="noopener noreferrer nofollow">HTML5 拖放实现</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Events/dragleave" target="_blank" rel="noopener noreferrer nofollow">HTML5 原生拖拽/拖放 Drag &amp; Drop 详解</a></li>
+<li><a href="https://juejin.im/post/5907d058da2f60005d0f8b15" target="_blank" rel="noopener noreferrer nofollow">HTML5 进阶系列：拖放 API 实现拖放排序</a></li>
 </ul>
 <p>&lt;code src=&quot;../../../../example/drag-and-drop-events/index.tsx&quot; /&gt;</p>
 <p>https://html.spec.whatwg.org/multipage/dnd.html#drag-data-store</p>

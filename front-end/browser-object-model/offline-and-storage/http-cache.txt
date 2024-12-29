@@ -10,57 +10,57 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","browser-object-model","offline-and-storage","http-cache"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/http-cache","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/http-cache","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JT8bDhCzeFP8KjERxPnJL",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:Tb946,<h1>HTTP Cache</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","browser-object-model","offline-and-storage","http-cache"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/http-cache","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/http-cache","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Wg5p5O9AzMHDZIga6NY8z",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tc301,<h1>HTTP Cache</h1>
 <p>📖 <strong>快速目录：</strong></p>
 <ul>
-<li><a href="#http-cache">HTTP Cache</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#http-cache">HTTP Cache</a>
 <ul>
-<li><a href="#%E7%BC%93%E5%AD%98%E7%B1%BB%E5%9E%8B">缓存类型</a></li>
-<li><a href="#%E5%BC%BA%E7%BC%93%E5%AD%98">强缓存</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E7%BC%93%E5%AD%98%E7%B1%BB%E5%9E%8B">缓存类型</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%BC%BA%E7%BC%93%E5%AD%98">强缓存</a>
 <ul>
-<li><a href="#%E5%BC%BA%E7%BC%93%E5%AD%98%E8%A7%84%E5%88%99">强缓存规则</a></li>
-<li><a href="#%E5%BC%BA%E7%BC%93%E5%AD%98%E9%A6%96%E9%83%A8%E5%AD%97%E6%AE%B5">强缓存首部字段</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%BC%BA%E7%BC%93%E5%AD%98%E8%A7%84%E5%88%99">强缓存规则</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%BC%BA%E7%BC%93%E5%AD%98%E9%A6%96%E9%83%A8%E5%AD%97%E6%AE%B5">强缓存首部字段</a>
 <ul>
-<li><a href="#expires">Expires</a></li>
-<li><a href="#cache-control">Cache-Control</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#expires">Expires</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#cache-control">Cache-Control</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98">协商缓存</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98">协商缓存</a>
 <ul>
-<li><a href="#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E8%A7%84%E5%88%99">协商缓存规则</a></li>
-<li><a href="#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E9%A6%96%E9%83%A8%E5%AD%97%E6%AE%B5">协商缓存首部字段</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E8%A7%84%E5%88%99">协商缓存规则</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E9%A6%96%E9%83%A8%E5%AD%97%E6%AE%B5">协商缓存首部字段</a>
 <ul>
-<li><a href="#last-modified">Last-Modified</a></li>
-<li><a href="#if-modified-since">If-Modified-Since</a></li>
-<li><a href="#if-unmodified-since">If-Unmodified-Since</a></li>
-<li><a href="#etag">ETag</a></li>
-<li><a href="#if-none-match">If-None-Match</a></li>
-<li><a href="#if-match">If-Match</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#last-modified">Last-Modified</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#if-modified-since">If-Modified-Since</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#if-unmodified-since">If-Unmodified-Since</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#etag">ETag</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#if-none-match">If-None-Match</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#if-match">If-Match</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#%E5%90%AF%E5%8F%91%E5%BC%8F%E7%BC%93%E5%AD%98%E9%98%B6%E6%AE%B5">启发式缓存阶段</a></li>
-<li><a href="#%E5%85%B6%E4%BB%96%E7%BC%93%E5%AD%98%E5%AD%97%E6%AE%B5">其他缓存字段</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%90%AF%E5%8F%91%E5%BC%8F%E7%BC%93%E5%AD%98%E9%98%B6%E6%AE%B5">启发式缓存阶段</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%85%B6%E4%BB%96%E7%BC%93%E5%AD%98%E5%AD%97%E6%AE%B5">其他缓存字段</a>
 <ul>
-<li><a href="#pragma">Pragma</a></li>
-<li><a href="#date">Date</a></li>
-<li><a href="#age">Age</a></li>
-<li><a href="#vary">Vary</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#pragma">Pragma</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#date">Date</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#age">Age</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#vary">Vary</a></li>
 </ul>
 </li>
-<li><a href="#%E6%9C%80%E4%BD%B3%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5">最佳优化策略</a>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E6%9C%80%E4%BD%B3%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5">最佳优化策略</a>
 <ul>
-<li><a href="#%E7%BC%93%E5%AD%98%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B">缓存资源类型</a></li>
-<li><a href="#%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90">用户行为分析</a></li>
-<li><a href="#%E9%98%BB%E6%AD%A2%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90">阻止浏览器缓存静态资源</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E7%BC%93%E5%AD%98%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B">缓存资源类型</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90">用户行为分析</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E9%98%BB%E6%AD%A2%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90">阻止浏览器缓存静态资源</a></li>
 </ul>
 </li>
-<li><a href="#http-%E7%BC%93%E5%AD%98%E6%80%BB%E7%BB%93">HTTP 缓存总结</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#http-%E7%BC%93%E5%AD%98%E6%80%BB%E7%BB%93">HTTP 缓存总结</a></li>
+<li><a href="/front-end/browser-object-model/offline-and-storage/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
 </ul>
 </li>
 </ul>
@@ -143,7 +143,7 @@ c:Tb946,<h1>HTTP Cache</h1>
 <span class="hljs-attribute">Last-Modified</span><span class="hljs-punctuation">: </span>Tue, 28 Nov 2017 05:14:02 GMT
 <span class="hljs-attribute">Vary</span><span class="hljs-punctuation">: </span>Accept-Encoding
 </code></pre>
-<p>以上请求头来自百度首页某个 CSS 文件的响应头。我去除了一些和缓存无关的字段，只保留了以上部分。我们来分析下，<a href="#expires">Expires</a> 是 HTTP/1.0 中的定义缓存的字段，它规定了缓存过期的一个绝对时间。Cache-Control 是 HTTP/1.1 定义的关于缓存的字段，max-age 为 <a href="#cache-control">Cache-Control</a> 字段的其中一个指令，它规定了缓存过期的一个相对时间。</p>
+<p>以上请求头来自百度首页某个 CSS 文件的响应头。我去除了一些和缓存无关的字段，只保留了以上部分。我们来分析下，<a href="/front-end/browser-object-model/offline-and-storage/#expires">Expires</a> 是 HTTP/1.0 中的定义缓存的字段，它规定了缓存过期的一个绝对时间。Cache-Control 是 HTTP/1.1 定义的关于缓存的字段，max-age 为 <a href="/front-end/browser-object-model/offline-and-storage/#cache-control">Cache-Control</a> 字段的其中一个指令，它规定了缓存过期的一个相对时间。</p>
 <p>这就是<strong>强缓存阶段</strong>，当浏览器再次试图访问这个 CSS 文件，发现有这个文件的缓存，那么就会根据上一次的响应判断是否过期，如果没过期，则使用该缓存。</p>
 <h3>强缓存规则</h3>
 <p><strong>强制缓存的缓存规则是什么？</strong></p>
@@ -169,7 +169,7 @@ c:Tb946,<h1>HTTP Cache</h1>
 <p>在浏览器中，浏览器会在 JavaScript 脚本和图片等文件解析后直接存入内存缓存中，那么刷新页面时只需直接从内存缓存中读取（from memory cache）；而 CSS 文件则会存入硬盘文件中，所以每次渲染页面都需要从硬盘读取缓存（from disk cache）。</p>
 <p>强制缓存只有首次请求才会与服务器通信，读取缓存资源时不会发出任何请求，资源的  Status  状态码为  200，资源的  Size  为  <code>from memory</code>  或者  <code>from disk</code> ，HTTP1.1 版本的实现优先级会高于 HTTP/1.0 版本的实现。</p>
 <h3>强缓存首部字段</h3>
-<p>用于强缓存的首部字段包括 <a href="#expires">Expires</a> 和 <a href="#cache-control">Cache-Control</a>。</p>
+<p>用于强缓存的首部字段包括 <a href="/front-end/browser-object-model/offline-and-storage/#expires">Expires</a> 和 <a href="/front-end/browser-object-model/offline-and-storage/#cache-control">Cache-Control</a>。</p>
 <h4>Expires</h4>
 <p>Expires 字段用于告知客户端缓存资源过期失效的绝对时间，该字段值为 GMT 格式的时间字符串。</p>
 <pre class="hljs"><code class="language-http"><span class="hljs-attribute">Expires</span><span class="hljs-punctuation">: </span>Tue, 01 Jan 2019 12:00:00 GMT
@@ -341,13 +341,13 @@ c:Tb946,<h1>HTTP Cache</h1>
 </code></pre>
 <h3>协商缓存规则</h3>
 <p>在 HTTP 协议的 1.0 和 1.1 版本中也有不同的实现方式。</p>
-<p>在 HTTP/1.0 版本中，首次请求资源时服务器通过 <a href="#last-modified">Last-Modified</a> 来设置响应头的缓存标识，并且把资源最后修改的时间作为值填入，然后将资源返回给浏览器。当再次请求时，浏览器会首先带上 <a href="#if-modified-since">If-Modified-Since</a> 请求头去访问服务器，服务器会将 If-Modified-Since 中携带的时间与资源修改的时间匹配。</p>
+<p>在 HTTP/1.0 版本中，首次请求资源时服务器通过 <a href="/front-end/browser-object-model/offline-and-storage/#last-modified">Last-Modified</a> 来设置响应头的缓存标识，并且把资源最后修改的时间作为值填入，然后将资源返回给浏览器。当再次请求时，浏览器会首先带上 <a href="/front-end/browser-object-model/offline-and-storage/#if-modified-since">If-Modified-Since</a> 请求头去访问服务器，服务器会将 If-Modified-Since 中携带的时间与资源修改的时间匹配。</p>
 <ul>
 <li>如果时间不一致，服务器会返回新的资源，并且将 Last-Modified 值<strong>更新</strong>❗️，作为响应头返回给浏览器，状态码为 200，响应体 Body 中为修改后的资源内容。</li>
 <li>如果时间一致，表示资源没有更新，服务器返回 304 状态码，浏览器拿到响应状态码后从本地缓存数据库中读取缓存资源。</li>
 </ul>
 <p>🔴 <strong>弊端</strong>：这种方式有一个弊端，就是当服务器中的资源增加了一个字符，后来又把这个字符删掉，本身资源文件并没有发生变化，但修改时间发生了变化。当下次请求过来时，服务器也会把这个本来没有变化的资源重新返回给浏览器。</p>
-<p>📌 因此，在 HTTP/1.1 版本中，使用 <a href="#etag">ETag</a> 和 <a href="#if-none-match">If-None-Match</a> 作为缓存是否更新的标识。</p>
+<p>📌 因此，在 HTTP/1.1 版本中，使用 <a href="/front-end/browser-object-model/offline-and-storage/#etag">ETag</a> 和 <a href="/front-end/browser-object-model/offline-and-storage/#if-none-match">If-None-Match</a> 作为缓存是否更新的标识。</p>
 <p>当浏览器访问资源时，服务器会根据资源计算出一个哈希值，并随 ETag 响应头返回，当浏览器再次需要访问资源时，携带  If-None-Match  请求头，服务器再次计算该资源的 ETag 值。</p>
 <ul>
 <li>如果资源有改变，则返回状态码 200 ，Body 为新的资源体。</li>
@@ -385,14 +385,14 @@ c:Tb946,<h1>HTTP Cache</h1>
 <ul>
 <li>HTTP/1.0
 <ul>
-<li>资源响应头：<a href="#last-modified">Last-Modified</a></li>
-<li>协商请求头：<a href="#if-modified-since">If-Modified-Since</a>、<a href="#if-unmodified-since">If-Unmodified-Since</a></li>
+<li>资源响应头：<a href="/front-end/browser-object-model/offline-and-storage/#last-modified">Last-Modified</a></li>
+<li>协商请求头：<a href="/front-end/browser-object-model/offline-and-storage/#if-modified-since">If-Modified-Since</a>、<a href="/front-end/browser-object-model/offline-and-storage/#if-unmodified-since">If-Unmodified-Since</a></li>
 </ul>
 </li>
 <li>HTTP/1.1
 <ul>
-<li>资源响应头：<a href="#etag">ETag</a></li>
-<li>协商请求头：<a href="#if-none-match">If-None-Match</a>、<a href="#if-match">If-Match</a></li>
+<li>资源响应头：<a href="/front-end/browser-object-model/offline-and-storage/#etag">ETag</a></li>
+<li>协商请求头：<a href="/front-end/browser-object-model/offline-and-storage/#if-none-match">If-None-Match</a>、<a href="/front-end/browser-object-model/offline-and-storage/#if-match">If-Match</a></li>
 </ul>
 </li>
 </ul>
@@ -511,13 +511,13 @@ c:Tb946,<h1>HTTP Cache</h1>
 <p>仅有 IE 才能识别这段 <code>&lt;meta&gt;</code> 标签含义，其它主流浏览器仅能识别 <code>Cache-Control: no-store</code> 的 <code>&lt;meta&gt;</code>标签</p>
 </li>
 <li>
-<p>在 IE 中识别到该 <code>&lt;meta&gt;</code> 标签含义，并不一定会在请求字段加上 Pragma，但的确会让当前页面每次都发新请求（仅限页面，页面上的资源则不受影响）。——<a href="https://link.juejin.im/?target=http%3A%2F%2Fwww.cnblogs.com%2Fvajoy%2Fp%2F5341664.html">浅谈浏览器 HTTP 的缓存机制</a></p>
+<p>在 IE 中识别到该 <code>&lt;meta&gt;</code> 标签含义，并不一定会在请求字段加上 Pragma，但的确会让当前页面每次都发新请求（仅限页面，页面上的资源则不受影响）。——<a href="https://link.juejin.im/?target=http%3A%2F%2Fwww.cnblogs.com%2Fvajoy%2Fp%2F5341664.html" target="_blank" rel="noopener noreferrer nofollow">浅谈浏览器 HTTP 的缓存机制</a></p>
 </li>
 </ul>
 <p>服务端响应添加 <code>Progma: no-cache</code>，浏览器表现行为和强制刷新类似。</p>
 <h3>Date</h3>
 <p>Date 首部字段表示响应报文生成的日期时间，请求经过代理服务器时，返回的 Date 未必是最新的，通常这个时候，代理服务器将增加一个 Age 字段告知该资源已缓存了多久。</p>
-<p>该字段也用于 <a href="#%E5%90%AF%E5%8F%91%E5%BC%8F%E7%BC%93%E5%AD%98%E9%98%B6%E6%AE%B5">启发式缓存阶段</a> 的计算。</p>
+<p>该字段也用于 <a href="/front-end/browser-object-model/offline-and-storage/#%E5%90%AF%E5%8F%91%E5%BC%8F%E7%BC%93%E5%AD%98%E9%98%B6%E6%AE%B5">启发式缓存阶段</a> 的计算。</p>
 <h3>Age</h3>
 <p>Age 首部字段表示资源在缓存代理服务器中已缓存的时长，单位为秒（取决于 <code>max-age</code> 和 <code>s-maxgae</code> 的大小）。若出现此字段，表示已命中代理服务器的缓存。</p>
 <pre class="hljs"><code class="language-http"><span class="hljs-attribute">Age</span><span class="hljs-punctuation">: </span>2383321
@@ -632,10 +632,10 @@ c:Tb946,<h1>HTTP Cache</h1>
 </table>
 <h2>参考资料</h2>
 <ul>
-<li><a href="https://juejin.im/post/5a6c87c46fb9a01ca560b4d7">掘金：缓存详解</a></li>
-<li><a href="http://web.jobbole.com/91084/">浏览器缓存机制剖析</a></li>
-<li><a href="https://www.cnblogs.com/duiniweixiao/p/8884274.html">彻底理解浏览器的缓存机制</a></li>
-<li><a href="https://segmentfault.com/a/1190000016199807">10 分钟彻底搞懂 HTTP 的强制缓存和协商缓存</a></li>
+<li><a href="https://juejin.im/post/5a6c87c46fb9a01ca560b4d7" target="_blank" rel="noopener noreferrer nofollow">掘金：缓存详解</a></li>
+<li><a href="http://web.jobbole.com/91084/" target="_blank" rel="noopener noreferrer nofollow">浏览器缓存机制剖析</a></li>
+<li><a href="https://www.cnblogs.com/duiniweixiao/p/8884274.html" target="_blank" rel="noopener noreferrer nofollow">彻底理解浏览器的缓存机制</a></li>
+<li><a href="https://segmentfault.com/a/1190000016199807" target="_blank" rel="noopener noreferrer nofollow">10 分钟彻底搞懂 HTTP 的强制缓存和协商缓存</a></li>
 </ul>
 4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"HTTP Cache"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
 a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

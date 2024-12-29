@@ -10,82 +10,82 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","document-object-model","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bsqcNQA7qSroF1EJKKOqC",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T11e2,<h1>DOM 文档对象模型</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","document-object-model","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KZ3uys8ZwShcSy1xOtXdm",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T15bf,<h1>DOM 文档对象模型</h1>
 <p><strong>文档对象模型 Document Object Model</strong></p>
 <ul>
 <li><strong>文档对象模型</strong>
 <ul>
-<li><a href="/document-object-model/dom/dom">文档对象模型</a></li>
-<li><a href="/document-object-model/dom/hierarchy-of-nodes">节点层次</a></li>
-<li><a href="/document-object-model/event-target/event-target">EventTarget</a></li>
+<li><a href="/front-end/document-object-model/dom/dom">文档对象模型</a></li>
+<li><a href="/front-end/document-object-model/dom/hierarchy-of-nodes">节点层次</a></li>
+<li><a href="/front-end/document-object-model/event-target/event-target">EventTarget</a></li>
 </ul>
 </li>
 <li><strong>Node</strong>
 <ul>
-<li><a href="/document-object-model/node/node">Node</a></li>
-<li><a href="/document-object-model/node/node-properties">Node 属性</a></li>
-<li><a href="/document-object-model/node/node-methods">Node 方法</a></li>
+<li><a href="/front-end/document-object-model/node/node">Node</a></li>
+<li><a href="/front-end/document-object-model/node/node-properties">Node 属性</a></li>
+<li><a href="/front-end/document-object-model/node/node-methods">Node 方法</a></li>
 </ul>
 </li>
 <li><strong>Document</strong>
 <ul>
-<li><a href="/document-object-model/document/document">Document</a></li>
-<li><a href="/document-object-model/document/document-properties">Document 属性</a></li>
-<li><a href="/document-object-model/document/document-methods">Document 方法</a></li>
+<li><a href="/front-end/document-object-model/document/document">Document</a></li>
+<li><a href="/front-end/document-object-model/document/document-properties">Document 属性</a></li>
+<li><a href="/front-end/document-object-model/document/document-methods">Document 方法</a></li>
 </ul>
 </li>
 <li><strong>Element</strong>
 <ul>
-<li><a href="/document-object-model/element/element">Element</a></li>
-<li><a href="/document-object-model/element/element-properties">Element 属性</a></li>
-<li><a href="/document-object-model/element/element-methods">Element 方法</a></li>
-<li><a href="/document-object-model/element/html-element">HTMLElement</a></li>
+<li><a href="/front-end/document-object-model/element/element">Element</a></li>
+<li><a href="/front-end/document-object-model/element/element-properties">Element 属性</a></li>
+<li><a href="/front-end/document-object-model/element/element-methods">Element 方法</a></li>
+<li><a href="/front-end/document-object-model/element/html-element">HTMLElement</a></li>
 </ul>
 </li>
 <li><strong>动态集合</strong>
 <ul>
-<li><a href="/document-object-model/dynamic-collection/node-list">NodeList</a></li>
-<li><a href="/document-object-model/dynamic-collection/named-node-map">NamedNodeMap</a></li>
-<li><a href="/document-object-model/dynamic-collection/html-collection">HTMLCollection</a></li>
-<li><a href="/document-object-model/dynamic-collection/dom-token-list">DOMTokenList</a></li>
+<li><a href="/front-end/document-object-model/dynamic-collection/node-list">NodeList</a></li>
+<li><a href="/front-end/document-object-model/dynamic-collection/named-node-map">NamedNodeMap</a></li>
+<li><a href="/front-end/document-object-model/dynamic-collection/html-collection">HTMLCollection</a></li>
+<li><a href="/front-end/document-object-model/dynamic-collection/dom-token-list">DOMTokenList</a></li>
 </ul>
 </li>
 <li><strong>DOM 事件流</strong>
 <ul>
-<li><a href="/document-object-model/events/event-flow">事件流</a></li>
-<li><a href="/document-object-model/events/event-handlers-or-listener">事件处理程序</a></li>
-<li><a href="/document-object-model/events/the-event-object">事件对象</a></li>
-<li><a href="/document-object-model/events/event-delegation">事件委托</a></li>
+<li><a href="/front-end/document-object-model/events/event-flow">事件流</a></li>
+<li><a href="/front-end/document-object-model/events/event-handlers-or-listener">事件处理程序</a></li>
+<li><a href="/front-end/document-object-model/events/the-event-object">事件对象</a></li>
+<li><a href="/front-end/document-object-model/events/event-delegation">事件委托</a></li>
 </ul>
 </li>
 <li><strong>事件类型</strong>
 <ul>
-<li><a href="/document-object-model/events/event-types/event-types">事件类型</a></li>
-<li><a href="document-object-model/events/event-types/resource-events">资源事件</a></li>
-<li><a href="document-object-model/events/event-types/network-events">网络事件</a></li>
-<li><a href="document-object-model/events/event-types/focus-events">焦点事件</a></li>
-<li><a href="document-object-model/events/event-types/websocket-events">WebSocket 事件</a></li>
-<li><a href="document-object-model/events/event-types/session-history-events">会话历史事件</a></li>
-<li><a href="document-object-model/events/event-types/css-animation-events">CSS 动画事件</a></li>
-<li><a href="document-object-model/events/event-types/css-transition-events">CSS 过渡事件</a></li>
-<li><a href="document-object-model/events/event-types/form-events">表单事件</a></li>
-<li><a href="document-object-model/events/event-types/printing-events">打印事件</a></li>
-<li><a href="document-object-model/events/event-types/text-composition-events">文本写作事件</a></li>
-<li><a href="document-object-model/events/event-types/view-events">视图事件</a></li>
-<li><a href="document-object-model/events/event-types/clipboard-events">剪贴板事件</a></li>
-<li><a href="document-object-model/events/event-types/keyboard-events">键盘事件</a></li>
-<li><a href="document-object-model/events/event-types/mouse-events">鼠标事件</a></li>
-<li><a href="document-object-model/events/event-types/drag-and-drop-events">拖拽事件</a></li>
-<li><a href="document-object-model/events/event-types/media-events">媒体事件</a></li>
-<li><a href="document-object-model/events/event-types/progress-events">进度条事件</a></li>
-<li><a href="document-object-model/events/event-types/storage-events">存储事件</a></li>
-<li><a href="document-object-model/events/event-types/update-events">更新事件</a></li>
-<li><a href="document-object-model/events/event-types/value-change-events">值变化事件</a></li>
-<li><a href="document-object-model/events/event-types/uncategorized-events">未分类事件</a></li>
-<li><a href="document-object-model/events/event-types/touch-events">触控事件</a></li>
-<li><a href="document-object-model/events/event-types/the-orientationchange-event">设备事件</a></li>
-<li><a href="/document-object-model/events/event-types/ui-events">用户界面事件</a></li>
+<li><a href="/front-end/document-object-model/events/event-types/event-types">事件类型</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/resource-events">资源事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/network-events">网络事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/focus-events">焦点事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/websocket-events">WebSocket 事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/session-history-events">会话历史事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/css-animation-events">CSS 动画事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/css-transition-events">CSS 过渡事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/form-events">表单事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/printing-events">打印事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/text-composition-events">文本写作事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/view-events">视图事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/clipboard-events">剪贴板事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/keyboard-events">键盘事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/mouse-events">鼠标事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/drag-and-drop-events">拖拽事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/media-events">媒体事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/progress-events">进度条事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/storage-events">存储事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/update-events">更新事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/value-change-events">值变化事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/uncategorized-events">未分类事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/touch-events">触控事件</a></li>
+<li><a href="/front-end/document-object-model/document-object-model/events/event-types/the-orientationchange-event">设备事件</a></li>
+<li><a href="/front-end/document-object-model/events/event-types/ui-events">用户界面事件</a></li>
 </ul>
 </li>
 </ul>

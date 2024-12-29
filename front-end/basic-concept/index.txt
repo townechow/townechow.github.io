@@ -10,73 +10,73 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","basic-concept","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tmmlEn9lsKwLZ8DqH5G9h",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T1062,<h1>基本语法</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","basic-concept","index"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/index","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/index","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","_-gnjWWkgyBibHYBlUWfQ",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T11fc,<h1>基本语法</h1>
 <p><strong>基本语法 Basic Concept</strong></p>
 <ul>
 <li><strong>词法语法</strong>
 <ul>
-<li><a href="/basic-concept/lexical-grammar/lexical-grammar">词法语法</a></li>
+<li><a href="/front-end/basic-concept/lexical-grammar/lexical-grammar">词法语法</a></li>
 </ul>
 </li>
 <li><strong>数据类型和值</strong>
 <ul>
-<li><a href="/basic-concept/data-types/data-types">数据类型</a></li>
-<li><a href="/basic-concept/data-types/type-check">类型检测</a></li>
-<li><a href="/basic-concept/data-types/type-conversion">类型转换</a></li>
+<li><a href="/front-end/basic-concept/data-types/data-types">数据类型</a></li>
+<li><a href="/front-end/basic-concept/data-types/type-check">类型检测</a></li>
+<li><a href="/front-end/basic-concept/data-types/type-conversion">类型转换</a></li>
 </ul>
 </li>
 <li><strong>表达式</strong>
 <ul>
 <li><strong>表达式</strong>
 <ul>
-<li><a href="/basic-concept/expressions/expressions/literal">字面量</a></li>
-<li><a href="/basic-concept/expressions/expressions/array-initializer">数组初始化表达式</a></li>
-<li><a href="/basic-concept/expressions/expressions/object-initializer">对象初始化表达式</a></li>
-<li><a href="/basic-concept/expressions/expressions/property-accessors">属性访问器</a></li>
+<li><a href="/front-end/basic-concept/expressions/expressions/literal">字面量</a></li>
+<li><a href="/front-end/basic-concept/expressions/expressions/array-initializer">数组初始化表达式</a></li>
+<li><a href="/front-end/basic-concept/expressions/expressions/object-initializer">对象初始化表达式</a></li>
+<li><a href="/front-end/basic-concept/expressions/expressions/property-accessors">属性访问器</a></li>
 </ul>
 </li>
 <li><strong>运算符</strong>
 <ul>
-<li><a href="/basic-concept/expressions/operators/in">in</a></li>
-<li><a href="/basic-concept/expressions/operators/instanceof">instanceof</a></li>
-<li><a href="/basic-concept/expressions/operators/delete">delete</a></li>
-<li><a href="/basic-concept/expressions/operators/typeof">typeof</a></li>
-<li><a href="/basic-concept/expressions/operators/void">void</a></li>
-<li><a href="/basic-concept/expressions/operators/string-operator">字符串运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/arithmetic-operators">算术运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/update-expressions">更新表达式</a></li>
-<li><a href="/basic-concept/expressions/operators/assignment-operators">赋值运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/bitwise-operators">按位运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/comma-operator">逗号运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/comparation-operators">比较运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/conditional-operator">条件运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/logical-operators">逻辑运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/spread-operator">扩展运算符</a></li>
-<li><a href="/basic-concept/expressions/operators/the-grouping-operator">分组表达式</a></li>
-<li><a href="/basic-concept/expressions/operators/detructing-assignment">解构赋值</a></li>
-<li><a href="/basic-concept/expressions/operators/operators-precedence">运算符优先级</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/in">in</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/instanceof">instanceof</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/delete">delete</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/typeof">typeof</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/void">void</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/string-operator">字符串运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/arithmetic-operators">算术运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/update-expressions">更新表达式</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/assignment-operators">赋值运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/bitwise-operators">按位运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/comma-operator">逗号运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/comparation-operators">比较运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/conditional-operator">条件运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/logical-operators">逻辑运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/spread-operator">扩展运算符</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/the-grouping-operator">分组表达式</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/detructing-assignment">解构赋值</a></li>
+<li><a href="/front-end/basic-concept/expressions/operators/operators-precedence">运算符优先级</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><strong>语句和声明</strong>
 <ul>
-<li><a href="/basic-concept/statements-and-declarations/block">块语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/declarations-and-the-variable-statement">变量声明</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-if-statement">if 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-continue-statement">continue 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-break-statement">break 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-return-statement">return 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-switch-statement">switch 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/labelled-statements">label 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-throw-statement">throw 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-try-statement">try-catch 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-do-while-statement">do-while 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-while-statement">while 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-for-statement">for 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-for-in-statement">for-in 语句</a></li>
-<li><a href="/basic-concept/statements-and-declarations/the-for-of-statement">for-of 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/block">块语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/declarations-and-the-variable-statement">变量声明</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-if-statement">if 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-continue-statement">continue 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-break-statement">break 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-return-statement">return 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-switch-statement">switch 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/labelled-statements">label 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-throw-statement">throw 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-try-statement">try-catch 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-do-while-statement">do-while 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-while-statement">while 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-for-statement">for 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-for-in-statement">for-in 语句</a></li>
+<li><a href="/front-end/basic-concept/statements-and-declarations/the-for-of-statement">for-of 语句</a></li>
 </ul>
 </li>
 </ul>

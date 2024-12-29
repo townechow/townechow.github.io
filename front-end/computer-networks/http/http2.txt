@@ -10,8 +10,8 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","computer-networks","http","http2"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/http2","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/http2","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KR8lPXDek6rWs1F1En9ia",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T5867,<h1>HTTP2</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","computer-networks","http","http2"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/http2","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/http2","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","kV9ChTzMNmcHQHy8Ob86g",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5cb7,<h1>HTTP2</h1>
 <p>HTTP/2（超文本传输协议第 2 版，最初命名为 HTTP 2.0），简称为 h2（基于 TLS/1.2 或以上版本的加密连接）或 h2c（非加密连接），是 HTTP 协议的的第二个主要版本，使用于万维网。</p>
 <h2>旧版本问题</h2>
 <ol>
@@ -22,24 +22,24 @@ c:T5867,<h1>HTTP2</h1>
 </ol>
 <h2>新特性</h2>
 <p>在了解 HTTP/2 新特性前，可以通过 DEMO 直观感受 HTTP/1.1 与 HTTP/2 的差距：</p>
-<p><a href="https://http2.akamai.com/demo">HTTP/2: the Future of the Internet | Akamai</a></p>
+<p><a href="https://http2.akamai.com/demo" target="_blank" rel="noopener noreferrer nofollow">HTTP/2: the Future of the Internet | Akamai</a></p>
 <p>主要新特性：</p>
 <ul>
 <li><strong>传输数据量大量减少</strong>
 <ul>
-<li><a href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E5%B8%A7">二进制分帧</a></li>
-<li><a href="#%E6%A0%87%E5%A4%B4%E5%8E%8B%E7%BC%A9">标头压缩</a></li>
+<li><a href="/front-end/computer-networks/http/#%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E5%B8%A7">二进制分帧</a></li>
+<li><a href="/front-end/computer-networks/http/#%E6%A0%87%E5%A4%B4%E5%8E%8B%E7%BC%A9">标头压缩</a></li>
 </ul>
 </li>
 <li><strong>多路复用及相关功能</strong>
 <ul>
-<li><a href="#%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8">多路复用</a></li>
+<li><a href="/front-end/computer-networks/http/#%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8">多路复用</a></li>
 <li>优先级与依赖性</li>
 </ul>
 </li>
 <li><strong>服务器消息推送</strong>
 <ul>
-<li><a href="">服务器推送</a></li>
+<li><a href="/front-end/computer-networks/http">服务器推送</a></li>
 </ul>
 </li>
 <li>其他
@@ -87,7 +87,7 @@ c:T5867,<h1>HTTP2</h1>
 
 <span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;消息组成&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{640}</span> /&gt;</span></span>;
 </code></pre>
-<p>更多关于帧定义详解，请查阅 <a href="https://halfrost.com/http2-http-frames-definitions/">HTTP/2 中的帧定义</a></p>
+<p>更多关于帧定义详解，请查阅 <a href="https://halfrost.com/http2-http-frames-definitions/" target="_blank" rel="noopener noreferrer nofollow">HTTP/2 中的帧定义</a></p>
 <h3>标头压缩</h3>
 <p>标头压缩（Header compression）：每个 HTTP 传输都承载一组标头，这些标头说明了传输的资源及其属性。 在 HTTP/1.x 中，此元数据始终以纯文本形式，通常会给每个传输增加 500–800 字节的开销。如果使用 HTTP Cookie，增加的开销有时会达到上千字节。</p>
 <p>为了减少此开销和提升性能，HTTP/2 使用 &lt;strong style=&quot;color:red&quot;&gt;HPACK&lt;/strong&gt; 压缩格式压缩请求和响应标头元数据，这种格式采用两种简单但是强大的技术：</p>
@@ -112,7 +112,7 @@ c:T5867,<h1>HTTP2</h1>
 </code></pre>
 <p>作为一种进一步优化方式，HPACK 压缩上下文包含一个静态字典和一个动态字典：</p>
 <ul>
-<li><a href="https://httpwg.org/specs/rfc7541.html#static.table.definition">静态字典</a> 在规范中定义，并提供了一个包含所有连接都可能使用的常用 HTTP 标头字段（例如，有效标头名称）的列表</li>
+<li><a href="https://httpwg.org/specs/rfc7541.html#static.table.definition" target="_blank" rel="noopener noreferrer nofollow">静态字典</a> 在规范中定义，并提供了一个包含所有连接都可能使用的常用 HTTP 标头字段（例如，有效标头名称）的列表</li>
 <li>动态字典最初为空，将根据在特定连接内交换的值进行更新</li>
 </ul>
 <p>因此，为之前未见过的值采用静态 Huffman 编码，并替换每一侧静态表或动态表中已存在值的索引，可以减小每个请求的大小。</p>
@@ -120,8 +120,8 @@ c:T5867,<h1>HTTP2</h1>
 <p>⚠️ <strong>注意</strong>：在 HTTP/2 中，请求和响应标头字段的定义保持不变，仅有一些微小的差异：所有标头字段名称均为小写，请求行现在拆分成各个 <code>:method</code>、<code>:scheme</code>、<code>:authority</code> 和 <code>:path</code> 伪标头字段。</p>
 </blockquote>
 <ul>
-<li>关于 <a href="https://tools.ietf.org/html/rfc7541">HPACK 头部压缩标准</a> 的制定</li>
-<li><a href="https://httpwg.org/specs/rfc7541.html">HPACK：Header Compression for HTTP/2</a></li>
+<li>关于 <a href="https://tools.ietf.org/html/rfc7541" target="_blank" rel="noopener noreferrer nofollow">HPACK 头部压缩标准</a> 的制定</li>
+<li><a href="https://httpwg.org/specs/rfc7541.html" target="_blank" rel="noopener noreferrer nofollow">HPACK：Header Compression for HTTP/2</a></li>
 </ul>
 <h3>多路复用</h3>
 <p><strong>多路复用（MultiPlexing）</strong>：通过该功能，在一条连接上，您的浏览器可以同时发起无数个请求，并且响应可以同时响应。另外，多路复用中支持了流的优先级（Stream dependencies）设置，允许客户端告知服务器最优资源，可以优先传输。</p>
@@ -131,7 +131,7 @@ c:T5867,<h1>HTTP2</h1>
 <p>将 HTTP 消息分解为独立的帧，交错发送，然后在另一端重新组装是 HTTP/2 最重要的一项增强。事实上，这个机制会在整个网络技术栈中引发一系列连锁反应，从而带来巨大的性能提升，让我们可以：</p>
 <ul>
 <li>并行交错地发送多个请求/响应，请求/响应之间互不影响</li>
-<li>不必再为绕过 HTTP/1.x 限制而做很多工作（请参阅 <a href="https://hpbn.co/optimizing-application-delivery/#optimizing-for-http1x">针对 HTTP/1.x 进行优化</a>，例如级联文件、Image Sprites 和域名分片</li>
+<li>不必再为绕过 HTTP/1.x 限制而做很多工作（请参阅 <a href="https://hpbn.co/optimizing-application-delivery/#optimizing-for-http1x" target="_blank" rel="noopener noreferrer nofollow">针对 HTTP/1.x 进行优化</a>，例如级联文件、Image Sprites 和域名分片</li>
 <li>消除不必要的延迟和提高现有网络容量的利用率，从而减少页面加载时间</li>
 </ul>
 <p>HTTP/2 中的新二进制分帧层解决了 HTTP/1.x 中存在的 <strong>队头阻塞</strong> 问题，也消除了并行处理和发送请求及响应时对多个连接的依赖。</p>
@@ -147,7 +147,7 @@ c:T5867,<h1>HTTP2</h1>
 <p>为什么在浏览器中需要一种此类机制呢？</p>
 </blockquote>
 <p>一个典型的网络应用包含多种资源，客户端需要检查服务器提供的文档才能逐个找到它们。 那为什么不让服务器提前推送这些资源，从而减少额外的延迟时间呢？ 服务器已经知道客户端下一步要请求什么资源，这时候服务器推送即可派上用场。</p>
-<p>事实上，如果您在网页中内联过 CSS、JavaScript，或者通过数据 URI 内联过其他资产（请参阅 <a href="https://hpbn.co/http1x/#resource-inlining">资源内联</a>），那么您就已经亲身体验过服务器推送了。 对于将资源手动内联到文档中的过程，我们实际上是在将资源推送给客户端，而不是等待客户端请求。 使用 HTTP/2，我们不仅可以实现相同结果，还会获得其他性能优势。</p>
+<p>事实上，如果您在网页中内联过 CSS、JavaScript，或者通过数据 URI 内联过其他资产（请参阅 <a href="https://hpbn.co/http1x/#resource-inlining" target="_blank" rel="noopener noreferrer nofollow">资源内联</a>），那么您就已经亲身体验过服务器推送了。 对于将资源手动内联到文档中的过程，我们实际上是在将资源推送给客户端，而不是等待客户端请求。 使用 HTTP/2，我们不仅可以实现相同结果，还会获得其他性能优势。</p>
 <p>推送资源可以进行以下处理：</p>
 <ul>
 <li>由客户端缓存</li>
@@ -205,8 +205,8 @@ c:T5867,<h1>HTTP2</h1>
 }
 </code></pre>
 <p>如果服务器或者浏览器不支持 HTTP2，那么浏览器就会按照 <code>preload</code> 来处理这个头信息，预加载指定的资源文件。</p>
-<p>事实上，这个头信息就是 <code>preload</code> 标准提出的，它的语法和 <code>as</code> 属性的值都写在了 <a href="https://w3c.github.io/preload/#as-attribute">标准</a> 里面。</p>
-<p>参考 <a href="https://blog.risingstack.com/node-js-http-2-push/">HTTP/2 Server Push with Node.js</a> 实现。</p>
+<p>事实上，这个头信息就是 <code>preload</code> 标准提出的，它的语法和 <code>as</code> 属性的值都写在了 <a href="https://w3c.github.io/preload/#as-attribute" target="_blank" rel="noopener noreferrer nofollow">标准</a> 里面。</p>
+<p>参考 <a href="https://blog.risingstack.com/node-js-http-2-push/" target="_blank" rel="noopener noreferrer nofollow">HTTP/2 Server Push with Node.js</a> 实现。</p>
 <h4>缓存问题</h4>
 <p>服务器推送有一个很麻烦的问题。所要推送的资源文件，如果浏览器已经有缓存，推送就是浪费带宽。即使推送的文件版本更新，浏览器也会优先使用本地缓存。</p>
 <p>一种解决办法是，只对第一次访问的用户开启服务器推送。下面是 Nginx 官方给出的示例，根据 Cookie 判断是否为第一次访问。</p>
@@ -245,16 +245,16 @@ c:T5867,<h1>HTTP2</h1>
 </ul>
 <h2>参考资料</h2>
 <ul>
-<li><a href="https://developers.google.com/web/fundamentals/performance/http2/">📖 Google developers document: Introduction to HTTP/2</a></li>
-<li><a href="https://imququ.com/post/http2-resource.html">📖 HTTP2 资料汇总</a></li>
-<li><a href="https://ye11ow.gitbooks.io/http2-explained/content/">📝 HTTP2 讲解</a></li>
-<li><a href="https://segmentfault.com/a/1190000007219256">📝 深入研究：HTTP2 的真正性能到底如何</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/29609078">📝 怎样把网站升级到 HTTP/2</a></li>
-<li><a href="https://juejin.im/post/5c5ada2e6fb9a049dd80be75">📝 HTTP/2 常见问题解答</a></li>
-<li><a href="https://juejin.im/post/5c6a9f85e51d4503831ad4fa">📝 从理论到实践，全面理解 HTTP/2</a></li>
-<li><a href="https://juejin.im/post/5c4e6d11e51d4534dc477f05">📝 再谈 HTTP2 性能提升之背后原理</a></li>
-<li><a href="https://www.ruanyifeng.com/blog/2018/03/http2_server_push.html">📝 阮一峰：HTTP/2 服务器推送（Server Push）教程</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin/related?hl=zh-CN">🛠 HTTP/2 and SPDY indicator</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/http2/" target="_blank" rel="noopener noreferrer nofollow">📖 Google developers document: Introduction to HTTP/2</a></li>
+<li><a href="https://imququ.com/post/http2-resource.html" target="_blank" rel="noopener noreferrer nofollow">📖 HTTP2 资料汇总</a></li>
+<li><a href="https://ye11ow.gitbooks.io/http2-explained/content/" target="_blank" rel="noopener noreferrer nofollow">📝 HTTP2 讲解</a></li>
+<li><a href="https://segmentfault.com/a/1190000007219256" target="_blank" rel="noopener noreferrer nofollow">📝 深入研究：HTTP2 的真正性能到底如何</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/29609078" target="_blank" rel="noopener noreferrer nofollow">📝 怎样把网站升级到 HTTP/2</a></li>
+<li><a href="https://juejin.im/post/5c5ada2e6fb9a049dd80be75" target="_blank" rel="noopener noreferrer nofollow">📝 HTTP/2 常见问题解答</a></li>
+<li><a href="https://juejin.im/post/5c6a9f85e51d4503831ad4fa" target="_blank" rel="noopener noreferrer nofollow">📝 从理论到实践，全面理解 HTTP/2</a></li>
+<li><a href="https://juejin.im/post/5c4e6d11e51d4534dc477f05" target="_blank" rel="noopener noreferrer nofollow">📝 再谈 HTTP2 性能提升之背后原理</a></li>
+<li><a href="https://www.ruanyifeng.com/blog/2018/03/http2_server_push.html" target="_blank" rel="noopener noreferrer nofollow">📝 阮一峰：HTTP/2 服务器推送（Server Push）教程</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin/related?hl=zh-CN" target="_blank" rel="noopener noreferrer nofollow">🛠 HTTP/2 and SPDY indicator</a></li>
 </ul>
 4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"HTTP2"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
 a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

@@ -10,8 +10,8 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","promise"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/promise","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/promise","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eQp1PdsW2YNtEIIgr9fK5",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T393b,<h1>Promise</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","promise","promise"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/promise","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/promise/promise","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","yjMRNAYTWozL2_i2q5-lZ",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3bbf,<h1>Promise</h1>
 <p>传统异步编程最大特点是地狱式回调嵌套，一旦嵌套层级过深，项目代码将难以理解和维护。而 Promise 能让我们通过 &lt;strong style=&quot;color:red&quot;&gt;链式调用&lt;/strong&gt; 的方法去解决回调地狱的问题。</p>
 <p>Promise 是异步编程的一种解决方案，可以将异步操作队列化，按照期望的顺序执行，返回符合预期的结果。可以在对象之间传递和操作 Promise，帮助我们处理队列。</p>
 <p>语法：</p>
@@ -38,7 +38,7 @@ c:T393b,<h1>Promise</h1>
 <li>如果不设置回调函数（executor），Promise 内部抛出错误，不会反应到外部</li>
 <li>当处于 Pending 状态时，无法得知目前进展到哪一个阶段</li>
 </ul>
-<p>如果某些事件不断地反复发生，一般来说，使用  <a href="https://nodejs.org/api/stream.html">Stream</a>  模式是比部署 Promise 更好的选择。</p>
+<p>如果某些事件不断地反复发生，一般来说，使用  <a href="https://nodejs.org/api/stream.html" target="_blank" rel="noopener noreferrer nofollow">Stream</a>  模式是比部署 Promise 更好的选择。</p>
 <p>🌰 <strong>代码示例</strong></p>
 <pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(
   <span class="hljs-comment">/* 执行器 */</span>
@@ -62,7 +62,7 @@ c:T393b,<h1>Promise</h1>
 </code></pre>
 <h2>工作流</h2>
 <p>Promise 是一个代理对象（代理一个值），被代理的值在 Promise 对象创建时可能是未知的。它允许你为异步操作的 <strong>Fulfilled</strong> 和 <strong>Rejected</strong> 分别绑定相应的处理方法（handlers）。这让异步方法可以像同步方法那样返回值，但<strong>并不是立即返回</strong>最终执行结果，而是一个能代表<strong>未来出现</strong>的结果的 Promise 对象。</p>
-<p>由于 <code>Promise.prototype.then</code> 和 <code>Promise.prototype.catch</code> 方法返回 Promise 对象，所以它们可以被 <a href="../../../core-modules/ecmascript-function-objects/function-types/cascade-function">链式调用</a>。</p>
+<p>由于 <code>Promise.prototype.then</code> 和 <code>Promise.prototype.catch</code> 方法返回 Promise 对象，所以它们可以被 <a href="/front-end/core-modules/ecmascript-function-objects/function-types/cascade-function">链式调用</a>。</p>
 <pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
 <span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../../assets/promise/workflow.png&#x27;</span>;
 
@@ -115,19 +115,19 @@ c:T393b,<h1>Promise</h1>
 </thead>
 <tbody>
 <tr>
-<td><a href="properties-of-the-promise-constructor/all">Promise.all(iterable)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-constructor/all">Promise.all(iterable)</a></td>
 <td>将多个 Promise 实例包装成一个新的 Promise 实例。全部成员 Fulfilled 或某个成员 Rejected 时触发回调</td>
 </tr>
 <tr>
-<td><a href="properties-of-the-promise-constructor/race">Promise.race(iterable)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-constructor/race">Promise.race(iterable)</a></td>
 <td>将多个 Promise 实例包装成一个新的 Promise 实例。某个成员状态变更后触发回调</td>
 </tr>
 <tr>
-<td><a href="properties-of-the-promise-constructor/reject">Promise.reject(reason)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-constructor/reject">Promise.reject(reason)</a></td>
 <td>返回新的 Promise 实例，该实例的状态为 Rejected</td>
 </tr>
 <tr>
-<td><a href="properties-of-the-promise-constructor/resolve">Promise.resolve(value)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-constructor/resolve">Promise.resolve(value)</a></td>
 <td>返回新的 Promise 实例，该实例的状态为 Fulfilled</td>
 </tr>
 </tbody>
@@ -158,11 +158,11 @@ c:T393b,<h1>Promise</h1>
 </thead>
 <tbody>
 <tr>
-<td><a href="properties-of-the-promise-prototype-object/catch">Promise.prototype.catch(onRejected)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-prototype-object/catch">Promise.prototype.catch(onRejected)</a></td>
 <td>相当于 <code>.then(null, rejection)</code>，用于指定发生错误时的回调函数</td>
 </tr>
 <tr>
-<td><a href="properties-of-the-promise-prototype-object/then">Promise.prototype.then(onFulfilled, onRejected)</a></td>
+<td><a href="/front-end/standard-built-in-objects/control-abstraction-objects/promise/properties-of-the-promise-prototype-object/then">Promise.prototype.then(onFulfilled, onRejected)</a></td>
 <td>添加 <code>fulfillment</code> 和 <code>rejection</code> 回调到当前 Promise，返回一个新的 Promise，将以回调的返回值来 <code>resolve</code></td>
 </tr>
 <tr>
@@ -223,9 +223,9 @@ c:T393b,<h1>Promise</h1>
 <h3>异步并发</h3>
 <h2>参考资料</h2>
 <ul>
-<li><a href="http://liubin.org/promises-book/">📚 JavaScript Promise 迷你书</a></li>
-<li><a href="https://juejin.im/post/5aa7868b6fb9a028dd4de672">📝 Promise 原理讲解(遵循 Promise/A+ 规范)</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/90850451">📝 Promise 串行</a></li>
+<li><a href="http://liubin.org/promises-book/" target="_blank" rel="noopener noreferrer nofollow">📚 JavaScript Promise 迷你书</a></li>
+<li><a href="https://juejin.im/post/5aa7868b6fb9a028dd4de672" target="_blank" rel="noopener noreferrer nofollow">📝 Promise 原理讲解(遵循 Promise/A+ 规范)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/90850451" target="_blank" rel="noopener noreferrer nofollow">📝 Promise 串行</a></li>
 </ul>
 4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"Promise"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
 a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

@@ -10,8 +10,8 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","computer-networks","web-security","same-origin-policy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/same-origin-policy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/same-origin-policy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YcfpmHxsSPmBQSu2kItii",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T92be,<h1>同源策略</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","computer-networks","web-security","same-origin-policy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/same-origin-policy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/same-origin-policy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uKT0KuvGjPwyDKAGsaY2O",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T9458,<h1>同源策略</h1>
 <p><strong>同源策略</strong>限制从一个源加载的文档或脚本如何与来自另一个源的资源进行交互，这是一个用于隔离潜在恶意文件的关键的安全机制。</p>
 <p>同源需要满足以下三个方面：</p>
 <ul>
@@ -59,7 +59,7 @@ c:T92be,<h1>同源策略</h1>
 <li>window.name + iframe</li>
 </ul>
 <h3>CORS</h3>
-<p>CORS 亦即 <a href="../http/access-control">跨域资源共享</a>，是一种 HTTP 机制，它使用额外的 HTTP 响应头来告诉浏览器让其运行在一个 <code>origin</code> (<code>domain</code>) 上的 Web 应用被准许访问来自 <strong>不同源服务器</strong> 上的指定的资源。当一个资源从与该资源本身所在的服务器 <strong>不同的域、协议或端口</strong> 请求一个资源时，资源会发起一个 <strong>跨域 HTTP 请求</strong>。</p>
+<p>CORS 亦即 <a href="/front-end/computer-networks/http/access-control">跨域资源共享</a>，是一种 HTTP 机制，它使用额外的 HTTP 响应头来告诉浏览器让其运行在一个 <code>origin</code> (<code>domain</code>) 上的 Web 应用被准许访问来自 <strong>不同源服务器</strong> 上的指定的资源。当一个资源从与该资源本身所在的服务器 <strong>不同的域、协议或端口</strong> 请求一个资源时，资源会发起一个 <strong>跨域 HTTP 请求</strong>。</p>
 <p>值得注意的是，通常使用 CORS 时，异步请求会被分为<strong>简单请求</strong>和<strong>非简单请求</strong>，非简单请求的区别是会先发送一个 <strong>预检请求</strong>（Preflight Request）。</p>
 <p><strong>服务器预检请求 / 响应头</strong></p>
 <table>
@@ -93,7 +93,7 @@ c:T92be,<h1>同源策略</h1>
 </tbody>
 </table>
 <p><code>Access-Control-Allow-Origin</code> 只能阻止浏览器端拿到服务器返回数据，服务端的处理还是会执行，要配合 <code>token</code> 鉴权令牌等策略来防范。</p>
-<p>💡 实现细节请参考 <a href="../http/access-control">HTTP 跨域资源共享</a></p>
+<p>💡 实现细节请参考 <a href="/front-end/computer-networks/http/access-control">HTTP 跨域资源共享</a></p>
 <h4>原生实现</h4>
 <p>在 Node.js 中 <code>CORS</code> 的实现：</p>
 <pre class="hljs"><code class="language-js">app.<span class="hljs-title function_">use</span>(<span class="hljs-title function_">async</span> (ctx, next) =&gt; {
@@ -135,7 +135,7 @@ app.<span class="hljs-title function_">use</span>(
 );
 </code></pre>
 <blockquote>
-<p><a href="https://github.com/zadzbw/koa2-cors">koa2-cors</a> 内部实现请参照源码。</p>
+<p><a href="https://github.com/zadzbw/koa2-cors" target="_blank" rel="noopener noreferrer nofollow">koa2-cors</a> 内部实现请参照源码。</p>
 </blockquote>
 <h4>关于 Cookie 问题</h4>
 <p>要传递 Cookie 需要满足三个条件：</p>
@@ -312,7 +312,7 @@ server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#
   });
 });
 </code></pre>
-<p>💡 实现细节请参考 <a href="../../html5-scripting-programming/connectivity/web-socket">WebSocket</a></p>
+<p>💡 实现细节请参考 <a href="/front-end/html5-scripting-programming/connectivity/web-socket">WebSocket</a></p>
 <h3>window.postMessage</h3>
 <p>通常，对于两个不同页面的脚本，只有当执行它们的页面位于具有相同的协议（通常为 HTTPS），端口号（443 为 HTTPS 的默认值），以及主机（两个页面的模数 <code>document.domain</code> 设置为相同的值）时，这两个脚本才能相互通信。<code>window.postMessage</code> 方法提供了一种受控机制来规避此限制，只要正确的使用，这种方法就很安全。</p>
 <p><code>window.postMessage(message, targetOrigin)</code> 方法是 HTML5 新引进的特性，可以使用它向其他的 <code>window</code> 对象发送消息，无论这个 <code>window</code> 对象是属于同源或不同源，目前 IE8+、Firefox、Chrome、Opera 等浏览器都已经支持该方法。</p>
@@ -353,7 +353,7 @@ server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#
   };
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
-<p>💡 实现细节请参考 <a href="../../browser-object-model/connectivity/post-message">PostMessage</a></p>
+<p>💡 实现细节请参考 <a href="/front-end/browser-object-model/connectivity/post-message">PostMessage</a></p>
 <h3>document.domain + iframe</h3>
 <p>Cookie 是服务器写入浏览器的一小段信息，只有同源的网页才能共享。</p>
 <p>但是，两个网页一级域名相同，只是二级域名不同，浏览器只需要设置 <code>document.domain</code> 为更高级别的域就能实现 Cookie 共享。</p>
@@ -361,7 +361,7 @@ server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#
 <p>以 <code>a.foo.com</code> 和 <code>b.foo.com</code> 为例，只要设置相同的 <code>document.domain</code>，两个网页就可以共享 Cookie。</p>
 <pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-property">domain</span> = <span class="hljs-string">&#x27;foo.com&#x27;</span>;
 </code></pre>
-<p>⚠️ <strong>注意</strong>：这种方法只适用于 Cookie 和 iframe 窗口，localStorage 和 IndexDB 无法通过这种方法，规避同源策略，需要采用下文提及的 <a href="#postMessage">PostMessage API</a>。</p>
+<p>⚠️ <strong>注意</strong>：这种方法只适用于 Cookie 和 iframe 窗口，localStorage 和 IndexDB 无法通过这种方法，规避同源策略，需要采用下文提及的 <a href="/front-end/computer-networks/web-security/#postMessage">PostMessage API</a>。</p>
 <p>另外，服务器也可以在设置 Cookie 的时候，指定 Cookie 的所属域名为一级域名。</p>
 <pre class="hljs"><code class="language-http"><span class="hljs-attribute">Set-Cookie</span><span class="hljs-punctuation">: </span>key=value; domain=.example; path=/
 </code></pre>
@@ -435,16 +435,16 @@ server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#
 </code></pre>
 <h2>阻止跨源访问</h2>
 <ul>
-<li>阻止跨域写操作，只要检测请求中的一个不可测的标记（CSRF token）即可，这个标记被称为 <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29">Cross-Site Request Forgery (CSRF)</a> 标记。必须使用这个标记来阻止页面的跨站读操作。</li>
+<li>阻止跨域写操作，只要检测请求中的一个不可测的标记（CSRF token）即可，这个标记被称为 <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29" target="_blank" rel="noopener noreferrer nofollow">Cross-Site Request Forgery (CSRF)</a> 标记。必须使用这个标记来阻止页面的跨站读操作。</li>
 <li>阻止跨站嵌入，需要确保你的资源不能是以上列出的可嵌入资源格式。多数情况下浏览器都不会遵守 <code>Content-Type</code> 消息头。例如，如果您在 HTML 文档中指定 <code>&lt;script&gt;</code> 标记，则浏览器将尝试将 HTML 解析为 JavaScript。 当您的资源不是您网站的入口点时，您还可以使用 CSRF 令牌来防止嵌入。</li>
 <li>阻止资源的跨站读取，需要保证该资源是不可嵌入的。阻止嵌入行为是必须的，因为嵌入资源通常向其暴露信息。</li>
 </ul>
 <h2>参考资料</h2>
 <ul>
-<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy">📖 MDN: 浏览器的同源策略</a></li>
-<li><a href="http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html">📝 浏览器同源政策及其规避方法</a></li>
-<li><a href="https://juejin.im/post/5a6320d56fb9a01cb64ee191">📝 我知道的跨域与安全</a></li>
-<li><a href="https://mp.weixin.qq.com/s/Nk8YPYQDUJOKgQ9Qa7byag">📝 10 种跨域解决方案（附终极方案）</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy" target="_blank" rel="noopener noreferrer nofollow">📖 MDN: 浏览器的同源策略</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html" target="_blank" rel="noopener noreferrer nofollow">📝 浏览器同源政策及其规避方法</a></li>
+<li><a href="https://juejin.im/post/5a6320d56fb9a01cb64ee191" target="_blank" rel="noopener noreferrer nofollow">📝 我知道的跨域与安全</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Nk8YPYQDUJOKgQ9Qa7byag" target="_blank" rel="noopener noreferrer nofollow">📝 10 种跨域解决方案（附终极方案）</a></li>
 </ul>
 4:["$","div",null,{"className":"markdown-body","children":[["$","h1",null,{"children":"同源策略"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
 a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

@@ -10,8 +10,8 @@ b:I[4835,[],""]
 :HL["/_next/static/css/ec0a9d078e716e00.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
 :HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"P2aiewlOc1Z9OPuSRFf3D","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","array"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9uYSrp0wPjjZ9YVqbn_vT",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:Ta30f,<h1>Array 对象</h1>
+0:{"P":null,"b":"ToCgoFiTXvECVEVLCeZww","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","array"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ec0a9d078e716e00.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","AAdf1aYIuRjHOO1Knl6l_",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Ta9bb,<h1>Array 对象</h1>
 <p><code>Array</code> 对象时用于构造数组的全局对象，类似时类似于列表的高阶对象。</p>
 <p><code>Array</code> 对象主要用于存储多个数据项，数据可以是任意类型。</p>
 <p>所有主流浏览器均支持该对象。</p>
@@ -206,35 +206,35 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="./fill">Array.prototype.fill()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/fill">Array.prototype.fill()</a></td>
 <td style="text-align:left">用一个固定值填充一个数组中从起始索引到终止索引内的全部元素。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./pop">Array.prototype.pop()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/pop">Array.prototype.pop()</a></td>
 <td style="text-align:left">从数组中删除的最后一个元素，并返回这个元素。此方法更改数组长度。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./push">Array.prototype.push()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/push">Array.prototype.push()</a></td>
 <td style="text-align:left">将一个或多个元素添加到数组末尾，并返回数组的新长度。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./reverse">Array.prototype.reverse()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/reverse">Array.prototype.reverse()</a></td>
 <td style="text-align:left">颠倒数组中元素的排列顺序，即原先的第一个变为最后一个，原先的最后一个变为第一个。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./shift">Array.prototype.shift()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/shift">Array.prototype.shift()</a></td>
 <td style="text-align:left">从数组中删除第一个元素，并返回该元素的值。此方法更改数组长度。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./sort">Array.prototype.sort()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/sort">Array.prototype.sort()</a></td>
 <td style="text-align:left">用就地的算法对数组元素进行排序，并返回当前数组。排序不一定是稳定的。默认排序顺序是根据字符串 Unicode 码点。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./splice">Array.prototype.splice()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/splice">Array.prototype.splice()</a></td>
 <td style="text-align:left">通过删除现有元素和/或添加新元素来更改一个数组的内容。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./unshift">Array.prototype.unshift()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/unshift">Array.prototype.unshift()</a></td>
 <td style="text-align:left">在数组的开头增加一个或多个元素，并返回数组的新长度</td>
 </tr>
 </tbody>
@@ -250,27 +250,27 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="./index-of">Array.prototype.indexOf()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/index-of">Array.prototype.indexOf()</a></td>
 <td style="text-align:left">返回数组中第一个与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./last-index-of">Array.prototype.lastIndexOf()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/last-index-of">Array.prototype.lastIndexOf()</a></td>
 <td style="text-align:left">返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./concat">Array.prototype.concat()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/concat">Array.prototype.concat()</a></td>
 <td style="text-align:left">用于合并当前数组和其他若干个数组或者若干个非数组值组合而成的新数组。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./includes">Array.prototype.includes()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/includes">Array.prototype.includes()</a></td>
 <td style="text-align:left">判断当前数组是否包含某指定的值，如果是返回 <code>true</code>，否则返回 <code>false</code></td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./join">Array.prototype.join()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/join">Array.prototype.join()</a></td>
 <td style="text-align:left">将一个数组（或一个类数组对象） 的所有元素连接成一个字符串并返回这个字符串。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./slice">Array.prototype.slice()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/slice">Array.prototype.slice()</a></td>
 <td style="text-align:left">返回一个从开始到结束（不包括结束）选择的数组的一部分浅拷贝到一个新数组对象。</td>
 </tr>
 <tr>
@@ -286,15 +286,15 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <td style="text-align:left">返回一个由所有数组元素组合而成的本地化后的字符串。遮蔽了原型链上的 <code>Object.prototype.toLocaleString()</code> 方法</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./copy-within">Array.prototype.copyWithin()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/copy-within">Array.prototype.copyWithin()</a></td>
 <td style="text-align:left">在数组内部，将一段元素序列拷贝到另一段元素序列上，覆盖原有的值。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./flat">Array.prototype.flat()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/flat">Array.prototype.flat()</a></td>
 <td style="text-align:left">方法会按照一个可指定的深度递归遍历数组，并将所有元素与遍历到的子数组中的元素合并为一个新数组返回</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./flat-map">Array.prototype.flatMap()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/flat-map">Array.prototype.flatMap()</a></td>
 <td style="text-align:left">方法首先使用映射函数映射每个元素，然后将结果压缩成一个新数组</td>
 </tr>
 </tbody>
@@ -310,47 +310,47 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><a href="./for-each">Array.prototype.forEach()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/for-each">Array.prototype.forEach()</a></td>
 <td style="text-align:left">对数组的每个元素执行一次回调函数。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./entries">Array.prototype.entries()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/entries">Array.prototype.entries()</a></td>
 <td style="text-align:left">返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./every">Array.prototype.every()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/every">Array.prototype.every()</a></td>
 <td style="text-align:left">测试数组的所有元素是否都通过了指定函数的测试。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./some">Array.prototype.some()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/some">Array.prototype.some()</a></td>
 <td style="text-align:left">测试数组中的某些元素是否通过由提供的函数实现的测试。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./filter">Array.prototype.filter()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/filter">Array.prototype.filter()</a></td>
 <td style="text-align:left">创建一个新数组，其包含通过所提供函数实现的测试的所有元素。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./find">Array.prototype.find()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/find">Array.prototype.find()</a></td>
 <td style="text-align:left">返回数组中满足提供的测试函数的第一个元素的值。否则返回 <code>undefined</code>。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./find-index">Array.prototype.findIndex()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/find-index">Array.prototype.findIndex()</a></td>
 <td style="text-align:left">返回数组中满足提供的测试函数的第一个元素的缩影。否则返回-1。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./keys">Array.prototype.keys()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/keys">Array.prototype.keys()</a></td>
 <td style="text-align:left">返回一个数组迭代器对象，该迭代器会包含所有数组元素的键。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./map">Array.prototype.map()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/map">Array.prototype.map()</a></td>
 <td style="text-align:left">创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./reduce">Array.prototype.reduce()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/reduce">Array.prototype.reduce()</a></td>
 <td style="text-align:left">从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。</td>
 </tr>
 <tr>
-<td style="text-align:left"><a href="./reduce-right">Array.prototype.reduceRight()</a></td>
+<td style="text-align:left"><a href="/front-end/standard-built-in-objects/indexed-collections/array/reduce-right">Array.prototype.reduceRight()</a></td>
 <td style="text-align:left">从右到左为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。</td>
 </tr>
 <tr>
