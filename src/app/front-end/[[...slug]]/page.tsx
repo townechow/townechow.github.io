@@ -44,12 +44,12 @@ export default async function BlogPage({
   }
   // 读取 Markdown 文件内容
   const fileContent = getMdFileContentByPath(filePath);
-  const { content, data } = matter(fileContent); // 解析内容和元数据
+  const { content } = matter(fileContent); // 解析内容和元数据
   const contentHtml = md2html(content, filePath);
 
   return (
     <div className="markdown-body">
-      <h1>{data.title}</h1>
+      {/* <h1>{data.title}</h1> */}
       
       <article
         dangerouslySetInnerHTML={{ __html: contentHtml }}
