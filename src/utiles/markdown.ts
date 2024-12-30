@@ -11,27 +11,28 @@ import fs from "fs"
 
 export const md2html = (mdContent: string, filePath: string) => {
   const md = new MarkdownIt({
-    highlight: (code: string, language: string) => {
-      if (language && hljs.getLanguage(language)) {
-        try {
-          // 使用 highlight.js 高亮代码
-          return `<pre class="hljs"><code class="language-${language}">${hljs.highlight(code, { language }).value}</code></pre>`;
-        } catch (err) {
-          window.console.error(`highlight: ${err}`)
-        }
-      }
-      // 如果没有指定语言或语言不支持，默认处理
-      return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
-    },
+    highlight: (code: string, language: string) => highlight(code, language, md)
   }).use(emoji)
     // @ts-expect-error no type
     .use((mdInstance) => imgPlug(mdInstance, filePath))
     // @ts-expect-error no type
     .use((mdInstance) => LinkPlug(mdInstance, filePath))
-
   return md.render(mdContent);
 };
 
+// @ts-expect-error no type
+const highlight = (code, language, md) => {
+  if (language && hljs.getLanguage(language)) {
+    try {
+      // 使用 highlight.js 高亮代码
+      return `<pre class="hljs"><code class="language-${language}">${hljs.highlight(code, { language }).value}</code></pre>`;
+    } catch (err) {
+      window.console.error(`highlight: ${err}`)
+    }
+  }
+  // 如果没有指定语言或语言不支持，默认处理
+  return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
+}
 const imgPlug = (mdInstance: object, filePath: string) => {
   // @ts-expect-error no type
   const defaultRender = mdInstance.renderer.rules.image || function (tokens, idx, options, env, self) {

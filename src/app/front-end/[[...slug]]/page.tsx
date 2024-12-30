@@ -1,7 +1,9 @@
 import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
-import { md2html, getMdFileContentByPath, getMdFileFullPathByUri,getAllMdFile } from "@/utiles";
+import { md2html, getMdFileContentByPath, getMdFileFullPathByUri, getAllMdFile } from "@/utiles";
+// import PageManu from "@/components/PageMenu"
+
 
 const CONTENT_DIR = "/public/front-end"
 const CONTENT_PATH = path.join(process.cwd(), CONTENT_DIR);
@@ -48,12 +50,15 @@ export default async function BlogPage({
   const contentHtml = md2html(content, filePath);
 
   return (
-    <div className="markdown-body">
-      {/* <h1>{data.title}</h1> */}
-      
-      <article
-        dangerouslySetInnerHTML={{ __html: contentHtml }}
-      />
-    </div>
+    <>
+      <div className="markdown-body">
+        {/* <h1>{data.title}</h1> */}
+
+        <article
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
+      </div>
+      {/* <PageManu /> */}
+    </>
   );
 }

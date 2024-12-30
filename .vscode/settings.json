@@ -1,4 +1,5 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
-    "files.autoSave": "off"
+    "files.autoSave": "off",
+    "editor.tabSize": 2
 }
