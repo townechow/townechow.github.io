@@ -7,14 +7,15 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","reflection","proxy","handler","get"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/reflection/proxy/handler/get","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/reflection/proxy/handler/get","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","H32IWVaiDv9-2psI0YMpt",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T29db,<h1>Proxy - handler.get</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","reflection","proxy","handler","get"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/reflection/proxy/handler/get","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/reflection/proxy/handler/get","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tVVQrXoHlDNMYYgqO_GAG",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2a23,<h1>Proxy - handler.get</h1>
 <p><code>handler.get()</code> 方法用于拦截对象属性的读取操作。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(target, {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(target, {
   <span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">target, property, receiver</span>) {
     <span class="hljs-comment">// do something</span>
   },
@@ -62,7 +63,7 @@ c:T29db,<h1>Proxy - handler.get</h1>
 </ul>
 <h2>示例</h2>
 <p>以下代码演示如何拦截属性值的读取操作：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
   {},
   {
     <span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">target, prop, receiver</span>) {
@@ -76,7 +77,7 @@ c:T29db,<h1>Proxy - handler.get</h1>
 <span class="hljs-comment">// foo</span>
 </code></pre>
 <p>以下是违反约束的情况：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
@@ -96,7 +97,7 @@ c:T29db,<h1>Proxy - handler.get</h1>
 <span class="hljs-comment">// property on the proxy target but the proxy did not return its actual value</span>
 </code></pre>
 <h3>数组读取负数的索引</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> createArr = <span class="hljs-keyword">function</span> (<span class="hljs-params">...elements</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> createArr = <span class="hljs-keyword">function</span> (<span class="hljs-params">...elements</span>) {
   <span class="hljs-keyword">const</span> handler = {
     <span class="hljs-title function_">get</span>(<span class="hljs-params">target, propKey, receiver</span>) {
       <span class="hljs-keyword">const</span> index = <span class="hljs-title class_">Number</span>(propKey);
@@ -120,7 +121,7 @@ c:T29db,<h1>Proxy - handler.get</h1>
 <span class="hljs-comment">// c</span>
 </code></pre>
 <h3>链式操作</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> pipe = <span class="hljs-keyword">function</span> (<span class="hljs-params">value</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> pipe = <span class="hljs-keyword">function</span> (<span class="hljs-params">value</span>) {
   <span class="hljs-keyword">const</span> stack = [];
 
   <span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
@@ -149,7 +150,7 @@ c:T29db,<h1>Proxy - handler.get</h1>
 <span class="hljs-comment">// 63</span>
 </code></pre>
 <h3>生成 DOM 节点</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> dom = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> dom = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
   {},
   {
     <span class="hljs-title function_">get</span>(<span class="hljs-params">target, property</span>) {

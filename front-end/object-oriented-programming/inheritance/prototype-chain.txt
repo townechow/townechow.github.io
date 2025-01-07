@@ -7,20 +7,16 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","inheritance","prototype-chain"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/inheritance/prototype-chain","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/inheritance/prototype-chain","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","xt6ZkQQ-zEA0jgqkaw0a0",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4b79,<h1>原型链</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","inheritance","prototype-chain"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/inheritance/prototype-chain","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/inheritance/prototype-chain","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","BKwpqFojbLSfIkV3_SIXl",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3fe9,<h1>原型链</h1>
 <p>ECMAScript 中描述了原型链的概念，并将原型链作为实现继承的主要方法。其基本思想是利用原型让一个引用类型继承另一个引用类型的属性和方法。</p>
 <p>搞懂原型对象和原型链其实就是搞懂 <code>prototype</code>、<code>__proto__</code> 和 <code>constructor</code> 之间的相互关系。</p>
 <p>我们通过示例并附加图例阐述这种复杂的相互关系。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/inheritance/prototype-chain.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;原型链&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>图例</strong></p>
+<img alt="原型链" src="../../assets/inheritance/prototype-chain.jpg" width="720" /><p><strong>图例</strong></p>
 <ul>
 <li>红色箭头表示 <code>__proto__</code> 属性指向</li>
 <li>绿色箭头表示 <code>prototype</code> 属性指向</li>
@@ -34,30 +30,15 @@ c:T4b79,<h1>原型链</h1>
 <li><strong>函数</strong>：<code>prototype</code> 是函数独有的。但是函数也是对象，所以函数也有 <code>__proto__</code> 和 <code>constructor</code>。</li>
 </ul>
 <h2>显式原型</h2>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/inheritance/explicit-prototype.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;显式原型&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>显式原型对象 <code>prototype</code> 由&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;函数所独有&lt;/span&gt;，它是从&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个函数指向另一个对象&lt;/span&gt;。它的含义是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;函数的原型对象&lt;/span&gt;，也就是这个函数（其实所有函数都可以作为构造函数）所创建的实例的原型对象。由此可知：<code>foo.__proto__ === Foo.prototype</code>，它们两个完全一样。</p>
+<img alt="显式原型" src="../../assets/inheritance/explicit-prototype.jpg" width="720" /><p>显式原型对象 <code>prototype</code> 由&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;函数所独有&lt;/span&gt;，它是从&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个函数指向另一个对象&lt;/span&gt;。它的含义是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;函数的原型对象&lt;/span&gt;，也就是这个函数（其实所有函数都可以作为构造函数）所创建的实例的原型对象。由此可知：<code>foo.__proto__ === Foo.prototype</code>，它们两个完全一样。</p>
 <p>那 <code>prototype</code> 属性作用又是什么呢？它的&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;作用&lt;/span&gt;就是包含可以由特定类型的所有实例共享的属性和方法，也就是让该函数的实例化对象们都可以找到公用的属性和方法。</p>
 <p><strong>任何函数在创建的时候，其实会默认同时创建该函数的 <code>prototype</code> 对象。</strong></p>
 <h2>隐式原型</h2>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/inheritance/hidden-prototype.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;隐式原型&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p>在 JavaScript 中的&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;对象&lt;/span&gt;中都有一个 <code>__proto__</code> 属性，从上图可以看出&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个对象指向另一个对象&lt;/span&gt;，即指向相对应的对象的原型对象。这个原型对象称为&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;隐式原型对象&lt;/span&gt;。</p>
+<img alt="隐式原型" src="../../assets/inheritance/hidden-prototype.jpg" width="800" /><p>在 JavaScript 中的&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;对象&lt;/span&gt;中都有一个 <code>__proto__</code> 属性，从上图可以看出&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个对象指向另一个对象&lt;/span&gt;，即指向相对应的对象的原型对象。这个原型对象称为&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;隐式原型对象&lt;/span&gt;。</p>
 <p>隐式原型对象的作用在于，当访问一个对象的属性或方法时，如果该对象内部不存在这个属性，那么就会从它的 <code>__proto__</code> 属性所指向的（原型）对象中寻找（原型也是对象，也有它自己的原型），如果原型对象中也找不到，就会继续在该原型对象的原型对象中找，以此类推，直到找到属性或方法为止，或者查找到顶层原型对象 <code>null</code>，就结束查找，返回 <code>undefined</code>。</p>
 <p>整个查找过程中，从当前对象出发沿着原型对象（<code>__proto__</code>）构成的链条查找相关属性和方法直到结束，这些相互关联的对象组成的链条就是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;原型链&lt;/span&gt;。</p>
 <h2>构造函数</h2>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/inheritance/constructor.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;构造函数&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p>属性 <code>constructor</code> 也是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;对象&lt;/span&gt;才拥有的，它是从&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个对象指向一个函数&lt;/span&gt;，含义就是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;指向该对象的构造函数&lt;/span&gt;，每个对象都有构造函数（本身拥有或继承而来，继承而来的要结合 <code>__proto__</code> 属性查看会更清楚点），从上图中可以看出 &lt;span style=&quot;color: red;font-weight: bold&quot;&gt;Function&lt;/span&gt; 这个对象比较特殊，它的构造函数就是它自己（因为 Function 可以看成是一个函数，也可以是一个对象），所有函数和对象最终都是由 Function 构造函数得来，所以 <code>constructor</code> 属性的终点就是 &lt;span style=&quot;color: red;font-weight: bold&quot;&gt;Function&lt;/span&gt; 这个函数。</p>
+<img alt="构造函数" src="../../assets/inheritance/constructor.jpg" width="800" /><p>属性 <code>constructor</code> 也是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;对象&lt;/span&gt;才拥有的，它是从&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;一个对象指向一个函数&lt;/span&gt;，含义就是&lt;span style=&quot;color: red;font-weight: bold&quot;&gt;指向该对象的构造函数&lt;/span&gt;，每个对象都有构造函数（本身拥有或继承而来，继承而来的要结合 <code>__proto__</code> 属性查看会更清楚点），从上图中可以看出 &lt;span style=&quot;color: red;font-weight: bold&quot;&gt;Function&lt;/span&gt; 这个对象比较特殊，它的构造函数就是它自己（因为 Function 可以看成是一个函数，也可以是一个对象），所有函数和对象最终都是由 Function 构造函数得来，所以 <code>constructor</code> 属性的终点就是 &lt;span style=&quot;color: red;font-weight: bold&quot;&gt;Function&lt;/span&gt; 这个函数。</p>
 <h2>原型对象</h2>
 <p>原型对象即为当前实例对象的父对象</p>
 <table>
@@ -87,7 +68,7 @@ c:T4b79,<h1>原型链</h1>
 </tbody>
 </table>
 <p>🌰 <strong>代码示例：访问原型链中的原型对象</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title class_">Foo</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title class_">Foo</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
 
 <span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>();
 
@@ -111,7 +92,7 @@ c:T4b79,<h1>原型链</h1>
 <h3>字面量方式</h3>
 <p>当通过字面量方式创建对象时，它的原型就是 <code>Object.prototype</code>。</p>
 <p>虽然我们无法直接访问内置属性 <code>__proto__</code>，但我们可以通过 <code>Object.getPrototypeOf()</code> 或对象的属性 <code>__proto__</code> 获取对象的原型。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 <span class="hljs-comment">// true</span>
@@ -120,7 +101,7 @@ c:T4b79,<h1>原型链</h1>
 <span class="hljs-comment">// true</span>
 </code></pre>
 <h3>构造器方式</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title class_">Foo</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title class_">Foo</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {};
 
 <span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>();
 
@@ -132,7 +113,7 @@ c:T4b79,<h1>原型链</h1>
 </code></pre>
 <h3>Object.create 方式</h3>
 <p>通过 <code>Object.create()</code> 方式创建的对象会以传入的对象参数为对象的原型。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-keyword">const</span> bar = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(foo);
 
@@ -140,7 +121,7 @@ c:T4b79,<h1>原型链</h1>
 </code></pre>
 <h2>原型对象与实例</h2>
 <p>通过 <code>instanceof</code> 操作符可以确定原型与实例的关系。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 假设 instanceof 操作符左边是 L 右边是 R</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 假设 instanceof 操作符左边是 L 右边是 R</span>
 L <span class="hljs-keyword">instanceof</span> R
 
 <span class="hljs-comment">// instanceof 运算时 通过判断 L 的原型链是否存在 R.prototype</span>
@@ -148,28 +129,28 @@ L.<span class="hljs-property">__proto__</span>.<span class="hljs-property">__pro
 </code></pre>
 <p>⚠️ 注意：<code>instanceof</code> 操作符会递归查找 L 的原型链，即 <code>L.__proto__.__proto__.__proto__...</code> 直到找到了或者到达顶层为止。</p>
 <p>构造器 Function 的构造器是它自身：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span>.<span class="hljs-property">constructor</span> === <span class="hljs-title class_">Function</span>; <span class="hljs-comment">// true</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Function</span>.<span class="hljs-property">constructor</span> === <span class="hljs-title class_">Function</span>; <span class="hljs-comment">// true</span>
 </code></pre>
 <p>构造器 Object 的构造器是 Function（因此可得所有构造器的 constructor 都指向 Function）</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-property">constructor</span> === <span class="hljs-title class_">Function</span>; <span class="hljs-comment">// true</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Object</span>.<span class="hljs-property">constructor</span> === <span class="hljs-title class_">Function</span>; <span class="hljs-comment">// true</span>
 </code></pre>
 <p>构造器 Function 的 <code>[[Prototype]]</code> 是一个特殊的匿名函数</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Function</span>.<span class="hljs-property">__proto__</span>); <span class="hljs-comment">// function(){}</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Function</span>.<span class="hljs-property">__proto__</span>); <span class="hljs-comment">// function(){}</span>
 </code></pre>
 <p>这个特殊的匿名函数的 <code>[[Prototype]]</code> 指向 Object 的 prototype 原型。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span>.<span class="hljs-property">__proto__</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>; <span class="hljs-comment">// true</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Function</span>.<span class="hljs-property">__proto__</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>; <span class="hljs-comment">// true</span>
 </code></pre>
 <p>Object 的 <code>[[Prototype]]</code> 指向 Function 的 prototype 也就是上述的特殊的匿名函数</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>; <span class="hljs-comment">// true</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Object</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>; <span class="hljs-comment">// true</span>
 
 <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> === <span class="hljs-title class_">Function</span>.<span class="hljs-property">__proto__</span>; <span class="hljs-comment">// true</span>
 </code></pre>
 <p>内置对象 Function 和 Object 的关系：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Function</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>; <span class="hljs-comment">// true</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Function</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>; <span class="hljs-comment">// true</span>
 <span class="hljs-title class_">Object</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Function</span>; <span class="hljs-comment">// true</span>
 </code></pre>
 <p>其他标准内置对象的字面量原型链关系：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">true</span>.<span class="hljs-property">__prto__</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">true</span>.<span class="hljs-property">__prto__</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>((<span class="hljs-number">123</span>).<span class="hljs-property">__proto__</span>.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 

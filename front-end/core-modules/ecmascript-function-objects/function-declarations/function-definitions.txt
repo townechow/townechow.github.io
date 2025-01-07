@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-declarations","function-definitions"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-declarations/function-definitions","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-declarations/function-definitions","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","fdmgG085XflzoPfm6BxeG",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T35e0,<h1>函数声明式定义</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-declarations","function-definitions"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-declarations/function-definitions","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-declarations/function-definitions","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","lKvsjC2I6zeCALpVU6PJU",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T367c,<h1>函数声明式定义</h1>
 <p>一个函数定义由一系列的 <code>function</code> 关键字组成，依次为：</p>
 <ul>
 <li>函数的名称</li>
@@ -27,7 +28,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li><code>functionBody</code> 函数体</li>
 </ol>
 <h3>语法</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">functionName</span> (<span class="hljs-params">[arg1 [,arg2 [...,argn]]]</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">functionName</span> (<span class="hljs-params">[arg1 [,arg2 [...,argn]]]</span>) {
   <span class="hljs-comment">// functionBody 函数体</span>
 }
 </code></pre>
@@ -69,7 +70,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li>但当函数的参数是一个对象（即一个非原始值，例如 <code>Array</code> 或用户自定义的其他对象），若函数改变了这个对象的的属性，这样的改变对函数外部是可见的</li>
 </ul>
 <p>&lt;br /&gt;</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">arg1</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params">arg1</span>) {
   arg1.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;JavaScript&#x27;</span>;
 }
 
@@ -85,7 +86,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li><code>function</code> 语句里的 <strong>花括号是必需</strong> 的，这和 <code>while</code> 循环和其他一些语句所使用的语句块是不同的，即使函数体内只包含一条语句，仍然必须使用花括号将其括起来。</li>
 </ul>
 <p>&lt;br /&gt;</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">test</span>(<span class="hljs-params"></span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">test</span>(<span class="hljs-params"></span>);
 <span class="hljs-comment">// SyntaxError: Unexpected end of input</span>
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">test</span>(<span class="hljs-params"></span>){};
@@ -99,7 +100,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li><strong>函数的重复声明会覆盖前面的声明</strong>（无论是函数表达式还是函数声明）</li>
 </ul>
 <p>⚠️ <strong>注意</strong>：由于函数声明提升优先于函数表达式的变量声明提升，所以变量的声明无作用。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> foo;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span>);
@@ -109,7 +110,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <span class="hljs-comment">// 1</span>
 </code></pre>
 <p>后面的函数声明会覆盖前面的函数声明</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">baz</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">baz</span>();
 <span class="hljs-comment">// 2</span>
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">baz</span>(<span class="hljs-params"></span>) {
@@ -123,7 +124,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <ul>
 <li>和变量声明一样，函数声明语句创建的变量无法删除</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span>);
 }
 
@@ -145,7 +146,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 </ul>
 <p>通常而言，以表达式方式定义函数时都不需要名称，这会让定义它们的代码更加紧凑。函数定义表达式特别适合用来定义那些只会使用一次的函数。</p>
 <h3>语法</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> variableName = <span class="hljs-keyword">function</span> <span class="hljs-title function_">functionName</span>(<span class="hljs-params">arg</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> variableName = <span class="hljs-keyword">function</span> <span class="hljs-title function_">functionName</span>(<span class="hljs-params">arg</span>) {
   <span class="hljs-comment">// 函数体</span>
   functionBody;
 };
@@ -153,13 +154,13 @@ c:T35e0,<h1>函数声明式定义</h1>
 <p>函数表达式要素与函数声明语句基本一致</p>
 <h3>匿名函数</h3>
 <p><strong>匿名函数（anonymous function）</strong> 也叫拉姆达函数，是 <code>function</code> 关键字后面没有标识符的函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> square = <span class="hljs-keyword">function</span> (<span class="hljs-params">number</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> square = <span class="hljs-keyword">function</span> (<span class="hljs-params">number</span>) {
   <span class="hljs-keyword">return</span> number * number;
 };
 </code></pre>
 <h3>具名函数</h3>
 <p>函数表达式也可以提供函数名，并且可以用于在函数内部使用来代指其本身，或者在调试器堆栈跟踪中鉴别该函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> factorial = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fac</span>(<span class="hljs-params">n</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> factorial = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fac</span>(<span class="hljs-params">n</span>) {
   <span class="hljs-keyword">return</span> n &lt; <span class="hljs-number">2</span> ? <span class="hljs-number">1</span> : n * <span class="hljs-title function_">fac</span>(n - <span class="hljs-number">1</span>);
 };
 
@@ -170,7 +171,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 </code></pre>
 <h3>函数名称</h3>
 <p>一个函数定义表达式包含名称，函数的局部作用域将会包含一个绑定到函数对象的名称。实际上，函数的名称将成为函数内部的一个局部变量。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> fn;
 };
 
@@ -194,7 +195,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li>对于具名的函数表达式来说，<strong>函数名称</strong> 相当于函数对象的 &lt;strong style=&quot;color: red&quot;&gt;形参&lt;/strong&gt;，只能在函数内部使用；</li>
 <li>而 <strong>变量名称</strong> 相当于函数对象的 &lt;strong style=&quot;color: red&quot;&gt;实参&lt;/strong&gt;，在函数内部和函数外部都可以使用。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> fn === foo;
 };
 
@@ -205,7 +206,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <span class="hljs-comment">// ReferenceError: fn is not defined</span>
 </code></pre>
 <p>函数定义了一个非标准的 <code>name</code> 属性，通过这个属性可以访问到给定函数指定的名字，这个属性的值永远等于跟在 <code>function</code> 关键字后面的标识符，匿名函数的 <code>name</code> 属性为空</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// IE11- 浏览器无效，均输出 undefined</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// IE11- 浏览器无效，均输出 undefined</span>
 <span class="hljs-comment">// Chrome在处理匿名函数的 name 属性时有问题，会显示函数表达式的名字</span>
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {}
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(fn.<span class="hljs-property">name</span>);
@@ -225,7 +226,7 @@ c:T35e0,<h1>函数声明式定义</h1>
 <li>解析器会 <strong>率先读取函数声明</strong>，使其在执行任何代码之前就可以访问（也就是 <strong>函数声明提升</strong>）；</li>
 <li>而函数表达式则需要 <strong>解析器执行到它所在的代码行</strong> 才会被解释执行。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">foo</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">foo</span>();
 <span class="hljs-comment">// 能正常运行 弹出 foo</span>
 
 <span class="hljs-title function_">bar</span>();

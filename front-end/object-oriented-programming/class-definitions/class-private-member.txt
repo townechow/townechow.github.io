@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","class-definitions","class-private-member"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/class-definitions/class-private-member","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/class-definitions/class-private-member","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","WNZNbd8HEh_zhVvraSx2N",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T15c7,<h1>私有成员</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","class-definitions","class-private-member"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/class-definitions/class-private-member","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/class-definitions/class-private-member","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6C51SIGw2q6X8pmuPG4UA",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T160f,<h1>私有成员</h1>
 <p>私有方法和私有属性，指只能在类的内部访问而外部不能访问的方法和属性。</p>
 <p>这是常见需求，有利于代码的封装，但 ES6 不提供，只能通过变通方法模拟实现。</p>
 <h2>私有方法</h2>
@@ -22,7 +23,7 @@ c:T15c7,<h1>私有成员</h1>
 <li>命名为 Symbol 值</li>
 </ul>
 <h3>命名区别</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Utils</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Utils</span> {
   <span class="hljs-comment">// 公有方法</span>
   <span class="hljs-title function_">foo</span>(<span class="hljs-params">baz</span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">_bar</span>(baz);
@@ -39,7 +40,7 @@ c:T15c7,<h1>私有成员</h1>
 <p>上面代码中，<code>_bar</code> 方法前面的下划线，表示这是一个只限于内部使用的私有方法。但是，这种命名是不保险的，在类的外部，还是可以调用到这个方法。</p>
 <h3>Symbol 值命名</h3>
 <p>利用 <code>Symbol</code> 值的唯一性，将私有方法的名字命名为一个 <code>Symbol</code> 值。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> bar = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;bar&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> bar = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;bar&#x27;</span>);
 <span class="hljs-keyword">const</span> snaf = <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;snaf&#x27;</span>);
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">myClass</span> {
@@ -55,14 +56,14 @@ c:T15c7,<h1>私有成员</h1>
 }
 </code></pre>
 <p>上面代码中，<code>bar</code> 和 <code>snaf</code> 都是 <code>Symbol</code> 值，导致第三方无法获取到它们，因此达到了私有方法和私有属性的效果。但是也不是绝对不行，使用 <code>Reflect.ownKeys()</code>依然可以拿到它们。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> instance = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> instance = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Foo</span>();
 
 <span class="hljs-title class_">Reflect</span>.<span class="hljs-title function_">ownKeys</span>(<span class="hljs-title class_">Foo</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 <span class="hljs-comment">// [&#x27;constructor&#x27;, &#x27;foo&#x27;, Symbol(bar)]</span>
 </code></pre>
 <h3>引用外部方法</h3>
 <p>将私有方法移出模块，因为模块内部的所有方法都是对外可见的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Utils</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Utils</span> {
   <span class="hljs-title function_">foo</span>(<span class="hljs-params">baz</span>) {
     bar.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">this</span>, baz);
   }
@@ -75,7 +76,7 @@ c:T15c7,<h1>私有成员</h1>
 <h2>私有属性</h2>
 <p>详细介绍参考 <a href="https://github.com/tc39/proposal-private-methods" target="_blank" rel="noopener noreferrer nofollow">私有属性的提案</a></p>
 <p>私有属性是实例中的属性，不会出现在原型上，且只能在类的构造函数或方法中创建。建议在构造函数中创建所有私有属性，从而只通过一处就可以控制所有的私有属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span> = {
       <span class="hljs-attr">visible</span>: <span class="hljs-literal">true</span>,
@@ -84,7 +85,7 @@ c:T15c7,<h1>私有成员</h1>
 }
 </code></pre>
 <p>目前，有一项提案，为 <code>class</code> 加了私有属性。方法是属性名之前，使用 <code>#</code> 表示。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
   #x;
   <span class="hljs-title function_">constructor</span> (<span class="hljs-params">x = <span class="hljs-number">0</span></span>) {
     #x = !x

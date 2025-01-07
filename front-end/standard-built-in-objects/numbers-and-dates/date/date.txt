@@ -7,28 +7,29 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","numbers-and-dates","date","date"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","nm62i2gG1YX7UiOs_0_3Y",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T5b3b,<h1>Date 对象</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","numbers-and-dates","date","date"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/numbers-and-dates/date/date","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","DnzO5xHrZmPY1zfHVOf3B",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5bd7,<h1>Date 对象</h1>
 <p>Date 对象是 JavaScript 语言中内置的数据类型，用于提供日期和时间的操作接口。Date 对象基于 1970 年 1 月 1 日（世界标准时间）起的毫秒数。</p>
 <h2>语法</h2>
 <h3>不带 new 调用</h3>
 <p><strong>用法一</strong>：不带 <code>new</code> 操作符时，像一个函数一样调用。它将忽略所有传入的参数，并返回当前日期和时间的一个字符串表示</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> date = <span class="hljs-title class_">Date</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> date = <span class="hljs-title class_">Date</span>();
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(date);
 <span class="hljs-comment">// &#x27;Fri Dec 03 2021 01:13:39 GMT+0800 (China Standard Time)&#x27;</span>
 </code></pre>
 <h3>带 new 调用</h3>
 <p><strong>用法二</strong>：使用 <code>new</code> 操作符，且不带参数时，将根据当前时间和日期创建一个 Date 对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(date);
 <span class="hljs-comment">// Fri Dec 03 2021 01:13:57 GMT+0800 (China Standard Time)</span>
 </code></pre>
 <h3>数字参数</h3>
 <p><strong>用法三</strong>：可接受一个数字参数（ Number 数据类型），该参数表示设定时间与 1970 年 1 月 1 日 0 点之间的毫秒数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(value);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(value);
 </code></pre>
 <table>
 <thead>
@@ -48,7 +49,7 @@ c:T5b3b,<h1>Date 对象</h1>
 </table>
 <h3>字符串参数</h3>
 <p><strong>用法四</strong>：可接受一个字符串参数（String 数据类型），参数形式类似于 <code>Date.parse()</code> 方法。但 <code>parse()</code> 方法返回的是一个数字，而 <code>Date()</code> 函数返回的是一个对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(dateString);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(dateString);
 </code></pre>
 <p>关于标准的日期时间字符串中前置 <code>0</code> 的处理，也类似于 <code>Date.parse()</code> 方法，若有前置 <code>0</code>，则相当于 UTC 时间，若没有，则相当于本地时间。其余情况一般都为本地时间。</p>
 <table>
@@ -71,7 +72,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <ul>
 <li><strong>用法五</strong>：可接受参数形式类似于 <code>Date.UTC()</code> 方法的参数，但 <code>Date.UTC()</code> 方法返回是一个毫秒数，且是 UTC 时间，而 <code>Date()</code> 函数返回是一个对象，且是本地时间。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">UTC</span>( year, month[, day[, hour [, minutes[, seconds[, milliseconds]]]]]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">UTC</span>( year, month[, day[, hour [, minutes[, seconds[, milliseconds]]]]]);
 </code></pre>
 <p>当 Date 作为构造函数调用并传入多个参数时，如果数值大于合理范围时（如月份为 13 或者分钟数为 70），相邻的数值会被调整。</p>
 <p>比如 <code>new Date(2013,12,1)</code> 等于 <code>new Date(2014,1,1)</code>，它们都表示日期 <code>2014-01-01</code>（注意月份是从 <code>0</code> 开始的）。其他数值也是类似，<code>new Date(2013,2,1,0,70)</code> 等于 <code>new Date(2013,2,1,1,10)</code>，都表示时间 <code>2013-03-01T01:10:00</code>。</p>
@@ -340,7 +341,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <h2>应用示例</h2>
 <h3>基本用法</h3>
 <p>普通函数调用：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Date</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Date</span>();
 <span class="hljs-comment">// &quot;Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)&quot;</span>
 
 <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018/4/2&#x27;</span>);
@@ -350,7 +351,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// &#x27;string&#x27;</span>
 </code></pre>
 <p>不带参数的构造函数：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
 <span class="hljs-comment">// Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)</span>
 <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>();
 <span class="hljs-comment">// Mon Apr 02 2018 15:00:00 GMT+0800 (中国标准时间)</span>
@@ -359,7 +360,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// &#x27;object&#x27;</span>
 </code></pre>
 <p>带数字参数的构造函数：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">0</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">0</span>);
 <span class="hljs-comment">// Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间)</span>
 <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">86400000</span>);
 <span class="hljs-comment">// Fri Jan 02 1970 08:00:00 GMT+0800 (中国标准时间)</span>
@@ -368,7 +369,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// &quot;object&quot;</span>
 </code></pre>
 <p>带字符串参数的构造函数：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;4/2/2018&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;4/2/2018&#x27;</span>);
 <span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
 <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">parse</span>(<span class="hljs-string">&#x27;4/2/2018&#x27;</span>);
 <span class="hljs-comment">// 1522598400000</span>
@@ -379,7 +380,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// &quot;number&quot;</span>
 </code></pre>
 <p>关于标准的日期时间字符串中前置 0 的处理，也类似于 <code>Date.parse()</code> 方法，若有前置 0，则相当于 UTC 时间，若没有，则相当于本地时间。其余情况一般都为本地时间。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;04/02/2018&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;04/02/2018&#x27;</span>);
 <span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
 <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&#x27;2018-4-2&#x27;</span>);
 <span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
@@ -387,7 +388,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// Mon Apr 02 2018 00:00:00 GMT+0800 (中国标准时间)</span>
 </code></pre>
 <p>带 UTC 参数的构造函数：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
 <span class="hljs-comment">// Fri Aug 12 2016 00:00:00 GMT+0800 (中国标准时间)</span>
 +<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2016</span>, <span class="hljs-number">7</span>, <span class="hljs-number">12</span>);
 <span class="hljs-comment">// 1470931200000</span>
@@ -403,7 +404,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <li>使用参数类似于 <code>Date.parse()</code> 函数的方法时，如果日期对象超出范围，浏览器会自动将日期计算成范围内的值。</li>
 <li>使用参数类似于 <code>Date.UTC()</code> 函数的方法时，如果日期对象超出范围，浏览器会提示 <code>Invalid Date</code>。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2018</span>, <span class="hljs-number">7</span>, <span class="hljs-number">32</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2018</span>, <span class="hljs-number">7</span>, <span class="hljs-number">32</span>);
 <span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
 <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-number">2018</span>, <span class="hljs-number">8</span>, <span class="hljs-number">1</span>);
 <span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
@@ -413,7 +414,7 @@ c:T5b3b,<h1>Date 对象</h1>
 <span class="hljs-comment">// Sat Sep 01 2018 00:00:00 GMT+0800 (中国标准时间)</span>
 </code></pre>
 <h3>格式化时间戳</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">formatTimestamp</span>(<span class="hljs-params">timestamp, format</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">formatTimestamp</span>(<span class="hljs-params">timestamp, format</span>) {
   <span class="hljs-keyword">const</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(timestamp + <span class="hljs-number">8</span> * <span class="hljs-number">3600</span> * <span class="hljs-number">1000</span>);
   <span class="hljs-keyword">return</span> date.<span class="hljs-title function_">toJSON</span>().<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, <span class="hljs-number">19</span>).<span class="hljs-title function_">replace</span>(<span class="hljs-string">&#x27;T&#x27;</span>, <span class="hljs-string">&#x27;&#x27;</span>);
 }

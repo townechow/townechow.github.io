@@ -7,27 +7,28 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","document","document-properties"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/document/document-properties","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/document/document-properties","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","huFeLLrCBkv-1mET5RcXG",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3ee2,<h1>Document 属性</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","document","document-properties"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/document/document-properties","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/document/document-properties","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","SsF3Q4sSWJQ_PdkygtWjN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3ff6,<h1>Document 属性</h1>
 <h2>文档类型定义 doctype</h2>
 <p>通过 <code>document.doctype</code> 可以获取文档关联的文档类型定义。</p>
 <p>返回的对象实现了 DocumentType 接口，使用 <code>DOMImplementation.createDocumentType()</code> 方法可以创建一个 DocumentType 类型的对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> doc = <span class="hljs-variable language_">document</span>.<span class="hljs-property">doctype</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> doc = <span class="hljs-variable language_">document</span>.<span class="hljs-property">doctype</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(doc.<span class="hljs-property">name</span>);
 <span class="hljs-comment">// html</span>
 </code></pre>
 <h2>文档字符集 characterSet</h2>
 <p>获取渲染当前文档的字符集</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">characterSet</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">characterSet</span>);
 <span class="hljs-comment">// &quot;UTF-8&quot;</span>
 </code></pre>
 <h2>文档标题 title</h2>
 <p>获取当前文档的标题</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 设置文档标题</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 设置文档标题</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">title</span> = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
 </code></pre>
 <h2>文档加载状态 raedyState</h2>
@@ -40,7 +41,7 @@ c:T3ee2,<h1>Document 属性</h1>
 </ul>
 <p>🌰 <strong>示例：</strong></p>
 <p>根据不同的加载状态处理不同逻辑</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">switch</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-property">readyState</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">switch</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-property">readyState</span>) {
   <span class="hljs-keyword">case</span> <span class="hljs-string">&#x27;loading&#x27;</span>:
     <span class="hljs-comment">// 表示文档还在加载中，即处于“正在加载”状态</span>
     <span class="hljs-keyword">break</span>;
@@ -59,14 +60,14 @@ c:T3ee2,<h1>Document 属性</h1>
 }
 </code></pre>
 <p>模拟 DOMContentLoaded / jQuery ready</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-property">onreadystatechange</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-property">onreadystatechange</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-property">readyState</span> === <span class="hljs-string">&#x27;interactive&#x27;</span>) {
     <span class="hljs-title function_">initApplication</span>();
   }
 };
 </code></pre>
 <p>模拟 load 事件</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-property">onreadystatechange</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-property">onreadystatechange</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-property">readyState</span> === <span class="hljs-string">&#x27;complete&#x27;</span>) {
     <span class="hljs-title function_">initApplication</span>();
   }
@@ -75,7 +76,7 @@ c:T3ee2,<h1>Document 属性</h1>
 <h2>标识节点指针</h2>
 <h3>当前文档直接子节点 documentElement</h3>
 <p>通过 <code>document.documentElement</code> 获取当前文档的直接子节点。对于 HTML 文档，HTMLHtmlElement 对象一般代表该文档的 <code>&lt;html&gt;</code> 元素。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> rootElement = <span class="hljs-variable language_">document</span>.<span class="hljs-property">documentElement</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> rootElement = <span class="hljs-variable language_">document</span>.<span class="hljs-property">documentElement</span>;
 <span class="hljs-keyword">const</span> firstTier = rootElement.<span class="hljs-property">childNodes</span>;
 
 <span class="hljs-comment">// firstTier 是由根元素的所有子节点组成的一个 NodeList</span>
@@ -87,14 +88,14 @@ c:T3ee2,<h1>Document 属性</h1>
 <p>使用这个只读属性能很方便的获取到任意文档的根元素。</p>
 <h3>当前文档主体节点 body</h3>
 <p>通过 <code>document.body</code> 获取当前文档中的 <code>&lt;body&gt;</code> 元素或者 <code>&lt;frameset&gt;</code> 元素。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> body = <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> body = <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(body.<span class="hljs-property">nodeName</span>);
 <span class="hljs-comment">// &#x27;BODY&#x27;</span>
 </code></pre>
 <h3>当前文档头部节点 head</h3>
 <p>通过 <code>document.head</code> 获取当前文档中的 <code>&lt;head&gt;</code> 元素。如果有多个 <code>&lt;head&gt;</code> 元素，则返回第一个。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> head = <span class="hljs-variable language_">document</span>.<span class="hljs-property">head</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> head = <span class="hljs-variable language_">document</span>.<span class="hljs-property">head</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(head.<span class="hljs-property">nodeName</span>);
 <span class="hljs-comment">// &#x27;HEAD&#x27;</span>
@@ -111,37 +112,37 @@ c:T3ee2,<h1>Document 属性</h1>
 </blockquote>
 <h2>文档元素集合</h2>
 <h3>当前页面所有标签列表 all</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> all = <span class="hljs-variable language_">document</span>.<span class="hljs-property">all</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> all = <span class="hljs-variable language_">document</span>.<span class="hljs-property">all</span>;
 </code></pre>
 <h3>当前页面超链接元素列表 links</h3>
 <p>获取当前文档的所有 <code>&lt;a&gt;</code> 元素</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 返回文档的链接数</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 返回文档的链接数</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">links</span>.<span class="hljs-property">length</span>;
 
 <span class="hljs-comment">// 返回文档第一个链接</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">links</span>[<span class="hljs-number">0</span>];
 </code></pre>
 <h3>当前页面样式表列表 styleSheets</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> styleSheets = <span class="hljs-variable language_">document</span>.<span class="hljs-property">styleSheets</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> styleSheets = <span class="hljs-variable language_">document</span>.<span class="hljs-property">styleSheets</span>;
 </code></pre>
 <h3>当前页面脚本标签列表 scripts</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> scripts = <span class="hljs-variable language_">document</span>.<span class="hljs-property">scripts</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> scripts = <span class="hljs-variable language_">document</span>.<span class="hljs-property">scripts</span>;
 </code></pre>
 <h3>当前页面图片标签列表 images</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> images = <span class="hljs-variable language_">document</span>.<span class="hljs-property">images</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> images = <span class="hljs-variable language_">document</span>.<span class="hljs-property">images</span>;
 </code></pre>
 <h3>当前页面锚点元素列表 anchors</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> anchors = <span class="hljs-variable language_">document</span>.<span class="hljs-property">anchors</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> anchors = <span class="hljs-variable language_">document</span>.<span class="hljs-property">anchors</span>;
 </code></pre>
 <h3>当前页面表单元素列表 forms</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> forms = <span class="hljs-variable language_">document</span>.<span class="hljs-property">forms</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> forms = <span class="hljs-variable language_">document</span>.<span class="hljs-property">forms</span>;
 </code></pre>
 <h2>文档位置信息</h2>
 <h3>文档网址 documentURI</h3>
 <p>通过 <code>document.documentURI</code> 获取当前文档的网址。</p>
 <p>HTML 文档有一个 <code>document.URL</code> 属性返回同样的值，但是不像 URL，<code>document.documentURI</code> 适用于所有类型的文档。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">documentURI</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">documentURI</span>);
 <span class="hljs-comment">// &quot;https://www.google.com/&quot;</span>
 </code></pre>
 <h3>文档地址 URL</h3>
@@ -150,13 +151,13 @@ c:T3ee2,<h1>Document 属性</h1>
 <h3>文档域名 domain</h3>
 <p>获取/设置当前文档的原始域名，用于同源策略。</p>
 <p>如果当前文档的域无法识别，那么 domain 属性会返回 <code>null</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">domain</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">domain</span>);
 <span class="hljs-comment">// &quot;www.google.com&quot;</span>
 </code></pre>
 <h3>文档访问来源 referrer</h3>
 <p>通过 <code>document.referrer</code> 获取当前文档的访问来源</p>
 <p>如果用户直接打开了这个页面，而不是页面跳转，或通过地址栏或书签等打开的，则该属性为空字符串。由于该属性只是返回一个字符串，所以不能够通过该属性引用页面的 DOM。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">URL</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">URL</span>);
 <span class="hljs-comment">// &quot;https://google.com/search?xxxxxxxx&quot;</span>
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">referrer</span>);
@@ -164,7 +165,7 @@ c:T3ee2,<h1>Document 属性</h1>
 </code></pre>
 <h3>文档定位 location</h3>
 <p>获取 <code>location</code> 对象，提供当前文档的 URL 信息</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">location</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">location</span>);
 <span class="hljs-comment">// {</span>
 <span class="hljs-comment">//   href: &quot;https://www.google.com/&quot;,</span>
 <span class="hljs-comment">//   ancestorOrigins: undefined,</span>
@@ -180,7 +181,7 @@ c:T3ee2,<h1>Document 属性</h1>
 <h3>缓存字段</h3>
 <p>通过 <code>document.cookie</code> 获取 Cookie。</p>
 <p>每个 Cookie 都是一个名/值对，如果要一次存储多个名/值对，可以使用分号加空格（<code>;</code>）隔开。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 设置 cookie</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 设置 cookie</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">cookie</span> = <span class="hljs-string">&#x27;uid=123&#x27;</span>;
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">cookie</span> = <span class="hljs-string">&#x27;username=ben&#x27;</span>;
 
@@ -190,13 +191,13 @@ c:T3ee2,<h1>Document 属性</h1>
 </code></pre>
 <h3>强缓存字段</h3>
 <p>通过 <code>document.lastModified</code> 可以获知文档最后修改时间。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> time = <span class="hljs-variable language_">document</span>.<span class="hljs-property">lastModified</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> time = <span class="hljs-variable language_">document</span>.<span class="hljs-property">lastModified</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(time);
 <span class="hljs-comment">// 09/19/2020 05:09:31</span>
 </code></pre>
 <h2>其他属性</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 获取当前文档的所有表单元素</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 获取当前文档的所有表单元素</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-property">formas</span>;
 
 <span class="hljs-comment">// 获取当前文档中所有嵌入对象</span>

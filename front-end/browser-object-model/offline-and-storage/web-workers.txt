@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","offline-and-storage","web-workers"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/web-workers","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/web-workers","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","sTlR-6Tg0NVky-eQq_DIF",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T777b,<h1>Web Workers</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","offline-and-storage","web-workers"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/web-workers","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/web-workers","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","j3TLohvsMs7Lsn6U97JJA",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T7891,<h1>Web Workers</h1>
 <p>JavaScript 语言采用的是单线程模型，也就是说，所有任务只能在一个线程上完成，一次只能做一件事。前面的任务没做完，后面的任务只能等着。随着电脑计算能力的增强，尤其是多核 CPU 的出現，单线程带来很大的不变，无法充分发挥计算机的计算能力。</p>
 <p>Web Worker 的作用，就是为 JavaScript 创造多线程环境，允许主线程创建 Worker 线程，将一些任务分配给后者运行。在主线程运行的同时，Worker 线程在后台运行，两者互不干扰。等到 Worker 线程完成计算任务，再把结果返回给主线程。这样的好处是，一些计算密集型或高延迟的任务，被 Worker 线程负担了，主线程（通常负责 UI 交互）就会很流畅，不会被阻塞或拖慢。</p>
 <p>Worker 线程一旦创建成功，就会始终运行，不会被主线程上的活动（比如用户点击按钮、提交表单）打断。这样有利于随时响应主线程的通信。但是，这也造成了 Worker 比较耗费资源，不应该过度使用，而且一旦使用完毕，就应该关闭。</p>
@@ -30,7 +31,7 @@ c:T777b,<h1>Web Workers</h1>
 <h3>主线程</h3>
 <p>主线程调用构造函数 Worker 创建一个 Worker 线程，构造函数参数是一个 URL。创建方式分为脚本文件和字符串形式。</p>
 <p><strong>脚本文件形式</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(<span class="hljs-string">&#x27;https:// ~.js&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(<span class="hljs-string">&#x27;https:// ~.js&#x27;</span>);
 </code></pre>
 <p>Worker 限制</p>
 <ul>
@@ -42,7 +43,7 @@ c:T777b,<h1>Web Workers</h1>
 </li>
 </ul>
 <p><strong>字符串形式</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> data = <span class="hljs-string">`
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> data = <span class="hljs-string">`
 	// worker 线程 do something
 `</span>;
 <span class="hljs-comment">// 转成二进制对象</span>
@@ -54,12 +55,12 @@ c:T777b,<h1>Web Workers</h1>
 </code></pre>
 <p>Worker 构造函数的参数是一个脚本文件，该文件就是 Worker 线程所要执行的任务。由于 Worker 不能读取本地文件，所以这个脚本必须来自网络，如果下载没有成功（比如 404 错误），Worker 就会默默地失败。</p>
 <p>然后，<strong>主线程</strong>调用 <code>worker.postMessage()</code> 方法，向 Worker 发消息。</p>
-<pre class="hljs"><code class="language-js">worker.<span class="hljs-title function_">postMessage</span>(<span class="hljs-string">&#x27;Hello world!&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code>worker.<span class="hljs-title function_">postMessage</span>(<span class="hljs-string">&#x27;Hello world!&#x27;</span>);
 worker.<span class="hljs-title function_">postMessage</span>({ <span class="hljs-attr">method</span>: <span class="hljs-string">&#x27;echo&#x27;</span>, <span class="hljs-attr">args</span>: [<span class="hljs-string">&#x27;Work&#x27;</span>] });
 </code></pre>
 <p><code>worker.postMessage()</code> 方法的参数，就是<strong>主线程</strong>传给 Worker 的数据。它可以是各种数据类型，包括二进制数据。</p>
 <p>接着，<strong>主线程</strong>通过 <code>worker.onmessage()</code> 指定监听函数，接收 Worker 线程发回来的消息。</p>
-<pre class="hljs"><code class="language-js">worker.<span class="hljs-property">onmessage</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>worker.<span class="hljs-property">onmessage</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Received message &#x27;</span> + event.<span class="hljs-property">data</span>);
   <span class="hljs-title function_">doSomthing</span>();
 };
@@ -71,11 +72,11 @@ worker.<span class="hljs-title function_">postMessage</span>({ <span class="hljs
 </code></pre>
 <p>上面代码中，事件对象的 <code>data</code> 属性可以获取 Worker 发来的数据。</p>
 <p>Worker 完成任务以后，主线程就可以把它关掉了。</p>
-<pre class="hljs"><code class="language-js">worker.<span class="hljs-title function_">terminate</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code>worker.<span class="hljs-title function_">terminate</span>();
 </code></pre>
 <h2>Worker 线程</h2>
 <p>Worker 线程内部需要有一个监听函数，监听 <code>message</code> 事件。</p>
-<pre class="hljs"><code class="language-js">self.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>self.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;message&#x27;</span>,
   <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
     self.<span class="hljs-title function_">postMessage</span>(<span class="hljs-string">&#x27;You said: &#x27;</span> + e.<span class="hljs-property">data</span>);
@@ -84,7 +85,7 @@ worker.<span class="hljs-title function_">postMessage</span>({ <span class="hljs
 );
 </code></pre>
 <p>上面代码，<code>self</code> 代表 Worker 线程本身，即 Worker 线程的全局对象。因此，等同于以下两种写法：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 写法一</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 写法一</span>
 <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;message&#x27;</span>,
   <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
@@ -103,7 +104,7 @@ worker.<span class="hljs-title function_">postMessage</span>({ <span class="hljs
 </code></pre>
 <p>除了使用 <code>self.addEventListener()</code> 指定监听函数，也可以使用 <code>self.onmessage</code> 指定。监听函数的参数是一个事件对象，它的 <code>data</code> 属性包含主线程发来的数据。<code>self.postMessage()</code> 方法用来向主线程发送消息。</p>
 <p>根据主线程发来的数据，Worker 线程可以调用不同的方法，下面是一个例子：</p>
-<pre class="hljs"><code class="language-js">self.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>self.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;message&#x27;</span>,
   <span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) {
     <span class="hljs-keyword">var</span> data = e.<span class="hljs-property">data</span>;
@@ -125,22 +126,22 @@ worker.<span class="hljs-title function_">postMessage</span>({ <span class="hljs
 <p>上面代码中，<code>self.close()</code> 用于在 Worker 内部关闭自身。</p>
 <h3>终止</h3>
 <p>如果需要从主线程中立刻终止一个运行中的 Worker，可以调用 Worker 的 <code>terminate</code> 方法。</p>
-<pre class="hljs"><code class="language-js">worker.<span class="hljs-title function_">terminate</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code>worker.<span class="hljs-title function_">terminate</span>();
 </code></pre>
 <p>Worker 线程会被立即杀死，不会有任何机会让它完成自己的操作或清理工作。</p>
 <p>而在 Worker 线程中，Workers 也可以调用自己的 <code>close</code> 方法进行关闭。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">close</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">close</span>();
 </code></pre>
 <h3>加载脚本</h3>
 <p>Worker 内部如果要加载其它脚本，有一个专门的方法 <code>importScripts()</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">importScripts</span>(<span class="hljs-string">&#x27;script1.js&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">importScripts</span>(<span class="hljs-string">&#x27;script1.js&#x27;</span>);
 </code></pre>
 <p>该方法可以同时加载多个脚本。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">importScripts</span>(<span class="hljs-string">&#x27;script1.js&#x27;</span>, <span class="hljs-string">&#x27;script2.js&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">importScripts</span>(<span class="hljs-string">&#x27;script1.js&#x27;</span>, <span class="hljs-string">&#x27;script2.js&#x27;</span>);
 </code></pre>
 <h3>错误处理</h3>
 <p>主线程可以监听 Worker 是否发生错误。如果发生错误，Worker 会触发主线程的 <code>error</code> 事件。</p>
-<pre class="hljs"><code class="language-js">worker.<span class="hljs-title function_">onerror</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>worker.<span class="hljs-title function_">onerror</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>([<span class="hljs-string">&#x27;ERROR: Line &#x27;</span>, e.<span class="hljs-property">lineno</span>, <span class="hljs-string">&#x27; in &#x27;</span>, e.<span class="hljs-property">filename</span>, <span class="hljs-string">&#x27;: &#x27;</span>, e.<span class="hljs-property">message</span>].<span class="hljs-title function_">join</span>(<span class="hljs-string">&#x27;&#x27;</span>));
 });
 
@@ -152,7 +153,7 @@ worker.<span class="hljs-title function_">addEventListener</span>(<span class="h
 <h2>数据通信</h2>
 <p>前面提及，主线程与 Worker 线程之间的通信内容，可以是文本，也可以是对象。需要注意的是，这种通信是拷贝关系，即是传值而不是传址，Worker 对通信内容的修改，不会影响到主线程。事实上，浏览器内部的运行机制是，现将通信内容串行化，然后把串行化的字符串发给 Worker，后者再将它还原。</p>
 <p>主线程与 Worker 线程之间也可以交换二进制数据，比如 File、Blob、ArrayBuffer 等类型，也可以在线程之间发送。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 主线程</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 主线程</span>
 <span class="hljs-keyword">var</span> uInt8Array = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Uint8Array</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">ArrayBuffer</span>(<span class="hljs-number">10</span>));
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; uInt8Array.<span class="hljs-property">length</span>; ++i) {
   uInt8Array[i] = i * <span class="hljs-number">2</span>; <span class="hljs-comment">// [0, 2, 4, 6, 8,...]</span>
@@ -168,7 +169,7 @@ self.<span class="hljs-property">onmessage</span> = <span class="hljs-keyword">f
 </code></pre>
 <p>但是，拷贝方式发送二进制数据，会造成性能问题。比如，主线程向 Worker 发送一个 500MB 文件，默认情况下浏览器会生成一个原文件的拷贝。为了解决这个问题，JavaScript 允许主线程把二进制数据直接转移给 Worker 线程，但是一旦转移，主线程就无法再使用这些二进制数据了，这是为了防止出现多个线程同时修改数据的麻烦局面。这种转移数据的方法，叫做 Transferable Objects。这使得主线程可以快速把数据交给 Worker，对于影像处理、声音处理、3D 运算等就非常方便了，不会产生性能负担。</p>
 <p>如果要直接转移数据的控制权，就要使用下面的写法：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Transferable Objects 格式</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// Transferable Objects 格式</span>
 worker.<span class="hljs-title function_">postMessage</span>(arrayBuffer, [arrayBuffer]);
 
 <span class="hljs-comment">// 例子</span>
@@ -177,7 +178,7 @@ worker.<span class="hljs-title function_">postMessage</span>(ab, [ab]);
 </code></pre>
 <h2>同页面的 Web Worker</h2>
 <p>通常情况下，Worker 载入的是一个单独的 JavaScript 脚本文件，但是也可以载入与主线程在同一个网页的代码。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;worker&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;app/worker&quot;</span>&gt;</span><span class="language-javascript">
       <span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;message&#x27;</span>, <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
@@ -189,7 +190,7 @@ worker.<span class="hljs-title function_">postMessage</span>(ab, [ab]);
 </code></pre>
 <p>上面是一段嵌入网页的脚本，注意必须指定 <code>&lt;script&gt;</code> 标签的 type 属性是一个浏览器不认识的值，上例是 <code>app/worker</code>。</p>
 <p>然后，读取这一段嵌入页面的脚本，用 Worker 来处理。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> blob = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Blob</span>([<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#worker&#x27;</span>).<span class="hljs-property">textContent</span>]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> blob = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Blob</span>([<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#worker&#x27;</span>).<span class="hljs-property">textContent</span>]);
 <span class="hljs-keyword">var</span> url = <span class="hljs-variable language_">window</span>.<span class="hljs-property">URL</span>.<span class="hljs-title function_">createObjectURL</span>(blob);
 <span class="hljs-keyword">var</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(url);
 
@@ -210,7 +211,7 @@ Web Worker 最简单的应用就是用来做后台计算，而这种计算并不
 由于在使用 Web Worker 的时候，我们有更多潜在的 CPU 可用时间，我们现在可以考虑一下 JavaScript 中的新应用场景。我们现在可以考虑一下 JavaScript 中的新应用场景。例如，我们可以想像在不影响 UI 体验的情况下实时处理用户输入。利用这样一种可能，我们可以想像一个像 Word（Office Web Apps 套装）一样的应用：当用户打字时后台在词典中进行查找，帮助用户自动纠错等等。</p>
 <h2>实例：Worker 线程完成轮询</h2>
 <p>有时，浏览器需要轮询服务器状态，以便第一时间得知状态改变。这个工作可以放在 Worker 线程里面完成。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">createWorker</span>(<span class="hljs-params">f</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">createWorker</span>(<span class="hljs-params">f</span>) {
   <span class="hljs-keyword">var</span> blob = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Blob</span>([<span class="hljs-string">&#x27;(&#x27;</span> + f.<span class="hljs-title function_">toString</span>() +<span class="hljs-string">&#x27;)()&#x27;</span>]);
   <span class="hljs-keyword">var</span> url = <span class="hljs-variable language_">window</span>.<span class="hljs-property">URL</span>.<span class="hljs-title function_">createObjectURL</span>(blob);
   <span class="hljs-keyword">var</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(url);
@@ -244,13 +245,13 @@ pollingWorker.<span class="hljs-title function_">postMessage</span>(<span class=
 <h2>实例：Worker 新建 Worker</h2>
 <p>Worker 线程内部还能再新建 Worker 线程（目前只有 Firefox 浏览器支持）。下面的例子是将一个计算密集的任务，分配到 10 个 Worker。</p>
 <p>主线程代码如下：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(<span class="hljs-string">&#x27;worker.js&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(<span class="hljs-string">&#x27;worker.js&#x27;</span>);
 worker.<span class="hljs-property">onmessage</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
   <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;result&#x27;</span>).<span class="hljs-property">textContent</span> = event.<span class="hljs-property">data</span>;
 };
 </code></pre>
 <p><strong>Worker 线程</strong>代码如下：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// worker.js</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// worker.js</span>
 
 <span class="hljs-comment">// settings</span>
 <span class="hljs-keyword">var</span> num_workers = <span class="hljs-number">10</span>;
@@ -274,7 +275,7 @@ worker.<span class="hljs-property">onmessage</span> = <span class="hljs-keyword"
 }
 </code></pre>
 <p>上面代码中，Worker 线程内部新建了 10 个 Worker 线程，并且依次向这 10 个 Worker 发送消息，告知了计算的起点和终点。计算任务脚本的代码如下：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// core.js</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// core.js</span>
 <span class="hljs-keyword">var</span> start;
 onmessage = getStart;
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">getStart</span>(<span class="hljs-params">event</span>) {
@@ -302,10 +303,10 @@ onmessage = getStart;
 <h2>API</h2>
 <h3>主线程</h3>
 <p>浏览器原生提供 <code>Worker()</code> 构造函数，用来供主线程生成 Worker 线程。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(url, options);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(url, options);
 </code></pre>
 <p><code>Worker()</code> 构造函数，可以接受两个参数。第一个参数是脚本的网址（必须遵循同源策略），该参数是必须的，且只能区分多个 Worker 线程。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 主线程</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 主线程</span>
 <span class="hljs-keyword">var</span> worker = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Worker</span>(<span class="hljs-string">&#x27;worker.js&#x27;</span>, { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;worker&#x27;</span> });
 
 <span class="hljs-comment">// Worker 线程</span>

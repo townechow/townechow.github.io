@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","http","http-message"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/http-message","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/http-message","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Ab5EYqarQ68KZ5CtRH_yl",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4f86,<h1>HTTP 报文格式</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","http","http-message"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/http-message","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/http-message","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","djxIod2cFvOzCIaNHIq0v",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T46a6,<h1>HTTP 报文格式</h1>
 <p>对于 TCP 而言，在传输的时候分为两个部分：TCP 头和数据部分。</p>
 <p>而 HTTP 报文是面向文本的，报文中的每个字段都是一些 ASCII 码串，各个字段的长度是不确定的。HTTP 有两类报文：<strong>请求报文</strong> 和 <strong>响应报文</strong>。</p>
 <p>HTTP 请求/响应报文由以下内容组成：</p>
@@ -22,12 +23,7 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 <li>可选的 HTTP 报文主体数据</li>
 </ul>
 <h2>请求报文</h2>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/http/http-request-structure.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;HTTP 请求报文结构&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{480}</span> /&gt;</span></span>;
-</code></pre>
-<p>HTTP 的请求报文分为三个部分：</p>
+<img alt="HTTP 请求报文结构" src="../../assets/http/http-request-structure.png" width="480" /><p>HTTP 的请求报文分为三个部分：</p>
 <ul>
 <li>请求行
 <ul>
@@ -52,7 +48,7 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 <li>HTTP 的版本号</li>
 </ul>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-http"><span class="hljs-keyword">GET</span> <span class="hljs-string">/index.html</span> <span class="hljs-meta">HTTP/1.1</span>
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-keyword">GET</span> <span class="hljs-string">/index.html</span> <span class="hljs-meta">HTTP/1.1</span>
 </code></pre>
 <h4>请求方法</h4>
 <p>HTTP/1.1 协议中共定义了八种方法，以不同的方式操作指定的资源。</p>
@@ -126,7 +122,7 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 <p>请求头中的信息有和缓存相关的头（Cache-Control，If-Modified-Since）、客户端身份信息（User-Agent）等等。</p>
 <p>请求头的格式为：<code>键: 值</code>，注意 <strong>冒号后面有一个空格</strong>。</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Accept</span><span class="hljs-punctuation">: </span>*/*
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Accept</span><span class="hljs-punctuation">: </span>*/*
 <span class="hljs-attribute">Accept-Encoding</span><span class="hljs-punctuation">: </span>gzip, deflate, br
 <span class="hljs-attribute">Accept-Language</span><span class="hljs-punctuation">: </span>zh-CN,zh;q=0.9,en;q=0.8
 <span class="hljs-attribute">Connection</span><span class="hljs-punctuation">: </span>keep-alive
@@ -186,7 +182,7 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 </table>
 <h3>请求体</h3>
 <p>请求体是 POST 请求方式中的请求参数，以 <code>key = value</code> 形式进行存储，多个请求参数之间用 <code>&amp;</code> 连接，如果请求当中请求体，那么在请求头当中的 Content-Length 属性记录的就是该请求体的长度。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-keyword">POST</span> <span class="hljs-string">hysj.jsp</span> <span class="hljs-meta">HTTP/1.1</span>
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-keyword">POST</span> <span class="hljs-string">hysj.jsp</span> <span class="hljs-meta">HTTP/1.1</span>
 <span class="hljs-attribute">Host</span><span class="hljs-punctuation">: </span>search.cnipr.com
 <span class="hljs-attribute">User-Agent</span><span class="hljs-punctuation">: </span>Mozilla/5.0 (Windows;U;Windows NT 6.9;zh-CN;rv:1.9.1.13)Gecko/20100914 Firefox/3.5.13 (.NET CLR 3.5.30729)
 <span class="hljs-attribute">Accept</span><span class="hljs-punctuation">: </span>text/html, application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
@@ -207,19 +203,9 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 <li><strong>文件上传</strong>：当需要实现 <strong>文件上传</strong> 时，请求体会被分成多个部分，每个字段 / 文件都被首部字段 <code>Content-Type</code> 的 <strong>boundary</strong> 指令指定的值分成单独的段，每段以 <code>--</code> 加 <code>boundary</code> 指令的值开头，然后是该段的描述头，描述头之后空一行接内容，请求结束的标识为 <code>boundary</code> 后面加 <code>--</code></li>
 </ol>
 <p>&lt;br /&gt;</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/http/http-upload-file-message-body.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;HTTP 请求报文结构&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>区分是否被当成文件的关键是  <code>Content-Disposition</code>  是否包含  <code>filename</code>，因为文件有不同的类型，所以还要使用  <code>Content-Type</code>  指示文件的类型，如果不知道是什么类型取值可以为 <code>application/octet-stream</code> 表示文件是一个二进制的文件，如果不是文件则 <code>Content-Type</code>  可以省略。</p>
+<img alt="HTTP 请求报文结构" src="../../assets/http/http-upload-file-message-body.jpg" width="720" /><p>区分是否被当成文件的关键是  <code>Content-Disposition</code>  是否包含  <code>filename</code>，因为文件有不同的类型，所以还要使用  <code>Content-Type</code>  指示文件的类型，如果不知道是什么类型取值可以为 <code>application/octet-stream</code> 表示文件是一个二进制的文件，如果不是文件则 <code>Content-Type</code>  可以省略。</p>
 <h2>响应报文</h2>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/http/http-response-structure.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;HTTP 响应报文结构&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{480}</span> /&gt;</span></span>;
-</code></pre>
-<p>HTTP 响应的格式上除状态行（第一行）与请求报文的请求行不一样之外，其他的就格式而言是一样的，但排除状态行和请求行的区别，从 Header 上还是可以区分出 HTTP 请求和 HTTP 响应的区别的，怎么区别就要看前面的 Header。</p>
+<img alt="HTTP 响应报文结构" src="../../assets/http/http-response-structure.png" width="480" /><p>HTTP 响应的格式上除状态行（第一行）与请求报文的请求行不一样之外，其他的就格式而言是一样的，但排除状态行和请求行的区别，从 Header 上还是可以区分出 HTTP 请求和 HTTP 响应的区别的，怎么区别就要看前面的 Header。</p>
 <p>HTTP 的响应报文分为三个部分：</p>
 <ul>
 <li>状态行
@@ -267,7 +253,7 @@ c:T4f86,<h1>HTTP 报文格式</h1>
 </table>
 <h3>响应头</h3>
 <p>响应头同样可用于传递一些附加信息。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-meta">HTTP/1.0</span> <span class="hljs-number">200</span> ok
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-meta">HTTP/1.0</span> <span class="hljs-number">200</span> ok
 <span class="hljs-attribute">content-type</span><span class="hljs-punctuation">: </span>application/javascript;charset=utf-8
 <span class="hljs-attribute">date</span><span class="hljs-punctuation">: </span>Tue, 07 Mar 2017 03:06:14 GMT
 <span class="hljs-attribute">sever</span><span class="hljs-punctuation">: </span>Domain Reliability Searver

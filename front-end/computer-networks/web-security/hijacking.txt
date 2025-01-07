@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","web-security","hijacking"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/hijacking","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/hijacking","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jyWZulmR2WzKTqj4sjuZN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4bd4,<h1>流量劫持</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","web-security","hijacking"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/hijacking","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/hijacking","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","7W5LVn6yBeGK9CD0ZvXEa",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4c2c,<h1>流量劫持</h1>
 <p>流量劫持的方式主要分为两种：</p>
 <ul>
 <li>域名解析劫持（DNS 劫持）</li>
@@ -61,7 +62,7 @@ c:T4bd4,<h1>流量劫持</h1>
 <h4>Subresource Integrity</h4>
 <p>SRI 是专门用来校验资源的一种方案，它读取资源标签中的 <code>integrity</code> 属性，将其中的信息摘要值，和资源实际的信息摘要值进行对比，如果发现无法匹配，那么浏览器就会拒绝执行资源。对于 <code>&lt;script&gt;</code> 标签来说，就是拒绝执行其中的代码，对于 CSS 来说则是不加载其中的样式。</p>
 <p>通过给 <code>link</code> 标签或者 <code>script</code> 标签增加 <code>integrity</code> 属性即可开启 SRI 功能，比如：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span>
   <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>
   <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;//s.url.cn/xxx/aaa.js&quot;</span>
   <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha156-xxx sha384-yyy&quot;</span>
@@ -73,7 +74,7 @@ c:T4bd4,<h1>流量劫持</h1>
 <p>备注：crossorigin=&quot;anonymous&quot; 的作用是引入跨域脚本，在 HTML5 中有一种方式可以获取到跨域脚本的错误信息，首先跨域脚本的服务器必须通过 Access-Controll-Allow-Origin 头信息允许当前域名可以获取错误信息，然后是当前域名的 <code>script</code> 标签也必须声明支持跨域，也就是 <code>crossorigin</code> 属性。<code>link</code>、<code>img</code> 等标签均支持跨域脚本。如果上述两个条件无法满足的话， 可以使用 <code>try catch</code> 方案。</p>
 </blockquote>
 <p>通过使用 webpack 的 <code>html-webpack-plugin</code> 和 <code>webpack-subresource-integrity</code> 可以生成包含 <code>integrity</code> 属性 <code>script</code> 标签。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">import</span> <span class="hljs-title class_">SriPlugin</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;webpack-subresource-integrity&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">import</span> <span class="hljs-title class_">SriPlugin</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;webpack-subresource-integrity&#x27;</span>;
 
 <span class="hljs-keyword">const</span> compiler = <span class="hljs-title function_">webpack</span>({
   <span class="hljs-attr">output</span>: {
@@ -89,7 +90,7 @@ c:T4bd4,<h1>流量劫持</h1>
 </code></pre>
 <p>那么当 <code>script</code> 或者 <code>link</code> 资源 SRI 校验失败的时候应该怎么做呢？</p>
 <p>比较好的方式是通过 <code>script</code> 的 <code>onerror</code> 事件，当遇到 <code>onerror</code> 的时候重新 <code>load</code> 静态文件服务器之间的资源：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span>
   <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>
   <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;//11.url.cn/aaa.js&quot;</span>
   <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha256-xxx sha384-yyy&quot;</span>
@@ -99,7 +100,7 @@ c:T4bd4,<h1>流量劫持</h1>
 &gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
 <p>在此之前注入以下代码：</p>
-<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
 	<span class="hljs-keyword">function</span> <span class="hljs-title function_">loadScriptError</span> (<span class="hljs-params">event</span>) {
 		<span class="hljs-comment">// 上报</span>
 		...
@@ -124,7 +125,7 @@ c:T4bd4,<h1>流量劫持</h1>
 <p>比较痛苦的是 <code>onerror</code> 中的 <code>event</code> 中无法区分究竟是什么原因导致的错误，可能是资源不存在，也可能是 SRI 校验失败，当然出现最多的还是请求超时，不过目前来看，除非有统计需求，无差别对待并没有多大问题。</p>
 <p>注入 <code>onerror</code> 事件</p>
 <p>当然，由于项目中的 <code>script</code> 标签是由 webpack 打包进去的，所以我们要使用 <code>script-ext-html-webpack-plugin</code> 将 <code>onerror</code> 事件和 <code>onsuccess</code> 事件注入进去：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title class_">ScriptExtHtmlWebpackPlugin</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;script-ext-html-webpack-plugin&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title class_">ScriptExtHtmlWebpackPlugin</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;script-ext-html-webpack-plugin&#x27;</span>);
 
 <span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
   <span class="hljs-comment">//...</span>
@@ -154,7 +155,7 @@ c:T4bd4,<h1>流量劫持</h1>
 <h2>CDN 劫持</h2>
 <p>前面说到 script 加载失败可能是由于多种原因造成的，那如何是否判断发生了 CDN 劫持呢？</p>
 <p>方法就是再请求一次数据，比较两次得到文件的内容（当然不必全部比较），如果内容不一致，就可以得出结论了。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">loadScript</span>(<span class="hljs-params">url</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">loadScript</span>(<span class="hljs-params">url</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-title function_">fetch</span>(url)
     .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> {
       <span class="hljs-keyword">if</span> (res.<span class="hljs-property">ok</span>) {
@@ -171,7 +172,7 @@ c:T4bd4,<h1>流量劫持</h1>
 }
 </code></pre>
 <p>比较两次加载的 <code>script</code> 是否相同</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">checkScriptDiff</span>(<span class="hljs-params">src, srcNew</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">checkScriptDiff</span>(<span class="hljs-params">src, srcNew</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">all</span>([<span class="hljs-title function_">loadScript</span>(src), <span class="hljs-title function_">loadScript</span>(srcNew)])
     .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">data</span>) =&gt;</span> {
       <span class="hljs-keyword">var</span> res1 = data[<span class="hljs-number">0</span>].<span class="hljs-title function_">slice</span>(<span class="hljs-number">0</span>, <span class="hljs-number">1000</span>);

@@ -7,13 +7,14 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","node","node-properties"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/node/node-properties","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/node/node-properties","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","fA-TKJ2LYlkwJfHPchBsH",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T55d5,<h1>Node 属性</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","node","node-properties"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/node/node-properties","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/node/node-properties","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","lDzkqEuKMzJPv1eoc6ZkW",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T56e5,<h1>Node 属性</h1>
 <p>通过暴露的 Node 节点属性，可以获取相关 Node 节点的属性信息。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
     Hello World！
     <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
@@ -109,7 +110,7 @@ c:T55d5,<h1>Node 属性</h1>
 </tbody>
 </table>
 <h3>节点类型判断</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.app&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.app&#x27;</span>);
 
 <span class="hljs-keyword">if</span> (app.<span class="hljs-property">nodeType</span> == <span class="hljs-title class_">Node</span>.<span class="hljs-property">ELEMENT_NODE</span>) {
   <span class="hljs-comment">// 在IE中无效</span>
@@ -117,7 +118,7 @@ c:T55d5,<h1>Node 属性</h1>
 }
 </code></pre>
 <p>如果两者相等，则意味着 app 确实是一个元素。然而，由于 IE 没有公开 Node 类型的构造函数，因此上面的代码在 IE 中会导致错误。为了确保跨浏览器兼容性，最好还是将 nodeType 属性与数值常量进行比较。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.app&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.app&#x27;</span>);
 
 <span class="hljs-keyword">if</span> (app.<span class="hljs-property">nodeType</span> == <span class="hljs-number">1</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Node is an element.&#x27;</span>);
@@ -126,14 +127,14 @@ c:T55d5,<h1>Node 属性</h1>
 <h2>节点信息</h2>
 <h3>Node.baseURI</h3>
 <p>获取当前网页的绝对路径</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElmentById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElmentById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(app.<span class="hljs-property">baseURI</span>);
 <span class="hljs-comment">// ‘https://www.baidu.com/’</span>
 </code></pre>
 <h3>Node.nodeName</h3>
 <p>获取当前节点的名称（就是标签名，返回的是大写英文）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> list = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;list&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> list = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;list&#x27;</span>);
 <span class="hljs-keyword">const</span> item = list.<span class="hljs-property">firstElementChild</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(list.<span class="hljs-property">nodeName</span>);
@@ -147,7 +148,7 @@ c:T55d5,<h1>Node 属性</h1>
 </blockquote>
 <p>获取或设置当前节点的值</p>
 <p>对于 <strong>注释</strong> 和 <strong>文本</strong> 节点来说，会返回文本内容，其他均返回 <code>null</code>。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
 
@@ -166,7 +167,7 @@ c:T55d5,<h1>Node 属性</h1>
 <li>对于其他节点类型，<code>textContent</code> 将所有子节点的 <code>textContent</code> 合并后返回（除注释节点）。如果该子节点没有子节点，则返回空字符串</li>
 </ul>
 <p>在节点上设置 <code>textContent</code> 属性的话，会删除它的所有子节点，并替换为一个具有给定值的文本节点。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript">
   <span class="hljs-keyword">const</span> app = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
   <span class="hljs-keyword">const</span> text = app.<span class="hljs-property">textContent</span>;
@@ -183,7 +184,7 @@ c:T55d5,<h1>Node 属性</h1>
 <p>在 HTML 中，可以将 <code>&lt;body&gt;</code> 元素看成是 <code>&lt;html&gt;</code> 元素的子元素；相应地，也就可以将 <code>&lt;html&gt;</code> 元素看成是 <code>&lt;body&gt;</code> 元素的父元素。而 <code>&lt;head&gt;</code> 元素，则可以看成是 <code>&lt;body&gt;</code> 元素的同胞元素，因为它们都是同一个父元素 <code>&lt;html&gt;</code> 的直接子元素。</p>
 <p>每个节点都有一个 <code>childNodes</code> 属性，其中保存着一个 NodeList 对象。NodeList 是一种类数组对象。NodeList 是一种类数组对象，用于保存一组有序的节点，可以通过位置来访问这些节点。请注意，虽然可以通过方括号语法来访问 NodeList 的值，而且这个对象也有 length 属性，但它并不是 Array 的实例。NodeList 对象的独特之处在于，它实际上是基于 DOM 结构动态执行查询的结果，因此 DOM 结构的变化能够自动反映在 NodeList 对象中。</p>
 <p>下面以下面的 DOM 树为例阐述节点间的关系。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;foo-1&quot;</span>&gt;</span>
@@ -202,7 +203,7 @@ c:T55d5,<h1>Node 属性</h1>
 <h3>Node.ownerDocument</h3>
 <p>获取当前节点所在的顶层文档对象。</p>
 <p>如果在文档节点自身上使用此属性，则结果是 <code>null</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">ownerDocument</span>);
 <span class="hljs-comment">// document</span>
@@ -210,91 +211,91 @@ c:T55d5,<h1>Node 属性</h1>
 <h3>Node.paretnNode</h3>
 <p>获取节点的父节点（Node）。</p>
 <p>父节点只有 <code>Element</code>、<code>Document</code>、<code>DocumentFragment</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">parentElement</span>);
 <span class="hljs-comment">// &lt;body&gt;...&lt;/body&gt;</span>
 </code></pre>
 <h3>Node.parentElement</h3>
 <p>获取节点的父元素节点（Element）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">parentElement</span>);
 <span class="hljs-comment">// &lt;body&gt;...&lt;/body&gt;</span>
 </code></pre>
 <h3>Node.previousSibling</h3>
 <p>获取当前节点前面的第一个兄弟节点（Node）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">previousSibling</span>);
 <span class="hljs-comment">// #text</span>
 </code></pre>
 <h3>Node.previousElementSibiling</h3>
 <p>获取当前节点前面的第一个兄弟元素节点（Element）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">previousSibling</span>);
 <span class="hljs-comment">// &lt;div class=&quot;bar&quot;&gt;&lt;/div&gt;</span>
 </code></pre>
 <h3>Node.nextSibiling</h3>
 <p>获取当前节点后面的第一个兄弟节点（Node）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">previousSibling</span>);
 <span class="hljs-comment">// #text</span>
 </code></pre>
 <h3>Node.nextElementSibiling</h3>
 <p>获取当前节点后面的第一个兄弟元素节点（Element）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">previousSibling</span>);
 <span class="hljs-comment">// &lt;ul class=&quot;list&quot;&gt;...&lt;/ul&gt;</span>
 </code></pre>
 <h3>Node.firstChild</h3>
 <p>获取节点的第一个子节点（Node）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">firstChild</span>);
 <span class="hljs-comment">// #text</span>
 </code></pre>
 <h3>Node.firstElementChild</h3>
 <p>获取节点的第一个子元素节点（Element）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">firstElementChild</span>);
 <span class="hljs-comment">// &lt;div class=&quot;foo-1&quot;&gt;&lt;/div&gt;</span>
 </code></pre>
 <h3>Node.lastChild</h3>
 <p>获取节点的最后一个子节点（Node）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">lastChild</span>);
 <span class="hljs-comment">// #text</span>
 </code></pre>
 <h3>Node.lastElementChild</h3>
 <p>获取节点的最后一个元素节点（Element）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">lastElementChild</span>);
 <span class="hljs-comment">// &lt;div class=&quot;foo-3&quot;&gt;&lt;/div&gt;</span>
 </code></pre>
 <h3>Node.childNodes</h3>
 <p>获取节点的子节点列表（NodeList）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">childNodes</span>);
 <span class="hljs-comment">// NodeList(7) [text, div.foo-1, text, div.foo-2, text, div.foo-3, text]</span>
 </code></pre>
 <h3>Node.children</h3>
 <p>获取节点的子元素节点列表（HTMLCollection）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">children</span>);
 <span class="hljs-comment">// HTMLCollection(3) [div.foo-1, div.foo-2, div.foo-3]</span>
 </code></pre>
 <h3>Node.childElementCount</h3>
 <p>获取当前节点的所有子元素节点的数目。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">childElementCount</span>);
 <span class="hljs-comment">// 3</span>

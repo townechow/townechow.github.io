@@ -7,28 +7,29 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","array"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RyVjFRP-mCIMQsdaQoyYy",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:Ta9bb,<h1>Array 对象</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","array"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/array","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","1GTFpLdxuApJd-7bw4R5t",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:Tab53,<h1>Array 对象</h1>
 <p><code>Array</code> 对象时用于构造数组的全局对象，类似时类似于列表的高阶对象。</p>
 <p><code>Array</code> 对象主要用于存储多个数据项，数据可以是任意类型。</p>
 <p>所有主流浏览器均支持该对象。</p>
 <h2>语法</h2>
 <p><strong>字面量</strong></p>
-<pre class="hljs"><code class="language-js">[element0, element1, ..., elementN]
+<pre class="hljs language-js"  style=--lang:"js" ><code>[element0, element1, ..., elementN]
 </code></pre>
 <p><strong>数组类型转换函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
 </code></pre>
 <p><strong>构造函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(element0, element1, ..., elementN)
 
 <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(arrayLength)
 </code></pre>
 <p>类型声明：</p>
-<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ArrayConstructor</span> {
+<pre class="hljs language-ts"  style=--lang:"ts" ><code><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ArrayConstructor</span> {
   <span class="hljs-title function_">new</span> (<span class="hljs-attr">arrayLength</span>?: <span class="hljs-built_in">number</span>): <span class="hljs-built_in">any</span>[];
   <span class="hljs-keyword">new</span> &lt;T&gt;(<span class="hljs-attr">arrayLength</span>: <span class="hljs-built_in">number</span>): T[];
   <span class="hljs-keyword">new</span> &lt;T&gt;(...<span class="hljs-attr">items</span>: T[]): T[];
@@ -65,10 +66,10 @@ c:Ta9bb,<h1>Array 对象</h1>
 </table>
 <h2>描述</h2>
 <p>数组是类似列表的对象，本质上，数组是一种特殊的对象（有次序的对象），在原型中提供了遍历以及改变其中元素的很多方法。 数组的长度及其中元素的类型都是不固定的。因为数组的长度可读可写，有时数组中的元素也不是在连续的位置，所以 JavaScript 数组不一定是密集的。通常情况下，这是一些方便的特性；如果这些特性不适用于你的特定使用场景，你可以考虑使用固定类型数组。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">typeof</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]; <span class="hljs-comment">// &quot;object&quot;</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">typeof</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]; <span class="hljs-comment">// &quot;object&quot;</span>
 </code></pre>
 <p>数组的特殊性体现在，它的键名是按次序排列的一组整数。由于数组成员的键名是固定的，因此数组不用为每个元素指定键名，而对象的每个成员都必须指定键名。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">keys</span>(arr)); <span class="hljs-comment">// [&quot;0&quot;, &quot;1&quot;, &quot;2&quot;]</span>
 
 <span class="hljs-keyword">var</span> obj = {
@@ -79,7 +80,7 @@ c:Ta9bb,<h1>Array 对象</h1>
 </code></pre>
 <p>数组是对象的特殊形式，使用方括号访问数组元素就像用方括号访问对象的属性一样。</p>
 <p>JavaScript 语言规定，对象的键名一律为字符串，所以，数组的键名其实也是字符串。之所以可以用数值读取，是因为非字符串的键名会被转为字符串，然后将其作为属性名来使用</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 创建一个普通的对象</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 创建一个普通的对象</span>
 o = {};
 
 <span class="hljs-comment">// 用一个整数来索引它</span>
@@ -93,7 +94,7 @@ o[<span class="hljs-number">1</span>] = <span class="hljs-string">&#x27;one&#x27
 <span class="hljs-comment">// &#x27;a&#x27;</span>
 </code></pre>
 <p>但是，一定要区分数组索引和对象的属性名：所有的索引都是属性名，但只有在 0~232-2(4294967294)之间的整数属性名才是索引。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [];
 
 <span class="hljs-comment">//索引</span>
 a[<span class="hljs-string">&#x27;1000&#x27;</span>] = <span class="hljs-string">&#x27;abc&#x27;</span>;
@@ -104,7 +105,7 @@ a[<span class="hljs-number">1.0</span>] = <span class="hljs-number">6</span>;
 a[<span class="hljs-number">1</span>]; <span class="hljs-comment">// 6</span>
 </code></pre>
 <p>单独的数值不能作为标识符（Identifier）。所以，数组成员只能用方括号法表示。（在 JavaScript 中，以数字开头的属性不能用点号引用，必须用方括号）</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(arr[<span class="hljs-number">0</span>]);
 <span class="hljs-comment">// 1</span>
@@ -113,7 +114,7 @@ a[<span class="hljs-number">1</span>]; <span class="hljs-comment">// 6</span>
 <span class="hljs-comment">// SyntaxError</span>
 </code></pre>
 <p>可以使用负数或非整数来索引数组。但由于其不在 0~2 的 32 次方-2 的范围内，所以其只是数组的属性名，而不是数组的索引，明显的特征是不改变数组的长度。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
 
 <span class="hljs-comment">// 属性名</span>
 a[-<span class="hljs-number">1.23</span>] = <span class="hljs-literal">true</span>;
@@ -368,13 +369,13 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>没有参数，创建一个空数组</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 该方法创建一个没有任何元素的空数组，等同于数组直接量[]</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 该方法创建一个没有任何元素的空数组，等同于数组直接量[]</span>
 <span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>();
 </code></pre>
 <ul>
 <li>有一个数值参数，该参数用于指定数组的长度</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">10</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">10</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return []</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car.<span class="hljs-property">length</span>); <span class="hljs-comment">// return undefined and 10</span>
@@ -382,7 +383,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>若存在一个其他类型的参数，则会创建包含那个值的只有一项的数组</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-string">&#x27;10&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-string">&#x27;10&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return [&#x27;10&#x27;]</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car.<span class="hljs-property">length</span>); <span class="hljs-comment">// return 10 1</span>
@@ -390,7 +391,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>有多个参数时，参数表示为数组的具体元素</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> car = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Array</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>);
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car); <span class="hljs-comment">// return [1,2,3]</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">0</span>], car[<span class="hljs-number">1</span>], car[<span class="hljs-number">2</span>]); <span class="hljs-comment">// return 1 2 3</span>
 </code></pre>
@@ -399,7 +400,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>制造稀疏数组最直接的方法就是使用 delete 操作符</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> car = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> car = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
 <span class="hljs-keyword">delete</span> car[<span class="hljs-number">1</span>];
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(car[<span class="hljs-number">1</span>]); <span class="hljs-comment">// undefined</span>
@@ -408,7 +409,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>数组的逗号之间可以省略元素值，通过省略元素值也可以制造稀疏数组</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">// undefined</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">// false</span>
@@ -416,7 +417,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>省略的元素值和值为 <code>undefined</code> 的元素值是有区别的</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">// return undefined</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">// return false</span>
@@ -429,7 +430,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>如果在数组的末尾使用逗号时，浏览器之间是有差别的。标准浏览器会忽略该逗号，而 IE8- 浏览器则会在末尾添加 <code>undefined</code> 值。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 标准浏览器输出[1,2]，而IE8-浏览器输出[1,2,undefined]</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 标准浏览器输出[1,2]，而IE8-浏览器输出[1,2,undefined]</span>
 <span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>];
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 
@@ -440,12 +441,12 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <p>足够稀疏的数组通常在实现上比稠密的数组更慢，内存利用率更高，在这样的数组中查找元素的时间与常规对象属性的查找时间一样长。</p>
 <h3>数组长度</h3>
 <p>每个数组有一个 <code>length</code> 属性，就是这个属性使其区别于常规的 JavaScript 对象。针对稠密（也就是非稀疏）数组，<code>length</code> 属性值代表数组中元素的个数，其值比数组中最大的索引大 1。</p>
-<pre class="hljs"><code class="language-js">[].<span class="hljs-property">length</span>[(<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>)].<span class="hljs-property">length</span>; <span class="hljs-comment">//=&gt;0:数组没有元素,length为0 //=&gt;3:最大的索引为2，length为3</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>[].<span class="hljs-property">length</span>[(<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>)].<span class="hljs-property">length</span>; <span class="hljs-comment">//=&gt;0:数组没有元素,length为0 //=&gt;3:最大的索引为2，length为3</span>
 </code></pre>
 <ul>
 <li>当数组是稀疏数组时，<code>length</code> 属性值大于元素的个数，同样地，其值比数组中最大的索引大 1。</li>
 </ul>
-<pre class="hljs"><code class="language-js">[, , ,].<span class="hljs-property">length</span>; <span class="hljs-comment">// return 3</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>[, , ,].<span class="hljs-property">length</span>; <span class="hljs-comment">// return 3</span>
 <span class="hljs-title class_">Array</span>(<span class="hljs-number">10</span>).<span class="hljs-property">length</span>; <span class="hljs-comment">// return 10</span>
 
 <span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
@@ -457,7 +458,7 @@ a[<span class="hljs-string">&#x27;abc&#x27;</span>] = <span class="hljs-string">
 <ul>
 <li>如果为一个数组元素赋值，索引 <code>i</code> 大于等于现有数组的长度时，<code>length</code> 属性的值将设置为 <code>i+1</code></li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>];
 arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// return 2</span>
 
 arr[<span class="hljs-number">2</span>] = <span class="hljs-string">&#x27;c&#x27;</span>;
@@ -472,7 +473,7 @@ arr.<span class="hljs-property">length</span>; <span class="hljs-comment">// ret
 <ul>
 <li>设置 <code>length</code> 属性为小于当前长度的非负整数 <code>n</code> 时，当前数组索引值大于等于 <code>n</code> 的元素将从中删除。</li>
 </ul>
-<pre class="hljs"><code class="language-js">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]; <span class="hljs-comment">// 从5个元素的数组开始</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]; <span class="hljs-comment">// 从5个元素的数组开始</span>
 a.<span class="hljs-property">length</span> = <span class="hljs-number">3</span>; <span class="hljs-comment">// 现在a为[1,2,3]</span>
 a.<span class="hljs-property">length</span> = <span class="hljs-number">0</span>; <span class="hljs-comment">// 删除所有的元素。a为[]</span>
 a.<span class="hljs-property">length</span> = <span class="hljs-number">5</span>; <span class="hljs-comment">// 长度为5，但是没有元素，就像new Array(5)</span>
@@ -480,18 +481,18 @@ a.<span class="hljs-property">length</span> = <span class="hljs-number">5</span>
 <ul>
 <li><strong>清空数组</strong>：将数组清空的一个有效方法，就是将 <code>length</code> 属性设为 0</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> arr = [<span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-string">&#x27;c&#x27;</span>];
 arr.<span class="hljs-property">length</span> = <span class="hljs-number">0</span>;
 arr; <span class="hljs-comment">//  return []</span>
 </code></pre>
 <p>将数组的 <code>length</code> 属性值设置为大于其当前的长度。实际上这不会向数组中添加新的元素，它只是在数组尾部创建一个空的区域。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&#x27;a&#x27;</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&#x27;a&#x27;</span>];
 a.<span class="hljs-property">length</span> = <span class="hljs-number">3</span>;
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[<span class="hljs-number">1</span>]); <span class="hljs-comment">//undefined</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> <span class="hljs-keyword">in</span> a); <span class="hljs-comment">//false</span>
 </code></pre>
 <p>如果人为设置 <code>length</code> 为不合法的值（即 0——2[32]-2 范围以外的值），Javascript 会报错</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 设置负值</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 设置负值</span>
 [].<span class="hljs-property">length</span> = -<span class="hljs-number">1</span> 				<span class="hljs-comment">// RangeError: Invalid array length</span>
 
 <span class="hljs-comment">// 数组元素个数大于等于2的32次方</span>
@@ -501,7 +502,7 @@ a.<span class="hljs-property">length</span> = <span class="hljs-number">3</span>
 [].<span class="hljs-property">length</span> = <span class="hljs-string">&#x27;abc&#x27;</span>			<span class="hljs-comment">// RangeError: Invalid array length</span>
 </code></pre>
 <p>由于数组本质上是对象，所以可以为数组添加属性，但是这不影响 <code>length</code> 属性的值</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [];
 
 a[<span class="hljs-string">&#x27;p&#x27;</span>] = <span class="hljs-string">&#x27;abc&#x27;</span>;
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a.<span class="hljs-property">length</span>); <span class="hljs-comment">// 0</span>
@@ -513,7 +514,7 @@ a[<span class="hljs-number">2.1</span>] = <span class="hljs-string">&#x27;abc&#x
 <ul>
 <li>使用 <code>for</code> 循环语句遍历数组元素是最常见的方法</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; a.<span class="hljs-property">length</span>; i++) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
 }
@@ -521,7 +522,7 @@ a[<span class="hljs-number">2.1</span>] = <span class="hljs-string">&#x27;abc&#x
 <ul>
 <li>当然，也可以使用 <code>while</code> 循环语句</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
 <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>;
 <span class="hljs-keyword">while</span> (i &lt; a.<span class="hljs-property">length</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
@@ -536,7 +537,7 @@ a[<span class="hljs-number">2.1</span>] = <span class="hljs-string">&#x27;abc&#x
 <ul>
 <li>但如果数组是稀疏数组时，使用 <code>for</code> 循环语句，就需要添加一些条件</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 跳过不存在的元素</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 跳过不存在的元素</span>
 <span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; a.<span class="hljs-property">length</span>; i++) {
   <span class="hljs-keyword">if</span> (!(i <span class="hljs-keyword">in</span> a)) <span class="hljs-keyword">continue</span>;
@@ -544,19 +545,19 @@ a[<span class="hljs-number">2.1</span>] = <span class="hljs-string">&#x27;abc&#x
 }
 </code></pre>
 <p>还可以使用 <code>for/in</code> 循环语句处理稀疏数组。循环每次将一个可枚举的属性名（包括数组索引）赋值给循环变量。<strong>不存在的索引将不会遍历到。</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]);
 }
 </code></pre>
 <p>由于 <code>for/in</code> 循环能够枚举继承的属性名，如添加到 <code>Array.prototype</code> 中的方法。由于这个原因，在数组上不应该使用 <code>for/in</code> 循环，除非使用额外的检测方法来过滤不想要的属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
 a.<span class="hljs-property">b</span> = <span class="hljs-string">&#x27;b&#x27;</span>;
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a[i]); <span class="hljs-comment">//1 2 &#x27;b&#x27;</span>
 }
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 跳过不是非负整数的 i</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 跳过不是非负整数的 i</span>
 <span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, , , <span class="hljs-number">2</span>];
 a.<span class="hljs-property">b</span> = <span class="hljs-string">&#x27;b&#x27;</span>;
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i <span class="hljs-keyword">in</span> a) {
@@ -570,7 +571,7 @@ a.<span class="hljs-property">b</span> = <span class="hljs-string">&#x27;b&#x27;
 <ul>
 <li>给数组原生的 <code>sort()</code> 方法传入一个函数，此函数随机返回 1 或 -1，达到随机排列数组元素的目的</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> array = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> array = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
 array.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() - <span class="hljs-number">0.5</span>;
 });
@@ -579,7 +580,7 @@ array.<span class="hljs-title function_">sort</span>(<span class="hljs-keyword">
 <ul>
 <li>依次遍历数组中的每个元素，遍历到的元素与一个随机位置的元素交换值（效率比第一种方法搞）</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; arr.<span class="hljs-property">length</span>; i++) {
   <span class="hljs-keyword">var</span> randomIndex = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * arr.<span class="hljs-property">length</span>);
   [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]];

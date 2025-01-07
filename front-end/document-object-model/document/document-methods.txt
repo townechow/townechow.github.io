@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","document","document-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/document/document-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/document/document-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","XWOGs0-edbSsBkacWZPpf",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T7c4f,<h1>Document 方法</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","document","document-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/document/document-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/document/document-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","GVaFfe9P1cWHCmhRfaKf-",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T7d67,<h1>Document 方法</h1>
 <h2>修改文档</h2>
 <h3>open</h3>
 <p>打开一个要写入的文档。</p>
@@ -20,7 +21,7 @@ c:T7c4f,<h1>Document 方法</h1>
 <li>此时已注册到文档、文档中的节点或文档的 Window 的所有事件监听器会被清除</li>
 <li>文档中的所有节点会被清除</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">open</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">open</span>();
 </code></pre>
 <ul>
 <li>当 <code>document.write()</code> 在页面加载后调用，会发生自动的 <code>document.open()</code> 调用。</li>
@@ -29,7 +30,7 @@ c:T7c4f,<h1>Document 方法</h1>
 <h3>write</h3>
 <p>将一个文本字符串写入一个由 <code>document.open()</code> 打开的文档流。</p>
 <p>📖 <strong>语法:</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">write</span>(maskup);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">write</span>(maskup);
 </code></pre>
 <p>参数 <code>maskup</code> 为一个包含要写入文档的文本的字符串。</p>
 <p>对文档的写入操作主要通过 <code>document.write()</code> 方法。该方法主要用在两方面：</p>
@@ -49,7 +50,7 @@ c:T7c4f,<h1>Document 方法</h1>
 <p>向当前文档写入内容，尾部添加换行符</p>
 <h3>close</h3>
 <p>用于结束对文档的写入操作，这种写入操作一般由 <code>document.open()</code> 打开。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 打开一个文档，以便写入数据</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 打开一个文档，以便写入数据</span>
 <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">open</span>();
 
 <span class="hljs-comment">// 写入文档内容</span>
@@ -60,10 +61,10 @@ c:T7c4f,<h1>Document 方法</h1>
 </code></pre>
 <h3>hasFocus</h3>
 <p>表明当前文档或者当前文档内的节点是否获得了焦点，该方法可用来判断当前文档中的活动元素是否获得了焦点。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> focused = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">hasFocus</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> focused = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">hasFocus</span>();
 </code></pre>
 <p>🌰 <strong>示例：检测页面是否获得焦点</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">checkPageFocus</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">checkPageFocus</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">const</span> info = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;message&#x27;</span>);
   <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">hasFocus</span>()) {
     info.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;该页面获得了焦点&#x27;</span>;
@@ -82,7 +83,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <p>返回值为指定坐标上的元素数组（顺序以时间冒泡为依据）</p>
 <p>🌰 <strong>示例：检测元素可见性</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> isElementVisible = <span class="hljs-keyword">function</span>(<span class="hljs-params">elem</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> isElementVisible = <span class="hljs-keyword">function</span>(<span class="hljs-params">elem</span>) {
   <span class="hljs-keyword">const</span> win = <span class="hljs-variable language_">window</span>, doc = <span class="hljs-variable language_">document</span>, height, rects;
 
   <span class="hljs-keyword">if</span> (!elem || (elem &amp;&amp; elem.<span class="hljs-property">nodeType</span> !== <span class="hljs-number">1</span>) || !elem.<span class="hljs-property">getClientRects</span> || !doc.<span class="hljs-property">elementFromPoint</span> || !doc.<span class="hljs-property">querySelector</span> || !elem.<span class="hljs-property">contains</span>) {
@@ -116,14 +117,14 @@ c:T7c4f,<h1>Document 方法</h1>
 </code></pre>
 <h3>adoptNode</h3>
 <p>将某个节点，从其原来所在的文档移除，插入当前文档，并返回插入后的新节点。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">adoptNode</span>(externalNode);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">adoptNode</span>(externalNode);
 </code></pre>
 <blockquote>
 <p>该方法不但可以从 <code>iframe</code> 中获取 <code>adopt</code> 元素，在同一 document 文档下的不同两个元素中也可以使用，该方法可以实现从左边栏列表中选取某些元素加载到右边栏的功能。</p>
 </blockquote>
 <h3>importNode</h3>
 <p>从外部文档拷贝指定节点，插入当前文档</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">importNode</span>(externalNode, deep);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">importNode</span>(externalNode, deep);
 </code></pre>
 <h2>查找节点</h2>
 <p>大多数客户端 JavaScript 程序运行时总是在操作一个或多个文档元素。当这些程序启动时，可以使用 JavaScript 全局变量 <code>document</code> 来引用 Document 对象。但是，为了操作文档中的元素，必须通过某种方式获得或选取这些引用文档元素的 Element 对象。DOM 提供了多个 API 以供开发者访问文档树中的元素：</p>
@@ -137,7 +138,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <h3>getElementById</h3>
 <p><code>document.getElementById()</code> 方法通过指定 HTML 元素的 id 属性获取元素引用。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-keyword">const</span> elem = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
@@ -154,7 +155,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <h3>getElementsByName</h3>
 <p><code>getElementsByName()</code> 方法通过指定 HTML 元素 <code>name</code> 属性获取元素引用的集合。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -174,7 +175,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <h3>getElementsByTagName</h3>
 <p><code>getElementsByTagName()</code> 方法通过指定 HTML 元素标签名获取元素引用的集合。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -196,11 +197,11 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <p><strong>匹配所有标签</strong></p>
 <p>使用通配符 <code>*</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> all = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;*&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> all = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;*&#x27;</span>);
 </code></pre>
 <h3>getElementByClassName</h3>
 <p><code>getElementsByClassName()</code> 方法通过指定 HTML 子元素的类名获取元素引用的集合。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-keyword">const</span> elemList = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementByClassName</span>(<span class="hljs-string">&#x27;app&#x27;</span>);
@@ -217,7 +218,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <h3>querySelector</h3>
 <p><code>querySelector()</code> 方法返回文档中匹配指定 CSS 选择器的第一个元素。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -244,14 +245,14 @@ c:T7c4f,<h1>Document 方法</h1>
 <li>该方法既可用于 Document 类型，也可用于元素 Element 类型。</li>
 </ul>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// ID 为 foo 的元素</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// ID 为 foo 的元素</span>
 <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.foo&#x27;</span>);
 <span class="hljs-comment">// 类名为 bar 的元素</span>
 <span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.bar&#x27;</span>);
 </code></pre>
 <h3>querySelectorAll</h3>
 <p><code>querySelectorAll()</code> 方法返回与指定的选择器组匹配的文档中的元素列表（使用 <strong>深度优先</strong> 的先序遍历文档的节点）。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -277,7 +278,7 @@ c:T7c4f,<h1>Document 方法</h1>
 </ul>
 <h3>createElement</h3>
 <p>通过 <code>document.createElement</code> 创建由 tagName 指定的 HTML 元素，或一个 HTMLUnkownElement。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(tagName [, options])
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(tagName [, options])
 </code></pre>
 <p>当执行此方法后，该元素并未显示在 HTML 文档中，需要将该元素添加到 DOM 树中：</p>
 <ul>
@@ -285,11 +286,11 @@ c:T7c4f,<h1>Document 方法</h1>
 <li>使用 <code>appendChild()</code> 方法，并将您想要的元素添加到指定的元素中</li>
 </ul>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;theTitle&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hightlight summer&quot;</span>&gt;</span>What&#x27;s happening?<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> newElement = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;p&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> newElement = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;p&#x27;</span>);
 
 newElement.<span class="hljs-property">textContent</span> = <span class="hljs-string">&#x27;新创建的p元素&#x27;</span>;
 
@@ -297,11 +298,11 @@ newElement.<span class="hljs-property">textContent</span> = <span class="hljs-st
 </code></pre>
 <h3>createAttribute</h3>
 <p>创建新的属性节点，这种创建方式下 DOM 不限制节点能够添加的属性种类。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createAttribute</span>(name);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createAttribute</span>(name);
 </code></pre>
 <p>参数 <code>name</code> 是属性的属性名</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> node = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;node&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> node = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;node&#x27;</span>);
 <span class="hljs-keyword">const</span> att = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createAttribute</span>(<span class="hljs-string">&#x27;name&#x27;</span>);
 
 att.<span class="hljs-property">value</span> = <span class="hljs-string">&#x27;newValue&#x27;</span>;
@@ -315,7 +316,7 @@ node.<span class="hljs-title function_">setAttribute</span>(att);
 <p>DocumentFragments 是 DOM 节点。它们不是主 DOM 树的一部分。通常的用例是创建文档片段，将元素附加到文档片段，然后将文档片段附加到 DOM 树。在 DOM 树中，文档片段被其所有的子元素所代替。</p>
 <p>因为文档片段存在于内存中，并不在 DOM 树中，所以将子元素插入到文档片段时不会引起页面回流（对元素位置和几何上的计算）。因此，使用文档片段通常会带来更好的性能。</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-keyword">const</span> list = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;ul&#x27;</span>);

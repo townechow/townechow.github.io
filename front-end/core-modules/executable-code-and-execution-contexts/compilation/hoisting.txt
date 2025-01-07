@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","hoisting"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/hoisting","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/hoisting","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4qhcl80qonPnvTrCDs12D",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T2ae2,<h1>声明提升</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","hoisting"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/hoisting","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/hoisting","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","PE0tvUuwDr781nJhqxKdO",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2b7e,<h1>声明提升</h1>
 <p>JavaScript 程序的运行阶段分为 <strong>预编译阶段</strong> 和 <strong>执行阶段</strong>。</p>
 <p>在预编译阶段，JavaScript 引擎会做一件事情，那就是读取 <code>变量的定义</code> 并 <code>确定其作用域</code> 即生效范围。</p>
 <ul>
@@ -30,7 +31,7 @@ c:T2ae2,<h1>声明提升</h1>
 </li>
 </ul>
 <p>在 JavaScript 中，如果变量或函数没有声明就被使用，会引致错误的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 <span class="hljs-comment">// Uncaught ReferenceError: a is not defined</span>
 </code></pre>
 <p><strong>声明提升</strong> 包括 <strong>变量声明提升</strong> 和 <strong>函数声明提升</strong>：</p>
@@ -42,12 +43,12 @@ c:T2ae2,<h1>声明提升</h1>
 <p>注意这里是 <strong>声明</strong> 会被提前处理，<strong>赋值</strong> 并没有， 定义声明是在编译阶段进行的，而赋值是在执行阶段进行的 。也就是说声明提升了，赋值还留着原地，等待执行。</p>
 <h2>变量声明提升</h2>
 <p>下面展示了标准的变量声明提升。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 <span class="hljs-keyword">var</span> a = <span class="hljs-number">2</span>;
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 </code></pre>
 <p>等价于：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a;
 <span class="hljs-comment">// 变量声明 默认赋值 undefined</span>
 
 comsole.<span class="hljs-title function_">log</span>(a);
@@ -67,7 +68,7 @@ a = <span class="hljs-number">2</span>;
 <li>函数表达式</li>
 </ul>
 <p>🌰 <strong>代码示例：函数声明</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">foo</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">foo</span>();
 <span class="hljs-comment">// 输出 &#x27;bar&#x27;</span>
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
@@ -75,7 +76,7 @@ a = <span class="hljs-number">2</span>;
 }
 </code></pre>
 <p>🌰 <strong>代码示例：函数表达式</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">foo</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">foo</span>();
 <span class="hljs-comment">// 报错：foo is not a function</span>
 
 <span class="hljs-keyword">var</span> foo = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
@@ -84,7 +85,7 @@ a = <span class="hljs-number">2</span>;
 </code></pre>
 <p>解析：同样地先执行函数，后创建函数，结果却是不一样。原因在于，通过函数声明的方式，该 <strong>函数声明</strong>（包括定义）会被提升至作用域的顶部，而表达式的创建方式则只提升了变量 <code>foo</code> 至作用域的顶部，此时的 <code>foo</code> 其值为<code>undefined</code>，调用 <code>foo</code> 自然报错：<code>foo</code> 不是一个方法。</p>
 <p>再来看一个示例：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> foo = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;1&#x27;</span>);
 };
 
@@ -96,7 +97,7 @@ a = <span class="hljs-number">2</span>;
 <span class="hljs-comment">// &#x27;1&#x27;</span>
 </code></pre>
 <p>预编译阶段进行变量声明提升和函数声明提升后，上述代码执行效果等同于：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 变量声明提升</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 变量声明提升</span>
 <span class="hljs-keyword">const</span> foo;
 
 <span class="hljs-comment">// 函数声明提升</span>
@@ -120,7 +121,7 @@ foo = <span class="hljs-keyword">function</span>(<span class="hljs-params"></spa
 <h2>函数覆盖</h2>
 <p>函数声明和变量声明都会被提升。但是，<strong>函数声明会覆盖变量声明</strong>。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span>(<span class="hljs-params"></span>) {}
 
@@ -128,7 +129,7 @@ foo = <span class="hljs-keyword">function</span>(<span class="hljs-params"></spa
 <span class="hljs-comment">// &#x27;function a(){}&#x27;</span>
 </code></pre>
 <p>但是，如果变量存在赋值操作，则最终的值为变量的值。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = <span class="hljs-number">1</span>;
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span>(<span class="hljs-params"></span>) {}
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 <span class="hljs-comment">// &#x27;function a(){}&#x27;</span>
@@ -144,12 +145,12 @@ a = <span class="hljs-number">1</span>;
 </code></pre>
 <p><strong>变量的重复声明是无用的</strong>，但<strong>函数的重复声明会覆盖前面的声明</strong>（无论是变量还是函数声明）。</p>
 <h3>重复声明无效</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = <span class="hljs-number">1</span>;
 <span class="hljs-keyword">var</span> a;
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a);
 </code></pre>
 <p>输出结果为 1，以上代码等同于：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 此时 a 的默认值为 undefined</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 此时 a 的默认值为 undefined</span>
 <span class="hljs-keyword">var</span> a;
 
 a = <span class="hljs-number">1</span>;
@@ -159,7 +160,7 @@ a = <span class="hljs-number">1</span>;
 </code></pre>
 <h3>函数声明优先</h3>
 <p>由于函数声明提升优先于变量声明提升，所以变量的声明无效。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span>);
@@ -170,7 +171,7 @@ a = <span class="hljs-number">1</span>;
 </code></pre>
 <h3>函数声明覆盖</h3>
 <p>后面的函数声明会覆盖前面的函数声明。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">a</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">a</span>();
 <span class="hljs-comment">// 2</span>
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span>(<span class="hljs-params"></span>) {

@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","web-security","csrf"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/csrf","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/csrf","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","q81iqKKmCzNpplaVyvRS0",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","web-security","csrf"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/web-security/csrf","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/web-security/csrf","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","N5NZoyccXDoSYPnRaBVBX",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T5d5b,<h1>CSRF 跨站请求伪造攻击</h1>
 <p><strong>跨站请求伪造</strong>（Cross-site Request Forgery，简称 CSRF）是一种挟制用户在当前已登录的 Web 页面上执行非本意的操作的攻击方法。</p>
 <p>CSRF 攻击的本质是利用 cookie 会在同源请求中携带发送给服务器的特点，以此来实现用户的冒充。</p>
 <p>与 <a href="/front-end/computer-networks/web-security/xss">XSS</a> 相比，XSS 利用的是用户对指定网站的信任，CSRF 利用的是网站对用户网页浏览器的信任。</p>
@@ -39,11 +40,11 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 </ul>
 <h3>GET 类型</h3>
 <p>在受害者访问含有这个 <code>img</code> 的页面后，浏览器会自动向 <code>http://bank.example/transfer?account=xiaoming&amp;amount=10000&amp;for=hacker</code> 发出一次 HTTP 请求。<code>bank.example</code> 就会收到包含受害者登录信息的一次跨域请求。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;http://bank.example/transfer?amount=10000&amp;for=hacker&quot;</span> /&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;http://bank.example/transfer?amount=10000&amp;for=hacker&quot;</span> /&gt;</span>
 </code></pre>
 <h3>POST 类型</h3>
 <p>这种类型的 CSRF 利用起来通常使用的是一个自动提交的表单，如：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;http://bank.example/transfer&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;POST&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;http://bank.example/transfer&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;POST&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;hidden&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;account&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;xiaoming&quot;</span> /&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;hidden&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;amount&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;10000&quot;</span> /&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;hidden&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;for&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;hacker&quot;</span> /&gt;</span>
@@ -56,7 +57,7 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 <p>POST 类型的攻击通常比 GET 要求更加严格一点，但仍并不复杂。任何个人网站、博客，被黑客上传页面的网站都有可能是发起攻击的来源，后端接口不能将安全寄托在仅允许 POST 上面。</p>
 <h3>链接类型</h3>
 <p>链接类型的 CSRF 并不常见，比起其他两种用户打开页面就中招的情况，这种 &lt;strong style=&quot;color:red&quot;&gt;需要用户点击链接&lt;/strong&gt; 才会触发。这种类型通常是在论坛中发布的图片中嵌入恶意链接，或者以广告的形式诱导用户中招，攻击者通常会以比较夸张的词语诱骗用户点击，例如：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://test.com/csrf/transfer.php?amount=1000&amp;for=hacker&quot;</span> <span class="hljs-attr">taget</span>=<span class="hljs-string">&quot;_blank&quot;</span>&gt;</span>重磅消息！！<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://test.com/csrf/transfer.php?amount=1000&amp;for=hacker&quot;</span> <span class="hljs-attr">taget</span>=<span class="hljs-string">&quot;_blank&quot;</span>&gt;</span>重磅消息！！<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 </code></pre>
 <p>由于之前用户登录了信任的网站，并且保存登录状态，只要用户主动访问上面的这个 PHP 页面，则表示攻击成功。</p>
 <h2>攻击特点</h2>
@@ -111,7 +112,7 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 <h4>Origin</h4>
 <p>使用 Origin Header 确定来源域名。</p>
 <p>在部分与 CSRF 有关的请求中，请求的 Header 中会携带 Origin 字段。字段内包含请求的域名，不包含 <code>path</code> 及 <code>query</code> 部分。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Origin</span><span class="hljs-punctuation">: </span>http://foo.example
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Origin</span><span class="hljs-punctuation">: </span>http://foo.example
 </code></pre>
 <p>如果 Origin 存在，那么直接使用 Origin 中的字段确认来源域名就可以。</p>
 <p>但是 Origin 在以下两种情况下并不存在：</p>
@@ -139,22 +140,22 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 <ol>
 <li>CSP 响应头，通过 <code>referrer</code> 指令和五种可选的指令值，来指定 Referrer 策略</li>
 </ol>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>referrer no-referrer | no-referrer-when-downgrade | origin | origin-when-cross-origin | unsafe-url;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>referrer no-referrer | no-referrer-when-downgrade | origin | origin-when-cross-origin | unsafe-url;
 </code></pre>
 <ol start="2">
 <li><code>&lt;meta&gt;</code> 元数据标签也可以指定 Referrer 策略</li>
 </ol>
-<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!-- 在任何情况下，仅发送文件的源作为引用地址 --&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-comment">&lt;!-- 在任何情况下，仅发送文件的源作为引用地址 --&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;referrer&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;origin&quot;</span> /&gt;</span>
 </code></pre>
 <ol start="3">
 <li>外链标签中的 <code>referrer</code> 属性</li>
 </ol>
 <p>或者用 <code>&lt;a&gt;</code>、<code>&lt;area&gt;</code>、<code>&lt;img&gt;</code>、<code>&lt;iframe&gt;</code>、<code>&lt;script&gt;</code> 或者 <code>&lt;link&gt;</code> 标签元素上的 <code>referrerpolicy</code> 属性为其设置独立的请求策略。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://example.com&quot;</span> <span class="hljs-attr">referrerpolicy</span>=<span class="hljs-string">&quot;origin&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://example.com&quot;</span> <span class="hljs-attr">referrerpolicy</span>=<span class="hljs-string">&quot;origin&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 </code></pre>
 <p>另外也可以在 <code>&lt;a&gt;</code>、<code>&lt;area&gt;</code> 或者 <code>&lt;link&gt;</code> 元素上将 <code>rel</code> 属性设置为 <code>noreferrer</code>。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://example.com&quot;</span> <span class="hljs-attr">referrer</span>=<span class="hljs-string">&quot;no-referrer|origin|unsafe-url&quot;</span>&gt;</span>xxx<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://example.com&quot;</span> <span class="hljs-attr">referrer</span>=<span class="hljs-string">&quot;no-referrer|origin|unsafe-url&quot;</span>&gt;</span>xxx<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 </code></pre>
 <p>这种方式作用的只是这一个链接。并且，<code>&lt;a&gt;</code> 标签可用的 Referrer 策略只有三种：不传、只传 host 和都传。另外，这样针对单个链接设置的策略优先级比 CSP 和 <code>&lt;meta&gt;</code> 要高。</p>
 <blockquote>
@@ -162,7 +163,7 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 </blockquote>
 <h3>Cookie 的 SameSite 属性</h3>
 <p>Cookie 的 <code>SameSite</code> 属性能用于限制第三方 Cookie，从而减少安全风险。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Set-Cookie</span><span class="hljs-punctuation">: </span>CookieName=CookieValue; SameSite=Lax;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Set-Cookie</span><span class="hljs-punctuation">: </span>CookieName=CookieValue; SameSite=Lax;
 </code></pre>
 <p>可取值：</p>
 <ul>
@@ -190,7 +191,7 @@ c:T5ccf,<h1>CSRF 跨站请求伪造攻击</h1>
 <li>页面提交的请求携带这个 Token</li>
 </ol>
 <p>对于 GET 请求，Token 将附在请求地址之后，这样 URL 就变成 <code>http://url?csrftoken=tokenvalue</code>。 而对于 POST 请求来说，要在 <code>form</code> 的最后加上：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;”hidden”&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;”csrftoken”&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;”tokenvalue”&quot;</span> /&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;”hidden”&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;”csrftoken”&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;”tokenvalue”&quot;</span> /&gt;</span>
 </code></pre>
 <ol start="3">
 <li>服务器验证 Token 是否正确</li>

@@ -7,13 +7,14 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","http","https"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/https","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/https","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","TB9xAm1E0LZ5JuROB8Ln8",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T9446,<h1>HTTPS</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","http","https"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/https","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/https","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","z7CagrkFd7sbXC8mV1sEN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T60ca,<h1>HTTPS</h1>
 <p><strong>超文本传输安全协议</strong>（Hyper Text Transfer Protocol over Secure Socket Layer，HTTPS），是一种通过计算机网络进行安全通信的传输协议。HTTPS 经由 HTTP 进行通信，但利用 &lt;span style=&quot;font-weight:bold;color:red&quot;&gt;SSL / TLS&lt;/span&gt; 来加密数据包。HTTPS 开发的主要目的，是提供对网站服务器的身份认证，保护交换数据的隐私与完整性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">HTTPS</span> = <span class="hljs-variable constant_">HTTP</span> + <span class="hljs-variable constant_">SSL</span>（加密 + 认证 + 完整性保护）
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable constant_">HTTPS</span> = <span class="hljs-variable constant_">HTTP</span> + <span class="hljs-variable constant_">SSL</span>（加密 + 认证 + 完整性保护）
 </code></pre>
 <p>HTTP 协议采用明文传输信息，存在信息窃听、信息篡改和信息劫持的风险，而协议 SSL / TLS 具有<strong>身份验证</strong>、<strong>信息加密</strong>和<strong>完整性校验</strong>的功能，可以避免此类问题发生。</p>
 <p>SSL / TLS 全称安全传输层协议 Transport Layer Security，是介于 TCP 和 HTTP 之间的一层安全协议，不影响原有的 TCP 协议和 HTTP 协议，所以使用 HTTPS 基本上不需要对 HTTP 页面进行太多的改造。</p>
@@ -26,24 +27,9 @@ c:T9446,<h1>HTTPS</h1>
 </ul>
 <p>窃听属于数据加密问题，而伪造和否认则属于身份认证问题。</p>
 <h3>窃听</h3>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/eavesdropping.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;窃听&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h3>伪造</h3>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/forge.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;伪造&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h3>否认</h3>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/deny.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;否认&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h2>解决方案</h2>
+<img alt="窃听" src="../../assets/https/eavesdropping.jpg" width="720" /><h3>伪造</h3>
+<img alt="伪造" src="../../assets/https/forge.jpg" width="720" /><h3>否认</h3>
+<img alt="否认" src="../../assets/https/deny.png" width="720" /><h2>解决方案</h2>
 <p>对通信内容进行加密的解决方案：</p>
 <ul>
 <li><strong>对称加密</strong>：使用相同密钥加密/解密，但是钥匙交付问题无法解决</li>
@@ -56,18 +42,8 @@ c:T9446,<h1>HTTPS</h1>
 </ul>
 <h3>对称加密</h3>
 <p><strong>对称加密算</strong>法（Symmetric Key Algorithms）加密使用的密钥和解密使用的密钥是相同的。也就是说，加密和解密都是使用的同一个密钥。因此对称加密算法要保证安全性的话，密钥要做好保密，只能让使用的人知道，不能对外公开。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/symmetric-encryption.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;对称加密&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>对称密钥加密</strong>一个很重要的特点就是使用相同的密钥进行加密和解密</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/symmetric-encryption-problem.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;对称密钥交付问题&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>假设 B 是没有解密钥匙，所以 A 需要通过互联网将钥匙发送给 B。</p>
+<img alt="对称加密" src="../../assets/https/symmetric-encryption.jpg" width="720" /><p><strong>对称密钥加密</strong>一个很重要的特点就是使用相同的密钥进行加密和解密</p>
+<img alt="对称密钥交付问题" src="../../assets/https/symmetric-encryption-problem.jpg" width="720" /><p>假设 B 是没有解密钥匙，所以 A 需要通过互联网将钥匙发送给 B。</p>
 <p>但是 X 也有可能看到并获取到这个钥匙，因此，X 也可以通过这个钥匙来解密密文。</p>
 <p>上面这个场景就会引出一个新问题，这个问题被称为<strong>钥匙交付问题</strong>，那怎么解决这个问题？</p>
 <h3>非对称加密</h3>
@@ -78,21 +54,11 @@ c:T9446,<h1>HTTPS</h1>
 </ul>
 <p><strong>非对称加密过程</strong></p>
 <p>接收方 B 创建一个公钥和一个私钥，公钥被发送给 A。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/asymmetric-encryption-creation.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;非对称加密过程-创建&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<ul>
+<img alt="非对称加密过程-创建" src="../../assets/https/asymmetric-encryption-creation.jpg" width="720" /><ul>
 <li>A 使用从 B 收到的公钥加密数据，将密文发送给 B</li>
 <li>B 使用私钥解密从 A 接收到的密文，得到原始数据</li>
 </ul>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/asymmetric-encryption-transport.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;非对称加密过程-传输&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>在这个过程中：</p>
+<img alt="非对称加密过程-传输" src="../../assets/https/asymmetric-encryption-transport.jpg" width="720" /><p>在这个过程中：</p>
 <ul>
 <li>密文和公钥也可能被恶意第三方 X 截获</li>
 <li>但是私钥是 B 保存的，X 无法获取到，自然没有办法解密密文</li>
@@ -104,12 +70,7 @@ c:T9446,<h1>HTTPS</h1>
 <li>公开密钥的可靠性</li>
 </ol>
 <h3>混合加密</h3>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/mixed-encryption.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;混合加密&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>混合密钥加密分为两个步骤：</p>
+<img alt="混合加密" src="../../assets/https/mixed-encryption.jpg" width="720" /><p>混合密钥加密分为两个步骤：</p>
 <ul>
 <li>通过公开密钥加密传递密钥</li>
 <li>通过速度更快的对称密钥加密方法传递数据</li>
@@ -117,18 +78,8 @@ c:T9446,<h1>HTTPS</h1>
 <h3>中间人攻击</h3>
 <p>中间人攻击（Man In the Middle Attack）。</p>
 <p>为了更好地理解公开密钥加密的可靠性问题，我们回到传递公钥的场景。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/man-in-the-middle-attack.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;中间人攻击&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>A 拿到的其实是 X 发送给他的伪造公钥，但是 A 无法察觉。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/man-in-the-middle-attack-2.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;中间人攻击2&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>最后，X 用他自己的密钥加密响应数据，并发送给 A，就这样，虽然 A、B 双方能顺利完成通信，但是恶意的第三方 X 能看到解密后的请求数据和响应数据，而 A、B 双方则毫不知情。</p>
+<img alt="中间人攻击" src="../../assets/https/man-in-the-middle-attack.jpg" width="720" /><p>A 拿到的其实是 X 发送给他的伪造公钥，但是 A 无法察觉。</p>
+<img alt="中间人攻击2" src="../../assets/https/man-in-the-middle-attack-2.jpg" width="720" /><p>最后，X 用他自己的密钥加密响应数据，并发送给 A，就这样，虽然 A、B 双方能顺利完成通信，但是恶意的第三方 X 能看到解密后的请求数据和响应数据，而 A、B 双方则毫不知情。</p>
 <p>中间人攻击的攻击方式：</p>
 <ul>
 <li>域名污染：DNS 解析的中间链点返回中间人错误 IP</li>
@@ -142,22 +93,12 @@ c:T9446,<h1>HTTPS</h1>
 </ul>
 <h3>消息鉴别码</h3>
 <p>消息鉴别码（Message Authentication Code，简写 MAC）是一种用于确认消息完整性（数据不会被篡改）和可靠性（消息认证是确认消息来自正确的发送者）的技术。消息鉴别码可以理解为<strong>密钥</strong>和<strong>密文</strong>组成的字符串的<strong>哈希值</strong>。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/mac.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;消息鉴别码&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>消息鉴别码虽然可以解决&lt;span style=&quot;font-weight:bold;color:red&quot;&gt;伪造&lt;/span&gt;问题，但是仍然无法避免<strong>否认</strong>问题。</p>
+<img alt="消息鉴别码" src="../../assets/https/mac.jpg" width="720" /><p>消息鉴别码虽然可以解决&lt;span style=&quot;font-weight:bold;color:red&quot;&gt;伪造&lt;/span&gt;问题，但是仍然无法避免<strong>否认</strong>问题。</p>
 <h3>数字签名</h3>
 <p>为了解决这个&lt;span style=&quot;font-weight:bold;color:red&quot;&gt;否认&lt;/span&gt;问题，我们接下来看看<strong>数字签名</strong>方法。</p>
 <p>数据发送方通过约定的哈希函数从数据报文中生成报文摘要（Digest），然后利用私钥对报文摘要进行加密，这个加密后的摘要将作为报文的<strong>数字签名</strong>和<strong>数据报文</strong>一起发送给接收方。</p>
 <p>数据接收方首先使用与发送方一致的哈希函数从接收到的原始报文中计算出报文摘要，接着再用发送方的公钥对数字签名进行解密，得出摘要。如果摘要相同，那么接收方就能确认该数字签名是发送方的。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/digital-sign.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;数字签名&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h3>数字证书</h3>
+<img alt="数字签名" src="../../assets/https/digital-sign.jpg" width="720" /><h3>数字证书</h3>
 <p>虽然上面的方法已经能避免窃听、伪造、否认等问题，但是现在还是没办法避免<strong>中间人攻击</strong>，因为我们还是没办法验证公钥的所有者，因此我们需要&lt;span style=&quot;font-weight:bold;color:red&quot;&gt;数字证书&lt;/span&gt;系统来验证公钥的所有者。</p>
 <p>接下来，先看看数字证书申请的过程，我们将数字证书认证机构（Certificate Authority）称之为 CA。</p>
 <p><strong>数字证书申请过程：</strong></p>
@@ -173,12 +114,7 @@ c:T9446,<h1>HTTPS</h1>
 </li>
 </ol>
 <p>数字签名通过<strong>散列函数</strong>计算公开的明文信息的<strong>信息摘要</strong>，然后，采用 CA 提供的私钥对信息摘要进行加密，加密后的信息摘要即为<strong>数字签名</strong></p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/digital-certificate.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;数字证书&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>现在 B 已经申请到一个数字证书了，那么怎么使用数字证书来检验公钥 PB 是属于 B 呢。</p>
+<img alt="数字证书" src="../../assets/https/digital-certificate.jpg" width="720" /><p>现在 B 已经申请到一个数字证书了，那么怎么使用数字证书来检验公钥 PB 是属于 B 呢。</p>
 <p><strong>数字证书校验流程：</strong></p>
 <ol>
 <li>
@@ -196,31 +132,11 @@ c:T9446,<h1>HTTPS</h1>
 <p>客户端验证证书相关的域名信息、有效时间等信息</p>
 </li>
 </ol>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/digital-certificate-2.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;数字证书2&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>现在可以验证 PB 是属于 B 的，但是怎么验证 PC 是属于受信任的 CA 的呢。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/digital-certificate-3.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;数字证书3&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>事实上，认证机构形成一个树形结构，高级别的权威机构为较低级别的机构创建证书，那就是说，如果要验证的话，就是一级一级向上认证，信任链条的最终是 Root CA，他采用自签名，对他的签名是无条件的信任。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/digital-certificate-4.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;数字证书4&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h2>工作流程</h2>
+<img alt="数字证书2" src="../../assets/https/digital-certificate-2.jpg" width="720" /><p>现在可以验证 PB 是属于 B 的，但是怎么验证 PC 是属于受信任的 CA 的呢。</p>
+<img alt="数字证书3" src="../../assets/https/digital-certificate-3.jpg" width="720" /><p>事实上，认证机构形成一个树形结构，高级别的权威机构为较低级别的机构创建证书，那就是说，如果要验证的话，就是一级一级向上认证，信任链条的最终是 Root CA，他采用自签名，对他的签名是无条件的信任。</p>
+<img alt="数字证书4" src="../../assets/https/digital-certificate-4.jpg" width="720" /><h2>工作流程</h2>
 <p>HTTPS 在传输数据之前需要客户端（浏览器）与服务端之间进行一次握手，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL 协议使用<strong>非对称加密</strong>、<strong>对称加密</strong>以及 <strong>HASH 算法</strong>确保信息通信的安全。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/https/workflow.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;HTTPS Workflow&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>具体流程：</strong></p>
+<img alt="HTTPS Workflow" src="../../assets/https/workflow.jpg" width="720" /><p><strong>具体流程：</strong></p>
 <ol>
 <li>
 <p><strong>Client Hello</strong>：客户端发起 HTTPS 请求。</p>

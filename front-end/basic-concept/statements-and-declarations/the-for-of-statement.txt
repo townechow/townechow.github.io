@@ -7,14 +7,15 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-for-of-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-for-of-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-for-of-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uIZRATaedrfBuuFHaJO3x",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T475b,<h1>for...of 语句</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-for-of-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-for-of-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-for-of-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","d-BzS2Pa_N9EjBtDWsq-j",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4833,<h1>for...of 语句</h1>
 <p><strong>for...of 语句</strong>在可迭代对象（包括  <code>Array</code>，<code>Map</code>，<code>Set</code>，<code>String</code>，<code>TypedArray</code>，<code>arguments</code>   对象等等）上创建一个迭代循环，调用自定义迭代钩子，并为每个不同属性的值执行语句。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (variable <span class="hljs-keyword">of</span> iterable) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">for</span> (variable <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-comment">//statements</span>
 }
 </code></pre>
@@ -39,7 +40,7 @@ c:T475b,<h1>for...of 语句</h1>
 </table>
 <h2>示例</h2>
 <h3>迭代 <code>Array</code></h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>];
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> value <span class="hljs-keyword">of</span> iterable) {
   value += <span class="hljs-number">1</span>;
@@ -50,7 +51,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// 31</span>
 </code></pre>
 <p>如果你不想修改语句块中的变量 , 也可以使用 <code>const</code> 代替 <code>let</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>];
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> value <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
@@ -60,7 +61,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// 30</span>
 </code></pre>
 <h3>迭代 <code>String</code></h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = <span class="hljs-string">&#x27;boo&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = <span class="hljs-string">&#x27;boo&#x27;</span>;
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> value <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
@@ -70,7 +71,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// &quot;o&quot;</span>
 </code></pre>
 <h3>迭代 <code>TypedArray</code></h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Uint8Array</span>([<span class="hljs-number">0x00</span>, <span class="hljs-number">0xff</span>]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Uint8Array</span>([<span class="hljs-number">0x00</span>, <span class="hljs-number">0xff</span>]);
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> value <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
@@ -79,7 +80,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// 255</span>
 </code></pre>
 <h3>迭代 <code>Map</code></h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([[<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-number">1</span>], [<span class="hljs-string">&quot;b&quot;</span>, <span class="hljs-number">2</span>], [<span class="hljs-string">&quot;c&quot;</span>, <span class="hljs-number">3</span>]]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Map</span>([[<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-number">1</span>], [<span class="hljs-string">&quot;b&quot;</span>, <span class="hljs-number">2</span>], [<span class="hljs-string">&quot;c&quot;</span>, <span class="hljs-number">3</span>]]);
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> entry <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(entry);
@@ -96,7 +97,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// 3</span>
 </code></pre>
 <h3>迭代 <code>Set</code></h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>([<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">3</span>]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> iterable = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>([<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">3</span>]);
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> value <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
@@ -106,7 +107,7 @@ c:T475b,<h1>for...of 语句</h1>
 <span class="hljs-comment">// 3</span>
 </code></pre>
 <h3>迭代 <code>arguments</code> 对象</h3>
-<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> argument <span class="hljs-keyword">of</span> <span class="hljs-variable language_">arguments</span>) {
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(argument);
   }
@@ -118,7 +119,7 @@ c:T475b,<h1>for...of 语句</h1>
 </code></pre>
 <h3>迭代 DOM 集合</h3>
 <p>迭代 DOM 元素集合，比如一个 <code>NodeList</code> 对象：下面的例子演示给每一个 article 标签内的 p 标签添加一个 &quot;<code>read</code>&quot; 类。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">//注意：这只能在实现了NodeList.prototype[Symbol.iterator]的平台上运行</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">//注意：这只能在实现了NodeList.prototype[Symbol.iterator]的平台上运行</span>
 <span class="hljs-keyword">let</span> articleParagraphs = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(<span class="hljs-string">&quot;article &gt; p&quot;</span>);
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> paragraph <span class="hljs-keyword">of</span> articleParagraphs) {
@@ -127,7 +128,7 @@ c:T475b,<h1>for...of 语句</h1>
 </code></pre>
 <h3>关闭迭代器</h3>
 <p>对于 <code>for...of</code> 的循环，可以由 <code>break</code>, <code>continue[4]</code>, <code>throw</code> 或 <code>return[5]</code> 终止。在这些情况下，迭代器关闭。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
   <span class="hljs-keyword">yield</span> <span class="hljs-number">2</span>;
   <span class="hljs-keyword">yield</span> <span class="hljs-number">3</span>;
@@ -140,7 +141,7 @@ c:T475b,<h1>for...of 语句</h1>
 </code></pre>
 <h3>迭代生成器</h3>
 <p>你还可以迭代一个生成器：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">fibonacci</span>(<span class="hljs-params"></span>) { <span class="hljs-comment">// 一个生成器函数</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">fibonacci</span>(<span class="hljs-params"></span>) { <span class="hljs-comment">// 一个生成器函数</span>
     <span class="hljs-keyword">let</span> [prev, curr] = [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>];
     <span class="hljs-keyword">for</span> (;;) { <span class="hljs-comment">// while (true) {</span>
         [prev, curr] = [curr, prev + curr];
@@ -157,7 +158,7 @@ c:T475b,<h1>for...of 语句</h1>
 </code></pre>
 <h4>不要重用生成器</h4>
 <p>生成器不应该重用，即使 <code>for...of</code> 循环的提前终止，例如通过 <code>break</code> 关键字。在退出循环后，生成器关闭，并尝试再次迭代，不会产生任何进一步的结果。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> gen = (<span class="hljs-keyword">function</span>*() {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> gen = (<span class="hljs-keyword">function</span>*() {
   <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
   <span class="hljs-keyword">yield</span> <span class="hljs-number">2</span>;
   <span class="hljs-keyword">yield</span> <span class="hljs-number">3</span>;
@@ -174,7 +175,7 @@ c:T475b,<h1>for...of 语句</h1>
 </code></pre>
 <h3>迭代其他可迭代对象</h3>
 <p>你还可以迭代显式实现可迭代协议的对象：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> iterable = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> iterable = {
   [<span class="hljs-title class_">Symbol</span>.<span class="hljs-property">iterator</span>]() {
     <span class="hljs-keyword">return</span> {
       <span class="hljs-attr">i</span>: <span class="hljs-number">0</span>,
@@ -200,7 +201,7 @@ c:T475b,<h1>for...of 语句</h1>
 <p><code>for...in</code> 语句以原始插入顺序迭代对象的可枚举属性。</p>
 <p><code>for...of</code> 语句遍历可迭代对象定义要迭代的数据。</p>
 <p>以下示例显示了与 <code>Array</code> 一起使用时，<code>for...of</code> 循环和 <code>for...in</code> 循环之间的区别。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">objCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">objCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
 <span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">arrCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
 
 <span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>];
@@ -220,26 +221,26 @@ iterable.<span class="hljs-property">foo</span> = <span class="hljs-string">&#x2
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i); <span class="hljs-comment">// logs 3, 5, 7</span>
 }
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">objCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">objCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
 <span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">arrCustom</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {};
 
 <span class="hljs-keyword">let</span> iterable = [<span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>];
 iterable.<span class="hljs-property">foo</span> = <span class="hljs-string">&#x27;hello&#x27;</span>;
 </code></pre>
 <p>每个对象将继承 <code>objCustom</code> 属性，并且作为 <code>Array</code> 的每个对象将继承 <code>arrCustom</code> 属性，因为将这些属性添加到 <code>Object.prototype</code> 和 <code>Array.prototype</code>。由于继承和原型链，对象 <code>iterable</code> 继承属性 <code>objCustom</code> 和 <code>arrCustom</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">in</span> iterable) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">in</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i); <span class="hljs-comment">// logs 0, 1, 2, &quot;foo&quot;, &quot;arrCustom&quot;, &quot;objCustom&quot;</span>
 }
 </code></pre>
 <p>此循环仅以原始插入顺序记录 <code>iterable</code> 对象的可枚举属性。它不记录数组<strong>元素</strong><code>3</code>, <code>5</code>, <code>7</code> 或<code>hello</code>，因为这些<strong>不是</strong>枚举属性。但是它记录了数组<strong>索引</strong>以及 <code>arrCustom</code> 和 <code>objCustom</code>。如果你不知道为什么这些属性被迭代，<code>array iteration and for...in</code>中有更多解释。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">in</span> iterable) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">in</span> iterable) {
   <span class="hljs-keyword">if</span> (iterable.<span class="hljs-title function_">hasOwnProperty</span>(i)) {
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i); <span class="hljs-comment">// logs 0, 1, 2, &quot;foo&quot;</span>
   }
 }
 </code></pre>
 <p>这个循环类似于第一个，但是它使用<code>hasOwnProperty()</code> 来检查，如果找到的枚举属性是对象自己的（不是继承的）。如果是，该属性被记录。记录的属性是 <code>0</code>, <code>1</code>, <code>2</code>和<code>foo</code>，因为它们是自身的属性（<strong>不是继承的</strong>）。属性 <code>arrCustom</code> 和 <code>objCustom</code> 不会被记录，因为它们<strong>是继承的</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">of</span> iterable) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i <span class="hljs-keyword">of</span> iterable) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i); <span class="hljs-comment">// logs 3, 5, 7</span>
 }
 </code></pre>

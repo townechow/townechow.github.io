@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","basic-concept","expressions","operators","bitwise-operators"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/expressions/operators/bitwise-operators","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/expressions/operators/bitwise-operators","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","FDBdpcX-0lqvVE7rON8fR",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4d00,<h1>位运算移位运算符</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","basic-concept","expressions","operators","bitwise-operators"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/expressions/operators/bitwise-operators","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/expressions/operators/bitwise-operators","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KIkx7p_cuWoX-gO0Ef-Xs",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4da8,<h1>位运算移位运算符</h1>
 <p>位运算符将它的操作数视为 32 位元的二进制串（0 和 1 组成）而非十进制、八进制或十六进制数。例如：十进制数字 <code>9</code> 用二进制表示为 <code>1001</code>，位运算符就是在这个二进制表示上执行运算，但是返回结果是标准的 JavaScript 数值。</p>
 <ul>
 <li>所有 JavaScript 数字存储为根为 10 的 64（8 比特）浮点数。JavaScript 不是类型语言。与许多其他编程语言不同，JavaScript 不定义不同类型的数字，比如整数、短、长、浮点等等。</li>
@@ -24,7 +25,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 <p>JavaScript 中共有 7 个位运算符。</p>
 <h3>按位与</h3>
 <p>按位与（AND）<code>&amp;</code> 以特定的方式组合操作二进制数中对应的位，如果对应的位都为 1，那么结果就是 1， 如果任意一个位是 0 则结果就是 0。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// 3的二进制表示为: 00000000 00000000 00000000 00000011</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
@@ -34,7 +35,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 </code></pre>
 <h3>按位或</h3>
 <p>按位或（OR）<code>|</code> 运算符与 <code>&amp;</code> 的区别在于如果对应的位中任一个操作数为 1 那么结果就是 1。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// 3的二进制表示为: 00000000 00000000 00000000 00000011</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 3的二进制表示为: 00000000 00000000 00000000 00000011</span>
@@ -44,7 +45,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 </code></pre>
 <h3>按位异或</h3>
 <p>按位异或（XOR）<code>^</code> 如果对应两个操作位有且仅有一个 1 时结果为 1，其他都是 0。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// 3的二进制表示为: 00000000 00000000 00000000 00000011</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 2的二进制表示为: 00000000 00000000 00000000 00000010</span>
@@ -54,7 +55,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 </code></pre>
 <h3>按位非</h3>
 <p>按位非（NOT）<code>~</code> 运算符是对位求反，1 变 0, 0 变 1，也就是求二进制的反码。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// 3的二进制表示为: 00000000 00000000 00000000 00000011</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 1反码二进制表示: 11111111 11111111 11111111 11111110</span>
@@ -70,7 +71,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 <p><strong>简单记忆：</strong> 一个数与自身的取反值相加等于 -1。</p>
 <h3>左移</h3>
 <p>左移（Left shift）<code>&lt;&lt;</code> 运算符使指定值的二进制数所有位都左移指定次数，其移动规则：<strong>丢弃高位，低位补 0</strong>，即按二进制形式把所有的数字向左移动对应的位数，高位移出(舍弃)，低位的空位补零。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 2的二进制表示为: 00000000 00000000 00000000 00000010</span>
 
@@ -79,7 +80,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 </code></pre>
 <h3>有符号右移</h3>
 <p>有符号右移 <code>&gt;&gt;</code> 会将指定操作数的二进制位向右移动指定的位数。向右被移出的位被丢弃，拷贝最左侧的位以填充左侧。由于新的最左侧的位总是和以前相同，符号位没有被改变。所以被称作 <strong>符号传播</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 1的二进制表示为: 00000000 00000000 00000000 00000001</span>
 <span class="hljs-comment">// -----------------------------</span>
 <span class="hljs-comment">// 0的二进制表示为: 00000000 00000000 00000000 00000000</span>
 
@@ -139,7 +140,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 <h2>最佳实践</h2>
 <h3>取整</h3>
 <p>使用 <code>~</code>、<code>&gt;&gt;</code>、<code>&lt;&lt;</code>、<code>&gt;&gt;&gt;</code>、<code>|</code> 来取整。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(~~<span class="hljs-number">6.83</span>); <span class="hljs-comment">// 6</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(~~<span class="hljs-number">6.83</span>); <span class="hljs-comment">// 6</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">6.83</span> &gt;&gt; <span class="hljs-number">0</span>); <span class="hljs-comment">// 6</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">6.83</span> &lt;&lt; <span class="hljs-number">0</span>); <span class="hljs-comment">// 6</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">6.83</span> | <span class="hljs-number">0</span>); <span class="hljs-comment">// 6</span>
@@ -148,7 +149,7 @@ c:T4d00,<h1>位运算移位运算符</h1>
 </code></pre>
 <h3>值交换</h3>
 <p>使用按位异或 <code>^</code> 来完成值交换</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> a = <span class="hljs-number">5</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> a = <span class="hljs-number">5</span>;
 <span class="hljs-keyword">var</span> b = <span class="hljs-number">8</span>;
 
 a ^= b;
@@ -160,7 +161,7 @@ a ^= b;
 </code></pre>
 <p>异或还经常被用于加密。</p>
 <h3>十进制转二进制</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> number = <span class="hljs-number">3</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> number = <span class="hljs-number">3</span>;
 <span class="hljs-keyword">var</span> result = number.<span class="hljs-title function_">toString</span>(<span class="hljs-number">2</span>);
 
 <span class="hljs-keyword">var</span> result2 = (<span class="hljs-number">14</span>).<span class="hljs-title function_">toString</span>(<span class="hljs-number">2</span>);
@@ -168,7 +169,7 @@ a ^= b;
 </code></pre>
 <h3>颜色值转换</h3>
 <p>使用 <code>&amp;</code>、<code>&gt;&gt;</code>、<code>|</code> 来完成 RGB 值和 16 进制颜色值之间的转换</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">/**
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">/**
  * 16进制颜色值转RGB
  * <span class="hljs-doctag">@param</span>  {<span class="hljs-type">String</span>} hex 16进制颜色字符串
  * <span class="hljs-doctag">@return</span> {<span class="hljs-type">String</span>}     RGB颜色字符串
@@ -197,7 +198,7 @@ a ^= b;
 <span class="hljs-title class_">RGBToHex</span>(<span class="hljs-string">&#x27;rgb(255,255,255)&#x27;</span>); <span class="hljs-comment">// &#x27;#ffffff&#x27;</span>
 </code></pre>
 <h3>判断正负</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">isPos</span>(<span class="hljs-params">n</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">isPos</span>(<span class="hljs-params">n</span>) {
   <span class="hljs-keyword">return</span> n === n &gt;&gt;&gt; <span class="hljs-number">0</span> ? <span class="hljs-literal">true</span> : <span class="hljs-literal">false</span>;
 }
 <span class="hljs-title function_">isPos</span>(-<span class="hljs-number">1</span>); <span class="hljs-comment">// false</span>
@@ -205,20 +206,20 @@ a ^= b;
 </code></pre>
 <h3>判断符号是否相同</h3>
 <p>通常, 比较两个数是否符号相同, 我们使用 <code>x * y &gt; 0</code> 来判断即可. 但如果利用按位异或 <code>^</code>, 运算速度将更快。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(-<span class="hljs-number">17</span> ^ (<span class="hljs-number">9</span> &gt; <span class="hljs-number">0</span>));
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(-<span class="hljs-number">17</span> ^ (<span class="hljs-number">9</span> &gt; <span class="hljs-number">0</span>));
 <span class="hljs-comment">// false</span>
 </code></pre>
 <h3>判断奇偶</h3>
 <p>使用 <code>&amp;</code> 运算符判断一个数的奇偶</p>
 <p>如果把 n 以二进制的形式展示的话，其实我们只需要判断最后一个二进制位是 1 还是 0 就行了。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 偶数 &amp; 1 = 0</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 偶数 &amp; 1 = 0</span>
 <span class="hljs-comment">// 奇数 &amp; 1 = 1</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> &amp; <span class="hljs-number">1</span>); <span class="hljs-comment">// 0</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">3</span> &amp; <span class="hljs-number">1</span>); <span class="hljs-comment">// 1</span>
 </code></pre>
 <h3>判断索引是否存在</h3>
 <p>这是一个很常用的技巧，如判断一个数是否在数组里面：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 如果url含有 ? 号，则后面拼上&amp;符号，否则加上?号</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 如果url含有 ? 号，则后面拼上&amp;符号，否则加上?号</span>
 url += ~url.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;?&#x27;</span>) ? <span class="hljs-string">&#x27;&amp;&#x27;</span> : <span class="hljs-string">&#x27;?&#x27;</span>;
 </code></pre>
 <p>因为：<code>~-1 === 0</code></p>

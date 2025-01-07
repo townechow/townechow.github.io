@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","blocks-as-scopes"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4i0TJKdvY1lkzsoX6Q0vS",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T35d2,<h1>块作用域</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","compilation","blocks-as-scopes"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/compilation/blocks-as-scopes","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","7j_K4e91WeuN_oVWR0ucv",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3656,<h1>块作用域</h1>
 <blockquote>
 <p>任何一对花括号中的语句集都属于一个块，在这之中定义的所有变量在代码块外都是不可见的，我们称之为 <strong>块级作用域</strong>。</p>
 </blockquote>
@@ -27,7 +28,7 @@ c:T35d2,<h1>块作用域</h1>
 <li><code>for</code> 循环中的 <code>var</code> 会污染全局（不局限于循环内）</li>
 </ul>
 <p>🌰 <strong>代码示例：优先使用</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">var</span> foo = <span class="hljs-number">3</span>;
@@ -38,7 +39,7 @@ c:T35d2,<h1>块作用域</h1>
 <span class="hljs-comment">// 3</span>
 </code></pre>
 <p>🌰 <strong>代码示例：变量提升</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> foo = <span class="hljs-number">5</span>;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo);
@@ -51,7 +52,7 @@ c:T35d2,<h1>块作用域</h1>
 <span class="hljs-comment">// undefined,</span>
 </code></pre>
 <p>🌰 <strong>代码示例：污染全局</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">9</span>; i++) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">9</span>; i++) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;循环内部&#x27;</span> + i);
 }
 
@@ -63,7 +64,7 @@ c:T35d2,<h1>块作用域</h1>
 </code></pre>
 <h3>let</h3>
 <p><code>let</code> 声明使用方法基本和 <code>var</code> 相同，而且声明的变量只在其块和子块中可用。 二者之间最主要的区别在于 <code>var</code> 声明的变量的作用域是整个封闭函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>) {
     <span class="hljs-keyword">var</span> number = <span class="hljs-number">5</span>;
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(number);
@@ -86,7 +87,7 @@ bar(); <span class="hljs-comment">// 5 和 ReferenceError: number is not defined
 </span></code></pre>
 <p><code>let</code> 声明的变量的作用域<strong>只有外层块</strong>，而不是整个外层函数。</p>
 <p>我们可以利用这个特性来替代立即执行函数（IIFE）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">/**
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">/**
  * IIFE
  */</span>
 (<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
@@ -110,7 +111,7 @@ bar(); <span class="hljs-comment">// 5 和 ReferenceError: number is not defined
 </ul>
 <h3>const</h3>
 <p><code>const</code> 的用法跟 <code>let</code> 差不多，但是 <code>const</code> 一定要赋值，不赋值会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 用法</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 用法</span>
 <span class="hljs-keyword">const</span> number = <span class="hljs-number">4</span>;
 
 <span class="hljs-comment">// 没有初始化报错</span>
@@ -119,7 +120,7 @@ bar(); <span class="hljs-comment">// 5 和 ReferenceError: number is not defined
 </code></pre>
 <p><code>const</code> 是块级作用域，<code>const</code> 跟 <code>let</code> 的语义相似，就是用来声明常量的，一旦声明了就不能更改。</p>
 <p>⚠️ <strong>注意</strong>：值得注意的是 <code>const</code> 声明的变量记录的是 <strong>指针</strong>，不可更改的是 <strong>指针</strong>，如果 <code>const</code> 所声明的是对象，对象的内容还是可以修改的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 重新赋值声明导致报错</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 重新赋值声明导致报错</span>
 <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">PI</span> = <span class="hljs-number">3.14</span>;
 <span class="hljs-variable constant_">PI</span> = <span class="hljs-number">3.1415926</span>;
 <span class="hljs-comment">// TypeError: Assignment to constant variable.</span>
@@ -141,7 +142,7 @@ foo.<span class="hljs-property">bar</span> = <span class="hljs-number">3</span>;
 <h2>暂时性死区</h2>
 <p>使用 <code>let</code> 或 <code>const</code> 声明的变量，在声明赋值没有到达之前，访问该变量都会导致报错，就连一直以为安全的 <code>typeof</code> 也不再安全。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// TDZ1</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// TDZ1</span>
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-comment">// TDZ 开始</span>
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> number);
@@ -153,7 +154,7 @@ foo.<span class="hljs-property">bar</span> = <span class="hljs-number">3</span>;
 </code></pre>
 <p>报的错是 <code>ReferenceError</code>，如果使用 <code>var</code> 声明的话，<code>number</code> 输出应该是 <code>undefined</code>，从 <code>let</code> 声明的变量的块的第一行，到声明变量之间的这个区域被称作 <strong>暂时性死区</strong>（TDZ）。凡是在这个区域使用这些变量都会报错。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// TDZ2</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// TDZ2</span>
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">bar</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> number);
 }
@@ -166,7 +167,7 @@ foo.<span class="hljs-property">bar</span> = <span class="hljs-number">3</span>;
 <p>⚠️ <strong>注意</strong>：任何在暂时性死区内访问变量的企图都会导致 <strong>运行时错误</strong>（Runtime Error）。只有执行到变量的声明语句时，该变量才会从暂时性死区内被移除并可以安全使用。</p>
 <h2>显式块级作用域</h2>
 <p>在嵌套的作用域内使用 <code>let</code> 声明同一变量是被允许的。这个嵌套的作用域，在 ES6 中又称 <strong>显式块级作用域</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> foo = <span class="hljs-number">1</span>;
 
 {
   <span class="hljs-comment">// 不会报错</span>
@@ -175,7 +176,7 @@ foo.<span class="hljs-property">bar</span> = <span class="hljs-number">3</span>;
 }
 </code></pre>
 <p>同时因为是 <code>let</code> 和 <code>const</code> 是块级作用域，声明的变量在当前块使用完之后就会被释放，所以就算使用相同的标识符也不会覆盖外部作用域的变量, 而 <code>var</code> 是会覆盖外部作用域的变量的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">var</span> bar = <span class="hljs-number">1</span>;
   {
     <span class="hljs-keyword">let</span> bar = <span class="hljs-number">2</span>;

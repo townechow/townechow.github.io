@@ -7,16 +7,17 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-types","function-currying"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-types/function-currying","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-types/function-currying","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","EN3AdChkGDlOEEAPqHWTK",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4088,<h1>函数柯里化</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-types","function-currying"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-types/function-currying","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-types/function-currying","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","_XN5Gfhi0xrQRG4QZlcTx",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4148,<h1>函数柯里化</h1>
 <blockquote>
 <p>在计算机科学中，柯里化（英语：Currying），又译为卡瑞化或加里化，是一种将使用多个参数的一个函数转换成一系列使用一个参数的函数的技术。</p>
 </blockquote>
 <p>柯里化（Currying），又称部分求值（Partial Evaluation），是把接受多个参数的函数变换成接受一个单一参数（最初函数的第一个参数）的函数，并且返回接受余下的参数而且返回结果的新函数的技术。核心思想是把多参数传入的函数拆成单参数（或部分）函数，内部再返回调用下一个单参数（或部分）函数，依次处理剩余的参数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 传统写法</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 传统写法</span>
 <span class="hljs-title function_">fn</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
 
 <span class="hljs-comment">// 柯里化</span>
@@ -25,13 +26,13 @@ c:T4088,<h1>函数柯里化</h1>
 <p>假设这个函数是用于求和，那么就是把本来接收多个参数一次性求和的函数改成了接收单一参数逐个求和的函数。这样是不是容易理解了。</p>
 <h2>代码实现</h2>
 <p>一步步实现一个柯里化函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">sum3</span>(<span class="hljs-params">x, y, z</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">sum3</span>(<span class="hljs-params">x, y, z</span>) {
   <span class="hljs-keyword">return</span> x + y + z
 }
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">sum</span>(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>));
 <span class="hljs-comment">// 6</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 柯里化</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 柯里化</span>
 <span class="hljs-keyword">const</span> <span class="hljs-title function_">sum3</span>(<span class="hljs-params">x</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">y</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">z</span>) {
@@ -42,7 +43,7 @@ c:T4088,<h1>函数柯里化</h1>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">sum</span>(<span class="hljs-number">1</span>)(<span class="hljs-number">2</span>)(<span class="hljs-number">3</span>));
 <span class="hljs-comment">// 6</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">curry</span>(<span class="hljs-params">fn</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">curry</span>(<span class="hljs-params">fn</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">y</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">z</span>) {
       <span class="hljs-keyword">return</span> <span class="hljs-title function_">fn</span>(x, y, z);
@@ -55,7 +56,7 @@ c:T4088,<h1>函数柯里化</h1>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">sum3</span>(<span class="hljs-number">1</span>)(<span class="hljs-number">2</span>)(<span class="hljs-number">3</span>)); <span class="hljs-comment">// 6</span>
 </code></pre>
 <p>更多参数：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">curryN</span>(<span class="hljs-params">fn</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">curryN</span>(<span class="hljs-params">fn</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">a1</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">a2</span>) {
       <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">a3</span>) {
@@ -69,7 +70,7 @@ c:T4088,<h1>函数柯里化</h1>
 }
 </code></pre>
 <p>通过 &lt;strong style=&quot;color:red&quot;&gt;递归&lt;/strong&gt; 来简化这种写法：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">x</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-title function_">nest</span>(fn);
   };
@@ -79,7 +80,7 @@ c:T4088,<h1>函数柯里化</h1>
 }
 </code></pre>
 <p>这里缺少一个循环终止的判断，所以 <code>nest</code> 函数先引入一个新参数 <code>i</code>，当 <code>i === N</code> 时递归终止</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn, i</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn, i</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span>(<span class="hljs-params">x</span>) {
     <span class="hljs-keyword">if</span> (i === N) {
         <span class="hljs-keyword">return</span> <span class="hljs-title function_">fn</span>(...)
@@ -92,7 +93,7 @@ c:T4088,<h1>函数柯里化</h1>
 }
 </code></pre>
 <p>接着，需要一个存放任意多个参数的数组，将这个数组命名为 <code>args</code>，然后传入 <code>nest</code> 函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn, i, args</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">nest</span>(<span class="hljs-params">fn, i, args</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">x</span>) {
     args.<span class="hljs-title function_">push</span>(x);
     <span class="hljs-keyword">if</span> (i === fn.<span class="hljs-property">length</span>) {
@@ -107,7 +108,7 @@ c:T4088,<h1>函数柯里化</h1>
 }
 </code></pre>
 <p>最后在添加一个处理 0 个参数的情况，我们就完成了最终版的柯里化函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">curry</span>(<span class="hljs-params">fn</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">curry</span>(<span class="hljs-params">fn</span>) {
   <span class="hljs-keyword">if</span> (fn.<span class="hljs-property">length</span> === <span class="hljs-number">0</span>) {
     <span class="hljs-keyword">return</span> fn;
   }
@@ -117,7 +118,7 @@ c:T4088,<h1>函数柯里化</h1>
 </code></pre>
 <h2>代码示例</h2>
 <p><strong>示例一：实现一个柯里化求和函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> currying = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn, ...args</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> currying = <span class="hljs-keyword">function</span> (<span class="hljs-params">fn, ...args</span>) {
   <span class="hljs-keyword">const</span> len = fn.<span class="hljs-property">length</span>;
   args = args || [];
   <span class="hljs-keyword">return</span> <span class="hljs-function">() =&gt;</span> {
@@ -136,16 +137,16 @@ c:T4088,<h1>函数柯里化</h1>
 </code></pre>
 <p>看起来挺巧妙，但是这种案例明摆着就像不从实际出发的面试题。</p>
 <p><strong>示例二：查询数组中是否存在某值</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> find = <span class="hljs-keyword">function</span> (<span class="hljs-params">arr, value</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> find = <span class="hljs-keyword">function</span> (<span class="hljs-params">arr, value</span>) {
   <span class="hljs-keyword">return</span> arr.<span class="hljs-title function_">indexOf</span>(value) !== -<span class="hljs-number">1</span>;
 };
 </code></pre>
 <p>一个简单的函数用于查询数组中是否某个值，每次使用都需要这样调用。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">find</span>(arr, <span class="hljs-number">1</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">find</span>(arr, <span class="hljs-number">1</span>);
 <span class="hljs-title function_">find</span>(arr, <span class="hljs-number">2</span>);
 </code></pre>
 <p>既然 <code>arr</code> 是个固定参数，那么我们可以先保存一个接收过 <code>arr</code> 的函数，再用这个函数去处理变化的参数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> collection = [<span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> collection = [<span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>];
 <span class="hljs-keyword">const</span> findInCollection = <span class="hljs-title function_">currying</span>(find)(collection);
 
 <span class="hljs-title function_">findInCollection</span>(<span class="hljs-number">1</span>);
@@ -153,7 +154,7 @@ c:T4088,<h1>函数柯里化</h1>
 </code></pre>
 <p>函数柯里化的用途可以理解为：参数复用。本质上是降低通用性，提高适用性。</p>
 <p><strong>柯里化简便实现</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">curry</span> = (<span class="hljs-params">fn</span>) =&gt;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">curry</span> = (<span class="hljs-params">fn</span>) =&gt;
   (judge = <span class="hljs-function">(<span class="hljs-params">...args</span>) =&gt;</span> (args.<span class="hljs-property">length</span> === fn.<span class="hljs-property">length</span> ? <span class="hljs-title function_">fn</span>(...args) : <span class="hljs-function">(<span class="hljs-params">arg</span>) =&gt;</span> <span class="hljs-title function_">judge</span>(...args, arg)));
 
 <span class="hljs-comment">// 展开</span>
@@ -166,10 +167,10 @@ c:T4088,<h1>函数柯里化</h1>
 <li>反柯里化则是扩大适用范围，创建一个应用范围更广的函数。</li>
 </ul>
 <p>对应的代码转换就变成这样。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">fn</span>(<span class="hljs-number">1</span>)(<span class="hljs-number">2</span>)(<span class="hljs-number">3</span>)(<span class="hljs-number">4</span>)  -&gt;  <span class="hljs-title function_">fn</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>)
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">fn</span>(<span class="hljs-number">1</span>)(<span class="hljs-number">2</span>)(<span class="hljs-number">3</span>)(<span class="hljs-number">4</span>)  -&gt;  <span class="hljs-title function_">fn</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>)
 </code></pre>
 <p>实例</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Array</span>.<span class="hljs-property">forEach</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Array</span>.<span class="hljs-property">forEach</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
   <span class="hljs-keyword">const</span> fn = [].<span class="hljs-property">pop</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>);
 
   <span class="hljs-keyword">const</span> arr = <span class="hljs-variable language_">arguments</span>.<span class="hljs-property">length</span> &gt; <span class="hljs-number">1</span> ? <span class="hljs-variable language_">arguments</span> : <span class="hljs-variable language_">arguments</span>[<span class="hljs-number">0</span>];

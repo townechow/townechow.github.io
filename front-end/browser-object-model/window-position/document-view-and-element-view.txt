@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","window-position","document-view-and-element-view"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/window-position/document-view-and-element-view","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/window-position/document-view-and-element-view","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","8LBu5CUTnOL-uKRiV3j1P",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T2a24,<h1>文档视图和元素视图</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","window-position","document-view-and-element-view"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/window-position/document-view-and-element-view","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/window-position/document-view-and-element-view","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6hfZHAkKRN2t9HMfuOlSW",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2160,<h1>文档视图和元素视图</h1>
 <p>文档视图和元素视图中包含的与元素大小位置相关的方法主要有：</p>
 <ol>
 <li><code>elementFromPoint()</code></li>
@@ -22,18 +23,13 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 <h2>elementFromPoint</h2>
 <p>根据坐标获取元素</p>
 <p><code>elementFromPoint()</code> 根据文档上横纵坐标，获取当前文档上该坐标点上位置最顶层的 DOM 元素，该坐标是相对于文档的浏览器窗口左上角为原点来计算的，通常横纵坐标为正数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">elementFromPoint</span>(offsetX, offsetY);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">elementFromPoint</span>(offsetX, offsetY);
 </code></pre>
 <blockquote>
 <p>⚠️ 参数 offsetX 和 offsetY 为坐标数值，不需要单位（比如像素单位 px）</p>
 </blockquote>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/document-view-and-element-view/element-from-point.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;elementFromPoint&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p>使用如下示例代码：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">elementFromPoint</span>(offsetX, offsetY);
+<img alt="elementFromPoint" src="../../assets/document-view-and-element-view/element-from-point.png" width="800" /><p>使用如下示例代码：</p>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">elementFromPoint</span>(offsetX, offsetY);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo); <span class="hljs-comment">// &lt;div id=&quot;foo&quot;&gt;&lt;/foo&gt;</span>
 </code></pre>
@@ -42,17 +38,12 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 </blockquote>
 <h2>getClientRects() 获取元素占据页面的所有矩形区域</h2>
 <p><code>getClientRects()</code> 方法返回一组元素相关的只读属性的矩形集合 DOMRectList。包括当前元素相对于浏览器视口左上角的顶端（top）、底端（bottom）、左端（left）、右端（right）的<strong>偏移量</strong>，元素自身的宽度（width）和高度（height）属性，以及元素自身的横（x）纵（y）坐标。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> rectCollection = ele.<span class="hljs-title function_">getClientRects</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> rectCollection = ele.<span class="hljs-title function_">getClientRects</span>();
 </code></pre>
 <blockquote>
 <p>⚠️ 当元素发生滚动时，顶端（top）、底端（bottom）、左端（left） 和 右端（right） 的偏移量也会发生改变。</p>
 </blockquote>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/document-view-and-element-view/get-client-rects.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;getClientRects&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<ul>
+<img alt="getClientRects" src="../../assets/document-view-and-element-view/get-client-rects.png" width="720" /><ul>
 <li>top：元素左上角距浏览器页面顶端的距离</li>
 <li>left：元素左上角距浏览器页面左端的距离</li>
 <li>bottom：元素右下角距浏览器页面的顶端的距离</li>
@@ -64,7 +55,7 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 <p>浏览器页面指文档整体宽高组成的区域，通常通过滚动条查看未在可视区域内显示的页面内容。</p>
 </blockquote>
 <p>使用如下示例代码：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 
 <span class="hljs-keyword">const</span> fooRects = foo.<span class="hljs-title function_">getClientRects</span>();
 
@@ -85,14 +76,9 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 <h2>getBoundingClientRect() 获取元素位置</h2>
 <p><code>getBoundingClientRect()</code> 方法放回一组元素的左、上、右及下分别<strong>相对</strong>浏览器可视窗口的位置的集合 DOMRect。</p>
 <p><code>getBoundingClientRect</code> 是 <code>DOM</code> 元素到浏览器可视范围的距离（不包含文档卷起的部分）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> rectObject = ele.<span class="hljs-title function_">getBoundingClientRect</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> rectObject = ele.<span class="hljs-title function_">getBoundingClientRect</span>();
 </code></pre>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/document-view-and-element-view/get-bounding-client-rect.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;getBoundingClientRect&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<ul>
+<img alt="getBoundingClientRect" src="../../assets/document-view-and-element-view/get-bounding-client-rect.png" width="720" /><ul>
 <li>top：元素左上角距浏览器可视区域顶端的距离</li>
 <li>left：元素左上角距浏览器可视区域左端的距离</li>
 <li>bottom：元素右下角距浏览器可视区域的顶端的距离</li>
@@ -101,7 +87,7 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 <li>height：元素高度（包括内容、边距和边框）</li>
 </ul>
 <p>使用如下示例代码：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 
 <span class="hljs-keyword">const</span> fooBoundingRect = ele.<span class="hljs-title function_">getBoundingClientRect</span>();
 
@@ -124,7 +110,7 @@ c:T2a24,<h1>文档视图和元素视图</h1>
 <p>⚗️ 这是一个实验中的功能</p>
 </blockquote>
 <p><code>scrollView()</code> 方法让当前的元素滚动到浏览器窗口的可视区域内。</p>
-<pre class="hljs"><code class="language-js">element.<span class="hljs-title function_">scrollIntoView</span>(alignToTop || options);
+<pre class="hljs language-js"  style=--lang:"js" ><code>element.<span class="hljs-title function_">scrollIntoView</span>(alignToTop || options);
 </code></pre>
 <table>
 <thead>

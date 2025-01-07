@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","generator","generator"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/generator","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/generator","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZXkeQ0wGFOvByQq6kUbOz",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4876,<h1>Generator</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","generator","generator"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/generator","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/generator","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","EKhpmg7hHla6Svg8g46L6",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T491e,<h1>Generator</h1>
 <p>Generator 函数是 ES6 提供的一种异步编程解决方案，语法行为与传统函数完全不同。</p>
 <blockquote>
 <p>本篇着重介绍 语法及 API，异步编程应用参考 <a href="/front-end/standard-built-in-objects/control-abstraction-objects/generator/generator-async">Generator 函数的异步应用</a></p>
@@ -25,7 +26,7 @@ c:T4876,<h1>Generator</h1>
 <li><code>function</code> 关键字与函数名之间有一个星号（<code>*</code>）</li>
 <li>函数体内部使用 <code>yield</code>（中文 <code>生产/产出</code> 的意思）表单式，定义不同的内部状态</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">helloWorldGenerator</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">helloWorldGenerator</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-string">&#x27;Hello&#x27;</span>;
   <span class="hljs-keyword">yield</span> <span class="hljs-string">&#x27;World&#x27;</span>;
   <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;Ending&#x27;</span>;
@@ -37,7 +38,7 @@ c:T4876,<h1>Generator</h1>
 <h3>调用方法</h3>
 <p>Generator 函数的调用方法与普通函数一样，也是在函数名后面加上一对圆括号。不同的是，调用 Generator 函数后，该函数并<strong>不执行</strong>，返回的也不是函数运行结果，而是一个<strong>指向内部状态的指针对象</strong>，也就是 <a href="/front-end/standard-built-in-objects/control-abstraction-objects/iterator-objects/iterator">遍历器对象</a>（Iterator Object）。</p>
 <p>下一步，必须调用遍历器对象的 <code>next</code> 方法，使得指针移向下一个状态。也就是说，每次调用 <code>next</code> 方法，内部指针就从函数头部或上一次停下来的地方开始执行，直到遇到下一个 <code>yield</code> 表达式（或 <code>return</code> 语句）为止。换言之，Generator 函数是分段执行的，<code>yield</code> 表达式是暂停执行的标记，而 <code>next</code> 方法可以恢复执行。</p>
-<pre class="hljs"><code class="language-js">hw.<span class="hljs-title function_">next</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code>hw.<span class="hljs-title function_">next</span>();
 <span class="hljs-comment">// { value: &#x27;Hello&#x27;, done: false }</span>
 
 hw.<span class="hljs-title function_">next</span>();
@@ -73,7 +74,7 @@ hw.<span class="hljs-title function_">next</span>();
 </li>
 </ol>
 <p>需要注意的是，<code>yield</code> 表达式后面的表达式，只有当调用 <code>next</code> 方法、内部指针指向该语句时才会执行，因此等于为 JavaScript 提供了手动的“<strong>惰性求值</strong>”（Lazy Evaluation）的语法功能。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-number">123</span> + <span class="hljs-number">456</span>;
 }
 </code></pre>
@@ -98,7 +99,7 @@ hw.<span class="hljs-title function_">next</span>();
 </ul>
 <h3>暂缓执行函数</h3>
 <p>Generator 函数可以不用 <code>yield</code> 表达式，这时就变成了一个单纯的<strong>暂缓执行函数</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;执行了！&#x27;</span>);
 }
 
@@ -111,7 +112,7 @@ hw.<span class="hljs-title function_">next</span>();
 <p>上面代码中，函数 <code>fn</code> 如果是普通函数，在为变量 <code>generator</code> 赋值时就会执行。但是，函数 <code>fn</code> 是一个 Generator 函数，就变成只有调用 <code>next</code> 方法时，函数 <code>fn</code> 才会执行。</p>
 <h3>表达式规范</h3>
 <p>另外需要注意，<strong><code>yield</code>表达式只能用在 Generator 函数里面</strong>，用在其他地方都会报错。</p>
-<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>){
   <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
 })()
 <span class="hljs-comment">// SyntaxError: Unexpected number</span>
@@ -119,7 +120,7 @@ hw.<span class="hljs-title function_">next</span>();
 <p>上面代码在一个普通函数中使用 <code>yield</code> 表达式，结果产生一个句法错误。</p>
 <h3>嵌套表达式</h3>
 <p><code>yield</code> 表达式如果用在另一个表达式之中，必须放在<strong>圆括号</strong>里面。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">demo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">demo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Hello&#x27;</span> + <span class="hljs-keyword">yield</span>); <span class="hljs-comment">// SyntaxError</span>
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Hello&#x27;</span> + <span class="hljs-keyword">yield</span> <span class="hljs-number">123</span>); <span class="hljs-comment">// SyntaxError</span>
 
@@ -128,7 +129,7 @@ hw.<span class="hljs-title function_">next</span>();
 }
 </code></pre>
 <p><code>yield</code> 表达式用作<strong>函数参数</strong>或放在<strong>赋值表达式</strong>的右边，可以不加括号。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">demo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">demo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-title function_">foo</span>(<span class="hljs-keyword">yield</span> <span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-keyword">yield</span> <span class="hljs-string">&#x27;b&#x27;</span>); <span class="hljs-comment">// OK</span>
   <span class="hljs-keyword">let</span> input = <span class="hljs-keyword">yield</span>; <span class="hljs-comment">// OK</span>
 }
@@ -142,7 +143,7 @@ hw.<span class="hljs-title function_">next</span>();
 <p><strong>原型方法共同点</strong></p>
 <p>三者的作用都是让 Generator 函数恢复执行，并且使用不同的语句替换 <code>yield</code> 表达式。</p>
 <p><code>next()</code> 是将 <code>yield</code> 表达式替换成一个值。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>*(x, y) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>*(x, y) {
   <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">yield</span> x + y;
   <span class="hljs-keyword">return</span> result;
 };
@@ -158,20 +159,20 @@ gen.<span class="hljs-title function_">next</span>(<span class="hljs-number">1</
 </code></pre>
 <p>上面代码中，第二个 <code>next(1)</code> 方法就相当于将 <code>yield</code> 表达式替换成一个值 <code>1</code>。如果 <code>next</code> 方法没有参数，就相当于替换成 <code>undefined</code>。</p>
 <p><code>throw()</code> 是将 <code>yield</code> 表达式替换成一个 <code>throw</code> 语句。</p>
-<pre class="hljs"><code class="language-js">gen.<span class="hljs-keyword">throw</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-string">&#x27;出错了&#x27;</span>)); <span class="hljs-comment">// Uncaught Error: 出错了</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>gen.<span class="hljs-keyword">throw</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-string">&#x27;出错了&#x27;</span>)); <span class="hljs-comment">// Uncaught Error: 出错了</span>
 
 <span class="hljs-comment">// 相当于将 let result = yield x + y</span>
 <span class="hljs-comment">// 替换成 let result = throw(new Error(&#x27;出错了&#x27;));</span>
 </code></pre>
 <p><code>return()</code> 是将 <code>yield</code> 表达式替换成一个 <code>return</code> 语句。</p>
-<pre class="hljs"><code class="language-js">gen.<span class="hljs-keyword">return</span>(<span class="hljs-number">2</span>); <span class="hljs-comment">// Object {value: 2, done: true}</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>gen.<span class="hljs-keyword">return</span>(<span class="hljs-number">2</span>); <span class="hljs-comment">// Object {value: 2, done: true}</span>
 
 <span class="hljs-comment">// 相当于将 let result = yield x + y</span>
 <span class="hljs-comment">// 替换成 let result = return 2;</span>
 </code></pre>
 <h2>作为对象的函数</h2>
 <p>如果一个对象的属性是 Generator 函数，可以简写成下面的形式。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> obj = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> obj = {
   *<span class="hljs-title function_">generator</span>(<span class="hljs-params"></span>) {
     <span class="hljs-comment">// ···</span>
   },
@@ -179,7 +180,7 @@ gen.<span class="hljs-title function_">next</span>(<span class="hljs-number">1</
 </code></pre>
 <p>上面代码中，<code>generator</code> 属性前面有一个星号，表示这个属性是一个 Generator 函数。</p>
 <p>它的完整形式如下，与上面的写法是等价的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> obj = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> obj = {
   <span class="hljs-attr">myGeneratorMethod</span>: <span class="hljs-keyword">function</span>*() {
     <span class="hljs-comment">// ···</span>
   },
@@ -187,12 +188,12 @@ gen.<span class="hljs-title function_">next</span>(<span class="hljs-number">1</
 </code></pre>
 <h2>判断方法</h2>
 <p><strong>生成器对象的判断方法</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">isGenerator</span>(<span class="hljs-params">obj</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">isGenerator</span>(<span class="hljs-params">obj</span>) {
   <span class="hljs-keyword">return</span> obj &amp;&amp; <span class="hljs-keyword">typeof</span> obj.<span class="hljs-property">next</span> === <span class="hljs-string">&#x27;function&#x27;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> obj.<span class="hljs-property">throw</span> === <span class="hljs-string">&#x27;function&#x27;</span>;
 }
 </code></pre>
 <p><strong>生成器函数的判断方法</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">isGeneratorFunction</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">isGeneratorFunction</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">var</span> constructor = obj.<span class="hljs-property">constructor</span>;
   <span class="hljs-keyword">if</span> (!constructor) <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
   <span class="hljs-keyword">if</span> (<span class="hljs-string">&#x27;GeratorFunction&#x27;</span> === constructor.<span class="hljs-property">name</span> || <span class="hljs-string">&#x27;GeneratorFunction&#x27;</span> === constructor.<span class="hljs-property">displayName</span>)

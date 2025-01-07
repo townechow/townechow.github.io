@@ -7,20 +7,21 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","node","node-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/node/node-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/node/node-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Q5ijSdiXD0vUGAmIpIM8L",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T6e0d,<h1>Node 方法</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","node","node-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/node/node-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/node/node-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","BvPjKqccshkYnqOK4i8aO",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T6ffb,<h1>Node 方法</h1>
 <p>由于关系指针都是只读的，因此 DOM 提供了一些操作节点的方法。</p>
 <h2>增删改型方法</h2>
 <h3>insertBefore</h3>
 <p>在当前节点下增加一个子节点 Node，并使该子节点位于参考节点的前面。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">insertBefore</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">insertBefore</span>(node);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 <span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementId</span>(<span class="hljs-string">&#x27;bar&#x27;</span>);
 
 foo.<span class="hljs-title function_">insertBefore</span>(bar);
@@ -29,11 +30,11 @@ foo.<span class="hljs-title function_">insertBefore</span>(bar);
 <p>将指定的 childNode 参数作为最后一个子节点添加到当前节点。
 如果参数引用了 DOM 树上的现有节点，则节点将从当前位置分离，并附加到新位置。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">appendChild</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">appendChild</span>(node);
 </code></pre>
 <p>参数 <code>node</code> 为被插入的 DOM 节点引用。</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 <span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementId</span>(<span class="hljs-string">&#x27;bar&#x27;</span>);
 
 foo.<span class="hljs-title function_">appendChild</span>(bar);
@@ -46,63 +47,63 @@ foo.<span class="hljs-title function_">appendChild</span>(bar);
 <h3>replaceChild</h3>
 <p>替换当前节点的某个指定子节点为指定的节点。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">replaceChild</span>(newChild, oldChild);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">replaceChild</span>(newChild, oldChild);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
 <p>创建一个 <code>span</code> 元素并将其替代 <code>foo</code> 的第一个元素节点。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> span = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;span&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> span = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;span&#x27;</span>);
 <span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 <span class="hljs-keyword">const</span> bar = foo.<span class="hljs-property">firstElementChild</span>;
 
 foo.<span class="hljs-title function_">replace</span>(bar, span);
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
 <h3>removeChild</h3>
 <p>从 DOM 中删除一个子节点，返回删除的节点。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">removeChild</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">removeChild</span>(node);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 <span class="hljs-keyword">const</span> bar = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;bar&#x27;</span>);
 
 foo.<span class="hljs-title function_">removeChild</span>(bar);
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-js">&lt;div id=<span class="hljs-string">&quot;foo&quot;</span>&gt;&lt;/div&gt;
+<pre class="hljs language-js"  style=--lang:"js" ><code>&lt;div id=<span class="hljs-string">&quot;foo&quot;</span>&gt;&lt;/div&gt;
 </code></pre>
 <h3>cloneNode()</h3>
 <p>克隆节点到当前节点的子节点列表（及其属性和后代节点）。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">cloneNode</span>(deep);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">cloneNode</span>(deep);
 </code></pre>
 <p>参数 <code>deep</code> 为 Boolean 类型，表示是否采用深度克隆，如果是 <code>true</code>，则该节点的所有后代节点也会被克隆，如果为 <code>false</code>，则只克隆该节点本身。</p>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 
 <span class="hljs-keyword">const</span> backup = foo.<span class="hljs-title function_">cloneNode</span>();
 
 foo.<span class="hljs-title function_">appendChild</span>(backup);
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- 克隆后插入到子节点列表最后 --&gt;</span>
@@ -121,10 +122,10 @@ foo.<span class="hljs-title function_">appendChild</span>(backup);
 <h3>hasChildNodes</h3>
 <p>判断当前节点是否含有子节点</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">hasChildNodes</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">hasChildNodes</span>();
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;foo&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;bar&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
@@ -142,16 +143,16 @@ foo.<span class="hljs-title function_">appendChild</span>(backup);
 <p>判断两个节点是否相等。</p>
 <p>当两个节点的类型相同，定义特征（defining characteristics）相同（对元素来说，即 id，孩子节点的数量等等），属性一致等，这两个节点就是相等的。一些具体的数据指出：多数时候的比较是根据节点的类型来的。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">isEqualNode</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">isEqualNode</span>(node);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>I am the champion!<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> items = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByClassName</span>(<span class="hljs-string">&#x27;list&#x27;</span>)[<span class="hljs-number">0</span>].<span class="hljs-property">children</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> items = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByClassName</span>(<span class="hljs-string">&#x27;list&#x27;</span>)[<span class="hljs-number">0</span>].<span class="hljs-property">children</span>;
 
 consolg.<span class="hljs-title function_">log</span>(items[<span class="hljs-number">0</span>].<span class="hljs-title function_">isEqualNode</span>(items[<span class="hljs-number">1</span>]));
 <span class="hljs-comment">// false</span>
@@ -161,10 +162,10 @@ consolg.<span class="hljs-title function_">log</span>(items[<span class="hljs-nu
 <h3>compareDocumentPosition</h3>
 <p>比较当前节点与任意文档中的另一节点的位置关系</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">compareDocumentPosition</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">compareDocumentPosition</span>(node);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> head = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;head&#x27;</span>).<span class="hljs-title function_">item</span>(<span class="hljs-number">0</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> head = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByTagName</span>(<span class="hljs-string">&#x27;head&#x27;</span>).<span class="hljs-title function_">item</span>(<span class="hljs-number">0</span>);
 <span class="hljs-keyword">if</span> (head.<span class="hljs-title function_">compareDocumentPosition</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>) &amp; <span class="hljs-title class_">Node</span>.<span class="hljs-property">DOCUMENT_POSITION_FOLLOWING</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;well-formed document&#x27;</span>);
 } <span class="hljs-keyword">else</span> {
@@ -175,10 +176,10 @@ consolg.<span class="hljs-title function_">log</span>(items[<span class="hljs-nu
 <p>规范化当前节点及其后代节点</p>
 <p>在一个规范化后的 DOM 树中，不存在一个空的文本节点，或者两个相邻的文本节点。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">normalize</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Node</span>.<span class="hljs-title function_">normalize</span>();
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> wrapper = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> wrapper = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
 
 wrapper.<span class="hljs-title function_">appendChild</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createTextNode</span>(<span class="hljs-string">&#x27;Part 1&#x27;</span>));
 wrapper.<span class="hljs-title function_">appendChild</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createTextNode</span>(<span class="hljs-string">&#x27;Part 2&#x27;</span>));
@@ -196,46 +197,46 @@ wrapper.<span class="hljs-title function_">normalize</span>();
 <h3>ChildNode.remove</h3>
 <p>从文档中移除当前节点</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">remove</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">remove</span>();
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item1&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item2&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
 <span class="hljs-keyword">const</span> item2 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item2&#x27;</span>);
 
 item1.<span class="hljs-title function_">remove</span>();
 item2.<span class="hljs-title function_">remove</span>();
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
 <h3>ChildNode.before</h3>
 <p>在其父节点的子节点列表中插入一些 Node 或 DOMString 对象。插入位置为 ChildNode 之前。DOMString 对象会被以 Text 的形式插入。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">before</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">before</span>();
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item1&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item2&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
 <span class="hljs-keyword">const</span> li = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;li&#x27;</span>);
 li.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
 
 item1.<span class="hljs-title function_">before</span>(li);
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item1&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item2&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -246,23 +247,23 @@ item1.<span class="hljs-title function_">before</span>(li);
 <p>插入节点到当前节点后面。</p>
 <p>在其父节点的子节点列表中插入一些 Node 或 DOMString 对象。插入位置为 ChildNode 之后。DOMString 对象会被以 Text 的形式插入。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">after</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">after</span>();
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item1&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item2&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> item1 = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.item1&#x27;</span>);
 <span class="hljs-keyword">const</span> li = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;li&#x27;</span>);
 li.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
 
 item1.<span class="hljs-title function_">after</span>(li);
 </code></pre>
 <p>运行后：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;list&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item1&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item2&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -272,10 +273,10 @@ item1.<span class="hljs-title function_">after</span>(li);
 <h3>ChildNode.replaceWith</h3>
 <p>替换当前节点为另一节点。</p>
 <p>📖 <strong>语法：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">replaceWith</span>(node);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">ChildNode</span>.<span class="hljs-title function_">replaceWith</span>(node);
 </code></pre>
 <p>🌰 <strong>示例：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> parent = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> parent = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">&#x27;div&#x27;</span>);
 <span class="hljs-keyword">const</span> child = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElment</span>(<span class="hljs-string">&#x27;p&#x27;</span>);
 
 parent.<span class="hljs-title function_">appendChild</span>(child);

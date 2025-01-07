@@ -7,14 +7,15 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","web-event","dialog"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/web-event/dialog","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/web-event/dialog","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YkUXDdg8QOgZG8JnlLurd",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T14e3,<h1>对话框 API</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","web-event","dialog"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/web-event/dialog","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/web-event/dialog","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","O9GnwQJEAMwmpF2-7uw2h",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T1539,<h1>对话框 API</h1>
 <h2>alert</h2>
 <p>显示一个警告对话框，上面显示有指定的文本内容以及一个“确定”按钮。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">alert</span>(message);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">alert</span>(message);
 </code></pre>
 <p><code>message</code> 为显示在对话框内的文本字符串，如果传入其它类型的值，会转换成字符串。</p>
 <ul>
@@ -23,15 +24,15 @@ c:T14e3,<h1>对话框 API</h1>
 </ul>
 <h3>示例</h3>
 <h4>基本用法</h4>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;Hello world!&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;Hello world!&#x27;</span>);
 </code></pre>
 <h4>换行</h4>
 <p><code>alert()</code> 方法的参数可以用 <code>\n</code> 指定换行</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;本条提示\n分成两行&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;本条提示\n分成两行&#x27;</span>);
 </code></pre>
 <h2>confirm</h2>
 <p><code>window.confirm</code> 方法显示一个具有一个可选消息和两个按钮（确定和取消）的模态对话框。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> res = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">confirm</span>(message);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> res = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">confirm</span>(message);
 </code></pre>
 <ul>
 <li><code>message</code> 是要在对话框中显示的可选字符串</li>
@@ -39,13 +40,13 @@ c:T14e3,<h1>对话框 API</h1>
 </ul>
 <p>对话框是弹出式的，直到这个对话框被点击后，后面的脚本才会运行。</p>
 <h3>示例</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (<span class="hljs-variable language_">window</span>.<span class="hljs-title function_">confirm</span>(<span class="hljs-string">&#x27;Do you really want to leave?&#x27;</span>)) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (<span class="hljs-variable language_">window</span>.<span class="hljs-title function_">confirm</span>(<span class="hljs-string">&#x27;Do you really want to leave?&#x27;</span>)) {
   <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">open</span>(<span class="hljs-string">&#x27;exit.html&#x27;</span>, <span class="hljs-string">&#x27;Thanks for Visiting&#x27;</span>);
 }
 </code></pre>
 <h2>prompt</h2>
 <p><code>window.prompt()</code> 显示一个对话框，对话框中包含一条文字信息，用来提示用户输入文字。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> res = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">prompt</span>(text, value);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> res = <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">prompt</span>(text, value);
 </code></pre>
 <ul>
 <li><code>res</code> 用来存储用户输入文字的字符串，或者是 <code>null</code>;</li>
@@ -54,7 +55,7 @@ c:T14e3,<h1>对话框 API</h1>
 </ul>
 <p>该方法的第二个参数是可选的，如果不提供的话，IE 浏览器会在输入框中显示 undefined。因此，最好总是提供第二个参数，作为输入框的默认值。</p>
 <h3>示例</h3>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
       <span class="hljs-keyword">function</span> <span class="hljs-title function_">disp_prompt</span>(<span class="hljs-params"></span>) {

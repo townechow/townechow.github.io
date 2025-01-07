@@ -7,16 +7,17 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","http","content-security-policy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/content-security-policy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/content-security-policy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","maCxOph3blUSt48j3faSp",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T2caa,<h1>HTTP CSP 内容安全策略</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","http","content-security-policy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/http/content-security-policy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/http/content-security-policy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4B334iK8wLjXIeeIacG3u",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2d36,<h1>HTTP CSP 内容安全策略</h1>
 <p>内容安全策略 (CSP) 是一个额外的安全层，用于检测并削弱某些特定类型的攻击，包括跨站脚本 (XSS) 和数据注入攻击等。无论是数据盗取、网站内容污染还是散发恶意软件，这些攻击都是主要的手段。</p>
 <p>CSP 是一种由开发者定义的安全性政策性申明，通过 CSP 所约束的规则指定可信的内容来源（这里的内容可以指脚本、图片、<code>iframe</code>、<code>font</code>、<code>style</code> 等等可能的远程的资源）。通过 CSP 协定，让 Web 处于一个安全的运行环境中。</p>
 <p>为使 CSP 可用，需要配置网络服务器返回 <code>Content-Security-Policy</code> HTTP 头部。</p>
 <p>除此之外，<code>&lt;meta&gt;</code> 元素也可以用于配置该策略：</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;Content-Security-Policy&quot;</span> /&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;Content-Security-Policy&quot;</span> /&gt;</span>
 </code></pre>
 <h2>指令选项</h2>
 <h3>资源加载指令</h3>
@@ -37,7 +38,7 @@ c:T2caa,<h1>HTTP CSP 内容安全策略</h1>
 <p>另外 <code>inline script</code> 和 <code>eval</code> 类型函数（包括 <code>eval</code>、<code>setInterval</code>、<code>setTimeout</code> 和 <code>new Function()</code>）也是不被执行的。</p>
 <h3>default-src</h3>
 <p><code>default-src</code> 用于设置上面各个选项的默认值。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>default-src &#x27;self&#x27;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>default-src &#x27;self&#x27;
 </code></pre>
 <p>上面代码限制所有外部资源，只能从当前渔民该加载。</p>
 <p>如果同时设置某个单项限制（比如 <code>font-src</code>）和 <code>default-src</code>，前者会覆盖后者，即字体文件会采用 <code>font-src</code> 的值，其他资源依然采用 <code>default-src</code> 的值。</p>
@@ -51,11 +52,11 @@ c:T2caa,<h1>HTTP CSP 内容安全策略</h1>
 </ul>
 <h3>report-uri</h3>
 <p>有时，我们不仅希望防止 XSS，还希望记录此类行为。<code>report-uri</code> 就用来告诉浏览器，应该把注入行为报告给哪个网址。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>default-src &#x27;self&#x27;; ...; report-uri /my_amazing_csp_report_parser;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>default-src &#x27;self&#x27;; ...; report-uri /my_amazing_csp_report_parser;
 </code></pre>
 <p>上面代码指定，将注入行为报告给 <code>/my_amazing_csp_report_parser</code> 这个 URL。</p>
 <p>浏览器会使用 <code>POST</code> 方法，发送一个 <code>JSON</code> 对象，下面是一个例子。</p>
-<pre class="hljs"><code class="language-json"><span class="hljs-punctuation">{</span>
+<pre class="hljs language-json"  style=--lang:"json" ><code><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">&quot;csp-report&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
     <span class="hljs-attr">&quot;document-uri&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://example.org/page.html&quot;</span><span class="hljs-punctuation">,</span>
     <span class="hljs-attr">&quot;referrer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://evil.example.com/&quot;</span><span class="hljs-punctuation">,</span>
@@ -76,10 +77,10 @@ c:T2caa,<h1>HTTP CSP 内容安全策略</h1>
 <li><strong>关键字 <code>'none'</code></strong>：禁止加载任何外部资源，需要加引号</li>
 </ul>
 <p>多个值也可以并列，用空格分隔。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;self&#x27; https://apis.google.com
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;self&#x27; https://apis.google.com
 </code></pre>
 <p>如果同一个限制选项使用多次，只有第一次会生效。</p>
-<pre class="hljs"><code class="language-http"># 错误的写法
+<pre class="hljs language-http"  style=--lang:"http" ><code># 错误的写法
 <span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src https://host1.com; script-src https://host2.com
 
 # 正确的写法
@@ -94,18 +95,18 @@ c:T2caa,<h1>HTTP CSP 内容安全策略</h1>
 <li><code>hash</code> 值：列出允许执行的脚本代码的 Hash 值，页面内嵌脚本的哈希值只有吻合的情况下，才能执行。</li>
 </ul>
 <p><code>nonce</code> 值的例子如下，服务器发送网页的时候，告诉浏览器一个随机生成的 <code>token</code>。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;nonce-EDNnf03nceIOfn39fn3e9h3sdfa&#x27;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;nonce-EDNnf03nceIOfn39fn3e9h3sdfa&#x27;
 </code></pre>
 <p>页面内嵌脚本，必须有这个 token 才能执行。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">nonce</span>=<span class="hljs-string">&quot;EDNnf03nceIOfn39fn3e9h3sdfa&quot;</span>&gt;</span><span class="language-javascript">
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">nonce</span>=<span class="hljs-string">&quot;EDNnf03nceIOfn39fn3e9h3sdfa&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-comment">// some code</span>
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
 <p><code>hash</code> 值的例子如下，服务器给出一个允许执行的代码的 <code>hash</code> 值。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;sha256-qznLcsROx4GACP2dm0UCKCzCG-HiZ1guq6ZZDob_Tng=&#x27;
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Security-Policy</span><span class="hljs-punctuation">: </span>script-src &#x27;sha256-qznLcsROx4GACP2dm0UCKCzCG-HiZ1guq6ZZDob_Tng=&#x27;
 </code></pre>
 <p>下面的代码就会允许执行，因为 hash 值相符。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-title function_">alert</span>(<span class="hljs-string">&#x27;Hello, world.&#x27;</span>);
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>

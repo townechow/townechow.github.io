@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","object-understand","manipulating-property"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/manipulating-property","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/manipulating-property","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6QyEdmp1T7Lcy5BTK2N0I",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3750,<h1>属性操作</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","object-understand","manipulating-property"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/manipulating-property","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/manipulating-property","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","FwslX6JcpQZXt93TJ8jrj",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T381c,<h1>属性操作</h1>
 <h2>属性查询</h2>
 <p>属性查询在表达式层面也成为 <a href="/front-end/basic-concept/expressions/primary-expression/property-accessors">属性访问器</a>。</p>
 <p>属性查询一般有两种方法：</p>
@@ -20,7 +21,7 @@ c:T3750,<h1>属性操作</h1>
 <li><a href="/front-end/object-oriented-programming/object-understand/#%E6%96%B9%E6%8B%AC%E5%8F%B7%E8%BF%90%E7%AE%97%E7%AC%A6">方括号运算符</a></li>
 </ul>
 <p>键名可以是中文，因为中文相当于字符，与英文字符同样对待，因此可以写成 <code>person.白</code> 或 <code>person['白']</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> person = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> person = {
   白: <span class="hljs-number">1</span>,
 };
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(person.白);
@@ -31,7 +32,7 @@ c:T3750,<h1>属性操作</h1>
 <h3>点运算符</h3>
 <p>点运算符是很多面向对象语句的通用写法，由于其比较简单，所以较方括号运算符相比，更常用。</p>
 <p>由于 JavaScript 是弱类型语言，在任何对象中都可以创建任意数量的属性。但当通过点运算符 <code>.</code> 访问对象的属性时，属性名用一个标识符来表示，标识符要符合 <a href="/front-end/basic-concept/lexical-grammar/lexical-grammar#%E6%A0%87%E8%AF%86%E7%AC%A6">变量命名规则</a>。标识符必须直接出现在 JavaScript 程序中，它们不是数据类型，因此程序无法修改它们。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {
   <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>,
   <span class="hljs-number">1</span>: <span class="hljs-number">2</span>
 };
@@ -53,7 +54,7 @@ c:T3750,<h1>属性操作</h1>
 <p>方括号中的值若是非字符串类型会使用 <code>String()</code> 隐式转换成字符串再输出。如果是字符串类型，若有引号则原值输出，否则会被识别为变量，若变量未定义，则报错。</p>
 <h4>可计算属性名</h4>
 <p>在方括号运算符内部可以使用表达式。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
 <span class="hljs-keyword">const</span> foo = {
   <span class="hljs-number">3</span>: <span class="hljs-string">&#x27;abc&#x27;</span>,
 };
@@ -61,7 +62,7 @@ c:T3750,<h1>属性操作</h1>
 foo[a + <span class="hljs-number">2</span>]; <span class="hljs-comment">// &#x27;abc&#x27;</span>
 </code></pre>
 <p>但如果要在对象字面量内部对属性名使用表达式，则需要使用 ES6 的可计算属性名。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
 
 <span class="hljs-keyword">const</span> foo = {
   a + <span class="hljs-number">3</span>: <span class="hljs-string">&#x27;abc&#x27;</span>
@@ -69,7 +70,7 @@ foo[a + <span class="hljs-number">2</span>]; <span class="hljs-comment">// &#x27
 <span class="hljs-comment">// Uncaught SyntaxError: Unexpected token +</span>
 </code></pre>
 <p>ES6 增加了可计算属性名，可以在文字中使用 <code>[]</code> 包裹一个表达式来当作属性名。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = <span class="hljs-number">1</span>;
 
 <span class="hljs-keyword">const</span> foo = {
   [a + <span class="hljs-number">3</span>]: <span class="hljs-string">&#x27;bar&#x27;</span>,
@@ -80,34 +81,34 @@ foo[<span class="hljs-number">4</span>];
 </code></pre>
 <h4>属性查询错误</h4>
 <p>查询一个不存在的属性不会报错，而是返回 <code>undefined</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// undefined</span>
 </code></pre>
 <p>如果对象不存在，试图查询这个不存在的对象的属性会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// Uncaught ReferenceError: person is not defined</span>
 </code></pre>
 <p>可以利用这一点，来检查一个全局变量是否被声明。</p>
 <p>检查变量是否被声明</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (a) {...};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (a) {...};
 <span class="hljs-comment">// Uncaught ReferenceError: a is not defined</span>
 </code></pre>
 <p>所有全局变量都是 Window 对象的属性。<code>window.a</code> 的含义就是读取 Window 对象的 <code>a</code> 属性，如果该属性不存在，就返回 <code>undefined</code>，并不会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (<span class="hljs-variable language_">window</span>.<span class="hljs-property">a</span>) {...}
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (<span class="hljs-variable language_">window</span>.<span class="hljs-property">a</span>) {...}
 </code></pre>
 <h2>属性设置</h2>
 <p>属性设置又称为属性赋值，与属性查询相同，具有<strong>点运算符</strong>和<strong>方括号运算符</strong>这两种方法。</p>
 <p>🌰 <strong>代码示例：点运算符</strong></p>
-<pre class="hljs"><code class="language-js">foo.<span class="hljs-property">p</span> = <span class="hljs-string">&#x27;bar&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code>foo.<span class="hljs-property">p</span> = <span class="hljs-string">&#x27;bar&#x27;</span>;
 </code></pre>
 <p>🌰 <strong>代码示例：方括号运算符</strong></p>
-<pre class="hljs"><code class="language-js">foo[<span class="hljs-string">&#x27;p&#x27;</span>] = <span class="hljs-string">&#x27;bar&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code>foo[<span class="hljs-string">&#x27;p&#x27;</span>] = <span class="hljs-string">&#x27;bar&#x27;</span>;
 </code></pre>
 <h3>赋值检测</h3>
 <p>在给对象设置属性之前，一般要先检测对象是否存在。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Bad</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// Bad</span>
 <span class="hljs-keyword">const</span> len = <span class="hljs-literal">undefined</span>;
 <span class="hljs-keyword">if</span> (book) {
   <span class="hljs-keyword">if</span> (book.<span class="hljs-property">subtitle</span>) {
@@ -120,7 +121,7 @@ foo[<span class="hljs-number">4</span>];
 </code></pre>
 <h3>原始类型</h3>
 <p>由于 String、Number 和 Boolean 等数据类型的值有对应的包装对象，所以给它们设置属性不会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-string">&#x27;foo&#x27;</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-string">&#x27;foo&#x27;</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// 1</span>
 
 (<span class="hljs-number">1</span>).<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
@@ -130,7 +131,7 @@ foo[<span class="hljs-number">4</span>];
 <span class="hljs-comment">// 1</span>
 </code></pre>
 <p>而 <code>null</code> 和 <code>undefined</code> 不是对象，给它们设置属性会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-literal">null</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-literal">null</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// Uncaught TypeError: Cannot set property &#x27;a&#x27; of null</span>
 
 <span class="hljs-literal">undefined</span>.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
@@ -138,7 +139,7 @@ foo[<span class="hljs-number">4</span>];
 </code></pre>
 <h2>属性删除</h2>
 <p>使用 <a href="/front-end/basic-concept/expressions/operators/delete">delete</a> 运算符可以删除对象属性（包括数组元素）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// 1</span>
@@ -174,13 +175,13 @@ foo[<span class="hljs-number">4</span>];
 <h2>属性继承</h2>
 <p>每个 JavaScript 对象都和另一个对象相关联。&quot;另一个对象&quot;就是我们熟知的原型，每一个对象都从原型继承属性。</p>
 <p>所有通过对象直接量创建的对象都具有同一个原型对象，并可以通过 <code>Object.prototype</code> 获得对原型对象的引用。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">__proto__</span> === <span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 <span class="hljs-comment">// true</span>
 </code></pre>
 <p><code>Object.prototype</code> 的原型对象是 <code>null</code>，所以它不继承任何属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">__proto__</span> === <span class="hljs-literal">null</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">__proto__</span> === <span class="hljs-literal">null</span>);
 <span class="hljs-comment">// true</span>
 </code></pre>
 <p>对象本身具有的属性叫 <strong>自有属性</strong>（Own Property），从原型对象继承而来的属性叫 <strong>继承属性</strong>。</p>

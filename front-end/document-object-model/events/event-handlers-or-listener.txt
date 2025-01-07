@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","events","event-handlers-or-listener"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/events/event-handlers-or-listener","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/events/event-handlers-or-listener","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bnLWH17tg-IGmoKgU07LY",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T33ed,<h2>事件处理程序</h2>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","events","event-handlers-or-listener"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/events/event-handlers-or-listener","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/events/event-handlers-or-listener","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","GApOrQsryXxTwMZH0Fcw6",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T34ab,<h2>事件处理程序</h2>
 <p>事件就是用户或浏览器自身执行的某种动作。诸如 click、load 和 mouseover，都是事件的名字。而响应某个事件的函数就叫做<strong>事件处理程序（或事件侦听器）</strong>。事件处理程序的名字以“on”开头，因此 click 事件的事件处理程序就是 onclick，load 事件的事件处理程序就是 onload。为事件指定处理程序的方式有好几种</p>
 <ul>
 <li>HTML 事件处理程序</li>
@@ -22,24 +23,24 @@ c:T33ed,<h2>事件处理程序</h2>
 </ul>
 <h3>HTML 事件处理程序</h3>
 <p>某个元素支持的每种事件，都可以使用一个与相应事件处理程序同名的 HTML 特性来指定。这个特性的值应该是能够执行的 JavaScript 代码。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;alert(event.type)&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;alert(event.type)&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
 <p>在事件处理程序函数内部，<code>this</code> 值等于事件的目标元素。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;this.innerHTML+= &#x27;1&#x27;;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;this.innerHTML+= &#x27;1&#x27;;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
 <h3>DOM0 级事件处理程序</h3>
 <p>通过 JavaScript 指定事件处理程序的传统方式，就是将一个函数赋值给一个事件处理程序属性。这种为事件处理程序赋值的方法是在第四代 Web 浏览器中出现的，而且至今仍然为所有现代浏览器所支持。</p>
 <p>每个元素都有自己的事件处理程序属性，这些属性通常全部小写，将这种属性的值设置为一个函数，就可以指定事件处理程序。</p>
 <p>以 DOM0 级方式添加的事件处理程序会在<strong>事件流的冒泡阶段</strong>被处理。</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> box = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#box&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> box = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;#box&#x27;</span>);
 box.<span class="hljs-property">onclick</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">innerHTML</span> += <span class="hljs-string">&#x27;1&#x27;</span>;
 };
 </code></pre>
 <p><strong>删除事件处理程序</strong>：可以通过将事件处理程序属性设置为 <code>null</code> 来删除事件处理程序。</p>
-<pre class="hljs"><code class="language-js">box.<span class="hljs-property">onclick</span> = <span class="hljs-literal">null</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code>box.<span class="hljs-property">onclick</span> = <span class="hljs-literal">null</span>;
 </code></pre>
 <p><strong>缺点</strong>：DOM0 级事件处理程序的缺点是围绕着每个事件目标对于每种事件类型只能添加一个事件处理程序</p>
 <h3>DOM2 级事件处理程序</h3>
@@ -51,15 +52,15 @@ box.<span class="hljs-property">onclick</span> = <span class="hljs-keyword">func
 </ul>
 <p>DOM2 级事件处理程序定义了两个方法用于处理指定和删除事件处理程序的操作：</p>
 <p><strong>绑定方式</strong></p>
-<pre class="hljs"><code class="language-js">element.<span class="hljs-title function_">addEventListener</span>(eventType, handler, useCapture);
+<pre class="hljs language-js"  style=--lang:"js" ><code>element.<span class="hljs-title function_">addEventListener</span>(eventType, handler, useCapture);
 </code></pre>
 <p><strong>移除方式</strong></p>
-<pre class="hljs"><code class="language-js">element.<span class="hljs-title function_">removeEventListener</span>(eventType, handler, useCapture);
+<pre class="hljs language-js"  style=--lang:"js" ><code>element.<span class="hljs-title function_">removeEventListener</span>(eventType, handler, useCapture);
 </code></pre>
 <p>所有 DOM 节点中都包含这两个方法，并且它们都接受 3 个参数：要处理的事件名、作为事件处理程序的函数和一个布尔值。最后的布尔值参数如果是 <code>true</code>，表示在捕获阶段调用事件处理程序；如果是 <code>false</code>，表示在冒泡阶段调用事件处理程序。若最后的布尔值不填写，则和 <code>false</code> 效果一样。</p>
 <h4>参数传递</h4>
 <p>如果希望向监听函数传递参数，可以用匿名函数包装一下监听函数</p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;height:30px;width:200px;background-color:pink;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;height:30px;width:200px;background-color:pink;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript">
   box.<span class="hljs-title function_">addEventListener</span>(
     <span class="hljs-string">&#x27;click&#x27;</span>,
@@ -79,10 +80,10 @@ box.<span class="hljs-property">onclick</span> = <span class="hljs-keyword">func
 <li>移除时传入的参数与添加处理程序时使用的参数相同</li>
 <li><code>addEventListener()</code> 添加的匿名函数将无法移除</li>
 </ul>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </code></pre>
 <p>以下无效：</p>
-<pre class="hljs"><code class="language-js">box.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>box.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;click&#x27;</span>,
   <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">innerHTML</span> += <span class="hljs-string">&#x27;1&#x27;</span>;
@@ -99,7 +100,7 @@ box.<span class="hljs-title function_">removeEventListener</span>(
 );
 </code></pre>
 <p>以下有效：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> handle = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> handle = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">innerHTML</span> += <span class="hljs-string">&#x27;1&#x27;</span>;
 };
 
@@ -113,17 +114,17 @@ box.<span class="hljs-title function_">removeEventListener</span>(<span class="h
 <li>事件冒泡阶段：事件从目标元素冒泡到文档节点，依次检查经过的节点是否绑定了事件监听函数，如果有则执行。</li>
 </ul>
 <p>事件绑定：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">attachEvent</span>(eventType, handler);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">attachEvent</span>(eventType, handler);
 </code></pre>
 <p>事件移除：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">detachEvent</span>(evnetType, handler);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">detachEvent</span>(evnetType, handler);
 </code></pre>
 <p>参数说明：</p>
 <ul>
 <li>eventType：指定事件类型</li>
 <li>handler：事件处理函数</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// Example</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// Example</span>
 cont btn = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElmentById</span>(<span class="hljs-string">&#x27;.btn&#x27;</span>);
 btn.<span class="hljs-title function_">attachEvent</span>(<span class="hljs-string">&#x27;onclick&#x27;</span>, showMessage);
 btn.<span class="hljs-title function_">detachEvent</span>(<span class="hljs-string">&#x27;onclick&#x27;</span>, showMessage);
@@ -131,7 +132,7 @@ btn.<span class="hljs-title function_">detachEvent</span>(<span class="hljs-stri
 <h3>跨浏览器的事件处理程序</h3>
 <p>为了以跨浏览器的方式处理事件，不少开发人员会使用能够隔离浏览器差异的 JavaScript 库，还有一些开发人员会自己开发最合适的事件处理的方法。自己编写代码其实也不难，只要恰当地使用能力检测即可。要保证处理事件的代码能在大多数浏览器下一致运行，只需关注冒泡阶段。</p>
 <p><code>EventUtil</code> 的用法如下所示</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> <span class="hljs-title class_">EventUtil</span> = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> <span class="hljs-title class_">EventUtil</span> = {
     <span class="hljs-attr">addHandler</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params">element, type, handler</span>){
     <span class="hljs-keyword">if</span> (element,.<span class="hljs-property">addEventListener</span>) {
         element.<span class="hljs-title function_">addEventListener</span>(type, handler, <span class="hljs-literal">false</span>);

@@ -7,26 +7,27 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-return-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-return-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-return-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","MvcSKqRDI7MNdwak6B8DF",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T204d,<h1>return 语句</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","basic-concept","statements-and-declarations","the-return-statement"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","basic-concept/statements-and-declarations/the-return-statement","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","basic-concept/statements-and-declarations/the-return-statement","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","PNWsTeYdaCAVQftOtio8o",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T20d1,<h1>return 语句</h1>
 <p>函数中的 <code>return</code> 语句用来返回函数调用后的返回值</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">return</span> expression;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">return</span> expression;
 </code></pre>
 <h2>说明</h2>
 <h3>返回语句特点</h3>
 <ul>
 <li><code>return</code> 语句只能出现在<strong>函数体</strong>内，如果不是会报语法错误</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;	<span class="hljs-comment">// SyntaxError: Illegal return statement</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;	<span class="hljs-comment">// SyntaxError: Illegal return statement</span>
 </code></pre>
 <ul>
 <li>由于 JavaScript 可以自动插入分号，因此在 <code>return</code> 关键字和它后面的表达式之间不能有换行。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-keyword">return</span>
     <span class="hljs-number">2</span>;
 };
@@ -35,7 +36,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li>一个函数中可以有多个 <code>return</code> 语句。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">diff</span>(<span class="hljs-params">iNum1, iNum2</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">diff</span>(<span class="hljs-params">iNum1, iNum2</span>) {
   <span class="hljs-keyword">if</span> (iNum1 &gt; iNum2) {
     <span class="hljs-keyword">return</span> iNum1 - iNum2;
   } <span class="hljs-keyword">else</span> {
@@ -47,13 +48,13 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li>如果没有 <code>return</code> 语句，则函数调用仅仅依次执行函数体内的每一条语句直到函数结束，最后返回调用程序。这种情况下，调用表达式的结果是 <code>undefined</code>。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){}
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){}
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">test</span>()); <span class="hljs-comment">// undefined</span>
 </code></pre>
 <ul>
 <li>当执行到 <code>return</code> 语句时，函数终止执行，并返回 expression 的值给调用程序</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-keyword">return</span> <span class="hljs-number">2</span>;
 };
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">test</span>()); <span class="hljs-comment">// 2</span>
@@ -61,7 +62,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li><code>return</code> 语句经常作为函数内的最后一条语句出现，这是因为 <code>return</code> 语句可用来使函数提前返回。当 <code>return</code> 被执行时，函数立即返回而不再执行余下的语句</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">//并没有弹出1</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">//并没有弹出1</span>
 <span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-keyword">return</span>;
     <span class="hljs-title function_">alert</span>(<span class="hljs-number">1</span>);
@@ -71,7 +72,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li>并不是函数中 <code>return</code> 语句后的所有语句都不执行，<code>finally</code> 语句是例外，<code>return</code> 语句不会阻止 <code>finally</code> 子句的执行。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">testFinnally</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">testFinnally</span>(<span class="hljs-params"></span>){
     <span class="hljs-keyword">try</span>{
         <span class="hljs-keyword">return</span> <span class="hljs-number">2</span>;
     }<span class="hljs-keyword">catch</span>(error){
@@ -86,7 +87,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li>如果函数调用时在前面加上了 <code>new</code> 前缀，且返回值不是一个对象，则返回 <code>this</code>（该新对象）</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
     <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
 }
@@ -97,7 +98,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li>如果返回值是一个对象，则返回该对象。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
     <span class="hljs-keyword">return</span> {<span class="hljs-attr">a</span>:<span class="hljs-number">1</span>};
 }
@@ -108,7 +109,7 @@ c:T204d,<h1>return 语句</h1>
 <ul>
 <li><code>return</code> 语句可以单独使用而不必带有表达式 <code>expression</code>，这样的话也会向调用程序返回 <code>undefined</code>。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> test = <span class="hljs-keyword">function</span> <span class="hljs-title function_">fn</span>(<span class="hljs-params"></span>){
     <span class="hljs-keyword">return</span>;
 };
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">test</span>()); <span class="hljs-comment">// undefined</span>

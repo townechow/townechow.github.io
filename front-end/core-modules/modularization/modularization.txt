@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","modularization","modularization"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/modularization/modularization","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/modularization/modularization","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","taISmBREn3qu8JHZ2tayk",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T9433,<h1>模块化</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","modularization","modularization"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/modularization/modularization","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/modularization/modularization","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","piiWEitUrCQFjs5rdlM9s",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T88f5,<h1>模块化</h1>
 <p>🌽 <strong>模块化</strong>：把复杂的系统分解到多个模块以方便编码</p>
 <p>在<strong>模块化编程</strong>中，开发者将程序分解成离散功能块（discrete chunks of functionality），并称之为<strong>模块</strong>。</p>
 <ul>
@@ -39,7 +40,7 @@ c:T9433,<h1>模块化</h1>
 <h2>模块化进化史</h2>
 <h3>全局模式</h3>
 <p><strong>module1.js</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 数据</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 数据</span>
 <span class="hljs-keyword">let</span> data1 = <span class="hljs-string">&#x27;module one data&#x27;</span>;
 
 <span class="hljs-comment">// 操作数据的函数</span>
@@ -51,7 +52,7 @@ c:T9433,<h1>模块化</h1>
 }
 </code></pre>
 <p><strong>module2.js</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> data2 = <span class="hljs-string">&#x27;module two data&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> data2 = <span class="hljs-string">&#x27;module two data&#x27;</span>;
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-comment">//与模块1中的函数冲突了</span>
@@ -59,7 +60,7 @@ c:T9433,<h1>模块化</h1>
 }
 </code></pre>
 <p><strong>test.html</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!-- 同步引入，若函数冲突，则后面覆盖前面 --&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-comment">&lt;!-- 同步引入，若函数冲突，则后面覆盖前面 --&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module2.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
@@ -74,7 +75,7 @@ c:T9433,<h1>模块化</h1>
 </ul>
 <h3>单例模式</h3>
 <p><strong>module1.js</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> moduleOne = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> moduleOne = {
   <span class="hljs-attr">data</span>: <span class="hljs-string">&#x27;module one data&#x27;</span>,
   <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`foo() <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.data}</span>`</span>);
@@ -85,7 +86,7 @@ c:T9433,<h1>模块化</h1>
 };
 </code></pre>
 <p><strong>module2.js</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> moduleTwo = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> moduleTwo = {
   <span class="hljs-attr">data</span>: <span class="hljs-string">&#x27;module two data&#x27;</span>,
   <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`foo() <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.data}</span>`</span>);
@@ -96,7 +97,7 @@ c:T9433,<h1>模块化</h1>
 };
 </code></pre>
 <p><strong>test.html</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module2.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   moduleOne.<span class="hljs-title function_">foo</span>(); <span class="hljs-comment">//foo() module one data</span>
@@ -117,7 +118,7 @@ c:T9433,<h1>模块化</h1>
 </ul>
 <h3>IIFE 模式</h3>
 <p><strong>module1.js</strong></p>
-<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span>(<span class="hljs-params"><span class="hljs-variable language_">window</span></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>(<span class="hljs-keyword">function</span>(<span class="hljs-params"><span class="hljs-variable language_">window</span></span>) {
   <span class="hljs-comment">// 数据</span>
   <span class="hljs-keyword">let</span> data = <span class="hljs-string">&#x27;IIFE module data&#x27;</span>;
 
@@ -143,7 +144,7 @@ c:T9433,<h1>模块化</h1>
 })(<span class="hljs-variable language_">window</span>);
 </code></pre>
 <p><strong>test.html</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
   <span class="hljs-variable language_">module</span>.<span class="hljs-title function_">foo</span>(); <span class="hljs-comment">// foo() IIFE module data</span>
   <span class="hljs-variable language_">module</span>.<span class="hljs-title function_">bar</span>(); <span class="hljs-comment">// bar() IIFE module data    privateFunction go otherFun()</span>
@@ -165,7 +166,7 @@ c:T9433,<h1>模块化</h1>
 <h3>IIFE 模式增强</h3>
 <p>引入 jQuery 到项目中</p>
 <p><strong>module1.js</strong></p>
-<pre class="hljs"><code class="language-js">(<span class="hljs-keyword">function</span>(<span class="hljs-params"><span class="hljs-variable language_">window</span>, $</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code>(<span class="hljs-keyword">function</span>(<span class="hljs-params"><span class="hljs-variable language_">window</span>, $</span>) {
   <span class="hljs-comment">//数据</span>
   <span class="hljs-keyword">let</span> data = <span class="hljs-string">&#x27;IIFE Strong module data&#x27;</span>;
 
@@ -192,7 +193,7 @@ c:T9433,<h1>模块化</h1>
 })(<span class="hljs-variable language_">window</span>, jQuery);
 </code></pre>
 <p><strong>test.html</strong></p>
-<pre class="hljs"><code class="language-html"><span class="hljs-comment">&lt;!--引入的js必须有一定顺序--&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-comment">&lt;!--引入的js必须有一定顺序--&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;jquery-1.10.1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript">
@@ -205,7 +206,7 @@ c:T9433,<h1>模块化</h1>
 <li>这就是现代模块实现的基石。其实很像了，有引入和暴露两个方面。</li>
 <li>存在的问题：一个页面需要引入多个 JS 文件的问题</li>
 </ul>
-<pre class="hljs"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<pre class="hljs language-html"  style=--lang:"html" ><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module1.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module2.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module3.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;module4.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
@@ -219,12 +220,7 @@ c:T9433,<h1>模块化</h1>
 <h3>CommonJS</h3>
 <p>CommonJS 是服务器端模块的规范，Node.js 就是采用了这个规范。但目前也可用于浏览器端，需要使用 Browserify 进行提前编译打包。</p>
 <p>CommonJS 模块化的引入方式使用 <code>require</code>，暴露的方式使用 <code>module.exports</code> 或 <code>exports</code>。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/modularization/commonjs.jpeg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CommonJS&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>特点</strong></p>
+<img alt="CommonJS" src="../../assets/modularization/commonjs.jpeg" width="800" /><p><strong>特点</strong></p>
 <ul>
 <li>同步加载依赖的模块</li>
 <li>可复用于 Node 环境</li>
@@ -236,7 +232,7 @@ c:T9433,<h1>模块化</h1>
 <p>在 Node.js 中，<code>module</code> 是一个全局变量，类似于在浏览器端的 Window 也是一个全局变量一样的道理。</p>
 <p><code>module.exports</code> <strong>初始</strong>的时候置为空对象，<code>exports</code> 也指向这个空对象。</p>
 <p>内部代码实现：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> <span class="hljs-variable language_">module</span> = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> <span class="hljs-variable language_">module</span> = {
   <span class="hljs-attr">id</span>: <span class="hljs-string">&#x27;xxxx&#x27;</span>,
   <span class="hljs-attr">exports</span>: {},
 };
@@ -247,15 +243,15 @@ c:T9433,<h1>模块化</h1>
 </code></pre>
 <p>上面的代码可以看出我们平常使用的 <code>exports</code> 是对 <code>module.exports</code> 的一个引用，两者都是指向同一个对象。</p>
 <p>用一句话来说明就是，模块的 <code>require</code>（引入）能看到的只有 <code>module.exports</code> 这个对象，它是看不到 <code>exports</code> 对象的，而我们在编写模块时用到的 <code>exports</code> 对象实际上只是对 <code>module.exports</code> 的引用。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-built_in">exports</span> = <span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-built_in">exports</span> = <span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span>;
 </code></pre>
 <p>我们可以使用 <code>exports.a = ‘xxx’</code> 或 <code>exports.b = function(){}</code> 添加方法或属性，本质上它也添加在 <code>module.exports</code> 所指向的对象身上。</p>
 <p>但是你不能直接 <code>exports = { a: 'xxx'}</code>，这就将 <code>exports</code> 重新指向新的对象，它和 <code>module.exports</code> 就不是指向同一个对象，也就让两者失去了关系，而 Node.js 中 <code>require</code> 能看到的是 <code>module.exports</code> 指向的对象。</p>
 <p>因此，我们一般都会直接使用：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span>;
 </code></pre>
 <p>再举例说明两者区别：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 }
 
@@ -264,17 +260,17 @@ c:T9433,<h1>模块化</h1>
 }
 </code></pre>
 <p>想要将这两个函数暴露出去，可以直接使用<code>exports</code></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-built_in">exports</span>.<span class="hljs-property">foo</span> = foo;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-built_in">exports</span>.<span class="hljs-property">foo</span> = foo;
 <span class="hljs-built_in">exports</span>.<span class="hljs-property">bar</span> = bar;
 </code></pre>
 <p>也可以对 <code>module.exports</code> 赋值</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
   <span class="hljs-attr">foo</span>: foo,
   <span class="hljs-attr">bar</span>: bar,
 };
 </code></pre>
 <p>但是不能直接对 <code>exports</code> 赋值</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 错误</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 错误</span>
 <span class="hljs-built_in">exports</span> = {
   <span class="hljs-attr">foo</span>: foo,
   <span class="hljs-attr">bar</span>: bar,
@@ -305,12 +301,7 @@ c:T9433,<h1>模块化</h1>
 <p>CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。由于 NodeJS 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，所以同步加载没有问题。但是如果是浏览器端，同步加载很容易阻塞，这时候 AMD 规范就出来了。AMD 规范则是非同步加载模块，允许指定回调函数。故浏览器端一般会使用 AMD 规范。</p>
 </blockquote>
 <p><a href="https://github.com/amdjs/amdjs-api/wiki" target="_blank" rel="noopener noreferrer nofollow">AMD</a> 是 <a href="https://github.com/requirejs/requirejs" target="_blank" rel="noopener noreferrer nofollow">require.js</a> 在推广过程中对模块定义的规范化产出 。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/modularization/amd.jpeg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;AMD&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>特点：</strong></p>
+<img alt="AMD" src="../../assets/modularization/amd.jpeg" width="800" /><p><strong>特点：</strong></p>
 <ul>
 <li>异步加载依赖的模块</li>
 <li>可在不转换代码的情况下直接在浏览器运行</li>
@@ -348,12 +339,7 @@ c:T9433,<h1>模块化</h1>
 <p>CMD 是根据 CommonJS 和 AMD 基础上提出的。</p>
 <p>CMD（通用模块定义）和 AMD（异步模块定）是比较相似的。</p>
 <p><code>require.js</code> 遵循的是 AMD（异步模块定义）规范，<a href="https://github.com/seajs/seajs" target="_blank" rel="noopener noreferrer nofollow">sea.js</a> 遵循的是 CMD （通用模块定义）规范。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/modularization/cmd.jpeg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CMD&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>特点：</strong></p>
+<img alt="CMD" src="../../assets/modularization/cmd.jpeg" width="800" /><p><strong>特点：</strong></p>
 <ul>
 <li>异步加载，有缓存</li>
 </ul>
@@ -444,12 +430,7 @@ c:T9433,<h1>模块化</h1>
 <p>组件化和模块化的思想都是 <strong>分而治之</strong> 的思想。但还是有细小的区分，他们的侧重点有所不同。</p>
 <p>组件化更加倾向于 UI 层面上，是一个可以独立展示内容的「积木」，比如一个页面的头部组件，包含结构 HTML、样式 CSS、逻辑 JS、以及静态资源图片组合一个集合体。一个页面是由众多组件组成的，就像由众多「积木」搭成的「城堡」一样； 模块化更加倾向于功能或者数据的封装，一般由几个组件或单个组件构成的带有一定功能的集合体；</p>
 <p>引用一下 <a href="https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Ffouber%2Fblog%2Fissues%2F10" target="_blank" rel="noopener noreferrer nofollow">@张云龙</a> 对组件化的理解：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/modularization/components-1.jpeg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;组件化示意图1&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>&lt;br /&gt;</p>
+<img alt="组件化示意图1" src="../../assets/modularization/components-1.jpeg" width="720" /><p>&lt;br /&gt;</p>
 <p>就如上图的这个 <code>title</code> 组件，包含了结构 HTML、样式 CSS、逻辑 JavaScript、以及静态资源图片，往往组件的组成就是以上四个方面。这个 <code>header</code> 文件夹我们可以拿到其他项目中使用，它具有可以独立展示内容的特点。</p>
 <p>结合前面提到的模块化开发，整个前端项目可以划分为这么几种开发概念：</p>
 <table>

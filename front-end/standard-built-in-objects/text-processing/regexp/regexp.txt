@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","text-processing","regexp","regexp"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/regexp/regexp","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/regexp/regexp","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZLvqIWMimxO4nBZ1OIo5T",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3c12,<h1>RegExp 对象</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","text-processing","regexp","regexp"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/regexp/regexp","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/regexp/regexp","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eE_huKM-RSGi-7hWIZAlY",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3c7e,<h1>RegExp 对象</h1>
 <p>正则表达式（Regular Expression）使用单个字符串来描述、匹配一系列匹配某个句法规则的字符串。在许多文本编辑器里，正则表达式通常被用来检索、替换那些匹配某个模式的文本。</p>
 <p><code>RegExp</code> 构造函数创建一个正则表达式对象，用于将文本与一个模式匹配。</p>
 <h2>语法</h2>
@@ -20,20 +21,20 @@ c:T3c12,<h1>RegExp 对象</h1>
 <li>字面量正则文本部分<strong>包含在一对斜杠 <code>/</code> 之间</strong></li>
 <li>字面量参数<strong>不使用引号</strong></li>
 </ul>
-<pre class="hljs"><code class="language-js">/pattern/afgls;
+<pre class="hljs language-js"  style=--lang:"js" ><code>/pattern/afgls;
 </code></pre>
 <p><strong>正则表达式转换函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">RegExp</span>(pattern [, flags])
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">RegExp</span>(pattern [, flags])
 </code></pre>
 <p><strong>构造函数</strong></p>
 <ul>
 <li>要匹配的字符串模式（pattern）</li>
 <li>可选的标志字符串（flags）</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;at&#x27;</span>, <span class="hljs-string">&#x27;gim&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;at&#x27;</span>, <span class="hljs-string">&#x27;gim&#x27;</span>);
 </code></pre>
 <p><code>RegExp</code> 构造函数的两个参数都是<strong>字符串</strong>。且使用字面量形式定义的任何表达式都可使用构造函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 匹配字符串所有&#x27;at&#x27;的实例</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 匹配字符串所有&#x27;at&#x27;的实例</span>
 <span class="hljs-keyword">var</span> regexp1 = <span class="hljs-regexp">/at/g</span>;
 <span class="hljs-comment">// 同上</span>
 <span class="hljs-keyword">var</span> regexp2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;at&#x27;</span>, <span class="hljs-string">&#x27;g&#x27;</span>);
@@ -76,7 +77,7 @@ c:T3c12,<h1>RegExp 对象</h1>
 <ul>
 <li>由于<strong>正则表达式字面量并不支持变量</strong>，所以如果正则表达式中出现变量只能使用 <code>RegExp</code> 构造函数以字符串拼接的形式，将变量拼接到 <code>RegExp</code> 构造函数的参数中。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// example</span>
 <span class="hljs-keyword">let</span> variable = <span class="hljs-string">&#x27;low&#x27;</span>;
 
 <span class="hljs-keyword">let</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;^Hel&#x27;</span> + variable + <span class="hljs-string">&#x27;orld$&#x27;</span>, <span class="hljs-string">&#x27;gim&#x27;</span>);
@@ -86,7 +87,7 @@ c:T3c12,<h1>RegExp 对象</h1>
 <li>从 ECMAScript 6 开始，当第一个参数为正则表达式而第二个标志参数存在时，<code>new RegExp(/ab+c/, 'i')</code> 不再抛出 <code>TypeError</code> （“当从其他正则表达式进行构造时不支持标志”）的异常，取而代之，将使用这些参数创建一个新的正则表达式。</li>
 <li>当使用构造函数创造正则对象时，需要常规的字符转义规则（在前面加反斜杠 \）。比如，以下是等价的：</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example1</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// example1</span>
 <span class="hljs-keyword">let</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;\\w+&#x27;</span>);
 
 <span class="hljs-comment">// example2</span>
@@ -129,7 +130,7 @@ c:T3c12,<h1>RegExp 对象</h1>
 </tr>
 </tbody>
 </table>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// example</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// example</span>
 <span class="hljs-keyword">var</span> regexp = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(<span class="hljs-string">&#x27;\\[bc\\]at&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>);
 
 <span class="hljs-comment">// global</span>
@@ -212,7 +213,7 @@ c:T3c12,<h1>RegExp 对象</h1>
 </tbody>
 </table>
 <p>使用这些属性，可以从 <code>exec()</code> 方法或 <code>test()</code> 方法执行的操作中提取出更具体的信息。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// test()用于测试一个字符串是否匹配某个正则表达式，并返回一个布尔值</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// test()用于测试一个字符串是否匹配某个正则表达式，并返回一个布尔值</span>
 <span class="hljs-keyword">let</span> text = <span class="hljs-string">&#x27;this has been a short summer&#x27;</span>;
 <span class="hljs-keyword">let</span> regexp = <span class="hljs-regexp">/(.)hort/g</span>;
 
@@ -234,7 +235,7 @@ c:T3c12,<h1>RegExp 对象</h1>
 </code></pre>
 <p>JavaScript 有 9 个用于存储捕获组的构造函数属性，在调用 <code>exec()</code> 或 <code>test()</code> 方法时，这些属性会被自动填充</p>
 <p>理论上，应该保存整个表达式匹配文本的 <code>RegExp.$0</code> 并不存在，值为 <code>undefined</code> 。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// RegExp.$1\RegExp.$2\RegExp.$3……到RegExp.$9分别用于存储第一、第二……第九个匹配的捕获组</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// RegExp.$1\RegExp.$2\RegExp.$3……到RegExp.$9分别用于存储第一、第二……第九个匹配的捕获组</span>
 <span class="hljs-keyword">var</span> text = <span class="hljs-string">&#x27;this has been a short summer&#x27;</span>;
 <span class="hljs-keyword">var</span> pattern = <span class="hljs-regexp">/(..)or(.)/g</span>;
 <span class="hljs-keyword">if</span> (pattern.<span class="hljs-title function_">test</span>(text)) {

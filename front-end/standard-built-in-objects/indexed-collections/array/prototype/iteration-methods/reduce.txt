@@ -7,18 +7,19 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","iteration-methods","reduce"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/reduce","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/reduce","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","fFwtt8wbsGUGzwZN0jjFR",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T6436,<h1>Array.prototype.reduce</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","indexed-collections","array","prototype","iteration-methods","reduce"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/reduce","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/indexed-collections/array/prototype/iteration-methods/reduce","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","m_j76-MG0fHj7KOdgf4jV",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T6502,<h1>Array.prototype.reduce</h1>
 <p><code>Array.prototype.reduce()</code> 方法接收一个函数作为累加器，数组中的每个值（从左到右）开始缩减，最终计算为一个值。对空数组时不会执行回调函数。</p>
 <h2>语法</h2>
 <p>语法：</p>
-<pre class="hljs"><code class="language-js">arr.<span class="hljs-title function_">reduce</span>(callbackfn [, initialValue]);
+<pre class="hljs language-js"  style=--lang:"js" ><code>arr.<span class="hljs-title function_">reduce</span>(callbackfn [, initialValue]);
 </code></pre>
 <p>类型声明</p>
-<pre class="hljs"><code class="language-ts"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
+<pre class="hljs language-ts"  style=--lang:"ts" ><code><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Array</span>&lt;T&gt; {
   <span class="hljs-title function_">reduce</span>(
     <span class="hljs-attr">callbackfn</span>: <span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">previousValue</span>: T, <span class="hljs-attr">currentValue</span>: T, <span class="hljs-attr">currentIndex</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">array</span>: <span class="hljs-keyword">readonly</span> T[]</span>) =&gt;</span> T
   ): T;
@@ -85,7 +86,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </li>
 </ul>
 <p>假如运行下段代码：</p>
-<pre class="hljs"><code class="language-js">[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, val, index, arr</span>) =&gt;</span> acc + val);
+<pre class="hljs language-js"  style=--lang:"js" ><code>[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, val, index, arr</span>) =&gt;</span> acc + val);
 </code></pre>
 <p>回调函数被调用四次，每次调用的参数和返回值如下表所示。</p>
 <table>
@@ -136,7 +137,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </table>
 <p><code>reduce()</code> 方法最终的返回值为 10。</p>
 <p>如果你打算提供一个初始值作为 <code>reduce</code> 方法的第二个参数，以下是运行过程及结果。</p>
-<pre class="hljs"><code class="language-js">[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, val, index, arr</span>) =&gt;</span> accumulator + currentValue, <span class="hljs-number">10</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code>[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, val, index, arr</span>) =&gt;</span> accumulator + currentValue, <span class="hljs-number">10</span>);
 </code></pre>
 <table>
 <thead>
@@ -203,13 +204,13 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </ul>
 <h3>聚合为数字</h3>
 <p>数组成员为数字类型时。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> res = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, item</span>) =&gt;</span> acc + item, <span class="hljs-number">0</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> res = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, item</span>) =&gt;</span> acc + item, <span class="hljs-number">0</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(res);
 <span class="hljs-comment">// 15</span>
 </code></pre>
 <p>数组成员为对象类型时。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [{ <span class="hljs-attr">total</span>: <span class="hljs-number">1</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">2</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">3</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">4</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">5</span> }];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> arr = [{ <span class="hljs-attr">total</span>: <span class="hljs-number">1</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">2</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">3</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">4</span> }, { <span class="hljs-attr">total</span>: <span class="hljs-number">5</span> }];
 
 <span class="hljs-keyword">const</span> res = arr.<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, { total }</span>) =&gt;</span> acc + total, <span class="hljs-number">0</span>);
 
@@ -218,7 +219,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </code></pre>
 <h3>聚合为字符串</h3>
 <p>将数组的每项转换为固定格式的字符串，每项直接以分号作为分隔。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> arr = [
   { <span class="hljs-attr">key</span>: <span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">key</span>: <span class="hljs-string">&#x27;bar&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">2</span> },
   { <span class="hljs-attr">key</span>: <span class="hljs-string">&#x27;baz&#x27;</span>, <span class="hljs-attr">value</span>: <span class="hljs-number">3</span> },
@@ -231,7 +232,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </code></pre>
 <h3>聚合为对象</h3>
 <p>只要目标是将数组聚合为唯一的元素时，都可以考虑使用 reduce</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> arr = [
   { <span class="hljs-attr">id</span>: <span class="hljs-number">1</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;a&#x27;</span>, <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;foo&#x27;</span> },
   { <span class="hljs-attr">id</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;b&#x27;</span>, <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;bar&#x27;</span> },
   { <span class="hljs-attr">id</span>: <span class="hljs-number">3</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;c&#x27;</span>, <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;baz&#x27;</span> },
@@ -248,7 +249,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 <h3>初始值的必要性</h3>
 <p>提供初始值通常更安全。</p>
 <p>没有提供初始值。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">maxCallback</span> = (<span class="hljs-params"> pre, current </span>) =&gt; <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">max</span>( pre.<span class="hljs-property">x</span>, current.<span class="hljs-property">x</span> )
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">maxCallback</span> = (<span class="hljs-params"> pre, current </span>) =&gt; <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">max</span>( pre.<span class="hljs-property">x</span>, current.<span class="hljs-property">x</span> )
 
 [{ <span class="hljs-attr">x</span>: <span class="hljs-number">22</span>}, { <span class="hljs-attr">x</span>: <span class="hljs-number">42</span>}].<span class="hljs-title function_">reduce</span>(maxCallback)
 <span class="hljs-comment">// 42</span>
@@ -260,12 +261,12 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 <span class="hljs-comment">// TypeError</span>
 </code></pre>
 <p>提供初始值。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">maxCallback</span> = (<span class="hljs-params"> max, current </span>) =&gt; <span class="hljs-title class_">Math</span>,<span class="hljs-title function_">max</span>( max, current )
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">maxCallback</span> = (<span class="hljs-params"> max, current </span>) =&gt; <span class="hljs-title class_">Math</span>,<span class="hljs-title function_">max</span>( max, current )
 
 [{ <span class="hljs-attr">x</span>: <span class="hljs-number">22</span> }, { <span class="hljs-attr">x</span>: <span class="hljs-number">42</span> }].<span class="hljs-title function_">map</span>( <span class="hljs-function"><span class="hljs-params">el</span> =&gt;</span> el.<span class="hljs-property">x</span> ).<span class="hljs-title function_">reduce</span>( maxCallback2, -<span class="hljs-title class_">Infinity</span> );
 </code></pre>
 <h3>数组求和、求积和最大值</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 数组求和</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 数组求和</span>
 <span class="hljs-keyword">const</span> sum = [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, cur</span>) =&gt;</span> acc + cur, <span class="hljs-number">0</span>);
 <span class="hljs-comment">// 6</span>
 
@@ -279,14 +280,14 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 </code></pre>
 <h3>数组元素</h3>
 <p>找出长度最长的数组元素。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">findLongest</span> = (<span class="hljs-params">entries</span>) =&gt;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">findLongest</span> = (<span class="hljs-params">entries</span>) =&gt;
   entries.<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">prev, cur</span>) =&gt;</span> (cur.<span class="hljs-property">length</span> &gt; prev.<span class="hljs-property">length</span> ? cur : prev), <span class="hljs-string">&#x27;&#x27;</span>);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title function_">findLongest</span>([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-string">&#x27;ab&#x27;</span>, <span class="hljs-number">4</span>, <span class="hljs-string">&#x27;bcd&#x27;</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6785</span>, <span class="hljs-number">4</span>]));
 <span class="hljs-comment">// &#x27;bcd&#x27;</span>
 </code></pre>
 <h3>二维数组扁平化</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> arr = [
   [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>],
   [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>],
   [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>],
@@ -298,14 +299,14 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 <span class="hljs-comment">// [0, 1, 2, 3, 4, 5]</span>
 </code></pre>
 <p>你也可以写成箭头函数的形式：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> flattened = [
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> flattened = [
   [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>],
   [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>],
   [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>],
 ].<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, cur</span>) =&gt;</span> acc.<span class="hljs-title function_">concat</span>(cur), []);
 </code></pre>
 <h3>计算数组成员次数</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> names = [<span class="hljs-string">&#x27;Alice&#x27;</span>, <span class="hljs-string">&#x27;Bob&#x27;</span>, <span class="hljs-string">&#x27;Tiff&#x27;</span>, <span class="hljs-string">&#x27;Bruce&#x27;</span>, <span class="hljs-string">&#x27;Alice&#x27;</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> names = [<span class="hljs-string">&#x27;Alice&#x27;</span>, <span class="hljs-string">&#x27;Bob&#x27;</span>, <span class="hljs-string">&#x27;Tiff&#x27;</span>, <span class="hljs-string">&#x27;Bruce&#x27;</span>, <span class="hljs-string">&#x27;Alice&#x27;</span>];
 
 <span class="hljs-keyword">const</span> countedNames = names.<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">allNames, name</span>) =&gt;</span> {
   <span class="hljs-keyword">if</span> (name <span class="hljs-keyword">in</span> allNames) {
@@ -319,7 +320,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 <span class="hljs-comment">// { &#x27;Alice&#x27;: 2, &#x27;Bob&#x27;: 1, &#x27;Tiff&#x27;: 1, &#x27;Bruce&#x27;: 1 }</span>
 </code></pre>
 <h3>单次遍历多次计算</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> arr = [<span class="hljs-number">0.3</span>, <span class="hljs-number">1.2</span>, <span class="hljs-number">3.4</span>, <span class="hljs-number">0.2</span>, <span class="hljs-number">3.2</span>, <span class="hljs-number">5.5</span>, <span class="hljs-number">0.4</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> arr = [<span class="hljs-number">0.3</span>, <span class="hljs-number">1.2</span>, <span class="hljs-number">3.4</span>, <span class="hljs-number">0.2</span>, <span class="hljs-number">3.2</span>, <span class="hljs-number">5.5</span>, <span class="hljs-number">0.4</span>];
 
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">reduceMaxMin</span>(<span class="hljs-params">acc, value</span>) {
   reuturn {
@@ -339,7 +340,7 @@ c:T6436,<h1>Array.prototype.reduce</h1>
 <span class="hljs-comment">// { min: 0.2, max: 5.5}</span>
 </code></pre>
 <h2>兼容性代码</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (!<span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">reduce</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (!<span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">reduce</span>) {
   <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(<span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>, <span class="hljs-string">&#x27;reduce&#x27;</span>, {
     <span class="hljs-attr">value</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">callback</span>) {
       <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span> === <span class="hljs-literal">null</span>) {

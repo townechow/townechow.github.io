@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","offline-and-storage","indexedDB"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/indexedDB","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/indexedDB","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","7p1TYL_867dEU5IgljGGY",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T72f8,<h1>IndexedDB</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","offline-and-storage","indexedDB"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/offline-and-storage/indexedDB","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/offline-and-storage/indexedDB","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","b2hfzrJdZKRj6WGp60Io_",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T6d86,<h1>IndexedDB</h1>
 <p>indexedDB 的整体架构，是由一系列的单独概念串联而成，去不概念如下列表。</p>
 <ul>
 <li>IndexedDBRequest</li>
@@ -24,12 +25,7 @@ c:T72f8,<h1>IndexedDB</h1>
 <li>IndexedDBTransaction</li>
 </ul>
 <p>整体逻辑图如下：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/indexeddb/overview.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;IndexedDB逻辑图&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<p>下文主要介绍了 indexedDB 的基本概念，以及在实际应用中的实操代码。</p>
+<img alt="IndexedDB逻辑图" src="../../assets/indexeddb/overview.png" width="540" /><p>下文主要介绍了 indexedDB 的基本概念，以及在实际应用中的实操代码。</p>
 <ul>
 <li>indexedDB 基础概念。在 indexedDB 里面会根据索引 index 来进行整体数据结构的划分。</li>
 <li>indexedDB 数据库的更新是一个非常蛋疼的事情，因为，Web 的灵活性，你既需要做好向上版本的更新，也需要完善向下版本的容错性。</li>
@@ -38,21 +34,16 @@ c:T72f8,<h1>IndexedDB</h1>
 </ul>
 <h2>离线存储</h2>
 <p>IndexedDB 可以存储非常多类型的数据，比如 <code>Object</code>、<code>File</code>、<code>Blob</code> 等，里面的存储结构是根据 Database 来进行存储的。每个 DB 里面可以有不同的 Object Stores。具体结构如下图：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/indexeddb/indexeddb-structure.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;IndexedDB结构图&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<p>并且，我们可以给 <code>key</code> 设定相关特定的值，然后在索引的时候，可以直接通过 <code>key</code> 得到具体的内容。使用 IndexDB 需要注意，其遵循的是 <strong>同域原则</strong>。</p>
+<img alt="IndexedDB结构图" src="../../assets/indexeddb/indexeddb-structure.png" width="540" /><p>并且，我们可以给 <code>key</code> 设定相关特定的值，然后在索引的时候，可以直接通过 <code>key</code> 得到具体的内容。使用 IndexDB 需要注意，其遵循的是 <strong>同域原则</strong>。</p>
 <h2>基本概念</h2>
 <p>在 indexDB 中，有几个基本的操作对象：</p>
 <h3>Database</h3>
 <p><code>Database</code> 通过 <code>open</code> 方法直接打开，可以得到一个实例的 DB。每个页面可以创建多个 DB，不过一般都是一个。</p>
-<pre class="hljs"><code class="language-js">idb.<span class="hljs-title function_">open</span>(name, version, upgradeCallback);
+<pre class="hljs language-js"  style=--lang:"js" ><code>idb.<span class="hljs-title function_">open</span>(name, version, upgradeCallback);
 </code></pre>
 <h3>Object Store</h3>
 <p><code>Object Store</code> 这个就是 DB 里面具体存储的对象。这个可以对应于 SQL 里面的 Table（表）内容。其存储的结构为：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<pre class="hljs language-jsx"  style=--lang:"jsx" ><code><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
 <span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/indexeddb/object-store-example.png&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
@@ -61,17 +52,17 @@ c:T72f8,<h1>IndexedDB</h1>
 <p><code>index</code> 有点类似于外链，它本身是一种 Object Store，主要是用来在本体的 Store 中，索引另外 Object Store 里面的数据。需要区别的是，<code>key</code> 和 <code>index</code> 是不一样的。</p>
 <p>可以参考：<a href="https://mdn.github.io/indexeddb-examples/idbindex/" target="_blank" rel="noopener noreferrer nofollow">DEMO1</a>、<a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBIndex" target="_blank" rel="noopener noreferrer nofollow">DEMO2</a></p>
 <p>如下图表示：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
+<pre class="hljs language-jsx"  style=--lang:"jsx" ><code><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
 <span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/indexeddb/indexeddb-index.png&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 创建 index</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 创建 index</span>
 <span class="hljs-keyword">const</span> myIndex = objectStore.<span class="hljs-title function_">index</span>(<span class="hljs-string">&#x27;lName&#x27;</span>);
 </code></pre>
 <h3>Transaction</h3>
 <p><code>transaction</code> 事务其实就是一系列 CRUD 的集合内容。如果其中一个环节失败了，那么整个事务的处理都会被取消。例如：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> trans1 = db.<span class="hljs-title function_">transaction</span>(<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-string">&#x27;readwrite&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> trans1 = db.<span class="hljs-title function_">transaction</span>(<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-string">&#x27;readwrite&#x27;</span>);
 <span class="hljs-keyword">var</span> trans2 = db.<span class="hljs-title function_">transaction</span>(<span class="hljs-string">&#x27;foo&#x27;</span>, <span class="hljs-string">&#x27;readwrite&#x27;</span>);
 <span class="hljs-keyword">var</span> objectStore2 = trans2.<span class="hljs-title function_">objectStore</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
 <span class="hljs-keyword">var</span> objectStore1 = trans1.<span class="hljs-title function_">objectStore</span>(<span class="hljs-string">&#x27;foo&#x27;</span>);
@@ -80,7 +71,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 </code></pre>
 <h3>Cursor</h3>
 <p><code>cursor</code> 主要是用来遍历 DB 里面的数据内容。主要是通过 <code>openCursor</code> 来进行控制。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">displayData</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">displayData</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">var</span> transaction = db.<span class="hljs-title function_">transaction</span>([<span class="hljs-string">&#x27;rushAlbumList&#x27;</span>], <span class="hljs-string">&#x27;readonly&#x27;</span>);
   <span class="hljs-keyword">var</span> objectStore = transaction.<span class="hljs-title function_">objectStore</span>(<span class="hljs-string">&#x27;rushAlbumList&#x27;</span>);
 
@@ -100,7 +91,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 </code></pre>
 <h2>基本用法</h2>
 <h3>创建数据库</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> createUpdateStore = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, version = <span class="hljs-number">1</span></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> createUpdateStore = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, version = <span class="hljs-number">1</span></span>) {
   <span class="hljs-keyword">const</span> request = <span class="hljs-variable language_">window</span>.<span class="hljs-property">indexdDB</span>.<span class="hljs-title function_">open</span>(name, version);
 
   request.<span class="hljs-property">onsuccess</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">event</span>) {
@@ -126,7 +117,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>添加数据</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> addDataStore = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, data, verson</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> addDataStore = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, data, verson</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
     <span class="hljs-keyword">let</span> databaseName = storeName;
     <span class="hljs-keyword">let</span> databaseVersion = verson || <span class="hljs-number">1</span>;
@@ -170,7 +161,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>获取数据</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> getStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, key = <span class="hljs-number">1</span></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> getStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, key = <span class="hljs-number">1</span></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;getStoreData&#x27;</span>);
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
     <span class="hljs-keyword">let</span> request = indexedDB.<span class="hljs-title function_">open</span>(name);
@@ -207,7 +198,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>删除数据</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> delectStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, key</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> delectStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">name, key</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;delectStoreData&#x27;</span>);
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
     <span class="hljs-keyword">let</span> databaseName = name;
@@ -230,7 +221,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>更新数据</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> updateStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, newData, key</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> updateStoreData = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, newData, key</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;updateStoreData&#x27;</span>);
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
     <span class="hljs-keyword">let</span> request = <span class="hljs-variable language_">window</span>.<span class="hljs-property">indexedDB</span>.<span class="hljs-title function_">open</span>(storeName);
@@ -265,7 +256,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>遍历获取</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> storeDataList = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> storeDataList = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;storeDataList&#x27;</span>);
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
     <span class="hljs-keyword">let</span> request = <span class="hljs-variable language_">window</span>.<span class="hljs-property">indexedDB</span>.<span class="hljs-title function_">open</span>(storeName);
@@ -303,7 +294,7 @@ objectStore1.<span class="hljs-title function_">put</span>(<span class="hljs-str
 };
 </code></pre>
 <h3>批量删除</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> batchDelete = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, keys</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> batchDelete = <span class="hljs-keyword">function</span> (<span class="hljs-params">storeName, keys</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;batchDelete&#x27;</span>);
   <span class="hljs-keyword">let</span> allKeys = keys.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
     item = +item;

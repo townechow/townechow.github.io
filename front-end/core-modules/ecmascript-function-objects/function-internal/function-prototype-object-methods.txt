@@ -7,15 +7,16 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-internal","function-prototype-object-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-internal/function-prototype-object-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-internal/function-prototype-object-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ejGrVG8sDI7fxTaif9SEe",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3716,<h1>函数原型对象方法</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","ecmascript-function-objects","function-internal","function-prototype-object-methods"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/ecmascript-function-objects/function-internal/function-prototype-object-methods","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/ecmascript-function-objects/function-internal/function-prototype-object-methods","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","M9xSOMOarOs1BTwW8aKeL",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3782,<h1>函数原型对象方法</h1>
 <h2>Function.prototyp.apply()</h2>
 <p><code>apply()</code> 函数用于调用当前函数，并可同时使用指定对象作为本次函数执行时函数内部的 <code>this</code> 指针引用。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js">func.<span class="hljs-title function_">apply</span>( [thisArg [, argsArray]])
+<pre class="hljs language-js"  style=--lang:"js" ><code>func.<span class="hljs-title function_">apply</span>( [thisArg [, argsArray]])
 </code></pre>
 <h2>参数</h2>
 <table>
@@ -46,7 +47,7 @@ c:T3716,<h1>函数原型对象方法</h1>
 </table>
 <h2>示例</h2>
 <h3>基本用法</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = {
     <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Cherry&#x27;</span>,
 
     <span class="hljs-attr">func1</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>){
@@ -65,7 +66,7 @@ a.<span class="hljs-title function_">func2</span>()		<span class="hljs-comment">
 <h2>Function.prototype.call()</h2>
 <p><code>call()</code> 函数用于调用当前函数，并可同时使用指定对象作为本次执行时函数内部的 <code>this</code> 指针引用。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js">func.<span class="hljs-title function_">call</span>( [thisArg [, arg1 [, arg2 [, argN...]]]] )
+<pre class="hljs language-js"  style=--lang:"js" ><code>func.<span class="hljs-title function_">call</span>( [thisArg [, arg1 [, arg2 [, argN...]]]] )
 </code></pre>
 <h2>参数</h2>
 <table>
@@ -95,7 +96,7 @@ a.<span class="hljs-title function_">func2</span>()		<span class="hljs-comment">
 </tbody>
 </table>
 <h2>示例</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> sayName = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> sayName = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>);
 };
 
@@ -105,7 +106,7 @@ a.<span class="hljs-title function_">func2</span>()		<span class="hljs-comment">
 
 sayName.<span class="hljs-title function_">call</span>(peter); <span class="hljs-comment">// peter</span>
 </code></pre>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Person1</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">Person1</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;person1&#x27;</span>;
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
     <span class="hljs-title function_">alert</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>);
@@ -125,7 +126,7 @@ sam.<span class="hljs-title function_">sayName</span>(); <span class="hljs-comme
 <h2>Function.prototype.bind()</h2>
 <p><code>bind()</code> 方法创建一个新的函数, 当被调用时，将其 <code>this</code> 关键字设置为提供的值，在调用新函数时，在任何提供之前提供一个给定的参数序列。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js">func.<span class="hljs-title function_">bind</span>( thisArg [, arg1 [, arg2 [, ...]]] )
+<pre class="hljs language-js"  style=--lang:"js" ><code>func.<span class="hljs-title function_">bind</span>( thisArg [, arg1 [, arg2 [, ...]]] )
 </code></pre>
 <h2>参数</h2>
 <table>
@@ -159,7 +160,7 @@ sam.<span class="hljs-title function_">sayName</span>(); <span class="hljs-comme
 <h2>示例</h2>
 <h3>代码示例</h3>
 <p><code>bind()</code> 最简单的用法是创建一个函数，使这个函数不论怎么调用都有同样的 <code>this</code> 值。JavaScript 新手经常犯的一个错误是将一个方法从对象中拿出来，然后再调用，希望方法中的 <code>this</code> 是原来的对象（比如在回调中传入这个方法）。如果不做特殊处理的话，一般会丢失原来的对象。从原来的函数和原来的对象创建一个绑定函数，则能很漂亮地解决这个问题。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = <span class="hljs-number">9</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = <span class="hljs-number">9</span>;
 
 <span class="hljs-keyword">var</span> <span class="hljs-variable language_">module</span> = {
   <span class="hljs-attr">x</span>: <span class="hljs-number">8</span>,
@@ -178,7 +179,7 @@ sam.<span class="hljs-title function_">sayName</span>(); <span class="hljs-comme
 </code></pre>
 <h3>偏函数</h3>
 <p><code>bind()</code> 的另一个最简单的用法是使一个函数拥有预设的初始参数。这些参数（如果有的话）作为 <code>bind()</code> 的第二个参数跟在 <code>this</code>（或其他对象）后面，之后它们会被插入到目标函数的参数列表的开始位置，传递给绑定函数的参数会跟在它们的后面。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">list</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">list</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-title class_">Array</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">slice</span>.<span class="hljs-title function_">call</span>(<span class="hljs-variable language_">arguments</span>);
 }
 
@@ -192,7 +193,7 @@ sam.<span class="hljs-title function_">sayName</span>(); <span class="hljs-comme
 </code></pre>
 <h3>配合定时器</h3>
 <p>在默认情况下，使用 <code>window.setTimeout()</code> 时，<code>this</code> 关键字会指向 <code>window</code> （或全局）对象。当使用类的方法时，需要 <code>this</code> 引用类的实例，你可能需要显式地把 <code>this</code> 绑定到回调函数以便继续使用实例。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">LateBloomer</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">LateBloomer</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">petalCount</span> = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">ceil</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">12</span>) + <span class="hljs-number">1</span>;
 }
 

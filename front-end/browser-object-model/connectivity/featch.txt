@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","connectivity","featch"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/connectivity/featch","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/connectivity/featch","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JE3TRPnziJStIvV01cVxC",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3b2c,<h1>Fetch API</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","connectivity","featch"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/connectivity/featch","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/connectivity/featch","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","XZUM1PpQeRdhgyeH3vGFN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3b74,<h1>Fetch API</h1>
 <p>Fetch API 提供了一个获取资源的接口（包括跨域），在功能上与 XMLHttpRequest 有很多相似的地方，但被设计成更具可扩展性和高效性。</p>
 <p>Fetch 的核心在于对 HTTP 接口的抽象，包括 Request、Response、Headers、Body，以及用于初始化异步请求的 global fetch。得益于 JavaScript 实现的这些抽象好的 HTTP 模块，其他接口能够很方便的使用这些功能。</p>
 <p><strong>PC 浏览器兼容性</strong></p>
@@ -61,7 +62,7 @@ c:T3b2c,<h1>Fetch API</h1>
 </tbody>
 </table>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Promise</span> <span class="hljs-title function_">fetch</span>(input, init)
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Promise</span> <span class="hljs-title function_">fetch</span>(input, init)
 </code></pre>
 <h3>参数</h3>
 <ul>
@@ -140,7 +141,7 @@ c:T3b2c,<h1>Fetch API</h1>
 </tr>
 </tbody>
 </table>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> content = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> content = <span class="hljs-string">&#x27;Hello world!&#x27;</span>;
 
 <span class="hljs-keyword">let</span> reqHeaders = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Headers</span>();
 
@@ -149,7 +150,7 @@ reqHeaders.<span class="hljs-title function_">append</span>(<span class="hljs-st
 reqHeaders.<span class="hljs-title function_">append</span>(<span class="hljs-string">&#x27;X-Custom-Header&#x27;</span>, <span class="hljs-string">&#x27;ProcessThisImmediately&#x27;</span>);
 </code></pre>
 <p>也可以是个对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> reqHeaders = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Headers</span>({
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> reqHeaders = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Headers</span>({
   <span class="hljs-string">&#x27;Content-Type&#x27;</span>: <span class="hljs-string">&#x27;text/plain&#x27;</span>,
   <span class="hljs-string">&#x27;Content-Length&#x27;</span>: content.<span class="hljs-property">length</span>.<span class="hljs-title function_">toString</span>(),
   <span class="hljs-string">&#x27;X-Custom-Header&#x27;</span>: <span class="hljs-string">&#x27;ProcessThisImmediately&#x27;</span>,
@@ -157,7 +158,7 @@ reqHeaders.<span class="hljs-title function_">append</span>(<span class="hljs-st
 </code></pre>
 <h2>Request</h2>
 <p>Request 对象是 FetchAPI 的资源请求对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Request</span>(url, options);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Request</span>(url, options);
 </code></pre>
 <table>
 <thead>
@@ -246,7 +247,7 @@ reqHeaders.<span class="hljs-title function_">append</span>(<span class="hljs-st
 </tbody>
 </table>
 <h3>示例</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> requst = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Request</span>(<span class="hljs-string">&#x27;data.json&#x27;</span>, {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> requst = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Request</span>(<span class="hljs-string">&#x27;data.json&#x27;</span>, {
   <span class="hljs-attr">method</span>: <span class="hljs-string">&#x27;POST&#x27;</span>,
   <span class="hljs-attr">headers</span>: {},
   <span class="hljs-attr">body</span>: <span class="hljs-keyword">new</span> <span class="hljs-title class_">FormData</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;login-form&#x27;</span>)),
@@ -369,7 +370,7 @@ reqHeaders.<span class="hljs-title function_">append</span>(<span class="hljs-st
 <h2>fetch()</h2>
 <p><code>fetch()</code> 方法用于发起获取资源的请求，它返回一个 Promise 对象，这个 Promise 对象会在请求响应后将状态变更为 Resolved，并返回 Response 对象。</p>
 <h3>示例</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title function_">fetch</span>(<span class="hljs-string">&#x27;api/data.json&#x27;</span>, {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title function_">fetch</span>(<span class="hljs-string">&#x27;api/data.json&#x27;</span>, {
     <span class="hljs-attr">method</span>: <span class="hljs-string">&#x27;POST&#x27;</span>,			<span class="hljs-comment">// 请求类型</span>
     <span class="hljs-attr">headers</span>: {},			<span class="hljs-comment">// 请求头</span>
     <span class="hljs-attr">body</span>: {},				<span class="hljs-comment">// 请求体</span>

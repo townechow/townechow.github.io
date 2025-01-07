@@ -7,16 +7,17 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","execution","this"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/this","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/this","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","vSbZZD4SuYmoav_8pqJWp",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T8d51,<h1>当前执行上下文 this</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","execution","this"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/this","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/this","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ohUYV9igzRbfqgyTlNPr5",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T8e41,<h1>当前执行上下文 this</h1>
 <p>业界没有 <strong>当前执行上下文</strong> 的叫法，但是笔者私自把 <code>this</code> 的指向理解为执行时所指向的执行上下文。</p>
 <h2>调用位置</h2>
 <p>在理解 <code>this</code> 的绑定过程之前，首先要理解 <code>this</code> 的<strong>调用位置</strong>：调用位置就是函数在代码中被调用的位置（而不是声明的位置）。</p>
 <p>而要理解 <code>this</code> 的调用位置，最重要的是要 <strong>分析调用栈</strong>（就是为了到达当前执行位置所调用的所有函数）。我们关心的调用位置就在当前正在执行的函数的前一个调用中。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">baz</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">baz</span>(<span class="hljs-params"></span>) {
   <span class="hljs-comment">// 当前调用栈是：baz</span>
   <span class="hljs-comment">// 因此，当前调用位置是全局作用域</span>
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;baz&#x27;</span>);
@@ -42,12 +43,12 @@ c:T8d51,<h1>当前执行上下文 this</h1>
 <h2>绑定规则</h2>
 <p>函数的执行过程中调用位置决定 <code>this</code> 的 <strong>绑定对象</strong>。</p>
 <p>你必须找到调用位置，然后判断需要应用下面四条规则中的哪一条。我们首先会分别解释这四条规则，然后解释多条规则都可用时它们的优先级如何排列。</p>
-<pre class="hljs"><code class="language-js">(调用栈) =&gt; <span class="hljs-function">(<span class="hljs-params">调用位置</span>) =&gt;</span> <span class="hljs-function">(<span class="hljs-params">绑定规则</span>) =&gt;</span> 规则优先级;
+<pre class="hljs language-js"  style=--lang:"js" ><code>(调用栈) =&gt; <span class="hljs-function">(<span class="hljs-params">调用位置</span>) =&gt;</span> <span class="hljs-function">(<span class="hljs-params">绑定规则</span>) =&gt;</span> 规则优先级;
 </code></pre>
 <h3>默认绑定</h3>
 <p>首先要介绍的是最常用的函数调用类型：<strong>独立函数调用</strong>。可以把这条规则看作是无法应用其他规则时的默认规则。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -64,7 +65,7 @@ c:T8d51,<h1>当前执行上下文 this</h1>
 <span class="hljs-comment">// 2</span>
 </code></pre>
 <p>如果使用严格模式（Strict Mode），则不能将全局对象用于默认绑定，因此 <code>this</code> 会绑定到 <code>undefined</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-string">&#x27;use strict&#x27;</span>;
 
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
@@ -76,7 +77,7 @@ c:T8d51,<h1>当前执行上下文 this</h1>
 <span class="hljs-comment">// TypeError:this is undefined</span>
 </code></pre>
 <p>这里有一个微妙但是非常重要的细节，虽然 <code>this</code> 的绑定规则完全取决于调用位置，但是只有 <code>foo()</code> 运行在非严格模式下时，默认绑定才能绑定到全局对象；在严格模式下调用 <code>foo</code> 则不受默认绑定影响。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -92,7 +93,7 @@ c:T8d51,<h1>当前执行上下文 this</h1>
 <h3>隐式绑定</h3>
 <p>另一条需要考虑的规则是调用位置是否有<strong>上下文对象</strong>，或者说是否<strong>被某个对象拥有或者包含</strong>，不过这种说法可能会造成一些误导。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -107,7 +108,7 @@ container.<span class="hljs-title function_">foo</span>(); <span class="hljs-com
 <p>然而，调用位置会使用 <code>container</code> 上下文来引用函数，因此你可以说函数被调用时 <code>container</code> 对象 <strong>拥有</strong> 或者 <strong>包含</strong> 它。</p>
 <p>无论你如何称呼这个模式，当 <code>foo</code> 被调用时，它的前面确实加上了对 <code>container</code> 的引用。当函数引用有上下文时，隐式绑定规则会把函数调用中的 <code>this</code> 绑定到这个上下文对象。因为调用 <code>foo</code> 时 <code>this</code> 被绑定到 <code>container</code> 上，因此 <code>this.a</code> 和 <code>container.a</code> 是一样的。</p>
 <p>💡 <strong>对象属性引用链中只有上一层或最后一层在调用位置中起作用。</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -126,7 +127,7 @@ obj1.<span class="hljs-property">obj2</span>.<span class="hljs-title function_">
 <h4>隐式丢失</h4>
 <p>一个最常见的 <code>this</code> 绑定问题就是<strong>被隐式绑定的函数会丢失绑定对象</strong>，也就是说它会应用默认绑定，从而把 <code>this</code> 绑定到全局对象或者 <code>undefined</code> 上（这取决于是否是严格模式）。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -147,7 +148,7 @@ obj1.<span class="hljs-property">obj2</span>.<span class="hljs-title function_">
 <p>📍 虽然 <code>bar</code> 是 <code>container.foo</code> 的一个引用，但是实际上，它引用的是 <code>foo</code> 函数本身，因此此时的 <code>bar</code> 其实是一个不带任何修饰的函数调用，因此应用了默认绑定。</p>
 <p>一种更微妙、更常见并且更出乎意料的情况发生在传入回调函数时。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -169,7 +170,7 @@ obj1.<span class="hljs-property">obj2</span>.<span class="hljs-title function_">
 </code></pre>
 <p>参数传递其实是一种<strong>隐式赋值</strong>，因此我们传入函数时也会被隐式赋值，所以结果和上个示例一样。</p>
 <p>如果把函数传入语言内置的函数而不是传入你自己声明的函数，结果是一样的，没有区别。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -193,7 +194,7 @@ obj1.<span class="hljs-property">obj2</span>.<span class="hljs-title function_">
 <h4>硬绑定</h4>
 <p>硬绑定可以解决之前提出的丢失绑定的问题。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(ths.<span class="hljs-property">a</span>);
 }
 
@@ -218,7 +219,7 @@ bar.<span class="hljs-title function_">call</span>(<span class="hljs-variable la
 <p>我们创建了函数 <code>bar</code>，并在它的内部手动调用了 <code>foo.call(container)</code> ，因此强制把 <code>foo</code> 的 <code>this</code> 绑定到了 <code>container</code> 。无论之后如何调用函数 <code>bar</code>，它总会手动在 <code>container</code> 上调用 <code>foo</code>。这种绑定是一种显式（手动）的强制绑定，因此我们称之为<strong>硬绑定</strong>。</p>
 <h4>内置函数</h4>
 <p>第三方库的许多函数，以及 JavaScript 语言和宿主环境中许多新的内置函数，都提供了一个可选的参数，通常被称为 <strong>上下文（context）</strong>，其作用和 <code>bind</code> 一样，确保你的回调函数使用指定的 <code>this</code> 。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">item</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">item</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">title</span>, item);
 }
 
@@ -247,7 +248,7 @@ bar.<span class="hljs-title function_">call</span>(<span class="hljs-variable la
 <li>如果构造函数执行后没有返回其他对象，那么 <code>new</code> 表达式中的函数调用会自动返回这个新对象</li>
 </ol>
 <p>🎯 <strong>模拟过程：</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">objectFactory</span>(<span class="hljs-params">constructor, ...rest</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">objectFactory</span>(<span class="hljs-params">constructor, ...rest</span>) {
   <span class="hljs-comment">// 创建空对象，空对象关联构造函数的原型对象</span>
   <span class="hljs-keyword">const</span> instance = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(constructor.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
 
@@ -269,7 +270,7 @@ bar.<span class="hljs-title function_">call</span>(<span class="hljs-variable la
 <pre class="hljs"><code>显式绑定 &gt; 构造调用绑定 &gt; 隐式绑定;
 </code></pre>
 <h3>隐式绑定和显式绑定</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -295,7 +296,7 @@ container2.<span class="hljs-property">foo</span>.<span class="hljs-title functi
 </code></pre>
 <p>可以看到，显式绑定优先级更高，也就是说在判断时应当先考虑是否可以存在显式绑定。</p>
 <h3>构造调用绑定和隐式绑定</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">something</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">something</span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = something;
 }
 
@@ -323,7 +324,7 @@ container1.<span class="hljs-property">foo</span>.<span class="hljs-title functi
 <p><code>new</code> 和 <code>call/apply</code> 无法一起使用，因此无法通过 <code>new foo.call(obj1)</code> 来直接进行测试。但是我们可以使用硬绑定来测试他俩的优先级。</p>
 <p>在看代码之前先回忆一下硬绑定是如何工作的。<code>Function.prototype.bind</code> 会创建一个新的包装函数，这个函数会忽略它当前的 <code>this</code> 绑定（无论绑定的对象是什么），并把我们提供的对象绑定到 <code>this</code> 上。</p>
 <p>这样看起来硬绑定（也是显式绑定的一种）似乎比 <code>new</code> 绑定的优先级更高，无法使用 <code>new</code> 来控制 <code>this</code> 绑定。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">something</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">something</span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span> = something;
 }
 
@@ -343,7 +344,7 @@ container1.<span class="hljs-property">foo</span>.<span class="hljs-title functi
 <h2>绑定例外</h2>
 <h3>忽略指向</h3>
 <p>如果将 <code>null</code> 或 <code>undefined</code> 作为 <code>this</code> 的绑定对象传入 <code>call</code>、<code>apply</code> 或 <code>bind</code>，这些值在调用时会被忽略，实际应用的是默认绑定规则。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 }
 
@@ -353,7 +354,7 @@ foo.<span class="hljs-title function_">call</span>(<span class="hljs-literal">nu
 <span class="hljs-comment">// 2</span>
 </code></pre>
 <p>此类写法常用于 <code>apply</code> 来展开数组，并当作参数传入一个函数，类似地，<code>bind</code> 可以对参数进行柯里化（预先设置一些参数）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">a, b</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">a, b</span>) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;a:&#x27;</span> + a + <span class="hljs-string">&#x27;,b:&#x27;</span> + b);
 }
 
@@ -371,7 +372,7 @@ foo.<span class="hljs-title function_">apply</span>(<span class="hljs-literal">n
 <h3>软绑定</h3>
 <p>硬绑定这种方式可以把 <code>this</code> 强制绑定到指定的对象（除了使用 <code>new</code> 时），防止函数调用应用默认绑定规则。问题在于，硬绑定会大大降低函数的灵活性，使用硬绑定之后就无法使用隐式绑定或者显式绑定来修改 <code>this</code>。</p>
 <p>如果可以给默认绑定指定一个全局对象和 <code>undefined</code> 以外的值，那就可以实现和硬绑定相同的效果，同时保留隐式绑定或者显式绑定修改 <code>this</code> 的能力。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (!<span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">softBind</span>) { <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">softBind</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">obj</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (!<span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">softBind</span>) { <span class="hljs-title class_">Function</span>.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>.<span class="hljs-property">softBind</span> = <span class="hljs-keyword">function</span>(<span class="hljs-params">obj</span>) {
 <span class="hljs-keyword">var</span> fn = <span class="hljs-variable language_">this</span>;
 <span class="hljs-comment">// 捕获所有 curried 参数</span>
 <span class="hljs-keyword">var</span> curried = [].<span class="hljs-property">slice</span>.<span class="hljs-title function_">call</span>( <span class="hljs-variable language_">arguments</span>, <span class="hljs-number">1</span> ); <span class="hljs-keyword">var</span> bound = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) {
@@ -395,7 +396,7 @@ curried.<span class="hljs-property">concat</span>.<span class="hljs-title functi
 <h3>箭头函数</h3>
 <p>箭头函数并不是使用 <code>function</code> 关键字定义的，而是使用被称为胖箭头的操作符 <code>=&gt;</code> 定义的。箭头函数不使用 <code>this</code> 的四种标准规则，而是根据外层（函数或者全局）作用域来决定 <code>this</code> 的指向。并且，箭头函数拥有静态的上下文，即一次绑定之后，便不可再修改。</p>
 <p><code>this</code> 指向的固定化，并不是因为箭头函数内部有绑定 <code>this</code> 的机制，实际原因是箭头函数根本没有自己的 <code>this</code>，导致内部的 <code>this</code> 就是外层代码块的 <code>this</code>。正是因为它没有 <code>this</code>，所以也就不能用作构造函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-comment">// 返回一个箭头函数</span>
   <span class="hljs-keyword">return</span> <span class="hljs-function">(<span class="hljs-params">a</span>) =&gt;</span> {
     <span class="hljs-comment">// this 继承自 foo()</span>

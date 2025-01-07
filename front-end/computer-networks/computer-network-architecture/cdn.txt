@@ -7,27 +7,23 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","computer-networks","computer-network-architecture","cdn"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/computer-network-architecture/cdn","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/computer-network-architecture/cdn","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","lQfWjvLtSD6rL62DAFkry",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T6aba,<h1>CDN 内容分发网络</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","computer-networks","computer-network-architecture","cdn"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","computer-networks/computer-network-architecture/cdn","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","computer-networks/computer-network-architecture/cdn","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dbDXh-nxnsCLmxCR061ZK",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T558e,<h1>CDN 内容分发网络</h1>
 <p><strong>內容分发网络（Content Delivery Network 或 Content Distribution Network，简称 CDN）</strong> 通过将源站内容分发至 <strong>最接近用户</strong> 的节点，从而 <strong>降低核心系统负载（系统、网络）</strong>，使用户可就近取得所需内容，<strong>提高用户访问的响应速度</strong>。这种技术方案解决了因分布、带宽、服务器性能带来的访问延迟问题，适用于图片小文件、大文件下载、音视频点播、全站加速和安全加速等场景。</p>
 <h2>工作原理</h2>
 <p>通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据 <strong>网络流量</strong> 和 <strong>各节点的连接</strong>、<strong>负载状况</strong> 以及 <strong>到用户的距离</strong> 和 <strong>响应时间</strong> 等综合信息将用户的请求重新导向离用户最近的服务节点上。</p>
 <p>利用公式简述 CDN 可表示为：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">CDN</span> = 更智能的镜像 + 缓存 + 流量导流;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable constant_">CDN</span> = 更智能的镜像 + 缓存 + 流量导流;
 </code></pre>
 <p>简单地说，CDN 是一个经策略性部署的整体系统，包括<strong>分布式存储</strong>、<strong>负载均衡</strong>、<strong>网络请求的重定向</strong> 和 <strong>内容管理</strong> 4 个要件，而内容管理和全局的网络流量管理（Traffic Management）是 CDN 的核心所在。</p>
 <h2>工作流程</h2>
 <p>用户终端访问 CDN 的过程分为两个步骤，一是用户通过 DNS 找到最近的 CDN 边缘节点 IP，二是数据在网络中送达用户终端。</p>
 <p>最简单的 CDN 网络由一个 DNS 服务器和几台缓存服务器组成，假设您的加速域名为 <code>www.taobao.com</code>，接入 CDN 网络，开始使用加速服务后，当终端用户（广州）发起 HTTP 请求时，处理流程如下：</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/cdn-workflow.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CDN Workflow&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<ol>
+<img alt="CDN Workflow" src="../../assets/cdn/cdn-workflow.jpg" width="800" /><ol>
 <li>当终端用户（广州）向 <code>www.taobao.com</code> 下的某资源发起请求时，首先向 LDNS（本地 DNS）发起域名解析请求。</li>
 <li>LDNS 检查缓存中是否有 <code>www.taobao.com</code> 的 IP 地址记录。如果有，则直接返回给终端用户；如果没有，则向授权 DNS 查询。</li>
 <li>当授权 DNS 解析 <code>www.taobao.com</code> 时，返回域名 CNAME <code>www.taobao.alicdn.com</code> 对应 IP 地址。</li>
@@ -69,26 +65,11 @@ c:T6aba,<h1>CDN 内容分发网络</h1>
 <p>CDN 通常由源站负责内容生产，主干节点负责二级缓存和加速，通常在 BGP 网络。</p>
 <p>广义上的内容分发网络可以包含源站一起，甚至多媒体分发（视频）。商业意义上的 CDN 只包含 CDN 提供商的网络，不包含源站。部分 CDN 支持图片及多媒体处理扩展等附加功能：压缩、剪切、水印、鉴黄。</p>
 <p><strong>CDN 切面</strong></p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/section.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CDN 切面&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>CDN 数据流向</strong></p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/data-flow.jpg&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CDN 数据流向&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<h2>应用场景</h2>
+<img alt="CDN 切面" src="../../assets/cdn/section.jpg" width="540" /><p><strong>CDN 数据流向</strong></p>
+<img alt="CDN 数据流向" src="../../assets/cdn/data-flow.jpg" width="540" /><h2>应用场景</h2>
 <h3>网站加速</h3>
 <p>站点或者应用中大量静态资源的加速分发，建议将站点内容进行动静分离，动态文件可以结合云服务器 ECS，静态资源如各类型 HTML、CSS、JS、图片、文件、短视频等，建议结合对象存储 OSS 存储海量静态资源，可以有效加速内容加载速度，轻松搞定网站图片、短视频等内容分发。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/qiniu-accelerate.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;七牛云网站加速&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<p>建议将 CDN 产品与 OSS 产品结合使用，可以加速资源的加载速度，提高网站图片、短视频等分发效率。</p>
+<img alt="七牛云网站加速" src="../../assets/cdn/qiniu-accelerate.png" width="540" /><p>建议将 CDN 产品与 OSS 产品结合使用，可以加速资源的加载速度，提高网站图片、短视频等分发效率。</p>
 <p><strong>业务价值：</strong></p>
 <ul>
 <li>终端用户访问慢：网站小文件内容多打开速度太慢</li>
@@ -98,12 +79,7 @@ c:T6aba,<h1>CDN 内容分发网络</h1>
 </ul>
 <h3>超大文件下载</h3>
 <p>大文件下载优化加速分发：网站或应用 App 的主要业务为大文件下载，例如：安装包文件 <code>apk</code>、音频文件 <code>mp3</code>、驱动程序 <code>exe</code>、应用更新文件 <code>zip</code> 等，平均单个文件大小在 20M 以上，如游戏、各类客户端下载和 App 下载商店等。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/qiniu-file.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;七牛云超大文件下载&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{540}</span> /&gt;</span></span>;
-</code></pre>
-<p><strong>业务价值：</strong></p>
+<img alt="七牛云超大文件下载" src="../../assets/cdn/qiniu-file.png" width="540" /><p><strong>业务价值：</strong></p>
 <ul>
 <li>终端用户无法下载或者下载太慢。</li>
 <li>网络环境不稳定时，下载容易中断。重新下载会耗费额外的资源。</li>
@@ -170,18 +146,8 @@ c:T6aba,<h1>CDN 内容分发网络</h1>
 <li>首包时间：指从客户端开始发送请求到收到服务器端发来的第一个包之间所需要的时间。这反映了 CDN 服务节点程序的整体性能。</li>
 </ul>
 <p>在上传路径中，首包时间主要包含了 DNS 解析时间、TCP 用时、SSL 用时、发送时间和响应时间。上传</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/upload-flow.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CDN Upload Flow&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<p>在下载路径中，首包时间主要包含了 DNS 解析时间、TCP 用时、SSL 用时、发送时间、响应时间和下载用时。下载</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/cdn/download-flow.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;CDN Upload Flow&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h3>加速大文件下载的主要指标</h3>
+<img alt="CDN Upload Flow" src="../../assets/cdn/upload-flow.png" width="720" /><p>在下载路径中，首包时间主要包含了 DNS 解析时间、TCP 用时、SSL 用时、发送时间、响应时间和下载用时。下载</p>
+<img alt="CDN Upload Flow" src="../../assets/cdn/download-flow.png" width="720" /><h3>加速大文件下载的主要指标</h3>
 <p>大文件下载，一般指各类单个文件大小大于 20M 的下载。因此对这类场景，最核心的指标就是 <strong>下载速度</strong> 和 <strong>下载总时间</strong>。</p>
 <h3>加速音视频点播的主要指标</h3>
 <p>视音频点播的场景，主要涵盖 <code>flv</code>、<code>mp4</code>、<code>wmv</code>、<code>mkv</code> 等视音频文件。在这类场景中的主要衡量指标包括首播时间和卡顿率：</p>

@@ -7,14 +7,15 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","structured-data","json","json-stringify"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/structured-data/json/json-stringify","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/structured-data/json/json-stringify","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RskO6lGjpP1Cv3F0pHf2v",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3663,<h1>JSON.stringify()</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","structured-data","json","json-stringify"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/structured-data/json/json-stringify","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/structured-data/json/json-stringify","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","lh3AN7wr7ZX8AId9KFBfN",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T36f3,<h1>JSON.stringify()</h1>
 <p><code>JSON.stringify()</code> 方法是将一个 JavaScript 值（对象或者数组）转换为一个 JSON 字符串，如果指定了 <code>replacer</code> 是一个函数，则可以替换值，或者如果指定了 <code>replacer</code> 是一个数组，可选的仅包括指定的属性。</p>
 <h2>语法</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>( value[, replacer [, space]] )
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>( value[, replacer [, space]] )
 </code></pre>
 <table>
 <thead>
@@ -50,27 +51,27 @@ c:T3663,<h1>JSON.stringify()</h1>
 <li>非数组对象的属性不能保证以特定的顺序出现在序列化后的字符串中。</li>
 <li>JavaScript 基本数据类型</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(<span class="hljs-number">1</span>); <span class="hljs-comment">// return &#x27;1&#x27;</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(<span class="hljs-number">1</span>); <span class="hljs-comment">// return &#x27;1&#x27;</span>
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(<span class="hljs-literal">true</span>); <span class="hljs-comment">// return &#x27;true&#x27;</span>
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(<span class="hljs-string">&#x27;foo&#x27;</span>); <span class="hljs-comment">// return &#x27;&quot;foo&quot;&#x27;</span>
 </code></pre>
 <ul>
 <li>JavaScript 复杂数据类型</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">x</span>: <span class="hljs-number">5</span> }); <span class="hljs-comment">// return &#x27;{&quot;x&quot;:5}&#x27;</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">x</span>: <span class="hljs-number">5</span> }); <span class="hljs-comment">// return &#x27;{&quot;x&quot;:5}&#x27;</span>
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>([<span class="hljs-number">1</span>, <span class="hljs-string">&#x27;false&#x27;</span>, <span class="hljs-literal">false</span>]); <span class="hljs-comment">// return &#x27;[1,&quot;false&quot;,false]&#x27;</span>
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">x</span>: <span class="hljs-number">5</span>, <span class="hljs-attr">y</span>: <span class="hljs-number">6</span> }); <span class="hljs-comment">// return &quot;{&quot;x&quot;:5,&quot;y&quot;:6}</span>
 </code></pre>
 <ul>
 <li>布尔值、数字、字符串的包装对象在序列化过程中会自动转换成对应的原始值。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>([<span class="hljs-keyword">new</span> <span class="hljs-title class_">Number</span>(<span class="hljs-number">1</span>), <span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>(<span class="hljs-string">&#x27;false&#x27;</span>), <span class="hljs-keyword">new</span> <span class="hljs-title class_">Boolean</span>(<span class="hljs-literal">false</span>)]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>([<span class="hljs-keyword">new</span> <span class="hljs-title class_">Number</span>(<span class="hljs-number">1</span>), <span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>(<span class="hljs-string">&#x27;false&#x27;</span>), <span class="hljs-keyword">new</span> <span class="hljs-title class_">Boolean</span>(<span class="hljs-literal">false</span>)]);
 <span class="hljs-comment">// &#x27;[1,&quot;false&quot;,false]&#x27;</span>
 </code></pre>
 <ul>
 <li><code>undefined</code>、任意的函数以及 <code>Symbol</code> 值，在序列化过程中会被忽略（出现在非数组对象的属性值中时）或者被转换成 <code>null</code>（出现在数组中时）。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">x</span>: <span class="hljs-literal">undefined</span>, <span class="hljs-attr">y</span>: <span class="hljs-title class_">Object</span>, <span class="hljs-attr">z</span>: <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;&#x27;</span>) });
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">x</span>: <span class="hljs-literal">undefined</span>, <span class="hljs-attr">y</span>: <span class="hljs-title class_">Object</span>, <span class="hljs-attr">z</span>: <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;&#x27;</span>) });
 <span class="hljs-comment">// &#x27;{}&#x27;</span>
 
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>([<span class="hljs-literal">undefined</span>, <span class="hljs-title class_">Object</span>, <span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;&#x27;</span>)]);
@@ -79,7 +80,7 @@ c:T3663,<h1>JSON.stringify()</h1>
 <ul>
 <li>所有以 <code>Symbol</code> 为属性键的属性都会被完全忽略掉，即便 <code>replacer</code> 参数中强制指定包含了它们。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ [<span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>)]: <span class="hljs-string">&#x27;foo&#x27;</span> });
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ [<span class="hljs-title class_">Symbol</span>(<span class="hljs-string">&#x27;foo&#x27;</span>)]: <span class="hljs-string">&#x27;foo&#x27;</span> });
 <span class="hljs-comment">// &#x27;{}&#x27;</span>
 
 <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ [<span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>)]: <span class="hljs-string">&#x27;foo&#x27;</span> }, [<span class="hljs-title class_">Symbol</span>.<span class="hljs-title function_">for</span>(<span class="hljs-string">&#x27;foo&#x27;</span>)]);
@@ -95,7 +96,7 @@ c:T3663,<h1>JSON.stringify()</h1>
 <ul>
 <li>不可枚举的属性会被忽略。</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(
   <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(<span class="hljs-literal">null</span>, {
     <span class="hljs-attr">x</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">&#x27;x&#x27;</span>, <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span> },
     <span class="hljs-attr">y</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">&#x27;y&#x27;</span>, <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">true</span> },
@@ -115,7 +116,7 @@ c:T3663,<h1>JSON.stringify()</h1>
 </ul>
 <p><strong>注意：不能用 <code>replacer</code> 方法，从数组中移除值（<code>values</code>）如若返回 <code>undefined</code> 或者一个函数，将会被 <code>null</code> 取代。</strong></p>
 <h4>例子（当参数为 <code>Function</code>）</h4>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">replacer</span>(<span class="hljs-params">key, value</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">replacer</span>(<span class="hljs-params">key, value</span>) {
   <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> value === <span class="hljs-string">&#x27;string&#x27;</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
   }
@@ -128,15 +129,15 @@ c:T3663,<h1>JSON.stringify()</h1>
 </code></pre>
 <h4>例子（当参数为 <code>Array</code>）</h4>
 <p>如果 <code>replacer</code> 是一个数组，数组的值代表将被序列化成 JSON 字符串的属性名。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(foo, [<span class="hljs-string">&#x27;week&#x27;</span>, <span class="hljs-string">&#x27;month&#x27;</span>]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(foo, [<span class="hljs-string">&#x27;week&#x27;</span>, <span class="hljs-string">&#x27;month&#x27;</span>]);
 <span class="hljs-comment">// &#x27;{&quot;week&quot;: 45,&quot;month&quot;:7}&#x27;, 只保留“week”和“month”属性值</span>
 </code></pre>
 <h3><code>space</code> 参数</h3>
 <p><code>space</code> 参数用来控制结果字符串里面的间距。如果一个数字，则在字符串化时每一级别会比上一级别缩进多这个数字值的空格（最多 10 个空格）；如果是一个字符串，则每一级别会比上一级别多缩进用该字符串（或该字符串的前十个字符）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">2</span> }, <span class="hljs-literal">null</span>, <span class="hljs-string">&#x27; &#x27;</span>); <span class="hljs-comment">// &#x27;{\n &quot;a&quot;: 2\n}&#x27;</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">2</span> }, <span class="hljs-literal">null</span>, <span class="hljs-string">&#x27; &#x27;</span>); <span class="hljs-comment">// &#x27;{\n &quot;a&quot;: 2\n}&#x27;</span>
 </code></pre>
 <p>使用制表符（<code>\t</code>）来缩进：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">uno</span>: <span class="hljs-number">1</span>, <span class="hljs-attr">dos</span>: <span class="hljs-number">2</span> }, <span class="hljs-literal">null</span>, <span class="hljs-string">&#x27;\t&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>({ <span class="hljs-attr">uno</span>: <span class="hljs-number">1</span>, <span class="hljs-attr">dos</span>: <span class="hljs-number">2</span> }, <span class="hljs-literal">null</span>, <span class="hljs-string">&#x27;\t&#x27;</span>);
 <span class="hljs-comment">//&#x27;{            \</span>
 <span class="hljs-comment">//    &quot;uno&quot;: 1, \</span>
 <span class="hljs-comment">//    &quot;dos&quot;: 2  \</span>
@@ -144,7 +145,7 @@ c:T3663,<h1>JSON.stringify()</h1>
 </code></pre>
 <h3><code>toJSON</code> 方法</h3>
 <p>如果一个被序列化的对象拥有 <code>toJSON</code> 方法，那么该 <code>toJSON</code> 方法就会覆盖该对象默认的序列化行为：不是那个对象被序列化，而是调用 <code>toJSON</code> 方法后的返回值会被序列化。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">var</span> obj = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">var</span> obj = {
   <span class="hljs-attr">foo</span>: <span class="hljs-string">&#x27;foo&#x27;</span>,
   <span class="hljs-attr">toJSON</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;bar&#x27;</span>;

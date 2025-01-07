@@ -7,19 +7,20 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","string"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/string","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/string","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5fu_EefgN53ZoBsrj2ZUH",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T38ed,<h1>String 对象</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","text-processing","string","string"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/text-processing/string/string","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/text-processing/string/string","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bI1sSnfJ-ZcHacZWRj8Ex",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T394d,<h1>String 对象</h1>
 <p>String 对象是一个用于 <strong>字符串</strong> 或一个 <strong>字符序列</strong> 的构造函数。</p>
 <p>String 对象是文本字符串的对象形式。String 对象允许操作和格式化文本字符串以及确定和定位字符串中的子字符串。</p>
 <h2>语法</h2>
 <p><strong>构造函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>([value]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>([value]);
 </code></pre>
 <p><strong>字符串类型转换函数</strong></p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">String</span>([value]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">String</span>([value]);
 </code></pre>
 <table>
 <thead>
@@ -40,7 +41,7 @@ c:T38ed,<h1>String 对象</h1>
 <h2>说明</h2>
 <h3>模板字面量</h3>
 <p>从 ECMAScript 2015 开始，字符串字面量也可以称为 <strong>模板字面量</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> w = <span class="hljs-string">&#x27;world&#x27;</span><span class="hljs-string">`Hello <span class="hljs-subst">${w}</span>!`</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> w = <span class="hljs-string">&#x27;world&#x27;</span><span class="hljs-string">`Hello <span class="hljs-subst">${w}</span>!`</span>;
 </code></pre>
 <h3>转义字符</h3>
 <p>除了普通的可打印字符以外，一些有特殊功能的字符可以通过转义字符的形式放入字符串中：</p>
@@ -277,30 +278,30 @@ c:T38ed,<h1>String 对象</h1>
 <h2>示例</h2>
 <h3>从字符串中获取单个字符</h3>
 <p>获取字符串的某个字符有两种方法。 第一种是使用 charAt 方法：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;cat&#x27;</span>.<span class="hljs-title function_">charAt</span>(<span class="hljs-number">1</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;cat&#x27;</span>.<span class="hljs-title function_">charAt</span>(<span class="hljs-number">1</span>);
 <span class="hljs-comment">// &quot;a&quot;</span>
 </code></pre>
 <p>另一种把字符串当作一个类似数组的对象，其中的每个字符对应一个数值索引：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;cat&#x27;</span>[<span class="hljs-number">1</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;cat&#x27;</span>[<span class="hljs-number">1</span>];
 (<span class="hljs-string">&#x27;a&#x27;</span>);
 </code></pre>
 <p>使用括号访问字符串不可以对其进行删除或添加，因为字符串对应未知的属性并不是可读或配置的。 (更多的信息请参阅 Object.defineProperty )</p>
 <h3>长字符串</h3>
 <p>有时，你的代码可能含有很长的字符串。你可能想将这样的字符串写成多行，而不是让这一行无限延长或着被编辑器折叠。有两种方法可以做到这一点。</p>
 <p>可以使用 <code>+</code> 运算符将多个字符串连接起来。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> longString =
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> longString =
   <span class="hljs-string">&#x27;This is a very long string which needs &#x27;</span> +
   <span class="hljs-string">&#x27;to wrap across multiple lines because &#x27;</span> +
   <span class="hljs-string">&#x27;otherwise my code is unreadable.&#x27;</span>;
 </code></pre>
 <p>可以在每行末尾使用反斜杠字符（<code>\</code>），以指示字符串将在下一行继续。确保反斜杠后面没有空格或任何除换行符之外的字符或缩进；否则反斜杠将不会工作。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> longString =
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> longString =
   <span class="hljs-string">&#x27;This is a very long string which needs \
 to wrap across multiple lines because \
 otherwise my code is unreadable.&#x27;</span>;
 </code></pre>
 <p>或者使用 ES6+ 提供的模版字符串</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> longString = <span class="hljs-string">`This is a very long string which needs
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> longString = <span class="hljs-string">`This is a very long string which needs
 to wrap across multiple lines because
 otherwise my code is unreadable.`</span>;
 </code></pre>

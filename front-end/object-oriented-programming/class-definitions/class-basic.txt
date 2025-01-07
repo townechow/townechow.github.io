@@ -7,15 +7,16 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","class-definitions","class-basic"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eMV6p9ydN22_PlSFyABUj",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3be6,<h1>类的基本语法</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","class-definitions","class-basic"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/class-definitions/class-basic","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CaeuoadZjdN4ohrNZRpuU",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3c5e,<h1>类的基本语法</h1>
 <p>ECMAScript 6 中的 Class（类）概念，实际上可以把它看作 ECMAScript 5 对象原型写法的语法糖。</p>
 <h2>基本写法</h2>
 <p>利用 ES5 实现对象原型：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Point</span>(<span class="hljs-params">x, y</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">Point</span>(<span class="hljs-params">x, y</span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
 }
@@ -27,7 +28,7 @@ c:T3be6,<h1>类的基本语法</h1>
 <span class="hljs-keyword">var</span> p = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Point</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
 </code></pre>
 <p>利用 ES6 实现对象原型：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params">x, y</span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
@@ -42,7 +43,7 @@ c:T3be6,<h1>类的基本语法</h1>
 <h3>类的声明式</h3>
 <p>与 ES5 相同的是，类也是通过 <code>new</code> 关键字创建对象实例。</p>
 <p>与 ES5 不同的是，在 ES6 中，我们将原型的实现写在了类中，但本质上还是一样的，都是需要新建一个类名，然后实现构造函数，再实现原型方法。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span>(){
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span>(){
   <span class="hljs-comment">// 构造函数</span>
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params">name = <span class="hljs-string">&#x27;Tom&#x27;</span></span>){
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name
@@ -74,7 +75,7 @@ foo.<span class="hljs-title function_">sayName</span>()
 <li><code>this</code> 的指向默认指向 &lt;strong style=&quot;color: red&quot;&gt;类的实例&lt;/strong&gt;</li>
 </ol>
 <h3>类的表达式</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 表达式</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 表达式</span>
 <span class="hljs-comment">// 这个类的名称为 Baz2 而不是 Baz1</span>
 <span class="hljs-comment">// Baz1 只有在类内部代码可用 指代当前类</span>
 <span class="hljs-keyword">const</span> <span class="hljs-title class_">Baz2</span> = <span class="hljs-keyword">class</span> <span class="hljs-title class_">Baz1</span> {
@@ -92,7 +93,7 @@ foo.<span class="hljs-title function_">sayName</span>()
 </blockquote>
 <h3>实例对象</h3>
 <p>与 ES5 一样，实例的属性除非显式定义在其本身（即定义在 <code>this</code> 对象上），否则都是定义在 <strong>原型对象</strong> 上（即定义在 <code>class</code> 上）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Point</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params">x, y</span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">x</span> = x;
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">y</span> = y;
@@ -131,7 +132,7 @@ point.<span class="hljs-property">__proto__</span>.<span class="hljs-title funct
 <h3>访问器属性</h3>
 <p>与 ES5 一样，在类的内部也可以使用 <code>get</code> 和 <code>set</code> 关键字，对某个属性设置 <strong>存值函数</strong> 和 <strong>取值函数</strong>，拦截该属性的存取行为。</p>
 <p>尽管应该在类的构造函数中创建自己的属性，但是类也支持直接在原型上定义访问器属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> () {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> () {
   <span class="hljs-title function_">constructor</span> (<span class="hljs-params"></span>) {
     <span class="hljs-comment">// ...</span>
   }
@@ -153,7 +154,7 @@ point.<span class="hljs-property">__proto__</span>.<span class="hljs-title funct
 </code></pre>
 <h3>属性表达式</h3>
 <p>类的属性名，可以采用表达式。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> methodName = <span class="hljs-string">&#x27;getArea&#x27;</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> methodName = <span class="hljs-string">&#x27;getArea&#x27;</span>
 
 <span class="hljs-keyword">class</span> <span class="hljs-title class_">Square</span>(){
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params">length</span>){
@@ -166,7 +167,7 @@ point.<span class="hljs-property">__proto__</span>.<span class="hljs-title funct
 </code></pre>
 <h3>生成器方法</h3>
 <p>如果某个方法之前加上星号（<code>*</code>），就表示该方法是一个生成器方法（Generator 函数）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params">...args</span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">args</span> = args;
   }
@@ -187,14 +188,14 @@ point.<span class="hljs-property">__proto__</span>.<span class="hljs-title funct
 <p>类的方法内部如果含有 <code>this</code>，它默认指向 <strong>类的实例</strong>。</p>
 <p>但是，如果将类方法内部的方法提取出来单独使用，<code>this</code> 会指向该方法 <strong>运行时所在的环境</strong>，因为找不到相对应的方法而导致报错。</p>
 <p>因此，需要 <strong>在构造函数中绑定 <code>this</code></strong> ，这样就不会找不到相对应的方法。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span> = <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>);
   }
 }
 </code></pre>
 <p>另一种解决方法是使用 <strong>箭头函数</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Car</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Car</span> {
   <span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">this</span>.<span class="hljs-property">sayName</span> = <span class="hljs-function">(<span class="hljs-params">name = <span class="hljs-string">&#x27;BOT&#x27;</span></span>) =&gt;</span> {
       <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">sayName</span>(<span class="hljs-string">`My name is <span class="hljs-subst">${name}</span>`</span>);

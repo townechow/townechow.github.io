@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","object-understand","attributes-object"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/attributes-object","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/attributes-object","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","j_8QLz3aSe9IyRDTYu1p2",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3a6a,<h1>对象属性描述符</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","object-understand","attributes-object"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/attributes-object","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/attributes-object","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","2bXXScnfIf63LfX6X9HhL",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3aee,<h1>对象属性描述符</h1>
 <p>ECMA-262 第五版在定义只有内部才能使用的特性（Attribute）时，描述了属性（Property）的各种特征。这些特性是为了实现 JavaScript 引擎而存在的，因此在 JavaScript 中不能直接访问它们。为了表示特征是内部值，该规范把它们放在了两对儿方括号 <code>[[]]</code>中。</p>
 <p>对象属性描述符的类型分为两种：<a href="/front-end/object-oriented-programming/object-understand/#%E6%95%B0%E6%8D%AE%E5%B1%9E%E6%80%A7">数据属性</a> 和 <a href="/front-end/object-oriented-programming/object-understand/#%E8%AE%BF%E9%97%AE%E5%99%A8%E5%B1%9E%E6%80%A7">访问器属性</a>。</p>
 <h2>数据属性</h2>
@@ -49,14 +50,14 @@ c:T3a6a,<h1>对象属性描述符</h1>
 </table>
 <h3>可写性</h3>
 <p><strong>可写性</strong>（Writable）决定是否可以修改属性的值，默认值为 <code>true</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 foo.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// 2</span>
 </code></pre>
 <p>设置 <code>writable: false</code> 后，赋值语句会静默失效。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">writable</span>: <span class="hljs-literal">false</span>,
@@ -68,7 +69,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
 <span class="hljs-comment">// 1</span>
 </code></pre>
 <p>设置 <code>writable:false</code> 后，通过 <a href="/front-end/standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/defineProperty">Object.defineProperty()</a> 方法改变属性 <code>value</code> 的值不会受影响，因为这也意味着重置 <code>writable</code> 的属性值为 <code>true</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">writable</span>: <span class="hljs-literal">false</span>,
@@ -87,7 +88,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
 <h3>可配置性</h3>
 <p><strong>可配置性</strong>（ Configurable）决定是否可以使用 <code>delete</code> 删除属性，以及是否可以修改属性描述符的特性，默认值为 <code>true</code>。</p>
 <p>设置 <code>configurable: false</code> 后，无法使用 <code>delete</code> 删除属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
@@ -100,7 +101,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
 <span class="hljs-comment">// 1</span>
 </code></pre>
 <p>一般地，设置 <code>configurable: false</code> 后，将无法再使用 <code>Object.defineProperty()</code> 方法来修改属性描述符。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
@@ -112,7 +113,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">2</span>;
 <span class="hljs-comment">// Uncaught TypeError: Cannot redefine property: a</span>
 </code></pre>
 <p>有一个例外，设置 <code>configurable: false</code> 后，只允许 <code>writable</code> 的状态从 <code>true</code> 变为 <code>false</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">configurable</span>: <span class="hljs-literal">false</span>,
@@ -141,7 +142,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">3</span>;
 <p>用户定义的<strong>普通属性默认是可枚举的</strong>，而<strong>原生继承的属性默认是不可枚举的</strong>。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
 <p>由于原生继承的属性默认不可枚举，所以只取得自定义的属性 <code>bar: 1</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> item <span class="hljs-keyword">in</span> foo) {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo[item]);
@@ -149,7 +150,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">3</span>;
 }
 </code></pre>
 <p>由于 <code>enumerable</code> 被设置为 <code>false</code>，在 <code>for-in</code> 循环中 <code>a</code> 属性无法被枚举出来。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, { <span class="hljs-attr">enumerable</span>: <span class="hljs-literal">false</span> });
 
@@ -204,7 +205,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">3</span>;
 <h3>Getter</h3>
 <p><code>[[Getter]]</code> 是一个隐藏函数，在获取属性值时调用。</p>
 <p>给只设置 <code>get</code> 方法，没有设置 <code>set</code> 方法的对象赋值会静默失败，在严格模式下会报错。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {
   <span class="hljs-keyword">get</span> <span class="hljs-title function_">a</span>() {
     <span class="hljs-keyword">return</span> <span class="hljs-number">2</span>;
   },
@@ -222,7 +223,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">3</span>;
 <h3>Setter</h3>
 <p><code>[[Setter]]</code> 也是一个隐藏函数，在设置属性值时调用，默认值是 <code>undefined</code>。</p>
 <p>只设置 <code>set</code> 方法，而不设置 <code>get</code> 方法，则对象属性值为 <code>undefined</code>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> foo = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> foo = {
   <span class="hljs-keyword">set</span> <span class="hljs-title function_">a</span>(<span class="hljs-params">val</span>) {
     <span class="hljs-keyword">return</span> <span class="hljs-number">2</span>;
   },
@@ -234,7 +235,7 @@ foo.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// undefined</span>
 </code></pre>
 <p>一般地，<code>set</code> 和 <code>get</code> 方法需要成对出现的。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {
   <span class="hljs-keyword">get</span> <span class="hljs-title function_">a</span>() {
     <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">_a</span>;
   },

@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","reflection","proxy","proxy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/reflection/proxy/proxy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/reflection/proxy/proxy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JH2VQMUYAfUKXi9y2PgnM",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T9792,<h1>Proxy</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","reflection","proxy","proxy"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/reflection/proxy/proxy","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/reflection/proxy/proxy","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","PmWy8zzDshOqOCjayKPYa",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T9882,<h1>Proxy</h1>
 <p>Proxy 对象用于修改某些操作的默认行为（如属性查找、赋值、枚举、函数调用等），等同于在语言层面做出修改，所以属于一种 <strong>元编程</strong>（Meta Programming），即对编程语言进行编程。</p>
 <p>Proxy 可以理解成，在目标对象之前架设一层 <strong>拦截</strong>，外界对该对象的访问，都必须先通过这层拦截，因此提供了一种机制，可以对外界的访问进行过滤和改写。</p>
 <p>Proxy 这个词的原意是 <strong>代理</strong>，用在这里表示由它来 <strong>代理</strong> 某些操作，可以译为 <strong>代理器</strong>。</p>
@@ -22,11 +23,11 @@ c:T9792,<h1>Proxy</h1>
 </ul>
 <p><strong>使用方式：</strong></p>
 <p>ES6 原生提供 Proxy 构造函数，用来生成 Proxy 实例。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(target, handler);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(target, handler);
 </code></pre>
 <p>Proxy 对象的所有用法，都是上面这种形式，不同的只是 <code>handler</code> 参数的写法。其中，<code>new Proxy()</code> 表示生成一个 Proxy 实例，<code>target</code> 参数表示所要拦截的目标对象，<code>handler</code> 参数也是一个对象，用于定制拦截行为。</p>
 <h2>基本使用</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
   {},
   {
     <span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">target, property, receiver</span>) {
@@ -43,7 +44,7 @@ c:T9792,<h1>Proxy</h1>
 );
 </code></pre>
 <p>上面代码对一个空对象架设了一层拦截，重定义了属性的 <strong>读取</strong>（<code>get</code>）和 <strong>设置</strong>（<code>set</code>）行为。这里暂时先不解释具体的语法，只看运行结果。对设置了拦截行为的对象 <code>proxy</code>，去读写它的属性，就会得到下面的结果。</p>
-<pre class="hljs"><code class="language-js">proxy.<span class="hljs-property">count</span> = <span class="hljs-number">1</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code>proxy.<span class="hljs-property">count</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// Setting count!</span>
 
 ++proxy.<span class="hljs-property">count</span>;
@@ -54,7 +55,7 @@ c:T9792,<h1>Proxy</h1>
 <p>上面代码说明，Proxy 实际上 <strong>重载</strong>（Overload）了点运算符，即用自己的定义覆盖了语言的原始定义。</p>
 <h2>代理的引用上下文问题</h2>
 <p>虽然 Proxy 可以代理针对目标对象的访问，但它不是目标对象的透明代理，即不做任何拦截的情况下，也无法保证与目标对象的行为一致。主要原因就是 Proxy 代理的情况下，目标对象内部的 <code>this</code> 关键字会指向 Proxy 代理。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> target = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> target = {
   <span class="hljs-attr">foo</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span> === proxy);
   },
@@ -72,7 +73,7 @@ c:T9792,<h1>Proxy</h1>
 <p>上面代码中，一旦 <code>proxy</code> 代理 <code>target.foo</code>，后者内部的 <code>this</code> 就是指向 <code>proxy</code>，而不是 <code>target</code>。</p>
 <h2>嵌套支持</h2>
 <p>Proxy 也是 <strong>不支持嵌套</strong> 的，这点和 <code>Object.defineProperty()</code> 是一样的。因此与需要通过逐层遍历来解决。Proxy 的写法是在 <code>get</code> 里面递归调用 Proxy 并返回。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 需要代理的数据</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 需要代理的数据</span>
 <span class="hljs-keyword">const</span> data = {
   <span class="hljs-attr">info</span>: {
     <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Eason&#x27;</span>,
@@ -126,7 +127,7 @@ proxy.<span class="hljs-property">info</span>.<span class="hljs-property">blogs<
 <h3>管道</h3>
 <p>在最新的 ECMAScript 提案中，出现了原生的管道操作符 <code>|&gt;</code>，在 RxJS 和 Node.js 中都有类似的 <code>pipe</code> 概念。</p>
 <p>使用 Proxy 也可以实现 <code>pipe</code> 功能，只要使用 <code>get</code> 对属性访问进行拦截就能轻易实现，将访问的方法都放到 <code>stack</code> 数组里面，一旦最后访问了 <code>execute</code> 就返回结果。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">pipe</span> = (<span class="hljs-params">value</span>) =&gt; {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">pipe</span> = (<span class="hljs-params">value</span>) =&gt; {
   <span class="hljs-keyword">const</span> stack = [];
   <span class="hljs-keyword">const</span> proxy = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(
     {},
@@ -152,14 +153,14 @@ proxy.<span class="hljs-property">info</span>.<span class="hljs-property">blogs<
 </code></pre>
 <h3>运算符重载</h3>
 <p><code>in</code> 操作符用于检查指定的属性是否位于指定的对象或其原型链中，但它也是语法上最优雅的重载操作符，这个例子定义了一个连续 <code>range</code> 函数来比较数字。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">range</span> = (<span class="hljs-params">min, max</span>) =&gt; {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">range</span> = (<span class="hljs-params">min, max</span>) =&gt; {
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(<span class="hljs-literal">null</span>), {
     <span class="hljs-attr">has</span>: <span class="hljs-function">(<span class="hljs-params">_, prop</span>) =&gt;</span> +prop &gt;= min &amp;&amp; +prop &lt;= max,
   });
 };
 </code></pre>
 <p>与 Python 不同，Python 使用生成器与有限的整数序列进行比较，这种方法支持十进制比较，可以扩展为支持其他数值范围。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> num = <span class="hljs-number">11</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> num = <span class="hljs-number">11</span>;
 <span class="hljs-keyword">const</span> data = [<span class="hljs-number">1</span>, <span class="hljs-number">5</span>, num, <span class="hljs-number">50</span>, <span class="hljs-number">100</span>];
 
 <span class="hljs-keyword">if</span> (num <span class="hljs-keyword">in</span> <span class="hljs-title function_">range</span>(<span class="hljs-number">1</span>, <span class="hljs-number">100</span>)) {
@@ -173,7 +174,7 @@ data.<span class="hljs-title function_">filter</span>(<span class="hljs-function
 <p>除了 <code>in</code> 运算符，我们还可以重载 <code>delete</code> 和 <code>new</code>。</p>
 <h3>通过属性查找数组中的特定对象</h3>
 <p>以下代理为数组扩展了一些实用工具。如你所见，通过 Proxy，我们可以灵活地定义属性，而不需要实用 <code>Object.defineProperties</code> 方法。以下例子可以用于通过单元格来查找表格中的一行。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> data = [
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> data = [
   { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Firefox&#x27;</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;browser&#x27;</span> },
   { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;SeaMonkey&#x27;</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;browser&#x27;</span> },
   { <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Thunderbrid&#x27;</span>, <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;mailer&#x27;</span> },
@@ -244,7 +245,7 @@ data.<span class="hljs-title function_">filter</span>(<span class="hljs-function
 </code></pre>
 <h3>扩展构造函数</h3>
 <p>方法代理可以轻松地通过一个新构造函数来扩展一个已有的构造函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> extend = <span class="hljs-keyword">function</span> (<span class="hljs-params">sup, base</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> extend = <span class="hljs-keyword">function</span> (<span class="hljs-params">sup, base</span>) {
   <span class="hljs-keyword">const</span> descriptor = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getOwnPropertyDescriptor</span>(base.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>, <span class="hljs-string">&#x27;constructor&#x27;</span>);
 
   base.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(sup.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>);
@@ -273,7 +274,7 @@ data.<span class="hljs-title function_">filter</span>(<span class="hljs-function
 };
 </code></pre>
 <p>使用示例：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title class_">Person</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title class_">Person</span> = <span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) {
   <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span> = name;
 };
 
@@ -294,7 +295,7 @@ data.<span class="hljs-title function_">filter</span>(<span class="hljs-function
 </code></pre>
 <h3>副作用</h3>
 <p>我们可以通过 Proxy 来创建一个在读写属性时的副作用. 出发点在于某些特定的属性被访问或者写入时触发一些函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">dosomething</span> = (<span class="hljs-params"></span>) =&gt; {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">dosomething</span> = (<span class="hljs-params"></span>) =&gt; {
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Do something after task completion&#x27;</span>);
 };
 
@@ -315,7 +316,7 @@ tasks.<span class="hljs-property">status</span> = <span class="hljs-string">&#x2
 <p>当 <code>status</code> 属性写入并且值为 <code>complete</code> 时，会触发副作用函数 <code>dosomething()</code>。</p>
 <h3>缓存</h3>
 <p>利用介入干涉对象属性读写的能力，我们能够创建一个基于内存的缓存，它只会在值过期前返回值：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">cacheTarget</span> = (<span class="hljs-params">target, ttl = <span class="hljs-number">60</span></span>) =&gt; {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">cacheTarget</span> = (<span class="hljs-params">target, ttl = <span class="hljs-number">60</span></span>) =&gt; {
   <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">CREATED_AT</span> = <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">now</span>();
   <span class="hljs-keyword">const</span> <span class="hljs-title function_">isExpired</span> = (<span class="hljs-params"></span>) =&gt; (<span class="hljs-title class_">Date</span>.<span class="hljs-title function_">now</span>() - <span class="hljs-variable constant_">CREATED_AT</span>) &gt; (ttl * <span class="hljs-number">1000</span>);
   <span class="hljs-keyword">const</span> handler = {
@@ -337,10 +338,10 @@ tasks.<span class="hljs-property">status</span> = <span class="hljs-string">&#x2
 <h3>Cookie 对象</h3>
 <p>如果你曾经与 Cookie 进行交互，那么必须处理 <code>document.cookie</code>。这是一个不寻常的 API，因为 API 是一个 String，它读出所有 Cookie，以分号分隔。</p>
 <p><code>document.cookie</code> 是一个看起来像这样的字符串：</p>
-<pre class="hljs"><code class="language-js">_octo=<span class="hljs-title class_">GH1</span><span class="hljs-number">.2</span><span class="hljs-number">.2591</span><span class="hljs-number">.47507</span>; _ga=<span class="hljs-title class_">GA1</span><span class="hljs-number">.1</span><span class="hljs-number">.62208</span><span class="hljs-number">.4087</span>; has_recent_activity=<span class="hljs-number">1</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code>_octo=<span class="hljs-title class_">GH1</span><span class="hljs-number">.2</span><span class="hljs-number">.2591</span><span class="hljs-number">.47507</span>; _ga=<span class="hljs-title class_">GA1</span><span class="hljs-number">.1</span><span class="hljs-number">.62208</span><span class="hljs-number">.4087</span>; has_recent_activity=<span class="hljs-number">1</span>
 </code></pre>
 <p>简而言之，处理 <code>document.cookie</code> 比较麻烦且容易出错。一种方法是使用简单的 Cookie 框架，可以适用于 Proxy。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> <span class="hljs-title function_">getCookie</span> = (<span class="hljs-params"></span>) =&gt; {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> <span class="hljs-title function_">getCookie</span> = (<span class="hljs-params"></span>) =&gt; {
   <span class="hljs-keyword">const</span> cookies = <span class="hljs-variable language_">document</span>.<span class="hljs-property">cookie</span>.<span class="hljs-title function_">split</span>(<span class="hljs-string">&#x27;;&#x27;</span>).<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">acc, item</span>) =&gt;</span> ({
     [item.<span class="hljs-title function_">substr</span>(<span class="hljs-number">0</span>, item.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;=&#x27;</span>)).<span class="hljs-title function_">trim</span>()]: item.<span class="hljs-title function_">substr</span>(item.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&#x27;=&#x27;</span>) + <span class="hljs-number">1</span>),
     ...acc,
@@ -358,7 +359,7 @@ tasks.<span class="hljs-property">status</span> = <span class="hljs-string">&#x2
 };
 </code></pre>
 <p>此函数返回一个键值对对象，但代理 <code>document.cookie</code> 进行持久性的所有更改。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">let</span> docCookies = <span class="hljs-title function_">getCookies</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">let</span> docCookies = <span class="hljs-title function_">getCookies</span>();
 
 docCookies.<span class="hljs-property">has_recent_activity</span>;
 <span class="hljs-comment">// 1</span>
@@ -371,7 +372,7 @@ docCookies.<span class="hljs-property">has_recent_activity</span> = <span class=
 <h3>日志和统计</h3>
 <p>在做服务端时，可以使用 Proxy 代理函数，统一一段时间内调用的次数。</p>
 <p>在后期做性能分析时可能会能够用上：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">noop</span>(<span class="hljs-params"></span>) {}
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">noop</span>(<span class="hljs-params"></span>) {}
 
 <span class="hljs-keyword">const</span> proxyFunction = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Proxy</span>(noop, {
   <span class="hljs-title function_">apply</span>(<span class="hljs-params">target, context, args</span>) {
@@ -382,7 +383,7 @@ docCookies.<span class="hljs-property">has_recent_activity</span> = <span class=
 });
 </code></pre>
 <p>或者：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> data = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> data = {
   <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;Jerry&#x27;</span>,
   <span class="hljs-attr">author</span>: <span class="hljs-string">&#x27;Lauren Weisberger&#x27;</span>
 }
@@ -405,7 +406,7 @@ proxy.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;
 <p>听起来排查动态类型的问题可以变得更简单了。如果有了流行的对象监控库，开发者可以主需要引入这个库然后包一下需要监控的对象就可以把这个对象完整的操作记录都打印出来了。</p>
 <h3>动态代理</h3>
 <p>简单实现代理：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> axios = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;axios&#x27;</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> axios = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;axios&#x27;</span>);
 
 <span class="hljs-keyword">const</span> instance = axios.<span class="hljs-title function_">create</span>({ <span class="hljs-attr">baseURL</span>: <span class="hljs-string">&#x27;http://localhost:3000/api&#x27;</span> });
 <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">METHODS</span> = [<span class="hljs-string">&#x27;get&#x27;</span>, <span class="hljs-string">&#x27;post&#x27;</span>, <span class="hljs-string">&#x27;patch&#x27;</span>];
@@ -437,7 +438,7 @@ proxy.<span class="hljs-property">name</span> = <span class="hljs-string">&#x27;
 );
 </code></pre>
 <p>使用方式可以是：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// GET /api/user?id=12</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// GET /api/user?id=12</span>
 api.<span class="hljs-property">user</span>
   .<span class="hljs-title function_">get</span>({ <span class="hljs-attr">params</span>: { <span class="hljs-attr">id</span>: <span class="hljs-number">12</span> } })
   .<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">user</span>) =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(user))

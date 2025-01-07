@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","execution","variable-object"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/variable-object","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/variable-object","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","vzZJKaUQQLRd05qRpSphp",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T2bf6,<h1>变量对象</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","core-modules","executable-code-and-execution-contexts","execution","variable-object"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/variable-object","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","core-modules/executable-code-and-execution-contexts/execution/variable-object","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CuU7XbR5xXUoMY9VRlBjl",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T2c62,<h1>变量对象</h1>
 <p>变量对象是与 <a href="/front-end/core-modules/executable-code-and-execution-contexts/execution/execution-context-stack">执行上下文</a> 相关的数据作用域，存储了在上下文中定义的 <strong>变量</strong> 和 <strong>函数声明</strong>。</p>
 <p>因为不同执行上下文中的变量对象稍有不同，所以我们来聊聊 <a href="/front-end/core-modules/executable-code-and-execution-contexts/execution/#%E5%85%A8%E5%B1%80%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87">全局执行上下文</a> 下的变量对象和 <a href="/front-end/core-modules/executable-code-and-execution-contexts/execution/#%E5%87%BD%E6%95%B0%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87">函数执行上下文</a> 下的变量对象。</p>
 <h2>全局执行上下文</h2>
@@ -24,19 +25,19 @@ c:T2bf6,<h1>变量对象</h1>
 <ol>
 <li>可以通过 <code>this</code> 引用，在 JavaScript 中，全局对象就是 Window 对象</li>
 </ol>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>);
 <span class="hljs-comment">// Window { ... }</span>
 </code></pre>
 <ol start="2">
 <li>全局对象是由 Object 构造函数实例化的一个对象</li>
 </ol>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span> <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>);
 <span class="hljs-comment">// true</span>
 </code></pre>
 <ol start="3">
 <li>预定义全局函数和全局属性，在任何地方均可调用</li>
 </ol>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-property">random</span> === <span class="hljs-variable language_">this</span>.<span class="hljs-property">Math</span>.<span class="hljs-property">random</span>);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-property">random</span> === <span class="hljs-variable language_">this</span>.<span class="hljs-property">Math</span>.<span class="hljs-property">random</span>);
 <span class="hljs-comment">// true</span>
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-property">PI</span> === <span class="hljs-variable language_">this</span>.<span class="hljs-property">Math</span>.<span class="hljs-property">PI</span>);
@@ -45,7 +46,7 @@ c:T2bf6,<h1>变量对象</h1>
 <ol start="4">
 <li>作为全局变量的宿主。</li>
 </ol>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-string">&#x27;foo&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = <span class="hljs-string">&#x27;foo&#x27;</span>;
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// foo</span>
@@ -53,7 +54,7 @@ c:T2bf6,<h1>变量对象</h1>
 <ol start="5">
 <li>在 JavaScript 中，全局对象有 Window 属性指向自身</li>
 </ol>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> a = <span class="hljs-string">&#x27;foo&#x27;</span>;
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> a = <span class="hljs-string">&#x27;foo&#x27;</span>;
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">window</span>.<span class="hljs-property">a</span>);
 <span class="hljs-comment">// &#x27;foo&#x27;</span>
 
@@ -97,7 +98,7 @@ c:T2bf6,<h1>变量对象</h1>
 </li>
 </ol>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">a</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">foo</span>(<span class="hljs-params">a</span>) {
   <span class="hljs-keyword">var</span> b = <span class="hljs-number">2</span>;
 
   <span class="hljs-keyword">function</span> <span class="hljs-title function_">c</span>(<span class="hljs-params"></span>) {}
@@ -108,7 +109,7 @@ c:T2bf6,<h1>变量对象</h1>
 }
 </code></pre>
 <p>在进入执行上下文后，这时候的活动对象 AO 是：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">AO</span> = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable constant_">AO</span> = {
   <span class="hljs-attr">arguments</span>: {
       <span class="hljs-number">0</span>: <span class="hljs-number">1</span>,
       <span class="hljs-attr">length</span>: <span class="hljs-number">1</span>
@@ -122,7 +123,7 @@ c:T2bf6,<h1>变量对象</h1>
 <h3>代码执行阶段的变量对象</h3>
 <p>在代码执行阶段，会根据代码，顺序执行代码，修改变量对象的值</p>
 <p>还是上面的例子，当代码执行完后，这时候的 AO 是：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">AO</span> = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable constant_">AO</span> = {
   <span class="hljs-attr">arguments</span>: {
     <span class="hljs-number">0</span>: <span class="hljs-number">1</span>,
     <span class="hljs-attr">length</span>: <span class="hljs-number">1</span>
@@ -147,7 +148,7 @@ c:T2bf6,<h1>变量对象</h1>
 <p>未进入执行阶段之前，变量对象（VO：Variable Object）中的属性都不能访问。</p>
 <p>但是进入执行阶段之后，活动对象（AO：Activation Object）被激活，里面的属性包括 VO、函数执行时传入的参数和 Arguments 对象都能被访问了，然后开始进行执行阶段的操作。</p>
 <p>利用公式可以简单表述为:</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-variable constant_">AO</span> = <span class="hljs-variable constant_">VO</span> + <span class="hljs-keyword">function</span> parameters + <span class="hljs-variable language_">arguments</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-variable constant_">AO</span> = <span class="hljs-variable constant_">VO</span> + <span class="hljs-keyword">function</span> parameters + <span class="hljs-variable language_">arguments</span>
 </code></pre>
 <h2>参考资料</h2>
 <ul>

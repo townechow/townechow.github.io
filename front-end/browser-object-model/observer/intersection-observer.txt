@@ -7,16 +7,17 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","observer","intersection-observer"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/observer/intersection-observer","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/observer/intersection-observer","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","1C7DYA6Cp2pNvWZCU-_QV",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T33c4,<h1>IntersectionObserver API</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","observer","intersection-observer"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/observer/intersection-observer","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/observer/intersection-observer","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","amayY_8lNuS6GDgMLbPd4",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T3128,<h1>IntersectionObserver API</h1>
 <p>网页开发时，常常需要了解某个元素是否进入了「视口」（Viewport），即用户能不能看到它。</p>
 <p>传统的实现方法是，监听到 <code>scroll</code> 事件后，调用目标元素的 <code>getBoundingClientRect()</code> 方法，得到它对应于视口左上角的坐标，再判断是否在视口之内。这种方法的缺点是，由于 <code>scroll</code> 事件密集发生，计算量很大，容易造成性能问题。</p>
 <p>目前有个新的 IntersectionObserver API，可以自动观察元素是否可见，Chrome 51+ 已经支持。由于可见（visible）的本质是，目标元素与视口产生一个交叉区，所以这个 API 叫做 <strong>交叉视察器</strong>。</p>
 <h2>API</h2>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(callback, option);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(callback, option);
 </code></pre>
 <p>IntersectionObserver 是浏览器原生提供的构造函数，接受两个参数：</p>
 <ul>
@@ -24,7 +25,7 @@ c:T33c4,<h1>IntersectionObserver API</h1>
 <li><code>option</code>：配置对象（可选）</li>
 </ul>
 <p>构造函数的返回值是一个观察器实例，实例的 <code>observe</code> 方法可以指定观察哪个 DOM 节点。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 开始观察</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 开始观察</span>
 io.<span class="hljs-title function_">observe</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;example&#x27;</span>));
 
 <span class="hljs-comment">// 停止观察</span>
@@ -34,18 +35,18 @@ io.<span class="hljs-title function_">unobserve</span>();
 io.<span class="hljs-title function_">disconnect</span>();
 </code></pre>
 <p>上图代码中，<code>observe</code> 的参数是一个 DOM 节点对象。如果要观察多个节点，就要多次调用这个方法。</p>
-<pre class="hljs"><code class="language-js">io.<span class="hljs-title function_">observe</span>(elementA);
+<pre class="hljs language-js"  style=--lang:"js" ><code>io.<span class="hljs-title function_">observe</span>(elementA);
 io.<span class="hljs-title function_">observe</span>(elementB);
 </code></pre>
 <h2>callback 参数</h2>
 <p>目标元素的可见性变化时，就会调用观察器的回调函数 <code>callback</code>。</p>
 <p><code>callback</code> 一般会出发两次。一次是目标元素刚刚进入视口（开始可见），另一次是完全离开视口（开始不可见）。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(entries));
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(entries));
 </code></pre>
 <p>上述代码中，回调函数采用的是箭头函数的写法。<code>callback</code> 函数的参数（<code>entries</code>）是一个数组，每个成员都是一个 IntersectionObserverEntry 对象。举例来说，如果同时有两个被观察的对象的可见性发生变化，<code>entries</code> 数组就会有两个成员。</p>
 <h2>IntersectionObserverEntry 对象</h2>
 <p>IntersectionObserverEntry 对象提供目标元素的信息，一共有六个属性。</p>
-<pre class="hljs"><code class="language-js">{
+<pre class="hljs language-js"  style=--lang:"js" ><code>{
   <span class="hljs-attr">time</span>: <span class="hljs-number">3893.92</span>,
   <span class="hljs-attr">rootBounds</span>: <span class="hljs-title class_">ClientRect</span> {
     <span class="hljs-attr">bottom</span>: <span class="hljs-number">920</span>,
@@ -74,15 +75,10 @@ io.<span class="hljs-title function_">observe</span>(elementB);
 <li><code>intersectionRect</code>：目标元素与视口（或根元素）的交叉区域的信息</li>
 <li><code>intersectionRatio</code>：目标元素的可见比例，即 intersectionRect 占 boundingClientRect 的比例，完全可见时为 1，完全不可见时小于等于 0</li>
 </ul>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/observer/intersection-observer-viewport.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;clientX/clientY&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{800}</span> /&gt;</span></span>;
-</code></pre>
-<h2>应用</h2>
+<img alt="clientX/clientY" src="../../assets/observer/intersection-observer-viewport.png" width="800" /><h2>应用</h2>
 <h3>惰性加载</h3>
 <p>静态资源当用户向下滚动时，进入视口才加载，这样可以节省带宽，提高网页性能。这就叫做 <strong>惰性加载</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">query</span>(<span class="hljs-params">selector</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">query</span>(<span class="hljs-params">selector</span>) {
   <span class="hljs-keyword">return</span> <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(selector));
 }
 
@@ -102,7 +98,7 @@ io.<span class="hljs-title function_">observe</span>(elementB);
 </code></pre>
 <p>上述代码，当目标区域可见时，才会将模版内容给你插入真实 DOM，从而引发静态资源的加载。</p>
 <h3>无限滚动</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> io = <span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> {
   <span class="hljs-comment">// 如果不可见，就返回</span>
   <span class="hljs-keyword">if</span> (entries[<span class="hljs-number">0</span>].<span class="hljs-property">intersectionRatio</span> &lt;= <span class="hljs-number">0</span>) <span class="hljs-keyword">return</span>;
 
@@ -119,7 +115,7 @@ intersectionObserver.<span class="hljs-title function_">observe</span>(<span cla
 <p>IntersectionObserver 构造函数的第二个参数是个配置对象，它可以设置以下属性。</p>
 <h3>threshold 属性</h3>
 <p><code>threshold</code> 属性决定了什么时候出发回调函数。它是一个数组，每个成员都是一个门槛值，默认为 <code>[0]</code>，即交叉比例（<code>intersectionRatio</code>）达到 0 时触发回调函数。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> {}, {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">new</span> <span class="hljs-title class_">IntersectionObserver</span>(<span class="hljs-function"><span class="hljs-params">entries</span> =&gt;</span> {}, {
   <span class="hljs-attr">threshold</span>: [<span class="hljs-number">0</span>, <span class="hljs-number">0.25</span>, <span class="hljs-number">0.5</span>, <span class="hljs-number">0.75</span>, <span class="hljs-number">1</span>],
 });
 </code></pre>
@@ -127,7 +123,7 @@ intersectionObserver.<span class="hljs-title function_">observe</span>(<span cla
 <h3>root 和 rootMargin 属性</h3>
 <p>很多时候，目标元素不仅会随着窗口滚动，还会在容器里面滚动（比如在 iframe 窗口里滚动）。容器内滚动也会影响目标元素的可见性，参见本文开始时的那张示意图。</p>
 <p>IntersectionObserver API 支持容器内滚动。<code>root</code> 属性指定目标元素所在的容器节点（即根元素）。注意，容器元素必须是目标元素的祖先节点。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> opts = {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> opts = {
   <span class="hljs-attr">root</span>: <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.container&#x27;</span>),
   <span class="hljs-attr">rootMargin</span>: <span class="hljs-string">&#x27;500px 0px&#x27;</span>,
 };

@@ -7,55 +7,56 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","document-object-model","dynamic-collection","dom-token-list"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/dynamic-collection/dom-token-list","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/dynamic-collection/dom-token-list","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Rhxqp8ojFOabT6dl0kZmH",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:Tfd9,<h1>DOMTokenList</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","document-object-model","dynamic-collection","dom-token-list"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","document-object-model/dynamic-collection/dom-token-list","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","document-object-model/dynamic-collection/dom-token-list","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","3MHjPrR1XWj9vI19djB8j",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T105d,<h1>DOMTokenList</h1>
 <p>DOMTokenList 接口表示一组空格分隔的标记（tokens）。如由 Element.classList、HTMLLinkElement.relList、HTMLAnchorElement.relList 或 HTMLAreaElement.relList 返回的一组值。它和 JavaScript Array 对象一样，索引从 0 开始。DOMTokenList 总是区分大小写（case-sensitive）。</p>
 <h2>接口方法</h2>
 <h3>item</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">item</span>(index);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">item</span>(index);
 </code></pre>
 <p>根据传入的索引值返回一个值，如果索引值大于等于符号列表的长度（length），则返回 undefined 或 null，在 Gecko 7.0 之前的版本中返回 null。</p>
 <h3>contains</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">contains</span>(token);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">contains</span>(token);
 </code></pre>
 <p>如果 DOMTokenList 列表中包括相应的字符串 token，则返回 true，否则返回 false。</p>
 <h3>add</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">add</span>(token1 [, token2 [, ...tokenN]]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">add</span>(token1 [, token2 [, ...tokenN]]);
 </code></pre>
 <p>添加一个或多个标记（token）到 DOMTokenList 列表中。</p>
 <h3>remove</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">remove</span>(token1 [, token2 [, ...tokenN]]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">remove</span>(token1 [, token2 [, ...tokenN]]);
 </code></pre>
 <p>从 DOMTokenList 列表中移除一个或多个标记（token）。</p>
 <h3>replace</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">replace</span>(oldToken, newToken);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">replace</span>(oldToken, newToken);
 </code></pre>
 <p>使用 <code>newToken</code> 替换 <code>token</code>。</p>
 <h3>supports</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">supports</span>(token);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">supports</span>(token);
 </code></pre>
 <p>如果传入的 token 是相关属性（attribute）支持的标记，则返回 true 。</p>
 <h3>toggle</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">toggle</span>(token [, force]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">toggle</span>(token [, force]);
 </code></pre>
 <p>从 DOMTokenList 字符串中移除标记字串（token），并返回 <code>false</code>。如果传入的字串（token）不存在，则将其添加进去，并返回 <code>true</code>。<code>force</code> 是一个可选的布尔值，如果传入 <code>true</code>，且传入的 <code>token</code> 不存在，则将其添加进去并返回 <code>true</code>，若传入的 <code>token</code> 存在，则直接返回 <code>true</code>；反之，如果传入 <code>false</code>，则移除存在的 <code>token</code>，并返回 <code>false</code>，如 <code>token</code> 不存在则直接返回 <code>false</code>。</p>
 <h3>entries</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">entries</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">entries</span>();
 </code></pre>
 <p>返回一个迭代器（iterator） ，以遍历这个对象中的所有键值对。</p>
 <h3>forEach</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">forEach</span>(callback [, thisArg]);
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">forEach</span>(callback [, thisArg]);
 </code></pre>
 <p>为每个 DOMTokenList 中的元素都调用一次传入的 callback 函数 。</p>
 <h3>keys</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">keys</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">keys</span>();
 </code></pre>
 <p>返回一个迭代器（iterator）以遍历这个对象中所有键值对的键。</p>
 <h3>values</h3>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">values</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">DOMTokenList</span>.<span class="hljs-title function_">values</span>();
 </code></pre>
 <p>返回一个迭代器（iterator）以遍历这个对象中所有键值对的值。</p>
 4:["$","div",null,{"className":"markdown-body","children":["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]}]

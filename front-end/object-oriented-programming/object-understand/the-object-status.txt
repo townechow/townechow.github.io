@@ -7,11 +7,12 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","object-oriented-programming","object-understand","the-object-status"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","odC9f6ofIcGlQBnotukfL",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T42be,<h1>对象状态</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","object-oriented-programming","object-understand","the-object-status"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","object-oriented-programming/object-understand/the-object-status","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YAX2vvgu6tmleW0ltBgI-",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T4372,<h1>对象状态</h1>
 <p>JavaScript 对象具有扩展、密封以及冻结三大特征。</p>
 <p>这些特征有相对应的方法：</p>
 <ul>
@@ -21,7 +22,7 @@ c:T42be,<h1>对象状态</h1>
 </ul>
 <h2>扩展特性</h2>
 <p>默认情况下，对象是可扩展的，可扩展的对象能够添加新的属性，对象的原型对象也可以被更改。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 foo.<span class="hljs-property">a</span> = <span class="hljs-number">1</span>;
 
@@ -31,7 +32,7 @@ foo.<span class="hljs-property">__proto__</span> = <span class="hljs-literal">nu
 <span class="hljs-comment">// { a: 1 }</span>
 </code></pre>
 <p>使用 <a href="/front-end/standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isExtensible">Object.isExtensible</a> 可以检测指定对象是否可扩展。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isExtensible</span>(foo));
 <span class="hljs-comment">// true</span>
@@ -43,7 +44,7 @@ foo.<span class="hljs-property">__proto__</span> = <span class="hljs-literal">nu
 <li>不能变更原型对象</li>
 </ul>
 <p>对象属性仍能删除，仍可为该对象原型添加属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">preventExtensions</span>(foo);
 
@@ -56,7 +57,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// {}</span>
 </code></pre>
 <p>使用 <a href="/front-end/standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/defineProperty">Object.defineProperty</a> 为不可扩展对象添加属性会抛出异常。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">a</span>: <span class="hljs-number">1</span>};
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">preventExtensions</span>(foo);
 
@@ -90,7 +91,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 <li>所有已有属性仍可以被修改 <code>writable: true</code></li>
 </ul>
 <p>密封对象无法添加新属性，也无法删除已有属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
 
 <span class="hljs-comment">// 无法删除属性</span>
 <span class="hljs-keyword">delete</span> foo.<span class="hljs-property">a</span>;
@@ -103,7 +104,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// undefined</span>
 </code></pre>
 <p>尝试删除一个密封对象的属性或者将某个密封对象的属性从数据属性转换成访问器属性，结果会静默失败或抛出 TypeError。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 无法将数据属性重新定义为访问器属性</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 无法将数据属性重新定义为访问器属性</span>
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;c&#x27;</span>, {
 	<span class="hljs-attr">get</span>: <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>){ <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;c&#x27;</span> }
 });
@@ -115,7 +116,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 <span class="hljs-comment">// Uncaught TypeError: Cannot define property c, object is not extensible</span>
 </code></pre>
 <p>对象密封前已有属性在密封后仍可以被修改。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-title class_">Object</span>.<span class="hljs-title function_">defineProperty</span>(foo, <span class="hljs-string">&#x27;a&#x27;</span>, {
   <span class="hljs-attr">value</span>: <span class="hljs-number">2</span>
 });
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(foo.<span class="hljs-property">a</span>);
@@ -127,13 +128,13 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 <li>如果该对象不是空对象，则它不会变成密封对象，因为密封对象的所有自身属性必须是不可配置的</li>
 <li>如果把对象所有自身属性变为不可配置，则这个对象是密封对象</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({});
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({});
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isSealed</span>(foo));
 <span class="hljs-comment">// true</span>
 </code></pre>
 <p>使用 <a href="/front-end/standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isSealed">Object.isSealed</a> 可以检测指定对象是否已密封。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = {};
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = {};
 <span class="hljs-keyword">const</span> bar = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">seal</span>({});
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isSealed</span>(foo));
@@ -161,7 +162,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>;
 </ul>
 <p>这也意味着，冻结对象永远不可变。</p>
 <p>冻结对象不能添加新的属性。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> })
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> })
 
 foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>
 
@@ -174,7 +175,7 @@ foo.<span class="hljs-property">b</span> = <span class="hljs-number">1</span>
 <span class="hljs-comment">// Uncaught TypeError: Cannot define property c, object is not extensible</span>
 </code></pre>
 <p>冻结对象不能设置原型对象。下面两个语句都会抛出 TypeError 错误。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({ <span class="hljs-attr">a</span>: <span class="hljs-number">1</span> });
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">setPrototypeOf</span>(foo, { <span class="hljs-attr">x</span>: <span class="hljs-number">20</span> });
 <span class="hljs-comment">// Uncaught TypeError: #&lt;Object&gt; is not extensible</span>
@@ -183,7 +184,7 @@ foo.<span class="hljs-property">__proto__</span> = { <span class="hljs-attr">x</
 <span class="hljs-comment">// Uncaught TypeError: #&lt;Object&gt; is not extensible</span>
 </code></pre>
 <p>如果一个属性的值是个对象，则这个对象中的属性是可以修改的，除非它也是个冻结对象。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">bar</span>: {} };
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = { <span class="hljs-attr">bar</span>: {} };
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>(foo);
 
@@ -193,7 +194,7 @@ foo.<span class="hljs-property">bar</span>.<span class="hljs-property">a</span> 
 <span class="hljs-comment">// 1</span>
 </code></pre>
 <p>数组作为一种对象，被冻结，其元素不能被修改。没有数组元素可以被添加或移除。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = [<span class="hljs-number">0</span>];
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = [<span class="hljs-number">0</span>];
 
 <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>(foo);
 
@@ -204,13 +205,13 @@ a.<span class="hljs-title function_">push</span>(<span class="hljs-number">2</sp
 <span class="hljs-comment">// [0]</span>
 </code></pre>
 <p>使用 <a href="/front-end/standard-built-in-objects/fundamental-objects/object-objects/properties-of-the-object-constructor/isFrozen">Object.isFrozen</a> 可以检测指定对象是否已冻结。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({})
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> foo = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">freeze</span>({})
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Object</span>.<span class="hljs-title function_">isFrozen</span>(foo));
 <span class="hljs-comment">// true</span>
 </code></pre>
 <p>倘若一个对象的属性是一个对象，那么对这个外部对象进行冻结，内部对象的属性是依旧可以改变的，这就叫浅冻结，若把外部对象冻结的同时把其所有内部对象甚至是内部的内部无限延伸的对象属性也冻结了，这就叫深冻结。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-comment">// 深冻结函数.</span>
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-comment">// 深冻结函数.</span>
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">deepFreeze</span>(<span class="hljs-params">o</span>) {
 
   <span class="hljs-comment">// 取回定义在obj上的属性名</span>

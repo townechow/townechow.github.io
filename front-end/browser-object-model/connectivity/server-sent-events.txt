@@ -7,20 +7,16 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","browser-object-model","connectivity","server-sent-events"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/connectivity/server-sent-events","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/connectivity/server-sent-events","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-9d3A4pnny6efSfmZDSCu",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T3c3c,<h1>Server-sent Events</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","browser-object-model","connectivity","server-sent-events"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","browser-object-model/connectivity/server-sent-events","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","browser-object-model/connectivity/server-sent-events","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","xH-LpY2VDgNbfN2XeBKdU",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T39fc,<h1>Server-sent Events</h1>
 <p>服务器向浏览器推送消息，除了 WebSocket，还有一种方法：Sever-sent Events（以下简称 SSE）。</p>
 <p>W3C 关于 Server-Sent Events 部分的描述 <a href="https://www.w3.org/TR/eventsource/" target="_blank" rel="noopener noreferrer nofollow">W3C Server-Sent Events</a></p>
 <p>相比以往的轮询，SSE 可以为 B2C 带来更高的效率。</p>
-<pre class="hljs"><code class="language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;
-<span class="hljs-keyword">import</span> img <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;../../assets/server-sent-events/sever-sent-worker.png&#x27;</span>;
-
-<span class="hljs-keyword">export</span> <span class="hljs-title function_">default</span> () =&gt; <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;Server-sent Events&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{img}</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{720}</span> /&gt;</span></span>;
-</code></pre>
-<h2>本质</h2>
+<img alt="Server-sent Events" src="../../assets/server-sent-events/sever-sent-worker.png" width="720" /><h2>本质</h2>
 <p>严格来说，HTTP 协议无法让服务器向客户端主动推送消息。但是，有一种变通方法，就是服务器向客户端声明，接下来要发送的是流信息（Streaming）。</p>
 <p>也就是说，发送的不是一次性的数据包，而是一个数据流，会连续不断地发送过来。这时，客户端不会关闭连接，会一直等着服务器发过来的新的数据流，视频播放就是这样的例子。本质上，这种通信就是以流信息的方式，完成一次用时很长的下载。</p>
 <p>SSE 就是利用这种机制，使用流信息向浏览器推送信息。它基于 HTTP 协议，目前除了 IE/Edge，其他浏览器都支持。</p>
@@ -78,7 +74,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 </li>
 <li>连接一旦建立，就会触发 <code>open</code> 事件，可以在 <code>onopen</code> 属性定义回调函数。（连接事件源）</li>
 </ul>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">if</span> (<span class="hljs-string">&#x27;EventSource&#x27;</span> <span class="hljs-keyword">in</span> <span class="hljs-variable language_">window</span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">if</span> (<span class="hljs-string">&#x27;EventSource&#x27;</span> <span class="hljs-keyword">in</span> <span class="hljs-variable language_">window</span>) {
   <span class="hljs-keyword">const</span> source = <span class="hljs-keyword">new</span> <span class="hljs-title class_">EventSource</span>(url, { <span class="hljs-attr">withCredentials</span>: <span class="hljs-literal">true</span> });
 
   source.<span class="hljs-title function_">addEventListener</span>(
@@ -93,7 +89,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <ul>
 <li>客户端收到服务器发来的数据，就会触发 <code>message</code> 事件，可以在 <code>onmessage</code> 属性的回调函数。（接收事件）</li>
 </ul>
-<pre class="hljs"><code class="language-js">source.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>source.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;message&#x27;</span>,
   <span class="hljs-function"><span class="hljs-params">evnet</span> =&gt;</span> {
     <span class="hljs-keyword">const</span> data = event.<span class="hljs-property">data</span>;
@@ -106,7 +102,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <li>上述代码中，事件对象 <code>data</code> 属性就是服务器端传回的数据（文本格式）。</li>
 <li>如果发生通信错误（比如连接中断），就会触发 <code>error</code> 事件，可以在 <code>onerror</code> 属性定义回调函数。（错误处理）</li>
 </ul>
-<pre class="hljs"><code class="language-js">source.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>source.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;error&#x27;</span>,
   <span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
     <span class="hljs-comment">// handle error event</span>
@@ -117,11 +113,11 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <ul>
 <li><code>close()</code> 方法用于关闭 SSE 连接。（主动断开连接）</li>
 </ul>
-<pre class="hljs"><code class="language-js">source.<span class="hljs-title function_">close</span>();
+<pre class="hljs language-js"  style=--lang:"js" ><code>source.<span class="hljs-title function_">close</span>();
 </code></pre>
 <p><strong>自定义事件</strong></p>
 <p>默认情况下，服务器发来的数据，总是触发浏览器 <code>EventSource</code> 实例的 <code>message</code> 事件。开发者还可以自定义 SSE 事件，这种情况下，发送回来的数据不会触发 <code>message</code> 事件。</p>
-<pre class="hljs"><code class="language-js">source.<span class="hljs-title function_">addEventListener</span>(
+<pre class="hljs language-js"  style=--lang:"js" ><code>source.<span class="hljs-title function_">addEventListener</span>(
   <span class="hljs-string">&#x27;foo&#x27;</span>,
   <span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) {
     <span class="hljs-keyword">var</span> data = event.<span class="hljs-property">data</span>;
@@ -134,7 +130,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <h2>服务器实现</h2>
 <h2>数据格式</h2>
 <p>服务器高速客户端，返回的类型是事件流 <code>text/event-stream</code>。事件流仅仅是一个简单的文本数据流，文本应该使用 UTF-8 格式的编码。每条消息后面都由一个空行作为分隔符。以冒号开头的行为注释行，会被忽略。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">Content-Type</span><span class="hljs-punctuation">: </span>text/event-stream
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">Content-Type</span><span class="hljs-punctuation">: </span>text/event-stream
 <span class="hljs-attribute">Cache-Control</span><span class="hljs-punctuation">: </span>no-cache
 <span class="hljs-attribute">Connection</span><span class="hljs-punctuation">: </span>keep-alive
 </code></pre>
@@ -144,7 +140,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <li>SSE 是一个一直打开的 TCP 连接，所以 Connection 为 Keep-alive</li>
 </ul>
 <p>每次发送的消息，由若干个 <code>message</code> 组成，每个 <code>message</code> 之间用 <code>\n\n</code> 分隔。每个 <code>message</code> 内部由若干行组成，每一行都是如下格式。</p>
-<pre class="hljs"><code class="language-http">[field]: value\n
+<pre class="hljs language-http"  style=--lang:"http" ><code>[field]: value\n
 </code></pre>
 <p><code>filed</code> 可能的类型包括：</p>
 <ul>
@@ -155,31 +151,31 @@ c:T3c3c,<h1>Server-sent Events</h1>
 <li>retry：表示该行用来声明浏览器在连接断开之后进行再次连接之前的等待时间。</li>
 </ul>
 <p>此外，还可以有冒号开头的行，表示注释。通常，服务器每隔一段时间就会向浏览器发送一个注释，保持连接不中断。</p>
-<pre class="hljs"><code class="language-http">: This is a comment
+<pre class="hljs language-http"  style=--lang:"http" ><code>: This is a comment
 </code></pre>
 <h2>data 字段</h2>
 <p>数据内容由 <code>data</code> 字段表示。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>message\n\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>message\n\n
 </code></pre>
 <p>如果数据很长，可以分成多行，最后一行以 <code>\n\n</code> 结尾，前面行都用 <code>\n</code> 结尾。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>begin message\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>begin message\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>continue message\n\n
 </code></pre>
 <p>下面是一个发送 JSON 数据的例子。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>{\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>{\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>&quot;foo&quot;: &quot;bar&quot;,\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>&quot;baz&quot;: &#x27;123&#x27;,\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>}\n\n
 </code></pre>
 <h2>id 字段</h2>
 <p>数据标识符用 <code>id</code> 字段表示，相当于每一条数据的编号。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">id</span><span class="hljs-punctuation">: </span>msg1\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">id</span><span class="hljs-punctuation">: </span>msg1\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>message\n\n
 </code></pre>
 <p>浏览器用 <code>lastEventId</code> 属性读取这个值。一旦连接断线，浏览器会发送一个 HTTP 头，里面包含一个特殊的 <code>Last-Event-ID</code> 头信息，将这个值发送回来，用来帮助服务器端重建连接。因此，这个头信息可以被视为一种同步机制。</p>
 <h2>event 字段</h2>
 <p><code>event</code> 字段表示自定义的事件类型，默认是 <code>message</code> 事件。浏览器可以用 <code>addEventListener()</code> 监听该事件。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">event</span><span class="hljs-punctuation">: </span>foo\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">event</span><span class="hljs-punctuation">: </span>foo\n
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>a foo event\n\n
 
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>an unnamed event\n\n
@@ -189,7 +185,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 </code></pre>
 <p>上面的代码创造了三条信息。第一条的名字是 <code>foo</code>，触发浏览器的 <code>foo</code> 事件；第二条未取名，表示默认类型，触发浏览器的 <code>message</code> 事件；第三条是 <code>bar</code>，触发浏览器的 <code>bar</code> 事件。</p>
 <p>下面是另一个例子。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">event</span><span class="hljs-punctuation">: </span>userconnect
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">event</span><span class="hljs-punctuation">: </span>userconnect
 <span class="hljs-attribute">data</span><span class="hljs-punctuation">: </span>{&quot;username&quot;: &quot;bobby&quot;, &quot;time&quot;: &quot;02:33:48&quot;}
 
 <span class="hljs-attribute">event</span><span class="hljs-punctuation">: </span>usermessage
@@ -203,7 +199,7 @@ c:T3c3c,<h1>Server-sent Events</h1>
 </code></pre>
 <h2>retry 字段</h2>
 <p>服务器可以用 <code>retry</code> 字段，指定浏览器重新发起连接的时间间隔。</p>
-<pre class="hljs"><code class="language-http"><span class="hljs-attribute">retry</span><span class="hljs-punctuation">: </span>10000\n
+<pre class="hljs language-http"  style=--lang:"http" ><code><span class="hljs-attribute">retry</span><span class="hljs-punctuation">: </span>10000\n
 </code></pre>
 <p>两种情况会导致浏览器重新发起连接：一种是时间间隔到期，二是由于网络错误等原因，导致连接出错。</p>
 <hr>

@@ -7,13 +7,14 @@
 b:I[4835,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/d4dd73d504c89c58.css","style"]
+:HL["/_next/static/css/d498c84e4ab246b3.css","style"]
 :HL["/_next/static/css/485ff6fe79292a08.css","style"]
-:HL["/_next/static/css/0ff121a467c0636f.css","style"]
-0:{"P":null,"b":"1zJy3VHENUSg9vzcRvJ6P","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","generator","prototype","throw"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/prototype/throw","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d4dd73d504c89c58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0ff121a467c0636f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/prototype/throw","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","IhnI6N5gdAWwfOAxtH_gY",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
-c:T4932,<h1>Generator.prototype.throw</h1>
+:HL["/_next/static/css/b9d97b2190475167.css","style"]
+:HL["/_next/static/css/851cdee6d90716dd.css","style"]
+0:{"P":null,"b":"NFjmtHF2up8B2PpbDjLiS","p":"","c":["","front-end","standard-built-in-objects","control-abstraction-objects","generator","prototype","throw"],"i":false,"f":[[["",{"children":["front-end",{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/prototype/throw","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d498c84e4ab246b3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/485ff6fe79292a08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/b9d97b2190475167.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["front-end",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/851cdee6d90716dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","standard-built-in-objects/control-abstraction-objects/generator/prototype/throw","oc"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","front-end","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":"$L6"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","yDL4LrxHEoLz29REjXhT-",{"children":[["$","$L7",null,{"children":"$L8"}],["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$b","$undefined"],"s":false,"S":true}
+c:T49aa,<h1>Generator.prototype.throw</h1>
 <p>Generator 函数返回的遍历器对象，都有一个 <code>throw</code> 方法，可以在<strong>函数体外抛出错误</strong>，然后在 Generator <strong>函数体内捕获</strong>。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> geratorgenerator = <span class="hljs-keyword">function</span>* () {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> geratorgenerator = <span class="hljs-keyword">function</span>* () {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">yield</span>;
   } <span class="hljs-keyword">catch</span> (e) {
@@ -45,7 +46,7 @@ iterator.<span class="hljs-title function_">next</span>();
 </ul>
 <h2>可接收参数</h2>
 <p>💡 <code>throw</code> 方法可以接受一个参数，该参数会被 <code>catch</code> 语句接收，建议抛出 <code>Error</code> 对象的实例。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">yield</span>;
   } <span class="hljs-keyword">catch</span> (e) {
@@ -62,7 +63,7 @@ iterator.<span class="hljs-keyword">throw</span>(<span class="hljs-keyword">new<
 </code></pre>
 <p>⚠️ <strong>注意</strong>：不要混淆遍历器对象的 <code>throw</code> 方法和全局的 <code>throw</code> 命令。</p>
 <p>上面代码的错误，是用遍历器对象的 <code>throw</code> 方法抛出的，而不是用 <a href="/front-end/basic-concept/statements-and-declarations/the-throw-statement">throw</a> 命令抛出的。后者只能被函数体外的 <code>catch</code> 语句捕获。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
   <span class="hljs-keyword">while</span> (<span class="hljs-literal">true</span>) {
     <span class="hljs-keyword">try</span> {
       <span class="hljs-keyword">yield</span>;
@@ -89,7 +90,7 @@ iterator.<span class="hljs-title function_">next</span>();
 <p>上面代码之所以只捕获了 <code>a</code>，是因为函数体外的 <code>catch</code> 语句块，捕获了抛出的 <code>a</code> 错误以后，就不会再继续 <code>try</code> 代码块里面剩余的语句了。</p>
 <h2>外部捕获</h2>
 <p>如果 Generator 函数内部没有部署 <code>try...catch</code> 代码块，那么 <code>throw</code> 方法抛出的错误，将被外部 <code>try...catch</code> 代码块捕获。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">function</span>* () {
   <span class="hljs-keyword">while</span> (<span class="hljs-literal">true</span>) {
     <span class="hljs-keyword">yield</span>;
     <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;内部捕获&#x27;</span>, e);
@@ -110,7 +111,7 @@ iterator.<span class="hljs-title function_">next</span>();
 <p>上面代码中，Generator 函数 <code>gerator</code> 内部没有部署 <code>try...catch</code> 代码块，所以抛出的错误直接被外部 <code>catch</code> 代码块捕获。</p>
 <h2>中断执行</h2>
 <p>如果 Generator 函数内部和外部，都没有部署 <code>try...catch</code> 代码块，那么程序将报错，直接中断执行。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Hello&#x27;</span>);
   <span class="hljs-keyword">yield</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;World&#x27;</span>);
 };
@@ -126,7 +127,7 @@ generator.<span class="hljs-keyword">throw</span>();
 <p>上面代码中，<code>generator.throw</code> 抛出错误以后，没有任何 <code>try...catch</code> 代码块可以捕获这个错误，导致程序报错，中断执行。</p>
 <h2>内部捕获的前提条件</h2>
 <p><code>throw</code> 方法抛出的错误要被内部捕获，前提是必须至少执行过一次 <code>next</code> 方法。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
   } <span class="hljs-keyword">catch</span> (e) {
@@ -142,7 +143,7 @@ generator.<span class="hljs-keyword">throw</span>(<span class="hljs-number">1</s
 <p>上面代码中，<code>generator.throw(1)</code> 执行时，<code>next</code> 方法一次都没有执行过。这时，抛出的错误不会被内部捕获，而是直接在外部抛出，导致程序出错。这种行为其实很好理解，因为第一次执行 <code>next</code> 方法，等同于启动执行 Generator 函数的内部代码，否则 Generator 函数还没有开始执行，这时 <code>throw</code> 方法抛错只可能抛出在函数外部。</p>
 <h2>附带执行</h2>
 <p><code>throw</code> 方法被捕获以后，会附带执行下一条 <code>yield</code> 表达式。也就是说，会附带执行一次 <code>next</code> 方法。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">yield</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;a&#x27;</span>);
   } <span class="hljs-keyword">catch</span> (e) {
@@ -161,7 +162,7 @@ generator.<span class="hljs-title function_">next</span>(); <span class="hljs-co
 <p>上面代码中，<code>generator.throw</code> 方法被捕获以后，自动执行了一次 <code>next</code> 方法，所以会打印 <code>b</code>。另外，也可以看到，只要 Generator 函数内部部署了 <code>try...catch</code> 代码块，那么遍历器的 <code>throw</code> 方法抛出的错误，不影响下一次遍历。</p>
 <h2>独立状态</h2>
 <p>另外，<code>throw</code> 命令与 <code>generator.throw</code> 方法是无关的，两者互不影响。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">const</span> gen = <span class="hljs-keyword">function</span>* <span class="hljs-title function_">gen</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;hello&#x27;</span>);
   <span class="hljs-keyword">yield</span> <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;world&#x27;</span>);
 };
@@ -184,7 +185,7 @@ gerator.<span class="hljs-title function_">next</span>();
 <p>这种函数体内捕获错误的机制，大大方便了对错误的处理。多个 <code>yield</code> 表达式，可以只用一个 <code>try...catch</code> 代码块来捕获错误。如果使用回调函数的写法，想要捕获多个错误，就不得不为每个函数内部写一个错误处理语句，现在只在 Generator 函数内部写一次 <code>catch</code> 语句就可以了。</p>
 <p>Generator 函数体外抛出的错误，可以在函数体内捕获；反过来，Generator 函数体内抛出的错误，也可以被函数体外的 <code>catch</code> 捕获。</p>
 <p>🌰 <strong>代码示例</strong>：</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">foo</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">var</span> x = <span class="hljs-keyword">yield</span> <span class="hljs-number">3</span>;
   <span class="hljs-keyword">var</span> y = x.<span class="hljs-title function_">toUpperCase</span>();
   <span class="hljs-keyword">yield</span> y;
@@ -202,7 +203,7 @@ it.<span class="hljs-title function_">next</span>(); <span class="hljs-comment">
 </code></pre>
 <p>上面代码中，第二个 <code>next</code> 方法向函数体内传入一个参数 42，数值是没有 <code>toUpperCase</code> 方法的，所以会抛出一个 TypeError 错误，被函数体外的 <code>catch</code> 捕获。</p>
 <p>一旦 Generator 执行过程中抛出错误，且没有被内部捕获，就不会再执行下去了。如果此后还调用 <code>next</code> 方法，将返回一个 <code>value</code> 属性等于 <code>undefined</code>、<code>done</code> 属性等于 <code>true</code> 的对象，即 JavaScript 引擎认为这个 Generator 已经运行结束了。</p>
-<pre class="hljs"><code class="language-js"><span class="hljs-keyword">function</span>* <span class="hljs-title function_">g</span>(<span class="hljs-params"></span>) {
+<pre class="hljs language-js"  style=--lang:"js" ><code><span class="hljs-keyword">function</span>* <span class="hljs-title function_">g</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">yield</span> <span class="hljs-number">1</span>;
   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;throwing an exception&#x27;</span>);
   <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>(<span class="hljs-string">&#x27;generator broke!&#x27;</span>);
