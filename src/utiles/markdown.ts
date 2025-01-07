@@ -17,21 +17,23 @@ export const md2html = (mdContent: string, filePath: string) => {
     .use((mdInstance) => imgPlug(mdInstance, filePath))
     // @ts-expect-error no type
     .use((mdInstance) => LinkPlug(mdInstance, filePath))
+    // @ts-expect-error no type
+    .use((mdInstance) =>markdownItImageExtractor(mdInstance, filePath))
   return md.render(mdContent);
 };
 
 // @ts-expect-error no type
-const highlight = (code, language, md) => {
+const highlight = (code, language, mdInstance) => {
   if (language && hljs.getLanguage(language)) {
     try {
       // 使用 highlight.js 高亮代码
-      return `<pre class="hljs"><code class="language-${language}">${hljs.highlight(code, { language }).value}</code></pre>`;
+      return `<pre class="hljs language-${language}"  style=--lang:"${language}" ><code>${hljs.highlight(code, { language }).value}</code></pre>`;
     } catch (err) {
       window.console.error(`highlight: ${err}`)
     }
   }
   // 如果没有指定语言或语言不支持，默认处理
-  return `<pre class="hljs"><code>${md.utils.escapeHtml(code)}</code></pre>`;
+  return `<pre class="hljs"><code>${mdInstance.utils.escapeHtml(code)}</code></pre>`;
 }
 const imgPlug = (mdInstance: object, filePath: string) => {
   // @ts-expect-error no type
@@ -147,3 +149,72 @@ export const getAllMdFile = (dirPath: string, fileArray: string[] = []) => {
 
   return fileArray;
 }
+
+
+/**
+* ```jsx | inline
+* import React from 'react';
+* import img from '../../assets/computer-network/iso.gif';
+* export default () => <img alt="计算机网络体系" src={img} width={800} />;
+```
+==> <img alt="计算机网络体系" src={img} width={800} />
+ */
+/**
+ * @desc 转换xmd语法中的图片
+ */
+// @ts-expect-error no type
+const markdownItImageExtractor = (mdInstance) => {
+  // @ts-expect-error no type
+  const defaultRender = mdInstance.renderer.rules.fence || function (tokens, idx, options, env, self) {
+    return self.renderToken(tokens, idx, options);
+  };
+  // 提取 import 语句中的 img 路径
+  // @ts-expect-error no type
+  const extractImgPath = (content) => {
+    const importRegex = /import\s+(\w+)\s+from\s+['"]([^'"]+)['"];/g;
+    let imgPath = '';
+    const importMatches = [...content.matchAll(importRegex)];
+    importMatches.forEach((match) => {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const [_fullMatch, variable, path] = match;
+      if (variable === 'img') {
+        imgPath = path;
+      }
+    });
+    return imgPath;
+  };
+
+  // 提取 img 标签中的 alt、src 和 width 属性
+  // @ts-expect-error no type
+  const extractImgTagDetails = (content) => {
+    const imgTagRegex = /<img\s+alt=["']([^"']+)["']\s+src={\s*\w+\s*}.*?\s*width={\s*([^}]+)\s*}.*?\/>/g;
+    const imgTagMatch = content.match(imgTagRegex);
+
+    if (imgTagMatch) {
+      const altText = (imgTagMatch[0].match(/alt=["']([^"']+)["']/) || [])[1] || 'default-alt';
+      const widthValue = (imgTagMatch[0].match(/width={\s*([^}]+)\s*}/) || [])[1] || 'auto';
+      return { altText, widthValue };
+    }
+    return null;
+  };
+  // @ts-expect-error no type
+  mdInstance.renderer.rules.fence = function (tokens, idx, options, env, self) {
+    const token = tokens[idx];
+    // 只处理语言是 jsx 的代码块
+    if (token.info?.includes("jsx")) {
+      const content = token.content;
+      
+      const imgPath = extractImgPath(content);
+      const imgDetails = extractImgTagDetails(content);
+
+      if (imgPath && imgDetails) {
+        const { altText, widthValue } = imgDetails;
+        const imgTag = `<img alt="${altText}" src="${imgPath}" width="${widthValue}" />`;
+        return token.info?.includes("inline") ? imgTag : `<p>${imgTag}</p>`;
+      }
+    }
+
+    // 默认渲染
+    return defaultRender(tokens, idx, options, env, self);
+  };
+};

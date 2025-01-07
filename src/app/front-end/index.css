@@ -1,20 +1,5 @@
-/* 引入 GitHub Markdown 样式 */
-@import 'github-markdown-css';
 
-/* 高亮代码块的样式 */
-@import 'highlight.js/styles/github.css';
-
-/* 优化容器样式，模拟 GitHub 的显示效果 */
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 45px;
+.st{
+  font-size: 1em;
 }
 
-@media (max-width: 767px) {
-  .markdown-body {
-    padding: 15px;
-  }
-}
