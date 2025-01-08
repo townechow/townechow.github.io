@@ -19,7 +19,7 @@ features:
     emoji: 🚀
     description: 体系化整理，随时查阅具体技术细节，方便前端开发者日常开发
 ---
-- # 前端知识模块
+- ## 前端基础知识模块
   - [基本概念](./basic-concept/index)
   - [标准内置对象](./standard-built-in-objects/index)
   - [核心模块](./core-modules/index)
@@ -28,3 +28,8 @@ features:
   - [计算机网络](./computer-networks/index)
   - [设计模式](./design-patterns/index)
   - [面向对象编程](./object-oriented-programming/index)
+
+- ## 前端主流开发框架/工具库
+  - [React](https://react.dev/)
+  - [Vue](https://vuejs.org/)
+  - [Nextjs](https://nextjs.org/)
