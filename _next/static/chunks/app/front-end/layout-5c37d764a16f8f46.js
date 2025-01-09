@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[973],{9563:(e,_,n)=>{Promise.resolve().then(n.t.bind(n,7527,23)),Promise.resolve().then(n.t.bind(n,9725,23))},7527:e=>{e.exports={main:"front-end_main__QEFaG"}},9725:e=>{e.exports={aside:"DirectoryMenu_aside__g_arJ",menu:"DirectoryMenu_menu__wBwKb"}}},e=>{var _=_=>e(e.s=_);e.O(0,[607,441,517,358],()=>_(9563)),_N_E=e.O()}]);
