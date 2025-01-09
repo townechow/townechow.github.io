@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import { getDirectoryTree } from "@/utiles";
 import path from "path"
 
-import DirMunu from "@/components/DirectoryMenu"
+import DirMenu from "@/components/DirectoryMenu"
 const CONTENT_DIR = "/public/front-end"
 const CONTENT_PATH = path.join(process.cwd(), CONTENT_DIR);
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     const tree = getDirectoryTree(CONTENT_PATH);
     return (
         <main className={styles.main}>
-            <DirMunu tree={tree} />
+            <DirMenu tree={tree} />
             {children}
         </main>
     );

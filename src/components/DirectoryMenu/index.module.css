@@ -9,31 +9,45 @@
   padding-top: 80px;
   padding: 60px 12px 40px 12px;
 }
-
-.menu ul {
-  list-style: none;
-  padding-left: 20px;
+/* .menu 是整个菜单的样式 */
+.menu {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.menu a,
-.menu span {
-  text-decoration: none;
-  color: #333;
+/* 菜单项的样式 */
+.menuItem {
+  cursor: pointer;
   display: block;
-  padding: 5px 0;
-  transition: color 0.3s;
+  padding: 10px;
 }
 
-.menu a:hover {
-  color: #007BFF;
+.activity {
+  font-weight: bold;
 }
 
-.menu li {
-  margin-bottom: 5px;
-}
-
-/* 子菜单样式 */
-.menu ul ul {
-  margin-top: 5px;
+/* .subMenu 用于子菜单的样式 */
+.subMenu {
+  list-style-type: none;
   padding-left: 20px;
+  margin: 0;
+  height: 0; /* 初始状态下子菜单的高度为 0 */
+  overflow: hidden;
+  transition: height 0.3s ease-out; /* 使用 height 过渡 */
 }
+
+/* 展开时的子菜单 */
+.subMenu.show {
+  height: auto; /* 自动根据内容调整高度 */
+}
+
+/* 给子菜单项一些样式 */
+.subMenu li {
+  padding: 5px 0;
+}
+
+/* 在菜单项被点击展开时给其加上样式 */
+.expanded {
+  font-weight: bold;
+}
+

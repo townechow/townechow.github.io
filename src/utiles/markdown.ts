@@ -18,7 +18,7 @@ export const md2html = (mdContent: string, filePath: string) => {
     // @ts-expect-error no type
     .use((mdInstance) => LinkPlug(mdInstance, filePath))
     // @ts-expect-error no type
-    .use((mdInstance) =>markdownItImageExtractor(mdInstance, filePath))
+    .use((mdInstance) => markdownItImageExtractor(mdInstance, filePath))
   return md.render(mdContent);
 };
 
