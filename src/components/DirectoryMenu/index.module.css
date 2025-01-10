@@ -7,47 +7,43 @@
   width: 240px;
   flex-shrink: 0;
   padding-top: 80px;
-  padding: 60px 12px 40px 12px;
+  padding: 60px 16px 40px 16px;
+  border-right: 1px solid #d1d9e0b3;
+  line-height: 1;
 }
+
 /* .menu 是整个菜单的样式 */
 .menu {
   list-style-type: none;
   padding-left: 0;
 }
 
+.aside li {
+  padding: 6px 0;
+}
+
 /* 菜单项的样式 */
 .menuItem {
   cursor: pointer;
   display: block;
-  padding: 10px;
 }
 
-.activity {
+.activity>:not(ul) {
   font-weight: bold;
 }
 
-/* .subMenu 用于子菜单的样式 */
 .subMenu {
   list-style-type: none;
-  padding-left: 20px;
+  padding-left: 14px;
   margin: 0;
-  height: 0; /* 初始状态下子菜单的高度为 0 */
+  height: 0;
   overflow: hidden;
-  transition: height 0.3s ease-out; /* 使用 height 过渡 */
+  transition: height 0.4s ease-out;
 }
 
 /* 展开时的子菜单 */
 .subMenu.show {
-  height: auto; /* 自动根据内容调整高度 */
-}
-
-/* 给子菜单项一些样式 */
-.subMenu li {
-  padding: 5px 0;
-}
-
-/* 在菜单项被点击展开时给其加上样式 */
-.expanded {
-  font-weight: bold;
+  height: auto;
+  /* 自动根据内容调整高度 */
 }
 

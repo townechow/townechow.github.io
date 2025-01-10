@@ -1,7 +1,8 @@
 "use client"
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import styles from "./index.module.css"
 import { usePathname } from 'next/navigation';
+import Link from "next/link"
 
 interface DirectoryNode {
   name: string;
@@ -18,22 +19,6 @@ interface DirectoryMenuProps {
 const DirectoryMenu: React.FC<DirectoryMenuProps> = ({ tree, currentUri }) => {
   const [expandedPaths, setExpandedPaths] = useState<Set<string>>(new Set());
 
-  // 通过 useEffect 确保只在客户端访问 sessionStorage
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const storedState = sessionStorage.getItem('expandedPaths');
-      const storedSet = storedState ? new Set<string>(JSON.parse(storedState)) : new Set<string>();
-      setExpandedPaths(storedSet);
-    }
-  }, []); // 空依赖数组意味着仅在组件挂载后执行一次
-
-  // 更新 sessionStorage 中的展开状态
-  const updateSessionStorage = (newExpandedPaths: Set<string>) => {
-    if (typeof window !== "undefined") {
-      sessionStorage.setItem('expandedPaths', JSON.stringify(Array.from(newExpandedPaths)));
-    }
-  };
-
   const handleToggle = (path: string) => {
     setExpandedPaths(prev => {
       const newExpandedPaths = new Set(prev);
@@ -42,7 +27,6 @@ const DirectoryMenu: React.FC<DirectoryMenuProps> = ({ tree, currentUri }) => {
       } else {
         newExpandedPaths.add(path);
       }
-      updateSessionStorage(newExpandedPaths);
       return newExpandedPaths;
     });
   };
@@ -56,7 +40,7 @@ const DirectoryMenu: React.FC<DirectoryMenuProps> = ({ tree, currentUri }) => {
             onClick={() => handleToggle(node.path)}
             className={`${styles.menuItem} ${expandedPaths.has(node.path) ? styles.expanded : ""}`}
           >
-            {node.uri ? <a href={`/${node.uri}`}>{node.name}</a> : <span>{node.name}</span>}
+            {node.uri ? <Link href={`/${node.uri}`}>{node.name}</Link> : <span>{node.name}</span>}
           </span>
         </div>
         {/* 递归渲染子菜单 */}
