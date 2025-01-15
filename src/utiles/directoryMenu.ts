@@ -32,7 +32,7 @@ export function getDirectoryTree(dirPath: string, excludeDirs: string[] = ['asse
       tree.push({
         name: data?.title || item.name,
         path: fileContent ? indexFile : fullPath,
-        uri: fileContent ? indexFileRelativePath.replace('.md', '') : '',
+        uri: fileContent ? `/${indexFileRelativePath.replace('.md', '')}` : '',
         children: getDirectoryTree(fullPath),
       });
     } else if (item.isFile() && path.extname(item.name) === '.md' && item.name !== "index.md") {
@@ -41,7 +41,7 @@ export function getDirectoryTree(dirPath: string, excludeDirs: string[] = ['asse
       tree.push({
         name: data?.title || item.name.replace('.md', ''),
         path: fullPath,
-        uri: resourcesRelativePath.replace('.md', ''),
+        uri:`/${ resourcesRelativePath.replace('.md', '')}`,
         children: [],
       });
     }

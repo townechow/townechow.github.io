@@ -34,13 +34,14 @@ const DirectoryMenu: React.FC<DirectoryMenuProps> = ({ tree, currentUri }) => {
   // 渲染每个节点的函数，支持递归
   const renderNode = (node: DirectoryNode) => {
     return (
-      <li key={node.path} className={currentUri === `/${node.uri}` ? styles.activity : ""}>
+      <li key={node.path} className={currentUri === `${node.uri}` ? styles.activity : ""}>
         <div>
           <span
             onClick={() => handleToggle(node.path)}
             className={`${styles.menuItem} ${expandedPaths.has(node.path) ? styles.expanded : ""}`}
+            title={node.name}
           >
-            {node.uri ? <Link href={`/${node.uri}`}>{node.name}</Link> : <span>{node.name}</span>}
+            {node.uri ? <Link href={`${node.uri}`}>{node.name}</Link> : <span>{node.name}</span>}
           </span>
         </div>
         {/* 递归渲染子菜单 */}
@@ -66,10 +67,24 @@ const AsideMenu: React.FC<DirectoryMenuProps> = ({ tree }) => {
   const pathName = usePathname();
 
   return (
-    <aside className={styles.aside}>
+    <aside className={styles.aside} >
+
       <DirectoryMenu tree={tree} currentUri={pathName} />
     </aside>
   );
 };
 
 export default AsideMenu;
+
+export const ToggleBtn = () => {
+  return <div className={styles.toggle}>
+    <span style={{
+      cursor: "pointer",
+      userSelect: "none",
+      position: "relative",
+      zIndex: 10,
+      pointerEvents:"auto"
+    }}
+      onClick={() => { document.querySelector('aside')?.classList.toggle(styles.open) }}
+    >◀</span></div>
+}

@@ -3,6 +3,8 @@ import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { md2html, getMdFileContentByPath, getMdFileFullPathByUri, getAllMdFile } from "@/utiles";
 // import PageManu from "@/components/PageMenu"
+import  { ToggleBtn } from "@/components/DirectoryMenu"
+
 
 
 const CONTENT_DIR = "/public/front-end"
@@ -52,10 +54,11 @@ export default async function BlogPage({
 
   return (
     <>
-      <div className="markdown-body">
+      <div style={{position:"relative",flex:1}}>
         {/* <h1>{data.title}</h1> */}
-
+        <ToggleBtn />
         <article
+          className="markdown-body"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
       </div>
